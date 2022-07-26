@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Components/FIRCLSCrashedMarkerFile.c \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Components/FIRCLSCrashedMarkerFile.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/Build/Intermediates.noindex/ArchiveIntermediates/SharpsellCore/IntermediateBuildFilesPath/GeneratedModuleMaps-iphoneos/FirebaseCoreDiagnostics.modulemap \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/Build/Intermediates.noindex/ArchiveIntermediates/SharpsellCore/IntermediateBuildFilesPath/GeneratedModuleMaps-iphoneos/FirebaseCore.modulemap \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/Build/Intermediates.noindex/ArchiveIntermediates/SharpsellCore/IntermediateBuildFilesPath/GeneratedModuleMaps-iphoneos/FirebaseInstallations.modulemap \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/Build/Intermediates.noindex/ArchiveIntermediates/SharpsellCore/IntermediateBuildFilesPath/GeneratedModuleMaps-iphoneos/GoogleUtilities_UserDefaults.modulemap \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/Build/Intermediates.noindex/ArchiveIntermediates/SharpsellCore/IntermediateBuildFilesPath/GeneratedModuleMaps-iphoneos/GoogleUtilities_Environment.modulemap \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/Build/Intermediates.noindex/ArchiveIntermediates/SharpsellCore/IntermediateBuildFilesPath/GeneratedModuleMaps-iphoneos/GoogleUtilities_Logger.modulemap \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/Build/Intermediates.noindex/ArchiveIntermediates/SharpsellCore/IntermediateBuildFilesPath/GeneratedModuleMaps-iphoneos/nanopb.modulemap \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/Build/Intermediates.noindex/ArchiveIntermediates/SharpsellCore/IntermediateBuildFilesPath/GeneratedModuleMaps-iphoneos/GoogleDataTransport.modulemap \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Helpers/FIRCLSFile.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Helpers/FIRCLSUtility.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Components/FIRCLSGlobals.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Components/FIRCLSContext.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Components/FIRCLSBinaryImage.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Helpers/FIRCLSFeatures.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Helpers/FIRCLSDefines.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Shared/FIRCLSMachO/FIRCLSMachO.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/module.modulemap \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Components/FIRCLSHost.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Components/FIRCLSUserLogging.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Handlers/FIRCLSException.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Handlers/FIRCLSMachException.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Handlers/FIRCLSSignal.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Helpers/FIRCLSAllocate.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Helpers/FIRCLSInternalLogging.h

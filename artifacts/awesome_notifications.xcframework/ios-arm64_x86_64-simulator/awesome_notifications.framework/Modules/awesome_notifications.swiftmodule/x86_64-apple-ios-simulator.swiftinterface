@@ -1,0 +1,572 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name awesome_notifications
+import CommonCrypto/*.CC_LONG*/
+import CommonCrypto/*.CC_MD5*/
+import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
+import Flutter
+import Foundation
+import Swift
+import UIKit
+import UserNotifications
+import UserNotificationsUI
+import _Concurrency
+@_exported import awesome_notifications
+import os.log
+import os
+public protocol AbstractModel {
+  func fromMap(arguments: [Swift.String : Any?]?) -> awesome_notifications.AbstractModel?
+  func toMap() -> [Swift.String : Any?]
+  func validate() throws
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ActionReceived : awesome_notifications.NotificationReceived {
+  override public func fromMap(arguments: [Swift.String : Any?]?) -> awesome_notifications.AbstractModel
+  override public func toMap() -> [Swift.String : Any?]
+  override public func validate() throws
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 10.0, *)
+public class AudioUtils : awesome_notifications.MediaUtils {
+  public static func getSoundFromSource(SoundPath: Swift.String?) -> UserNotifications.UNNotificationSound?
+  public static func isValidSound(_ mediaPath: Swift.String?) -> Swift.Bool
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 10.0, *)
+@_Concurrency.MainActor(unsafe) open class AwesomeContentExtension : UIKit.UIViewController, UserNotificationsUI.UNNotificationContentExtension {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc public func didReceive(_ notification: UserNotifications.UNNotification)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 10.0, *)
+open class AwesomeServiceExtension : UserNotifications.UNNotificationServiceExtension {
+  @objc override dynamic public func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
+  @objc override dynamic public func serviceExtensionTimeWillExpire()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class BadgeManager {
+  public static func getGlobalBadgeCounter() -> Swift.Int
+  public static func setGlobalBadgeCounter(_ count: Swift.Int)
+  public static func resetGlobalBadgeCounter()
+  public static func incrementGlobalBadgeCounter() -> Swift.Int
+  public static func decrementGlobalBadgeCounter() -> Swift.Int
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class BitmapUtils : awesome_notifications.MediaUtils {
+  public static func getBitmapFromSource(bitmapPath: Swift.String?, roundedBitpmap: Swift.Bool) -> UIKit.UIImage?
+  public static func getBitmapFromUrl(_ bitmapUri: Swift.String) -> UIKit.UIImage?
+  public static func resizeImage(image: UIKit.UIImage, targetSize: CoreGraphics.CGSize) -> UIKit.UIImage?
+  public static func getBitmapFromFile(_ mediaPath: Swift.String) -> UIKit.UIImage?
+  public static func getBitmapFromAsset(_ mediaPath: Swift.String) -> UIKit.UIImage?
+  public static func getBitmapFromResource(_ mediaPath: Swift.String) -> UIKit.UIImage?
+  public static func roundUiImage(_ image: UIKit.UIImage) -> UIKit.UIImage?
+  public static func isValidBitmap(_ mediaPath: Swift.String?) -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class CancellationManager {
+  public static let TAG: Swift.String
+  public static func dismissNotification(id: Swift.Int) -> Swift.Bool
+  public static func dismissNotificationsByChannelKey(channelKey: Swift.String) -> Swift.Bool
+  public static func dismissNotificationsByGroupKey(groupKey: Swift.String) -> Swift.Bool
+  public static func dismissAllNotifications() -> Swift.Bool
+  public static func cancelSchedule(id: Swift.Int) -> Swift.Bool
+  public static func cancelSchedulesByChannelKey(channelKey: Swift.String) -> Swift.Bool
+  public static func cancelSchedulesByGroupKey(groupKey: Swift.String) -> Swift.Bool
+  public static func cancelAllSchedules() -> Swift.Bool
+  public static func cancelNotification(id: Swift.Int) -> Swift.Bool
+  public static func cancelNotificationsByChannelKey(channelKey: Swift.String) -> Swift.Bool
+  public static func cancelNotificationsByGroupKey(groupKey: Swift.String) -> Swift.Bool
+  public static func cancelAllNotifications() -> Swift.Bool
+  public static func _cancellAllNativeNotifications() -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ChannelManager {
+  public static func removeChannel(channelKey: Swift.String) -> Swift.Bool
+  public static func listChannels() -> [awesome_notifications.NotificationChannelModel]
+  public static func saveChannel(channel: awesome_notifications.NotificationChannelModel)
+  public static func getChannelByKey(channelKey: Swift.String) -> awesome_notifications.NotificationChannelModel?
+  public static func isNotificationChannelActive(channelKey: Swift.String) -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class CreatedManager {
+  public static func removeCreated(id: Swift.Int) -> Swift.Bool
+  public static func listCreated() -> [awesome_notifications.NotificationReceived]
+  public static func saveCreated(received: awesome_notifications.NotificationReceived)
+  public static func getCreatedByKey(id: Swift.Int) -> awesome_notifications.NotificationReceived?
+  public static func cancelAllCreated()
+  public static func cancelCreated(id: Swift.Int)
+  @objc deinit
+}
+public class CronExpression {
+  final public let timeZone: Foundation.TimeZone
+  public var isValidExpression: Swift.Bool
+  public enum CronError : Swift.Error {
+    case invalidExpression(msg: Swift.String)
+    case error(msg: Swift.String)
+  }
+  public enum CronComponent : Swift.Int, Swift.CaseIterable {
+    case second
+    case minute
+    case hour
+    case day
+    case month
+    case weekday
+    case year
+    public static var mostRelevant: awesome_notifications.CronExpression.CronComponent {
+      get
+    }
+    public static var lessRelevant: awesome_notifications.CronExpression.CronComponent {
+      get
+    }
+    public static var dateComponents: [awesome_notifications.CronExpression.CronComponent] {
+      get
+    }
+    public var bellowComponent: awesome_notifications.CronExpression.CronComponent? {
+      get
+    }
+    public var aboveComponent: awesome_notifications.CronExpression.CronComponent? {
+      get
+    }
+    public var respectiveCalendar: Foundation.Calendar.Component {
+      get
+    }
+    public init?(rawValue: Swift.Int)
+    public typealias AllCases = [awesome_notifications.CronExpression.CronComponent]
+    public typealias RawValue = Swift.Int
+    public static var allCases: [awesome_notifications.CronExpression.CronComponent] {
+      get
+    }
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum CronNotationType : Swift.String, Swift.CaseIterable {
+    case AnyOne
+    case List
+    case Range
+    case Interval
+    case WildCard
+    case Unknow
+    public init?(rawValue: Swift.String)
+    public typealias AllCases = [awesome_notifications.CronExpression.CronNotationType]
+    public typealias RawValue = Swift.String
+    public static var allCases: [awesome_notifications.CronExpression.CronNotationType] {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  convenience public init(_ cronExpression: Swift.String) throws
+  public init(_ cronExpression: Swift.String, fixedDate: Foundation.Date) throws
+  public static func validate(cronExpression: Swift.String) -> Swift.Bool
+  public func detectCronNotation(_ cronElement: Swift.String) -> awesome_notifications.CronExpression.CronNotationType
+  public func isValidDate(referenceDate: Foundation.Date) -> Swift.Bool
+  public func getNextValidDate(referenceDate: Foundation.Date?) -> Foundation.Date?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class CronUtils {
+  final public var fixedNowDate: Foundation.Date?
+  final public let validDateFormat: Swift.String
+  final public func getInitialCalendar() -> Foundation.Calendar
+  final public func getNextCalendar(initialDateTime: Swift.String?, crontabRule: Swift.String?) -> Foundation.Date?
+  final public func applyToleranceDate(_ initialScheduleDay: Foundation.Date) -> Foundation.Date
+  @objc deinit
+}
+extension Foundation.Date {
+  public static func localTimeZone() -> Foundation.TimeZone
+  public func getTime() -> Swift.Int64
+  public func toString(toTimeZone timeZone: Swift.String?) -> Swift.String?
+  public func getTimeZone() -> Foundation.TimeZone?
+  public func getLocalDate(fromTimeZone timeZone: Swift.String?) -> Foundation.Date
+}
+@_hasMissingDesignatedInitializers public class DisplayedManager {
+  public static func removeDisplayed(id: Swift.Int) -> Swift.Bool
+  public static func saveDisplayed(received: awesome_notifications.NotificationReceived)
+  public static func listDisplayed() -> [awesome_notifications.NotificationReceived]
+  public static func getDisplayedByKey(id: Swift.Int) -> awesome_notifications.NotificationReceived?
+  public static func updatePendingList()
+  public static func saveScheduledToDisplay(received: awesome_notifications.NotificationReceived)
+  public static func removeScheduledToDisplay(id: Swift.Int) -> Swift.Bool
+  public static func reloadLostSchedulesDisplayed(referenceDate: Foundation.Date)
+  public static func cancelAllDisplayed()
+  public static func cancelDisplayed(id: Swift.Int)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class JsonUtils {
+  public static func toJson(_ data: [Swift.String : Any?]?) -> Swift.String?
+  public static func fromJson(_ text: Swift.String?) -> [Swift.String : Any?]?
+  public static func fromJsonArr(_ text: Swift.String?) -> [Swift.Dictionary<Swift.String, Any>]?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class LifeCycleManager {
+  public static func getLifeCycle(referenceKey: Swift.String) -> awesome_notifications.NotificationLifeCycle
+  public static func setLifeCycle(referenceKey: Swift.String, lifeCycle: awesome_notifications.NotificationLifeCycle)
+  @objc deinit
+}
+public func MD5(_ input: Swift.String) -> Swift.String
+public enum MediaSource : Swift.String, Swift.CaseIterable {
+  case Resource
+  case Asset
+  case File
+  case Network
+  case Unknown
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [awesome_notifications.MediaSource]
+  public typealias RawValue = Swift.String
+  public static var allCases: [awesome_notifications.MediaSource] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class MediaUtils {
+  public static func getMediaSourceType(mediaPath: Swift.String?) -> awesome_notifications.MediaSource
+  public static func cleanMediaPath(mediaPath: Swift.String?) -> Swift.String?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @available(iOS 10.0, *)
+public class NotificationBuilder {
+  public static func jsonDataToNotificationModel(jsonData: [Swift.String : Any?]?) -> awesome_notifications.NotificationModel?
+  public static func jsonToNotificationModel(jsonData: Swift.String?) -> awesome_notifications.NotificationModel?
+  public static func buildNotificationFromJson(jsonData: Swift.String?) -> awesome_notifications.NotificationModel?
+  public static func buildNotificationActionFromJson(jsonData: Swift.String?, buttonKeyPressed: Swift.String?, userText: Swift.String?) -> awesome_notifications.ActionReceived?
+  public static func createNotification(_ notificationModel: awesome_notifications.NotificationModel, content: UserNotifications.UNMutableNotificationContent?) throws -> awesome_notifications.NotificationModel?
+  public static func setUserInfoContent(notificationModel: awesome_notifications.NotificationModel, content: UserNotifications.UNMutableNotificationContent)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NotificationButtonModel : awesome_notifications.AbstractModel {
+  public func fromMap(arguments: [Swift.String : Any?]?) -> awesome_notifications.AbstractModel?
+  public func toMap() -> [Swift.String : Any?]
+  public func validate() throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NotificationCalendarModel : awesome_notifications.NotificationScheduleModel {
+  public var createdDate: Swift.String? {
+    get
+    set(newValue)
+  }
+  public var timeZone: Swift.String? {
+    get
+    set(newValue)
+  }
+  public func fromMap(arguments: [Swift.String : Any?]?) -> awesome_notifications.AbstractModel?
+  public func toMap() -> [Swift.String : Any?]
+  public func validate() throws
+  public func toDateComponents() -> Foundation.DateComponents
+  public func getNextValidDate() -> Foundation.Date?
+  public func hasNextValidDate() -> Swift.Bool
+  public func getUNNotificationTrigger() -> UserNotifications.UNNotificationTrigger?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NotificationChannelModel : awesome_notifications.AbstractModel {
+  public func fromMap(arguments: [Swift.String : Any?]?) -> awesome_notifications.AbstractModel?
+  public func toMap() -> [Swift.String : Any?]
+  public func validate() throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NotificationContentModel : awesome_notifications.AbstractModel {
+  public func fromMap(arguments: [Swift.String : Any?]?) -> awesome_notifications.AbstractModel?
+  public func toMap() -> [Swift.String : Any?]
+  public func validate() throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NotificationIntervalModel : awesome_notifications.NotificationScheduleModel {
+  public var createdDate: Swift.String? {
+    get
+    set(newValue)
+  }
+  public var timeZone: Swift.String? {
+    get
+    set(newValue)
+  }
+  public func fromMap(arguments: [Swift.String : Any?]?) -> awesome_notifications.AbstractModel?
+  public func toMap() -> [Swift.String : Any?]
+  public func validate() throws
+  public func getUNNotificationTrigger() -> UserNotifications.UNNotificationTrigger?
+  public func getNextValidDate() -> Foundation.Date?
+  public func hasNextValidDate() -> Swift.Bool
+  @objc deinit
+}
+public enum NotificationLifeCycle : Swift.String, Swift.CaseIterable {
+  case Foreground
+  case Background
+  case AppKilled
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [awesome_notifications.NotificationLifeCycle]
+  public typealias RawValue = Swift.String
+  public static var allCases: [awesome_notifications.NotificationLifeCycle] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class NotificationModel : awesome_notifications.AbstractModel {
+  public func fromMap(arguments: [Swift.String : Any?]?) -> awesome_notifications.AbstractModel?
+  public func toMap() -> [Swift.String : Any?]
+  public func validate() throws
+  @objc deinit
+}
+public enum NotificationPermission : Swift.String, Swift.CaseIterable {
+  case Alert
+  case Sound
+  case Badge
+  case Vibration
+  case Light
+  case CriticalAlert
+  case OverrideDnD
+  case Provisional
+  case PreciseAlarms
+  case FullScreenIntent
+  case Car
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [awesome_notifications.NotificationPermission]
+  public typealias RawValue = Swift.String
+  public static var allCases: [awesome_notifications.NotificationPermission] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class NotificationReceived : awesome_notifications.NotificationContentModel {
+  @objc deinit
+}
+public protocol NotificationScheduleModel : awesome_notifications.AbstractModel {
+  var createdDate: Swift.String? { get set }
+  var timeZone: Swift.String? { get set }
+  func getUNNotificationTrigger() -> UserNotifications.UNNotificationTrigger?
+  func hasNextValidDate() -> Swift.Bool
+  func getNextValidDate() -> Foundation.Date?
+}
+@_hasMissingDesignatedInitializers public class PermissionManager {
+  public static func areNotificationsGloballyAllowed(permissionCompletion: @escaping (Swift.Bool) -> ())
+  public static func shouldShowRationale(_ permissions: [Swift.String], channelKey: Swift.String?, completion: @escaping ([Swift.String]) -> ())
+  public static func arePermissionsAllowed(_ permissions: [Swift.String], channelKey: Swift.String?, completion: @escaping ([Swift.String]) -> ())
+  public static func isSpecifiedPermissionGloballyAllowed(_ permission: Swift.String, channel: Swift.String?, completion: @escaping (Swift.Bool) -> ())
+  public static func isSpecifiedChannelPermissionAllowed(channelKey: Swift.String, permissionEnum: awesome_notifications.NotificationPermission) -> Swift.Bool
+  public static func requestUserPermissions(permissions: [Swift.String], channelKey: Swift.String?, permissionCompletion: @escaping ([Swift.String]) -> ()) throws
+  public static func updateChannelModelThroughPermissions(channelKey: Swift.String, permissions: [Swift.String])
+  public static func showNotificationConfigPage(completionHandler: @escaping () -> ())
+  public static func gotoNotificationConfigPage() -> Swift.Bool
+  public static func startTestedActivity(_ url: Swift.String) -> Swift.Bool
+  public static func handlePermissionResult()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ScheduleManager {
+  public static func removeSchedule(id: Swift.Int) -> Swift.Bool
+  public static func listSchedules() -> [awesome_notifications.NotificationModel]
+  public static func listPendingSchedules(referenceDate: Foundation.Date) -> [awesome_notifications.NotificationModel]
+  public static func saveSchedule(notification: awesome_notifications.NotificationModel, nextDate: Foundation.Date)
+  public static func updatePendingList()
+  public static func getEarliestDate() -> Foundation.Date?
+  public static func getScheduleByKey(id: Swift.Int) -> awesome_notifications.NotificationModel?
+  public static func isNotificationScheduleActive(channelKey: Swift.String) -> Swift.Bool
+  public static func cancelAllSchedules() -> Swift.Bool
+  public static func cancelScheduled(id: Swift.Int) -> Swift.Bool
+  @objc deinit
+}
+public class SharedManager {
+  public init(tag: Swift.String)
+  public func get(referenceKey: Swift.String) -> [Swift.String : Any?]?
+  public func set(_ data: [Swift.String : Any?]?, referenceKey: Swift.String)
+  public func remove(referenceKey: Swift.String) -> Swift.Bool
+  public func removeAll()
+  public func getAllObjects() -> [[Swift.String : Any?]]
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class StatusBarManager {
+  public static func dismissNotification(id: Swift.Int) -> Swift.Bool
+  public static func dismissNotificationsByChannelKey(channelKey: Swift.String) -> Swift.Bool
+  public static func dismissNotificationsByGroupKey(groupKey: Swift.String) -> Swift.Bool
+  public static func dismissAllNotifications() -> Swift.Bool
+  @objc deinit
+}
+extension Swift.String {
+  public func charAt(_ pos: Swift.Int) -> Swift.Character
+  public func index(from: Swift.Int) -> Swift.String.Index
+  public func indexOf(_ char: Swift.Character) -> Swift.Int?
+  public func substring(from: Swift.Int) -> Swift.String
+  public func substring(_ from: Swift.Int, _ until: Swift.Int) -> Swift.String?
+  public func indexOf(_ char: Swift.Character, offsetBy: Swift.Int) -> Swift.Int?
+  public var isDigits: Swift.Bool {
+    get
+  }
+  public var isLetters: Swift.Bool {
+    get
+  }
+  public var isAlphanumeric: Swift.Bool {
+    get
+  }
+  public func matches(_ regex: Swift.String) -> Swift.Bool
+  public func matchList(_ regex: Swift.String) -> [[Swift.String]]
+  public mutating func replaceRegex(_ pattern: Swift.String, replaceWith: Swift.String = "") -> Swift.Bool
+  public func withoutHtmlTags() -> Swift.String
+  public func htmlToRichText() -> Foundation.NSAttributedString?
+  public func toDate(_ format: Swift.String = "yyyy-MM-dd HH:mm:ss", fromTimeZone timeZone: Swift.String?) -> Foundation.Date?
+  public func split(regex pattern: Swift.String) -> [Swift.String]
+}
+@_hasMissingDesignatedInitializers public class StringUtils {
+  public static func isNullOrEmpty(_ value: Swift.String?) -> Swift.Bool
+  public static func random(length: Swift.Int) -> Swift.String
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class SwiftAwesomeNotificationsPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin, UserNotifications.UNUserNotificationCenterDelegate {
+  public static var appLifeCycle: awesome_notifications.NotificationLifeCycle {
+    get
+    set(newValue)
+  }
+  public static var instance: awesome_notifications.SwiftAwesomeNotificationsPlugin? {
+    get
+  }
+  @available(iOS 10.0, *)
+  @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
+  @available(iOS 10.0, *)
+  @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
+  @objc public func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [Swift.AnyHashable : Any] = [:]) -> Swift.Bool
+  @objc public func application(_ application: UIKit.UIApplication, handleEventsForBackgroundURLSession identifier: Swift.String, completionHandler: @escaping () -> Swift.Void) -> Swift.Bool
+  @available(iOS 10.0, *)
+  public static func processNotificationContent(_ notification: UserNotifications.UNNotification) -> UserNotifications.UNNotification
+  public static func createEvent(notificationReceived: awesome_notifications.NotificationReceived)
+  public static func displayEvent(notificationReceived: awesome_notifications.NotificationReceived)
+  @objc public func applicationDidBecomeActive(_ application: UIKit.UIApplication)
+  @objc public func applicationWillResignActive(_ application: UIKit.UIApplication)
+  @objc public func applicationDidEnterBackground(_ application: UIKit.UIApplication)
+  @objc public func applicationWillEnterForeground(_ application: UIKit.UIApplication)
+  @objc public func applicationWillTerminate(_ application: UIKit.UIApplication)
+  public func clearDeactivatedSchedules()
+  public func rescheduleLostNotifications()
+  public func fireBackgroundLostEvents()
+  @objc public static func register(with registrar: Flutter.FlutterPluginRegistrar)
+  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SwiftUtils {
+  public static func isRunningOnExtension() -> Swift.Bool
+  @objc deinit
+}
+public class SynchronizedArray<Element> {
+  public init()
+  convenience public init(_ array: [Element])
+  @objc deinit
+}
+extension awesome_notifications.SynchronizedArray {
+  public var first: Element? {
+    get
+  }
+  public var last: Element? {
+    get
+  }
+  public var count: Swift.Int {
+    get
+  }
+  public var isEmpty: Swift.Bool {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+}
+extension awesome_notifications.SynchronizedArray {
+  public func first(where predicate: (Element) -> Swift.Bool) -> Element?
+  public func last(where predicate: (Element) -> Swift.Bool) -> Element?
+  public func filter(_ isIncluded: @escaping (Element) -> Swift.Bool) -> awesome_notifications.SynchronizedArray<Element>
+  public func index(where predicate: (Element) -> Swift.Bool) -> Swift.Int?
+  public func sorted(by areInIncreasingOrder: (Element, Element) -> Swift.Bool) -> awesome_notifications.SynchronizedArray<Element>
+  public func map<ElementOfResult>(_ transform: @escaping (Element) -> ElementOfResult) -> [ElementOfResult]
+  public func compactMap<ElementOfResult>(_ transform: (Element) -> ElementOfResult?) -> [ElementOfResult]
+  public func reduce<ElementOfResult>(_ initialResult: ElementOfResult, _ nextPartialResult: @escaping (ElementOfResult, Element) -> ElementOfResult) -> ElementOfResult
+  public func reduce<ElementOfResult>(into initialResult: ElementOfResult, _ updateAccumulatingResult: @escaping (inout ElementOfResult, Element) -> ()) -> ElementOfResult
+  public func forEach(_ body: (Element) -> Swift.Void)
+  public func contains(where predicate: (Element) -> Swift.Bool) -> Swift.Bool
+  public func allSatisfy(_ predicate: (Element) -> Swift.Bool) -> Swift.Bool
+}
+extension awesome_notifications.SynchronizedArray {
+  public func append(_ element: Element)
+  public func append(_ elements: [Element])
+  public func insert(_ element: Element, at index: Swift.Int)
+  public func remove(at index: Swift.Int, completion: ((Element) -> Swift.Void)? = nil)
+  public func remove(where predicate: @escaping (Element) -> Swift.Bool, completion: (([Element]) -> Swift.Void)? = nil)
+  public func removeAll(completion: (([Element]) -> Swift.Void)? = nil)
+}
+extension awesome_notifications.SynchronizedArray {
+  public subscript(index: Swift.Int) -> Element? {
+    get
+    set
+  }
+}
+extension awesome_notifications.SynchronizedArray where Element : Swift.Equatable {
+  public func contains(_ element: Element) -> Swift.Bool
+}
+extension awesome_notifications.SynchronizedArray {
+  public static func += (left: inout awesome_notifications.SynchronizedArray<Element>, right: Element)
+  public static func += (left: inout awesome_notifications.SynchronizedArray<Element>, right: [Element])
+}
+public class TreeSet<E> : Swift.Equatable, Swift.Collection, Swift.CustomStringConvertible where E : Swift.Comparable, E : Swift.Hashable {
+  public typealias Element = E
+  public typealias Index = Swift.Int
+  public typealias Indices = Swift.Range<Swift.Int>
+  public init()
+  public init(reverse: Swift.Bool)
+  public init(_ initialValues: [awesome_notifications.TreeSet<E>.Element], reverse: Swift.Bool?)
+  public var count: Swift.Int {
+    get
+  }
+  public var isEmpty: Swift.Bool {
+    get
+  }
+  public var contents: [awesome_notifications.TreeSet<E>.Element] {
+    get
+  }
+  public func atIndex(_ index: Swift.Int) -> awesome_notifications.TreeSet<E>.Element?
+  public func contains(_ member: awesome_notifications.TreeSet<E>.Element) -> Swift.Bool
+  public func insert(_ newElement: awesome_notifications.TreeSet<E>.Element) -> Swift.Bool
+  public func removeFirst() -> awesome_notifications.TreeSet<E>.Element
+  public func removeLast() -> awesome_notifications.TreeSet<E>.Element
+  public func removeAll(keepingCapacity keepCapacity: Swift.Bool)
+  public func tail(reference: E) -> E?
+  public func hash(into hasher: inout Swift.Hasher)
+  public var description: Swift.String {
+    get
+  }
+  public typealias Iterator = Swift.IndexingIterator<awesome_notifications.TreeSet<E>>
+  public typealias SubSequence = Swift.Slice<awesome_notifications.TreeSet<E>>
+  @objc deinit
+}
+extension awesome_notifications.TreeSet : Swift.RandomAccessCollection {
+  public var startIndex: Swift.Int {
+    get
+  }
+  public var endIndex: Swift.Int {
+    get
+  }
+  public subscript(index: Swift.Int) -> awesome_notifications.TreeSet<E>.Element {
+    get
+  }
+}
+public func == <T>(lhs: awesome_notifications.TreeSet<T>, rhs: awesome_notifications.TreeSet<T>) -> Swift.Bool where T : Swift.Comparable, T : Swift.Hashable
+extension awesome_notifications.TreeSet : Swift.Hashable {
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension awesome_notifications.CronExpression.CronComponent : Swift.Equatable {}
+extension awesome_notifications.CronExpression.CronComponent : Swift.Hashable {}
+extension awesome_notifications.CronExpression.CronComponent : Swift.RawRepresentable {}
+extension awesome_notifications.CronExpression.CronNotationType : Swift.Equatable {}
+extension awesome_notifications.CronExpression.CronNotationType : Swift.Hashable {}
+extension awesome_notifications.CronExpression.CronNotationType : Swift.RawRepresentable {}
+extension awesome_notifications.MediaSource : Swift.Equatable {}
+extension awesome_notifications.MediaSource : Swift.Hashable {}
+extension awesome_notifications.MediaSource : Swift.RawRepresentable {}
+extension awesome_notifications.NotificationLifeCycle : Swift.Equatable {}
+extension awesome_notifications.NotificationLifeCycle : Swift.Hashable {}
+extension awesome_notifications.NotificationLifeCycle : Swift.RawRepresentable {}
+extension awesome_notifications.NotificationPermission : Swift.Equatable {}
+extension awesome_notifications.NotificationPermission : Swift.Hashable {}
+extension awesome_notifications.NotificationPermission : Swift.RawRepresentable {}

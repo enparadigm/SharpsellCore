@@ -1,0 +1,53 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name light_compressor
+import AVFoundation
+import Flutter
+import Foundation
+import Photos
+import Swift
+import UIKit
+import _Concurrency
+@_exported import light_compressor
+public enum VideoQuality {
+  case very_high
+  case high
+  case medium
+  case low
+  case very_low
+  public static func == (a: light_compressor.VideoQuality, b: light_compressor.VideoQuality) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CompressionResult {
+  case onStart
+  case onSuccess(Foundation.URL)
+  case onFailure(light_compressor.CompressionError)
+  case onCancelled
+}
+public class Compression {
+  public init()
+  public var cancel: Swift.Bool
+  @objc deinit
+}
+public struct CompressionError : Foundation.LocalizedError {
+  public let title: Swift.String
+}
+@available(iOS 11.0, *)
+public struct LightCompressor {
+  public init()
+  public func compressVideo(source: Foundation.URL, destination: Foundation.URL, quality: light_compressor.VideoQuality, frameRate: Swift.Int? = nil, isMinBitrateCheckEnabled: Swift.Bool = true, progressQueue: Dispatch.DispatchQueue, progressHandler: ((Foundation.Progress) -> ())?, completion: @escaping (light_compressor.CompressionResult) -> ()) -> light_compressor.Compression
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 11.0, *)
+public class SwiftLightCompressorPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin, Flutter.FlutterStreamHandler {
+  @objc public static func register(with registrar: Flutter.FlutterPluginRegistrar)
+  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @objc public func onListen(withArguments arguments: Any?, eventSink events: @escaping Flutter.FlutterEventSink) -> Flutter.FlutterError?
+  @objc public func onCancel(withArguments arguments: Any?) -> Flutter.FlutterError?
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension light_compressor.VideoQuality : Swift.Equatable {}
+extension light_compressor.VideoQuality : Swift.Hashable {}

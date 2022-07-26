@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/Environment/SecureStorage/GULKeychainStorage.m \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULKeychainStorage.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/module.modulemap \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+Testing.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+Wrap.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+Validate.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+Timeout.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+Then.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+Retry.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+Reduce.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+Recover.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+Race.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+Do.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+Delay.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+Catch.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+Await.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+Async.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+Any.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+Always.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromiseError.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromise+All.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/promises/Sources/FBLPromises/include/FBLPromises.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULKeychainUtils.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULSecureCoding.h

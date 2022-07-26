@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Handlers/FIRCLSException.mm \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Handlers/FIRCLSException.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Private/FIRExceptionModel_Private.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Public/FirebaseCrashlytics/FIRExceptionModel.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Public/FirebaseCrashlytics/FIRStackFrame.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Private/FIRStackFrame_Private.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Components/FIRCLSApplication.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Components/FIRCLSGlobals.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Components/FIRCLSContext.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Components/FIRCLSBinaryImage.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Helpers/FIRCLSFeatures.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Helpers/FIRCLSDefines.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Helpers/FIRCLSFile.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Shared/FIRCLSMachO/FIRCLSMachO.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Components/FIRCLSHost.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Components/FIRCLSUserLogging.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Handlers/FIRCLSMachException.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Handlers/FIRCLSSignal.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Helpers/FIRCLSAllocate.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Helpers/FIRCLSInternalLogging.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Helpers/FIRCLSLogger.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Components/FIRCLSProcess.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Handlers/FIRCLSHandler.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Helpers/FIRCLSUtility.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Controllers/FIRCLSReportManager_Private.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Controllers/FIRCLSReportManager.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Public/FirebaseCrashlytics/FIRCrashlytics.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Public/FirebaseCrashlytics/FIRCrashlyticsReport.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Helpers/FIRCLSProfiling.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Controllers/FIRCLSReportUploader.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Models/FIRCLSLaunchMarkerModel.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Models/FIRCLSFileManager.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Operations/Symbolication/FIRCLSDemangleOperation.h \
+  /Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/SharpsellCore/.build/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Operations/Symbolication/FIRCLSThreadArrayOperation.h
