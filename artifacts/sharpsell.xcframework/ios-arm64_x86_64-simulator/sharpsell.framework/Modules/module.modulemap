@@ -1,0 +1,11 @@
+framework module sharpsell {
+  umbrella header "sharpsell-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module sharpsell.Swift {
+    header "sharpsell-Swift.h"
+    requires objc
+}

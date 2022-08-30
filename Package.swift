@@ -9,14 +9,14 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "SharpsellCore", type: .dynamic,
+            name: "SharpsellCore",
             targets: ["SharpsellCore"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         //         .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "8.12.1"),
         //        .Package(url: "https://github.com/firebase/firebase-ios-sdk.git", .upToNextMajor(from: "8.12.1"))
-        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", .upToNextMajor(from: "8.12.1"))
+//        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", .upToNextMajor(from: "8.12.1"))
     ],
     targets: [
         .target(
@@ -42,35 +42,35 @@ let package = Package(
                 //                                "FirebaseCrashlytics",
                 //                                "FirebaseInstallations",
                 //                                "FirebaseMessaging",
-                .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
-                .product(name: "FirebaseCrashlytics", package: "firebase-ios-sdk"),
-                .product(name: "FirebaseAnalytics", package: "firebase-ios-sdk"),
+//                .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
+//                .product(name: "FirebaseCrashlytics", package: "firebase-ios-sdk"),
+//                .product(name: "FirebaseAnalytics", package: "firebase-ios-sdk"),
                 "flutter_custom_tabs",
                 "flutter_inappwebview",
                 "fluttercontactpicker",
                 "fluttertoast",
-                //                "FMDB",
+//                "FMDB",
                 //                                "GoogleAppMeasurement",
                 //                                "GoogleDataTransport",
-                //                "GoogleUtilities",
+//                "GoogleUtilities",
                 "image_cropper",
                 "image_picker",
                 "just_audio",
                 "libwebp",
                 "light_compressor",
                 //                "nanopb",
-                "pdfx",
                 "open_file",
                 "OrderedSet",
                 "package_info_plus",
                 "path_provider_ios",
-                "permission_handler",
+                "permission_handler_apple",
+                "pdfx",
                 "Reachability",
                 "share_extend",
                 "share_plus",
                 "share",
                 "shared_preferences",
-                //                "sharpsell",
+                "sharpsell",
                 "sqflite",
                 "sqlite3_flutter_libs",
                 "sqlite3",
@@ -78,7 +78,7 @@ let package = Package(
                 "Toast",
                 "TOCropViewController",
                 "url_launcher",
-                "video_player",
+                "video_player_avfoundation",
                 "video_thumbnail",
                 "wakelock",
                 "webview_flutter_wkwebview"
@@ -154,8 +154,8 @@ let package = Package(
             .binaryTarget(name: "fluttertoast",
                           path: "artifacts/fluttertoast.xcframework"),
         
-        //            .binaryTarget(name: "FMDB",
-        //                          path: "artifacts/FMDB.xcframework"),
+//            .binaryTarget(name: "FMDB",
+//                          path: "artifacts/FMDB.xcframework"),
         
         //            .binaryTarget(name: "GoogleAppMeasurement",
         //                          path: "artifacts/GoogleAppMeasurement.xcframework"),
@@ -163,8 +163,8 @@ let package = Package(
         //            .binaryTarget(name: "GoogleDataTransport",
         //                          path: "artifacts/GoogleDataTransport.xcframework"),
         
-        //            .binaryTarget(name: "GoogleUtilities",
-        //                          path: "artifacts/GoogleUtilities.xcframework"),
+//            .binaryTarget(name: "GoogleUtilities",
+//                          path: "artifacts/GoogleUtilities.xcframework"),
         
             .binaryTarget(name: "image_cropper",
                           path: "artifacts/image_cropper.xcframework"),
@@ -199,8 +199,8 @@ let package = Package(
             .binaryTarget(name: "path_provider_ios",
                           path: "artifacts/path_provider_ios.xcframework"),
         
-            .binaryTarget(name: "permission_handler",
-                          path: "artifacts/permission_handler.xcframework"),
+            .binaryTarget(name: "permission_handler_apple",
+                          path: "artifacts/permission_handler_apple.xcframework"),
         
             .binaryTarget(name: "Reachability",
                           path: "artifacts/Reachability.xcframework"),
@@ -217,8 +217,8 @@ let package = Package(
             .binaryTarget(name: "shared_preferences",
                           path: "artifacts/shared_preferences.xcframework"),
         
-        //            .binaryTarget(name: "sharpsell",
-        //                          path: "artifacts/sharpsell.xcframework"),
+            .binaryTarget(name: "sharpsell",
+                          path: "artifacts/sharpsell.xcframework"),
         
             .binaryTarget(name: "sqflite",
                           path: "artifacts/sqflite.xcframework"),
@@ -241,8 +241,8 @@ let package = Package(
             .binaryTarget(name: "url_launcher",
                           path: "artifacts/url_launcher.xcframework"),
         
-            .binaryTarget(name: "video_player",
-                          path: "artifacts/video_player.xcframework"),
+            .binaryTarget(name: "video_player_avfoundation",
+                          path: "artifacts/video_player_avfoundation.xcframework"),
         
             .binaryTarget(name: "video_thumbnail",
                           path: "artifacts/video_thumbnail.xcframework"),
