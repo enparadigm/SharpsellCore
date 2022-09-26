@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         //         .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "8.12.1"),
-        //        .Package(url: "https://github.com/firebase/firebase-ios-sdk.git", .upToNextMajor(from: "8.12.1"))
+//                .Package(url: "https://github.com/firebase/firebase-ios-sdk.git", .upToNextMajor(from: "8.12.1"))
 //        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", .upToNextMajor(from: "8.12.1"))
     ],
     targets: [
@@ -27,7 +27,7 @@ let package = Package(
                 //                "App",
                 "audio_session",
                 "awesome_notifications",
-                "camera",
+                "camera_avfoundation",
                 "connectivity_plus",
                 "contacts_service",
                 "device_info_plus",
@@ -54,7 +54,7 @@ let package = Package(
                 //                                "GoogleDataTransport",
 //                "GoogleUtilities",
                 "image_cropper",
-                "image_picker",
+                "image_picker_ios",
                 "just_audio",
                 "libwebp",
                 "light_compressor",
@@ -69,7 +69,7 @@ let package = Package(
                 "share_extend",
                 "share_plus",
                 "share",
-                "shared_preferences",
+                "shared_preferences_ios",
                 "sharpsell",
                 "sqflite",
                 "sqlite3_flutter_libs",
@@ -77,7 +77,8 @@ let package = Package(
                 "store_redirect",
                 "Toast",
                 "TOCropViewController",
-                "url_launcher",
+                "uni_links",
+                "url_launcher_ios",
                 "video_player_avfoundation",
                 "video_thumbnail",
                 "wakelock",
@@ -97,8 +98,8 @@ let package = Package(
             .binaryTarget(name: "awesome_notifications",
                           path: "artifacts/awesome_notifications.xcframework"),
         
-            .binaryTarget(name: "camera",
-                          path: "artifacts/camera.xcframework"),
+            .binaryTarget(name: "camera_avfoundation",
+                          path: "artifacts/camera_avfoundation.xcframework"),
         
             .binaryTarget(name: "connectivity_plus",
                           path: "artifacts/connectivity_plus.xcframework"),
@@ -169,8 +170,8 @@ let package = Package(
             .binaryTarget(name: "image_cropper",
                           path: "artifacts/image_cropper.xcframework"),
         
-            .binaryTarget(name: "image_picker",
-                          path: "artifacts/image_picker.xcframework"),
+            .binaryTarget(name: "image_picker_ios",
+                          path: "artifacts/image_picker_ios.xcframework"),
         
             .binaryTarget(name: "just_audio",
                           path: "artifacts/just_audio.xcframework"),
@@ -184,14 +185,14 @@ let package = Package(
         //            .binaryTarget(name: "nanopb",
         //                          path: "artifacts/nanopb.xcframework"),
         
-            .binaryTarget(name: "pdfx",
-                          path: "artifacts/pdfx.xcframework"),
-        
             .binaryTarget(name: "open_file",
                           path: "artifacts/open_file.xcframework"),
         
             .binaryTarget(name: "OrderedSet",
                           path: "artifacts/OrderedSet.xcframework"),
+        
+            .binaryTarget(name: "pdfx",
+                          path: "artifacts/pdfx.xcframework"),
         
             .binaryTarget(name: "package_info_plus",
                           path: "artifacts/package_info_plus.xcframework"),
@@ -214,8 +215,8 @@ let package = Package(
             .binaryTarget(name: "share",
                           path: "artifacts/share.xcframework"),
         
-            .binaryTarget(name: "shared_preferences",
-                          path: "artifacts/shared_preferences.xcframework"),
+            .binaryTarget(name: "shared_preferences_ios",
+                          path: "artifacts/shared_preferences_ios.xcframework"),
         
             .binaryTarget(name: "sharpsell",
                           path: "artifacts/sharpsell.xcframework"),
@@ -238,8 +239,11 @@ let package = Package(
             .binaryTarget(name: "TOCropViewController",
                           path: "artifacts/TOCropViewController.xcframework"),
         
-            .binaryTarget(name: "url_launcher",
-                          path: "artifacts/url_launcher.xcframework"),
+            .binaryTarget(name: "uni_links",
+                          path: "artifacts/uni_links.xcframework"),
+        
+            .binaryTarget(name: "url_launcher_ios",
+                          path: "artifacts/url_launcher_ios.xcframework"),
         
             .binaryTarget(name: "video_player_avfoundation",
                           path: "artifacts/video_player_avfoundation.xcframework"),

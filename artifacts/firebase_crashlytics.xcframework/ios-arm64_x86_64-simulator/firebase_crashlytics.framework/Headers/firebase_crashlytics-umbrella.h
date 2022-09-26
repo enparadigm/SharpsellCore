@@ -10,8 +10,6 @@
 #endif
 #endif
 
-#import "Crashlytics_Platform.h"
-#import "ExceptionModel_Platform.h"
 #import "FLTFirebaseCrashlyticsPlugin.h"
 
 FOUNDATION_EXPORT double firebase_crashlyticsVersionNumber;

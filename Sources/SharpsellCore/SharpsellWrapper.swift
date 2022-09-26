@@ -1,6 +1,6 @@
 //
 //  SharpsellWrapper.swift
-//  SharpsellCore
+//  Sharpsell
 //
 //  Created by Surya on 19/12/21.
 //
@@ -16,6 +16,7 @@ fileprivate enum FlutterMethods: String{
     case open = "open"
     case showNotification = "show_notification"
     case clearData = "clear_data"
+    case enableLogs = "enable_logs_in_production_sdk"
 }
 
 public enum SharpSellError: Error{
@@ -38,7 +39,7 @@ public struct SharpSellWrapper{
     //MARK: - Private Methods
     private func getFlutterViewController() throws -> FlutterViewController {
         guard let flutterEngine = self.flutterEngine else {
-            NSLog("SharpsellCore Error: Flutter Engine is nil.")
+            NSLog("Sharpsell Error: Flutter Engine is nil.")
             throw SharpSellError.flutterEngineFailure
         }
         let flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
@@ -56,15 +57,15 @@ public struct SharpSellWrapper{
     ///- Note: Try to avoid calling this function multiple times because creating the flutter engine again and again will cause an memory issue and you may face some lag in the UI.
     ///- Recommeded: Call this method in App delegatge if you using native iOS or call this in app landing function which will be called only once in the app life cycle
     public mutating func createFlutterEngine(){
-            NSLog("SharpsellCore: Creating Flutter Engine....")
+            NSLog("Sharpsell: Creating Flutter Engine....")
 //            os_log(.info, log: Log.tracking, "Creating Flutter Engine...")
         self.flutterEngine = FlutterEngine(name: flutterEngineIdentifer)
         guard let myengine = self.flutterEngine else {
-            NSLog("SharpsellCore Error: Flutter Engine not assigned")
+            NSLog("Sharpsell Error: Flutter Engine not assigned")
             return
         }
         myengine.run()
-        NSLog("SharpsellCore: Flutter Engine Sucessfully Created!")
+        NSLog("Sharpsell: Flutter Engine Sucessfully Created!")
         GeneratedPluginRegistrant.register(with: myengine)
         isFlutterEngineCreated = true
     }
@@ -84,27 +85,27 @@ public struct SharpSellWrapper{
             //Convert Dict to json
             if let theJSONData = try?  JSONSerialization.data(
                 withJSONObject: smartsellParameters,
-                options:.prettyPrinted),
+                options: .prettyPrinted),
                //Convert json to String
                let theJSONText = String(data: theJSONData,
                                         encoding: String.Encoding.ascii) {
-                NSLog("SharpsellCore: Calling initialize flutter invoke method.")
+                NSLog("Sharpsell: Calling initialize flutter invoke method.")
                 flutterMethodChannel.invokeMethod(FlutterMethods.initialize.rawValue,
                                                   arguments: theJSONText) { (flutterResult) in
                     if flutterResult is FlutterError {
                         if let res = flutterResult as? FlutterError{
-                            NSLog("SharpsellCore Error: Initialize - Error Code : \(String(describing: res.code))")
-                            NSLog("SharpsellCore Error: Initialize - Error Messaoge : \(String(describing: res.message))")
+                            NSLog("Sharpsell Error: Initialize - Error Code : \(String(describing: res.code))")
+                            NSLog("Sharpsell Error: Initialize - Error Messaoge : \(String(describing: res.message))")
 //                            os_log(.error, log: Log.flutterError, "initialize: Error Code : %d", res.code)
 //                            os_log(.error, log: Log.flutterError, "initialize: Error Messaoge : %{public}s", res.message ?? "")
                             onFailure(res.message ?? "Flutter Error", SharpSellError.flutterError)
                         }else {
-                            NSLog("SharpsellCore Error: Initialize - Flutter Error: UnKnown")
+                            NSLog("Sharpsell Error: Initialize - Flutter Error: UnKnown")
                         }
 
                     }
                     if FlutterMethodNotImplemented.isEqual(flutterResult){
-                        NSLog("SharpsellCore Error: Initialize - Method \(FlutterMethods.open.rawValue) is not implemented in Flutter SDK")
+                        NSLog("Sharpsell Error: Initialize - Method \(FlutterMethods.open.rawValue) is not implemented in Flutter SDK")
                         onFailure("Flutter method not implemented", SharpSellError.flutterMethodNotImplemented)
                         return
                     } else {
@@ -113,12 +114,12 @@ public struct SharpSellWrapper{
                 }
 
             } else {
-                NSLog("SharpsellCore Error: Initialize - JSON Parsing failure")
+                NSLog("Sharpsell Error: Initialize - JSON Parsing failure")
             }
         } catch (SharpSellError.flutterEngineFailure){
-            NSLog("SharpsellCore Error: Initialize - Flutter Engine Not Available")
+            NSLog("Sharpsell Error: Initialize - Flutter Engine Not Available")
         } catch {
-            NSLog("SharpsellCore Error: Initialize - Flutter Engine Not Available")
+            NSLog("Sharpsell Error: Initialize - Flutter Engine Not Available")
         }
     }
 
@@ -134,7 +135,7 @@ public struct SharpSellWrapper{
                      onFailure: @escaping (_ message: String,_ errorType: SharpSellError) -> ()){
         do {
             let flutterMethodChannel = try getFlutterMethodChannel()
-            NSLog("SharpsellCore : Calling Open flutter invoke method")
+            NSLog("Sharpsell : Calling Open flutter invoke method")
 
             //Convert json to String
             if let theJSONData = try?  JSONSerialization.data(
@@ -149,16 +150,16 @@ public struct SharpSellWrapper{
 
                     if (flutterResult is FlutterError) {
                         if let res = flutterResult as? FlutterError{
-                            NSLog("SharpsellCore Error: Initialize - Error Code : \(String(describing: res.code))")
-                            NSLog("SharpsellCore Error: Initialize - Error Messaoge : \(String(describing: res.message))")
+                            NSLog("Sharpsell Error: open - Error Code : \(String(describing: res.code))")
+                            NSLog("Sharpsell Error: open - Error Messaoge : \(String(describing: res.message))")
                             onFailure(res.message ?? "Flutter Error", SharpSellError.flutterError)
                         }else {
-                            NSLog("SharpsellCore Error: open - Flutter Error: UnKnown")
+                            NSLog("Sharpsell Error: open - Flutter Error: UnKnown")
                         }
                     }
 
                     if FlutterMethodNotImplemented.isEqual(flutterResult){
-                        NSLog("SharpsellCore Error: open - Method \(FlutterMethods.open.rawValue) is not implemented in Flutter SDK")
+                        NSLog("Sharpsell Error: open - Method \(FlutterMethods.open.rawValue) is not implemented in Flutter SDK")
                         onFailure("Flutter method not implemented", SharpSellError.flutterMethodNotImplemented)
                         return
                     } else {
@@ -167,9 +168,9 @@ public struct SharpSellWrapper{
                             let flutterViewController = try getFlutterViewController()
                             onSucess(flutterViewController)
                         } catch (SharpSellError.flutterEngineFailure){
-                            NSLog("SharpsellCore Error: Open - Failed to get the FlutterVC due to flutterEngineFailure")
+                            NSLog("Sharpsell Error: Open - Failed to get the FlutterVC due to flutterEngineFailure")
                         } catch {
-                            NSLog("SharpsellCore Error: Open - Failed to get the FlutterVC")
+                            NSLog("Sharpsell Error: Open - Failed to get the FlutterVC")
                         }
 
                     }
@@ -177,9 +178,9 @@ public struct SharpSellWrapper{
             }
 
         } catch (SharpSellError.flutterEngineFailure){
-            NSLog("SharpsellCore Error: Open - Flutter Engine Not Available")
+            NSLog("Sharpsell Error: Open - Flutter Engine Not Available")
         } catch {
-            NSLog("SharpsellCore Error: Open - Flutter Engine Not Available")
+            NSLog("Sharpsell Error: Open - Flutter Engine Not Available")
         }
     }
 
@@ -194,14 +195,14 @@ public struct SharpSellWrapper{
                                                 _ errorType: SharpSellError) -> ()){
         do {
             let flutterMethodChannel = try getFlutterMethodChannel()
-            NSLog("SharpsellCore: showNotification - Calling showNotification flutter invoke method")
+            NSLog("Sharpsell: showNotification - Calling showNotification flutter invoke method")
             flutterMethodChannel.invokeMethod(FlutterMethods.showNotification.rawValue,
                                               arguments: nil) {  (flutterResult) in
 
                 if (flutterResult is FlutterError) {
                     if let res = flutterResult as? FlutterError{
-                        NSLog("SharpsellCore Error: Initialize - Error Code : \(String(describing: res.code))")
-                        NSLog("SharpsellCore Error: Initialize - Error Messaoge : \(String(describing: res.message))")
+                        NSLog("Sharpsell Error: showNotification - Error Code : \(String(describing: res.code))")
+                        NSLog("Sharpsell Error: showNotification - Error Messaoge : \(String(describing: res.message))")
 
                         onFailure(res.message ?? "Flutter Error", SharpSellError.flutterError)
 
@@ -212,7 +213,7 @@ public struct SharpSellWrapper{
 
                 if FlutterMethodNotImplemented.isEqual(flutterResult){
 
-                    NSLog("SharpsellCore Error: Initialize - Method \(FlutterMethods.open.rawValue) is not implemented in Flutter SDK")
+                    NSLog("Sharpsell Error: showNotification - Method \(FlutterMethods.open.rawValue) is not implemented in Flutter SDK")
 
                     onFailure("Flutter method not implemented", SharpSellError.flutterMethodNotImplemented)
                     return
@@ -221,9 +222,9 @@ public struct SharpSellWrapper{
                 }
             }
         }catch (SharpSellError.flutterEngineFailure){
-            NSLog("SharpsellCore Error: showNotification - Flutter Engine Not Available")
+            NSLog("Sharpsell Error: showNotification - Flutter Engine Not Available")
         } catch {
-            NSLog("SharpsellCore Error: showNotification - Flutter Engine Not Available")
+            NSLog("Sharpsell Error: showNotification - Flutter Engine Not Available")
         }
     }
 
@@ -237,14 +238,14 @@ public struct SharpSellWrapper{
                           onFailure: @escaping (_ message: String,_ errorType: SharpSellError) -> ()){
         do {
             let flutterMethodChannel = try getFlutterMethodChannel()
-            NSLog("SharpsellCore: clearData - Calling ClearData flutter invoke method")
+            NSLog("Sharpsell: clearData - Calling ClearData flutter invoke method")
             flutterMethodChannel.invokeMethod(FlutterMethods.clearData.rawValue,
                                               arguments: nil) {  (flutterResult) in
 
                 if (flutterResult is FlutterError) {
                     if let res = flutterResult as? FlutterError{
-                        NSLog("SharpsellCore Error: Initialize - Error Code : \(String(describing: res.code))")
-                        NSLog("SharpsellCore Error: Initialize - Error Messaoge : \(String(describing: res.message))")
+                        NSLog("Sharpsell Error: clearData - Error Code : \(String(describing: res.code))")
+                        NSLog("Sharpsell Error: clearData - Error Messaoge : \(String(describing: res.message))")
 
                         onFailure(res.message ?? "Flutter Error", SharpSellError.flutterError)
 
@@ -255,7 +256,7 @@ public struct SharpSellWrapper{
 
                 if FlutterMethodNotImplemented.isEqual(flutterResult){
 
-                    NSLog("SharpsellCore Error: Initialize - Method \(FlutterMethods.open.rawValue) is not implemented in Flutter SDK")
+                    NSLog("Sharpsell Error: clearData - Method \(FlutterMethods.open.rawValue) is not implemented in Flutter SDK")
 
                     onFailure("Flutter method not implemented", SharpSellError.flutterMethodNotImplemented)
                     return
@@ -264,9 +265,70 @@ public struct SharpSellWrapper{
                 }
             }
         }catch (SharpSellError.flutterEngineFailure){
-            NSLog("SharpsellCore Error: clearData - Flutter Engine Not Available")
+            NSLog("Sharpsell Error: clearData - Flutter Engine Not Available")
         } catch {
-            NSLog("SharpsellCore Error: clearData - Flutter Engine Not Available")
+            NSLog("Sharpsell Error: clearData - Flutter Engine Not Available")
+        }
+    }
+    
+    /// enableLogs for the sharpsell app
+    /// - Parameters:
+    ///   - onSuccess: Success colsure will be called on succesfuly launching the flutter screen
+    ///   - flutterViewController: On succeful invoke call, flutter view controller will be sent back. Use this to show the flutter screen in you app
+    ///   - onFailure: Failure closure will be called incase of any failure
+    ///   - message: Flutter error message
+    ///   - errorType: Passing the smartSellError enum by using this you check the type of error
+    public func enableLogs(forProd: Bool,
+                     onSucess: @escaping (_ flutterViewController: UIViewController) -> (),
+                     onFailure: @escaping (_ message: String,_ errorType: SharpSellError) -> ()){
+        do {
+            let flutterMethodChannel = try getFlutterMethodChannel()
+            NSLog("Sharpsell : Calling enableLogs flutter invoke method")
+
+//            //Convert json to String
+//            if let theJSONData = try?  JSONSerialization.data(
+//                withJSONObject: arguments,
+//                options:.prettyPrinted),
+//              //Convert Dict to json
+//            let theJSONText = String(data: theJSONData,
+//                                     encoding: String.Encoding.ascii) {
+
+                flutterMethodChannel.invokeMethod(FlutterMethods.enableLogs.rawValue,
+                                                  arguments: forProd) {  (flutterResult) in
+
+                    if (flutterResult is FlutterError) {
+                        if let res = flutterResult as? FlutterError{
+                            NSLog("Sharpsell Error: enableLogs - Error Code : \(String(describing: res.code))")
+                            NSLog("Sharpsell Error: enableLogs - Error Messaoge : \(String(describing: res.message))")
+                            onFailure(res.message ?? "Flutter Error", SharpSellError.flutterError)
+                        }else {
+                            NSLog("Sharpsell Error: enableLogs - Flutter Error: UnKnown")
+                        }
+                    }
+
+                    if FlutterMethodNotImplemented.isEqual(flutterResult){
+                        NSLog("Sharpsell Error: enableLogs - Method \(FlutterMethods.enableLogs.rawValue) is not implemented in Flutter SDK")
+                        onFailure("Flutter method not implemented", SharpSellError.flutterMethodNotImplemented)
+                        return
+                    } else {
+                        do {
+                            //Success
+                            let flutterViewController = try getFlutterViewController()
+                            onSucess(flutterViewController)
+                        } catch (SharpSellError.flutterEngineFailure){
+                            NSLog("Sharpsell Error: enableLogs - Failed to get the FlutterVC due to flutterEngineFailure")
+                        } catch {
+                            NSLog("Sharpsell Error: enableLogs - Failed to get the FlutterVC")
+                        }
+
+                    }
+                }
+//            }
+
+        } catch (SharpSellError.flutterEngineFailure){
+            NSLog("Sharpsell Error: enableLogs - Flutter Engine Not Available")
+        } catch {
+            NSLog("Sharpsell Error: enableLogs - Flutter Engine Not Available")
         }
     }
 }

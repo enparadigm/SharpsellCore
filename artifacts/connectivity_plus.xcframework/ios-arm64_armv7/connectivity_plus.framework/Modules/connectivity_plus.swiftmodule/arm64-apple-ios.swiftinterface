@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name connectivity_plus
 import Flutter
 import Foundation
+import Network
 import Reachability
 import Swift
 import _Concurrency
@@ -25,18 +26,28 @@ public protocol ConnectivityProvider : ObjectiveC.NSObjectProtocol {
   func start()
   func stop()
 }
-@objc @_inheritsConvenienceInitializers public class ReachabilityConnectivityProvider : ObjectiveC.NSObject, connectivity_plus.ConnectivityProvider {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 12, *)
+public class PathMonitorConnectivityProvider : ObjectiveC.NSObject, connectivity_plus.ConnectivityProvider {
+  public var currentConnectivityType: connectivity_plus.ConnectivityType {
+    get
+  }
+  public var connectivityUpdateHandler: connectivity_plus.PathMonitorConnectivityProvider.ConnectivityUpdateHandler?
+  public func start()
+  public func stop()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ReachabilityConnectivityProvider : ObjectiveC.NSObject, connectivity_plus.ConnectivityProvider {
   public var currentConnectivityType: connectivity_plus.ConnectivityType {
     get
   }
   public var connectivityUpdateHandler: connectivity_plus.ReachabilityConnectivityProvider.ConnectivityUpdateHandler?
   public func start()
   public func stop()
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class SwiftConnectivityPlusPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin, Flutter.FlutterStreamHandler {
   @objc public static func register(with registrar: Flutter.FlutterPluginRegistrar)
+  @objc public func detachFromEngine(for registrar: Flutter.FlutterPluginRegistrar)
   @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
   @objc public func onListen(withArguments _: Any?, eventSink events: @escaping Flutter.FlutterEventSink) -> Flutter.FlutterError?
   @objc public func onCancel(withArguments _: Any?) -> Flutter.FlutterError?
