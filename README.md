@@ -14,7 +14,7 @@ There are 2 steps involved in adding the sharpsell SDK in your project.
    dependency in you parent app. 
    For e.g - Attached the sample screenshot for your refrence (version may changes, contact sharpsell team for the latest version)
          <img width="1161" alt="Screenshot 2022-09-26 at 8 49 31 AM" src="https://user-images.githubusercontent.com/93570040/192187441-6b09285f-967b-41a4-b953-7e40333bc4f4.png">
-2. Choose Branch in the Dependency Rule then click choose "UpTo Next Major" in the versions and add 2.5.1 as a major version,
+2. Choose Branch in the Dependency Rule then click choose "UpTo Next Major" in the versions and add 2.6.0 as a major version,
    then click Add Package button.This will add the sharpsell framework as a package dependency for
    your app
 
