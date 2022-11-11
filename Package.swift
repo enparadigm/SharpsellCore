@@ -35,7 +35,7 @@ let package = Package(
                 "firebase_analytics",
                 "firebase_core",
                 "firebase_crashlytics",
-                "firebase_messaging",
+//                "firebase_messaging",
                 //                                "FirebaseAnalytics",
                 //                                "FirebaseCore",
                 //                                "FirebaseCoreDiagnostics",
@@ -59,14 +59,14 @@ let package = Package(
                 "libwebp",
                 "light_compressor",
                 //                "nanopb",
-                "open_file",
+                "open_filex",
                 "OrderedSet",
                 "package_info_plus",
                 "path_provider_ios",
                 "permission_handler_apple",
                 "pdfx",
                 "Reachability",
-                "share_extend",
+//                "share_extend",
                 "share_plus",
                 "share",
                 "shared_preferences_ios",
@@ -122,8 +122,8 @@ let package = Package(
             .binaryTarget(name: "firebase_crashlytics",
                           path: "artifacts/firebase_crashlytics.xcframework"),
         
-            .binaryTarget(name: "firebase_messaging",
-                          path: "artifacts/firebase_messaging.xcframework"),
+//            .binaryTarget(name: "firebase_messaging",
+//                          path: "artifacts/firebase_messaging.xcframework"),
         //
         //            .binaryTarget(name: "FirebaseAnalytics",
         //                          path: "artifacts/FirebaseAnalytics.xcframework"),
@@ -152,6 +152,7 @@ let package = Package(
             .binaryTarget(name: "fluttercontactpicker",
                           path: "artifacts/fluttercontactpicker.xcframework"),
         
+            
             .binaryTarget(name: "fluttertoast",
                           path: "artifacts/fluttertoast.xcframework"),
         
@@ -185,8 +186,8 @@ let package = Package(
         //            .binaryTarget(name: "nanopb",
         //                          path: "artifacts/nanopb.xcframework"),
         
-            .binaryTarget(name: "open_file",
-                          path: "artifacts/open_file.xcframework"),
+            .binaryTarget(name: "open_filex",
+                          path: "artifacts/open_filex.xcframework"),
         
             .binaryTarget(name: "OrderedSet",
                           path: "artifacts/OrderedSet.xcframework"),
@@ -206,8 +207,8 @@ let package = Package(
             .binaryTarget(name: "Reachability",
                           path: "artifacts/Reachability.xcframework"),
         
-            .binaryTarget(name: "share_extend",
-                          path: "artifacts/share_extend.xcframework"),
+//            .binaryTarget(name: "share_extend",
+//                          path: "artifacts/share_extend.xcframework"),
         
             .binaryTarget(name: "share_plus",
                           path: "artifacts/share_plus.xcframework"),
