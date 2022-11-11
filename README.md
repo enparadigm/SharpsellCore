@@ -22,12 +22,12 @@ There are 2 steps involved in adding the sharpsell SDK in your project.
 
 1. Download the XCFramework from the link which is given by Sharpsell team and unzip it.
 
-2. You will find debug and release folders. Inside the folders you will find the below xcframeworks
-        1.App.xcframework
-        2.Flutter.xcframework
-        3.FBLPromises.xcframework
-        4.sharpsell.xcframework
-        4. FMDB.xcframework
+2. You will find debug and release folders. Inside the folders you will find the below xcframeworks 
+   1. App.xcframework 
+   2. Flutter.xcframework 
+   3. FBLPromises.xcframework 
+   4. sharpsell.xcframework 
+   5. FMDB.xcframework
 
 3. In order to run in iOS Simulators, we need to use debug version.So, if you are testing the app in
    simulator then use XCFramrworks which is available in Debug Folder.
