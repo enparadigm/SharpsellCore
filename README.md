@@ -90,7 +90,9 @@ Sample code on how to initialize the SDK is given below.
             "user_meta": "", // If you have user meta, pass those as a string
             "name": "Surya", // User Name
             "mobile_number": "888888888", // User mobile number
-            "email": "surya@sharpsell.ai"] // User Email Id
+            "email": "surya@sharpsell.ai", // User Email Id
+            "fcm_token": firebaseToken] // Firebase token which is generated
+            //To generate firebase token, please follow firebase documentation for iOS 
         
         Sharpsell.services.initialize(smartsellParameters: initSharpsellData) {
             //Flutter initialized succecfully
