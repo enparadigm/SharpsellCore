@@ -26,8 +26,7 @@ There are 2 steps involved in adding the sharpsell SDK in your project.
    1. App.xcframework 
    2. Flutter.xcframework 
    3. FBLPromises.xcframework 
-   4. sharpsell.xcframework 
-   5. FMDB.xcframework
+   4. FMDB.xcframework
 
 3. In order to run in iOS Simulators, we need to use debug version.So, if you are testing the app in
    simulator then use XCFramrworks which is available in Debug Folder.
@@ -113,7 +112,7 @@ Sample code on how to initialize the SDK is given below.
 #### Home Screen
 
 ```Swift
-       Sharpsell.services.open(arguments: [:]){ (flutterViewController) in
+       Sharpsell.services.open(arguments: ""){ (flutterViewController) in
             self.navigationController?.pushViewController(flutterViewController, animated: true)
         } onFailure: { (errorMessage, smartSellError) in
             switch smartSellError {
@@ -134,8 +133,11 @@ Sample code on how to initialize the SDK is given below.
                                 "presentation_name" : presentationInputName,
                                 "input_one" : presentationInputOne,
                                 "input_two" : presentationInputTwo]
+        if let sharpsellDict = presentationArgs {
+            sharpsellOpenDataInString = Sharpsell.services.convertJsonToString(dict: sharpsellDict)
+        }
                                 
-       Sharpsell.services.open(arguments: presentationArgs){ (flutterViewController) in
+       Sharpsell.services.open(arguments: sharpsellDict){ (flutterViewController) in
             self.navigationController?.pushViewController(flutterViewController, animated: true)
         } onFailure: { (errorMessage, smartSellError) in
             switch smartSellError {
@@ -153,8 +155,12 @@ Sample code on how to initialize the SDK is given below.
 
 ```Swift
      let launchpadArgs = ["route" : "launchpad"]
+     
+      if let sharpsellDict = launchpadArgs {
+            sharpsellOpenDataInString = Sharpsell.services.convertJsonToString(dict: sharpsellDict)
+        }
                                 
-       Sharpsell.services.open(arguments: launchpadArgs){ (flutterViewController) in
+       Sharpsell.services.open(arguments: sharpsellDict){ (flutterViewController) in
             self.navigationController?.pushViewController(flutterViewController, animated: true)
         } onFailure: { (errorMessage, smartSellError) in
             switch smartSellError {
@@ -172,8 +178,12 @@ Sample code on how to initialize the SDK is given below.
 
 ```Swift
      let mcDirArgs = ["route" : "mcDirectory"]
+     
+     if let sharpsellDict = mcDirArgs {
+            sharpsellOpenDataInString = Sharpsell.services.convertJsonToString(dict: sharpsellDict)
+        }
                                 
-       Sharpsell.services.open(arguments: mcDirArgs){ (flutterViewController) in
+       Sharpsell.services.open(arguments: sharpsellDict){ (flutterViewController) in
             self.navigationController?.pushViewController(flutterViewController, animated: true)
         } onFailure: { (errorMessage, smartSellError) in
             switch smartSellError {
@@ -191,8 +201,12 @@ Sample code on how to initialize the SDK is given below.
 
 ```Swift
      let potdArgs = ["route" : "potd"]
+     
+     if let sharpsellDict = potdArgs {
+            sharpsellOpenDataInString = Sharpsell.services.convertJsonToString(dict: sharpsellDict)
+        }
                                 
-       Sharpsell.services.open(arguments: potdArgs){ (flutterViewController) in
+       Sharpsell.services.open(arguments: sharpsellDict){ (flutterViewController) in
             self.navigationController?.pushViewController(flutterViewController, animated: true)
         } onFailure: { (errorMessage, smartSellError) in
             switch smartSellError {
@@ -210,8 +224,12 @@ Sample code on how to initialize the SDK is given below.
 
 ```Swift
      let dvcArgs = ["route" : "dvc"]
+     
+     if let sharpsellDict = dvcArgs {
+            sharpsellOpenDataInString = Sharpsell.services.convertJsonToString(dict: sharpsellDict)
+        }
                                 
-       Sharpsell.services.open(arguments: dvcArgs){ (flutterViewController) in
+       Sharpsell.services.open(arguments: sharpsellDict){ (flutterViewController) in
             self.navigationController?.pushViewController(flutterViewController, animated: true)
         } onFailure: { (errorMessage, smartSellError) in
             switch smartSellError {
@@ -229,8 +247,12 @@ Sample code on how to initialize the SDK is given below.
 
 ```Swift
      let tcHomeArgs = ["route" : "tcHome"]
+     
+     if let sharpsellDict = tcHomeArgs {
+            sharpsellOpenDataInString = Sharpsell.services.convertJsonToString(dict: sharpsellDict)
+        }
                                 
-       Sharpsell.services.open(arguments: tcHomeArgs){ (flutterViewController) in
+       Sharpsell.services.open(arguments: sharpsellDict){ (flutterViewController) in
             self.navigationController?.pushViewController(flutterViewController, animated: true)
         } onFailure: { (errorMessage, smartSellError) in
             switch smartSellError {
@@ -247,8 +269,12 @@ Sample code on how to initialize the SDK is given below.
 
 ```Swift
      let productBundleArgs = ["route" : "productBundle"]
+     
+      if let sharpsellDict = productBundleArgs {
+            sharpsellOpenDataInString = Sharpsell.services.convertJsonToString(dict: sharpsellDict)
+        }
                                 
-       Sharpsell.services.open(arguments: productBundleArgs){ (flutterViewController) in
+       Sharpsell.services.open(arguments: sharpsellDict){ (flutterViewController) in
             self.navigationController?.pushViewController(flutterViewController, animated: true)
         } onFailure: { (errorMessage, smartSellError) in
             switch smartSellError {
@@ -265,8 +291,12 @@ Sample code on how to initialize the SDK is given below.
 
 ```Swift
      let quickLinksArgs = ["route" : "quickLinks"]
+     
+      if let sharpsellDict = quickLinksArgs {
+            sharpsellOpenDataInString = Sharpsell.services.convertJsonToString(dict: sharpsellDict)
+      }
                                 
-       Sharpsell.services.open(arguments: quickLinksArgs){ (flutterViewController) in
+       Sharpsell.services.open(arguments: sharpsellDict){ (flutterViewController) in
             self.navigationController?.pushViewController(flutterViewController, animated: true)
         } onFailure: { (errorMessage, smartSellError) in
             switch smartSellError {
