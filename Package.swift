@@ -66,7 +66,6 @@ let package = Package(
                 "permission_handler_apple",
                 "pdfx",
                 "Reachability",
-//                "share_extend",
                 "share_plus",
                 "share",
                 "shared_preferences_ios",
