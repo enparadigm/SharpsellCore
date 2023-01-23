@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name flutter_inappwebview
-// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Flutter
 import Foundation
@@ -11,7 +10,6 @@ import Swift
 import UIKit
 import WebKit
 import _Concurrency
-import _StringProcessing
 @_exported import flutter_inappwebview
 @objc @_hasMissingDesignatedInitializers public class ChromeSafariBrowserManager : ObjectiveC.NSObject, Flutter.FlutterPlugin {
   @objc public static func register(with registrar: Flutter.FlutterPluginRegistrar)
@@ -37,7 +35,7 @@ import _StringProcessing
 }
 @objc @_hasMissingDesignatedInitializers public class FlutterWebViewFactory : ObjectiveC.NSObject, Flutter.FlutterPlatformViewFactory {
   @objc public func createArgsCodec() -> Flutter.FlutterMessageCodec & ObjectiveC.NSObjectProtocol
-  @objc public func create(withFrame frame: CoreFoundation.CGRect, viewIdentifier viewId: Swift.Int64, arguments args: Any?) -> Flutter.FlutterPlatformView
+  @objc public func create(withFrame frame: CoreGraphics.CGRect, viewIdentifier viewId: Swift.Int64, arguments args: Any?) -> Flutter.FlutterPlatformView
   @objc deinit
 }
 @objc public class HeadlessInAppWebView : flutter_inappwebview.FlutterMethodCallDelegate {
@@ -141,18 +139,18 @@ public protocol InAppBrowserDelegate {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class InAppWebView : WebKit.WKWebView, UIKit.UIScrollViewDelegate, WebKit.WKUIDelegate, WebKit.WKNavigationDelegate, WebKit.WKScriptMessageHandler, UIKit.UIGestureRecognizerDelegate, flutter_inappwebview.PullToRefreshDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public var frame: CoreFoundation.CGRect {
-    @objc get
-    @objc set
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var frame: CoreGraphics.CGRect {
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init(coder aDecoder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) @objc public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func hitTest(_ point: CoreGraphics.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func canPerformAction(_ action: ObjectiveC.Selector, withSender sender: Any?) -> Swift.Bool
   @_Concurrency.MainActor(unsafe) public func prepare()
   @_Concurrency.MainActor(unsafe) public func prepareAndAddUserScripts()
   @_Concurrency.MainActor(unsafe) public static func preWKWebViewConfiguration(options: flutter_inappwebview.InAppWebViewOptions?) -> WebKit.WKWebViewConfiguration
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   @_Concurrency.MainActor(unsafe) public func initializeWindowIdJS()
   @_Concurrency.MainActor(unsafe) public func goBackOrForward(steps: Swift.Int)
   @_Concurrency.MainActor(unsafe) public func canGoBackOrForward(steps: Swift.Int) -> Swift.Bool
@@ -201,7 +199,7 @@ public protocol InAppBrowserDelegate {
   @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, runJavaScriptAlertPanelWithMessage message: Swift.String, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping () -> Swift.Void)
   @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, runJavaScriptConfirmPanelWithMessage message: Swift.String, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, runJavaScriptTextInputPanelWithPrompt message: Swift.String, defaultText defaultValue: Swift.String?, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping (Swift.String?) -> Swift.Void)
-  @_Concurrency.MainActor(unsafe) public func onScrollChanged(startedByUser: Swift.Bool, oldContentOffset: CoreFoundation.CGPoint?)
+  @_Concurrency.MainActor(unsafe) public func onScrollChanged(startedByUser: Swift.Bool, oldContentOffset: CoreGraphics.CGPoint?)
   @_Concurrency.MainActor(unsafe) @objc public func scrollViewDidZoom(_ scrollView: UIKit.UIScrollView)
   @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
   @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, authenticationChallenge challenge: Foundation.URLAuthenticationChallenge, shouldAllowDeprecatedTLS decisionHandler: @escaping (Swift.Bool) -> Swift.Void)
@@ -269,7 +267,7 @@ public protocol InAppBrowserDelegate {
   @_Concurrency.MainActor(unsafe) public func dispose()
   @objc deinit
   @_Concurrency.MainActor(unsafe) @objc override dynamic public var inputAccessoryView: UIKit.UIView? {
-    @objc get
+    @_Concurrency.MainActor(unsafe) @objc get
   }
 }
 @objc @_hasMissingDesignatedInitializers public class InAppWebViewMethodHandler : flutter_inappwebview.FlutterMethodCallDelegate {
@@ -437,7 +435,7 @@ extension Foundation.URLResponse {
   @objc deinit
 }
 @objc public class WebMessageListener : flutter_inappwebview.FlutterMethodCallDelegate {
-  public init(id: Swift.String, jsObjectName: Swift.String, allowedOriginRules: Swift.Set<Swift.String>)
+  public init(jsObjectName: Swift.String, allowedOriginRules: Swift.Set<Swift.String>)
   public func assertOriginRulesValid() throws
   public func initJsInstance(webView: flutter_inappwebview.InAppWebView)
   public static func fromMap(map: [Swift.String : Any?]?) -> flutter_inappwebview.WebMessageListener?

@@ -1,14 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 effective-4.2 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.6.1 effective-4.2 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -Onone -module-name contacts_service
-// swift-module-flags-ignorable: -enable-bare-slash-regex
 import Contacts
 import ContactsUI
 import Flutter
 import Swift
 import UIKit
 import _Concurrency
-import _StringProcessing
 @_exported import contacts_service
 @objc @_hasMissingDesignatedInitializers @available(iOS 9.0, *)
 public class SwiftContactsServicePlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin, ContactsUI.CNContactViewControllerDelegate, ContactsUI.CNContactPickerDelegate {

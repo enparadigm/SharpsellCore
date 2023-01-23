@@ -62,15 +62,20 @@ public struct SharpSellWrapper{
     public mutating func createFlutterEngine(){
         NSLog("Sharpsell: Creating Flutter Engine....")
         //            os_log(.info, log: Log.tracking, "Creating Flutter Engine...")
-        self.flutterEngine = FlutterEngine(name: flutterEngineIdentifer)
-        guard let myengine = self.flutterEngine else {
-            NSLog("Sharpsell Error: Flutter Engine not assigned")
-            return
+        do {
+            self.flutterEngine = try FlutterEngine(name: flutterEngineIdentifer)
+            guard let myengine = self.flutterEngine else {
+                NSLog("Sharpsell Error: Flutter Engine not assigned")
+                return
+            }
+            myengine.run()
+            NSLog("Sharpsell: Flutter Engine Sucessfully Created!")
+            GeneratedPluginRegistrant.register(with: myengine)
+            isFlutterEngineCreated = true
+        } catch{
+            NSLog("Sharpsell: Flutter Engine causing unexpected error - \(error)")
         }
-        myengine.run()
-        NSLog("Sharpsell: Flutter Engine Sucessfully Created!")
-        GeneratedPluginRegistrant.register(with: myengine)
-        isFlutterEngineCreated = true
+       
     }
     
     /// initialize the flutter communication between native and flutter code
