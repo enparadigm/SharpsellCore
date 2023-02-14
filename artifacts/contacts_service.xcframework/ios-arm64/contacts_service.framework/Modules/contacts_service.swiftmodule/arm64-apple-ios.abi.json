@@ -1,0 +1,362 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "contacts_service"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "contacts_service"
+      },
+      {
+        "kind": "Import",
+        "name": "Contacts",
+        "printedName": "Contacts",
+        "declKind": "Import",
+        "moduleName": "contacts_service"
+      },
+      {
+        "kind": "Import",
+        "name": "ContactsUI",
+        "printedName": "ContactsUI",
+        "declKind": "Import",
+        "moduleName": "contacts_service"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftContactsServicePlugin",
+        "printedName": "SwiftContactsServicePlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@contacts_service@objc(cs)SwiftContactsServicePlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s16contacts_service26SwiftContactsServicePluginC8register4withySo07FlutterF9Registrar_p_tFZ",
+            "moduleName": "contacts_service",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@contacts_service@objc(cs)SwiftContactsServicePlugin(im)handleMethodCall:result:",
+            "mangledName": "$s16contacts_service26SwiftContactsServicePluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "contacts_service",
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "contactViewController",
+            "printedName": "contactViewController(_:didCompleteWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CNContactViewController",
+                "printedName": "ContactsUI.CNContactViewController",
+                "usr": "c:objc(cs)CNContactViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Contacts.CNContact?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CNContact",
+                    "printedName": "Contacts.CNContact",
+                    "usr": "c:objc(cs)CNContact"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@contacts_service@objc(cs)SwiftContactsServicePlugin(im)contactViewController:didCompleteWithContact:",
+            "mangledName": "$s16contacts_service26SwiftContactsServicePluginC21contactViewController_15didCompleteWithySo09CNContacthI0C_So0M0CSgtF",
+            "moduleName": "contacts_service",
+            "objc_name": "contactViewController:didCompleteWithContact:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "contactPicker",
+            "printedName": "contactPicker(_:didSelect:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CNContactPickerViewController",
+                "printedName": "ContactsUI.CNContactPickerViewController",
+                "usr": "c:objc(cs)CNContactPickerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CNContact",
+                "printedName": "Contacts.CNContact",
+                "usr": "c:objc(cs)CNContact"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@contacts_service@objc(cs)SwiftContactsServicePlugin(im)contactPicker:didSelectContact:",
+            "mangledName": "$s16contacts_service26SwiftContactsServicePluginC13contactPicker_9didSelectySo09CNContactH14ViewControllerC_So0K0CtF",
+            "moduleName": "contacts_service",
+            "objc_name": "contactPicker:didSelectContact:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "contactPickerDidCancel",
+            "printedName": "contactPickerDidCancel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CNContactPickerViewController",
+                "printedName": "ContactsUI.CNContactPickerViewController",
+                "usr": "c:objc(cs)CNContactPickerViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@contacts_service@objc(cs)SwiftContactsServicePlugin(im)contactPickerDidCancel:",
+            "mangledName": "$s16contacts_service26SwiftContactsServicePluginC22contactPickerDidCancelyySo09CNContactH14ViewControllerCF",
+            "moduleName": "contacts_service",
+            "objc_name": "contactPickerDidCancel:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftContactsServicePlugin",
+                "printedName": "contacts_service.SwiftContactsServicePlugin",
+                "usr": "c:@M@contacts_service@objc(cs)SwiftContactsServicePlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@contacts_service@objc(cs)SwiftContactsServicePlugin(im)init",
+            "mangledName": "$s16contacts_service26SwiftContactsServicePluginCACycfc",
+            "moduleName": "contacts_service",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@contacts_service@objc(cs)SwiftContactsServicePlugin",
+        "mangledName": "$s16contacts_service26SwiftContactsServicePluginC",
+        "moduleName": "contacts_service",
+        "intro_iOS": "9.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dartlang.org\/contacts_service-0.6.3\/ios\/Classes\/SwiftContactsServicePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 296,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dartlang.org\/contacts_service-0.6.3\/ios\/Classes\/SwiftContactsServicePlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 400,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dartlang.org\/contacts_service-0.6.3\/ios\/Classes\/SwiftContactsServicePlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 447,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dartlang.org\/contacts_service-0.6.3\/ios\/Classes\/SwiftContactsServicePlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4816,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dartlang.org\/contacts_service-0.6.3\/ios\/Classes\/SwiftContactsServicePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 99,
+      "length": 26,
+      "value": "\"contacts_service.SwiftContactsServicePlugin\""
+    }
+  ]
+}

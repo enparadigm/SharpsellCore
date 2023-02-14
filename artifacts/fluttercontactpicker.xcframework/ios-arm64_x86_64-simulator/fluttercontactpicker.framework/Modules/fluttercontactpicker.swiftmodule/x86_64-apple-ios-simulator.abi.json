@@ -1,0 +1,454 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "fluttercontactpicker",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ContactsUI",
+        "printedName": "ContactsUI",
+        "declKind": "Import",
+        "moduleName": "fluttercontactpicker"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContactPickerDelegate",
+        "printedName": "ContactPickerDelegate",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(result:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ContactPickerDelegate",
+                "printedName": "fluttercontactpicker.ContactPickerDelegate",
+                "usr": "c:@M@fluttercontactpicker@objc(cs)ContactPickerDelegate"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20fluttercontactpicker21ContactPickerDelegateC6result4typeACyypSgc_SStcfc",
+            "mangledName": "$s20fluttercontactpicker21ContactPickerDelegateC6result4typeACyypSgc_SStcfc",
+            "moduleName": "fluttercontactpicker",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "contactPicker",
+            "printedName": "contactPicker(_:didSelect:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CNContactPickerViewController",
+                "printedName": "ContactsUI.CNContactPickerViewController",
+                "usr": "c:objc(cs)CNContactPickerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CNContactProperty",
+                "printedName": "Contacts.CNContactProperty",
+                "usr": "c:objc(cs)CNContactProperty"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fluttercontactpicker@objc(cs)ContactPickerDelegate(im)contactPicker:didSelectContactProperty:",
+            "mangledName": "$s20fluttercontactpicker21ContactPickerDelegateC07contactC0_9didSelectySo09CNContactC14ViewControllerC_So0H8PropertyCtF",
+            "moduleName": "fluttercontactpicker",
+            "isOpen": true,
+            "objc_name": "contactPicker:didSelectContactProperty:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "contactPickerDidCancel",
+            "printedName": "contactPickerDidCancel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CNContactPickerViewController",
+                "printedName": "ContactsUI.CNContactPickerViewController",
+                "usr": "c:objc(cs)CNContactPickerViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fluttercontactpicker@objc(cs)ContactPickerDelegate(im)contactPickerDidCancel:",
+            "mangledName": "$s20fluttercontactpicker21ContactPickerDelegateC07contactC9DidCancelyySo09CNContactC14ViewControllerCF",
+            "moduleName": "fluttercontactpicker",
+            "isOpen": true,
+            "objc_name": "contactPickerDidCancel:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ContactPickerDelegate",
+                "printedName": "fluttercontactpicker.ContactPickerDelegate",
+                "usr": "c:@M@fluttercontactpicker@objc(cs)ContactPickerDelegate"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@fluttercontactpicker@objc(cs)ContactPickerDelegate(im)init",
+            "mangledName": "$s20fluttercontactpicker21ContactPickerDelegateCACycfc",
+            "moduleName": "fluttercontactpicker",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@fluttercontactpicker@objc(cs)ContactPickerDelegate",
+        "mangledName": "$s20fluttercontactpicker21ContactPickerDelegateC",
+        "moduleName": "fluttercontactpicker",
+        "isOpen": true,
+        "intro_iOS": "9.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "fluttercontactpicker"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "fluttercontactpicker"
+      },
+      {
+        "kind": "Import",
+        "name": "ContactsUI",
+        "printedName": "ContactsUI",
+        "declKind": "Import",
+        "moduleName": "fluttercontactpicker"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftFlutterContactPickerPlugin",
+        "printedName": "SwiftFlutterContactPickerPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fluttercontactpicker@objc(cs)SwiftFlutterContactPickerPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s20fluttercontactpicker31SwiftFlutterContactPickerPluginC8register4withySo0cF9Registrar_p_tFZ",
+            "moduleName": "fluttercontactpicker",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fluttercontactpicker@objc(cs)SwiftFlutterContactPickerPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s20fluttercontactpicker31SwiftFlutterContactPickerPluginC6handle_6resultySo0C10MethodCallC_yypSgctF",
+            "moduleName": "fluttercontactpicker",
+            "isOpen": true,
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftFlutterContactPickerPlugin",
+                "printedName": "fluttercontactpicker.SwiftFlutterContactPickerPlugin",
+                "usr": "c:@M@fluttercontactpicker@objc(cs)SwiftFlutterContactPickerPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@fluttercontactpicker@objc(cs)SwiftFlutterContactPickerPlugin(im)init",
+            "mangledName": "$s20fluttercontactpicker31SwiftFlutterContactPickerPluginCACycfc",
+            "moduleName": "fluttercontactpicker",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@fluttercontactpicker@objc(cs)SwiftFlutterContactPickerPlugin",
+        "mangledName": "$s20fluttercontactpicker31SwiftFlutterContactPickerPluginC",
+        "moduleName": "fluttercontactpicker",
+        "isOpen": true,
+        "intro_iOS": "9.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dartlang.org\/fluttercontactpicker-4.7.0\/ios\/Classes\/FlutterContactPickerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
+      "length": 21,
+      "value": "\"fluttercontactpicker.ContactPickerDelegate\""
+    }
+  ]
+}
