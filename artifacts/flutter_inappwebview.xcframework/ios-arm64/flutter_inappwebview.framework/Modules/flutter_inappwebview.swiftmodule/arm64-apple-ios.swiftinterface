@@ -437,7 +437,7 @@ extension Foundation.URLResponse {
   @objc deinit
 }
 @objc public class WebMessageListener : flutter_inappwebview.FlutterMethodCallDelegate {
-  public init(id: Swift.String, jsObjectName: Swift.String, allowedOriginRules: Swift.Set<Swift.String>)
+  public init(jsObjectName: Swift.String, allowedOriginRules: Swift.Set<Swift.String>)
   public func assertOriginRulesValid() throws
   public func initJsInstance(webView: flutter_inappwebview.InAppWebView)
   public static func fromMap(map: [Swift.String : Any?]?) -> flutter_inappwebview.WebMessageListener?
