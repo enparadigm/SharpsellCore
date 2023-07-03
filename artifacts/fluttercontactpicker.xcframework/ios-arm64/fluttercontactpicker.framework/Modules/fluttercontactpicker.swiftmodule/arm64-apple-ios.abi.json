@@ -27,6 +27,55 @@
         "printedName": "ContactPickerDelegate",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(result:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ContactPickerDelegate",
+                "printedName": "fluttercontactpicker.ContactPickerDelegate",
+                "usr": "c:@M@fluttercontactpicker@objc(cs)ContactPickerDelegate"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20fluttercontactpicker21ContactPickerDelegateC6result4typeACyypSgc_SStcfc",
+            "mangledName": "$s20fluttercontactpicker21ContactPickerDelegateC6result4typeACyypSgc_SStcfc",
+            "moduleName": "fluttercontactpicker",
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "contactPicker",
             "printedName": "contactPicker(_:didSelect:)",
@@ -53,6 +102,7 @@
             "usr": "c:@M@fluttercontactpicker@objc(cs)ContactPickerDelegate(im)contactPicker:didSelectContactProperty:",
             "mangledName": "$s20fluttercontactpicker21ContactPickerDelegateC07contactC0_9didSelectySo09CNContactC14ViewControllerC_So0H8PropertyCtF",
             "moduleName": "fluttercontactpicker",
+            "isOpen": true,
             "objc_name": "contactPicker:didSelectContactProperty:",
             "declAttributes": [
               "ObjC",
@@ -81,6 +131,7 @@
             "usr": "c:@M@fluttercontactpicker@objc(cs)ContactPickerDelegate(im)contactPickerDidCancel:",
             "mangledName": "$s20fluttercontactpicker21ContactPickerDelegateC07contactC9DidCancelyySo09CNContactC14ViewControllerCF",
             "moduleName": "fluttercontactpicker",
+            "isOpen": true,
             "objc_name": "contactPickerDidCancel:",
             "declAttributes": [
               "ObjC",
@@ -119,6 +170,7 @@
         "usr": "c:@M@fluttercontactpicker@objc(cs)ContactPickerDelegate",
         "mangledName": "$s20fluttercontactpicker21ContactPickerDelegateC",
         "moduleName": "fluttercontactpicker",
+        "isOpen": true,
         "intro_iOS": "9.0",
         "declAttributes": [
           "AccessControl",
@@ -284,6 +336,7 @@
             "usr": "c:@M@fluttercontactpicker@objc(cs)SwiftFlutterContactPickerPlugin(im)handleMethodCall:result:",
             "mangledName": "$s20fluttercontactpicker31SwiftFlutterContactPickerPluginC6handle_6resultySo0C10MethodCallC_yypSgctF",
             "moduleName": "fluttercontactpicker",
+            "isOpen": true,
             "objc_name": "handleMethodCall:result:",
             "declAttributes": [
               "ObjC",
@@ -322,6 +375,7 @@
         "usr": "c:@M@fluttercontactpicker@objc(cs)SwiftFlutterContactPickerPlugin",
         "mangledName": "$s20fluttercontactpicker31SwiftFlutterContactPickerPluginC",
         "moduleName": "fluttercontactpicker",
+        "isOpen": true,
         "intro_iOS": "9.0",
         "declAttributes": [
           "AccessControl",
@@ -390,7 +444,7 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/fluttercontactpicker-4.7.0\/ios\/Classes\/FlutterContactPickerDelegate.swift",
+      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/fluttercontactpicker-4.7.0\/ios\/Classes\/FlutterContactPickerDelegate.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 21,

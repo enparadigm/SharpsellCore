@@ -34,6 +34,195 @@
         "printedName": "SwiftSharpsellPlugin",
         "children": [
           {
+            "kind": "Var",
+            "name": "channel",
+            "printedName": "channel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodChannel",
+                "printedName": "Flutter.FlutterMethodChannel",
+                "usr": "c:objc(cs)FlutterMethodChannel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9sharpsell20SwiftSharpsellPluginC7channelSo20FlutterMethodChannelCvpZ",
+            "mangledName": "$s9sharpsell20SwiftSharpsellPluginC7channelSo20FlutterMethodChannelCvpZ",
+            "moduleName": "sharpsell",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterMethodChannel",
+                    "printedName": "Flutter.FlutterMethodChannel",
+                    "usr": "c:objc(cs)FlutterMethodChannel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9sharpsell20SwiftSharpsellPluginC7channelSo20FlutterMethodChannelCvgZ",
+                "mangledName": "$s9sharpsell20SwiftSharpsellPluginC7channelSo20FlutterMethodChannelCvgZ",
+                "moduleName": "sharpsell",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterMethodChannel",
+                    "printedName": "Flutter.FlutterMethodChannel",
+                    "usr": "c:objc(cs)FlutterMethodChannel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9sharpsell20SwiftSharpsellPluginC7channelSo20FlutterMethodChannelCvsZ",
+                "mangledName": "$s9sharpsell20SwiftSharpsellPluginC7channelSo20FlutterMethodChannelCvsZ",
+                "moduleName": "sharpsell",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9sharpsell20SwiftSharpsellPluginC7channelSo20FlutterMethodChannelCvMZ",
+                "mangledName": "$s9sharpsell20SwiftSharpsellPluginC7channelSo20FlutterMethodChannelCvMZ",
+                "moduleName": "sharpsell",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "documentInteractionController",
+            "printedName": "documentInteractionController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIDocumentInteractionController",
+                "printedName": "UIKit.UIDocumentInteractionController",
+                "usr": "c:objc(cs)UIDocumentInteractionController"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9sharpsell20SwiftSharpsellPluginC29documentInteractionControllerSo010UIDocumentfG0Cvp",
+            "mangledName": "$s9sharpsell20SwiftSharpsellPluginC29documentInteractionControllerSo010UIDocumentfG0Cvp",
+            "moduleName": "sharpsell",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIDocumentInteractionController",
+                    "printedName": "UIKit.UIDocumentInteractionController",
+                    "usr": "c:objc(cs)UIDocumentInteractionController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9sharpsell20SwiftSharpsellPluginC29documentInteractionControllerSo010UIDocumentfG0Cvg",
+                "mangledName": "$s9sharpsell20SwiftSharpsellPluginC29documentInteractionControllerSo010UIDocumentfG0Cvg",
+                "moduleName": "sharpsell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIDocumentInteractionController",
+                    "printedName": "UIKit.UIDocumentInteractionController",
+                    "usr": "c:objc(cs)UIDocumentInteractionController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9sharpsell20SwiftSharpsellPluginC29documentInteractionControllerSo010UIDocumentfG0Cvs",
+                "mangledName": "$s9sharpsell20SwiftSharpsellPluginC29documentInteractionControllerSo010UIDocumentfG0Cvs",
+                "moduleName": "sharpsell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9sharpsell20SwiftSharpsellPluginC29documentInteractionControllerSo010UIDocumentfG0CvM",
+                "mangledName": "$s9sharpsell20SwiftSharpsellPluginC29documentInteractionControllerSo010UIDocumentfG0CvM",
+                "moduleName": "sharpsell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "register",
             "printedName": "register(with:)",
@@ -109,6 +298,7 @@
             "usr": "c:@M@sharpsell@objc(cs)SwiftSharpsellPlugin(im)handleMethodCall:result:",
             "mangledName": "$s9sharpsell20SwiftSharpsellPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
             "moduleName": "sharpsell",
+            "isOpen": true,
             "objc_name": "handleMethodCall:result:",
             "declAttributes": [
               "ObjC",
@@ -141,12 +331,392 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showVideoChallenge",
+            "printedName": "showVideoChallenge(notification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Notification",
+                "printedName": "Foundation.Notification",
+                "usr": "s:10Foundation12NotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@sharpsell@objc(cs)SwiftSharpsellPlugin(im)showVideoChallengeWithNotification:",
+            "mangledName": "$s9sharpsell20SwiftSharpsellPluginC18showVideoChallenge12notificationy10Foundation12NotificationV_tF",
+            "moduleName": "sharpsell",
+            "isOpen": true,
+            "objc_name": "showVideoChallengeWithNotification:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "SocialShare",
+            "printedName": "SocialShare",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "whatsapp",
+                "printedName": "whatsapp",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(sharpsell.SwiftSharpsellPlugin.SocialShare.Type) -> sharpsell.SwiftSharpsellPlugin.SocialShare",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocialShare",
+                        "printedName": "sharpsell.SwiftSharpsellPlugin.SocialShare",
+                        "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "sharpsell.SwiftSharpsellPlugin.SocialShare.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocialShare",
+                            "printedName": "sharpsell.SwiftSharpsellPlugin.SocialShare",
+                            "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO8whatsappyA2EmF",
+                "mangledName": "$s9sharpsell20SwiftSharpsellPluginC11SocialShareO8whatsappyA2EmF",
+                "moduleName": "sharpsell",
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "linkedIn",
+                "printedName": "linkedIn",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(sharpsell.SwiftSharpsellPlugin.SocialShare.Type) -> sharpsell.SwiftSharpsellPlugin.SocialShare",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocialShare",
+                        "printedName": "sharpsell.SwiftSharpsellPlugin.SocialShare",
+                        "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "sharpsell.SwiftSharpsellPlugin.SocialShare.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocialShare",
+                            "printedName": "sharpsell.SwiftSharpsellPlugin.SocialShare",
+                            "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO8linkedInyA2EmF",
+                "mangledName": "$s9sharpsell20SwiftSharpsellPluginC11SocialShareO8linkedInyA2EmF",
+                "moduleName": "sharpsell",
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "twitter",
+                "printedName": "twitter",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(sharpsell.SwiftSharpsellPlugin.SocialShare.Type) -> sharpsell.SwiftSharpsellPlugin.SocialShare",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocialShare",
+                        "printedName": "sharpsell.SwiftSharpsellPlugin.SocialShare",
+                        "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "sharpsell.SwiftSharpsellPlugin.SocialShare.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocialShare",
+                            "printedName": "sharpsell.SwiftSharpsellPlugin.SocialShare",
+                            "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO7twitteryA2EmF",
+                "mangledName": "$s9sharpsell20SwiftSharpsellPluginC11SocialShareO7twitteryA2EmF",
+                "moduleName": "sharpsell",
+                "fixedbinaryorder": 2
+              },
+              {
+                "kind": "Var",
+                "name": "facebook",
+                "printedName": "facebook",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(sharpsell.SwiftSharpsellPlugin.SocialShare.Type) -> sharpsell.SwiftSharpsellPlugin.SocialShare",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocialShare",
+                        "printedName": "sharpsell.SwiftSharpsellPlugin.SocialShare",
+                        "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "sharpsell.SwiftSharpsellPlugin.SocialShare.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocialShare",
+                            "printedName": "sharpsell.SwiftSharpsellPlugin.SocialShare",
+                            "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO8facebookyA2EmF",
+                "mangledName": "$s9sharpsell20SwiftSharpsellPluginC11SocialShareO8facebookyA2EmF",
+                "moduleName": "sharpsell",
+                "fixedbinaryorder": 3
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "sharpsell.SwiftSharpsellPlugin.SocialShare?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocialShare",
+                        "printedName": "sharpsell.SwiftSharpsellPlugin.SocialShare",
+                        "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO8rawValueAESgSS_tcfc",
+                "mangledName": "$s9sharpsell20SwiftSharpsellPluginC11SocialShareO8rawValueAESgSS_tcfc",
+                "moduleName": "sharpsell",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO8rawValueSSvp",
+                "mangledName": "$s9sharpsell20SwiftSharpsellPluginC11SocialShareO8rawValueSSvp",
+                "moduleName": "sharpsell",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO8rawValueSSvg",
+                    "mangledName": "$s9sharpsell20SwiftSharpsellPluginC11SocialShareO8rawValueSSvg",
+                    "moduleName": "sharpsell",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:9sharpsell20SwiftSharpsellPluginC11SocialShareO",
+            "mangledName": "$s9sharpsell20SwiftSharpsellPluginC11SocialShareO",
+            "moduleName": "sharpsell",
+            "isFromExtension": true,
+            "enumRawTypeName": "String",
+            "isEnumExhaustive": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "shareData",
+            "printedName": "shareData(dict:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9sharpsell20SwiftSharpsellPluginC9shareData4dict6resultySDySSypG_yypSgXEtF",
+            "mangledName": "$s9sharpsell20SwiftSharpsellPluginC9shareData4dict6resultySDySSypG_yypSgXEtF",
+            "moduleName": "sharpsell",
+            "isOpen": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
         "usr": "c:@M@sharpsell@objc(cs)SwiftSharpsellPlugin",
         "mangledName": "$s9sharpsell20SwiftSharpsellPluginC",
         "moduleName": "sharpsell",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjC"
@@ -207,62 +777,187 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIApplication",
+        "printedName": "UIApplication",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "topViewController",
+            "printedName": "topViewController(base:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So13UIApplicationC9sharpsellE17topViewController4baseSo06UIViewE0CSgAH_tFZ",
+            "mangledName": "$sSo13UIApplicationC9sharpsellE17topViewController4baseSo06UIViewE0CSgAH_tFZ",
+            "moduleName": "sharpsell",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIApplication",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIApplication",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jayaramharshavardhanballa\/workspace\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/thegarvitrai\/Documents\/Programs\/Sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
       "offset": 12829,
       "length": 11,
       "value": "\"whats_app\""
     },
     {
-      "filePath": "\/Users\/jayaramharshavardhanballa\/workspace\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/thegarvitrai\/Documents\/Programs\/Sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
       "offset": 12865,
       "length": 11,
       "value": "\"linked_in\""
     },
     {
-      "filePath": "\/Users\/jayaramharshavardhanballa\/workspace\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/thegarvitrai\/Documents\/Programs\/Sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
       "offset": 12900,
       "length": 9,
       "value": "\"twitter\""
     },
     {
-      "filePath": "\/Users\/jayaramharshavardhanballa\/workspace\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/thegarvitrai\/Documents\/Programs\/Sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
       "offset": 12934,
       "length": 11,
       "value": "\"face_book\""
     },
     {
-      "filePath": "\/Users\/jayaramharshavardhanballa\/workspace\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/thegarvitrai\/Documents\/Programs\/Sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
       "offset": 12829,
       "length": 11,
       "value": "\"whats_app\""
     },
     {
-      "filePath": "\/Users\/jayaramharshavardhanballa\/workspace\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/thegarvitrai\/Documents\/Programs\/Sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
       "offset": 12865,
       "length": 11,
       "value": "\"linked_in\""
     },
     {
-      "filePath": "\/Users\/jayaramharshavardhanballa\/workspace\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/thegarvitrai\/Documents\/Programs\/Sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
       "offset": 12900,
       "length": 9,
       "value": "\"twitter\""
     },
     {
-      "filePath": "\/Users\/jayaramharshavardhanballa\/workspace\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/thegarvitrai\/Documents\/Programs\/Sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
       "offset": 12934,
       "length": 11,
