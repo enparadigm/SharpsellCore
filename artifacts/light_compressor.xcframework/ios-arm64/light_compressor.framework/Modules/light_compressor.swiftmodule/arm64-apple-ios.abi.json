@@ -570,7 +570,6 @@
             "usr": "s:16light_compressor11CompressionC6cancelSbvp",
             "mangledName": "$s16light_compressor11CompressionC6cancelSbvp",
             "moduleName": "light_compressor",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -595,7 +594,6 @@
                 "mangledName": "$s16light_compressor11CompressionC6cancelSbvg",
                 "moduleName": "light_compressor",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -620,7 +618,6 @@
                 "mangledName": "$s16light_compressor11CompressionC6cancelSbvs",
                 "moduleName": "light_compressor",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -639,7 +636,6 @@
                 "mangledName": "$s16light_compressor11CompressionC6cancelSbvM",
                 "moduleName": "light_compressor",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -649,7 +645,6 @@
         "usr": "s:16light_compressor11CompressionC",
         "mangledName": "$s16light_compressor11CompressionC",
         "moduleName": "light_compressor",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -703,31 +698,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(title:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CompressionError",
-                "printedName": "light_compressor.CompressionError",
-                "usr": "s:16light_compressor16CompressionErrorV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16light_compressor16CompressionErrorV5titleACSS_tcfc",
-            "mangledName": "$s16light_compressor16CompressionErrorV5titleACSS_tcfc",
-            "moduleName": "light_compressor",
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -1013,7 +983,6 @@
             "usr": "c:@M@light_compressor@objc(cs)SwiftLightCompressorPlugin(im)handleMethodCall:result:",
             "mangledName": "$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
             "moduleName": "light_compressor",
-            "isOpen": true,
             "objc_name": "handleMethodCall:result:",
             "declAttributes": [
               "ObjC",
@@ -1083,7 +1052,6 @@
             "usr": "c:@M@light_compressor@objc(cs)SwiftLightCompressorPlugin(im)onListenWithArguments:eventSink:",
             "mangledName": "$s16light_compressor26SwiftLightCompressorPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
             "moduleName": "light_compressor",
-            "isOpen": true,
             "objc_name": "onListenWithArguments:eventSink:",
             "declAttributes": [
               "ObjC",
@@ -1128,7 +1096,6 @@
             "usr": "c:@M@light_compressor@objc(cs)SwiftLightCompressorPlugin(im)onCancelWithArguments:",
             "mangledName": "$s16light_compressor26SwiftLightCompressorPluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
             "moduleName": "light_compressor",
-            "isOpen": true,
             "objc_name": "onCancelWithArguments:",
             "declAttributes": [
               "ObjC",
@@ -1167,7 +1134,6 @@
         "usr": "c:@M@light_compressor@objc(cs)SwiftLightCompressorPlugin",
         "mangledName": "$s16light_compressor26SwiftLightCompressorPluginC",
         "moduleName": "light_compressor",
-        "isOpen": true,
         "intro_iOS": "11.0",
         "declAttributes": [
           "AccessControl",
@@ -1230,117 +1196,48 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Encodable",
-        "printedName": "Encodable",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "toJson",
-            "printedName": "toJson",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:SE16light_compressorE6toJsonSSSgvp",
-            "mangledName": "$sSE16light_compressorE6toJsonSSSgvp",
-            "moduleName": "light_compressor",
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:SE16light_compressorE6toJsonSSSgvg",
-                "mangledName": "$sSE16light_compressorE6toJsonSSSgvg",
-                "moduleName": "light_compressor",
-                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Encodable>",
-                "sugared_genericSig": "<Self where Self : Swift.Encodable>",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:SE",
-        "mangledName": "$sSE",
-        "moduleName": "Swift",
-        "isExternal": true
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
       "kind": "BooleanLiteral",
       "offset": 432,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
       "kind": "StringLiteral",
       "offset": 582,
       "length": 19,
       "value": "\"Compression Error\""
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
       "kind": "IntegerLiteral",
       "offset": 766,
       "length": 7,
       "value": "2000000"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
       "kind": "FloatLiteral",
       "offset": 805,
       "length": 5,
       "value": "640.0"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
       "kind": "FloatLiteral",
       "offset": 840,
       "length": 5,
       "value": "360.0"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
       "kind": "BooleanLiteral",
       "offset": 2091,
       "length": 4,
