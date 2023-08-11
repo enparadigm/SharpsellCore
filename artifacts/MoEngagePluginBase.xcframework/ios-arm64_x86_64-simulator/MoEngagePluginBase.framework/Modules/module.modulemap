@@ -1,0 +1,11 @@
+framework module MoEngagePluginBase {
+  umbrella header "MoEngagePluginBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MoEngagePluginBase.Swift {
+  header "MoEngagePluginBase-Swift.h"
+  requires objc
+}

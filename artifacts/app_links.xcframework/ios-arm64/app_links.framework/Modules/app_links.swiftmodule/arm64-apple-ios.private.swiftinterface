@@ -1,0 +1,20 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name app_links
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Flutter
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@_exported import app_links
+@objc @_inheritsConvenienceInitializers final public class SwiftAppLinksPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin, Flutter.FlutterStreamHandler {
+  @objc public static func register(with registrar: Flutter.FlutterPluginRegistrar)
+  @objc final public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @objc final public func application(_ application: UIKit.UIApplication, continue userActivity: Foundation.NSUserActivity, restorationHandler: @escaping ([Any]) -> Swift.Void) -> Swift.Bool
+  @objc final public func application(_ application: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
+  @objc final public func onListen(withArguments arguments: Any?, eventSink events: @escaping Flutter.FlutterEventSink) -> Flutter.FlutterError?
+  @objc final public func onCancel(withArguments arguments: Any?) -> Flutter.FlutterError?
+  @objc override dynamic public init()
+  @objc deinit
+}

@@ -1,0 +1,3888 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageSDK",
+        "printedName": "MoEngageSDK",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase"
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageInApps",
+        "printedName": "MoEngageInApps",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoEngagePlugin",
+        "printedName": "MoEngagePlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initializeDefaultInstance",
+            "printedName": "initializeDefaultInstance(sdkConfig:sdkState:launchOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageSDKConfig",
+                "printedName": "MoEngageCore.MoEngageSDKConfig",
+                "usr": "c:@M@MoEngageCore@objc(cs)MoEngageSDKConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageSDKState",
+                "printedName": "MoEngageCore.MoEngageSDKState",
+                "usr": "c:@M@MoEngageCore@E@MoEngageSDKState"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LaunchOptionsKey",
+                        "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                        "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePlugin(im)initializeDefaultInstanceWithSdkConfig:sdkState:launchOptions:",
+            "mangledName": "$s18MoEngagePluginBase0abC0C25initializeDefaultInstance9sdkConfig0H5State13launchOptionsy0aB4Core0aB9SDKConfigC_AH0aB8SDKStateOSDySo019UIApplicationLaunchL3KeyaypGSgtF",
+            "moduleName": "MoEngagePluginBase",
+            "objc_name": "initializeDefaultInstanceWithSdkConfig:sdkState:launchOptions:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeDefaultInstance",
+            "printedName": "initializeDefaultInstance(sdkConfig:launchOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageSDKConfig",
+                "printedName": "MoEngageCore.MoEngageSDKConfig",
+                "usr": "c:@M@MoEngageCore@objc(cs)MoEngageSDKConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LaunchOptionsKey",
+                        "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                        "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePlugin(im)initializeDefaultInstanceWithSdkConfig:launchOptions:",
+            "mangledName": "$s18MoEngagePluginBase0abC0C25initializeDefaultInstance9sdkConfig13launchOptionsy0aB4Core0aB9SDKConfigC_SDySo019UIApplicationLaunchK3KeyaypGSgtF",
+            "moduleName": "MoEngagePluginBase",
+            "objc_name": "initializeDefaultInstanceWithSdkConfig:launchOptions:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeInstance",
+            "printedName": "initializeInstance(sdkConfig:sdkState:launchOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageSDKConfig",
+                "printedName": "MoEngageCore.MoEngageSDKConfig",
+                "usr": "c:@M@MoEngageCore@objc(cs)MoEngageSDKConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageSDKState",
+                "printedName": "MoEngageCore.MoEngageSDKState",
+                "usr": "c:@M@MoEngageCore@E@MoEngageSDKState"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LaunchOptionsKey",
+                        "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                        "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePlugin(im)initializeInstanceWithSdkConfig:sdkState:launchOptions:",
+            "mangledName": "$s18MoEngagePluginBase0abC0C18initializeInstance9sdkConfig0G5State13launchOptionsy0aB4Core0aB9SDKConfigC_AH0aB8SDKStateOSDySo019UIApplicationLaunchK3KeyaypGSgtF",
+            "moduleName": "MoEngagePluginBase",
+            "objc_name": "initializeInstanceWithSdkConfig:sdkState:launchOptions:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeInstance",
+            "printedName": "initializeInstance(sdkConfig:launchOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageSDKConfig",
+                "printedName": "MoEngageCore.MoEngageSDKConfig",
+                "usr": "c:@M@MoEngageCore@objc(cs)MoEngageSDKConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LaunchOptionsKey",
+                        "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                        "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePlugin(im)initializeInstanceWithSdkConfig:launchOptions:",
+            "mangledName": "$s18MoEngagePluginBase0abC0C18initializeInstance9sdkConfig13launchOptionsy0aB4Core0aB9SDKConfigC_SDySo019UIApplicationLaunchJ3KeyaypGSgtF",
+            "moduleName": "MoEngagePluginBase",
+            "objc_name": "initializeInstanceWithSdkConfig:launchOptions:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackPluginInfo",
+            "printedName": "trackPluginInfo(_:version:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePlugin(im)trackPluginInfo:version:",
+            "mangledName": "$s18MoEngagePluginBase0abC0C05trackC4Info_7versionySS_SStF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngagePlugin",
+                "printedName": "MoEngagePluginBase.MoEngagePlugin",
+                "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePlugin(im)init",
+            "mangledName": "$s18MoEngagePluginBase0abC0CACycfc",
+            "moduleName": "MoEngagePluginBase",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePlugin",
+        "mangledName": "$s18MoEngagePluginBase0abC0C",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "AccessControl",
+          "Final",
+          "ObjC",
+          "Available"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageSDK",
+        "printedName": "MoEngageSDK",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase"
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageInApps",
+        "printedName": "MoEngageInApps",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoEngagePluginBridge",
+        "printedName": "MoEngagePluginBridge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngagePluginBridge",
+                "printedName": "MoEngagePluginBase.MoEngagePluginBridge",
+                "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(cpy)sharedInstance",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC14sharedInstanceACvpZ",
+            "moduleName": "MoEngagePluginBase",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoEngagePluginBridge",
+                    "printedName": "MoEngagePluginBase.MoEngagePluginBridge",
+                    "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(cm)sharedInstance",
+                "mangledName": "$s18MoEngagePluginBase0abC6BridgeC14sharedInstanceACvgZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "pluginInitialized",
+            "printedName": "pluginInitialized(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)pluginInitialized:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC17pluginInitializedyySDySSypGF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPluginBridgeDelegate",
+            "printedName": "setPluginBridgeDelegate(_:identifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngagePluginBridgeDelegate",
+                "printedName": "MoEngagePluginBase.MoEngagePluginBridgeDelegate",
+                "usr": "c:@M@MoEngagePluginBase@objc(pl)MoEngagePluginBridgeDelegate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)setPluginBridgeDelegate:identifier:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC03setcE8Delegate_10identifieryAA0abceG0_p_SStF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPluginBridgeDelegate",
+            "printedName": "setPluginBridgeDelegate(_:payload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngagePluginBridgeDelegate",
+                "printedName": "MoEngagePluginBase.MoEngagePluginBridgeDelegate",
+                "usr": "c:@M@MoEngagePluginBase@objc(pl)MoEngagePluginBridgeDelegate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)setPluginBridgeDelegate:payload:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC03setcE8Delegate_7payloadyAA0abceG0_p_SDySSypGtF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateSDKState",
+            "printedName": "updateSDKState(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)updateSDKState:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC14updateSDKStateyySDySSypGF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "optOutDataTracking",
+            "printedName": "optOutDataTracking(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)optOutDataTracking:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC18optOutDataTrackingyySDySSypGF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAppStatus",
+            "printedName": "setAppStatus(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)setAppStatus:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC12setAppStatusyySDySSypGF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAlias",
+            "printedName": "setAlias(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)setAlias:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC8setAliasyySDySSypGF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserAttribute",
+            "printedName": "setUserAttribute(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)setUserAttribute:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC16setUserAttributeyySDySSypGF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackEvent",
+            "printedName": "trackEvent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)trackEvent:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC10trackEventyySDySSypGF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetUser",
+            "printedName": "resetUser(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)resetUser:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC9resetUseryySDySSypGF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showInApp",
+            "printedName": "showInApp(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)showInApp:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC9showInAppyySDySSypGF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSelfHandledInApp",
+            "printedName": "getSelfHandledInApp(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)getSelfHandledInApp:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC19getSelfHandledInAppyySDySSypGF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setInAppContext",
+            "printedName": "setInAppContext(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)setInAppContext:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC15setInAppContextyySDySSypGF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetInAppContext",
+            "printedName": "resetInAppContext(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)resetInAppContext:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC17resetInAppContextyySDySSypGF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateSelfHandledImpression",
+            "printedName": "updateSelfHandledImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)updateSelfHandledImpression:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC27updateSelfHandledImpressionyySDySSypGF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerForPush",
+            "printedName": "registerForPush()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)registerForPush",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC15registerForPushyyF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validateSDKVersion",
+            "printedName": "validateSDKVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)validateSDKVersion",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC18validateSDKVersionSbyF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge",
+        "mangledName": "$s18MoEngagePluginBase0abC6BridgeC",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "AccessControl",
+          "Final",
+          "ObjC",
+          "Available"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoEngagePluginConstants",
+        "printedName": "MoEngagePluginConstants",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "General",
+            "printedName": "General",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "accountMeta",
+                "printedName": "accountMeta",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV11accountMetaSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV11accountMetaSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV11accountMetaSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV11accountMetaSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "data",
+                "printedName": "data",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV4dataSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV4dataSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV4dataSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV4dataSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "campaignId",
+                "printedName": "campaignId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV10campaignIdSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV10campaignIdSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV10campaignIdSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV10campaignIdSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "platform",
+                "printedName": "platform",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV8platformSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV8platformSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV8platformSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV8platformSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "iOS",
+                "printedName": "iOS",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV3iOSSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV3iOSSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV3iOSSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV3iOSSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "kvPair",
+                "printedName": "kvPair",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV6kvPairSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV6kvPairSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV6kvPairSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV6kvPairSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "value",
+                "printedName": "value",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV5valueSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV5valueSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV5valueSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV5valueSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "navigation",
+                "printedName": "navigation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV10navigationSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV10navigationSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV10navigationSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV10navigationSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "payload",
+                "printedName": "payload",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV7payloadSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV7payloadSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV7payloadSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV7payloadSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "navigationType",
+                "printedName": "navigationType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV14navigationTypeSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV14navigationTypeSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV14navigationTypeSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV14navigationTypeSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "actionType",
+                "printedName": "actionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV10actionTypeSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV10actionTypeSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV10actionTypeSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV10actionTypeSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "type",
+                "printedName": "type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV4typeSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV4typeSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV4typeSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV4typeSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV",
+            "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "UserAttribute",
+            "printedName": "UserAttribute",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "type",
+                "printedName": "type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV4typeSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV4typeSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV4typeSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV4typeSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "attributeName",
+                "printedName": "attributeName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV13attributeNameSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV13attributeNameSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV13attributeNameSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV13attributeNameSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "attributeValue",
+                "printedName": "attributeValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV14attributeValueSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV14attributeValueSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV14attributeValueSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV14attributeValueSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "locationAttribute",
+                "printedName": "locationAttribute",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV08locationG0SSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV08locationG0SSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV08locationG0SSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV08locationG0SSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "latitude",
+                "printedName": "latitude",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV8latitudeSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV8latitudeSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV8latitudeSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV8latitudeSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "longitude",
+                "printedName": "longitude",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV9longitudeSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV9longitudeSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV9longitudeSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV9longitudeSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "general",
+                "printedName": "general",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV7generalSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV7generalSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV7generalSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV7generalSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "timestamp",
+                "printedName": "timestamp",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV9timestampSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV9timestampSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV9timestampSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV9timestampSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "location",
+                "printedName": "location",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV8locationSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV8locationSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV8locationSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV8locationSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18MoEngagePluginBase0abC9ConstantsV13UserAttributeV",
+            "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV13UserAttributeV",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "SDKState",
+            "printedName": "SDKState",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "isSdkEnabled",
+                "printedName": "isSdkEnabled",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV8SDKStateV12isSdkEnabledSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV8SDKStateV12isSdkEnabledSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV8SDKStateV12isSdkEnabledSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV8SDKStateV12isSdkEnabledSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "state",
+                "printedName": "state",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV8SDKStateV5stateSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV8SDKStateV5stateSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV8SDKStateV5stateSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV8SDKStateV5stateSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "data",
+                "printedName": "data",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV8SDKStateV4dataSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV8SDKStateV4dataSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV8SDKStateV4dataSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV8SDKStateV4dataSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18MoEngagePluginBase0abC9ConstantsV8SDKStateV",
+            "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV8SDKStateV",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "InApp",
+            "printedName": "InApp",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "contexts",
+                "printedName": "contexts",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV8contextsSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV8contextsSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV8contextsSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV8contextsSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "impression",
+                "printedName": "impression",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV10impressionSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV10impressionSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV10impressionSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV10impressionSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "click",
+                "printedName": "click",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV5clickSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV5clickSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV5clickSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV5clickSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "dismissed",
+                "printedName": "dismissed",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV9dismissedSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV9dismissedSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV9dismissedSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV9dismissedSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "campaignContext",
+                "printedName": "campaignContext",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV15campaignContextSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV15campaignContextSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV15campaignContextSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV15campaignContextSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "selfHandled",
+                "printedName": "selfHandled",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV11selfHandledSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV11selfHandledSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV11selfHandledSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV11selfHandledSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "customAction",
+                "printedName": "customAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV12customActionSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV12customActionSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV12customActionSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV12customActionSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV",
+            "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "CallBackEvents",
+            "printedName": "CallBackEvents",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "inAppShown",
+                "printedName": "inAppShown",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV10inAppShownSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV10inAppShownSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV10inAppShownSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV10inAppShownSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "inAppDismissed",
+                "printedName": "inAppDismissed",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV14inAppDismissedSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV14inAppDismissedSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV14inAppDismissedSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV14inAppDismissedSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "inAppClicked",
+                "printedName": "inAppClicked",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV12inAppClickedSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV12inAppClickedSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV12inAppClickedSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV12inAppClickedSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "inAppCustomAction",
+                "printedName": "inAppCustomAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV17inAppCustomActionSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV17inAppCustomActionSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV17inAppCustomActionSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV17inAppCustomActionSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "inAppSelfHandled",
+                "printedName": "inAppSelfHandled",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV16inAppSelfHandledSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV16inAppSelfHandledSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV16inAppSelfHandledSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV16inAppSelfHandledSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "pushTokenGenerated",
+                "printedName": "pushTokenGenerated",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV18pushTokenGeneratedSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV18pushTokenGeneratedSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV18pushTokenGeneratedSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV18pushTokenGeneratedSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "pushClicked",
+                "printedName": "pushClicked",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV11pushClickedSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV11pushClickedSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV11pushClickedSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV11pushClickedSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV",
+            "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV14CallBackEventsV",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18MoEngagePluginBase0abC9ConstantsV",
+        "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageInApps",
+        "printedName": "MoEngageInApps",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageSDK",
+        "printedName": "MoEngageSDK",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageSDK",
+        "printedName": "MoEngageSDK",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoEngagePluginBridgeDelegate",
+        "printedName": "MoEngagePluginBridgeDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sendMessage",
+            "printedName": "sendMessage(event:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(pl)MoEngagePluginBridgeDelegate(im)sendMessageWithEvent:message:",
+            "mangledName": "$s18MoEngagePluginBase0abC14BridgeDelegateP11sendMessage5event7messageySS_SDySSypGtF",
+            "moduleName": "MoEngagePluginBase",
+            "genericSig": "<τ_0_0 where τ_0_0 : MoEngagePluginBase.MoEngagePluginBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : MoEngagePluginBase.MoEngagePluginBridgeDelegate>",
+            "protocolReq": true,
+            "objc_name": "sendMessageWithEvent:message:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@MoEngagePluginBase@objc(pl)MoEngagePluginBridgeDelegate",
+        "mangledName": "$s18MoEngagePluginBase0abC14BridgeDelegateP",
+        "moduleName": "MoEngagePluginBase",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageSDK",
+        "printedName": "MoEngageSDK",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase"
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageInApps",
+        "printedName": "MoEngageInApps",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageSDK",
+        "printedName": "MoEngageSDK",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase"
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageInApps",
+        "printedName": "MoEngageInApps",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageInApps",
+        "printedName": "MoEngageInApps",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase"
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageSDK",
+        "printedName": "MoEngageSDK",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoEngagePluginUtils",
+        "printedName": "MoEngagePluginUtils",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fetchIdentifierFromPayload",
+            "printedName": "fetchIdentifierFromPayload(attribute:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MoEngagePluginBase0abC5UtilsC26fetchIdentifierFromPayload9attributeSSSgSDySSypG_tFZ",
+            "mangledName": "$s18MoEngagePluginBase0abC5UtilsC26fetchIdentifierFromPayload9attributeSSSgSDySSypG_tFZ",
+            "moduleName": "MoEngagePluginBase",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createAccountPayload",
+            "printedName": "createAccountPayload(identifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MoEngagePluginBase0abC5UtilsC20createAccountPayload10identifierSDySSypGSS_tFZ",
+            "mangledName": "$s18MoEngagePluginBase0abC5UtilsC20createAccountPayload10identifierSDySSypGSS_tFZ",
+            "moduleName": "MoEngagePluginBase",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18MoEngagePluginBase0abC5UtilsC",
+        "mangledName": "$s18MoEngagePluginBase0abC5UtilsC",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 7,
+      "value": "\"8.3.0\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 7,
+      "value": "\"8.3.0\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 7,
+      "value": "\"8.4.0\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 433,
+      "length": 13,
+      "value": "\"accountMeta\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 526,
+      "length": 12,
+      "value": "\"campaignId\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 576,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 619,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 660,
+      "length": 8,
+      "value": "\"kvPair\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 703,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 12,
+      "value": "\"navigation\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 799,
+      "length": 9,
+      "value": "\"payload\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 852,
+      "length": 16,
+      "value": "\"navigationType\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 908,
+      "length": 12,
+      "value": "\"actionType\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 954,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 988,
+      "length": 7,
+      "value": "\"appId\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1030,
+      "length": 14,
+      "value": "\"campaignName\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1072,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1109,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1213,
+      "length": 7,
+      "value": "\"alias\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1254,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1303,
+      "length": 15,
+      "value": "\"attributeName\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1362,
+      "length": 16,
+      "value": "\"attributeValue\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1425,
+      "length": 19,
+      "value": "\"locationAttribute\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1482,
+      "length": 10,
+      "value": "\"latitude\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1531,
+      "length": 11,
+      "value": "\"longitude\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1579,
+      "length": 9,
+      "value": "\"general\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1627,
+      "length": 11,
+      "value": "\"timestamp\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1676,
+      "length": 10,
+      "value": "\"location\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1769,
+      "length": 11,
+      "value": "\"eventName\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1818,
+      "length": 17,
+      "value": "\"eventAttributes\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1874,
+      "length": 18,
+      "value": "\"isNonInteractive\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1989,
+      "length": 14,
+      "value": "\"isSdkEnabled\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2038,
+      "length": 7,
+      "value": "\"state\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2079,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2151,
+      "length": 11,
+      "value": "\"appStatus\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2192,
+      "length": 9,
+      "value": "\"INSTALL\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2230,
+      "length": 8,
+      "value": "\"UPDATE\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2313,
+      "length": 10,
+      "value": "\"contexts\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2363,
+      "length": 12,
+      "value": "\"impression\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2410,
+      "length": 7,
+      "value": "\"click\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2456,
+      "length": 11,
+      "value": "\"dismissed\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2512,
+      "length": 17,
+      "value": "\"campaignContext\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2567,
+      "length": 17,
+      "value": "\"dismissInterval\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2625,
+      "length": 13,
+      "value": "\"selfHandled\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2680,
+      "length": 14,
+      "value": "\"customAction\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2723,
+      "length": 8,
+      "value": "\"screen\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2764,
+      "length": 12,
+      "value": "\"campaignId\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2811,
+      "length": 14,
+      "value": "\"campaignName\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2900,
+      "length": 13,
+      "value": "\"pushService\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2940,
+      "length": 6,
+      "value": "\"APNS\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2974,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3014,
+      "length": 12,
+      "value": "\"screenName\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3062,
+      "length": 15,
+      "value": "\"clickedAction\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3179,
+      "length": 23,
+      "value": "\"MoEInAppCampaignShown\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3246,
+      "length": 27,
+      "value": "\"MoEInAppCampaignDismissed\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3315,
+      "length": 25,
+      "value": "\"MoEInAppCampaignClicked\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3387,
+      "length": 30,
+      "value": "\"MoEInAppCampaignCustomAction\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3463,
+      "length": 29,
+      "value": "\"MoEInAppCampaignSelfHandled\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3540,
+      "length": 23,
+      "value": "\"MoEPushTokenGenerated\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3604,
+      "length": 16,
+      "value": "\"MoEPushClicked\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginInAppDelegateHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 34,
+      "value": "\"MoEngagePluginBase.MoEngagePluginInAppDelegateHandler\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageDelegateHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 36,
+      "value": "\"MoEngagePluginBase.MoEngagePluginMessageDelegateHandler\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 300,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 428,
+      "length": 38,
+      "value": "\"com.moengage.pluginBase.messageQueue\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageInstanceProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 42,
+      "value": "\"com.moengage.pluginBase.instanceProvider\""
+    }
+  ]
+}
