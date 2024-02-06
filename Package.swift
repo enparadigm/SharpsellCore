@@ -13,19 +13,18 @@ let package = Package(
             targets: ["SharpsellCore"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/moengage/MoEngage-iOS-SDK", .upToNextMajor(from: "9.8.2")),
-        .package(url: "https://github.com/moengage/MoEngage-iOS-InApps", .exact("4.8.3"))
-        ],
+        // Dependencies declare other packages that this package depends on.
+        //         .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "8.12.1"),
+//                .Package(url: "https://github.com/firebase/firebase-ios-sdk.git", .upToNextMajor(from: "8.12.1"))
+//        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", .upToNextMajor(from: "8.12.1"))
+    ],
     targets: [
         .target(
             name: "SharpsellCore",
             dependencies: [
-                "MoEngage-iOS-SDK",
-                .product(name: "MoEngageInApps", package: "MoEngage-iOS-InApps"),
-//                "MoEngage-iOS-InApps",
                 //                "Flutter",
+                "FlutterPluginRegistrant",
                 //                "App",
-                "app_links",
                 "audio_session",
                 "awesome_notifications",
                 "camera_avfoundation",
@@ -36,10 +35,19 @@ let package = Package(
                 "firebase_analytics",
                 "firebase_core",
                 "firebase_crashlytics",
+//                "firebase_messaging",
+                //                                "FirebaseAnalytics",
+                //                                "FirebaseCore",
+                //                                "FirebaseCoreDiagnostics",
+                //                                "FirebaseCrashlytics",
+                //                                "FirebaseInstallations",
+                //                                "FirebaseMessaging",
+//                .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
+//                .product(name: "FirebaseCrashlytics", package: "firebase-ios-sdk"),
+//                .product(name: "FirebaseAnalytics", package: "firebase-ios-sdk"),
                 "flutter_custom_tabs",
                 "flutter_inappwebview",
                 "fluttercontactpicker",
-                "FlutterPluginRegistrant",
                 "fluttertoast",
 //                "FMDB",
                 //                                "GoogleAppMeasurement",
@@ -47,19 +55,18 @@ let package = Package(
 //                "GoogleUtilities",
                 "image_cropper",
                 "image_picker_ios",
-                "is_lock_screen",
                 "just_audio",
                 "libwebp",
                 "light_compressor",
-                "moengage_flutter",
-                "MoEngagePluginBase",
+                //                "nanopb",
                 "open_filex",
                 "OrderedSet",
                 "package_info_plus",
                 "path_provider_ios",
-                "pdfx",
                 "permission_handler_apple",
+                "pdfx",
                 "Reachability",
+//                "share_extend",
                 "share_plus",
                 "share",
                 "shared_preferences_ios",
@@ -70,6 +77,7 @@ let package = Package(
                 "store_redirect",
                 "Toast",
                 "TOCropViewController",
+                "uni_links",
                 "url_launcher_ios",
                 "video_player_avfoundation",
                 "video_thumbnail",
@@ -83,9 +91,6 @@ let package = Package(
         
             .binaryTarget(name: "FlutterPluginRegistrant",
                           path: "artifacts/FlutterPluginRegistrant.xcframework"),
-        
-            .binaryTarget(name: "app_links",
-                          path: "artifacts/app_links.xcframework"),
         
             .binaryTarget(name: "audio_session",
                           path: "artifacts/audio_session.xcframework"),
@@ -169,9 +174,6 @@ let package = Package(
             .binaryTarget(name: "image_picker_ios",
                           path: "artifacts/image_picker_ios.xcframework"),
         
-            .binaryTarget(name: "is_lock_screen",
-                          path: "artifacts/is_lock_screen.xcframework"),
-        
             .binaryTarget(name: "just_audio",
                           path: "artifacts/just_audio.xcframework"),
         
@@ -183,11 +185,6 @@ let package = Package(
         
         //            .binaryTarget(name: "nanopb",
         //                          path: "artifacts/nanopb.xcframework"),
-            .binaryTarget(name: "moengage_flutter",
-                          path: "artifacts/moengage_flutter.xcframework"),
-        
-            .binaryTarget(name: "MoEngagePluginBase",
-                          path: "artifacts/MoEngagePluginBase.xcframework"),
         
             .binaryTarget(name: "open_filex",
                           path: "artifacts/open_filex.xcframework"),
@@ -243,6 +240,8 @@ let package = Package(
             .binaryTarget(name: "TOCropViewController",
                           path: "artifacts/TOCropViewController.xcframework"),
         
+            .binaryTarget(name: "uni_links",
+                          path: "artifacts/uni_links.xcframework"),
         
             .binaryTarget(name: "url_launcher_ios",
                           path: "artifacts/url_launcher_ios.xcframework"),

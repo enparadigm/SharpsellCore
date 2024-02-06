@@ -23,7 +23,10 @@
         "name": "Social",
         "printedName": "Social",
         "declKind": "Import",
-        "moduleName": "sharpsell"
+        "moduleName": "sharpsell",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -328,6 +331,36 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showVideoChallenge",
+            "printedName": "showVideoChallenge(notification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Notification",
+                "printedName": "Foundation.Notification",
+                "usr": "s:10Foundation12NotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@sharpsell@objc(cs)SwiftSharpsellPlugin(im)showVideoChallengeWithNotification:",
+            "mangledName": "$s9sharpsell20SwiftSharpsellPluginC18showVideoChallenge12notificationy10Foundation12NotificationV_tF",
+            "moduleName": "sharpsell",
+            "isOpen": true,
+            "objc_name": "showVideoChallengeWithNotification:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "TypeDecl",
@@ -877,56 +910,56 @@
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 3940,
+      "offset": 12829,
       "length": 11,
       "value": "\"whats_app\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 3976,
+      "offset": 12865,
       "length": 11,
       "value": "\"linked_in\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 4011,
+      "offset": 12900,
       "length": 9,
       "value": "\"twitter\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 4045,
+      "offset": 12934,
       "length": 11,
       "value": "\"face_book\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 3940,
+      "offset": 12829,
       "length": 11,
       "value": "\"whats_app\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 3976,
+      "offset": 12865,
       "length": 11,
       "value": "\"linked_in\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 4011,
+      "offset": 12900,
       "length": 9,
       "value": "\"twitter\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 4045,
+      "offset": 12934,
       "length": 11,
       "value": "\"face_book\""
     }

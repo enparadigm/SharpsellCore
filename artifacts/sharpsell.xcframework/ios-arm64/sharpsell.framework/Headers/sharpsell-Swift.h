@@ -264,6 +264,7 @@ SWIFT_CLASS("_TtC9sharpsell20SwiftSharpsellPlugin")
 
 
 
+
 #endif
 #if defined(__cplusplus)
 #endif

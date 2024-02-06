@@ -264,6 +264,7 @@ SWIFT_CLASS("_TtC9sharpsell20SwiftSharpsellPlugin")
 
 
 
+
 #endif
 #if defined(__cplusplus)
 #endif
@@ -535,6 +536,7 @@ SWIFT_CLASS("_TtC9sharpsell20SwiftSharpsellPlugin")
 - (void)handleMethodCall:(FlutterMethodCall * _Nonnull)call result:(FlutterResult _Nonnull)result;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
