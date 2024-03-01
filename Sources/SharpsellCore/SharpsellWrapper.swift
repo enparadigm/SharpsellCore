@@ -121,10 +121,11 @@ public struct SharpSellWrapper{
                     } else {
                         onSucces()
                         
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+//                        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                        DispatchQueue.main.async {
                             getMoEngageAppId { moEngagaeAppId in
                                 print("Surya - in getMoEngageAppId - \(moEngagaeAppId)")
-                                var sdkConfig = MoEngageSDKConfig(withAppID: moEngagaeAppId)
+                                var sdkConfig = MoEngageSDKConfig(withAppID: "NR6U3QKJGJ6WO4DB74BHJWQU")
                                 sdkConfig.enableLogs = true
 //                                MoEngageInitializer.sharedInstance.initializeDefaultInstance(sdkConfig)
                                 MoEngage.sharedInstance.initializeDefaultTestInstance(sdkConfig)
@@ -133,6 +134,8 @@ public struct SharpSellWrapper{
                                 print(errorMessage)
                             }
                         }
+                            
+//                        }
                        
                     }
                 }
