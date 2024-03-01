@@ -121,20 +121,20 @@ public struct SharpSellWrapper{
                     } else {
                         onSucces()
                         
-//                        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                         
                             getMoEngageAppId { moEngagaeAppId in
-                                print("Surya - in getMoEngageAppId - \(moEngagaeAppId)")
-                                var sdkConfig = MoEngageSDKConfig(withAppID: "NR6U3QKJGJ6WO4DB74BHJWQU")
+                                print("Sharpsell - in getMoEngageAppId - \(moEngagaeAppId)")
+                                var sdkConfig = MoEngageSDKConfig(withAppID: moEngagaeAppId)
                                 sdkConfig.enableLogs = true
-//                                MoEngageInitializer.sharedInstance.initializeDefaultInstance(sdkConfig)
-                                MoEngage.sharedInstance.initializeDefaultTestInstance(sdkConfig)
+                                MoEngageInitializer.sharedInstance.initializeDefaultInstance(sdkConfig)
+//                                MoEngage.sharedInstance.initializeDefaultTestInstance(sdkConfig)
                                
                             } onFailure: { errorMessage, SharpSellError in
                                 print(errorMessage)
                             }
                             
-//                        }
+                        }
                        
                     }
                 }
