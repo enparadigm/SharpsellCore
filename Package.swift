@@ -13,15 +13,15 @@ let package = Package(
             targets: ["SharpsellCore"]),
     ],
     dependencies: [
-//        .package(url: "https://github.com/moengage/MoEngage-iOS-SDK", .upToNextMajor(from: "9.8.2")),
-//        .package(url: "https://github.com/moengage/MoEngage-iOS-InApps", .exact("4.8.3"))
+        .package(url: "https://github.com/moengage/MoEngage-iOS-SDK", .upToNextMajor(from: "9.8.2")),
+        .package(url: "https://github.com/moengage/MoEngage-iOS-InApps", .exact("4.8.3"))
         ],
     targets: [
         .target(
             name: "SharpsellCore",
             dependencies: [
-//                "MoEngage-iOS-SDK",
-//                .product(name: "MoEngageInApps", package: "MoEngage-iOS-InApps"),
+                "MoEngage-iOS-SDK",
+                .product(name: "MoEngageInApps", package: "MoEngage-iOS-InApps"),
 //                "MoEngage-iOS-InApps",
                 //                "Flutter",
                 //                "App",

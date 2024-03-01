@@ -10,8 +10,8 @@ import Flutter
 import FlutterPluginRegistrant
 import os
 import AVFoundation
-//import MoEngageSDK
-//import moengage_flutter
+import MoEngageSDK
+import moengage_flutter
 
 //MARK: - Enum Declaration
 fileprivate enum FlutterMethods: String{
@@ -120,18 +120,18 @@ public struct SharpSellWrapper{
                         return
                     } else {
                         onSucces()
-//                        print("Surya - Calling mo engage app  ")
                         
                         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-//                            getMoEngageAppId { moEngagaeAppId in
-//                                print("Surya - in getMoEngageAppId - \(moEngagaeAppId)")
-//                                var sdkConfig = MoEngageSDKConfig(withAppID: moEngagaeAppId)
-//                                sdkConfig.enableLogs = true
+                            getMoEngageAppId { moEngagaeAppId in
+                                print("Surya - in getMoEngageAppId - \(moEngagaeAppId)")
+                                var sdkConfig = MoEngageSDKConfig(withAppID: moEngagaeAppId)
+                                sdkConfig.enableLogs = true
 //                                MoEngageInitializer.sharedInstance.initializeDefaultInstance(sdkConfig)
+                                MoEngage.sharedInstance.initializeDefaultTestInstance(sdkConfig)
                                
-//                            } onFailure: { errorMessage, SharpSellError in
-//                                print(errorMessage)
-//                            }
+                            } onFailure: { errorMessage, SharpSellError in
+                                print(errorMessage)
+                            }
                         }
                        
                     }
