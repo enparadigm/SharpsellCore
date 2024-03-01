@@ -121,7 +121,7 @@ public struct SharpSellWrapper{
                     } else {
                         onSucces()
                         
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+//                        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                         
                             getMoEngageAppId { moEngagaeAppId in
                                 print("Sharpsell - in getMoEngageAppId - \(moEngagaeAppId)")
@@ -134,7 +134,7 @@ public struct SharpSellWrapper{
                                 print(errorMessage)
                             }
                             
-                        }
+//                        }
                        
                     }
                 }
