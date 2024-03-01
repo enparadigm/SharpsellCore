@@ -122,7 +122,7 @@ public struct SharpSellWrapper{
                         onSucces()
                         
 //                        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-                        DispatchQueue.main.async {
+                        
                             getMoEngageAppId { moEngagaeAppId in
                                 print("Surya - in getMoEngageAppId - \(moEngagaeAppId)")
                                 var sdkConfig = MoEngageSDKConfig(withAppID: "NR6U3QKJGJ6WO4DB74BHJWQU")
@@ -133,7 +133,6 @@ public struct SharpSellWrapper{
                             } onFailure: { errorMessage, SharpSellError in
                                 print(errorMessage)
                             }
-                        }
                             
 //                        }
                        
