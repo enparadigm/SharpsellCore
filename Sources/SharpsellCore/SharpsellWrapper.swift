@@ -120,20 +120,18 @@ public struct SharpSellWrapper{
                         return
                     } else {
                         onSucces()
-                        print("Surya - Calling mo engage app  ")
+                        print("Sharpsell - Calling mo engage app  ")
                         
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-                            getMoEngageAppId { moEngagaeAppId in
-                                print("Surya - in getMoEngageAppId - \(moEngagaeAppId)")
-                                var sdkConfig = MoEngageSDKConfig(withAppID: moEngagaeAppId)
-                                sdkConfig.enableLogs = true
-                                MoEngageInitializer.sharedInstance.initializeDefaultInstance(sdkConfig)
-                               
-                            } onFailure: { errorMessage, SharpSellError in
-                                print(errorMessage)
-                            }
+                        getMoEngageAppId { moEngagaeAppId in
+                            print("Sharpsell - in getMoEngageAppId - \(moEngagaeAppId)")
+                            var sdkConfig = MoEngageSDKConfig(withAppID: moEngagaeAppId)
+                            sdkConfig.enableLogs = true
+                            MoEngageInitializer.sharedInstance.initializeDefaultInstance(sdkConfig)
+                            
+                        } onFailure: { errorMessage, SharpSellError in
+                            print(errorMessage)
                         }
-                       
+                        
                     }
                 }
                 
@@ -242,14 +240,14 @@ public struct SharpSellWrapper{
                     print(flutterResult)
                     print("*************** Flutter Result For getMoEngageCompanyId *********************")
                     onSucess(flutterResult as! String)
-//                    //If sharpsell return 1 then it is sharpsell notification
-//                    let isSharpsellNotifi = "\(flutterResult ?? 1)"
-//                    if isSharpsellNotifi == "1"{
-//                        onSucess(flutterResult)
-//                    } else {
-//                        onSucess(false)
-//                        NSLog("Sharpsell: Not a sharpsell notification")
-//                    }
+                    //                    //If sharpsell return 1 then it is sharpsell notification
+                    //                    let isSharpsellNotifi = "\(flutterResult ?? 1)"
+                    //                    if isSharpsellNotifi == "1"{
+                    //                        onSucess(flutterResult)
+                    //                    } else {
+                    //                        onSucess(false)
+                    //                        NSLog("Sharpsell: Not a sharpsell notification")
+                    //                    }
                 }
             }
             

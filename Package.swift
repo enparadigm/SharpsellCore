@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/moengage/MoEngage-iOS-SDK", .upToNextMajor(from: "9.8.2")),
-        .package(url: "https://github.com/moengage/MoEngage-iOS-InApps", .exact("4.8.3"))
+        .package(url: "https://github.com/moengage/MoEngage-iOS-InApps", .exact("4.14.1"))
         ],
     targets: [
         .target(
