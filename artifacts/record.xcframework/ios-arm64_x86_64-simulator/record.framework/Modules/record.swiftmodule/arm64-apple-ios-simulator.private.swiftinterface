@@ -1,0 +1,20 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name record
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Flutter
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@_exported import record
+@objc @_inheritsConvenienceInitializers public class SwiftRecordPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin, AVFAudio.AVAudioRecorderDelegate, Flutter.FlutterStreamHandler {
+  @objc public static func register(with registrar: Flutter.FlutterPluginRegistrar)
+  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @objc public func applicationWillTerminate(_ application: UIKit.UIApplication)
+  @objc public func onListen(withArguments arguments: Any?, eventSink events: @escaping Flutter.FlutterEventSink) -> Flutter.FlutterError?
+  @objc public func onCancel(withArguments arguments: Any?) -> Flutter.FlutterError?
+  @objc override dynamic public init()
+  @objc deinit
+}

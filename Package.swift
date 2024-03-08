@@ -60,6 +60,7 @@ let package = Package(
                 "pdfx",
                 "permission_handler_apple",
                 "Reachability",
+                "record",
                 "share_plus",
                 "share",
                 "shared_preferences_ios",
@@ -210,8 +211,8 @@ let package = Package(
             .binaryTarget(name: "Reachability",
                           path: "artifacts/Reachability.xcframework"),
         
-//            .binaryTarget(name: "share_extend",
-//                          path: "artifacts/share_extend.xcframework"),
+            .binaryTarget(name: "record",
+                          path: "artifacts/record.xcframework"),
         
             .binaryTarget(name: "share_plus",
                           path: "artifacts/share_plus.xcframework"),
