@@ -21,6 +21,7 @@ let package = Package(
             name: "SharpsellCore",
             dependencies: [
                 "MoEngage-iOS-SDK",
+//                .product(name: "MoEngage-iOS-SDK", package: "MoEngage-iOS-SDK"),
                 .product(name: "MoEngageInApps", package: "MoEngage-iOS-InApps"),
 //                "MoEngage-iOS-InApps",
                 //                "Flutter",
@@ -36,6 +37,9 @@ let package = Package(
                 "firebase_analytics",
                 "firebase_core",
                 "firebase_crashlytics",
+//                "FirebaseCoreExtension",
+//                "FirebaseCoreInternal",
+                "FirebaseSessions",
                 "flutter_custom_tabs",
                 "flutter_inappwebview",
                 "fluttercontactpicker",
@@ -47,20 +51,24 @@ let package = Package(
 //                "GoogleUtilities",
                 "image_cropper",
                 "image_picker_ios",
+                "IosAwnCore",
                 "is_lock_screen",
                 "just_audio",
                 "libwebp",
                 "light_compressor",
-                "moengage_flutter",
+                "moengage_flutter_ios",
                 "MoEngagePluginBase",
                 "open_filex",
                 "OrderedSet",
                 "package_info_plus",
-                "path_provider_ios",
+                "path_provider_foundation",
                 "pdfx",
                 "permission_handler_apple",
+                "pointer_interceptor_ios",
+//                "Promises",
                 "Reachability",
                 "record",
+                "rive_common",
                 "share_plus",
                 "share",
                 "shared_preferences_ios",
@@ -74,7 +82,7 @@ let package = Package(
                 "url_launcher_ios",
                 "video_player_avfoundation",
                 "video_thumbnail",
-                "wakelock",
+                "wakelock_plus",
                 "webview_flutter_wkwebview"
                 
             ]),
@@ -117,6 +125,15 @@ let package = Package(
         
             .binaryTarget(name: "firebase_crashlytics",
                           path: "artifacts/firebase_crashlytics.xcframework"),
+        
+//            .binaryTarget(name: "FirebaseCoreExtension",
+//                          path: "artifacts/FirebaseCoreExtension.xcframework"),
+        
+//            .binaryTarget(name: "FirebaseCoreInternal",
+//                          path: "artifacts/FirebaseCoreInternal.xcframework"),
+        
+            .binaryTarget(name: "FirebaseSessions",
+                          path: "artifacts/FirebaseSessions.xcframework"),
         
 //            .binaryTarget(name: "firebase_messaging",
 //                          path: "artifacts/firebase_messaging.xcframework"),
@@ -170,6 +187,9 @@ let package = Package(
             .binaryTarget(name: "image_picker_ios",
                           path: "artifacts/image_picker_ios.xcframework"),
         
+            .binaryTarget(name: "IosAwnCore",
+                          path: "artifacts/IosAwnCore.xcframework"),
+        
             .binaryTarget(name: "is_lock_screen",
                           path: "artifacts/is_lock_screen.xcframework"),
         
@@ -184,8 +204,8 @@ let package = Package(
         
         //            .binaryTarget(name: "nanopb",
         //                          path: "artifacts/nanopb.xcframework"),
-            .binaryTarget(name: "moengage_flutter",
-                          path: "artifacts/moengage_flutter.xcframework"),
+            .binaryTarget(name: "moengage_flutter_ios",
+                          path: "artifacts/moengage_flutter_ios.xcframework"),
         
             .binaryTarget(name: "MoEngagePluginBase",
                           path: "artifacts/MoEngagePluginBase.xcframework"),
@@ -202,17 +222,26 @@ let package = Package(
             .binaryTarget(name: "package_info_plus",
                           path: "artifacts/package_info_plus.xcframework"),
         
-            .binaryTarget(name: "path_provider_ios",
-                          path: "artifacts/path_provider_ios.xcframework"),
+            .binaryTarget(name: "path_provider_foundation",
+                          path: "artifacts/path_provider_foundation.xcframework"),
         
             .binaryTarget(name: "permission_handler_apple",
                           path: "artifacts/permission_handler_apple.xcframework"),
+        
+            .binaryTarget(name: "pointer_interceptor_ios",
+                          path: "artifacts/pointer_interceptor_ios.xcframework"),
+        
+//            .binaryTarget(name: "Promises",
+//                          path: "artifacts/Promises.xcframework"),
         
             .binaryTarget(name: "Reachability",
                           path: "artifacts/Reachability.xcframework"),
         
             .binaryTarget(name: "record",
                           path: "artifacts/record.xcframework"),
+        
+            .binaryTarget(name: "rive_common",
+                          path: "artifacts/rive_common.xcframework"),
         
             .binaryTarget(name: "share_plus",
                           path: "artifacts/share_plus.xcframework"),
@@ -254,8 +283,8 @@ let package = Package(
             .binaryTarget(name: "video_thumbnail",
                           path: "artifacts/video_thumbnail.xcframework"),
         
-            .binaryTarget(name: "wakelock",
-                          path: "artifacts/wakelock.xcframework"),
+            .binaryTarget(name: "wakelock_plus",
+                          path: "artifacts/wakelock_plus.xcframework"),
         
             .binaryTarget(name: "webview_flutter_wkwebview",
                           path: "artifacts/webview_flutter_wkwebview.xcframework"),

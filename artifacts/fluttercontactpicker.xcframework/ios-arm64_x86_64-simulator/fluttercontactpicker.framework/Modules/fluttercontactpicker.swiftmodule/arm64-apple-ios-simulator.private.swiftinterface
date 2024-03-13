@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name fluttercontactpicker
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name fluttercontactpicker
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import ContactsUI
 import Flutter
@@ -18,7 +18,7 @@ public class ContactPickerDelegate : ObjectiveC.NSObject, ContactsUI.CNContactPi
 }
 @objc @_inheritsConvenienceInitializers @available(iOS 9.0, *)
 public class SwiftFlutterContactPickerPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
-  @objc public static func register(with registrar: Flutter.FlutterPluginRegistrar)
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
   @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
   @objc override dynamic public init()
   @objc deinit

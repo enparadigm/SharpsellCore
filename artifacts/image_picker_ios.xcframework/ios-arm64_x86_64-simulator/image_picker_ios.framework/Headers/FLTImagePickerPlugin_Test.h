@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /**
- * The return hander used for all method calls, which internally adapts the provided result list
+ * The return handler used for all method calls, which internally adapts the provided result list
  * to return either a list or a single element depending on the original call.
  */
 typedef void (^FlutterResultAdapter)(NSArray<NSString *> *_Nullable, FlutterError *_Nullable);
@@ -49,17 +49,26 @@ typedef void (^FlutterResultAdapter)(NSArray<NSString *> *_Nullable, FlutterErro
 /** Whether the image should be picked with full metadata (requires gallery permissions) */
 @property(nonatomic, assign) BOOL requestFullMetadata;
 
+/** Whether the picker should include videos in the list*/
+@property(nonatomic, assign) BOOL includeVideo;
+
 @end
 
 #pragma mark -
 
 /** Methods exposed for unit testing. */
-@interface FLTImagePickerPlugin () <FLTImagePickerApi>
+@interface FLTImagePickerPlugin () <FLTImagePickerApi,
+                                    UINavigationControllerDelegate,
+                                    UIImagePickerControllerDelegate,
+                                    PHPickerViewControllerDelegate,
+                                    UIAdaptivePresentationControllerDelegate>
 
 /**
  * The context of the Flutter method call that is currently being handled, if any.
  */
 @property(strong, nonatomic, nullable) FLTImagePickerMethodCallContext *callContext;
+
+- (UIViewController *)viewControllerWithWindow:(nullable UIWindow *)window;
 
 /**
  * Validates the provided paths list, then sends it via `callContext.result` as the result of the

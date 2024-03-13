@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoEngageInApps
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -8,6 +8,12 @@ import MoEngageCore
 import Swift
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @objcMembers public class MoEngageAnyEventConditionEvaluator : ObjectiveC.NSObject {
+  @objc public init(forCampaign campaignMeta: MoEngageInApps.MoEngageInAppCampaignMeta, sdkInstance: MoEngageCore.MoEngageSDKInstance)
+  @objc public func checkConditionSatisfied(forEvent event: Swift.String, andAttributes attributes: [Swift.String : Any]) -> Swift.Bool
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @objc public class MoEngageInAppMigration : ObjectiveC.NSObject {
   @objc public static func migrateDataFromPreviousVersions(sdkInstance: MoEngageCore.MoEngageSDKInstance)
   @objc public static func migrateDataFromNoNEncryptionToEncryption(sdkInstance: MoEngageCore.MoEngageSDKInstance, currentSDKInstance: MoEngageCore.MoEngageSDKInstance)
@@ -58,13 +64,21 @@ import _StringProcessing
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MoEngageSDKInApp : ObjectiveC.NSObject {
   @objc public static let sharedInstance: MoEngageInApps.MoEngageSDKInApp
+  @available(tvOS, unavailable)
   @objc public func showInApp()
+  @available(tvOS, unavailable)
   @objc public func showInApp(forAppId appId: Swift.String? = nil)
+  @available(tvOS, unavailable)
   @objc public func showNudge(atPosition position: MoEngageInApps.MoEngageNudgePosition)
+  @available(tvOS, unavailable)
   @objc public func showNudge(atPosition position: MoEngageInApps.MoEngageNudgePosition, forAppId appId: Swift.String? = nil)
+  @available(tvOS, unavailable)
   @objc public func getNudgeView(completionBlock: @escaping MoEngageInApps.NudgeCreationCompletionBlock)
+  @available(tvOS, unavailable)
   @objc public func getNudgeView(forAppId appId: Swift.String? = nil, completionBlock: @escaping MoEngageInApps.NudgeCreationCompletionBlock)
+  @available(tvOS, unavailable)
   @objc public func nudgeCampaignShown(_ campaignInfo: MoEngageInApps.MoEngageInAppCampaign?)
+  @available(tvOS, unavailable)
   @objc public func nudgeCampaignShown(_ campaignInfo: MoEngageInApps.MoEngageInAppCampaign?, forAppId appId: Swift.String? = nil)
   @objc public func getSelfHandledInApp(completionBlock: @escaping ((_ campaignInfo: MoEngageInApps.MoEngageInAppSelfHandledCampaign?, _ accountMeta: MoEngageCore.MoEngageAccountMeta?) -> Swift.Void))
   @objc public func getSelfHandledInApp(forAppId appId: Swift.String? = nil, completionBlock: @escaping ((_ campaignInfo: MoEngageInApps.MoEngageInAppSelfHandledCampaign?, _ accountMeta: MoEngageCore.MoEngageAccountMeta?) -> Swift.Void))
@@ -82,8 +96,8 @@ import _StringProcessing
   @objc public func setCurrentInAppContexts(_ contexts: [Swift.String], forAppId appId: Swift.String? = nil)
   @objc public func invalidateInAppContexts()
   @objc public func invalidateInAppContexts(forAppId appId: Swift.String? = nil)
-  @objc public func setInAppDelegate(_ delegate: MoEngageInApps.MoEngageInAppNativeDelegate)
-  @objc public func setInAppDelegate(_ delegate: MoEngageInApps.MoEngageInAppNativeDelegate, forAppId appId: Swift.String? = nil)
+  @objc public func setInAppDelegate(_ delegate: any MoEngageInApps.MoEngageInAppNativeDelegate)
+  @objc public func setInAppDelegate(_ delegate: any MoEngageInApps.MoEngageInAppNativeDelegate, forAppId appId: Swift.String? = nil)
   @objc public func resetInAppDelegate()
   @objc public func resetInAppDelegate(forAppId appId: Swift.String? = nil)
   @objc deinit

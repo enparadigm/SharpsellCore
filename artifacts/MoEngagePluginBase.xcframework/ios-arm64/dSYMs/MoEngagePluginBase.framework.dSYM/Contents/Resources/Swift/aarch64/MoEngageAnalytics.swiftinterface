@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoEngageAnalytics
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AdSupport
@@ -13,6 +13,7 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @objc public enum MoEngageUserGender : Swift.Int {
   case male = 0
   case female
@@ -41,11 +42,10 @@ import _StringProcessing
   @objc public func trackSDKVersion()
   @objc public func updateSessionSource(withPushPayload payload: [Swift.AnyHashable : Any], fromMoEngage isMoEngagePush: Swift.Bool)
   @objc public func updateSessionSource(withURL url: Foundation.URL)
-  @objc public func processURL(_ url: Foundation.URL?)
   @objc public func pushTokenUpdated(appId: Swift.String)
   @objc public func appStatus(_ appStatus: MoEngageAnalytics.MoEngageAppStatus, forAppID appID: Swift.String? = nil)
-  @objc public func trackEvent(_ name: Swift.String, withProperties properties: MoEngageAnalytics.MoEngageProperties? = nil, forAppID appID: Swift.String? = nil)
   @objc public func trackEvent(_ name: Swift.String, withProperties properties: MoEngageAnalytics.MoEngageProperties? = nil)
+  @objc public func trackEvent(_ name: Swift.String, withProperties properties: MoEngageAnalytics.MoEngageProperties? = nil, forAppID appID: Swift.String? = nil)
   @objc public func flush(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: ((Swift.Bool) -> Swift.Void)? = nil)
   @objc public func flush()
   @objc public func flush(forAppID appID: Swift.String? = nil)
@@ -102,6 +102,7 @@ import _StringProcessing
   @objc public func enableIDFVTracking()
   @objc public func disableIDFVTracking(forAppID appID: Swift.String? = nil)
   @objc public func disableIDFVTracking()
+  @objc public func processURL(_ url: Foundation.URL?)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -138,6 +139,11 @@ import _StringProcessing
   @objc public func addDateISOStringAttribute(_ dateString: Swift.String, withName attrName: Swift.String)
   @objc public func addDateEpochAttribute(_ epoch: Swift.Double, withName attrName: Swift.String)
   @objc public func setNonInteractive()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class MoEngageAnalyticsHandler : ObjectiveC.NSObject {
+  @objc public static func setUserAttributeBool(_ value: Swift.Bool, withAttributeName attributeName: Swift.String, forAppID appID: Swift.String? = nil)
+  @objc override dynamic public init()
   @objc deinit
 }
 @objc public class MoEngageGeoLocation : ObjectiveC.NSObject {

@@ -26,6 +26,13 @@
         "moduleName": "sharpsell"
       },
       {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "sharpsell"
+      },
+      {
         "kind": "TypeDecl",
         "name": "SwiftSharpsellPlugin",
         "printedName": "SwiftSharpsellPlugin",
@@ -210,60 +217,655 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 3940,
+      "offset": 466,
+      "length": 11,
+      "value": "\"sharpsell\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 780,
+      "length": 10,
+      "value": "\"shareVia\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 810,
+      "length": 48,
+      "value": "\"Sharpsell - In method channel share via method\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1032,
+      "length": 48,
+      "value": "\"Argumens passed on \""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1066,
+      "length": 2,
+      "value": "\" is not valid\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1127,
+      "length": 15,
+      "value": "\"navigate_back\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1431,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1490,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1574,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1664,
+      "length": 36,
+      "value": "\"check_microphone_permission_status\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1729,
+      "length": 40,
+      "value": "\"Sharpsell - Checking Microphone status\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1943,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2041,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2144,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2248,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2334,
+      "length": 31,
+      "value": "\"request_microphone_permission\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2382,
+      "length": 46,
+      "value": "\"Sharpsell - Requesting microphone permission\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2566,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2640,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2868,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2953,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3092,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3153,
+      "length": 21,
+      "value": "\"hide_navigation_bar\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3194,
+      "length": 48,
+      "value": "\"Sharpsell - In method channel share via method\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3549,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3639,
+      "length": 62,
+      "value": "\"Sharpsell - Method Channel \""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3681,
+      "length": 2,
+      "value": "\" is not implemented\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3722,
+      "length": 50,
+      "value": "\"Method Channel \""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3752,
+      "length": 2,
+      "value": "\" is not implemented\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3930,
       "length": 11,
       "value": "\"whats_app\""
     },
     {
-      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 3976,
+      "offset": 3966,
       "length": 11,
       "value": "\"linked_in\""
     },
     {
-      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 4011,
+      "offset": 4001,
       "length": 9,
       "value": "\"twitter\""
     },
     {
-      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 4045,
+      "offset": 4035,
       "length": 11,
       "value": "\"face_book\""
     },
     {
-      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 3940,
+      "offset": 3930,
       "length": 11,
       "value": "\"whats_app\""
     },
     {
-      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 3976,
+      "offset": 3966,
       "length": 11,
       "value": "\"linked_in\""
     },
     {
-      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 4011,
+      "offset": 4001,
       "length": 9,
       "value": "\"twitter\""
     },
     {
-      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 4045,
+      "offset": 4035,
       "length": 11,
       "value": "\"face_book\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4165,
+      "length": 9,
+      "value": "\"appName\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4212,
+      "length": 56,
+      "value": "\"SharpSell - Error - Social share app name is not valid\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4338,
+      "length": 9,
+      "value": "\"appName\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4393,
+      "length": 11,
+      "value": "\"shareText\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4420,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4461,
+      "length": 11,
+      "value": "\"shareFile\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4524,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4604,
+      "length": 10,
+      "value": "\"shareUrl\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4630,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4659,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4670,
+      "length": 5,
+      "value": "\"%26\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4779,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4790,
+      "length": 5,
+      "value": "\"%26\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4799,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4919,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4930,
+      "length": 5,
+      "value": "\"%26\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4939,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5001,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5141,
+      "length": 7,
+      "value": "\"phone\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5164,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5197,
+      "length": 46,
+      "value": "\"https:\/\/wa.me\/\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5220,
+      "length": 2,
+      "value": "\"\/?text=\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5242,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5273,
+      "length": 26,
+      "value": "\"whatsapp:\/\/send?text=abc\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5511,
+      "length": 37,
+      "value": "\"Share Massage --> : \""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5547,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5754,
+      "length": 24,
+      "value": "\"opening url: \""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5777,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5920,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5960,
+      "length": 24,
+      "value": "\"Whatsapp not installed\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6191,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6236,
+      "length": 18,
+      "value": "\"www.linkedin.com\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6292,
+      "length": 15,
+      "value": "\"\/shareArticle\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6392,
+      "length": 6,
+      "value": "\"mini\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6407,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6455,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6530,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6788,
+      "length": 24,
+      "value": "\"opening url: \""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6811,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6955,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6995,
+      "length": 24,
+      "value": "\"Linkedin not installed\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7121,
+      "length": 15,
+      "value": "\"Error occured\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7311,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7356,
+      "length": 13,
+      "value": "\"twitter.com\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7407,
+      "length": 15,
+      "value": "\"\/intent\/tweet\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7507,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7571,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7839,
+      "length": 24,
+      "value": "\"opening url: \""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7862,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8031,
+      "length": 15,
+      "value": "\"Error occured\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8145,
+      "length": 19,
+      "value": "\"fb:\/\/profile\/test\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8846,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8962,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8998,
+      "length": 36,
+      "value": "\"SharpSell - Facebook not installed\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 9204,
+      "length": 13,
+      "value": "\"AppNotFound\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 9228,
+      "length": 46,
+      "value": "\"Selected app is not installed on this device\""
     }
   ]
 }

@@ -22,13 +22,6 @@
         "moduleName": "light_compressor"
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "light_compressor"
-      },
-      {
         "kind": "TypeDecl",
         "name": "VideoQuality",
         "printedName": "VideoQuality",
@@ -389,12 +382,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(light_compressor.CompressionResult.Type) -> (Foundation.URL) -> light_compressor.CompressionResult",
+                "printedName": "(light_compressor.CompressionResult.Type) -> (Swift.Int, Foundation.URL) -> light_compressor.CompressionResult",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Foundation.URL) -> light_compressor.CompressionResult",
+                    "printedName": "(Swift.Int, Foundation.URL) -> light_compressor.CompressionResult",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -404,9 +397,22 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "URL",
-                        "printedName": "Foundation.URL",
-                        "usr": "s:10Foundation3URLV"
+                        "name": "Tuple",
+                        "printedName": "(Swift.Int, Foundation.URL)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -427,8 +433,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:16light_compressor17CompressionResultO9onSuccessyAC10Foundation3URLVcACmF",
-            "mangledName": "$s16light_compressor17CompressionResultO9onSuccessyAC10Foundation3URLVcACmF",
+            "usr": "s:16light_compressor17CompressionResultO9onSuccessyACSi_10Foundation3URLVtcACmF",
+            "mangledName": "$s16light_compressor17CompressionResultO9onSuccessyACSi_10Foundation3URLVtcACmF",
             "moduleName": "light_compressor"
           },
           {
@@ -439,12 +445,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(light_compressor.CompressionResult.Type) -> (light_compressor.CompressionError) -> light_compressor.CompressionResult",
+                "printedName": "(light_compressor.CompressionResult.Type) -> (Swift.Int, light_compressor.CompressionError) -> light_compressor.CompressionResult",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(light_compressor.CompressionError) -> light_compressor.CompressionResult",
+                    "printedName": "(Swift.Int, light_compressor.CompressionError) -> light_compressor.CompressionResult",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -454,9 +460,22 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "CompressionError",
-                        "printedName": "light_compressor.CompressionError",
-                        "usr": "s:16light_compressor16CompressionErrorV"
+                        "name": "Tuple",
+                        "printedName": "(Swift.Int, light_compressor.CompressionError)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CompressionError",
+                            "printedName": "light_compressor.CompressionError",
+                            "usr": "s:16light_compressor16CompressionErrorV"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -477,8 +496,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:16light_compressor17CompressionResultO9onFailureyAcA0C5ErrorVcACmF",
-            "mangledName": "$s16light_compressor17CompressionResultO9onFailureyAcA0C5ErrorVcACmF",
+            "usr": "s:16light_compressor17CompressionResultO9onFailureyACSi_AA0C5ErrorVtcACmF",
+            "mangledName": "$s16light_compressor17CompressionResultO9onFailureyACSi_AA0C5ErrorVtcACmF",
             "moduleName": "light_compressor"
           },
           {
@@ -738,6 +757,581 @@
         "printedName": "LightCompressor",
         "children": [
           {
+            "kind": "TypeDecl",
+            "name": "Video",
+            "printedName": "Video",
+            "children": [
+              {
+                "kind": "TypeDecl",
+                "name": "Configuration",
+                "printedName": "Configuration",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "quality",
+                    "printedName": "quality",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoQuality",
+                        "printedName": "light_compressor.VideoQuality",
+                        "usr": "s:16light_compressor12VideoQualityO"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV7qualityAA0E7QualityOvp",
+                    "mangledName": "$s16light_compressor15LightCompressorV5VideoV13ConfigurationV7qualityAA0E7QualityOvp",
+                    "moduleName": "light_compressor",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VideoQuality",
+                            "printedName": "light_compressor.VideoQuality",
+                            "usr": "s:16light_compressor12VideoQualityO"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV7qualityAA0E7QualityOvg",
+                        "mangledName": "$s16light_compressor15LightCompressorV5VideoV13ConfigurationV7qualityAA0E7QualityOvg",
+                        "moduleName": "light_compressor",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "isMinBitrateCheckEnabled",
+                    "printedName": "isMinBitrateCheckEnabled",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV24isMinBitrateCheckEnabledSbvp",
+                    "mangledName": "$s16light_compressor15LightCompressorV5VideoV13ConfigurationV24isMinBitrateCheckEnabledSbvp",
+                    "moduleName": "light_compressor",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV24isMinBitrateCheckEnabledSbvg",
+                        "mangledName": "$s16light_compressor15LightCompressorV5VideoV13ConfigurationV24isMinBitrateCheckEnabledSbvg",
+                        "moduleName": "light_compressor",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "videoBitrateInMbps",
+                    "printedName": "videoBitrateInMbps",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV18videoBitrateInMbpsSiSgvp",
+                    "mangledName": "$s16light_compressor15LightCompressorV5VideoV13ConfigurationV18videoBitrateInMbpsSiSgvp",
+                    "moduleName": "light_compressor",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Int?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV18videoBitrateInMbpsSiSgvg",
+                        "mangledName": "$s16light_compressor15LightCompressorV5VideoV13ConfigurationV18videoBitrateInMbpsSiSgvg",
+                        "moduleName": "light_compressor",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "disableAudio",
+                    "printedName": "disableAudio",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV12disableAudioSbvp",
+                    "mangledName": "$s16light_compressor15LightCompressorV5VideoV13ConfigurationV12disableAudioSbvp",
+                    "moduleName": "light_compressor",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV12disableAudioSbvg",
+                        "mangledName": "$s16light_compressor15LightCompressorV5VideoV13ConfigurationV12disableAudioSbvg",
+                        "moduleName": "light_compressor",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "keepOriginalResolution",
+                    "printedName": "keepOriginalResolution",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV22keepOriginalResolutionSbvp",
+                    "mangledName": "$s16light_compressor15LightCompressorV5VideoV13ConfigurationV22keepOriginalResolutionSbvp",
+                    "moduleName": "light_compressor",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV22keepOriginalResolutionSbvg",
+                        "mangledName": "$s16light_compressor15LightCompressorV5VideoV13ConfigurationV22keepOriginalResolutionSbvg",
+                        "moduleName": "light_compressor",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "videoSize",
+                    "printedName": "videoSize",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CoreFoundation.CGSize?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGSize",
+                            "printedName": "CoreFoundation.CGSize",
+                            "usr": "c:@S@CGSize"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV9videoSizeSo6CGSizeVSgvp",
+                    "mangledName": "$s16light_compressor15LightCompressorV5VideoV13ConfigurationV9videoSizeSo6CGSizeVSgvp",
+                    "moduleName": "light_compressor",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "CoreFoundation.CGSize?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGSize",
+                                "printedName": "CoreFoundation.CGSize",
+                                "usr": "c:@S@CGSize"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV9videoSizeSo6CGSizeVSgvg",
+                        "mangledName": "$s16light_compressor15LightCompressorV5VideoV13ConfigurationV9videoSizeSo6CGSizeVSgvg",
+                        "moduleName": "light_compressor",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(quality:isMinBitrateCheckEnabled:videoBitrateInMbps:disableAudio:keepOriginalResolution:videoSize:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Configuration",
+                        "printedName": "light_compressor.LightCompressor.Video.Configuration",
+                        "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoQuality",
+                        "printedName": "light_compressor.VideoQuality",
+                        "hasDefaultArg": true,
+                        "usr": "s:16light_compressor12VideoQualityO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "hasDefaultArg": true,
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "hasDefaultArg": true,
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "hasDefaultArg": true,
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "hasDefaultArg": true,
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CoreFoundation.CGSize?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGSize",
+                            "printedName": "CoreFoundation.CGSize",
+                            "usr": "c:@S@CGSize"
+                          }
+                        ],
+                        "hasDefaultArg": true,
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV7quality24isMinBitrateCheckEnabled05videoJ6InMbps12disableAudio22keepOriginalResolution0M4SizeAgA0E7QualityO_SbSiSgS2bSo6CGSizeVSgtcfc",
+                    "mangledName": "$s16light_compressor15LightCompressorV5VideoV13ConfigurationV7quality24isMinBitrateCheckEnabled05videoJ6InMbps12disableAudio22keepOriginalResolution0M4SizeAgA0E7QualityO_SbSiSgS2bSo6CGSizeVSgtcfc",
+                    "moduleName": "light_compressor",
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "init_kind": "Designated"
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV",
+                "mangledName": "$s16light_compressor15LightCompressorV5VideoV13ConfigurationV",
+                "moduleName": "light_compressor",
+                "declAttributes": [
+                  "AccessControl"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "source",
+                "printedName": "source",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16light_compressor15LightCompressorV5VideoV6source10Foundation3URLVvp",
+                "mangledName": "$s16light_compressor15LightCompressorV5VideoV6source10Foundation3URLVvp",
+                "moduleName": "light_compressor",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16light_compressor15LightCompressorV5VideoV6source10Foundation3URLVvg",
+                    "mangledName": "$s16light_compressor15LightCompressorV5VideoV6source10Foundation3URLVvg",
+                    "moduleName": "light_compressor",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "destination",
+                "printedName": "destination",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16light_compressor15LightCompressorV5VideoV11destination10Foundation3URLVvp",
+                "mangledName": "$s16light_compressor15LightCompressorV5VideoV11destination10Foundation3URLVvp",
+                "moduleName": "light_compressor",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16light_compressor15LightCompressorV5VideoV11destination10Foundation3URLVvg",
+                    "mangledName": "$s16light_compressor15LightCompressorV5VideoV11destination10Foundation3URLVvg",
+                    "moduleName": "light_compressor",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "configuration",
+                "printedName": "configuration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Configuration",
+                    "printedName": "light_compressor.LightCompressor.Video.Configuration",
+                    "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16light_compressor15LightCompressorV5VideoV13configurationAE13ConfigurationVvp",
+                "mangledName": "$s16light_compressor15LightCompressorV5VideoV13configurationAE13ConfigurationVvp",
+                "moduleName": "light_compressor",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Configuration",
+                        "printedName": "light_compressor.LightCompressor.Video.Configuration",
+                        "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16light_compressor15LightCompressorV5VideoV13configurationAE13ConfigurationVvg",
+                    "mangledName": "$s16light_compressor15LightCompressorV5VideoV13configurationAE13ConfigurationVvg",
+                    "moduleName": "light_compressor",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(source:destination:configuration:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Video",
+                    "printedName": "light_compressor.LightCompressor.Video",
+                    "usr": "s:16light_compressor15LightCompressorV5VideoV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Configuration",
+                    "printedName": "light_compressor.LightCompressor.Video.Configuration",
+                    "hasDefaultArg": true,
+                    "usr": "s:16light_compressor15LightCompressorV5VideoV13ConfigurationV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:16light_compressor15LightCompressorV5VideoV6source11destination13configurationAE10Foundation3URLV_AkE13ConfigurationVtcfc",
+                "mangledName": "$s16light_compressor15LightCompressorV5VideoV6source11destination13configurationAE10Foundation3URLV_AkE13ConfigurationVtcfc",
+                "moduleName": "light_compressor",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:16light_compressor15LightCompressorV5VideoV",
+            "mangledName": "$s16light_compressor15LightCompressorV5VideoV",
+            "moduleName": "light_compressor",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -761,7 +1355,7 @@
           {
             "kind": "Function",
             "name": "compressVideo",
-            "printedName": "compressVideo(source:destination:quality:frameRate:isMinBitrateCheckEnabled:progressQueue:progressHandler:completion:)",
+            "printedName": "compressVideo(videos:progressQueue:progressHandler:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -771,48 +1365,23 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "VideoQuality",
-                "printedName": "light_compressor.VideoQuality",
-                "usr": "s:16light_compressor12VideoQualityO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
+                "name": "Array",
+                "printedName": "[light_compressor.LightCompressor.Video]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Video",
+                    "printedName": "light_compressor.LightCompressor.Video",
+                    "usr": "s:16light_compressor15LightCompressorV5VideoV"
                   }
                 ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
                 "name": "DispatchQueue",
                 "printedName": "Dispatch.DispatchQueue",
+                "hasDefaultArg": true,
                 "usr": "c:objc(cs)OS_dispatch_queue"
               },
               {
@@ -861,8 +1430,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16light_compressor15LightCompressorV13compressVideo6source11destination7quality9frameRate24isMinBitrateCheckEnabled13progressQueue0Q7Handler10completionAA11CompressionC10Foundation3URLV_AqA0F7QualityOSiSgSbSo17OS_dispatch_queueCySo10NSProgressCcSgyAA0U6ResultOctF",
-            "mangledName": "$s16light_compressor15LightCompressorV13compressVideo6source11destination7quality9frameRate24isMinBitrateCheckEnabled13progressQueue0Q7Handler10completionAA11CompressionC10Foundation3URLV_AqA0F7QualityOSiSgSbSo17OS_dispatch_queueCySo10NSProgressCcSgyAA0U6ResultOctF",
+            "usr": "s:16light_compressor15LightCompressorV13compressVideo6videos13progressQueue0H7Handler10completionAA11CompressionCSayAC0F0VG_So17OS_dispatch_queueCySo10NSProgressCcSgyAA0L6ResultOctF",
+            "mangledName": "$s16light_compressor15LightCompressorV13compressVideo6videos13progressQueue0H7Handler10completionAA11CompressionCSayAC0F0VG_So17OS_dispatch_queueCySo10NSProgressCcSgyAA0L6ResultOctF",
             "moduleName": "light_compressor",
             "declAttributes": [
               "AccessControl",
@@ -875,23 +1444,14 @@
         "usr": "s:16light_compressor15LightCompressorV",
         "mangledName": "$s16light_compressor15LightCompressorV",
         "moduleName": "light_compressor",
-        "intro_iOS": "11.0",
         "declAttributes": [
-          "AccessControl",
-          "Available"
+          "AccessControl"
         ]
       },
       {
         "kind": "Import",
         "name": "Flutter",
         "printedName": "Flutter",
-        "declKind": "Import",
-        "moduleName": "light_compressor"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "light_compressor"
       },
@@ -1134,10 +1694,8 @@
         "usr": "c:@M@light_compressor@objc(cs)SwiftLightCompressorPlugin",
         "mangledName": "$s16light_compressor26SwiftLightCompressorPluginC",
         "moduleName": "light_compressor",
-        "intro_iOS": "11.0",
         "declAttributes": [
           "AccessControl",
-          "Available",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -1202,46 +1760,648 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
       "kind": "BooleanLiteral",
-      "offset": 432,
+      "offset": 410,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
       "kind": "StringLiteral",
-      "offset": 582,
+      "offset": 557,
       "length": 19,
       "value": "\"Compression Error\""
     },
     {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1131,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1222,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1276,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
       "kind": "IntegerLiteral",
-      "offset": 766,
+      "offset": 2175,
       "length": 7,
       "value": "2000000"
     },
     {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
       "kind": "FloatLiteral",
-      "offset": 805,
+      "offset": 2213,
       "length": 5,
       "value": "640.0"
     },
     {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
       "kind": "FloatLiteral",
-      "offset": 840,
+      "offset": 2247,
       "length": 5,
       "value": "360.0"
     },
     {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/light_compressor-1.2.2\/ios\/Classes\/LightCompressor.swift",
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4164,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "StringLiteral",
+      "offset": 4664,
+      "length": 25,
+      "value": "\"Cannot find video track\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "StringLiteral",
+      "offset": 5049,
+      "length": 109,
+      "value": "\"The provided bitrate is smaller than what is needed for compression try to set isMinBitRateEnabled to false\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5518,
+      "length": 7,
+      "value": "1000000"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
       "kind": "BooleanLiteral",
-      "offset": 2091,
+      "offset": 6727,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7948,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "StringLiteral",
+      "offset": 8758,
+      "length": 18,
+      "value": "\"processingQueue1\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8841,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9469,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "StringLiteral",
+      "offset": 10615,
+      "length": 18,
+      "value": "\"processingQueue2\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11285,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11302,
+      "length": 5,
+      "value": "44100"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11638,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "FloatLiteral",
+      "offset": 12886,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "FloatLiteral",
+      "offset": 12944,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "FloatLiteral",
+      "offset": 13004,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "FloatLiteral",
+      "offset": 13061,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "FloatLiteral",
+      "offset": 13123,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13506,
+      "length": 4,
+      "value": "1920"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13524,
+      "length": 4,
+      "value": "1920"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "FloatLiteral",
+      "offset": 13579,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13585,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13591,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "FloatLiteral",
+      "offset": 13631,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13637,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13644,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13687,
+      "length": 4,
+      "value": "1280"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13705,
+      "length": 4,
+      "value": "1280"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "FloatLiteral",
+      "offset": 13747,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13754,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13760,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "FloatLiteral",
+      "offset": 13800,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13807,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13813,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13843,
+      "length": 3,
+      "value": "960"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13860,
+      "length": 3,
+      "value": "960"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "FloatLiteral",
+      "offset": 13942,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13949,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13955,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "FloatLiteral",
+      "offset": 14002,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14009,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14015,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "FloatLiteral",
+      "offset": 14082,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14089,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14095,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "FloatLiteral",
+      "offset": 14143,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14150,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14156,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "FloatLiteral",
+      "offset": 14225,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14231,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14237,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "FloatLiteral",
+      "offset": 14277,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14283,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/LightCompressor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14289,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 18,
+      "value": "\"light_compressor\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 588,
+      "length": 20,
+      "value": "\"compression\/stream\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 841,
+      "length": 18,
+      "value": "\"startCompression\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 966,
+      "length": 6,
+      "value": "\"path\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1033,
+      "length": 11,
+      "value": "\"videoName\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1118,
+      "length": 26,
+      "value": "\"isMinBitrateCheckEnabled\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1210,
+      "length": 20,
+      "value": "\"videoBitrateInMbps\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1290,
+      "length": 14,
+      "value": "\"disableAudio\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1365,
+      "length": 15,
+      "value": "\"saveInGallery\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1450,
+      "length": 24,
+      "value": "\"keepOriginalResolution\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1533,
+      "length": 13,
+      "value": "\"videoHeight\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1604,
+      "length": 12,
+      "value": "\"videoWidth\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1678,
+      "length": 14,
+      "value": "\"videoQuality\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1868,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1881,
+      "length": 1,
+      "value": "\".mp4\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3109,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3161,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3996,
+      "length": 11,
+      "value": "\"onSuccess\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4020,
+      "length": 7,
+      "value": "\"index\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4324,
+      "length": 11,
+      "value": "\"onFailure\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4350,
+      "length": 7,
+      "value": "\"index\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 4557,
+      "length": 21,
+      "value": "[(\"onCancelled\", true)]"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4724,
+      "length": 19,
+      "value": "\"cancelCompression\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4779,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 4846,
+      "length": 39,
+      "value": "[(\"onFailure\", \"Method is not defined!\")]"
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5360,
+      "length": 10,
+      "value": "\"very_low\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5426,
+      "length": 5,
+      "value": "\"low\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5482,
+      "length": 8,
+      "value": "\"medium\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5544,
+      "length": 6,
+      "value": "\"high\""
+    },
+    {
+      "filePath": "\/Users\/Aman\/.pub-cache\/hosted\/pub.dev\/light_compressor-2.2.0\/ios\/Classes\/SwiftLightCompressorPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5602,
+      "length": 11,
+      "value": "\"very_high\""
     }
   ]
 }
