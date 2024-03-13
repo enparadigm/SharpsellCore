@@ -39,7 +39,7 @@ let package = Package(
                 "firebase_crashlytics",
 //                "FirebaseCoreExtension",
 //                "FirebaseCoreInternal",
-                "FirebaseSessions",
+//                "FirebaseSessions",
                 "flutter_custom_tabs",
                 "flutter_inappwebview",
                 "fluttercontactpicker",
@@ -132,8 +132,8 @@ let package = Package(
 //            .binaryTarget(name: "FirebaseCoreInternal",
 //                          path: "artifacts/FirebaseCoreInternal.xcframework"),
         
-            .binaryTarget(name: "FirebaseSessions",
-                          path: "artifacts/FirebaseSessions.xcframework"),
+//            .binaryTarget(name: "FirebaseSessions",
+//                          path: "artifacts/FirebaseSessions.xcframework"),
         
 //            .binaryTarget(name: "firebase_messaging",
 //                          path: "artifacts/firebase_messaging.xcframework"),
