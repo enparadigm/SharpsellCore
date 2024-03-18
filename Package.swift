@@ -28,7 +28,6 @@ let package = Package(
                 //                "App",
                 "app_links",
                 "audio_session",
-                "awesome_notifications",
                 "camera_avfoundation",
                 "connectivity_plus",
                 "contacts_service",
@@ -51,7 +50,6 @@ let package = Package(
 //                "GoogleUtilities",
                 "image_cropper",
                 "image_picker_ios",
-                "IosAwnCore",
                 "is_lock_screen",
                 "just_audio",
                 "libwebp",
@@ -98,9 +96,7 @@ let package = Package(
         
             .binaryTarget(name: "audio_session",
                           path: "artifacts/audio_session.xcframework"),
-        
-            .binaryTarget(name: "awesome_notifications",
-                          path: "artifacts/awesome_notifications.xcframework"),
+    
         
             .binaryTarget(name: "camera_avfoundation",
                           path: "artifacts/camera_avfoundation.xcframework"),
@@ -186,9 +182,6 @@ let package = Package(
         
             .binaryTarget(name: "image_picker_ios",
                           path: "artifacts/image_picker_ios.xcframework"),
-        
-            .binaryTarget(name: "IosAwnCore",
-                          path: "artifacts/IosAwnCore.xcframework"),
         
             .binaryTarget(name: "is_lock_screen",
                           path: "artifacts/is_lock_screen.xcframework"),
