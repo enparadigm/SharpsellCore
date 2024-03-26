@@ -6,13 +6,12 @@
 #import <Foundation/Foundation.h>
 #import "PermissionHandlerEnums.h"
 
-typedef void (^ServiceStatusHandler)(ServiceStatus serviceStatus);
 typedef void (^PermissionStatusHandler)(PermissionStatus permissionStatus);
 
 @protocol PermissionStrategy <NSObject>
 - (PermissionStatus)checkPermissionStatus:(PermissionGroup)permission;
 
-- (void)checkServiceStatus:(PermissionGroup)permission completionHandler:(ServiceStatusHandler)completionHandler;
+- (ServiceStatus)checkServiceStatus:(PermissionGroup)permission;
 
 - (void)requestPermission:(PermissionGroup)permission completionHandler:(PermissionStatusHandler)completionHandler;
 @end
