@@ -36,9 +36,9 @@ let package = Package(
                 "firebase_analytics",
                 "firebase_core",
                 "firebase_crashlytics",
-//                "FirebaseCoreExtension",
-//                "FirebaseCoreInternal",
-//                "FirebaseSessions",
+                "FirebaseCoreExtension",
+                "FirebaseCoreInternal",
+                "FirebaseSessions",
                 "flutter_custom_tabs",
                 "flutter_inappwebview",
                 "fluttercontactpicker",
@@ -63,7 +63,7 @@ let package = Package(
                 "pdfx",
                 "permission_handler_apple",
                 "pointer_interceptor_ios",
-//                "Promises",
+                "Promises",
                 "Reachability",
                 "record",
                 "rive_common",
@@ -122,14 +122,14 @@ let package = Package(
             .binaryTarget(name: "firebase_crashlytics",
                           path: "artifacts/firebase_crashlytics.xcframework"),
         
-//            .binaryTarget(name: "FirebaseCoreExtension",
-//                          path: "artifacts/FirebaseCoreExtension.xcframework"),
+            .binaryTarget(name: "FirebaseCoreExtension",
+                          path: "artifacts/FirebaseCoreExtension.xcframework"),
         
-//            .binaryTarget(name: "FirebaseCoreInternal",
-//                          path: "artifacts/FirebaseCoreInternal.xcframework"),
+            .binaryTarget(name: "FirebaseCoreInternal",
+                          path: "artifacts/FirebaseCoreInternal.xcframework"),
         
-//            .binaryTarget(name: "FirebaseSessions",
-//                          path: "artifacts/FirebaseSessions.xcframework"),
+            .binaryTarget(name: "FirebaseSessions",
+                          path: "artifacts/FirebaseSessions.xcframework"),
         
 //            .binaryTarget(name: "firebase_messaging",
 //                          path: "artifacts/firebase_messaging.xcframework"),
@@ -224,8 +224,8 @@ let package = Package(
             .binaryTarget(name: "pointer_interceptor_ios",
                           path: "artifacts/pointer_interceptor_ios.xcframework"),
         
-//            .binaryTarget(name: "Promises",
-//                          path: "artifacts/Promises.xcframework"),
+            .binaryTarget(name: "Promises",
+                          path: "artifacts/Promises.xcframework"),
         
             .binaryTarget(name: "Reachability",
                           path: "artifacts/Reachability.xcframework"),
