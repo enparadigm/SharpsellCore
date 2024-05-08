@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name awesome_notifications
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name awesome_notifications
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CommonCrypto/*.CC_LONG*/
 import CommonCrypto/*.CC_MD5*/
@@ -13,16 +13,17 @@ import UserNotifications
 import UserNotificationsUI
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @_exported import awesome_notifications
 import os.log
 import os
 public protocol AbstractModel {
-  func fromMap(arguments: [Swift.String : Any?]?) -> awesome_notifications.AbstractModel?
+  func fromMap(arguments: [Swift.String : Any?]?) -> (any awesome_notifications.AbstractModel)?
   func toMap() -> [Swift.String : Any?]
   func validate() throws
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ActionReceived : awesome_notifications.NotificationReceived {
-  override public func fromMap(arguments: [Swift.String : Any?]?) -> awesome_notifications.AbstractModel
+  override public func fromMap(arguments: [Swift.String : Any?]?) -> any awesome_notifications.AbstractModel
   override public func toMap() -> [Swift.String : Any?]
   override public func validate() throws
   @objc deinit
@@ -241,7 +242,7 @@ public class NotificationBuilder {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class NotificationButtonModel : awesome_notifications.AbstractModel {
-  public func fromMap(arguments: [Swift.String : Any?]?) -> awesome_notifications.AbstractModel?
+  public func fromMap(arguments: [Swift.String : Any?]?) -> (any awesome_notifications.AbstractModel)?
   public func toMap() -> [Swift.String : Any?]
   public func validate() throws
   @objc deinit
@@ -255,7 +256,7 @@ public class NotificationBuilder {
     get
     set(newValue)
   }
-  public func fromMap(arguments: [Swift.String : Any?]?) -> awesome_notifications.AbstractModel?
+  public func fromMap(arguments: [Swift.String : Any?]?) -> (any awesome_notifications.AbstractModel)?
   public func toMap() -> [Swift.String : Any?]
   public func validate() throws
   public func toDateComponents() -> Foundation.DateComponents
@@ -265,13 +266,13 @@ public class NotificationBuilder {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class NotificationChannelModel : awesome_notifications.AbstractModel {
-  public func fromMap(arguments: [Swift.String : Any?]?) -> awesome_notifications.AbstractModel?
+  public func fromMap(arguments: [Swift.String : Any?]?) -> (any awesome_notifications.AbstractModel)?
   public func toMap() -> [Swift.String : Any?]
   public func validate() throws
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class NotificationContentModel : awesome_notifications.AbstractModel {
-  public func fromMap(arguments: [Swift.String : Any?]?) -> awesome_notifications.AbstractModel?
+  public func fromMap(arguments: [Swift.String : Any?]?) -> (any awesome_notifications.AbstractModel)?
   public func toMap() -> [Swift.String : Any?]
   public func validate() throws
   @objc deinit
@@ -285,7 +286,7 @@ public class NotificationBuilder {
     get
     set(newValue)
   }
-  public func fromMap(arguments: [Swift.String : Any?]?) -> awesome_notifications.AbstractModel?
+  public func fromMap(arguments: [Swift.String : Any?]?) -> (any awesome_notifications.AbstractModel)?
   public func toMap() -> [Swift.String : Any?]
   public func validate() throws
   public func getUNNotificationTrigger() -> UserNotifications.UNNotificationTrigger?
@@ -308,7 +309,7 @@ public enum NotificationLifeCycle : Swift.String, Swift.CaseIterable {
   }
 }
 @_hasMissingDesignatedInitializers public class NotificationModel : awesome_notifications.AbstractModel {
-  public func fromMap(arguments: [Swift.String : Any?]?) -> awesome_notifications.AbstractModel?
+  public func fromMap(arguments: [Swift.String : Any?]?) -> (any awesome_notifications.AbstractModel)?
   public func toMap() -> [Swift.String : Any?]
   public func validate() throws
   @objc deinit
@@ -443,7 +444,7 @@ extension Swift.String {
   public func clearDeactivatedSchedules()
   public func rescheduleLostNotifications()
   public func fireBackgroundLostEvents()
-  @objc public static func register(with registrar: Flutter.FlutterPluginRegistrar)
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
   @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
   @objc override dynamic public init()
   @objc deinit

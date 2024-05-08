@@ -1,0 +1,38 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/url_launcher_ios/url_launcher_ios.framework/url_launcher_ios'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x57134, size: 0x8, addend: 0x0, symName: _url_launcher_iosVersionString, symObjAddr: 0x0, symBinAddr: 0x5480, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x57169, size: 0x8, addend: 0x0, symName: _url_launcher_iosVersionNumber, symObjAddr: 0x30, symBinAddr: 0x54B0, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x571A6, size: 0x8, addend: 0x0, symName: '-[FLTURLLaunchSession initWithUrl:withFlutterResult:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xE8 }
+  - { offsetInCU: 0x197, offset: 0x57316, size: 0x8, addend: 0x0, symName: '-[FLTURLLaunchSession initWithUrl:withFlutterResult:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xE8 }
+  - { offsetInCU: 0x1EE, offset: 0x5736D, size: 0x8, addend: 0x0, symName: '-[FLTURLLaunchSession safariViewController:didCompleteInitialLoad:]', symObjAddr: 0xE8, symBinAddr: 0x40E8, symSize: 0x108 }
+  - { offsetInCU: 0x273, offset: 0x573F2, size: 0x8, addend: 0x0, symName: '-[FLTURLLaunchSession safariViewControllerDidFinish:]', symObjAddr: 0x1F0, symBinAddr: 0x41F0, symSize: 0x4C }
+  - { offsetInCU: 0x2C2, offset: 0x57441, size: 0x8, addend: 0x0, symName: '-[FLTURLLaunchSession close]', symObjAddr: 0x23C, symBinAddr: 0x423C, symSize: 0x3C }
+  - { offsetInCU: 0x2F5, offset: 0x57474, size: 0x8, addend: 0x0, symName: '-[FLTURLLaunchSession flutterResult]', symObjAddr: 0x278, symBinAddr: 0x4278, symSize: 0x8 }
+  - { offsetInCU: 0x32C, offset: 0x574AB, size: 0x8, addend: 0x0, symName: '-[FLTURLLaunchSession setFlutterResult:]', symObjAddr: 0x280, symBinAddr: 0x4280, symSize: 0x8 }
+  - { offsetInCU: 0x36B, offset: 0x574EA, size: 0x8, addend: 0x0, symName: '-[FLTURLLaunchSession url]', symObjAddr: 0x288, symBinAddr: 0x4288, symSize: 0x8 }
+  - { offsetInCU: 0x3A2, offset: 0x57521, size: 0x8, addend: 0x0, symName: '-[FLTURLLaunchSession setUrl:]', symObjAddr: 0x290, symBinAddr: 0x4290, symSize: 0xC }
+  - { offsetInCU: 0x3E3, offset: 0x57562, size: 0x8, addend: 0x0, symName: '-[FLTURLLaunchSession safari]', symObjAddr: 0x29C, symBinAddr: 0x429C, symSize: 0x8 }
+  - { offsetInCU: 0x41A, offset: 0x57599, size: 0x8, addend: 0x0, symName: '-[FLTURLLaunchSession setSafari:]', symObjAddr: 0x2A4, symBinAddr: 0x42A4, symSize: 0xC }
+  - { offsetInCU: 0x45B, offset: 0x575DA, size: 0x8, addend: 0x0, symName: '-[FLTURLLaunchSession didFinish]', symObjAddr: 0x2B0, symBinAddr: 0x42B0, symSize: 0x8 }
+  - { offsetInCU: 0x492, offset: 0x57611, size: 0x8, addend: 0x0, symName: '-[FLTURLLaunchSession setDidFinish:]', symObjAddr: 0x2B8, symBinAddr: 0x42B8, symSize: 0x8 }
+  - { offsetInCU: 0x4D1, offset: 0x57650, size: 0x8, addend: 0x0, symName: '-[FLTURLLaunchSession .cxx_destruct]', symObjAddr: 0x2C0, symBinAddr: 0x42C0, symSize: 0x48 }
+  - { offsetInCU: 0x504, offset: 0x57683, size: 0x8, addend: 0x0, symName: '+[FLTURLLauncherPlugin registerWithRegistrar:]', symObjAddr: 0x308, symBinAddr: 0x4308, symSize: 0xA0 }
+  - { offsetInCU: 0x563, offset: 0x576E2, size: 0x8, addend: 0x0, symName: '-[FLTURLLauncherPlugin handleMethodCall:result:]', symObjAddr: 0x3A8, symBinAddr: 0x43A8, symSize: 0x208 }
+  - { offsetInCU: 0x60C, offset: 0x5778B, size: 0x8, addend: 0x0, symName: '-[FLTURLLauncherPlugin canLaunchURL:]', symObjAddr: 0x5B0, symBinAddr: 0x45B0, symSize: 0x70 }
+  - { offsetInCU: 0x66F, offset: 0x577EE, size: 0x8, addend: 0x0, symName: '-[FLTURLLauncherPlugin launchURL:call:result:]', symObjAddr: 0x620, symBinAddr: 0x4620, symSize: 0x1DC }
+  - { offsetInCU: 0x71D, offset: 0x5789C, size: 0x8, addend: 0x0, symName: '___46-[FLTURLLauncherPlugin launchURL:call:result:]_block_invoke', symObjAddr: 0x7FC, symBinAddr: 0x47FC, symSize: 0x4C }
+  - { offsetInCU: 0x783, offset: 0x57902, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x848, symBinAddr: 0x4848, symSize: 0x10 }
+  - { offsetInCU: 0x7AC, offset: 0x5792B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x858, symBinAddr: 0x4858, symSize: 0x8 }
+  - { offsetInCU: 0x7CB, offset: 0x5794A, size: 0x8, addend: 0x0, symName: '-[FLTURLLauncherPlugin launchURLInVC:result:]', symObjAddr: 0x860, symBinAddr: 0x4860, symSize: 0x1DC }
+  - { offsetInCU: 0x83E, offset: 0x579BD, size: 0x8, addend: 0x0, symName: '___45-[FLTURLLauncherPlugin launchURLInVC:result:]_block_invoke', symObjAddr: 0xA3C, symBinAddr: 0x4A3C, symSize: 0x30 }
+  - { offsetInCU: 0x879, offset: 0x579F8, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0xA6C, symBinAddr: 0x4A6C, symSize: 0xC }
+  - { offsetInCU: 0x8A2, offset: 0x57A21, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0xA78, symBinAddr: 0x4A78, symSize: 0x8 }
+  - { offsetInCU: 0x8C1, offset: 0x57A40, size: 0x8, addend: 0x0, symName: '-[FLTURLLauncherPlugin closeWebViewWithResult:]', symObjAddr: 0xA80, symBinAddr: 0x4A80, symSize: 0x80 }
+  - { offsetInCU: 0x91E, offset: 0x57A9D, size: 0x8, addend: 0x0, symName: '-[FLTURLLauncherPlugin topViewController]', symObjAddr: 0xB00, symBinAddr: 0x4B00, symSize: 0x90 }
+  - { offsetInCU: 0x955, offset: 0x57AD4, size: 0x8, addend: 0x0, symName: '-[FLTURLLauncherPlugin topViewControllerFromViewController:]', symObjAddr: 0xB90, symBinAddr: 0x4B90, symSize: 0x12C }
+  - { offsetInCU: 0x9D2, offset: 0x57B51, size: 0x8, addend: 0x0, symName: '-[FLTURLLauncherPlugin currentSession]', symObjAddr: 0xCBC, symBinAddr: 0x4CBC, symSize: 0x8 }
+  - { offsetInCU: 0xA09, offset: 0x57B88, size: 0x8, addend: 0x0, symName: '-[FLTURLLauncherPlugin setCurrentSession:]', symObjAddr: 0xCC4, symBinAddr: 0x4CC4, symSize: 0xC }
+  - { offsetInCU: 0xA4A, offset: 0x57BC9, size: 0x8, addend: 0x0, symName: '-[FLTURLLauncherPlugin .cxx_destruct]', symObjAddr: 0xCD0, symBinAddr: 0x4CD0, symSize: 0xC }
+...
