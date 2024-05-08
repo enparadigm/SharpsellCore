@@ -9,17 +9,20 @@
 #import "FLTImagePickerMetaDataUtil.h"
 #import "FLTImagePickerPhotoAssetUtil.h"
 
-/*!
- @class FLTPHPickerSaveImageToPathOperation
+NS_ASSUME_NONNULL_BEGIN
 
- @brief The FLTPHPickerSaveImageToPathOperation class
+/// Returns either the saved path, or an error. Both cannot be set.
+typedef void (^FLTGetSavedPath)(NSString *_Nullable savedPath, FlutterError *_Nullable error);
 
- @discussion    This class was implemented to handle saved image paths and populate the pathList
- with the final result by using GetSavedPath type block.
-
- @superclass SuperClass: NSOperation\n
- @helps It helps FLTImagePickerPlugin class.
- */
+/// @class FLTPHPickerSaveImageToPathOperation
+///
+/// @brief The FLTPHPickerSaveImageToPathOperation class
+///
+/// @discussion    This class was implemented to handle saved image paths and populate the pathList
+/// with the final result by using GetSavedPath type block.
+///
+/// @superclass SuperClass: NSOperation\n
+/// @helps It helps FLTImagePickerPlugin class.
 @interface FLTPHPickerSaveImageToPathOperation : NSOperation
 
 - (instancetype)initWithResult:(PHPickerResult *)result
@@ -27,6 +30,8 @@
                       maxWidth:(NSNumber *)maxWidth
            desiredImageQuality:(NSNumber *)desiredImageQuality
                   fullMetadata:(BOOL)fullMetadata
-                savedPathBlock:(void (^)(NSString *))savedPathBlock API_AVAILABLE(ios(14));
+                savedPathBlock:(FLTGetSavedPath)savedPathBlock API_AVAILABLE(ios(14));
 
 @end
+
+NS_ASSUME_NONNULL_END

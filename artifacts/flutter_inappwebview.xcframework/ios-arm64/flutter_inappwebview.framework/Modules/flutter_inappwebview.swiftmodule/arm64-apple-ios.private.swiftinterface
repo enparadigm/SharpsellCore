@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name flutter_inappwebview
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name flutter_inappwebview
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Flutter
@@ -12,9 +12,10 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @_exported import flutter_inappwebview
 @objc @_hasMissingDesignatedInitializers public class ChromeSafariBrowserManager : ObjectiveC.NSObject, Flutter.FlutterPlugin {
-  @objc public static func register(with registrar: Flutter.FlutterPluginRegistrar)
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
   @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
   public func open(id: Swift.String, url: Swift.String, options: [Swift.String : Any?], menuItemList: [[Swift.String : Any]], result: @escaping Flutter.FlutterResult)
   public func dispose()
@@ -36,8 +37,8 @@ import _StringProcessing
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class FlutterWebViewFactory : ObjectiveC.NSObject, Flutter.FlutterPlatformViewFactory {
-  @objc public func createArgsCodec() -> Flutter.FlutterMessageCodec & ObjectiveC.NSObjectProtocol
-  @objc public func create(withFrame frame: CoreFoundation.CGRect, viewIdentifier viewId: Swift.Int64, arguments args: Any?) -> Flutter.FlutterPlatformView
+  @objc public func createArgsCodec() -> any Flutter.FlutterMessageCodec & ObjectiveC.NSObjectProtocol
+  @objc public func create(withFrame frame: CoreFoundation.CGRect, viewIdentifier viewId: Swift.Int64, arguments args: Any?) -> any Flutter.FlutterPlatformView
   @objc deinit
 }
 @objc public class HeadlessInAppWebView : flutter_inappwebview.FlutterMethodCallDelegate {
@@ -51,7 +52,7 @@ import _StringProcessing
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class HeadlessInAppWebViewManager : ObjectiveC.NSObject, Flutter.FlutterPlugin {
-  @objc public static func register(with registrar: Flutter.FlutterPluginRegistrar)
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
   @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
   public static func run(id: Swift.String, params: [Swift.String : Any?])
   public func dispose()
@@ -83,11 +84,11 @@ public protocol InAppBrowserDelegate {
   func didStartNavigation(url: Foundation.URL?)
   func didUpdateVisitedHistory(url: Foundation.URL?)
   func didFinishNavigation(url: Foundation.URL?)
-  func didFailNavigation(url: Foundation.URL?, error: Swift.Error)
+  func didFailNavigation(url: Foundation.URL?, error: any Swift.Error)
   func didChangeProgress(progress: Swift.Double)
 }
 @objc @_hasMissingDesignatedInitializers public class InAppBrowserManager : ObjectiveC.NSObject, Flutter.FlutterPlugin {
-  @objc public static func register(with registrar: Flutter.FlutterPluginRegistrar)
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
   @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
   public func prepareInAppBrowserWebViewController(options: [Swift.String : Any?]) -> flutter_inappwebview.InAppBrowserWebViewController
   public func open(arguments: Foundation.NSDictionary)
@@ -120,7 +121,7 @@ public protocol InAppBrowserDelegate {
   @_Concurrency.MainActor(unsafe) public func didStartNavigation(url: Foundation.URL?)
   @_Concurrency.MainActor(unsafe) public func didUpdateVisitedHistory(url: Foundation.URL?)
   @_Concurrency.MainActor(unsafe) public func didFinishNavigation(url: Foundation.URL?)
-  @_Concurrency.MainActor(unsafe) public func didFailNavigation(url: Foundation.URL?, error: Swift.Error)
+  @_Concurrency.MainActor(unsafe) public func didFailNavigation(url: Foundation.URL?, error: any Swift.Error)
   @_Concurrency.MainActor(unsafe) public func didChangeProgress(progress: Swift.Double)
   @_Concurrency.MainActor(unsafe) @objc public func searchBarSearchButtonClicked(_ searchBar: UIKit.UISearchBar)
   @_Concurrency.MainActor(unsafe) public func show(completion: (() -> Swift.Void)? = nil)
@@ -173,14 +174,14 @@ public protocol InAppBrowserDelegate {
   @_Concurrency.MainActor(unsafe) public func injectDeferredObject(source: Swift.String, withWrapper jsWrapper: Swift.String?, completionHandler: ((Any?) -> Swift.Void)? = nil)
   @available(iOS 14.0, *)
   @_Concurrency.MainActor(unsafe) public func injectDeferredObject(source: Swift.String, contentWorld: WebKit.WKContentWorld, withWrapper jsWrapper: Swift.String?, completionHandler: ((Any?) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func evaluateJavaScript(_ javaScriptString: Swift.String, completionHandler: ((Any?, Swift.Error?) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func evaluateJavaScript(_ javaScriptString: Swift.String, completionHandler: ((Any?, (any Swift.Error)?) -> Swift.Void)? = nil)
   @available(iOS 14.0, *)
-  @_Concurrency.MainActor(unsafe) public func evaluateJavaScript(_ javaScript: Swift.String, frame: WebKit.WKFrameInfo? = nil, contentWorld: WebKit.WKContentWorld, completionHandler: ((Swift.Result<Any, Swift.Error>) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func evaluateJavaScript(_ javaScript: Swift.String, frame: WebKit.WKFrameInfo? = nil, contentWorld: WebKit.WKContentWorld, completionHandler: ((Swift.Result<Any, any Swift.Error>) -> Swift.Void)? = nil)
   @_Concurrency.MainActor(unsafe) public func evaluateJavascript(source: Swift.String, completionHandler: ((Any?) -> Swift.Void)? = nil)
   @available(iOS 14.0, *)
   @_Concurrency.MainActor(unsafe) public func evaluateJavascript(source: Swift.String, contentWorld: WebKit.WKContentWorld, completionHandler: ((Any?) -> Swift.Void)? = nil)
   @available(iOS 14.0, *)
-  @_Concurrency.MainActor(unsafe) public func callAsyncJavaScript(_ functionBody: Swift.String, arguments: [Swift.String : Any] = [:], frame: WebKit.WKFrameInfo? = nil, contentWorld: WebKit.WKContentWorld, completionHandler: ((Swift.Result<Any, Swift.Error>) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func callAsyncJavaScript(_ functionBody: Swift.String, arguments: [Swift.String : Any] = [:], frame: WebKit.WKFrameInfo? = nil, contentWorld: WebKit.WKContentWorld, completionHandler: ((Swift.Result<Any, any Swift.Error>) -> Swift.Void)? = nil)
   @available(iOS 14.0, *)
   @_Concurrency.MainActor(unsafe) public func callAsyncJavaScript(functionBody: Swift.String, arguments: [Swift.String : Any], contentWorld: WebKit.WKContentWorld, completionHandler: ((Any?) -> Swift.Void)? = nil)
   @available(iOS 10.3, *)
@@ -195,8 +196,8 @@ public protocol InAppBrowserDelegate {
   @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationResponse: WebKit.WKNavigationResponse, decisionHandler: @escaping (WebKit.WKNavigationResponsePolicy) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
   @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
-  @_Concurrency.MainActor(unsafe) @objc public func webView(_ view: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: Swift.Error)
-  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ view: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
   @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, runJavaScriptAlertPanelWithMessage message: Swift.String, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping () -> Swift.Void)
   @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, runJavaScriptConfirmPanelWithMessage message: Swift.String, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
@@ -211,7 +212,7 @@ public protocol InAppBrowserDelegate {
   @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didReceiveServerRedirectForProvisionalNavigation navigation: WebKit.WKNavigation!)
   @_Concurrency.MainActor(unsafe) public func onLoadStart(url: Swift.String?)
   @_Concurrency.MainActor(unsafe) public func onLoadStop(url: Swift.String?)
-  @_Concurrency.MainActor(unsafe) public func onLoadError(url: Swift.String?, error: Swift.Error)
+  @_Concurrency.MainActor(unsafe) public func onLoadError(url: Swift.String?, error: any Swift.Error)
   @_Concurrency.MainActor(unsafe) public func onLoadHttpError(url: Swift.String?, statusCode: Swift.Int, description: Swift.String)
   @_Concurrency.MainActor(unsafe) public func onProgressChanged(progress: Swift.Int)
   @_Concurrency.MainActor(unsafe) public func onFindResultReceived(activeMatchOrdinal: Swift.Int, numberOfMatches: Swift.Int, isDoneCounting: Swift.Bool)
@@ -239,22 +240,22 @@ public protocol InAppBrowserDelegate {
   @_Concurrency.MainActor(unsafe) public func onDidReceiveServerRedirectForProvisionalNavigation()
   @_Concurrency.MainActor(unsafe) public func isVideoPlayerWindow(_ notificationObject: Swift.AnyObject?) -> Swift.Bool
   @_Concurrency.MainActor(unsafe) @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
-  @_Concurrency.MainActor(unsafe) public func findAllAsync(find: Swift.String?, completionHandler: ((Any?, Swift.Error?) -> Swift.Void)?)
-  @_Concurrency.MainActor(unsafe) public func findNext(forward: Swift.Bool, completionHandler: ((Any?, Swift.Error?) -> Swift.Void)?)
-  @_Concurrency.MainActor(unsafe) public func clearMatches(completionHandler: ((Any?, Swift.Error?) -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) public func findAllAsync(find: Swift.String?, completionHandler: ((Any?, (any Swift.Error)?) -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) public func findNext(forward: Swift.Bool, completionHandler: ((Any?, (any Swift.Error)?) -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) public func clearMatches(completionHandler: ((Any?, (any Swift.Error)?) -> Swift.Void)?)
   @_Concurrency.MainActor(unsafe) public func scrollTo(x: Swift.Int, y: Swift.Int, animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public func scrollBy(x: Swift.Int, y: Swift.Int, animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public func pauseTimers()
   @_Concurrency.MainActor(unsafe) public func resumeTimers()
-  @_Concurrency.MainActor(unsafe) public func printCurrentPage(printCompletionHandler: ((_ completed: Swift.Bool, _ error: Swift.Error?) -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) public func printCurrentPage(printCompletionHandler: ((_ completed: Swift.Bool, _ error: (any Swift.Error)?) -> Swift.Void)?)
   @_Concurrency.MainActor(unsafe) public func getContentHeight() -> Swift.Int64
   @_Concurrency.MainActor(unsafe) public func zoomBy(zoomFactor: Swift.Float, animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public func getOriginalUrl() -> Foundation.URL?
   @_Concurrency.MainActor(unsafe) public func getZoomScale() -> Swift.Float
-  @_Concurrency.MainActor(unsafe) public func getSelectedText(completionHandler: @escaping (Any?, Swift.Error?) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func getSelectedText(completionHandler: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public func getHitTestResult(completionHandler: @escaping (flutter_inappwebview.HitTestResult) -> Swift.Void)
-  @_Concurrency.MainActor(unsafe) public func requestFocusNodeHref(completionHandler: @escaping ([Swift.String : Any?]?, Swift.Error?) -> Swift.Void)
-  @_Concurrency.MainActor(unsafe) public func requestImageRef(completionHandler: @escaping ([Swift.String : Any?]?, Swift.Error?) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func requestFocusNodeHref(completionHandler: @escaping ([Swift.String : Any?]?, (any Swift.Error)?) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func requestImageRef(completionHandler: @escaping ([Swift.String : Any?]?, (any Swift.Error)?) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public func clearFocus()
   @_Concurrency.MainActor(unsafe) public func getCertificate() -> flutter_inappwebview.SslCertificate?
   @_Concurrency.MainActor(unsafe) public func isSecureContext(completionHandler: @escaping (_ isSecureContext: Swift.Bool) -> Swift.Void)
@@ -316,7 +317,7 @@ extension Foundation.NSAttributedString {
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class PullToRefreshControl : UIKit.UIRefreshControl, Flutter.FlutterPlugin {
   @_Concurrency.MainActor(unsafe) public init(channel: Flutter.FlutterMethodChannel?, options: flutter_inappwebview.PullToRefreshOptions?)
-  @_Concurrency.MainActor(unsafe) @objc public static func register(with registrar: Flutter.FlutterPluginRegistrar)
+  @_Concurrency.MainActor(unsafe) @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
   @_Concurrency.MainActor(unsafe) public func prepare()
   @_Concurrency.MainActor(unsafe) @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
   @_Concurrency.MainActor(unsafe) public func onRefresh()
@@ -337,7 +338,7 @@ public protocol PullToRefreshDelegate {
 }
 @objc @_inheritsConvenienceInitializers @available(iOS 9.0, *)
 @_Concurrency.MainActor(unsafe) public class SafariViewController : SafariServices.SFSafariViewController, Flutter.FlutterPlugin, SafariServices.SFSafariViewControllerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc public static func register(with registrar: Flutter.FlutterPluginRegistrar)
+  @_Concurrency.MainActor(unsafe) @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
   @objc deinit
   @_Concurrency.MainActor(unsafe) public func prepareMethodChannel()
   @_Concurrency.MainActor(unsafe) @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
@@ -372,9 +373,9 @@ public protocol PullToRefreshDelegate {
   @objc deinit
 }
 @objc public class SwiftFlutterPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
-  public init(with registrar: Flutter.FlutterPluginRegistrar)
-  @objc public static func register(with registrar: Flutter.FlutterPluginRegistrar)
-  @objc public func detachFromEngine(for registrar: Flutter.FlutterPluginRegistrar)
+  public init(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func detachFromEngine(for registrar: any Flutter.FlutterPluginRegistrar)
   @objc deinit
 }
 extension Foundation.URLAuthenticationChallenge {
@@ -478,14 +479,14 @@ extension WebKit.WKSecurityOrigin {
 extension WebKit.WKUserContentController {
   public func initialize()
   public func dispose(windowId: Swift.Int64?)
-  public func sync(scriptMessageHandler: WebKit.WKScriptMessageHandler)
+  public func sync(scriptMessageHandler: any WebKit.WKScriptMessageHandler)
   public func addUserOnlyScript(_ userOnlyScript: flutter_inappwebview.UserScript)
   public func addUserOnlyScripts(_ userOnlyScripts: [flutter_inappwebview.UserScript])
   public func addPluginScript(_ pluginScript: flutter_inappwebview.PluginScript)
   public func addPluginScripts(_ pluginScripts: [flutter_inappwebview.PluginScript])
   public func getPluginScriptsRequiredInAllContentWorlds() -> [flutter_inappwebview.PluginScript]
   @available(iOS 14.0, *)
-  public func generateCodeForScriptEvaluation(scriptMessageHandler: WebKit.WKScriptMessageHandler, source: Swift.String, contentWorld: WebKit.WKContentWorld) -> Swift.String
+  public func generateCodeForScriptEvaluation(scriptMessageHandler: any WebKit.WKScriptMessageHandler, source: Swift.String, contentWorld: WebKit.WKContentWorld) -> Swift.String
   public func removeUserOnlyScript(_ userOnlyScript: flutter_inappwebview.UserScript)
   public func removeUserOnlyScript(at index: Swift.Int, injectionTime: WebKit.WKUserScriptInjectionTime)
   public func removeAllUserOnlyScripts()

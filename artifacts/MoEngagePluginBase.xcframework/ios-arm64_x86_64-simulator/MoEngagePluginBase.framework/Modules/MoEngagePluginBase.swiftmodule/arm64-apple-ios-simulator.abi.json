@@ -414,6 +414,120 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "MoEngagePluginBaseHandler",
+        "printedName": "MoEngagePluginBaseHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initializePluginBridge",
+            "printedName": "initializePluginBridge(className:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MoEngagePluginBase0abcD7HandlerC010initializeC6Bridge9classNameySS_tFZ",
+            "mangledName": "$s18MoEngagePluginBase0abcD7HandlerC010initializeC6Bridge9classNameySS_tFZ",
+            "moduleName": "MoEngagePluginBase",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngagePluginBaseHandler",
+                "printedName": "MoEngagePluginBase.MoEngagePluginBaseHandler",
+                "usr": "s:18MoEngagePluginBase0abcD7HandlerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18MoEngagePluginBase0abcD7HandlerCACycfc",
+            "mangledName": "$s18MoEngagePluginBase0abcD7HandlerCACycfc",
+            "moduleName": "MoEngagePluginBase",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18MoEngagePluginBase0abcD7HandlerC",
+        "mangledName": "$s18MoEngagePluginBase0abcD7HandlerC",
+        "moduleName": "MoEngagePluginBase",
+        "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoEngagePluginBaseProtocol",
+        "printedName": "MoEngagePluginBaseProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initializePluginBridge",
+            "printedName": "initializePluginBridge()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MoEngagePluginBase0abcD8ProtocolP010initializeC6BridgeyyFZ",
+            "mangledName": "$s18MoEngagePluginBase0abcD8ProtocolP010initializeC6BridgeyyFZ",
+            "moduleName": "MoEngagePluginBase",
+            "genericSig": "<τ_0_0 where τ_0_0 : MoEngagePluginBase.MoEngagePluginBaseProtocol>",
+            "sugared_genericSig": "<Self where Self : MoEngagePluginBase.MoEngagePluginBaseProtocol>",
+            "static": true,
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18MoEngagePluginBase0abcD8ProtocolP",
+        "mangledName": "$s18MoEngagePluginBase0abcD8ProtocolP",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "MoEngageSDK",
         "printedName": "MoEngageSDK",
@@ -934,6 +1048,47 @@
               "AccessControl",
               "ObjC",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showNudge",
+            "printedName": "showNudge(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)showNudge:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC9showNudgeyySDySSypGF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3798,6 +3953,375 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "position",
+                "printedName": "position",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV8positionSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV8positionSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV8positionSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV8positionSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "NudgePosition",
+                "printedName": "NudgePosition",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "top",
+                    "printedName": "top",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition.Type) -> MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NudgePosition",
+                            "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition",
+                            "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "NudgePosition",
+                                "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition",
+                                "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO3topyA2GmF",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO3topyA2GmF",
+                    "moduleName": "MoEngagePluginBase",
+                    "fixedbinaryorder": 0
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "bottom",
+                    "printedName": "bottom",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition.Type) -> MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NudgePosition",
+                            "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition",
+                            "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "NudgePosition",
+                                "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition",
+                                "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO6bottomyA2GmF",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO6bottomyA2GmF",
+                    "moduleName": "MoEngagePluginBase",
+                    "fixedbinaryorder": 1
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "bottomLeft",
+                    "printedName": "bottomLeft",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition.Type) -> MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NudgePosition",
+                            "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition",
+                            "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "NudgePosition",
+                                "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition",
+                                "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO10bottomLeftyA2GmF",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO10bottomLeftyA2GmF",
+                    "moduleName": "MoEngagePluginBase",
+                    "fixedbinaryorder": 2
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "bottomRight",
+                    "printedName": "bottomRight",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition.Type) -> MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NudgePosition",
+                            "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition",
+                            "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "NudgePosition",
+                                "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition",
+                                "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO11bottomRightyA2GmF",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO11bottomRightyA2GmF",
+                    "moduleName": "MoEngagePluginBase",
+                    "fixedbinaryorder": 3
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "any",
+                    "printedName": "any",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition.Type) -> MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NudgePosition",
+                            "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition",
+                            "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "NudgePosition",
+                                "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition",
+                                "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO3anyyA2GmF",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO3anyyA2GmF",
+                    "moduleName": "MoEngagePluginBase",
+                    "fixedbinaryorder": 4
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(rawValue:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NudgePosition",
+                            "printedName": "MoEngagePluginBase.MoEngagePluginConstants.InApp.NudgePosition",
+                            "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO8rawValueAGSgSS_tcfc",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO8rawValueAGSgSS_tcfc",
+                    "moduleName": "MoEngagePluginBase",
+                    "implicit": true,
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "rawValue",
+                    "printedName": "rawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO8rawValueSSvp",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO8rawValueSSvp",
+                    "moduleName": "MoEngagePluginBase",
+                    "implicit": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO8rawValueSSvg",
+                        "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO8rawValueSSvg",
+                        "moduleName": "MoEngagePluginBase",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV5InAppV13NudgePositionO",
+                "moduleName": "MoEngagePluginBase",
+                "enumRawTypeName": "String",
+                "isEnumExhaustive": true,
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Hashable",
+                    "printedName": "Hashable",
+                    "usr": "s:SH",
+                    "mangledName": "$sSH"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "RawRepresentable",
+                    "printedName": "RawRepresentable",
+                    "children": [
+                      {
+                        "kind": "TypeWitness",
+                        "name": "RawValue",
+                        "printedName": "RawValue",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:SY",
+                    "mangledName": "$sSY"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Sendable",
+                    "printedName": "Sendable",
+                    "usr": "s:s8SendableP",
+                    "mangledName": "$ss8SendableP"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init()",
@@ -4473,6 +4997,94 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ExternalPluginBase",
+            "printedName": "ExternalPluginBase",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "cardsBridge",
+                "printedName": "cardsBridge",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV08ExternalcD0V11cardsBridgeSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV08ExternalcD0V11cardsBridgeSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV08ExternalcD0V11cardsBridgeSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV08ExternalcD0V11cardsBridgeSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExternalPluginBase",
+                    "printedName": "MoEngagePluginBase.MoEngagePluginConstants.ExternalPluginBase",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV08ExternalcD0V"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV08ExternalcD0VAEycfc",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV08ExternalcD0VAEycfc",
+                "moduleName": "MoEngagePluginBase",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18MoEngagePluginBase0abC9ConstantsV08ExternalcD0V",
+            "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV08ExternalcD0V",
+            "moduleName": "MoEngagePluginBase",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
             ]
           }
         ],
@@ -5154,6 +5766,7 @@
         "moduleName": "MoEngagePluginBase",
         "declAttributes": [
           "Final",
+          "Available",
           "Available",
           "ObjC"
         ],
@@ -7762,6 +8375,47 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "getNudgePosition",
+            "printedName": "getNudgePosition(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageNudgePosition",
+                "printedName": "MoEngageInApps.MoEngageNudgePosition",
+                "usr": "c:@EA@MoEngageNudgePosition"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MoEngagePluginBase0abC5UtilsC16getNudgePosition4fromSo0abgH0aSDySSypG_tFZ",
+            "mangledName": "$s18MoEngagePluginBase0abC5UtilsC16getNudgePosition4fromSo0abgH0aSDySSypG_tFZ",
+            "moduleName": "MoEngagePluginBase",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -8347,86 +9001,100 @@
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2900,
+      "offset": 2856,
+      "length": 10,
+      "value": "\"position\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3056,
       "length": 13,
       "value": "\"pushService\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2940,
+      "offset": 3096,
       "length": 6,
       "value": "\"APNS\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2974,
+      "offset": 3130,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3014,
+      "offset": 3170,
       "length": 12,
       "value": "\"screenName\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3062,
+      "offset": 3218,
       "length": 15,
       "value": "\"clickedAction\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3179,
+      "offset": 3335,
       "length": 23,
       "value": "\"MoEInAppCampaignShown\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3246,
+      "offset": 3402,
       "length": 27,
       "value": "\"MoEInAppCampaignDismissed\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3315,
+      "offset": 3471,
       "length": 25,
       "value": "\"MoEInAppCampaignClicked\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3387,
+      "offset": 3543,
       "length": 30,
       "value": "\"MoEInAppCampaignCustomAction\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3463,
+      "offset": 3619,
       "length": 29,
       "value": "\"MoEInAppCampaignSelfHandled\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3540,
+      "offset": 3696,
       "length": 23,
       "value": "\"MoEPushTokenGenerated\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3604,
+      "offset": 3760,
       "length": 16,
       "value": "\"MoEPushClicked\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3853,
+      "length": 56,
+      "value": "\"MoEngagePluginCards.MoEngagePluginCardsDelegateHandler\""
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginInAppDelegateHandler.swift",
@@ -8438,7 +9106,7 @@
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageDelegateHandler.swift",
       "kind": "StringLiteral",
-      "offset": 213,
+      "offset": 243,
       "length": 36,
       "value": "\"MoEngagePluginBase.MoEngagePluginMessageDelegateHandler\""
     },

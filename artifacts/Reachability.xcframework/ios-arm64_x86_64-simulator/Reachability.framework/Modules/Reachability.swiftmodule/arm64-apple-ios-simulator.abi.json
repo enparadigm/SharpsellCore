@@ -339,47 +339,6 @@
             "children": [
               {
                 "kind": "Var",
-                "name": "none",
-                "printedName": "none",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Reachability.Reachability.Connection.Type) -> Reachability.Reachability.Connection",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Connection",
-                        "printedName": "Reachability.Reachability.Connection",
-                        "usr": "s:12ReachabilityAAC10ConnectionO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "Reachability.Reachability.Connection.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Connection",
-                            "printedName": "Reachability.Reachability.Connection",
-                            "usr": "s:12ReachabilityAAC10ConnectionO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12ReachabilityAAC10ConnectionO4noneyA2DmF",
-                "mangledName": "$s12ReachabilityAAC10ConnectionO4noneyA2DmF",
-                "moduleName": "Reachability",
-                "deprecated": true,
-                "declAttributes": [
-                  "Available"
-                ]
-              },
-              {
-                "kind": "Var",
                 "name": "unavailable",
                 "printedName": "unavailable",
                 "children": [
@@ -525,6 +484,55 @@
                     "usr": "s:12ReachabilityAAC10ConnectionO11descriptionSSvg",
                     "mangledName": "$s12ReachabilityAAC10ConnectionO11descriptionSSvg",
                     "moduleName": "Reachability",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "none",
+                "printedName": "none",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Connection",
+                    "printedName": "Reachability.Reachability.Connection",
+                    "usr": "s:12ReachabilityAAC10ConnectionO"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12ReachabilityAAC10ConnectionO4noneADvpZ",
+                "mangledName": "$s12ReachabilityAAC10ConnectionO4noneADvpZ",
+                "moduleName": "Reachability",
+                "static": true,
+                "deprecated": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "Available"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Connection",
+                        "printedName": "Reachability.Reachability.Connection",
+                        "usr": "s:12ReachabilityAAC10ConnectionO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12ReachabilityAAC10ConnectionO4noneADvgZ",
+                    "mangledName": "$s12ReachabilityAAC10ConnectionO4noneADvgZ",
+                    "moduleName": "Reachability",
+                    "static": true,
+                    "implicit": true,
                     "accessorKind": "get"
                   }
                 ]
@@ -2601,21 +2609,21 @@
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
       "kind": "BooleanLiteral",
-      "offset": 3138,
+      "offset": 3142,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
       "kind": "BooleanLiteral",
-      "offset": 4271,
+      "offset": 4234,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
       "kind": "BooleanLiteral",
-      "offset": 4382,
+      "offset": 4345,
       "length": 5,
       "value": "false"
     }

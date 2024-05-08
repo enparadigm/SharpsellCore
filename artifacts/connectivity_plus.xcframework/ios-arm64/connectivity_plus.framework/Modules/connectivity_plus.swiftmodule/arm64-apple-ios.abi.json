@@ -165,6 +165,43 @@
             "moduleName": "connectivity_plus"
           },
           {
+            "kind": "Var",
+            "name": "other",
+            "printedName": "other",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(connectivity_plus.ConnectivityType.Type) -> connectivity_plus.ConnectivityType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectivityType",
+                    "printedName": "connectivity_plus.ConnectivityType",
+                    "usr": "s:17connectivity_plus16ConnectivityTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "connectivity_plus.ConnectivityType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectivityType",
+                        "printedName": "connectivity_plus.ConnectivityType",
+                        "usr": "s:17connectivity_plus16ConnectivityTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17connectivity_plus16ConnectivityTypeO5otheryA2CmF",
+            "mangledName": "$s17connectivity_plus16ConnectivityTypeO5otheryA2CmF",
+            "moduleName": "connectivity_plus"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -737,6 +774,10 @@
                 "mangledName": "$s17connectivity_plus31PathMonitorConnectivityProviderC0A13UpdateHandleryAA0E4TypeOcSgvM",
                 "moduleName": "connectivity_plus",
                 "implicit": true,
+                "intro_iOS": "12",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -1512,7 +1553,63 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/connectivity_plus-2.3.9\/ios\/Classes\/SwiftConnectivityPlusPlugin.swift",
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/connectivity_plus-5.0.2\/ios\/Classes\/SwiftConnectivityPlusPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 704,
+      "length": 40,
+      "value": "\"dev.fluttercommunity.plus\/connectivity\""
+    },
+    {
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/connectivity_plus-5.0.2\/ios\/Classes\/SwiftConnectivityPlusPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 850,
+      "length": 47,
+      "value": "\"dev.fluttercommunity.plus\/connectivity_status\""
+    },
+    {
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/connectivity_plus-5.0.2\/ios\/Classes\/SwiftConnectivityPlusPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1627,
+      "length": 7,
+      "value": "\"check\""
+    },
+    {
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/connectivity_plus-5.0.2\/ios\/Classes\/SwiftConnectivityPlusPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1924,
+      "length": 6,
+      "value": "\"wifi\""
+    },
+    {
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/connectivity_plus-5.0.2\/ios\/Classes\/SwiftConnectivityPlusPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1964,
+      "length": 8,
+      "value": "\"mobile\""
+    },
+    {
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/connectivity_plus-5.0.2\/ios\/Classes\/SwiftConnectivityPlusPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2011,
+      "length": 10,
+      "value": "\"ethernet\""
+    },
+    {
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/connectivity_plus-5.0.2\/ios\/Classes\/SwiftConnectivityPlusPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2054,
+      "length": 7,
+      "value": "\"other\""
+    },
+    {
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/connectivity_plus-5.0.2\/ios\/Classes\/SwiftConnectivityPlusPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2091,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/connectivity_plus-5.0.2\/ios\/Classes\/SwiftConnectivityPlusPlugin.swift",
       "kind": "StringLiteral",
       "offset": 190,
       "length": 27,

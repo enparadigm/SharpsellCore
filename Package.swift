@@ -13,8 +13,8 @@ let package = Package(
             targets: ["SharpsellCore"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/moengage/MoEngage-iOS-SDK", .exact("9.15.2")),
-        .package(url: "https://github.com/moengage/MoEngage-iOS-InApps", .exact("4.14.1"))
+        .package(url: "https://github.com/moengage/MoEngage-iOS-SDK", .exact("9.16.2")),
+        .package(url: "https://github.com/moengage/MoEngage-iOS-InApps", .exact("5.01.0"))
         ],
     targets: [
         .target(
@@ -24,7 +24,6 @@ let package = Package(
                 .product(name: "MoEngageInApps", package: "MoEngage-iOS-InApps"),
                 "app_links",
                 "audio_session",
-                "awesome_notifications",
                 "camera_avfoundation",
                 "connectivity_plus",
                 "contacts_service",
@@ -48,16 +47,18 @@ let package = Package(
                 "just_audio",
                 "libwebp",
                 "light_compressor",
-                "moengage_flutter",
+                "moengage_flutter_ios",
                 "MoEngagePluginBase",
                 "open_filex",
                 "OrderedSet",
                 "package_info_plus",
-                "path_provider_ios",
+                "path_provider_foundation",
                 "pdfx",
                 "permission_handler_apple",
+                "pointer_interceptor_ios",
                 "Reachability",
-                "record",
+                "record_darwin",
+                "rive_common",
                 "share_plus",
                 "share",
                 "shared_preferences_ios",
@@ -71,7 +72,7 @@ let package = Package(
                 "url_launcher_ios",
                 "video_player_avfoundation",
                 "video_thumbnail",
-                "wakelock",
+                "wakelock_plus",
                 "webview_flutter_wkwebview"
                 
             ]),
@@ -87,9 +88,6 @@ let package = Package(
         
             .binaryTarget(name: "audio_session",
                           path: "artifacts/audio_session.xcframework"),
-        
-            .binaryTarget(name: "awesome_notifications",
-                          path: "artifacts/awesome_notifications.xcframework"),
         
             .binaryTarget(name: "camera_avfoundation",
                           path: "artifacts/camera_avfoundation.xcframework"),
@@ -181,8 +179,8 @@ let package = Package(
         
         //            .binaryTarget(name: "nanopb",
         //                          path: "artifacts/nanopb.xcframework"),
-            .binaryTarget(name: "moengage_flutter",
-                          path: "artifacts/moengage_flutter.xcframework"),
+            .binaryTarget(name: "moengage_flutter_ios",
+                          path: "artifacts/moengage_flutter_ios.xcframework"),
         
             .binaryTarget(name: "MoEngagePluginBase",
                           path: "artifacts/MoEngagePluginBase.xcframework"),
@@ -199,17 +197,23 @@ let package = Package(
             .binaryTarget(name: "package_info_plus",
                           path: "artifacts/package_info_plus.xcframework"),
         
-            .binaryTarget(name: "path_provider_ios",
-                          path: "artifacts/path_provider_ios.xcframework"),
+            .binaryTarget(name: "path_provider_foundation",
+                          path: "artifacts/path_provider_foundation.xcframework"),
         
             .binaryTarget(name: "permission_handler_apple",
                           path: "artifacts/permission_handler_apple.xcframework"),
         
+            .binaryTarget(name: "pointer_interceptor_ios",
+                          path: "artifacts/pointer_interceptor_ios.xcframework"),
+        
             .binaryTarget(name: "Reachability",
                           path: "artifacts/Reachability.xcframework"),
         
-            .binaryTarget(name: "record",
-                          path: "artifacts/record.xcframework"),
+            .binaryTarget(name: "record_darwin",
+                          path: "artifacts/record_darwin.xcframework"),
+        
+            .binaryTarget(name: "rive_common",
+                          path: "artifacts/rive_common.xcframework"),
         
             .binaryTarget(name: "share_plus",
                           path: "artifacts/share_plus.xcframework"),
@@ -251,8 +255,8 @@ let package = Package(
             .binaryTarget(name: "video_thumbnail",
                           path: "artifacts/video_thumbnail.xcframework"),
         
-            .binaryTarget(name: "wakelock",
-                          path: "artifacts/wakelock.xcframework"),
+            .binaryTarget(name: "wakelock_plus",
+                          path: "artifacts/wakelock_plus.xcframework"),
         
             .binaryTarget(name: "webview_flutter_wkwebview",
                           path: "artifacts/webview_flutter_wkwebview.xcframework"),

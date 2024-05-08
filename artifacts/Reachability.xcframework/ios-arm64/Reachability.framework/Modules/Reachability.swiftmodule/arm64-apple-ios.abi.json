@@ -339,47 +339,6 @@
             "children": [
               {
                 "kind": "Var",
-                "name": "none",
-                "printedName": "none",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Reachability.Reachability.Connection.Type) -> Reachability.Reachability.Connection",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Connection",
-                        "printedName": "Reachability.Reachability.Connection",
-                        "usr": "s:12ReachabilityAAC10ConnectionO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "Reachability.Reachability.Connection.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Connection",
-                            "printedName": "Reachability.Reachability.Connection",
-                            "usr": "s:12ReachabilityAAC10ConnectionO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12ReachabilityAAC10ConnectionO4noneyA2DmF",
-                "mangledName": "$s12ReachabilityAAC10ConnectionO4noneyA2DmF",
-                "moduleName": "Reachability",
-                "deprecated": true,
-                "declAttributes": [
-                  "Available"
-                ]
-              },
-              {
-                "kind": "Var",
                 "name": "unavailable",
                 "printedName": "unavailable",
                 "children": [
@@ -525,6 +484,55 @@
                     "usr": "s:12ReachabilityAAC10ConnectionO11descriptionSSvg",
                     "mangledName": "$s12ReachabilityAAC10ConnectionO11descriptionSSvg",
                     "moduleName": "Reachability",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "none",
+                "printedName": "none",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Connection",
+                    "printedName": "Reachability.Reachability.Connection",
+                    "usr": "s:12ReachabilityAAC10ConnectionO"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12ReachabilityAAC10ConnectionO4noneADvpZ",
+                "mangledName": "$s12ReachabilityAAC10ConnectionO4noneADvpZ",
+                "moduleName": "Reachability",
+                "static": true,
+                "deprecated": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "Available"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Connection",
+                        "printedName": "Reachability.Reachability.Connection",
+                        "usr": "s:12ReachabilityAAC10ConnectionO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12ReachabilityAAC10ConnectionO4noneADvgZ",
+                    "mangledName": "$s12ReachabilityAAC10ConnectionO4noneADvgZ",
+                    "moduleName": "Reachability",
+                    "static": true,
+                    "implicit": true,
                     "accessorKind": "get"
                   }
                 ]
@@ -1834,24 +1842,325 @@
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 2332,
+      "length": 10,
+      "value": "\"Cellular\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 2386,
+      "length": 6,
+      "value": "\"WiFi\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 2432,
+      "length": 15,
+      "value": "\"No Connection\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 2676,
+      "length": 10,
+      "value": "\"Cellular\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 2718,
+      "length": 6,
+      "value": "\"WiFi\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 2763,
+      "length": 15,
+      "value": "\"No Connection\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
       "kind": "BooleanLiteral",
-      "offset": 3138,
+      "offset": 3142,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 3613,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 3627,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4273,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
       "kind": "BooleanLiteral",
-      "offset": 4310,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4382,
+      "offset": 4345,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5005,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 5117,
+      "length": 32,
+      "value": "\"uk.co.ashleymills.reachability\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7626,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 8633,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9226,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9298,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 10112,
+      "length": 19,
+      "value": "\"unavailable flags\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13114,
+      "length": 3,
+      "value": "\"W\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13120,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13161,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13167,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13217,
+      "length": 3,
+      "value": "\"c\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13223,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13274,
+      "length": 3,
+      "value": "\"t\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13280,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13332,
+      "length": 3,
+      "value": "\"i\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13338,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13389,
+      "length": 3,
+      "value": "\"C\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13395,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13445,
+      "length": 3,
+      "value": "\"D\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13451,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13495,
+      "length": 3,
+      "value": "\"l\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13501,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13539,
+      "length": 3,
+      "value": "\"d\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13545,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13565,
+      "length": 39,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13570,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13574,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13579,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13583,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13587,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13591,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13595,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13599,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/ReachabilitySwift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13603,
+      "length": 1,
+      "value": "\"\""
     }
   ]
 }
