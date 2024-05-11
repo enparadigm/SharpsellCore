@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SharpsellCore",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v13)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -13,15 +13,15 @@ let package = Package(
             targets: ["SharpsellCore"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/moengage/MoEngage-iOS-SDK", .exact("9.15.2")),
-        .package(url: "https://github.com/moengage/MoEngage-iOS-InApps", .exact("4.14.1"))
+//        .package(url: "https://github.com/moengage/MoEngage-iOS-SDK", .exact("9.15.2")),
+//        .package(url: "https://github.com/moengage/MoEngage-iOS-InApps", .exact("4.14.1"))
         ],
     targets: [
         .target(
             name: "SharpsellCore",
             dependencies: [
-                "MoEngage-iOS-SDK",
-                .product(name: "MoEngageInApps", package: "MoEngage-iOS-InApps"),
+//                "MoEngage-iOS-SDK",
+//                .product(name: "MoEngageInApps", package: "MoEngage-iOS-InApps"),
                 "app_links",
                 "audio_session",
                 "awesome_notifications",
@@ -48,8 +48,8 @@ let package = Package(
                 "just_audio",
                 "libwebp",
                 "light_compressor",
-                "moengage_flutter",
-                "MoEngagePluginBase",
+//                "moengage_flutter",
+//                "MoEngagePluginBase",
                 "open_filex",
                 "OrderedSet",
                 "package_info_plus",
@@ -181,11 +181,11 @@ let package = Package(
         
         //            .binaryTarget(name: "nanopb",
         //                          path: "artifacts/nanopb.xcframework"),
-            .binaryTarget(name: "moengage_flutter",
-                          path: "artifacts/moengage_flutter.xcframework"),
+//            .binaryTarget(name: "moengage_flutter",
+//                          path: "artifacts/moengage_flutter.xcframework"),
         
-            .binaryTarget(name: "MoEngagePluginBase",
-                          path: "artifacts/MoEngagePluginBase.xcframework"),
+//            .binaryTarget(name: "MoEngagePluginBase",
+//                          path: "artifacts/MoEngagePluginBase.xcframework"),
         
             .binaryTarget(name: "open_filex",
                           path: "artifacts/open_filex.xcframework"),

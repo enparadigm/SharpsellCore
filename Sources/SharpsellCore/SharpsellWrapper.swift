@@ -10,8 +10,8 @@ import Flutter
 import FlutterPluginRegistrant
 import os
 import AVFoundation
-import MoEngageSDK
-import moengage_flutter
+//import MoEngageSDK
+//import moengage_flutter
 
 //MARK: - Enum Declaration
 fileprivate enum FlutterMethods: String{
@@ -122,15 +122,15 @@ public struct SharpSellWrapper{
                         onSucces()
                         print("Sharpsell - Calling mo engage app  ")
                         
-                        getMoEngageAppId { moEngagaeAppId in
-                            print("Sharpsell - in getMoEngageAppId - \(moEngagaeAppId)")
-                            var sdkConfig = MoEngageSDKConfig(withAppID: moEngagaeAppId)
-                            sdkConfig.enableLogs = true
-                            MoEngageInitializer.sharedInstance.initializeDefaultInstance(sdkConfig)
-                            
-                        } onFailure: { errorMessage, SharpSellError in
-                            print(errorMessage)
-                        }
+//                        getMoEngageAppId { moEngagaeAppId in
+//                            print("Sharpsell - in getMoEngageAppId - \(moEngagaeAppId)")
+//                            var sdkConfig = MoEngageSDKConfig(withAppID: moEngagaeAppId)
+//                            sdkConfig.enableLogs = true
+//                            MoEngageInitializer.sharedInstance.initializeDefaultInstance(sdkConfig)
+//                            
+//                        } onFailure: { errorMessage, SharpSellError in
+//                            print(errorMessage)
+//                        }
                         
                     }
                 }
@@ -521,26 +521,26 @@ public struct SharpSellWrapper{
 }
 
 //MARK: Notification Handlers
-extension SharpSellWrapper{
-    
-    public func setPushTokenWhenDidRegisterForRemoteNotifications(with deviceToken: Data){
-        NSLog("Sharpsell SDK:  Recived Device Token and shared the same ✅")
-        //Sending the device token to mo engage to supprt mo engage push notification
-        MoEngageSDKMessaging.sharedInstance.setPushToken(deviceToken)
-    }
-    
-    public func setNotificationDataWhenDidReceive(_ center: UNUserNotificationCenter, _ response: UNNotificationResponse){
-        NSLog("Sharpsell SDK:  on notification didReceive and shared the same ✅")
-        //Sending the notification details to mo engage to support mo engage push notification
-        MoEngageSDKMessaging.sharedInstance.userNotificationCenter(center, didReceive: response)
-    }
-    
-    public func setNotificationDataWhenDidReceiveRemoteNotification(_ application: UIApplication, _ userInfo: [AnyHashable : Any]){
-        NSLog("Sharpsell SDK:  on notification didReceiveRemoteNotification and shared the same ✅")
-        //Sending the notification details to mo engage to support mo engage push notification
-        MoEngageSDKMessaging.sharedInstance.didReceieveNotification(inApplication: application, withInfo: userInfo)
-    }
-}
+//extension SharpSellWrapper{
+//    
+//    public func setPushTokenWhenDidRegisterForRemoteNotifications(with deviceToken: Data){
+//        NSLog("Sharpsell SDK:  Recived Device Token and shared the same ✅")
+//        //Sending the device token to mo engage to supprt mo engage push notification
+//        MoEngageSDKMessaging.sharedInstance.setPushToken(deviceToken)
+//    }
+//    
+//    public func setNotificationDataWhenDidReceive(_ center: UNUserNotificationCenter, _ response: UNNotificationResponse){
+//        NSLog("Sharpsell SDK:  on notification didReceive and shared the same ✅")
+//        //Sending the notification details to mo engage to support mo engage push notification
+//        MoEngageSDKMessaging.sharedInstance.userNotificationCenter(center, didReceive: response)
+//    }
+//    
+//    public func setNotificationDataWhenDidReceiveRemoteNotification(_ application: UIApplication, _ userInfo: [AnyHashable : Any]){
+//        NSLog("Sharpsell SDK:  on notification didReceiveRemoteNotification and shared the same ✅")
+//        //Sending the notification details to mo engage to support mo engage push notification
+//        MoEngageSDKMessaging.sharedInstance.didReceieveNotification(inApplication: application, withInfo: userInfo)
+//    }
+//}
 
 //MARK: Sharpsell helper functions
 extension SharpSellWrapper{
