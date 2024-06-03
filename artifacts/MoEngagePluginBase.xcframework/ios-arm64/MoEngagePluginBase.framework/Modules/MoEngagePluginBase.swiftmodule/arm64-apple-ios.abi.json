@@ -995,6 +995,47 @@
           },
           {
             "kind": "Function",
+            "name": "showNudge",
+            "printedName": "showNudge(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)showNudge:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC9showNudgeyySDySSypGF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getSelfHandledInApp",
             "printedName": "getSelfHandledInApp(_:)",
             "children": [
@@ -3479,518 +3520,553 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginBridge.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginBridge.swift",
       "kind": "BooleanLiteral",
-      "offset": 8677,
+      "offset": 9577,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginBridge.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginBridge.swift",
       "kind": "StringLiteral",
-      "offset": 8715,
+      "offset": 9615,
       "length": 62,
       "value": "\"MoEngage: Plugin Bridge - Native Dependencies not integrated\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginBridge.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginBridge.swift",
       "kind": "BooleanLiteral",
-      "offset": 8794,
+      "offset": 9694,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 7,
       "value": "\"8.3.0\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 7,
       "value": "\"8.3.0\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 346,
       "length": 7,
       "value": "\"8.4.0\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 433,
       "length": 13,
       "value": "\"accountMeta\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 480,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 526,
       "length": 12,
       "value": "\"campaignId\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 576,
       "length": 10,
       "value": "\"platform\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 619,
       "length": 5,
       "value": "\"iOS\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 660,
       "length": 8,
       "value": "\"kvPair\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 703,
       "length": 7,
       "value": "\"value\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 750,
       "length": 12,
       "value": "\"navigation\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 799,
       "length": 9,
       "value": "\"payload\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 852,
       "length": 16,
       "value": "\"navigationType\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 908,
       "length": 12,
       "value": "\"actionType\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 954,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 988,
       "length": 7,
       "value": "\"appId\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 1030,
       "length": 14,
       "value": "\"campaignName\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 1072,
       "length": 7,
       "value": "\"event\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 1109,
       "length": 9,
       "value": "\"message\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1213,
-      "length": 7,
-      "value": "\"alias\""
+      "offset": 1156,
+      "length": 17,
+      "value": "\"integrationMeta\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1254,
+      "offset": 1211,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1303,
+      "offset": 1258,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1362,
+      "length": 7,
+      "value": "\"alias\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1403,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1452,
       "length": 15,
       "value": "\"attributeName\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1362,
+      "offset": 1511,
       "length": 16,
       "value": "\"attributeValue\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1425,
+      "offset": 1574,
       "length": 19,
       "value": "\"locationAttribute\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1482,
+      "offset": 1631,
       "length": 10,
       "value": "\"latitude\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1531,
+      "offset": 1680,
       "length": 11,
       "value": "\"longitude\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1579,
+      "offset": 1728,
       "length": 9,
       "value": "\"general\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1627,
+      "offset": 1776,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1676,
+      "offset": 1825,
       "length": 10,
       "value": "\"location\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1769,
+      "offset": 1918,
       "length": 11,
       "value": "\"eventName\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1818,
+      "offset": 1967,
       "length": 17,
       "value": "\"eventAttributes\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1874,
+      "offset": 2023,
       "length": 18,
       "value": "\"isNonInteractive\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1989,
+      "offset": 2138,
       "length": 14,
       "value": "\"isSdkEnabled\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2038,
+      "offset": 2187,
       "length": 7,
       "value": "\"state\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2079,
+      "offset": 2228,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2151,
+      "offset": 2300,
       "length": 11,
       "value": "\"appStatus\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2192,
+      "offset": 2341,
       "length": 9,
       "value": "\"INSTALL\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2230,
+      "offset": 2379,
       "length": 8,
       "value": "\"UPDATE\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2313,
+      "offset": 2462,
       "length": 10,
       "value": "\"contexts\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2363,
+      "offset": 2512,
       "length": 12,
       "value": "\"impression\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2410,
+      "offset": 2559,
       "length": 7,
       "value": "\"click\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2456,
+      "offset": 2605,
       "length": 11,
       "value": "\"dismissed\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2512,
+      "offset": 2661,
       "length": 17,
       "value": "\"campaignContext\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2567,
+      "offset": 2716,
       "length": 17,
       "value": "\"dismissInterval\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2625,
+      "offset": 2774,
       "length": 13,
       "value": "\"selfHandled\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2680,
+      "offset": 2829,
       "length": 14,
       "value": "\"customAction\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2723,
+      "offset": 2872,
       "length": 8,
       "value": "\"screen\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2764,
+      "offset": 2911,
+      "length": 14,
+      "value": "\"deep_linking\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2958,
       "length": 12,
       "value": "\"campaignId\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2811,
+      "offset": 3005,
       "length": 14,
       "value": "\"campaignName\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2900,
+      "offset": 3050,
+      "length": 10,
+      "value": "\"position\""
+    },
+    {
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3250,
       "length": 13,
       "value": "\"pushService\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2940,
+      "offset": 3290,
       "length": 6,
       "value": "\"APNS\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2974,
+      "offset": 3324,
       "length": 7,
       "value": "\"token\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3014,
+      "offset": 3364,
       "length": 12,
       "value": "\"screenName\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3062,
+      "offset": 3412,
       "length": 15,
       "value": "\"clickedAction\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3179,
+      "offset": 3529,
       "length": 23,
       "value": "\"MoEInAppCampaignShown\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3246,
+      "offset": 3596,
       "length": 27,
       "value": "\"MoEInAppCampaignDismissed\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3315,
+      "offset": 3665,
       "length": 25,
       "value": "\"MoEInAppCampaignClicked\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3387,
+      "offset": 3737,
       "length": 30,
       "value": "\"MoEInAppCampaignCustomAction\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3463,
+      "offset": 3813,
       "length": 29,
       "value": "\"MoEInAppCampaignSelfHandled\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3540,
+      "offset": 3890,
       "length": 23,
       "value": "\"MoEPushTokenGenerated\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3604,
+      "offset": 3954,
       "length": 16,
       "value": "\"MoEPushClicked\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3697,
+      "offset": 4047,
       "length": 56,
       "value": "\"MoEngagePluginCards.MoEngagePluginCardsDelegateHandler\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginInAppDelegateHandler.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginInAppDelegateHandler.swift",
       "kind": "StringLiteral",
       "offset": 165,
       "length": 34,
       "value": "\"MoEngagePluginBase.MoEngagePluginInAppDelegateHandler\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageDelegateHandler.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageDelegateHandler.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 36,
       "value": "\"MoEngagePluginBase.MoEngagePluginMessageDelegateHandler\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageHandler.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 300,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageHandler.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageHandler.swift",
       "kind": "StringLiteral",
       "offset": 428,
       "length": 38,
       "value": "\"com.moengage.pluginBase.messageQueue\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageHandler.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1269,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageInstanceProvider.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageInstanceProvider.swift",
       "kind": "StringLiteral",
       "offset": 392,
       "length": 42,
       "value": "\"com.moengage.pluginBase.instanceProvider\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginParser.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginParser.swift",
       "kind": "StringLiteral",
       "offset": 5006,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginParser.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginParser.swift",
       "kind": "IntegerLiteral",
       "offset": 5113,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginParser.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginParser.swift",
       "kind": "BooleanLiteral",
       "offset": 5349,
       "length": 5,

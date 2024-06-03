@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoEngagePluginBase
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -9,6 +9,7 @@ import MoEngageSDK
 import Swift
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @available(iOSApplicationExtension, unavailable)
 @objc final public class MoEngagePlugin : ObjectiveC.NSObject {
   @objc final public func initializeDefaultInstance(sdkConfig: MoEngageCore.MoEngageSDKConfig, sdkState: MoEngageCore.MoEngageSDKState, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil)
@@ -36,6 +37,7 @@ public protocol MoEngagePluginBaseProtocol {
   @objc final public func trackEvent(_ eventAttribute: [Swift.String : Any])
   @objc final public func resetUser(_ userAttribute: [Swift.String : Any])
   @objc final public func showInApp(_ inApp: [Swift.String : Any])
+  @objc final public func showNudge(_ inApp: [Swift.String : Any])
   @objc final public func getSelfHandledInApp(_ inApp: [Swift.String : Any])
   @objc final public func setInAppContext(_ context: [Swift.String : Any])
   @objc final public func resetInAppContext(_ context: [Swift.String : Any])

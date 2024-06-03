@@ -125,7 +125,7 @@ public struct SharpSellWrapper{
                             getMoEngageAppId { moEngagaeAppId in
                                 print("Sharpsell - in getMoEngageAppId - \(moEngagaeAppId)")
                                 var sdkConfig = MoEngageSDKConfig(withAppID: moEngagaeAppId)
-                                sdkConfig.enableLogs = true
+//                                sdkConfig.enableLogs = true
                                 MoEngageInitializer.sharedInstance.initializeDefaultInstance(sdkConfig)
                                 
                             } onFailure: { errorMessage, SharpSellError in

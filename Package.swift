@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SharpsellCore",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v13)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -13,8 +13,8 @@ let package = Package(
             targets: ["SharpsellCore"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/moengage/MoEngage-iOS-SDK", .exact("9.15.2")),
-        .package(url: "https://github.com/moengage/MoEngage-iOS-InApps", .exact("4.14.1"))
+        .package(url: "https://github.com/moengage/MoEngage-iOS-SDK", .exact("9.17.2")),
+        .package(url: "https://github.com/moengage/MoEngage-iOS-InApps", .exact("6.00.2"))
         ],
     targets: [
         .target(
@@ -36,9 +36,9 @@ let package = Package(
                 "firebase_analytics",
                 "firebase_core",
                 "firebase_crashlytics",
-                "FirebaseCoreExtension",
-                "FirebaseCoreInternal",
-                "FirebaseSessions",
+//                "FirebaseCoreExtension",
+//                "FirebaseCoreInternal",
+//                "FirebaseSessions",
                 "flutter_custom_tabs",
                 "flutter_inappwebview",
                 "fluttercontactpicker",
@@ -63,9 +63,9 @@ let package = Package(
                 "pdfx",
                 "permission_handler_apple",
                 "pointer_interceptor_ios",
-                "Promises",
+                "promises",
                 "Reachability",
-                "record",
+                "record_darwin",
                 "rive_common",
                 "share_plus",
                 "share",
@@ -122,14 +122,14 @@ let package = Package(
             .binaryTarget(name: "firebase_crashlytics",
                           path: "artifacts/firebase_crashlytics.xcframework"),
         
-            .binaryTarget(name: "FirebaseCoreExtension",
-                          path: "artifacts/FirebaseCoreExtension.xcframework"),
+//            .binaryTarget(name: "FirebaseCoreExtension",
+//                          path: "artifacts/FirebaseCoreExtension.xcframework"),
         
-            .binaryTarget(name: "FirebaseCoreInternal",
-                          path: "artifacts/FirebaseCoreInternal.xcframework"),
+//            .binaryTarget(name: "FirebaseCoreInternal",
+//                          path: "artifacts/FirebaseCoreInternal.xcframework"),
         
-            .binaryTarget(name: "FirebaseSessions",
-                          path: "artifacts/FirebaseSessions.xcframework"),
+//            .binaryTarget(name: "FirebaseSessions",
+//                          path: "artifacts/FirebaseSessions.xcframework"),
         
 //            .binaryTarget(name: "firebase_messaging",
 //                          path: "artifacts/firebase_messaging.xcframework"),
@@ -224,14 +224,14 @@ let package = Package(
             .binaryTarget(name: "pointer_interceptor_ios",
                           path: "artifacts/pointer_interceptor_ios.xcframework"),
         
-            .binaryTarget(name: "Promises",
-                          path: "artifacts/Promises.xcframework"),
+            .binaryTarget(name: "promises",
+                          path: "artifacts/promises.xcframework"),
         
             .binaryTarget(name: "Reachability",
                           path: "artifacts/Reachability.xcframework"),
         
-            .binaryTarget(name: "record",
-                          path: "artifacts/record.xcframework"),
+            .binaryTarget(name: "record_darwin",
+                          path: "artifacts/record_darwin.xcframework"),
         
             .binaryTarget(name: "rive_common",
                           path: "artifacts/rive_common.xcframework"),

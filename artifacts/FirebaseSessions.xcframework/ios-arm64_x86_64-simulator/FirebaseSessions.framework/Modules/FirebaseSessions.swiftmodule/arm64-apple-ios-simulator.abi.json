@@ -8287,6 +8287,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "GoogleUtilities",
+        "printedName": "GoogleUtilities",
+        "declKind": "Import",
+        "moduleName": "FirebaseSessions",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "CacheKey",
         "printedName": "CacheKey",
@@ -8994,14 +9004,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UserDefaults",
-                "printedName": "Foundation.UserDefaults",
-                "usr": "c:objc(cs)NSUserDefaults"
+                "name": "GULUserDefaults",
+                "printedName": "GoogleUtilities.GULUserDefaults",
+                "usr": "c:objc(cs)GULUserDefaults"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16FirebaseSessions13SettingsCacheC5cache33_AC7468C195C0B30705E60A8751705C6FLLSo14NSUserDefaultsCvp",
-            "mangledName": "$s16FirebaseSessions13SettingsCacheC5cache33_AC7468C195C0B30705E60A8751705C6FLLSo14NSUserDefaultsCvp",
+            "usr": "s:16FirebaseSessions13SettingsCacheC5cache33_AC7468C195C0B30705E60A8751705C6FLLSo15GULUserDefaultsCvp",
+            "mangledName": "$s16FirebaseSessions13SettingsCacheC5cache33_AC7468C195C0B30705E60A8751705C6FLLSo15GULUserDefaultsCvp",
             "moduleName": "FirebaseSessions",
             "isInternal": true,
             "declAttributes": [
@@ -11368,198 +11378,198 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
       "kind": "StringLiteral",
       "offset": 774,
       "length": 25,
       "value": "\"-FIRSessionsDebugEvents\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
       "kind": "StringLiteral",
-      "offset": 930,
+      "offset": 1030,
       "length": 6,
       "value": "\"1974\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
       "kind": "Array",
-      "offset": 1702,
+      "offset": 1802,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
       "kind": "Dictionary",
-      "offset": 1953,
+      "offset": 2053,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
       "kind": "StringLiteral",
-      "offset": 2049,
+      "offset": 2149,
       "length": 34,
       "value": "\"SessionIDChangedNotificationName\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
       "kind": "StringLiteral",
-      "offset": 1018,
+      "offset": 1118,
       "length": 8,
       "value": "\"FirebaseSessions.Sessions\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
       "kind": "StringLiteral",
       "offset": 1244,
       "length": 25,
       "value": "\"FirebaseSessionsEnabled\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
       "kind": "StringLiteral",
       "offset": 1311,
       "length": 25,
       "value": "\"FirebaseSessionsTimeout\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
       "kind": "StringLiteral",
       "offset": 1383,
       "length": 29,
       "value": "\"FirebaseSessionsSampingRate\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Logger.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 773,
       "length": 20,
       "value": "\"[FirebaseSessions]\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Logger.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 825,
       "length": 13,
       "value": "\"I-SES000000\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "IntegerLiteral",
       "offset": 950,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "IntegerLiteral",
       "offset": 955,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "StringLiteral",
       "offset": 1001,
       "length": 18,
       "value": "\"sessions_enabled\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "StringLiteral",
       "offset": 1060,
       "length": 15,
       "value": "\"sampling_rate\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "StringLiteral",
       "offset": 1118,
       "length": 25,
       "value": "\"session_timeout_seconds\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "StringLiteral",
       "offset": 1185,
       "length": 16,
       "value": "\"cache_duration\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "StringLiteral",
       "offset": 1243,
       "length": 13,
       "value": "\"app_quality\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionGenerator.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionGenerator.swift",
       "kind": "StringLiteral",
       "offset": 1367,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
       "kind": "StringLiteral",
       "offset": 1061,
       "length": 14,
       "value": "\"FirebaseSessions.SessionDetails\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
       "kind": "IntegerLiteral",
       "offset": 1406,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
       "kind": "IntegerLiteral",
       "offset": 1425,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
       "kind": "IntegerLiteral",
       "offset": 1406,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
       "kind": "IntegerLiteral",
       "offset": 1425,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
       "kind": "StringLiteral",
       "offset": 1074,
       "length": 17,
       "value": "\"FirebaseSessions.SessionStartEvent\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1802,
+      "offset": 1956,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
       "kind": "StringLiteral",
-      "offset": 1866,
+      "offset": 2020,
       "length": 28,
       "value": "\"firebase-sessions-settings\""
     },
     {
-      "filePath": "\/Users\/Aman\/Documents\/sharpsell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
+      "filePath": "\/Users\/surya\/Documents\/Enparadigm\/Projects\/SharpShell\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
       "kind": "StringLiteral",
-      "offset": 1924,
+      "offset": 2078,
       "length": 29,
       "value": "\"firebase-sessions-cache-key\""
     }
