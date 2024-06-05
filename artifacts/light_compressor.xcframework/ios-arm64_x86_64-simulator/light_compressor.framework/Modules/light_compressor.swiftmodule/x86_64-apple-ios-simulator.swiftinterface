@@ -1,13 +1,12 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name light_compressor
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name light_compressor
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Flutter
 import Foundation
 import Photos
 import Swift
-import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -26,8 +25,8 @@ public enum VideoQuality {
 }
 public enum CompressionResult {
   case onStart
-  case onSuccess(Foundation.URL)
-  case onFailure(light_compressor.CompressionError)
+  case onSuccess(Swift.Int, Foundation.URL)
+  case onFailure(Swift.Int, light_compressor.CompressionError)
   case onCancelled
 }
 public class Compression {
@@ -38,13 +37,26 @@ public class Compression {
 public struct CompressionError : Foundation.LocalizedError {
   public let title: Swift.String
 }
-@available(iOS 11.0, *)
 public struct LightCompressor {
+  public struct Video {
+    public struct Configuration {
+      public let quality: light_compressor.VideoQuality
+      public let isMinBitrateCheckEnabled: Swift.Bool
+      public let videoBitrateInMbps: Swift.Int?
+      public let disableAudio: Swift.Bool
+      public let keepOriginalResolution: Swift.Bool
+      public let videoSize: CoreFoundation.CGSize?
+      public init(quality: light_compressor.VideoQuality = .medium, isMinBitrateCheckEnabled: Swift.Bool = true, videoBitrateInMbps: Swift.Int? = nil, disableAudio: Swift.Bool = false, keepOriginalResolution: Swift.Bool = false, videoSize: CoreFoundation.CGSize? = nil)
+    }
+    public let source: Foundation.URL
+    public let destination: Foundation.URL
+    public let configuration: light_compressor.LightCompressor.Video.Configuration
+    public init(source: Foundation.URL, destination: Foundation.URL, configuration: light_compressor.LightCompressor.Video.Configuration = Configuration())
+  }
   public init()
-  public func compressVideo(source: Foundation.URL, destination: Foundation.URL, quality: light_compressor.VideoQuality, frameRate: Swift.Int? = nil, isMinBitrateCheckEnabled: Swift.Bool = true, progressQueue: Dispatch.DispatchQueue, progressHandler: ((Foundation.Progress) -> ())?, completion: @escaping (light_compressor.CompressionResult) -> ()) -> light_compressor.Compression
+  public func compressVideo(videos: [light_compressor.LightCompressor.Video], progressQueue: Dispatch.DispatchQueue = .main, progressHandler: ((Foundation.Progress) -> ())?, completion: @escaping (light_compressor.CompressionResult) -> ()) -> light_compressor.Compression
 }
-@objc @_inheritsConvenienceInitializers @available(iOS 11.0, *)
-public class SwiftLightCompressorPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin, Flutter.FlutterStreamHandler {
+@objc @_inheritsConvenienceInitializers public class SwiftLightCompressorPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin, Flutter.FlutterStreamHandler {
   @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
   @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
   @objc public func onListen(withArguments arguments: Any?, eventSink events: @escaping Flutter.FlutterEventSink) -> Flutter.FlutterError?

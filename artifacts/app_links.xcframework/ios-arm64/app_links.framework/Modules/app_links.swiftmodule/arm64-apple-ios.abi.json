@@ -20,6 +20,72 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "AppLinks",
+        "printedName": "AppLinks",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftAppLinksPlugin",
+                "printedName": "app_links.SwiftAppLinksPlugin",
+                "usr": "c:@M@app_links@objc(cs)SwiftAppLinksPlugin"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9app_links8AppLinksC6sharedAA05SwiftcD6PluginCvpZ",
+            "mangledName": "$s9app_links8AppLinksC6sharedAA05SwiftcD6PluginCvpZ",
+            "moduleName": "app_links",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SwiftAppLinksPlugin",
+                    "printedName": "app_links.SwiftAppLinksPlugin",
+                    "usr": "c:@M@app_links@objc(cs)SwiftAppLinksPlugin"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9app_links8AppLinksC6sharedAA05SwiftcD6PluginCvgZ",
+                "mangledName": "$s9app_links8AppLinksC6sharedAA05SwiftcD6PluginCvgZ",
+                "moduleName": "app_links",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9app_links8AppLinksC",
+        "mangledName": "$s9app_links8AppLinksC",
+        "moduleName": "app_links",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
         "name": "SwiftAppLinksPlugin",
         "printedName": "SwiftAppLinksPlugin",
         "children": [
@@ -104,6 +170,64 @@
               "Final",
               "ObjC",
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLink",
+            "printedName": "getLink(launchOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9app_links19SwiftAppLinksPluginC7getLink13launchOptions10Foundation3URLVSgSDys11AnyHashableVypGSg_tF",
+            "mangledName": "$s9app_links19SwiftAppLinksPluginC7getLink13launchOptions10Foundation3URLVSgSDys11AnyHashableVypGSg_tF",
+            "moduleName": "app_links",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -342,6 +466,33 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "handleLink",
+            "printedName": "handleLink(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9app_links19SwiftAppLinksPluginC10handleLink3urly10Foundation3URLV_tF",
+            "mangledName": "$s9app_links19SwiftAppLinksPluginC10handleLink3urly10Foundation3URLV_tF",
+            "moduleName": "app_links",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -439,81 +590,67 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-3.4.3\/ios\/Classes\/SwiftAppLinksPlugin.swift",
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-5.0.0\/ios\/Classes\/SwiftAppLinksPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 364,
+      "offset": 473,
       "length": 34,
       "value": "\"com.llfbandit.app_links\/messages\""
     },
     {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-3.4.3\/ios\/Classes\/SwiftAppLinksPlugin.swift",
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-5.0.0\/ios\/Classes\/SwiftAppLinksPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 490,
+      "offset": 599,
       "length": 32,
       "value": "\"com.llfbandit.app_links\/events\""
     },
     {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-3.4.3\/ios\/Classes\/SwiftAppLinksPlugin.swift",
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-5.0.0\/ios\/Classes\/SwiftAppLinksPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 903,
+      "offset": 1010,
       "length": 19,
       "value": "\"getInitialAppLink\""
     },
     {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-3.4.3\/ios\/Classes\/SwiftAppLinksPlugin.swift",
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-5.0.0\/ios\/Classes\/SwiftAppLinksPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 965,
+      "offset": 1068,
       "length": 18,
       "value": "\"getLatestAppLink\""
     },
     {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-3.4.3\/ios\/Classes\/SwiftAppLinksPlugin.swift",
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-5.0.0\/ios\/Classes\/SwiftAppLinksPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 1438,
+      "offset": 2311,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-5.0.0\/ios\/Classes\/SwiftAppLinksPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2339,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-3.4.3\/ios\/Classes\/SwiftAppLinksPlugin.swift",
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-5.0.0\/ios\/Classes\/SwiftAppLinksPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 1501,
+      "offset": 2366,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-3.4.3\/ios\/Classes\/SwiftAppLinksPlugin.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1530,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-3.4.3\/ios\/Classes\/SwiftAppLinksPlugin.swift",
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-5.0.0\/ios\/Classes\/SwiftAppLinksPlugin.swift",
       "kind": "Dictionary",
-      "offset": 1714,
+      "offset": 2552,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-3.4.3\/ios\/Classes\/SwiftAppLinksPlugin.swift",
+      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-5.0.0\/ios\/Classes\/SwiftAppLinksPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 1773,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-3.4.3\/ios\/Classes\/SwiftAppLinksPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 2202,
-      "length": 25,
-      "value": "\"iOS handleLink: \""
-    },
-    {
-      "filePath": "\/Users\/surya\/.pub-cache\/hosted\/pub.dev\/app_links-3.4.3\/ios\/Classes\/SwiftAppLinksPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 2226,
-      "length": 2,
-      "value": "\"\""
+      "offset": 2615,
+      "length": 4,
+      "value": "true"
     }
   ]
 }

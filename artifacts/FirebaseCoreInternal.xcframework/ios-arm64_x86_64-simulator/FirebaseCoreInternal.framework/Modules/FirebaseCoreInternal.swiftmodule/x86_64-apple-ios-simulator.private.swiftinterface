@@ -1,10 +1,9 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name FirebaseCoreInternal
+// swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name FirebaseCoreInternal
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import FirebaseCoreInternal
 import Foundation
-import GoogleUtilities
 import Swift
 import _Concurrency
 import _StringProcessing
@@ -31,6 +30,25 @@ import _SwiftConcurrencyShims
   final public func flush() -> FirebaseCoreInternal.HeartbeatsPayload
   @discardableResult
   final public func flushHeartbeatFromToday() -> FirebaseCoreInternal.HeartbeatsPayload
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(FIRHeartbeatLoggingTestUtils) @objcMembers public class HeartbeatLoggingTestUtils : ObjectiveC.NSObject {
+  public enum Constants {
+    public static let heartbeatFileStorageDirectoryPath: Swift.String
+    public static let heartbeatUserDefaultsSuiteName: Swift.String
+  }
+  @objc public static var dateFormatter: Foundation.DateFormatter {
+    @objc get
+  }
+  @objc public static var emptyHeartbeatsPayload: FirebaseCoreInternal._ObjC_HeartbeatsPayload {
+    @objc get
+  }
+  @objc public static var nonEmptyHeartbeatsPayload: FirebaseCoreInternal._ObjC_HeartbeatsPayload {
+    @objc get
+  }
+  @objc(assertEncodedPayloadString:isEqualToLiteralString:withError:) public static func assertEqualPayloadStrings(_ encoded: Swift.String, _ literal: Swift.String) throws
+  @objc public static func removeUnderlyingHeartbeatStorageContainers() throws
+  @objc override dynamic public init()
   @objc deinit
 }
 public protocol HTTPHeaderRepresentable {

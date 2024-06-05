@@ -303,6 +303,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 
+
 @class MoEngageSDKConfig;
 @class NSString;
 
@@ -335,6 +336,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngagePlug
 - (void)trackEvent:(NSDictionary<NSString *, id> * _Nonnull)eventAttribute;
 - (void)resetUser:(NSDictionary<NSString *, id> * _Nonnull)userAttribute;
 - (void)showInApp:(NSDictionary<NSString *, id> * _Nonnull)inApp;
+- (void)showNudge:(NSDictionary<NSString *, id> * _Nonnull)inApp;
 - (void)getSelfHandledInApp:(NSDictionary<NSString *, id> * _Nonnull)inApp;
 - (void)setInAppContext:(NSDictionary<NSString *, id> * _Nonnull)context;
 - (void)resetInAppContext:(NSDictionary<NSString *, id> * _Nonnull)context;

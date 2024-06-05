@@ -303,7 +303,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class FlutterMethodCall;
 @class FlutterError;
 
-SWIFT_CLASS("_TtC16light_compressor26SwiftLightCompressorPlugin") SWIFT_AVAILABILITY(ios,introduced=11.0)
+SWIFT_CLASS("_TtC16light_compressor26SwiftLightCompressorPlugin")
 @interface SwiftLightCompressorPlugin : NSObject <FlutterPlugin, FlutterStreamHandler>
 + (void)registerWithRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar;
 - (void)handleMethodCall:(FlutterMethodCall * _Nonnull)call result:(FlutterResult _Nonnull)result;
