@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/surya/Documents/Enparadigm/Projects/SharpShell/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/share/share.framework/share'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x56C96, size: 0x8, addend: 0x0, symName: _shareVersionString, symObjAddr: 0x0, symBinAddr: 0x56F8, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x56CCB, size: 0x8, addend: 0x0, symName: _shareVersionNumber, symObjAddr: 0x28, symBinAddr: 0x5720, symSize: 0x0 }
+  - { offsetInCU: 0x34, offset: 0x56C96, size: 0x8, addend: 0x0, symName: _shareVersionString, symObjAddr: 0x0, symBinAddr: 0x56E0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x56CCB, size: 0x8, addend: 0x0, symName: _shareVersionNumber, symObjAddr: 0x28, symBinAddr: 0x5708, symSize: 0x0 }
   - { offsetInCU: 0x27, offset: 0x56D08, size: 0x8, addend: 0x0, symName: '-[ShareData init]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x50 }
   - { offsetInCU: 0xC6, offset: 0x56DA7, size: 0x8, addend: 0x0, symName: '-[ShareData init]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x50 }
   - { offsetInCU: 0x101, offset: 0x56DE2, size: 0x8, addend: 0x0, symName: '-[ShareData initWithSubject:text:]', symObjAddr: 0x50, symBinAddr: 0x4050, symSize: 0xBC }
@@ -22,5 +22,5 @@ relocations:
   - { offsetInCU: 0x553, offset: 0x57234, size: 0x8, addend: 0x0, symName: '___40+[FLTSharePlugin registerWithRegistrar:]_block_invoke', symObjAddr: 0x4DC, symBinAddr: 0x44DC, symSize: 0x62C }
   - { offsetInCU: 0x73F, offset: 0x57420, size: 0x8, addend: 0x0, symName: '+[FLTSharePlugin share:withController:atSource:]', symObjAddr: 0xB08, symBinAddr: 0x4B08, symSize: 0x114 }
   - { offsetInCU: 0x7AA, offset: 0x5748B, size: 0x8, addend: 0x0, symName: '+[FLTSharePlugin shareText:subject:withController:atSource:]', symObjAddr: 0xC1C, symBinAddr: 0x4C1C, symSize: 0x138 }
-  - { offsetInCU: 0x829, offset: 0x5750A, size: 0x8, addend: 0x0, symName: '+[FLTSharePlugin shareFiles:withMimeType:withSubject:withText:withController:atSource:]', symObjAddr: 0xD54, symBinAddr: 0x4D54, symSize: 0x374 }
+  - { offsetInCU: 0x829, offset: 0x5750A, size: 0x8, addend: 0x0, symName: '+[FLTSharePlugin shareFiles:withMimeType:withSubject:withText:withController:atSource:]', symObjAddr: 0xD54, symBinAddr: 0x4D54, symSize: 0x370 }
 ...
