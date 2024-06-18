@@ -153,6 +153,12 @@ extension MoEngageInApps.MoEngageInAppUtils {
   @objc public static func getStringValue(for alignment: MoEngageInApps.MoEngageInAppTemplateAlignment) -> Swift.String?
   @objc deinit
 }
+extension MoEngageInApps.MoEngageInAppPrimaryContainerView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func touchesCancelled(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func touchesMoved(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+}
 @_inheritsConvenienceInitializers @objc public class MoEngageInAppFileStorageHandler : ObjectiveC.NSObject {
   @objc public func migrateInAppsData(sdkInstance: MoEngageCore.MoEngageSDKInstance)
   @objc public func saveNoNEncryptedInAppData(data: MoEngageInApps.MoEngageInAppCampaignsData, sdkInstance: MoEngageCore.MoEngageSDKInstance)

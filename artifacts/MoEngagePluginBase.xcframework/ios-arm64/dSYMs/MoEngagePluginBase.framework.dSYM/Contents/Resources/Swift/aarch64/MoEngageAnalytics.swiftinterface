@@ -124,6 +124,7 @@ import _SwiftConcurrencyShims
   override public func removeEncryptedFolder(sdkInstance: MoEngageCore.MoEngageSDKInstance)
   override public func resetDataAfterUnRegistration(sdkInstance: MoEngageCore.MoEngageSDKInstance)
   override public func syncExistingDataBeforeUnRegisteration(sdkInstance: MoEngageCore.MoEngageSDKInstance, withCompletionBlock completionBlock: ((Swift.Bool) -> Swift.Void)? = nil)
+  override public func migrateEnvironment(forSDK sdkInstance: MoEngageCore.MoEngageSDKInstance)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class MoEngageAnalyticsSource {
