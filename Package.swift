@@ -13,8 +13,8 @@ let package = Package(
             targets: ["SharpsellCore"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/moengage/MoEngage-iOS-SDK", .exact("9.17.4")),
-        .package(url: "https://github.com/moengage/MoEngage-iOS-InApps", .exact("6.00.2"))
+        .package(url: "https://github.com/moengage/MoEngage-iOS-SDK", .exact("9.17.5")),
+        .package(url: "https://github.com/moengage/MoEngage-iOS-InApps", .exact("6.00.3"))
         ],
     targets: [
         .target(
