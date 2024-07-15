@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name moengage_flutter_ios
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name moengage_flutter_ios
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Flutter
 import Foundation
@@ -28,5 +28,6 @@ extension moengage_flutter_ios.MoEngageFlutterBridge : MoEngagePluginBase.MoEnga
   @objc public func initializeDefaultInstance(_ config: MoEngageCore.MoEngageSDKConfig, sdkState: Swift.Bool = true, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil)
   @objc public func initializeDefaultInstance(config: MoEngageCore.MoEngageSDKConfig, sdkState: MoEngageCore.MoEngageSDKState = .enabled, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil)
   @objc public func initializeDefaultInstance(_ config: MoEngageCore.MoEngageSDKConfig, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil)
+  @objc public func initializeInstance(_ config: MoEngagePluginBase.MoEngageSDKInitializationConfig)
   @objc deinit
 }

@@ -304,11 +304,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+@class MoEngageSDKInitializationConfig;
 @class MoEngageSDKConfig;
 @class NSString;
 
 SWIFT_CLASS("_TtC18MoEngagePluginBase14MoEngagePlugin") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface MoEngagePlugin : NSObject
+/// Initialize SDK with provided configuration.
+/// \param initializationConfig The configuration used for initialization.
+///
+- (void)initializeInstanceWithConfig:(MoEngageSDKInitializationConfig * _Nonnull)initializationConfig;
 - (void)initializeDefaultInstanceWithSdkConfig:(MoEngageSDKConfig * _Nonnull)sdkConfig sdkState:(enum MoEngageSDKState)sdkState launchOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions;
 - (void)initializeDefaultInstanceWithSdkConfig:(MoEngageSDKConfig * _Nonnull)sdkConfig launchOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions;
 - (void)initializeInstanceWithSdkConfig:(MoEngageSDKConfig * _Nonnull)sdkConfig sdkState:(enum MoEngageSDKState)sdkState launchOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions;
@@ -349,6 +354,30 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngagePlug
 SWIFT_PROTOCOL("_TtP18MoEngagePluginBase28MoEngagePluginBridgeDelegate_")
 @protocol MoEngagePluginBridgeDelegate
 - (void)sendMessageWithEvent:(NSString * _Nonnull)event message:(NSDictionary<NSString *, id> * _Nonnull)message;
+@end
+
+
+/// MoEngage SDK Initialization Configuration
+SWIFT_CLASS("_TtC18MoEngagePluginBase31MoEngageSDKInitializationConfig")
+@interface MoEngageSDKInitializationConfig : NSObject
+/// The SDK configuration to be used.
+@property (nonatomic, readonly, strong) MoEngageSDKConfig * _Nonnull sdkConfig;
+/// The state of SDK.
+/// By default, state is enabled.
+@property (nonatomic) enum MoEngageSDKState sdkState;
+/// The app launch options.
+/// By default, no launch options set..
+@property (nonatomic, copy) NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable launchOptions;
+@property (nonatomic) BOOL isTestEnvironment;
+/// Whether the initialized SDK instance is default instance.
+/// By default. set as <code>true</code>.
+@property (nonatomic) BOOL isDefaultInstance;
+/// Creates a new initialization configuration with provided SDK configuration and default options.
+/// \param sdkConfig The SDK configuration to be used
+///
+- (nonnull instancetype)initWithSdkConfig:(MoEngageSDKConfig * _Nonnull)sdkConfig OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 #endif
@@ -665,11 +694,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+@class MoEngageSDKInitializationConfig;
 @class MoEngageSDKConfig;
 @class NSString;
 
 SWIFT_CLASS("_TtC18MoEngagePluginBase14MoEngagePlugin") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface MoEngagePlugin : NSObject
+/// Initialize SDK with provided configuration.
+/// \param initializationConfig The configuration used for initialization.
+///
+- (void)initializeInstanceWithConfig:(MoEngageSDKInitializationConfig * _Nonnull)initializationConfig;
 - (void)initializeDefaultInstanceWithSdkConfig:(MoEngageSDKConfig * _Nonnull)sdkConfig sdkState:(enum MoEngageSDKState)sdkState launchOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions;
 - (void)initializeDefaultInstanceWithSdkConfig:(MoEngageSDKConfig * _Nonnull)sdkConfig launchOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions;
 - (void)initializeInstanceWithSdkConfig:(MoEngageSDKConfig * _Nonnull)sdkConfig sdkState:(enum MoEngageSDKState)sdkState launchOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions;
@@ -710,6 +744,30 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngagePlug
 SWIFT_PROTOCOL("_TtP18MoEngagePluginBase28MoEngagePluginBridgeDelegate_")
 @protocol MoEngagePluginBridgeDelegate
 - (void)sendMessageWithEvent:(NSString * _Nonnull)event message:(NSDictionary<NSString *, id> * _Nonnull)message;
+@end
+
+
+/// MoEngage SDK Initialization Configuration
+SWIFT_CLASS("_TtC18MoEngagePluginBase31MoEngageSDKInitializationConfig")
+@interface MoEngageSDKInitializationConfig : NSObject
+/// The SDK configuration to be used.
+@property (nonatomic, readonly, strong) MoEngageSDKConfig * _Nonnull sdkConfig;
+/// The state of SDK.
+/// By default, state is enabled.
+@property (nonatomic) enum MoEngageSDKState sdkState;
+/// The app launch options.
+/// By default, no launch options set..
+@property (nonatomic, copy) NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable launchOptions;
+@property (nonatomic) BOOL isTestEnvironment;
+/// Whether the initialized SDK instance is default instance.
+/// By default. set as <code>true</code>.
+@property (nonatomic) BOOL isDefaultInstance;
+/// Creates a new initialization configuration with provided SDK configuration and default options.
+/// \param sdkConfig The SDK configuration to be used
+///
+- (nonnull instancetype)initWithSdkConfig:(MoEngageSDKConfig * _Nonnull)sdkConfig OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 #endif

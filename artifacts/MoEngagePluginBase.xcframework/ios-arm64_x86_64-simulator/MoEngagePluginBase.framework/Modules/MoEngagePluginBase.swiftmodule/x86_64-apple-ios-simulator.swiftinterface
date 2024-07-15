@@ -12,6 +12,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @available(iOSApplicationExtension, unavailable)
 @objc final public class MoEngagePlugin : ObjectiveC.NSObject {
+  @objc final public func initializeInstance(withConfig initializationConfig: MoEngagePluginBase.MoEngageSDKInitializationConfig)
   @objc final public func initializeDefaultInstance(sdkConfig: MoEngageCore.MoEngageSDKConfig, sdkState: MoEngageCore.MoEngageSDKState, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil)
   @objc final public func initializeDefaultInstance(sdkConfig: MoEngageCore.MoEngageSDKConfig, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil)
   @objc final public func initializeInstance(sdkConfig: MoEngageCore.MoEngageSDKConfig, sdkState: MoEngageCore.MoEngageSDKState, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil)
@@ -102,5 +103,14 @@ public struct MoEngagePluginConstants {
 @_hasMissingDesignatedInitializers public class MoEngagePluginUtils {
   public static func fetchIdentifierFromPayload(attribute: [Swift.String : Any]) -> Swift.String?
   public static func createAccountPayload(identifier: Swift.String) -> [Swift.String : Any]
+  @objc deinit
+}
+@objc @objcMembers public class MoEngageSDKInitializationConfig : ObjectiveC.NSObject {
+  @objc final public let sdkConfig: MoEngageCore.MoEngageSDKConfig
+  @objc public var sdkState: MoEngageCore.MoEngageSDKState
+  @objc public var launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?
+  @objc public var isTestEnvironment: Swift.Bool
+  @objc public var isDefaultInstance: Swift.Bool
+  @objc public init(sdkConfig: MoEngageCore.MoEngageSDKConfig)
   @objc deinit
 }

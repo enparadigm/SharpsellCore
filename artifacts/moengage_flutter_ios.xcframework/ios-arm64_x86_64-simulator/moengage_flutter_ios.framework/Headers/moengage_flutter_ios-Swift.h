@@ -320,6 +320,7 @@ SWIFT_CLASS("_TtC20moengage_flutter_ios21MoEngageFlutterBridge")
 @end
 
 @class MoEngageSDKConfig;
+@class MoEngageSDKInitializationConfig;
 
 SWIFT_CLASS("_TtC20moengage_flutter_ios19MoEngageInitializer")
 @interface MoEngageInitializer : NSObject
@@ -330,6 +331,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageInit
 - (void)initializeDefaultInstance:(MoEngageSDKConfig * _Nonnull)config sdkState:(BOOL)sdkState launchOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions SWIFT_DEPRECATED_MSG("use 'initializeDefaultInstance(config:sdkState:launchOptions:)'");
 - (void)initializeDefaultInstanceWithConfig:(MoEngageSDKConfig * _Nonnull)config sdkState:(enum MoEngageSDKState)sdkState launchOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions;
 - (void)initializeDefaultInstance:(MoEngageSDKConfig * _Nonnull)config launchOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions;
+- (void)initializeInstance:(MoEngageSDKInitializationConfig * _Nonnull)config;
 @end
 
 #endif
@@ -662,6 +664,7 @@ SWIFT_CLASS("_TtC20moengage_flutter_ios21MoEngageFlutterBridge")
 @end
 
 @class MoEngageSDKConfig;
+@class MoEngageSDKInitializationConfig;
 
 SWIFT_CLASS("_TtC20moengage_flutter_ios19MoEngageInitializer")
 @interface MoEngageInitializer : NSObject
@@ -672,6 +675,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageInit
 - (void)initializeDefaultInstance:(MoEngageSDKConfig * _Nonnull)config sdkState:(BOOL)sdkState launchOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions SWIFT_DEPRECATED_MSG("use 'initializeDefaultInstance(config:sdkState:launchOptions:)'");
 - (void)initializeDefaultInstanceWithConfig:(MoEngageSDKConfig * _Nonnull)config sdkState:(enum MoEngageSDKState)sdkState launchOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions;
 - (void)initializeDefaultInstance:(MoEngageSDKConfig * _Nonnull)config launchOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions;
+- (void)initializeInstance:(MoEngageSDKInitializationConfig * _Nonnull)config;
 @end
 
 #endif
