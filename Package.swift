@@ -63,13 +63,14 @@ let package = Package(
                 "pdfx",
                 "permission_handler_apple",
                 "pointer_interceptor_ios",
+                "printing",
                 "promises",
                 "Reachability",
                 "record_darwin",
                 "rive_common",
                 "share_plus",
                 "share",
-                "shared_preferences_ios",
+                "shared_preferences_foundation",
                 "sharpsell",
                 "sqflite",
                 "sqlite3_flutter_libs",
@@ -227,6 +228,9 @@ let package = Package(
             .binaryTarget(name: "promises",
                           path: "artifacts/promises.xcframework"),
         
+            .binaryTarget(name: "printing",
+                          path: "artifacts/printing.xcframework"),
+        
             .binaryTarget(name: "Reachability",
                           path: "artifacts/Reachability.xcframework"),
         
@@ -242,8 +246,8 @@ let package = Package(
             .binaryTarget(name: "share",
                           path: "artifacts/share.xcframework"),
         
-            .binaryTarget(name: "shared_preferences_ios",
-                          path: "artifacts/shared_preferences_ios.xcframework"),
+            .binaryTarget(name: "shared_preferences_foundation",
+                          path: "artifacts/shared_preferences_foundation.xcframework"),
         
             .binaryTarget(name: "sharpsell",
                           path: "artifacts/sharpsell.xcframework"),
