@@ -866,7 +866,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<url_launcher_ios.LaunchResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<url_launcher_ios.LaunchResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -876,7 +876,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<url_launcher_ios.LaunchResult, Swift.Error>",
+                    "printedName": "Swift.Result<url_launcher_ios.LaunchResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -887,7 +887,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -928,7 +928,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<url_launcher_ios.InAppLoadResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<url_launcher_ios.InAppLoadResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -938,7 +938,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<url_launcher_ios.InAppLoadResult, Swift.Error>",
+                    "printedName": "Swift.Result<url_launcher_ios.InAppLoadResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -949,7 +949,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1023,18 +1023,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterBinaryMessenger",
-                "printedName": "Flutter.FlutterBinaryMessenger",
+                "printedName": "any Flutter.FlutterBinaryMessenger",
                 "usr": "c:objc(pl)FlutterBinaryMessenger"
               },
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "url_launcher_ios.UrlLauncherApi?",
+                "printedName": "(any url_launcher_ios.UrlLauncherApi)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UrlLauncherApi",
-                    "printedName": "url_launcher_ios.UrlLauncherApi",
+                    "printedName": "any url_launcher_ios.UrlLauncherApi",
                     "usr": "s:16url_launcher_ios14UrlLauncherApiP"
                   }
                 ],
@@ -1116,7 +1116,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -1147,7 +1147,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Launcher",
-                "printedName": "url_launcher_ios.Launcher",
+                "printedName": "any url_launcher_ios.Launcher",
                 "hasDefaultArg": true,
                 "usr": "s:16url_launcher_ios8LauncherP"
               }
@@ -1210,7 +1210,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<url_launcher_ios.LaunchResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<url_launcher_ios.LaunchResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1220,7 +1220,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<url_launcher_ios.LaunchResult, Swift.Error>",
+                    "printedName": "Swift.Result<url_launcher_ios.LaunchResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1231,7 +1231,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1268,7 +1268,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<url_launcher_ios.InAppLoadResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<url_launcher_ios.InAppLoadResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1278,7 +1278,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<url_launcher_ios.InAppLoadResult, Swift.Error>",
+                    "printedName": "Swift.Result<url_launcher_ios.InAppLoadResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1289,7 +1289,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1457,7 +1457,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<url_launcher_ios.InAppLoadResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<url_launcher_ios.InAppLoadResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1467,7 +1467,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<url_launcher_ios.InAppLoadResult, Swift.Error>",
+                    "printedName": "Swift.Result<url_launcher_ios.InAppLoadResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1478,7 +1478,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1750,7 +1750,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<url_launcher_ios.InAppLoadResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<url_launcher_ios.InAppLoadResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1760,7 +1760,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<url_launcher_ios.InAppLoadResult, Swift.Error>",
+                    "printedName": "Swift.Result<url_launcher_ios.InAppLoadResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1771,7 +1771,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -2100,140 +2100,140 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1151,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1220,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1301,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1151,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1220,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1301,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1151,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1220,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1301,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1454,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1519,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1600,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1454,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1519,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1600,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1454,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1519,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1600,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/URLLauncherPlugin.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/URLLauncherPlugin.swift",
       "kind": "StringLiteral",
       "offset": 213,
       "length": 17,
       "value": "\"url_launcher_ios.URLLauncherPlugin\""
     },
     {
-      "filePath": "\/Users\/thegarvitrai\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/URLLaunchSession.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/URLLaunchSession.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 16,

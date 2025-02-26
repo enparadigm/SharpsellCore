@@ -1,43 +1,42 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/thegarvitrai/Documents/Programs/Sharpsell/frontend/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/sharpsell/sharpsell.framework/sharpsell'
+binary-path:     '/Users/admin/Documents/GitHub/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/sharpsell/sharpsell.framework/sharpsell'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x70E3B, size: 0x8, addend: 0x0, symName: _sharpsellVersionString, symObjAddr: 0x0, symBinAddr: 0xCDB0, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x70E70, size: 0x8, addend: 0x0, symName: _sharpsellVersionNumber, symObjAddr: 0x28, symBinAddr: 0xCDD8, symSize: 0x0 }
-  - { offsetInCU: 0x27, offset: 0x70EAD, size: 0x8, addend: 0x0, symName: '+[SharpsellPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
-  - { offsetInCU: 0x91, offset: 0x70F17, size: 0x8, addend: 0x0, symName: '+[SharpsellPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
-  - { offsetInCU: 0x4B, offset: 0x70FCF, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC7channelSo20FlutterMethodChannelCvpZ', symObjAddr: 0x16C98, symBinAddr: 0x122C8, symSize: 0x0 }
-  - { offsetInCU: 0x59, offset: 0x70FDD, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC7channel_WZ', symObjAddr: 0x0, symBinAddr: 0x400C, symSize: 0x30 }
-  - { offsetInCU: 0xAA, offset: 0x7102E, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC8register4withySo07FlutterD9Registrar_p_tFZ', symObjAddr: 0x30, symBinAddr: 0x403C, symSize: 0x4 }
-  - { offsetInCU: 0xBE, offset: 0x71042, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginCACycfC', symObjAddr: 0x34, symBinAddr: 0x4040, symSize: 0x20 }
-  - { offsetInCU: 0xE1, offset: 0x71065, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC8register4withySo07FlutterD9Registrar_p_tFZTo', symObjAddr: 0x54, symBinAddr: 0x4060, symSize: 0x30 }
-  - { offsetInCU: 0x113, offset: 0x71097, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x84, symBinAddr: 0x4090, symSize: 0xD94 }
-  - { offsetInCU: 0x57E, offset: 0x71502, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFySbcfU_', symObjAddr: 0xF7C, symBinAddr: 0x4F88, symSize: 0x74 }
-  - { offsetInCU: 0x5C9, offset: 0x7154D, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0x102C, symBinAddr: 0x5038, symSize: 0x78 }
-  - { offsetInCU: 0x5FB, offset: 0x7157F, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginCACycfc', symObjAddr: 0x117C, symBinAddr: 0x5188, symSize: 0x88 }
-  - { offsetInCU: 0x652, offset: 0x715D6, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginCACycfcTo', symObjAddr: 0x1204, symBinAddr: 0x5210, symSize: 0x8C }
-  - { offsetInCU: 0x69F, offset: 0x71623, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginCfD', symObjAddr: 0x1290, symBinAddr: 0x529C, symSize: 0x30 }
-  - { offsetInCU: 0x6DD, offset: 0x71661, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC8register4withySo07FlutterD9Registrar_p_tFZTf4nd_n', symObjAddr: 0x14BC, symBinAddr: 0x54A8, symSize: 0x108 }
-  - { offsetInCU: 0x760, offset: 0x716E4, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypL7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0x3678, symBinAddr: 0x7664, symSize: 0xF60 }
-  - { offsetInCU: 0xC2C, offset: 0x71BB0, size: 0x8, addend: 0x0, symName: '_$sSo13UIApplicationC9sharpsellE17topViewController4baseSo06UIViewE0CSgAH_tFZ', symObjAddr: 0xE18, symBinAddr: 0x4E24, symSize: 0x164 }
-  - { offsetInCU: 0xC99, offset: 0x71C1D, size: 0x8, addend: 0x0, symName: '_$sSbIegy_SbIeyBy_TR', symObjAddr: 0xFF0, symBinAddr: 0x4FFC, symSize: 0x3C }
-  - { offsetInCU: 0xCB1, offset: 0x71C35, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TR', symObjAddr: 0x10A4, symBinAddr: 0x50B0, symSize: 0xD8 }
-  - { offsetInCU: 0xCC5, offset: 0x71C49, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginCfETo', symObjAddr: 0x12C0, symBinAddr: 0x52CC, symSize: 0x10 }
-  - { offsetInCU: 0xD15, offset: 0x71C99, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x1378, symBinAddr: 0x5364, symSize: 0x64 }
-  - { offsetInCU: 0xD62, offset: 0x71CE6, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x13DC, symBinAddr: 0x53C8, symSize: 0xE0 }
-  - { offsetInCU: 0xDB2, offset: 0x71D36, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x15C4, symBinAddr: 0x55B0, symSize: 0x40 }
-  - { offsetInCU: 0xDC6, offset: 0x71D4A, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFySbcfU_TA', symObjAddr: 0x1628, symBinAddr: 0x5614, symSize: 0x8 }
-  - { offsetInCU: 0xDDA, offset: 0x71D5E, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x1630, symBinAddr: 0x561C, symSize: 0x10 }
-  - { offsetInCU: 0xDEE, offset: 0x71D72, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x1640, symBinAddr: 0x562C, symSize: 0x8 }
-  - { offsetInCU: 0xE02, offset: 0x71D86, size: 0x8, addend: 0x0, symName: '_$sypSgWOb', symObjAddr: 0x1648, symBinAddr: 0x5634, symSize: 0x48 }
-  - { offsetInCU: 0xE84, offset: 0x71E08, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC9shareData4dict6resultySDySSypG_yypSgXEtF015$syXlSgIeyBy_ypK7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0x1690, symBinAddr: 0x567C, symSize: 0x1FE8 }
-  - { offsetInCU: 0x17F7, offset: 0x7277B, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC9shareData4dict6resultySDySSypG_yypSgXEtFTf4nnd_n', symObjAddr: 0x45D8, symBinAddr: 0x85C4, symSize: 0x1EB8 }
-  - { offsetInCU: 0x2158, offset: 0x730DC, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginCMa', symObjAddr: 0x6490, symBinAddr: 0xA47C, symSize: 0x20 }
-  - { offsetInCU: 0x216C, offset: 0x730F0, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0x64FC, symBinAddr: 0xA4E8, symSize: 0x8 }
-  - { offsetInCU: 0x2180, offset: 0x73104, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x6504, symBinAddr: 0xA4F0, symSize: 0x24 }
-  - { offsetInCU: 0x2194, offset: 0x73118, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x6528, symBinAddr: 0xA514, symSize: 0x20 }
-  - { offsetInCU: 0x21A8, offset: 0x7312C, size: 0x8, addend: 0x0, symName: '_$sS2SSysWl', symObjAddr: 0x6548, symBinAddr: 0xA534, symSize: 0x44 }
-  - { offsetInCU: 0x21BC, offset: 0x73140, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLVACs23CustomStringConvertibleAAWl', symObjAddr: 0x6644, symBinAddr: 0xA630, symSize: 0x48 }
-  - { offsetInCU: 0x21D0, offset: 0x73154, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x668C, symBinAddr: 0xA678, symSize: 0x3C }
-  - { offsetInCU: 0x2319, offset: 0x7329D, size: 0x8, addend: 0x0, symName: '_$sSDyq_SgxcigSS_ypTg5', symObjAddr: 0x12F0, symBinAddr: 0x52DC, symSize: 0x88 }
+  - { offsetInCU: 0x34, offset: 0x71914, size: 0x8, addend: 0x0, symName: _sharpsellVersionString, symObjAddr: 0x0, symBinAddr: 0x10E30, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x71949, size: 0x8, addend: 0x0, symName: _sharpsellVersionNumber, symObjAddr: 0x28, symBinAddr: 0x10E58, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x71986, size: 0x8, addend: 0x0, symName: '+[SharpsellPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0xC }
+  - { offsetInCU: 0x91, offset: 0x719F0, size: 0x8, addend: 0x0, symName: '+[SharpsellPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0xC }
+  - { offsetInCU: 0x4B, offset: 0x71AA8, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC7channelSo20FlutterMethodChannelCvpZ', symObjAddr: 0x17090, symBinAddr: 0x162D0, symSize: 0x0 }
+  - { offsetInCU: 0x59, offset: 0x71AB6, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC7channel_WZ', symObjAddr: 0x0, symBinAddr: 0x800C, symSize: 0x30 }
+  - { offsetInCU: 0xD9, offset: 0x71B36, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC8register4withySo07FlutterD9Registrar_p_tFZTo', symObjAddr: 0x54, symBinAddr: 0x8060, symSize: 0x30 }
+  - { offsetInCU: 0x13A, offset: 0x71B97, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0x104C, symBinAddr: 0x9058, symSize: 0x78 }
+  - { offsetInCU: 0x182, offset: 0x71BDF, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginCACycfcTo', symObjAddr: 0x1220, symBinAddr: 0x922C, symSize: 0x88 }
+  - { offsetInCU: 0x1ED, offset: 0x71C4A, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC8register4withySo07FlutterD9Registrar_p_tFZTf4nd_n', symObjAddr: 0x142C, symBinAddr: 0x9438, symSize: 0x108 }
+  - { offsetInCU: 0x270, offset: 0x71CCD, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypL7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0x3624, symBinAddr: 0xB630, symSize: 0xF8C }
+  - { offsetInCU: 0x74A, offset: 0x721A7, size: 0x8, addend: 0x0, symName: '_$sSbIegy_SbIeyBy_TR', symObjAddr: 0x1010, symBinAddr: 0x901C, symSize: 0x3C }
+  - { offsetInCU: 0x762, offset: 0x721BF, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TR', symObjAddr: 0x10C4, symBinAddr: 0x90D0, symSize: 0xD8 }
+  - { offsetInCU: 0x776, offset: 0x721D3, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginCfETo', symObjAddr: 0x12D8, symBinAddr: 0x92E4, symSize: 0x10 }
+  - { offsetInCU: 0x810, offset: 0x7226D, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x1534, symBinAddr: 0x9540, symSize: 0x40 }
+  - { offsetInCU: 0x824, offset: 0x72281, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFySbcfU_TA', symObjAddr: 0x1598, symBinAddr: 0x95A4, symSize: 0x8 }
+  - { offsetInCU: 0x838, offset: 0x72295, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x15A0, symBinAddr: 0x95AC, symSize: 0x10 }
+  - { offsetInCU: 0x84C, offset: 0x722A9, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x15B0, symBinAddr: 0x95BC, symSize: 0x8 }
+  - { offsetInCU: 0x860, offset: 0x722BD, size: 0x8, addend: 0x0, symName: '_$sypSgWOb', symObjAddr: 0x15B8, symBinAddr: 0x95C4, symSize: 0x48 }
+  - { offsetInCU: 0x90A, offset: 0x72367, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC9shareData4dict6resultySDySSypG_yypSgXEtF015$syXlSgIeyBy_ypK7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0x1600, symBinAddr: 0x960C, symSize: 0x2024 }
+  - { offsetInCU: 0x1185, offset: 0x72BE2, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC9shareData4dict6resultySDySSypG_yypSgXEtFTf4nnd_n', symObjAddr: 0x45B0, symBinAddr: 0xC5BC, symSize: 0x1F30 }
+  - { offsetInCU: 0x19EE, offset: 0x7344B, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginCMa', symObjAddr: 0x64E0, symBinAddr: 0xE4EC, symSize: 0x20 }
+  - { offsetInCU: 0x1A02, offset: 0x7345F, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0x654C, symBinAddr: 0xE558, symSize: 0x8 }
+  - { offsetInCU: 0x1A16, offset: 0x73473, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x6554, symBinAddr: 0xE560, symSize: 0x24 }
+  - { offsetInCU: 0x1A2A, offset: 0x73487, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x6578, symBinAddr: 0xE584, symSize: 0x20 }
+  - { offsetInCU: 0x1A3E, offset: 0x7349B, size: 0x8, addend: 0x0, symName: '_$sS2SSysWl', symObjAddr: 0x6598, symBinAddr: 0xE5A4, symSize: 0x44 }
+  - { offsetInCU: 0x1A52, offset: 0x734AF, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLVACs23CustomStringConvertibleAAWl', symObjAddr: 0x6694, symBinAddr: 0xE6A0, symSize: 0x48 }
+  - { offsetInCU: 0x1A66, offset: 0x734C3, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x66DC, symBinAddr: 0xE6E8, symSize: 0x3C }
+  - { offsetInCU: 0x1F0E, offset: 0x7396B, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC8register4withySo07FlutterD9Registrar_p_tFZ', symObjAddr: 0x30, symBinAddr: 0x803C, symSize: 0x4 }
+  - { offsetInCU: 0x1F22, offset: 0x7397F, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginCACycfC', symObjAddr: 0x34, symBinAddr: 0x8040, symSize: 0x20 }
+  - { offsetInCU: 0x1FA5, offset: 0x73A02, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x84, symBinAddr: 0x8090, symSize: 0xDC4 }
+  - { offsetInCU: 0x23C7, offset: 0x73E24, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFySbcfU_', symObjAddr: 0xF9C, symBinAddr: 0x8FA8, symSize: 0x74 }
+  - { offsetInCU: 0x240F, offset: 0x73E6C, size: 0x8, addend: 0x0, symName: '_$sSo13UIApplicationC9sharpsellE17topViewController4baseSo06UIViewE0CSgAH_tFZ', symObjAddr: 0xE48, symBinAddr: 0x8E54, symSize: 0x154 }
+  - { offsetInCU: 0x248E, offset: 0x73EEB, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginCACycfc', symObjAddr: 0x119C, symBinAddr: 0x91A8, symSize: 0x84 }
+  - { offsetInCU: 0x24E9, offset: 0x73F46, size: 0x8, addend: 0x0, symName: '_$s9sharpsell20SwiftSharpsellPluginCfD', symObjAddr: 0x12A8, symBinAddr: 0x92B4, symSize: 0x30 }
+  - { offsetInCU: 0x2519, offset: 0x73F76, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x12E8, symBinAddr: 0x92F4, symSize: 0x64 }
+  - { offsetInCU: 0x2557, offset: 0x73FB4, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x134C, symBinAddr: 0x9358, symSize: 0xE0 }
 ...

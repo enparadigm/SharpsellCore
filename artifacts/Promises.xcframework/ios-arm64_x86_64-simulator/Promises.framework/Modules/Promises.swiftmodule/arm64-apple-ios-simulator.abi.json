@@ -149,7 +149,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -260,7 +260,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -575,12 +575,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -603,12 +603,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -843,7 +843,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(@escaping (τ_0_0) -> (), @escaping (Swift.Error) -> ()) throws -> ()",
+                "printedName": "(@escaping (τ_0_0) -> (), @escaping (any Swift.Error) -> ()) throws -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -853,7 +853,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "((τ_0_0) -> (), (Swift.Error) -> ())",
+                    "printedName": "((τ_0_0) -> (), (any Swift.Error) -> ())",
                     "children": [
                       {
                         "kind": "TypeFunc",
@@ -875,7 +875,7 @@
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Swift.Error) -> ()",
+                        "printedName": "(any Swift.Error) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -885,7 +885,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ]
@@ -936,7 +936,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error) -> ()",
+                "printedName": "(any Swift.Error) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -946,7 +946,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ]
@@ -1159,7 +1159,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error) throws -> Promises.Promise<τ_0_0>",
+                "printedName": "(any Swift.Error) throws -> Promises.Promise<τ_0_0>",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1177,7 +1177,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ]
@@ -1225,7 +1225,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error) throws -> τ_0_0",
+                "printedName": "(any Swift.Error) throws -> τ_0_0",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1235,7 +1235,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ]
@@ -2582,12 +2582,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "GenericFunction",
-                "printedName": "<τ_0_0> (Promises.Maybe<τ_0_0>.Type) -> (Swift.Error) -> Promises.Maybe<τ_0_0>",
+                "printedName": "<τ_0_0> (Promises.Maybe<τ_0_0>.Type) -> (any Swift.Error) -> Promises.Maybe<τ_0_0>",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> Promises.Maybe<τ_0_0>",
+                    "printedName": "(any Swift.Error) -> Promises.Maybe<τ_0_0>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2605,7 +2605,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -2694,7 +2694,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -2773,12 +2773,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -2801,12 +2801,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -3297,12 +3297,12 @@
           {
             "kind": "TypeNominal",
             "name": "Optional",
-            "printedName": "((Swift.Int, Swift.Error) -> Swift.Bool)?",
+            "printedName": "((Swift.Int, any Swift.Error) -> Swift.Bool)?",
             "children": [
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, Swift.Error) -> Swift.Bool",
+                "printedName": "(Swift.Int, any Swift.Error) -> Swift.Bool",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3313,7 +3313,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, Swift.Error)",
+                    "printedName": "(Swift.Int, any Swift.Error)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3324,7 +3324,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -3701,7 +3701,7 @@
           {
             "kind": "TypeFunc",
             "name": "Function",
-            "printedName": "(@escaping (τ_0_0, Swift.Error?) -> ()) throws -> ()",
+            "printedName": "(@escaping (τ_0_0, (any Swift.Error)?) -> ()) throws -> ()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3711,7 +3711,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(τ_0_0, Swift.Error?) -> ()",
+                "printedName": "(τ_0_0, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3721,7 +3721,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(τ_0_0, Swift.Error?)",
+                    "printedName": "(τ_0_0, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3731,12 +3731,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -3789,7 +3789,7 @@
           {
             "kind": "TypeFunc",
             "name": "Function",
-            "printedName": "(@escaping (Swift.Error?, τ_0_0) -> ()) throws -> ()",
+            "printedName": "(@escaping ((any Swift.Error)?, τ_0_0) -> ()) throws -> ()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3799,7 +3799,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error?, τ_0_0) -> ()",
+                "printedName": "((any Swift.Error)?, τ_0_0) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3809,17 +3809,17 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Error?, τ_0_0)",
+                    "printedName": "((any Swift.Error)?, τ_0_0)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -3885,7 +3885,7 @@
           {
             "kind": "TypeFunc",
             "name": "Function",
-            "printedName": "(@escaping (τ_0_0?, Swift.Error?) -> ()) throws -> ()",
+            "printedName": "(@escaping (τ_0_0?, (any Swift.Error)?) -> ()) throws -> ()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3895,7 +3895,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(τ_0_0?, Swift.Error?) -> ()",
+                "printedName": "(τ_0_0?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3905,7 +3905,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(τ_0_0?, Swift.Error?)",
+                    "printedName": "(τ_0_0?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3923,12 +3923,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -3989,7 +3989,7 @@
           {
             "kind": "TypeFunc",
             "name": "Function",
-            "printedName": "(@escaping (Swift.Error?, τ_0_0?) -> ()) throws -> ()",
+            "printedName": "(@escaping ((any Swift.Error)?, τ_0_0?) -> ()) throws -> ()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3999,7 +3999,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error?, τ_0_0?) -> ()",
+                "printedName": "((any Swift.Error)?, τ_0_0?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4009,17 +4009,17 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Error?, τ_0_0?)",
+                    "printedName": "((any Swift.Error)?, τ_0_0?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -4113,7 +4113,7 @@
           {
             "kind": "TypeFunc",
             "name": "Function",
-            "printedName": "(@escaping (τ_0_0?, τ_0_1?, Swift.Error?) -> ()) throws -> ()",
+            "printedName": "(@escaping (τ_0_0?, τ_0_1?, (any Swift.Error)?) -> ()) throws -> ()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4123,7 +4123,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(τ_0_0?, τ_0_1?, Swift.Error?) -> ()",
+                "printedName": "(τ_0_0?, τ_0_1?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4133,7 +4133,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(τ_0_0?, τ_0_1?, Swift.Error?)",
+                    "printedName": "(τ_0_0?, τ_0_1?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4164,12 +4164,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -4401,7 +4401,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
