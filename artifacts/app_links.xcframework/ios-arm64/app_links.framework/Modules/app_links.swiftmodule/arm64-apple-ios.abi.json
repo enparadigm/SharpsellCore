@@ -30,14 +30,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "SwiftAppLinksPlugin",
-                "printedName": "app_links.SwiftAppLinksPlugin",
-                "usr": "c:@M@app_links@objc(cs)SwiftAppLinksPlugin"
+                "name": "AppLinksIosPlugin",
+                "printedName": "app_links.AppLinksIosPlugin",
+                "usr": "c:@M@app_links@objc(cs)AppLinksIosPlugin"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9app_links8AppLinksC6sharedAA05SwiftcD6PluginCvpZ",
-            "mangledName": "$s9app_links8AppLinksC6sharedAA05SwiftcD6PluginCvpZ",
+            "usr": "s:9app_links8AppLinksC6sharedAA0cD9IosPluginCvpZ",
+            "mangledName": "$s9app_links8AppLinksC6sharedAA0cD9IosPluginCvpZ",
             "moduleName": "app_links",
             "static": true,
             "declAttributes": [
@@ -56,14 +56,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "SwiftAppLinksPlugin",
-                    "printedName": "app_links.SwiftAppLinksPlugin",
-                    "usr": "c:@M@app_links@objc(cs)SwiftAppLinksPlugin"
+                    "name": "AppLinksIosPlugin",
+                    "printedName": "app_links.AppLinksIosPlugin",
+                    "usr": "c:@M@app_links@objc(cs)AppLinksIosPlugin"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9app_links8AppLinksC6sharedAA05SwiftcD6PluginCvgZ",
-                "mangledName": "$s9app_links8AppLinksC6sharedAA05SwiftcD6PluginCvgZ",
+                "usr": "s:9app_links8AppLinksC6sharedAA0cD9IosPluginCvgZ",
+                "mangledName": "$s9app_links8AppLinksC6sharedAA0cD9IosPluginCvgZ",
                 "moduleName": "app_links",
                 "static": true,
                 "implicit": true,
@@ -86,8 +86,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "SwiftAppLinksPlugin",
-        "printedName": "SwiftAppLinksPlugin",
+        "name": "AppLinksIosPlugin",
+        "printedName": "AppLinksIosPlugin",
         "children": [
           {
             "kind": "Function",
@@ -107,8 +107,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@app_links@objc(cs)SwiftAppLinksPlugin(cm)registerWithRegistrar:",
-            "mangledName": "$s9app_links19SwiftAppLinksPluginC8register4withySo07FlutterF9Registrar_p_tFZ",
+            "usr": "c:@M@app_links@objc(cs)AppLinksIosPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s9app_links17AppLinksIosPluginC8register4withySo07FlutterF9Registrar_p_tFZ",
             "moduleName": "app_links",
             "static": true,
             "objc_name": "registerWithRegistrar:",
@@ -162,8 +162,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@app_links@objc(cs)SwiftAppLinksPlugin(im)handleMethodCall:result:",
-            "mangledName": "$s9app_links19SwiftAppLinksPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "usr": "c:@M@app_links@objc(cs)AppLinksIosPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s9app_links17AppLinksIosPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
             "moduleName": "app_links",
             "objc_name": "handleMethodCall:result:",
             "declAttributes": [
@@ -221,8 +221,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9app_links19SwiftAppLinksPluginC7getLink13launchOptions10Foundation3URLVSgSDys11AnyHashableVypGSg_tF",
-            "mangledName": "$s9app_links19SwiftAppLinksPluginC7getLink13launchOptions10Foundation3URLVSgSDys11AnyHashableVypGSg_tF",
+            "usr": "s:9app_links17AppLinksIosPluginC7getLink13launchOptions10Foundation3URLVSgSDys11AnyHashableVypGSg_tF",
+            "mangledName": "$s9app_links17AppLinksIosPluginC7getLink13launchOptions10Foundation3URLVSgSDys11AnyHashableVypGSg_tF",
             "moduleName": "app_links",
             "declAttributes": [
               "Final",
@@ -281,8 +281,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@app_links@objc(cs)SwiftAppLinksPlugin(im)application:continueUserActivity:restorationHandler:",
-            "mangledName": "$s9app_links19SwiftAppLinksPluginC11application_8continue18restorationHandlerSbSo13UIApplicationC_So14NSUserActivityCySayypGctF",
+            "usr": "c:@M@app_links@objc(cs)AppLinksIosPlugin(im)application:continueUserActivity:restorationHandler:",
+            "mangledName": "$s9app_links17AppLinksIosPluginC11application_8continue18restorationHandlerSbSo13UIApplicationC_So14NSUserActivityCySayypGctF",
             "moduleName": "app_links",
             "objc_name": "application:continueUserActivity:restorationHandler:",
             "declAttributes": [
@@ -338,8 +338,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@app_links@objc(cs)SwiftAppLinksPlugin(im)application:openURL:options:",
-            "mangledName": "$s9app_links19SwiftAppLinksPluginC11application_4open7optionsSbSo13UIApplicationC_10Foundation3URLVSDySo0J17OpenURLOptionsKeyaypGtF",
+            "usr": "c:@M@app_links@objc(cs)AppLinksIosPlugin(im)application:openURL:options:",
+            "mangledName": "$s9app_links17AppLinksIosPluginC11application_4open7optionsSbSo13UIApplicationC_10Foundation3URLVSDySo0J17OpenURLOptionsKeyaypGtF",
             "moduleName": "app_links",
             "objc_name": "application:openURL:options:",
             "declAttributes": [
@@ -409,8 +409,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@app_links@objc(cs)SwiftAppLinksPlugin(im)onListenWithArguments:eventSink:",
-            "mangledName": "$s9app_links19SwiftAppLinksPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
+            "usr": "c:@M@app_links@objc(cs)AppLinksIosPlugin(im)onListenWithArguments:eventSink:",
+            "mangledName": "$s9app_links17AppLinksIosPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
             "moduleName": "app_links",
             "objc_name": "onListenWithArguments:eventSink:",
             "declAttributes": [
@@ -454,8 +454,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@app_links@objc(cs)SwiftAppLinksPlugin(im)onCancelWithArguments:",
-            "mangledName": "$s9app_links19SwiftAppLinksPluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
+            "usr": "c:@M@app_links@objc(cs)AppLinksIosPlugin(im)onCancelWithArguments:",
+            "mangledName": "$s9app_links17AppLinksIosPluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
             "moduleName": "app_links",
             "objc_name": "onCancelWithArguments:",
             "declAttributes": [
@@ -483,8 +483,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9app_links19SwiftAppLinksPluginC10handleLink3urly10Foundation3URLV_tF",
-            "mangledName": "$s9app_links19SwiftAppLinksPluginC10handleLink3urly10Foundation3URLV_tF",
+            "usr": "s:9app_links17AppLinksIosPluginC10handleLink3urly10Foundation3URLV_tF",
+            "mangledName": "$s9app_links17AppLinksIosPluginC10handleLink3urly10Foundation3URLV_tF",
             "moduleName": "app_links",
             "declAttributes": [
               "Final",
@@ -499,14 +499,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "SwiftAppLinksPlugin",
-                "printedName": "app_links.SwiftAppLinksPlugin",
-                "usr": "c:@M@app_links@objc(cs)SwiftAppLinksPlugin"
+                "name": "AppLinksIosPlugin",
+                "printedName": "app_links.AppLinksIosPlugin",
+                "usr": "c:@M@app_links@objc(cs)AppLinksIosPlugin"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@app_links@objc(cs)SwiftAppLinksPlugin(im)init",
-            "mangledName": "$s9app_links19SwiftAppLinksPluginCACycfc",
+            "usr": "c:@M@app_links@objc(cs)AppLinksIosPlugin(im)init",
+            "mangledName": "$s9app_links17AppLinksIosPluginCACycfc",
             "moduleName": "app_links",
             "overriding": true,
             "implicit": true,
@@ -520,8 +520,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@app_links@objc(cs)SwiftAppLinksPlugin",
-        "mangledName": "$s9app_links19SwiftAppLinksPluginC",
+        "usr": "c:@M@app_links@objc(cs)AppLinksIosPlugin",
+        "mangledName": "$s9app_links17AppLinksIosPluginC",
         "moduleName": "app_links",
         "declAttributes": [
           "Final",
@@ -590,9 +590,16 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/app_links-5.0.0\/ios\/Classes\/SwiftAppLinksPlugin.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/app_links-6.4.0\/ios\/app_links\/Sources\/app_links\/AppLinksIosPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 338,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/app_links-6.4.0\/ios\/app_links\/Sources\/app_links\/AppLinksIosPlugin.swift",
       "kind": "Dictionary",
-      "offset": 2552,
+      "offset": 2443,
       "length": 3,
       "value": "[]"
     }

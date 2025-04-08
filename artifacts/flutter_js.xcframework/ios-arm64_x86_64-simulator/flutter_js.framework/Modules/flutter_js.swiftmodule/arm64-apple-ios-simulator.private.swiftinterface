@@ -1,0 +1,37 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name flutter_js
+import Flutter
+import Foundation
+import JavaScriptCore
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import flutter_js
+public enum JSContextFoundationError : Swift.Error {
+  case fileNotFound
+  case fileNotLoaded
+  case fileNotDownloaded
+  public static func == (a: flutter_js.JSContextFoundationError, b: flutter_js.JSContextFoundationError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers open class JSContextFoundation : JavaScriptCore.JSContext {
+  @objc override dynamic public init!(virtualMachine: JavaScriptCore.JSVirtualMachine!)
+  @objc convenience override dynamic public init!()
+  open func requireWithPath(_ path: Swift.String) throws
+  open func requireWithUrl(_ url: Foundation.URL, completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class SwiftFlutterJsPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension flutter_js.JSContextFoundationError : Swift.Equatable {}
+extension flutter_js.JSContextFoundationError : Swift.Hashable {}

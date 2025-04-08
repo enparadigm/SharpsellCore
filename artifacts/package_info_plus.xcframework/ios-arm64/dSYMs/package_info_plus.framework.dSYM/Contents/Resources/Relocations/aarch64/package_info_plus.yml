@@ -2,9 +2,12 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/admin/Documents/GitHub/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/package_info_plus/package_info_plus.framework/package_info_plus'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x5766E, size: 0x8, addend: 0x0, symName: _package_info_plusVersionString, symObjAddr: 0x0, symBinAddr: 0x46F8, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x576A3, size: 0x8, addend: 0x0, symName: _package_info_plusVersionNumber, symObjAddr: 0x30, symBinAddr: 0x4728, symSize: 0x0 }
-  - { offsetInCU: 0x27, offset: 0x576E0, size: 0x8, addend: 0x0, symName: '+[FPPPackageInfoPlusPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA4 }
-  - { offsetInCU: 0x54, offset: 0x5770D, size: 0x8, addend: 0x0, symName: '+[FPPPackageInfoPlusPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA4 }
-  - { offsetInCU: 0xB3, offset: 0x5776C, size: 0x8, addend: 0x0, symName: '-[FPPPackageInfoPlusPlugin handleMethodCall:result:]', symObjAddr: 0xA4, symBinAddr: 0x40A4, symSize: 0x404 }
+  - { offsetInCU: 0x34, offset: 0x57667, size: 0x8, addend: 0x0, symName: _package_info_plusVersionString, symObjAddr: 0x0, symBinAddr: 0x4C20, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x5769C, size: 0x8, addend: 0x0, symName: _package_info_plusVersionNumber, symObjAddr: 0x30, symBinAddr: 0x4C50, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x576D9, size: 0x8, addend: 0x0, symName: '+[FPPPackageInfoPlusPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA4 }
+  - { offsetInCU: 0x5B, offset: 0x5770D, size: 0x8, addend: 0x0, symName: '+[FPPPackageInfoPlusPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA4 }
+  - { offsetInCU: 0xBA, offset: 0x5776C, size: 0x8, addend: 0x0, symName: '-[FPPPackageInfoPlusPlugin handleMethodCall:result:]', symObjAddr: 0xA4, symBinAddr: 0x40A4, symSize: 0x510 }
+  - { offsetInCU: 0x182, offset: 0x57834, size: 0x8, addend: 0x0, symName: '-[FPPPackageInfoPlusPlugin getInstallDate]', symObjAddr: 0x5B4, symBinAddr: 0x45B4, symSize: 0x110 }
+  - { offsetInCU: 0x1E5, offset: 0x57897, size: 0x8, addend: 0x0, symName: '-[FPPPackageInfoPlusPlugin getUpdateDate]', symObjAddr: 0x6C4, symBinAddr: 0x46C4, symSize: 0xE0 }
+  - { offsetInCU: 0x248, offset: 0x578FA, size: 0x8, addend: 0x0, symName: '-[FPPPackageInfoPlusPlugin getTimeMillisStringFromDate:]', symObjAddr: 0x7A4, symBinAddr: 0x47A4, symSize: 0x74 }
 ...

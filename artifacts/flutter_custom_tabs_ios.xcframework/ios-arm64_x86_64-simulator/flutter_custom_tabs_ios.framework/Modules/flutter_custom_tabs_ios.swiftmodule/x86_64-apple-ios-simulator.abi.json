@@ -1,0 +1,3811 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomTabsPlugin",
+        "printedName": "CustomTabsPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)CustomTabsPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s23flutter_custom_tabs_ios16CustomTabsPluginC8register4withySo07FlutterG9Registrar_p_tFZ",
+            "moduleName": "flutter_custom_tabs_ios",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(launcher:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomTabsPlugin",
+                "printedName": "flutter_custom_tabs_ios.CustomTabsPlugin",
+                "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)CustomTabsPlugin"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Launcher",
+                "printedName": "flutter_custom_tabs_ios.Launcher",
+                "hasDefaultArg": true,
+                "usr": "s:23flutter_custom_tabs_ios8LauncherC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23flutter_custom_tabs_ios16CustomTabsPluginC8launcherAcA8LauncherC_tcfc",
+            "mangledName": "$s23flutter_custom_tabs_ios16CustomTabsPluginC8launcherAcA8LauncherC_tcfc",
+            "moduleName": "flutter_custom_tabs_ios",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "launchURL",
+            "printedName": "launchURL(_:prefersDeepLink:options:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "flutter_custom_tabs_ios.SFSafariViewControllerOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SFSafariViewControllerOptions",
+                    "printedName": "flutter_custom_tabs_ios.SFSafariViewControllerOptions",
+                    "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios16CustomTabsPluginC9launchURL_15prefersDeepLink7options10completionySS_SbAA29SFSafariViewControllerOptionsVSgys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s23flutter_custom_tabs_ios16CustomTabsPluginC9launchURL_15prefersDeepLink7options10completionySS_SbAA29SFSafariViewControllerOptionsVSgys6ResultOyyts5Error_pGctF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeAllIfPossible",
+            "printedName": "closeAllIfPossible(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios16CustomTabsPluginC18closeAllIfPossible10completionyys6ResultOyyts5Error_pGc_tF",
+            "mangledName": "$s23flutter_custom_tabs_ios16CustomTabsPluginC18closeAllIfPossible10completionyys6ResultOyyts5Error_pGc_tF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mayLaunchURLs",
+            "printedName": "mayLaunchURLs(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios16CustomTabsPluginC13mayLaunchURLsySSSgSayAEGKF",
+            "mangledName": "$s23flutter_custom_tabs_ios16CustomTabsPluginC13mayLaunchURLsySSSgSayAEGKF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidateSession",
+            "printedName": "invalidateSession(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios16CustomTabsPluginC17invalidateSessionyySSKF",
+            "mangledName": "$s23flutter_custom_tabs_ios16CustomTabsPluginC17invalidateSessionyySSKF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomTabsPlugin",
+                "printedName": "flutter_custom_tabs_ios.CustomTabsPlugin",
+                "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)CustomTabsPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)CustomTabsPlugin(im)init",
+            "mangledName": "$s23flutter_custom_tabs_ios16CustomTabsPluginCACycfc",
+            "moduleName": "flutter_custom_tabs_ios",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)CustomTabsPlugin",
+        "mangledName": "$s23flutter_custom_tabs_ios16CustomTabsPluginC",
+        "moduleName": "flutter_custom_tabs_ios",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CustomTabsApi",
+            "printedName": "CustomTabsApi",
+            "usr": "s:23flutter_custom_tabs_ios13CustomTabsApiP",
+            "mangledName": "$s23flutter_custom_tabs_ios13CustomTabsApiP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Launcher",
+        "printedName": "Launcher",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "open",
+            "printedName": "open(_:options:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[UIKit.UIApplication.OpenExternalURLOptionsKey : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpenExternalURLOptionsKey",
+                    "printedName": "UIKit.UIApplication.OpenExternalURLOptionsKey",
+                    "usr": "c:@T@UIApplicationOpenExternalURLOptionsKey"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios8LauncherC4open_7options17completionHandlery10Foundation3URLV_SDySo38UIApplicationOpenExternalURLOptionsKeyaypGySbcSgtF",
+            "mangledName": "$s23flutter_custom_tabs_ios8LauncherC4open_7options17completionHandlery10Foundation3URLV_SDySo38UIApplicationOpenExternalURLOptionsKeyaypGySbcSgtF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios8LauncherC7present_10completionySo16UIViewControllerC_ySbcSgtF",
+            "mangledName": "$s23flutter_custom_tabs_ios8LauncherC7present_10completionySo16UIViewControllerC_ySbcSgtF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissAll",
+            "printedName": "dismissAll(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios8LauncherC10dismissAll10completionyyycSg_tF",
+            "mangledName": "$s23flutter_custom_tabs_ios8LauncherC10dismissAll10completionyyycSg_tF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prewarmConnections",
+            "printedName": "prewarmConnections(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.URL]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios8LauncherC18prewarmConnections2toSSSgSay10Foundation3URLVG_tF",
+            "mangledName": "$s23flutter_custom_tabs_ios8LauncherC18prewarmConnections2toSSSgSay10Foundation3URLVG_tF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidatePrewarmingSession",
+            "printedName": "invalidatePrewarmingSession(withId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios8LauncherC27invalidatePrewarmingSession6withIdySS_tF",
+            "mangledName": "$s23flutter_custom_tabs_ios8LauncherC27invalidatePrewarmingSession6withIdySS_tF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Launcher",
+                "printedName": "flutter_custom_tabs_ios.Launcher",
+                "usr": "s:23flutter_custom_tabs_ios8LauncherC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23flutter_custom_tabs_ios8LauncherCACycfc",
+            "mangledName": "$s23flutter_custom_tabs_ios8LauncherCACycfc",
+            "moduleName": "flutter_custom_tabs_ios",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23flutter_custom_tabs_ios8LauncherC",
+        "mangledName": "$s23flutter_custom_tabs_ios8LauncherC",
+        "moduleName": "flutter_custom_tabs_ios",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PigeonError",
+        "printedName": "PigeonError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios11PigeonErrorC4codeSSvp",
+            "mangledName": "$s23flutter_custom_tabs_ios11PigeonErrorC4codeSSvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios11PigeonErrorC4codeSSvg",
+                "mangledName": "$s23flutter_custom_tabs_ios11PigeonErrorC4codeSSvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios11PigeonErrorC7messageSSSgvp",
+            "mangledName": "$s23flutter_custom_tabs_ios11PigeonErrorC7messageSSSgvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios11PigeonErrorC7messageSSSgvg",
+                "mangledName": "$s23flutter_custom_tabs_ios11PigeonErrorC7messageSSSgvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "details",
+            "printedName": "details",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios11PigeonErrorC7detailsypSgvp",
+            "mangledName": "$s23flutter_custom_tabs_ios11PigeonErrorC7detailsypSgvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios11PigeonErrorC7detailsypSgvg",
+                "mangledName": "$s23flutter_custom_tabs_ios11PigeonErrorC7detailsypSgvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:message:details:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PigeonError",
+                "printedName": "flutter_custom_tabs_ios.PigeonError",
+                "usr": "s:23flutter_custom_tabs_ios11PigeonErrorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23flutter_custom_tabs_ios11PigeonErrorC4code7message7detailsACSS_SSSgypSgtcfc",
+            "mangledName": "$s23flutter_custom_tabs_ios11PigeonErrorC4code7message7detailsACSS_SSSgypSgtcfc",
+            "moduleName": "flutter_custom_tabs_ios",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "localizedDescription",
+            "printedName": "localizedDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios11PigeonErrorC20localizedDescriptionSSvp",
+            "mangledName": "$s23flutter_custom_tabs_ios11PigeonErrorC20localizedDescriptionSSvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "Final"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios11PigeonErrorC20localizedDescriptionSSvg",
+                "mangledName": "$s23flutter_custom_tabs_ios11PigeonErrorC20localizedDescriptionSSvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PigeonError",
+                "printedName": "flutter_custom_tabs_ios.PigeonError",
+                "usr": "s:23flutter_custom_tabs_ios11PigeonErrorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23flutter_custom_tabs_ios11PigeonErrorC7messageACSS_tcfc",
+            "mangledName": "$s23flutter_custom_tabs_ios11PigeonErrorC7messageACSS_tcfc",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios11PigeonErrorC9errorCodeSSvpZ",
+            "mangledName": "$s23flutter_custom_tabs_ios11PigeonErrorC9errorCodeSSvpZ",
+            "moduleName": "flutter_custom_tabs_ios",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios11PigeonErrorC9errorCodeSSvgZ",
+                "mangledName": "$s23flutter_custom_tabs_ios11PigeonErrorC9errorCodeSSvgZ",
+                "moduleName": "flutter_custom_tabs_ios",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23flutter_custom_tabs_ios11PigeonErrorC",
+        "mangledName": "$s23flutter_custom_tabs_ios11PigeonErrorC",
+        "moduleName": "flutter_custom_tabs_ios",
+        "declAttributes": [
+          "Final",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SFSafariViewControllerOptions",
+        "printedName": "SFSafariViewControllerOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "preferredBarTintColor",
+            "printedName": "preferredBarTintColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV21preferredBarTintColors5Int64VSgvp",
+            "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV21preferredBarTintColors5Int64VSgvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV21preferredBarTintColors5Int64VSgvg",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV21preferredBarTintColors5Int64VSgvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV21preferredBarTintColors5Int64VSgvs",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV21preferredBarTintColors5Int64VSgvs",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV21preferredBarTintColors5Int64VSgvM",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV21preferredBarTintColors5Int64VSgvM",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preferredControlTintColor",
+            "printedName": "preferredControlTintColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV25preferredControlTintColors5Int64VSgvp",
+            "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV25preferredControlTintColors5Int64VSgvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV25preferredControlTintColors5Int64VSgvg",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV25preferredControlTintColors5Int64VSgvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV25preferredControlTintColors5Int64VSgvs",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV25preferredControlTintColors5Int64VSgvs",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV25preferredControlTintColors5Int64VSgvM",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV25preferredControlTintColors5Int64VSgvM",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "barCollapsingEnabled",
+            "printedName": "barCollapsingEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV20barCollapsingEnabledSbSgvp",
+            "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV20barCollapsingEnabledSbSgvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV20barCollapsingEnabledSbSgvg",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV20barCollapsingEnabledSbSgvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV20barCollapsingEnabledSbSgvs",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV20barCollapsingEnabledSbSgvs",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV20barCollapsingEnabledSbSgvM",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV20barCollapsingEnabledSbSgvM",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "entersReaderIfAvailable",
+            "printedName": "entersReaderIfAvailable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV23entersReaderIfAvailableSbSgvp",
+            "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV23entersReaderIfAvailableSbSgvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV23entersReaderIfAvailableSbSgvg",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV23entersReaderIfAvailableSbSgvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV23entersReaderIfAvailableSbSgvs",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV23entersReaderIfAvailableSbSgvs",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV23entersReaderIfAvailableSbSgvM",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV23entersReaderIfAvailableSbSgvM",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dismissButtonStyle",
+            "printedName": "dismissButtonStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV18dismissButtonStyles5Int64VSgvp",
+            "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV18dismissButtonStyles5Int64VSgvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV18dismissButtonStyles5Int64VSgvg",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV18dismissButtonStyles5Int64VSgvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV18dismissButtonStyles5Int64VSgvs",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV18dismissButtonStyles5Int64VSgvs",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV18dismissButtonStyles5Int64VSgvM",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV18dismissButtonStyles5Int64VSgvM",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "modalPresentationStyle",
+            "printedName": "modalPresentationStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV22modalPresentationStyles5Int64VSgvp",
+            "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV22modalPresentationStyles5Int64VSgvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV22modalPresentationStyles5Int64VSgvg",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV22modalPresentationStyles5Int64VSgvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV22modalPresentationStyles5Int64VSgvs",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV22modalPresentationStyles5Int64VSgvs",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV22modalPresentationStyles5Int64VSgvM",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV22modalPresentationStyles5Int64VSgvM",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pageSheet",
+            "printedName": "pageSheet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "flutter_custom_tabs_ios.UISheetPresentationControllerConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UISheetPresentationControllerConfiguration",
+                    "printedName": "flutter_custom_tabs_ios.UISheetPresentationControllerConfiguration",
+                    "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV9pageSheetAA019UISheetPresentationG13ConfigurationVSgvp",
+            "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV9pageSheetAA019UISheetPresentationG13ConfigurationVSgvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 6,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "flutter_custom_tabs_ios.UISheetPresentationControllerConfiguration?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UISheetPresentationControllerConfiguration",
+                        "printedName": "flutter_custom_tabs_ios.UISheetPresentationControllerConfiguration",
+                        "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV9pageSheetAA019UISheetPresentationG13ConfigurationVSgvg",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV9pageSheetAA019UISheetPresentationG13ConfigurationVSgvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "flutter_custom_tabs_ios.UISheetPresentationControllerConfiguration?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UISheetPresentationControllerConfiguration",
+                        "printedName": "flutter_custom_tabs_ios.UISheetPresentationControllerConfiguration",
+                        "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV9pageSheetAA019UISheetPresentationG13ConfigurationVSgvs",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV9pageSheetAA019UISheetPresentationG13ConfigurationVSgvs",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV9pageSheetAA019UISheetPresentationG13ConfigurationVSgvM",
+                "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV9pageSheetAA019UISheetPresentationG13ConfigurationVSgvM",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "fromList",
+            "printedName": "fromList(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "flutter_custom_tabs_ios.SFSafariViewControllerOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SFSafariViewControllerOptions",
+                    "printedName": "flutter_custom_tabs_ios.SFSafariViewControllerOptions",
+                    "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV8fromListyACSgSayypSgGFZ",
+            "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV8fromListyACSgSayypSgGFZ",
+            "moduleName": "flutter_custom_tabs_ios",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toList",
+            "printedName": "toList()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV6toListSayypSgGyF",
+            "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV6toListSayypSgGyF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(preferredBarTintColor:preferredControlTintColor:barCollapsingEnabled:entersReaderIfAvailable:dismissButtonStyle:modalPresentationStyle:pageSheet:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SFSafariViewControllerOptions",
+                "printedName": "flutter_custom_tabs_ios.SFSafariViewControllerOptions",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "flutter_custom_tabs_ios.UISheetPresentationControllerConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UISheetPresentationControllerConfiguration",
+                    "printedName": "flutter_custom_tabs_ios.UISheetPresentationControllerConfiguration",
+                    "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV21preferredBarTintColor0i7ControlkL020barCollapsingEnabled23entersReaderIfAvailable18dismissButtonStyle017modalPresentationW09pageSheetACs5Int64VSg_AMSbSgAn2mA07UISheetyG13ConfigurationVSgtcfc",
+            "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV21preferredBarTintColor0i7ControlkL020barCollapsingEnabled23entersReaderIfAvailable18dismissButtonStyle017modalPresentationW09pageSheetACs5Int64VSg_AMSbSgAn2mA07UISheetyG13ConfigurationVSgtcfc",
+            "moduleName": "flutter_custom_tabs_ios",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SFSafariViewControllerOptions",
+                "printedName": "flutter_custom_tabs_ios.SFSafariViewControllerOptions",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsVACycfc",
+            "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsVACycfc",
+            "moduleName": "flutter_custom_tabs_ios",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV",
+        "mangledName": "$s23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV",
+        "moduleName": "flutter_custom_tabs_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UISheetPresentationControllerConfiguration",
+        "printedName": "UISheetPresentationControllerConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "detents",
+            "printedName": "detents",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSSgGvp",
+            "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSSgGvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String?]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSSgGvg",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSSgGvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String?]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSSgGvs",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSSgGvs",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSSgGvM",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSSgGvM",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "largestUndimmedDetentIdentifier",
+            "printedName": "largestUndimmedDetentIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV31largestUndimmedDetentIdentifierSSSgvp",
+            "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV31largestUndimmedDetentIdentifierSSSgvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV31largestUndimmedDetentIdentifierSSSgvg",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV31largestUndimmedDetentIdentifierSSSgvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV31largestUndimmedDetentIdentifierSSSgvs",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV31largestUndimmedDetentIdentifierSSSgvs",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV31largestUndimmedDetentIdentifierSSSgvM",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV31largestUndimmedDetentIdentifierSSSgvM",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prefersScrollingExpandsWhenScrolledToEdge",
+            "printedName": "prefersScrollingExpandsWhenScrolledToEdge",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV41prefersScrollingExpandsWhenScrolledToEdgeSbSgvp",
+            "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV41prefersScrollingExpandsWhenScrolledToEdgeSbSgvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV41prefersScrollingExpandsWhenScrolledToEdgeSbSgvg",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV41prefersScrollingExpandsWhenScrolledToEdgeSbSgvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV41prefersScrollingExpandsWhenScrolledToEdgeSbSgvs",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV41prefersScrollingExpandsWhenScrolledToEdgeSbSgvs",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV41prefersScrollingExpandsWhenScrolledToEdgeSbSgvM",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV41prefersScrollingExpandsWhenScrolledToEdgeSbSgvM",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prefersGrabberVisible",
+            "printedName": "prefersGrabberVisible",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV21prefersGrabberVisibleSbSgvp",
+            "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV21prefersGrabberVisibleSbSgvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV21prefersGrabberVisibleSbSgvg",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV21prefersGrabberVisibleSbSgvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV21prefersGrabberVisibleSbSgvs",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV21prefersGrabberVisibleSbSgvs",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV21prefersGrabberVisibleSbSgvM",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV21prefersGrabberVisibleSbSgvM",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prefersEdgeAttachedInCompactHeight",
+            "printedName": "prefersEdgeAttachedInCompactHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV34prefersEdgeAttachedInCompactHeightSbSgvp",
+            "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV34prefersEdgeAttachedInCompactHeightSbSgvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV34prefersEdgeAttachedInCompactHeightSbSgvg",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV34prefersEdgeAttachedInCompactHeightSbSgvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV34prefersEdgeAttachedInCompactHeightSbSgvs",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV34prefersEdgeAttachedInCompactHeightSbSgvs",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV34prefersEdgeAttachedInCompactHeightSbSgvM",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV34prefersEdgeAttachedInCompactHeightSbSgvM",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preferredCornerRadius",
+            "printedName": "preferredCornerRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV21preferredCornerRadiusSdSgvp",
+            "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV21preferredCornerRadiusSdSgvp",
+            "moduleName": "flutter_custom_tabs_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV21preferredCornerRadiusSdSgvg",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV21preferredCornerRadiusSdSgvg",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV21preferredCornerRadiusSdSgvs",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV21preferredCornerRadiusSdSgvs",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV21preferredCornerRadiusSdSgvM",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV21preferredCornerRadiusSdSgvM",
+                "moduleName": "flutter_custom_tabs_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "fromList",
+            "printedName": "fromList(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "flutter_custom_tabs_ios.UISheetPresentationControllerConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UISheetPresentationControllerConfiguration",
+                    "printedName": "flutter_custom_tabs_ios.UISheetPresentationControllerConfiguration",
+                    "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV8fromListyACSgSayypSgGFZ",
+            "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV8fromListyACSgSayypSgGFZ",
+            "moduleName": "flutter_custom_tabs_ios",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toList",
+            "printedName": "toList()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV6toListSayypSgGyF",
+            "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV6toListSayypSgGyF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(detents:largestUndimmedDetentIdentifier:prefersScrollingExpandsWhenScrolledToEdge:prefersGrabberVisible:prefersEdgeAttachedInCompactHeight:preferredCornerRadius:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UISheetPresentationControllerConfiguration",
+                "printedName": "flutter_custom_tabs_ios.UISheetPresentationControllerConfiguration",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detents31largestUndimmedDetentIdentifier41prefersScrollingExpandsWhenScrolledToEdge0N14GrabberVisible0nT23AttachedInCompactHeight21preferredCornerRadiusACSaySSSgG_AJSbSgA2LSdSgtcfc",
+            "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detents31largestUndimmedDetentIdentifier41prefersScrollingExpandsWhenScrolledToEdge0N14GrabberVisible0nT23AttachedInCompactHeight21preferredCornerRadiusACSaySSSgG_AJSbSgA2LSdSgtcfc",
+            "moduleName": "flutter_custom_tabs_ios",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV",
+        "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV",
+        "moduleName": "flutter_custom_tabs_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "messagesPigeonCodec",
+        "printedName": "messagesPigeonCodec",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "messagesPigeonCodec",
+                "printedName": "flutter_custom_tabs_ios.messagesPigeonCodec",
+                "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)messagesPigeonCodec"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios19messagesPigeonCodecC6sharedACvpZ",
+            "mangledName": "$s23flutter_custom_tabs_ios19messagesPigeonCodecC6sharedACvpZ",
+            "moduleName": "flutter_custom_tabs_ios",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "messagesPigeonCodec",
+                    "printedName": "flutter_custom_tabs_ios.messagesPigeonCodec",
+                    "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)messagesPigeonCodec"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios19messagesPigeonCodecC6sharedACvgZ",
+                "mangledName": "$s23flutter_custom_tabs_ios19messagesPigeonCodecC6sharedACvgZ",
+                "moduleName": "flutter_custom_tabs_ios",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "messagesPigeonCodec",
+                "printedName": "flutter_custom_tabs_ios.messagesPigeonCodec",
+                "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)messagesPigeonCodec"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)messagesPigeonCodec(im)init",
+            "mangledName": "$s23flutter_custom_tabs_ios19messagesPigeonCodecCACycfc",
+            "moduleName": "flutter_custom_tabs_ios",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)messagesPigeonCodec",
+        "mangledName": "$s23flutter_custom_tabs_ios19messagesPigeonCodecC",
+        "moduleName": "flutter_custom_tabs_ios",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)FlutterStandardMessageCodec",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Flutter.FlutterStandardMessageCodec",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomTabsApi",
+        "printedName": "CustomTabsApi",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "launchURL",
+            "printedName": "launchURL(_:prefersDeepLink:options:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "flutter_custom_tabs_ios.SFSafariViewControllerOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SFSafariViewControllerOptions",
+                    "printedName": "flutter_custom_tabs_ios.SFSafariViewControllerOptions",
+                    "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios13CustomTabsApiP9launchURL_15prefersDeepLink7options10completionySS_SbAA29SFSafariViewControllerOptionsVSgys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s23flutter_custom_tabs_ios13CustomTabsApiP9launchURL_15prefersDeepLink7options10completionySS_SbAA29SFSafariViewControllerOptionsVSgys6ResultOyyts5Error_pGctF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "genericSig": "<τ_0_0 where τ_0_0 : flutter_custom_tabs_ios.CustomTabsApi>",
+            "sugared_genericSig": "<Self where Self : flutter_custom_tabs_ios.CustomTabsApi>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeAllIfPossible",
+            "printedName": "closeAllIfPossible(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios13CustomTabsApiP18closeAllIfPossible10completionyys6ResultOyyts5Error_pGc_tF",
+            "mangledName": "$s23flutter_custom_tabs_ios13CustomTabsApiP18closeAllIfPossible10completionyys6ResultOyyts5Error_pGc_tF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "genericSig": "<τ_0_0 where τ_0_0 : flutter_custom_tabs_ios.CustomTabsApi>",
+            "sugared_genericSig": "<Self where Self : flutter_custom_tabs_ios.CustomTabsApi>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mayLaunchURLs",
+            "printedName": "mayLaunchURLs(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios13CustomTabsApiP13mayLaunchURLsySSSgSayAEGKF",
+            "mangledName": "$s23flutter_custom_tabs_ios13CustomTabsApiP13mayLaunchURLsySSSgSayAEGKF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "genericSig": "<τ_0_0 where τ_0_0 : flutter_custom_tabs_ios.CustomTabsApi>",
+            "sugared_genericSig": "<Self where Self : flutter_custom_tabs_ios.CustomTabsApi>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidateSession",
+            "printedName": "invalidateSession(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios13CustomTabsApiP17invalidateSessionyySSKF",
+            "mangledName": "$s23flutter_custom_tabs_ios13CustomTabsApiP17invalidateSessionyySSKF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "genericSig": "<τ_0_0 where τ_0_0 : flutter_custom_tabs_ios.CustomTabsApi>",
+            "sugared_genericSig": "<Self where Self : flutter_custom_tabs_ios.CustomTabsApi>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23flutter_custom_tabs_ios13CustomTabsApiP",
+        "mangledName": "$s23flutter_custom_tabs_ios13CustomTabsApiP",
+        "moduleName": "flutter_custom_tabs_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomTabsApiSetup",
+        "printedName": "CustomTabsApiSetup",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "codec",
+            "printedName": "codec",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterStandardMessageCodec",
+                "printedName": "Flutter.FlutterStandardMessageCodec",
+                "usr": "c:objc(cs)FlutterStandardMessageCodec"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_custom_tabs_ios18CustomTabsApiSetupC5codecSo27FlutterStandardMessageCodecCvpZ",
+            "mangledName": "$s23flutter_custom_tabs_ios18CustomTabsApiSetupC5codecSo27FlutterStandardMessageCodecCvpZ",
+            "moduleName": "flutter_custom_tabs_ios",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterStandardMessageCodec",
+                    "printedName": "Flutter.FlutterStandardMessageCodec",
+                    "usr": "c:objc(cs)FlutterStandardMessageCodec"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_custom_tabs_ios18CustomTabsApiSetupC5codecSo27FlutterStandardMessageCodecCvgZ",
+                "mangledName": "$s23flutter_custom_tabs_ios18CustomTabsApiSetupC5codecSo27FlutterStandardMessageCodecCvgZ",
+                "moduleName": "flutter_custom_tabs_ios",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setUp",
+            "printedName": "setUp(binaryMessenger:api:messageChannelSuffix:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterBinaryMessenger",
+                "printedName": "any Flutter.FlutterBinaryMessenger",
+                "usr": "c:objc(pl)FlutterBinaryMessenger"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any flutter_custom_tabs_ios.CustomTabsApi)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomTabsApi",
+                    "printedName": "any flutter_custom_tabs_ios.CustomTabsApi",
+                    "usr": "s:23flutter_custom_tabs_ios13CustomTabsApiP"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios18CustomTabsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0efG0_pSgSStFZ",
+            "mangledName": "$s23flutter_custom_tabs_ios18CustomTabsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0efG0_pSgSStFZ",
+            "moduleName": "flutter_custom_tabs_ios",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomTabsApiSetup",
+                "printedName": "flutter_custom_tabs_ios.CustomTabsApiSetup",
+                "usr": "s:23flutter_custom_tabs_ios18CustomTabsApiSetupC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23flutter_custom_tabs_ios18CustomTabsApiSetupCACycfc",
+            "mangledName": "$s23flutter_custom_tabs_ios18CustomTabsApiSetupCACycfc",
+            "moduleName": "flutter_custom_tabs_ios",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23flutter_custom_tabs_ios18CustomTabsApiSetupC",
+        "mangledName": "$s23flutter_custom_tabs_ios18CustomTabsApiSetupC",
+        "moduleName": "flutter_custom_tabs_ios",
+        "isOpen": true,
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.UIColor",
+        "printedName": "UIKit.UIColor",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SFSafariViewController",
+        "printedName": "SFSafariViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "make",
+            "printedName": "make(url:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SFSafariViewController",
+                "printedName": "SafariServices.SFSafariViewController",
+                "usr": "c:objc(cs)SFSafariViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFSafariViewControllerOptions",
+                "printedName": "flutter_custom_tabs_ios.SFSafariViewControllerOptions",
+                "usr": "s:23flutter_custom_tabs_ios29SFSafariViewControllerOptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So22SFSafariViewControllerC23flutter_custom_tabs_iosE4make3url7optionsAB10Foundation3URLV_AC0abC7OptionsVtFZ",
+            "mangledName": "$sSo22SFSafariViewControllerC23flutter_custom_tabs_iosE4make3url7optionsAB10Foundation3URLV_AC0abC7OptionsVtFZ",
+            "moduleName": "flutter_custom_tabs_ios",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SFSafariViewController",
+        "moduleName": "SafariServices",
+        "isOpen": true,
+        "intro_iOS": "9.0",
+        "objc_name": "SFSafariViewController",
+        "declAttributes": [
+          "Custom",
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/CustomTabsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 51,
+      "length": 16,
+      "value": "\"flutter_custom_tabs_ios.CustomTabsPlugin\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/CustomTabsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2769,
+      "length": 14,
+      "value": "\"LAUNCH_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/Launcher.swift",
+      "kind": "Dictionary",
+      "offset": 220,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 7451,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/SFSafariViewController+Factory.swift",
+      "kind": "StringLiteral",
+      "offset": 139,
+      "length": 8,
+      "value": "\"medium\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/SFSafariViewController+Factory.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 7,
+      "value": "\"large\""
+    }
+  ]
+}

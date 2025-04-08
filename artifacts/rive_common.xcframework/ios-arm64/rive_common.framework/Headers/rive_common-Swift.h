@@ -300,12 +300,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 @protocol FlutterPluginRegistrar;
-@class FlutterMethodCall;
 
-SWIFT_CLASS("_TtC11rive_common15SwiftRivePlugin")
-@interface SwiftRivePlugin : NSObject <FlutterPlugin>
+SWIFT_CLASS("_TtC11rive_common10RivePlugin")
+@interface RivePlugin : NSObject <FlutterPlugin>
 + (void)registerWithRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar;
-- (void)handleMethodCall:(FlutterMethodCall * _Nonnull)call result:(FlutterResult _Nonnull)result;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

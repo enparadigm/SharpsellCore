@@ -1,0 +1,505 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomTabsPlugin",
+        "printedName": "CustomTabsPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)CustomTabsPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s23flutter_custom_tabs_ios16CustomTabsPluginC8register4withySo07FlutterG9Registrar_p_tFZ",
+            "moduleName": "flutter_custom_tabs_ios",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomTabsPlugin",
+                "printedName": "flutter_custom_tabs_ios.CustomTabsPlugin",
+                "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)CustomTabsPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)CustomTabsPlugin(im)init",
+            "mangledName": "$s23flutter_custom_tabs_ios16CustomTabsPluginCACycfc",
+            "moduleName": "flutter_custom_tabs_ios",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)CustomTabsPlugin",
+        "mangledName": "$s23flutter_custom_tabs_ios16CustomTabsPluginC",
+        "moduleName": "flutter_custom_tabs_ios",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Launcher",
+        "printedName": "Launcher",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "open",
+            "printedName": "open(_:options:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[UIKit.UIApplication.OpenExternalURLOptionsKey : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpenExternalURLOptionsKey",
+                    "printedName": "UIKit.UIApplication.OpenExternalURLOptionsKey",
+                    "usr": "c:@T@UIApplicationOpenExternalURLOptionsKey"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios8LauncherC4open_7options17completionHandlery10Foundation3URLV_SDySo38UIApplicationOpenExternalURLOptionsKeyaypGySbcSgtF",
+            "mangledName": "$s23flutter_custom_tabs_ios8LauncherC4open_7options17completionHandlery10Foundation3URLV_SDySo38UIApplicationOpenExternalURLOptionsKeyaypGySbcSgtF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios8LauncherC7present_10completionySo16UIViewControllerC_ySbcSgtF",
+            "mangledName": "$s23flutter_custom_tabs_ios8LauncherC7present_10completionySo16UIViewControllerC_ySbcSgtF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissAll",
+            "printedName": "dismissAll(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios8LauncherC10dismissAll10completionyyycSg_tF",
+            "mangledName": "$s23flutter_custom_tabs_ios8LauncherC10dismissAll10completionyyycSg_tF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prewarmConnections",
+            "printedName": "prewarmConnections(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.URL]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios8LauncherC18prewarmConnections2toSSSgSay10Foundation3URLVG_tF",
+            "mangledName": "$s23flutter_custom_tabs_ios8LauncherC18prewarmConnections2toSSSgSay10Foundation3URLVG_tF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidatePrewarmingSession",
+            "printedName": "invalidatePrewarmingSession(withId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_custom_tabs_ios8LauncherC27invalidatePrewarmingSession6withIdySS_tF",
+            "mangledName": "$s23flutter_custom_tabs_ios8LauncherC27invalidatePrewarmingSession6withIdySS_tF",
+            "moduleName": "flutter_custom_tabs_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23flutter_custom_tabs_ios8LauncherC",
+        "mangledName": "$s23flutter_custom_tabs_ios8LauncherC",
+        "moduleName": "flutter_custom_tabs_ios",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.UIColor",
+        "printedName": "UIKit.UIColor",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/CustomTabsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 51,
+      "length": 16,
+      "value": "\"flutter_custom_tabs_ios.CustomTabsPlugin\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/CustomTabsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2769,
+      "length": 14,
+      "value": "\"LAUNCH_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/Launcher.swift",
+      "kind": "Dictionary",
+      "offset": 220,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 7451,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/SFSafariViewController+Factory.swift",
+      "kind": "StringLiteral",
+      "offset": 139,
+      "length": 8,
+      "value": "\"medium\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/SFSafariViewController+Factory.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 7,
+      "value": "\"large\""
+    }
+  ]
+}

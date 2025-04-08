@@ -1,0 +1,49 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name webview_flutter_wkwebview
+import Flutter
+import Foundation
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import webview_flutter_wkwebview
+@_hasMissingDesignatedInitializers open class FlutterAssetManager {
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class NavigationDelegateImpl : ObjectiveC.NSObject, WebKit.WKNavigationDelegate {
+  @objc public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @objc public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @objc public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @objc public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @objc public func webViewWebContentProcessDidTerminate(_ webView: WebKit.WKWebView)
+  @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationResponse: WebKit.WKNavigationResponse, decisionHandler: @escaping (WebKit.WKNavigationResponsePolicy) -> Swift.Void)
+  @objc public func webView(_ webView: WebKit.WKWebView, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class ProxyAPIRegistrar : webview_flutter_wkwebview.WebKitLibraryPigeonProxyApiRegistrar {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class WebKitLibraryPigeonProxyApiRegistrar {
+  public var ignoreCallsToDart: Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class PigeonApiDelegateURLResponse {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class PigeonApiDelegateWKWebView {
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class WebViewFlutterPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func detachFromEngine(for registrar: any Flutter.FlutterPluginRegistrar)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(FWFWebViewFlutterWKWebViewExternalAPI) public class FWFWebViewFlutterWKWebViewExternalAPI : ObjectiveC.NSObject {
+  @objc(webViewForIdentifier:withPluginRegistry:) public static func webView(forIdentifier identifier: Swift.Int64, withPluginRegistry registry: any Flutter.FlutterPluginRegistry) -> WebKit.WKWebView?
+  @objc override dynamic public init()
+  @objc deinit
+}

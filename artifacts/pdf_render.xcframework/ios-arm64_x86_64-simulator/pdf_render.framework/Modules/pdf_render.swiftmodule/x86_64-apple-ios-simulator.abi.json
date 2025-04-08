@@ -1,0 +1,3087 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "pdf_render"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "pdf_render"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "pdf_render"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Doc",
+        "printedName": "Doc",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "doc",
+            "printedName": "doc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGPDFDocument",
+                "printedName": "CoreGraphics.CGPDFDocument",
+                "usr": "c:@T@CGPDFDocumentRef"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render3DocC3docSo16CGPDFDocumentRefavp",
+            "mangledName": "$s10pdf_render3DocC3docSo16CGPDFDocumentRefavp",
+            "moduleName": "pdf_render",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPDFDocument",
+                    "printedName": "CoreGraphics.CGPDFDocument",
+                    "usr": "c:@T@CGPDFDocumentRef"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render3DocC3docSo16CGPDFDocumentRefavg",
+                "mangledName": "$s10pdf_render3DocC3docSo16CGPDFDocumentRefavg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pages",
+            "printedName": "pages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreGraphics.CGPDFPage?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGPDFPage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGPDFPage",
+                        "printedName": "CoreGraphics.CGPDFPage",
+                        "usr": "c:@T@CGPDFPageRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render3DocC5pagesSaySo12CGPDFPageRefaSgGvp",
+            "mangledName": "$s10pdf_render3DocC5pagesSaySo12CGPDFPageRefaSgGvp",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CoreGraphics.CGPDFPage?]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CoreGraphics.CGPDFPage?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGPDFPage",
+                            "printedName": "CoreGraphics.CGPDFPage",
+                            "usr": "c:@T@CGPDFPageRef"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render3DocC5pagesSaySo12CGPDFPageRefaSgGvg",
+                "mangledName": "$s10pdf_render3DocC5pagesSaySo12CGPDFPageRefaSgGvg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CoreGraphics.CGPDFPage?]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CoreGraphics.CGPDFPage?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGPDFPage",
+                            "printedName": "CoreGraphics.CGPDFPage",
+                            "usr": "c:@T@CGPDFPageRef"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render3DocC5pagesSaySo12CGPDFPageRefaSgGvs",
+                "mangledName": "$s10pdf_render3DocC5pagesSaySo12CGPDFPageRefaSgGvs",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render3DocC5pagesSaySo12CGPDFPageRefaSgGvM",
+                "mangledName": "$s10pdf_render3DocC5pagesSaySo12CGPDFPageRefaSgGvM",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(doc:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Doc",
+                "printedName": "pdf_render.Doc",
+                "usr": "s:10pdf_render3DocC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPDFDocument",
+                "printedName": "CoreGraphics.CGPDFDocument",
+                "usr": "c:@T@CGPDFDocumentRef"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10pdf_render3DocC3docACSo16CGPDFDocumentRefa_tcfc",
+            "mangledName": "$s10pdf_render3DocC3docACSo16CGPDFDocumentRefa_tcfc",
+            "moduleName": "pdf_render",
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10pdf_render3DocC",
+        "mangledName": "$s10pdf_render3DocC",
+        "moduleName": "pdf_render",
+        "isOpen": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PdfRenderError",
+        "printedName": "PdfRenderError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "operationFailed",
+            "printedName": "operationFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(pdf_render.PdfRenderError.Type) -> (Swift.String) -> pdf_render.PdfRenderError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> pdf_render.PdfRenderError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PdfRenderError",
+                        "printedName": "pdf_render.PdfRenderError",
+                        "usr": "s:10pdf_render14PdfRenderErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "pdf_render.PdfRenderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PdfRenderError",
+                        "printedName": "pdf_render.PdfRenderError",
+                        "usr": "s:10pdf_render14PdfRenderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10pdf_render14PdfRenderErrorO15operationFailedyACSScACmF",
+            "mangledName": "$s10pdf_render14PdfRenderErrorO15operationFailedyACSScACmF",
+            "moduleName": "pdf_render",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "invalidArgument",
+            "printedName": "invalidArgument",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(pdf_render.PdfRenderError.Type) -> (Swift.String) -> pdf_render.PdfRenderError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> pdf_render.PdfRenderError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PdfRenderError",
+                        "printedName": "pdf_render.PdfRenderError",
+                        "usr": "s:10pdf_render14PdfRenderErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "pdf_render.PdfRenderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PdfRenderError",
+                        "printedName": "pdf_render.PdfRenderError",
+                        "usr": "s:10pdf_render14PdfRenderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10pdf_render14PdfRenderErrorO15invalidArgumentyACSScACmF",
+            "mangledName": "$s10pdf_render14PdfRenderErrorO15invalidArgumentyACSScACmF",
+            "moduleName": "pdf_render",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "notSupported",
+            "printedName": "notSupported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(pdf_render.PdfRenderError.Type) -> (Swift.String) -> pdf_render.PdfRenderError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> pdf_render.PdfRenderError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PdfRenderError",
+                        "printedName": "pdf_render.PdfRenderError",
+                        "usr": "s:10pdf_render14PdfRenderErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "pdf_render.PdfRenderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PdfRenderError",
+                        "printedName": "pdf_render.PdfRenderError",
+                        "usr": "s:10pdf_render14PdfRenderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10pdf_render14PdfRenderErrorO12notSupportedyACSScACmF",
+            "mangledName": "$s10pdf_render14PdfRenderErrorO12notSupportedyACSScACmF",
+            "moduleName": "pdf_render",
+            "fixedbinaryorder": 2
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10pdf_render14PdfRenderErrorO",
+        "mangledName": "$s10pdf_render14PdfRenderErrorO",
+        "moduleName": "pdf_render",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftPdfRenderPlugin",
+        "printedName": "SwiftPdfRenderPlugin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalid",
+            "printedName": "invalid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC7invalidSo8NSNumberCvpZ",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC7invalidSo8NSNumberCvpZ",
+            "moduleName": "pdf_render",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render20SwiftPdfRenderPluginC7invalidSo8NSNumberCvgZ",
+                "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC7invalidSo8NSNumberCvgZ",
+                "moduleName": "pdf_render",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dispQueue",
+            "printedName": "dispQueue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC9dispQueueSo17OS_dispatch_queueCvp",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC9dispQueueSo17OS_dispatch_queueCvp",
+            "moduleName": "pdf_render",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render20SwiftPdfRenderPluginC9dispQueueSo17OS_dispatch_queueCvg",
+                "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC9dispQueueSo17OS_dispatch_queueCvg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "registrar",
+            "printedName": "registrar",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC9registrarSo07FlutterF9Registrar_pvp",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC9registrarSo07FlutterF9Registrar_pvp",
+            "moduleName": "pdf_render",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterPluginRegistrar",
+                    "printedName": "any Flutter.FlutterPluginRegistrar",
+                    "usr": "c:objc(pl)FlutterPluginRegistrar"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render20SwiftPdfRenderPluginC9registrarSo07FlutterF9Registrar_pvg",
+                "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC9registrarSo07FlutterF9Registrar_pvg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "newId",
+            "printedName": "newId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC5newIdSivpZ",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC5newIdSivpZ",
+            "moduleName": "pdf_render",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render20SwiftPdfRenderPluginC5newIdSivgZ",
+                "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC5newIdSivgZ",
+                "moduleName": "pdf_render",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render20SwiftPdfRenderPluginC5newIdSivsZ",
+                "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC5newIdSivsZ",
+                "moduleName": "pdf_render",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render20SwiftPdfRenderPluginC5newIdSivMZ",
+                "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC5newIdSivMZ",
+                "moduleName": "pdf_render",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "docMap",
+            "printedName": "docMap",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.Int : pdf_render.Doc]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Doc",
+                    "printedName": "pdf_render.Doc",
+                    "usr": "s:10pdf_render3DocC"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC6docMapSDySiAA3DocCGvp",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC6docMapSDySiAA3DocCGvp",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.Int : pdf_render.Doc]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Doc",
+                        "printedName": "pdf_render.Doc",
+                        "usr": "s:10pdf_render3DocC"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render20SwiftPdfRenderPluginC6docMapSDySiAA3DocCGvg",
+                "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC6docMapSDySiAA3DocCGvg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.Int : pdf_render.Doc]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Doc",
+                        "printedName": "pdf_render.Doc",
+                        "usr": "s:10pdf_render3DocC"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render20SwiftPdfRenderPluginC6docMapSDySiAA3DocCGvs",
+                "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC6docMapSDySiAA3DocCGvs",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render20SwiftPdfRenderPluginC6docMapSDySiAA3DocCGvM",
+                "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC6docMapSDySiAA3DocCGvM",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textures",
+            "printedName": "textures",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.Int64 : pdf_render.PdfPageTexture]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PdfPageTexture",
+                    "printedName": "pdf_render.PdfPageTexture",
+                    "usr": "c:@M@pdf_render@objc(cs)PdfPageTexture"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC8texturesSDys5Int64VAA0D11PageTextureCGvp",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC8texturesSDys5Int64VAA0D11PageTextureCGvp",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.Int64 : pdf_render.PdfPageTexture]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PdfPageTexture",
+                        "printedName": "pdf_render.PdfPageTexture",
+                        "usr": "c:@M@pdf_render@objc(cs)PdfPageTexture"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render20SwiftPdfRenderPluginC8texturesSDys5Int64VAA0D11PageTextureCGvg",
+                "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC8texturesSDys5Int64VAA0D11PageTextureCGvg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.Int64 : pdf_render.PdfPageTexture]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PdfPageTexture",
+                        "printedName": "pdf_render.PdfPageTexture",
+                        "usr": "c:@M@pdf_render@objc(cs)PdfPageTexture"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render20SwiftPdfRenderPluginC8texturesSDys5Int64VAA0D11PageTextureCGvs",
+                "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC8texturesSDys5Int64VAA0D11PageTextureCGvs",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render20SwiftPdfRenderPluginC8texturesSDys5Int64VAA0D11PageTextureCGvM",
+                "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC8texturesSDys5Int64VAA0D11PageTextureCGvM",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(registrar:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftPdfRenderPlugin",
+                "printedName": "pdf_render.SwiftPdfRenderPlugin",
+                "usr": "c:@M@pdf_render@objc(cs)SwiftPdfRenderPlugin"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC9registrarACSo07FlutterF9Registrar_p_tcfc",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC9registrarACSo07FlutterF9Registrar_p_tcfc",
+            "moduleName": "pdf_render",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@pdf_render@objc(cs)SwiftPdfRenderPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC8register4withySo07FlutterF9Registrar_p_tFZ",
+            "moduleName": "pdf_render",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@pdf_render@objc(cs)SwiftPdfRenderPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isMetalAvailable",
+            "printedName": "isMetalAvailable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC16isMetalAvailableSbyFZ",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC16isMetalAvailableSbyFZ",
+            "moduleName": "pdf_render",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerNewDoc",
+            "printedName": "registerNewDoc(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGPDFDocument?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPDFDocument",
+                    "printedName": "CoreGraphics.CGPDFDocument",
+                    "usr": "c:@T@CGPDFDocumentRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC14registerNewDocySo12NSDictionaryCSgSo16CGPDFDocumentRefaSgKF",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC14registerNewDocySo12NSDictionaryCSgSo16CGPDFDocumentRefaSgKF",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getInfo",
+            "printedName": "getInfo(docId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC7getInfo5docIdSo12NSDictionaryCSgSi_tKF",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC7getInfo5docIdSo12NSDictionaryCSgSi_tKF",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close(docId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC5close5docIdySi_tF",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC5close5docIdySi_tF",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openDataDoc",
+            "printedName": "openDataDoc(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGPDFDocument?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPDFDocument",
+                    "printedName": "CoreGraphics.CGPDFDocument",
+                    "usr": "c:@T@CGPDFDocumentRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC11openDataDoc4dataSo16CGPDFDocumentRefaSg10Foundation0H0V_tKF",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC11openDataDoc4dataSo16CGPDFDocumentRefaSg10Foundation0H0V_tKF",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openAssetDoc",
+            "printedName": "openAssetDoc(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGPDFDocument?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPDFDocument",
+                    "printedName": "CoreGraphics.CGPDFDocument",
+                    "usr": "c:@T@CGPDFDocumentRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC12openAssetDoc4nameSo16CGPDFDocumentRefaSgSS_tKF",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC12openAssetDoc4nameSo16CGPDFDocumentRefaSgSS_tKF",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openFileDoc",
+            "printedName": "openFileDoc(pdfFilePath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGPDFDocument?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPDFDocument",
+                    "printedName": "CoreGraphics.CGPDFDocument",
+                    "usr": "c:@T@CGPDFDocumentRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC11openFileDoc0aH4PathSo16CGPDFDocumentRefaSgSS_tF",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC11openFileDoc0aH4PathSo16CGPDFDocumentRefaSgSS_tF",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openPage",
+            "printedName": "openPage(args:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC8openPage4argsSo12NSDictionaryCSgAG_tF",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC8openPage4argsSo12NSDictionaryCSgAG_tF",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closePage",
+            "printedName": "closePage(id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC9closePage2idySi_tF",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC9closePage2idySi_tF",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "render",
+            "printedName": "render(args:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC0B04args6resultySo12NSDictionaryC_yypSgctKF",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC0B04args6resultySo12NSDictionaryC_yypSgctKF",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "releaseBuffer",
+            "printedName": "releaseBuffer(address:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC13releaseBuffer7address6resultySi_yypSgctF",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC13releaseBuffer7address6resultySi_yypSgctF",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allocTex",
+            "printedName": "allocTex()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC8allocTexs5Int64VyF",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC8allocTexs5Int64VyF",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "releaseTex",
+            "printedName": "releaseTex(texId:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC10releaseTex5texId6resultys5Int64V_yypSgctF",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC10releaseTex5texId6resultys5Int64V_yypSgctF",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateTex",
+            "printedName": "updateTex(args:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10pdf_render20SwiftPdfRenderPluginC9updateTex4args6resultySo12NSDictionaryC_yypSgctKF",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC9updateTex4args6resultySo12NSDictionaryC_yypSgctKF",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftPdfRenderPlugin",
+                "printedName": "pdf_render.SwiftPdfRenderPlugin",
+                "usr": "c:@M@pdf_render@objc(cs)SwiftPdfRenderPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@pdf_render@objc(cs)SwiftPdfRenderPlugin(im)init",
+            "mangledName": "$s10pdf_render20SwiftPdfRenderPluginCACycfc",
+            "moduleName": "pdf_render",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@pdf_render@objc(cs)SwiftPdfRenderPlugin",
+        "mangledName": "$s10pdf_render20SwiftPdfRenderPluginC",
+        "moduleName": "pdf_render",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PageData",
+        "printedName": "PageData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "x",
+            "printedName": "x",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render8PageDataC1xSivp",
+            "mangledName": "$s10pdf_render8PageDataC1xSivp",
+            "moduleName": "pdf_render",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render8PageDataC1xSivg",
+                "mangledName": "$s10pdf_render8PageDataC1xSivg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "y",
+            "printedName": "y",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render8PageDataC1ySivp",
+            "mangledName": "$s10pdf_render8PageDataC1ySivp",
+            "moduleName": "pdf_render",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render8PageDataC1ySivg",
+                "mangledName": "$s10pdf_render8PageDataC1ySivg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "width",
+            "printedName": "width",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render8PageDataC5widthSivp",
+            "mangledName": "$s10pdf_render8PageDataC5widthSivp",
+            "moduleName": "pdf_render",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render8PageDataC5widthSivg",
+                "mangledName": "$s10pdf_render8PageDataC5widthSivg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "height",
+            "printedName": "height",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render8PageDataC6heightSivp",
+            "mangledName": "$s10pdf_render8PageDataC6heightSivp",
+            "moduleName": "pdf_render",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render8PageDataC6heightSivg",
+                "mangledName": "$s10pdf_render8PageDataC6heightSivg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullWidth",
+            "printedName": "fullWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render8PageDataC9fullWidthSdvp",
+            "mangledName": "$s10pdf_render8PageDataC9fullWidthSdvp",
+            "moduleName": "pdf_render",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render8PageDataC9fullWidthSdvg",
+                "mangledName": "$s10pdf_render8PageDataC9fullWidthSdvg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullHeight",
+            "printedName": "fullHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render8PageDataC10fullHeightSdvp",
+            "mangledName": "$s10pdf_render8PageDataC10fullHeightSdvp",
+            "moduleName": "pdf_render",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render8PageDataC10fullHeightSdvg",
+                "mangledName": "$s10pdf_render8PageDataC10fullHeightSdvg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pageWidth",
+            "printedName": "pageWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render8PageDataC9pageWidthSdvp",
+            "mangledName": "$s10pdf_render8PageDataC9pageWidthSdvp",
+            "moduleName": "pdf_render",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 6,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render8PageDataC9pageWidthSdvg",
+                "mangledName": "$s10pdf_render8PageDataC9pageWidthSdvg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pageHeight",
+            "printedName": "pageHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render8PageDataC10pageHeightSdvp",
+            "mangledName": "$s10pdf_render8PageDataC10pageHeightSdvp",
+            "moduleName": "pdf_render",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 7,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render8PageDataC10pageHeightSdvg",
+                "mangledName": "$s10pdf_render8PageDataC10pageHeightSdvg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render8PageDataC4data10Foundation0D0Vvp",
+            "mangledName": "$s10pdf_render8PageDataC4data10Foundation0D0Vvp",
+            "moduleName": "pdf_render",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 8,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render8PageDataC4data10Foundation0D0Vvg",
+                "mangledName": "$s10pdf_render8PageDataC4data10Foundation0D0Vvg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "address",
+            "printedName": "address",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render8PageDataC7addresss5Int64Vvp",
+            "mangledName": "$s10pdf_render8PageDataC7addresss5Int64Vvp",
+            "moduleName": "pdf_render",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 9,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render8PageDataC7addresss5Int64Vvg",
+                "mangledName": "$s10pdf_render8PageDataC7addresss5Int64Vvg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "size",
+            "printedName": "size",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render8PageDataC4sizeSivp",
+            "mangledName": "$s10pdf_render8PageDataC4sizeSivp",
+            "moduleName": "pdf_render",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 10,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render8PageDataC4sizeSivg",
+                "mangledName": "$s10pdf_render8PageDataC4sizeSivg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(x:y:width:height:fullWidth:fullHeight:pageWidth:pageHeight:data:address:size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PageData",
+                "printedName": "pdf_render.PageData",
+                "usr": "s:10pdf_render8PageDataC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10pdf_render8PageDataC1x1y5width6height9fullWidth0G6Height04pageH00jI04data7address4sizeACSi_S3iS4d10Foundation0D0Vs5Int64VSitcfc",
+            "mangledName": "$s10pdf_render8PageDataC1x1y5width6height9fullWidth0G6Height04pageH00jI04data7address4sizeACSi_S3iS4d10Foundation0D0Vs5Int64VSitcfc",
+            "moduleName": "pdf_render",
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10pdf_render8PageDataC",
+        "mangledName": "$s10pdf_render8PageDataC",
+        "moduleName": "pdf_render",
+        "isOpen": true
+      },
+      {
+        "kind": "Function",
+        "name": "renderPdfPageRgba",
+        "printedName": "renderPdfPageRgba(page:x:y:width:height:fullWidth:fullHeight:backgroundFill:allowAntialiasing:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "pdf_render.PageData?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PageData",
+                "printedName": "pdf_render.PageData",
+                "usr": "s:10pdf_render8PageDataC"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "CGPDFPage",
+            "printedName": "CoreGraphics.CGPDFPage",
+            "usr": "c:@T@CGPDFPageRef"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:10pdf_render0B11PdfPageRgba4page1x1y5width6height9fullWidth0I6Height14backgroundFill17allowAntialiasingAA0D4DataCSgSo12CGPDFPageRefa_S4iS2dS2btF",
+        "mangledName": "$s10pdf_render0B11PdfPageRgba4page1x1y5width6height9fullWidth0I6Height14backgroundFill17allowAntialiasingAA0D4DataCSgSo12CGPDFPageRefa_S4iS2dS2btF",
+        "moduleName": "pdf_render",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PdfPageTexture",
+        "printedName": "PdfPageTexture",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "pixBuf",
+            "printedName": "pixBuf",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreVideo.CVBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render14PdfPageTextureC6pixBufSo11CVBufferRefaSgvp",
+            "mangledName": "$s10pdf_render14PdfPageTextureC6pixBufSo11CVBufferRefaSgvp",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreVideo.CVBuffer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CVBuffer",
+                        "printedName": "CoreVideo.CVBuffer",
+                        "usr": "c:@T@CVBufferRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render14PdfPageTextureC6pixBufSo11CVBufferRefaSgvg",
+                "mangledName": "$s10pdf_render14PdfPageTextureC6pixBufSo11CVBufferRefaSgvg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreVideo.CVBuffer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CVBuffer",
+                        "printedName": "CoreVideo.CVBuffer",
+                        "usr": "c:@T@CVBufferRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render14PdfPageTextureC6pixBufSo11CVBufferRefaSgvs",
+                "mangledName": "$s10pdf_render14PdfPageTextureC6pixBufSo11CVBufferRefaSgvs",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render14PdfPageTextureC6pixBufSo11CVBufferRefaSgvM",
+                "mangledName": "$s10pdf_render14PdfPageTextureC6pixBufSo11CVBufferRefaSgvM",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "registrar",
+            "printedName": "registrar",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any Flutter.FlutterPluginRegistrar)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render14PdfPageTextureC9registrarSo22FlutterPluginRegistrar_pSgvp",
+            "mangledName": "$s10pdf_render14PdfPageTextureC9registrarSo22FlutterPluginRegistrar_pSgvp",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership"
+            ],
+            "fixedbinaryorder": 1,
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Flutter.FlutterPluginRegistrar)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterPluginRegistrar",
+                        "printedName": "any Flutter.FlutterPluginRegistrar",
+                        "usr": "c:objc(pl)FlutterPluginRegistrar"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render14PdfPageTextureC9registrarSo22FlutterPluginRegistrar_pSgvg",
+                "mangledName": "$s10pdf_render14PdfPageTextureC9registrarSo22FlutterPluginRegistrar_pSgvg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Flutter.FlutterPluginRegistrar)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterPluginRegistrar",
+                        "printedName": "any Flutter.FlutterPluginRegistrar",
+                        "usr": "c:objc(pl)FlutterPluginRegistrar"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render14PdfPageTextureC9registrarSo22FlutterPluginRegistrar_pSgvs",
+                "mangledName": "$s10pdf_render14PdfPageTextureC9registrarSo22FlutterPluginRegistrar_pSgvs",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render14PdfPageTextureC9registrarSo22FlutterPluginRegistrar_pSgvM",
+                "mangledName": "$s10pdf_render14PdfPageTextureC9registrarSo22FlutterPluginRegistrar_pSgvM",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "texId",
+            "printedName": "texId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10pdf_render14PdfPageTextureC5texIds5Int64Vvp",
+            "mangledName": "$s10pdf_render14PdfPageTextureC5texIds5Int64Vvp",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render14PdfPageTextureC5texIds5Int64Vvg",
+                "mangledName": "$s10pdf_render14PdfPageTextureC5texIds5Int64Vvg",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render14PdfPageTextureC5texIds5Int64Vvs",
+                "mangledName": "$s10pdf_render14PdfPageTextureC5texIds5Int64Vvs",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10pdf_render14PdfPageTextureC5texIds5Int64VvM",
+                "mangledName": "$s10pdf_render14PdfPageTextureC5texIds5Int64VvM",
+                "moduleName": "pdf_render",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(registrar:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PdfPageTexture",
+                "printedName": "pdf_render.PdfPageTexture",
+                "usr": "c:@M@pdf_render@objc(cs)PdfPageTexture"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Flutter.FlutterPluginRegistrar)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterPluginRegistrar",
+                    "printedName": "any Flutter.FlutterPluginRegistrar",
+                    "usr": "c:objc(pl)FlutterPluginRegistrar"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10pdf_render14PdfPageTextureC9registrarACSo22FlutterPluginRegistrar_pSg_tcfc",
+            "mangledName": "$s10pdf_render14PdfPageTextureC9registrarACSo22FlutterPluginRegistrar_pSg_tcfc",
+            "moduleName": "pdf_render",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "updateTex",
+            "printedName": "updateTex(page:width:height:srcX:srcY:fullWidth:fullHeight:backgroundFill:allowAntialiasing:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPDFPage",
+                "printedName": "CoreGraphics.CGPDFPage",
+                "usr": "c:@T@CGPDFPageRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10pdf_render14PdfPageTextureC9updateTex4page5width6height4srcX0K1Y9fullWidth0L6Height14backgroundFill17allowAntialiasingySo12CGPDFPageRefa_S4iSdSgAPS2btKF",
+            "mangledName": "$s10pdf_render14PdfPageTextureC9updateTex4page5width6height4srcX0K1Y9fullWidth0L6Height14backgroundFill17allowAntialiasingySo12CGPDFPageRefa_S4iSdSgAPS2btKF",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PdfPageTexture",
+                "printedName": "pdf_render.PdfPageTexture",
+                "usr": "c:@M@pdf_render@objc(cs)PdfPageTexture"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@pdf_render@objc(cs)PdfPageTexture(im)init",
+            "mangledName": "$s10pdf_render14PdfPageTextureCACycfc",
+            "moduleName": "pdf_render",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "copyPixelBuffer",
+            "printedName": "copyPixelBuffer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Unmanaged<CoreVideo.CVBuffer>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Unmanaged",
+                    "printedName": "Swift.Unmanaged<CoreVideo.CVBuffer>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CVBuffer",
+                        "printedName": "CoreVideo.CVBuffer",
+                        "usr": "c:@T@CVBufferRef"
+                      }
+                    ],
+                    "usr": "s:s9UnmanagedV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@pdf_render@objc(cs)PdfPageTexture(im)copyPixelBuffer",
+            "mangledName": "$s10pdf_render14PdfPageTextureC15copyPixelBuffers9UnmanagedVySo11CVBufferRefaGSgyF",
+            "moduleName": "pdf_render",
+            "isOpen": true,
+            "objc_name": "copyPixelBuffer",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@pdf_render@objc(cs)PdfPageTexture",
+        "mangledName": "$s10pdf_render14PdfPageTextureC",
+        "moduleName": "pdf_render",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CGPDFPage",
+        "printedName": "CGPDFPage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getRotatedSize",
+            "printedName": "getRotatedSize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12CGPDFPageRefa10pdf_renderE14getRotatedSizeSo6CGSizeVyF",
+            "mangledName": "$sSo12CGPDFPageRefa10pdf_renderE14getRotatedSizeSo6CGSizeVyF",
+            "moduleName": "pdf_render",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRotationTransform",
+            "printedName": "getRotationTransform()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGAffineTransform",
+                "printedName": "CoreFoundation.CGAffineTransform",
+                "usr": "c:@S@CGAffineTransform"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12CGPDFPageRefa10pdf_renderE20getRotationTransformSo08CGAffineG0VyF",
+            "mangledName": "$sSo12CGPDFPageRefa10pdf_renderE20getRotationTransformSo08CGAffineG0VyF",
+            "moduleName": "pdf_render",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@T@CGPDFPageRef",
+        "moduleName": "CoreGraphics",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "ObjC",
+          "Dynamic"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_CFObject",
+            "printedName": "_CFObject",
+            "usr": "s:14CoreFoundation9_CFObjectP",
+            "mangledName": "$s14CoreFoundation9_CFObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdf_render-1.4.12\/ios\/Classes\/SwiftPdfRenderPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1005,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdf_render-1.4.12\/ios\/Classes\/SwiftPdfRenderPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1048,
+      "length": 12,
+      "value": "\"pdf_render\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdf_render-1.4.12\/ios\/Classes\/SwiftPdfRenderPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1123,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdf_render-1.4.12\/ios\/Classes\/SwiftPdfRenderPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 1152,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdf_render-1.4.12\/ios\/Classes\/SwiftPdfRenderPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 1198,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdf_render-1.4.12\/ios\/Classes\/SwiftPdfRenderPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 918,
+      "length": 20,
+      "value": "\"pdf_render.SwiftPdfRenderPlugin\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdf_render-1.4.12\/ios\/Classes\/SwiftPdfRenderPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14750,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdf_render-1.4.12\/ios\/Classes\/SwiftPdfRenderPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14979,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdf_render-1.4.12\/ios\/Classes\/SwiftPdfRenderPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15012,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdf_render-1.4.12\/ios\/Classes\/SwiftPdfRenderPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 14625,
+      "length": 14,
+      "value": "\"pdf_render.PdfPageTexture\""
+    }
+  ]
+}

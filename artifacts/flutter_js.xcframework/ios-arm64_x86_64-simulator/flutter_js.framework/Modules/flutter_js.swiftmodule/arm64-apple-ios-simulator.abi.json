@@ -1,0 +1,1641 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_js"
+      },
+      {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "flutter_js"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsoleLevel",
+        "printedName": "ConsoleLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "log",
+            "printedName": "log",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(flutter_js.ConsoleLevel.Type) -> flutter_js.ConsoleLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsoleLevel",
+                    "printedName": "flutter_js.ConsoleLevel",
+                    "usr": "c:@M@flutter_js@E@ConsoleLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "flutter_js.ConsoleLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsoleLevel",
+                        "printedName": "flutter_js.ConsoleLevel",
+                        "usr": "c:@M@flutter_js@E@ConsoleLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@flutter_js@E@ConsoleLevel@ConsoleLevelLog",
+            "mangledName": "$s10flutter_js12ConsoleLevelO3logyA2CmF",
+            "moduleName": "flutter_js",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(flutter_js.ConsoleLevel.Type) -> flutter_js.ConsoleLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsoleLevel",
+                    "printedName": "flutter_js.ConsoleLevel",
+                    "usr": "c:@M@flutter_js@E@ConsoleLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "flutter_js.ConsoleLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsoleLevel",
+                        "printedName": "flutter_js.ConsoleLevel",
+                        "usr": "c:@M@flutter_js@E@ConsoleLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@flutter_js@E@ConsoleLevel@ConsoleLevelInfo",
+            "mangledName": "$s10flutter_js12ConsoleLevelO4infoyA2CmF",
+            "moduleName": "flutter_js",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "warn",
+            "printedName": "warn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(flutter_js.ConsoleLevel.Type) -> flutter_js.ConsoleLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsoleLevel",
+                    "printedName": "flutter_js.ConsoleLevel",
+                    "usr": "c:@M@flutter_js@E@ConsoleLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "flutter_js.ConsoleLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsoleLevel",
+                        "printedName": "flutter_js.ConsoleLevel",
+                        "usr": "c:@M@flutter_js@E@ConsoleLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@flutter_js@E@ConsoleLevel@ConsoleLevelWarn",
+            "mangledName": "$s10flutter_js12ConsoleLevelO4warnyA2CmF",
+            "moduleName": "flutter_js",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(flutter_js.ConsoleLevel.Type) -> flutter_js.ConsoleLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsoleLevel",
+                    "printedName": "flutter_js.ConsoleLevel",
+                    "usr": "c:@M@flutter_js@E@ConsoleLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "flutter_js.ConsoleLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsoleLevel",
+                        "printedName": "flutter_js.ConsoleLevel",
+                        "usr": "c:@M@flutter_js@E@ConsoleLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@flutter_js@E@ConsoleLevel@ConsoleLevelError",
+            "mangledName": "$s10flutter_js12ConsoleLevelO5erroryA2CmF",
+            "moduleName": "flutter_js",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "flutter_js.ConsoleLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsoleLevel",
+                    "printedName": "flutter_js.ConsoleLevel",
+                    "usr": "c:@M@flutter_js@E@ConsoleLevel"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10flutter_js12ConsoleLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10flutter_js12ConsoleLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "flutter_js",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10flutter_js12ConsoleLevelO8rawValueSivp",
+            "mangledName": "$s10flutter_js12ConsoleLevelO8rawValueSivp",
+            "moduleName": "flutter_js",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10flutter_js12ConsoleLevelO8rawValueSivg",
+                "mangledName": "$s10flutter_js12ConsoleLevelO8rawValueSivg",
+                "moduleName": "flutter_js",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@flutter_js@E@ConsoleLevel",
+        "mangledName": "$s10flutter_js12ConsoleLevelO",
+        "moduleName": "flutter_js",
+        "declAttributes": [
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsoleJSExport",
+        "printedName": "ConsoleJSExport",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "output",
+            "printedName": "output(_:arguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConsoleLevel",
+                "printedName": "flutter_js.ConsoleLevel",
+                "usr": "c:@M@flutter_js@E@ConsoleLevel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AnyObject]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_js@objc(pl)ConsoleJSExport(im)output:arguments:",
+            "mangledName": "$s10flutter_js15ConsoleJSExportP6output_9argumentsyAA0C5LevelO_SayyXlGtF",
+            "moduleName": "flutter_js",
+            "genericSig": "<τ_0_0 where τ_0_0 : flutter_js.ConsoleJSExport>",
+            "sugared_genericSig": "<Self where Self : flutter_js.ConsoleJSExport>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@flutter_js@objc(pl)ConsoleJSExport",
+        "mangledName": "$s10flutter_js15ConsoleJSExportP",
+        "moduleName": "flutter_js",
+        "genericSig": "<τ_0_0 : JavaScriptCore.JSExport>",
+        "sugared_genericSig": "<Self : JavaScriptCore.JSExport>",
+        "declAttributes": [
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Console",
+        "printedName": "Console",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "levelDictionary",
+            "printedName": "levelDictionary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[flutter_js.ConsoleLevel : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsoleLevel",
+                    "printedName": "flutter_js.ConsoleLevel",
+                    "usr": "c:@M@flutter_js@E@ConsoleLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10flutter_js7ConsoleC15levelDictionarySDyAA0C5LevelOSSGvp",
+            "mangledName": "$s10flutter_js7ConsoleC15levelDictionarySDyAA0C5LevelOSSGvp",
+            "moduleName": "flutter_js",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[flutter_js.ConsoleLevel : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsoleLevel",
+                        "printedName": "flutter_js.ConsoleLevel",
+                        "usr": "c:@M@flutter_js@E@ConsoleLevel"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10flutter_js7ConsoleC15levelDictionarySDyAA0C5LevelOSSGvg",
+                "mangledName": "$s10flutter_js7ConsoleC15levelDictionarySDyAA0C5LevelOSSGvg",
+                "moduleName": "flutter_js",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "output",
+            "printedName": "output(_:arguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConsoleLevel",
+                "printedName": "flutter_js.ConsoleLevel",
+                "usr": "c:@M@flutter_js@E@ConsoleLevel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AnyObject]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_js@objc(cs)Console(im)output:arguments:",
+            "mangledName": "$s10flutter_js7ConsoleC6output_9argumentsyAA0C5LevelO_SayyXlGtF",
+            "moduleName": "flutter_js",
+            "isOpen": true,
+            "objc_name": "output:arguments:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "insert",
+            "printedName": "insert(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSContext",
+                "printedName": "JavaScriptCore.JSContext",
+                "usr": "c:objc(cs)JSContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_js@objc(cs)Console(im)insert:",
+            "mangledName": "$s10flutter_js7ConsoleC6insertyySo9JSContextCF",
+            "moduleName": "flutter_js",
+            "isOpen": true,
+            "objc_name": "insert:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Console",
+                "printedName": "flutter_js.Console",
+                "usr": "c:@M@flutter_js@objc(cs)Console"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@flutter_js@objc(cs)Console(im)init",
+            "mangledName": "$s10flutter_js7ConsoleCACycfc",
+            "moduleName": "flutter_js",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@flutter_js@objc(cs)Console",
+        "mangledName": "$s10flutter_js7ConsoleC",
+        "moduleName": "flutter_js",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ConsoleJSExport",
+            "printedName": "ConsoleJSExport",
+            "usr": "c:@M@flutter_js@objc(pl)ConsoleJSExport",
+            "mangledName": "$s10flutter_js15ConsoleJSExportP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "JSInsert",
+            "printedName": "JSInsert",
+            "usr": "c:@M@flutter_js@objc(pl)JSInsert",
+            "mangledName": "$s10flutter_js8JSInsertP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_js"
+      },
+      {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "flutter_js"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GlobalJSExport",
+        "printedName": "GlobalJSExport",
+        "declKind": "Protocol",
+        "usr": "c:@M@flutter_js@objc(pl)GlobalJSExport",
+        "mangledName": "$s10flutter_js14GlobalJSExportP",
+        "moduleName": "flutter_js",
+        "genericSig": "<τ_0_0 : JavaScriptCore.JSExport>",
+        "sugared_genericSig": "<Self : JavaScriptCore.JSExport>",
+        "declAttributes": [
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Global",
+        "printedName": "Global",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "insert",
+            "printedName": "insert(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSContext",
+                "printedName": "JavaScriptCore.JSContext",
+                "usr": "c:objc(cs)JSContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_js@objc(cs)Global(im)insert:",
+            "mangledName": "$s10flutter_js6GlobalC6insertyySo9JSContextCF",
+            "moduleName": "flutter_js",
+            "isOpen": true,
+            "objc_name": "insert:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Global",
+                "printedName": "flutter_js.Global",
+                "usr": "c:@M@flutter_js@objc(cs)Global"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@flutter_js@objc(cs)Global(im)init",
+            "mangledName": "$s10flutter_js6GlobalCACycfc",
+            "moduleName": "flutter_js",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@flutter_js@objc(cs)Global",
+        "mangledName": "$s10flutter_js6GlobalC",
+        "moduleName": "flutter_js",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "GlobalJSExport",
+            "printedName": "GlobalJSExport",
+            "usr": "c:@M@flutter_js@objc(pl)GlobalJSExport",
+            "mangledName": "$s10flutter_js14GlobalJSExportP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "JSInsert",
+            "printedName": "JSInsert",
+            "usr": "c:@M@flutter_js@objc(pl)JSInsert",
+            "mangledName": "$s10flutter_js8JSInsertP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_js"
+      },
+      {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "flutter_js"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JSContextFoundationError",
+        "printedName": "JSContextFoundationError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "fileNotFound",
+            "printedName": "fileNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(flutter_js.JSContextFoundationError.Type) -> flutter_js.JSContextFoundationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSContextFoundationError",
+                    "printedName": "flutter_js.JSContextFoundationError",
+                    "usr": "s:10flutter_js24JSContextFoundationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "flutter_js.JSContextFoundationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSContextFoundationError",
+                        "printedName": "flutter_js.JSContextFoundationError",
+                        "usr": "s:10flutter_js24JSContextFoundationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10flutter_js24JSContextFoundationErrorO12fileNotFoundyA2CmF",
+            "mangledName": "$s10flutter_js24JSContextFoundationErrorO12fileNotFoundyA2CmF",
+            "moduleName": "flutter_js"
+          },
+          {
+            "kind": "Var",
+            "name": "fileNotLoaded",
+            "printedName": "fileNotLoaded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(flutter_js.JSContextFoundationError.Type) -> flutter_js.JSContextFoundationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSContextFoundationError",
+                    "printedName": "flutter_js.JSContextFoundationError",
+                    "usr": "s:10flutter_js24JSContextFoundationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "flutter_js.JSContextFoundationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSContextFoundationError",
+                        "printedName": "flutter_js.JSContextFoundationError",
+                        "usr": "s:10flutter_js24JSContextFoundationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10flutter_js24JSContextFoundationErrorO13fileNotLoadedyA2CmF",
+            "mangledName": "$s10flutter_js24JSContextFoundationErrorO13fileNotLoadedyA2CmF",
+            "moduleName": "flutter_js"
+          },
+          {
+            "kind": "Var",
+            "name": "fileNotDownloaded",
+            "printedName": "fileNotDownloaded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(flutter_js.JSContextFoundationError.Type) -> flutter_js.JSContextFoundationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSContextFoundationError",
+                    "printedName": "flutter_js.JSContextFoundationError",
+                    "usr": "s:10flutter_js24JSContextFoundationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "flutter_js.JSContextFoundationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSContextFoundationError",
+                        "printedName": "flutter_js.JSContextFoundationError",
+                        "usr": "s:10flutter_js24JSContextFoundationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10flutter_js24JSContextFoundationErrorO17fileNotDownloadedyA2CmF",
+            "mangledName": "$s10flutter_js24JSContextFoundationErrorO17fileNotDownloadedyA2CmF",
+            "moduleName": "flutter_js"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSContextFoundationError",
+                "printedName": "flutter_js.JSContextFoundationError",
+                "usr": "s:10flutter_js24JSContextFoundationErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSContextFoundationError",
+                "printedName": "flutter_js.JSContextFoundationError",
+                "usr": "s:10flutter_js24JSContextFoundationErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10flutter_js24JSContextFoundationErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10flutter_js24JSContextFoundationErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "flutter_js",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10flutter_js24JSContextFoundationErrorO9hashValueSivp",
+            "mangledName": "$s10flutter_js24JSContextFoundationErrorO9hashValueSivp",
+            "moduleName": "flutter_js",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10flutter_js24JSContextFoundationErrorO9hashValueSivg",
+                "mangledName": "$s10flutter_js24JSContextFoundationErrorO9hashValueSivg",
+                "moduleName": "flutter_js",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10flutter_js24JSContextFoundationErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10flutter_js24JSContextFoundationErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "flutter_js",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10flutter_js24JSContextFoundationErrorO",
+        "mangledName": "$s10flutter_js24JSContextFoundationErrorO",
+        "moduleName": "flutter_js",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JSContextFoundation",
+        "printedName": "JSContextFoundation",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(virtualMachine:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "flutter_js.JSContextFoundation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSContextFoundation",
+                    "printedName": "flutter_js.JSContextFoundation",
+                    "usr": "c:@M@flutter_js@objc(cs)JSContextFoundation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "JavaScriptCore.JSVirtualMachine?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSVirtualMachine",
+                    "printedName": "JavaScriptCore.JSVirtualMachine",
+                    "usr": "c:objc(cs)JSVirtualMachine"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@flutter_js@objc(cs)JSContextFoundation(im)initWithVirtualMachine:",
+            "mangledName": "$s10flutter_js19JSContextFoundationC14virtualMachineACSgSo09JSVirtualF0CSg_tcfc",
+            "moduleName": "flutter_js",
+            "overriding": true,
+            "objc_name": "initWithVirtualMachine:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "flutter_js.JSContextFoundation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSContextFoundation",
+                    "printedName": "flutter_js.JSContextFoundation",
+                    "usr": "c:@M@flutter_js@objc(cs)JSContextFoundation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@flutter_js@objc(cs)JSContextFoundation(im)init",
+            "mangledName": "$s10flutter_js19JSContextFoundationCACSgycfc",
+            "moduleName": "flutter_js",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "requireWithPath",
+            "printedName": "requireWithPath(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10flutter_js19JSContextFoundationC15requireWithPathyySSKF",
+            "mangledName": "$s10flutter_js19JSContextFoundationC15requireWithPathyySSKF",
+            "moduleName": "flutter_js",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requireWithUrl",
+            "printedName": "requireWithUrl(_:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10flutter_js19JSContextFoundationC14requireWithUrl_17completionHandlery0D03URLV_ys5Error_pSgctF",
+            "mangledName": "$s10flutter_js19JSContextFoundationC14requireWithUrl_17completionHandlery0D03URLV_ys5Error_pSgctF",
+            "moduleName": "flutter_js",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@flutter_js@objc(cs)JSContextFoundation",
+        "mangledName": "$s10flutter_js19JSContextFoundationC",
+        "moduleName": "flutter_js",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)JSContext",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "JavaScriptCore.JSContext",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_js"
+      },
+      {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "flutter_js"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JSInsert",
+        "printedName": "JSInsert",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "insert",
+            "printedName": "insert(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSContext",
+                "printedName": "JavaScriptCore.JSContext",
+                "usr": "c:objc(cs)JSContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_js@objc(pl)JSInsert(im)insert:",
+            "mangledName": "$s10flutter_js8JSInsertP6insertyySo9JSContextCF",
+            "moduleName": "flutter_js",
+            "genericSig": "<τ_0_0 where τ_0_0 : flutter_js.JSInsert>",
+            "sugared_genericSig": "<Self where Self : flutter_js.JSInsert>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@flutter_js@objc(pl)JSInsert",
+        "mangledName": "$s10flutter_js8JSInsertP",
+        "moduleName": "flutter_js",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "flutter_js"
+      },
+      {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "flutter_js"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "flutter_js"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftFlutterJsPlugin",
+        "printedName": "SwiftFlutterJsPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_js@objc(cs)SwiftFlutterJsPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s10flutter_js20SwiftFlutterJsPluginC8register4withySo0dF9Registrar_p_tFZ",
+            "moduleName": "flutter_js",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_js@objc(cs)SwiftFlutterJsPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s10flutter_js20SwiftFlutterJsPluginC6handle_6resultySo0D10MethodCallC_yypSgctF",
+            "moduleName": "flutter_js",
+            "isOpen": true,
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftFlutterJsPlugin",
+                "printedName": "flutter_js.SwiftFlutterJsPlugin",
+                "usr": "c:@M@flutter_js@objc(cs)SwiftFlutterJsPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@flutter_js@objc(cs)SwiftFlutterJsPlugin(im)init",
+            "mangledName": "$s10flutter_js20SwiftFlutterJsPluginCACycfc",
+            "moduleName": "flutter_js",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@flutter_js@objc(cs)SwiftFlutterJsPlugin",
+        "mangledName": "$s10flutter_js20SwiftFlutterJsPluginC",
+        "moduleName": "flutter_js",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_js-0.8.2\/ios\/Classes\/Console.swift",
+      "kind": "IntegerLiteral",
+      "offset": 87,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_js-0.8.2\/ios\/Classes\/Console.swift",
+      "kind": "IntegerLiteral",
+      "offset": 93,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_js-0.8.2\/ios\/Classes\/Console.swift",
+      "kind": "IntegerLiteral",
+      "offset": 99,
+      "length": 5,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_js-0.8.2\/ios\/Classes\/Console.swift",
+      "kind": "IntegerLiteral",
+      "offset": 87,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_js-0.8.2\/ios\/Classes\/Console.swift",
+      "kind": "IntegerLiteral",
+      "offset": 93,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_js-0.8.2\/ios\/Classes\/Console.swift",
+      "kind": "IntegerLiteral",
+      "offset": 99,
+      "length": 5,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_js-0.8.2\/ios\/Classes\/Console.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_js-0.8.2\/ios\/Classes\/Console.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 8,
+      "value": "\"[info]\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_js-0.8.2\/ios\/Classes\/Console.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 8,
+      "value": "\"[WARN]\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_js-0.8.2\/ios\/Classes\/Console.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 9,
+      "value": "\"[ERROR]\""
+    }
+  ]
+}

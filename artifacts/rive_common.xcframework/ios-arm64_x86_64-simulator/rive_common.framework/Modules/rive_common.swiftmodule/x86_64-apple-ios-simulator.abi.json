@@ -20,8 +20,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "SwiftRivePlugin",
-        "printedName": "SwiftRivePlugin",
+        "name": "RivePlugin",
+        "printedName": "RivePlugin",
         "children": [
           {
             "kind": "Function",
@@ -41,67 +41,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@rive_common@objc(cs)SwiftRivePlugin(cm)registerWithRegistrar:",
-            "mangledName": "$s11rive_common15SwiftRivePluginC8register4withySo07FlutterE9Registrar_p_tFZ",
+            "usr": "c:@M@rive_common@objc(cs)RivePlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s11rive_common10RivePluginC8register4withySo07FlutterD9Registrar_p_tFZ",
             "moduleName": "rive_common",
             "static": true,
             "objc_name": "registerWithRegistrar:",
             "declAttributes": [
               "Final",
-              "ObjC",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "handle",
-            "printedName": "handle(_:result:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "FlutterMethodCall",
-                "printedName": "Flutter.FlutterMethodCall",
-                "usr": "c:objc(cs)FlutterMethodCall"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Any?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Any?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@rive_common@objc(cs)SwiftRivePlugin(im)handleMethodCall:result:",
-            "mangledName": "$s11rive_common15SwiftRivePluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
-            "moduleName": "rive_common",
-            "isOpen": true,
-            "objc_name": "handleMethodCall:result:",
-            "declAttributes": [
               "ObjC",
               "AccessControl"
             ],
@@ -114,14 +60,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "SwiftRivePlugin",
-                "printedName": "rive_common.SwiftRivePlugin",
-                "usr": "c:@M@rive_common@objc(cs)SwiftRivePlugin"
+                "name": "RivePlugin",
+                "printedName": "rive_common.RivePlugin",
+                "usr": "c:@M@rive_common@objc(cs)RivePlugin"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@rive_common@objc(cs)SwiftRivePlugin(im)init",
-            "mangledName": "$s11rive_common15SwiftRivePluginCACycfc",
+            "usr": "c:@M@rive_common@objc(cs)RivePlugin(im)init",
+            "mangledName": "$s11rive_common10RivePluginCACycfc",
             "moduleName": "rive_common",
             "overriding": true,
             "implicit": true,
@@ -135,11 +81,11 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@rive_common@objc(cs)SwiftRivePlugin",
-        "mangledName": "$s11rive_common15SwiftRivePluginC",
+        "usr": "c:@M@rive_common@objc(cs)RivePlugin",
+        "mangledName": "$s11rive_common10RivePluginC",
         "moduleName": "rive_common",
-        "isOpen": true,
         "declAttributes": [
+          "Final",
           "AccessControl",
           "ObjC"
         ],

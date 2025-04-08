@@ -9,10 +9,10 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @_exported import app_links
 @_hasMissingDesignatedInitializers public class AppLinks {
-  public static let shared: app_links.SwiftAppLinksPlugin
+  public static let shared: app_links.AppLinksIosPlugin
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers final public class SwiftAppLinksPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin, Flutter.FlutterStreamHandler {
+@objc @_inheritsConvenienceInitializers final public class AppLinksIosPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin, Flutter.FlutterStreamHandler {
   @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
   @objc final public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
   final public func getLink(launchOptions: [Swift.AnyHashable : Any]?) -> Foundation.URL?

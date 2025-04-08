@@ -1,0 +1,3078 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlutterAssetManager",
+        "printedName": "FlutterAssetManager",
+        "declKind": "Class",
+        "usr": "s:25webview_flutter_wkwebview19FlutterAssetManagerC",
+        "mangledName": "$s25webview_flutter_wkwebview19FlutterAssetManagerC",
+        "moduleName": "webview_flutter_wkwebview",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NavigationDelegateImpl",
+        "printedName": "NavigationDelegateImpl",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@webview_flutter_wkwebview@objc(cs)NavigationDelegateImpl(im)webView:didFinishNavigation:",
+            "mangledName": "$s25webview_flutter_wkwebview22NavigationDelegateImplC7webView_9didFinishySo05WKWebH0C_So12WKNavigationCSgtF",
+            "moduleName": "webview_flutter_wkwebview",
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didStartProvisionalNavigation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@webview_flutter_wkwebview@objc(cs)NavigationDelegateImpl(im)webView:didStartProvisionalNavigation:",
+            "mangledName": "$s25webview_flutter_wkwebview22NavigationDelegateImplC7webView_019didStartProvisionalD0ySo05WKWebH0C_So12WKNavigationCSgtF",
+            "moduleName": "webview_flutter_wkwebview",
+            "objc_name": "webView:didStartProvisionalNavigation:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFail:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@webview_flutter_wkwebview@objc(cs)NavigationDelegateImpl(im)webView:didFailNavigation:withError:",
+            "mangledName": "$s25webview_flutter_wkwebview22NavigationDelegateImplC7webView_7didFail9withErrorySo05WKWebH0C_So12WKNavigationCSgs0L0_ptF",
+            "moduleName": "webview_flutter_wkwebview",
+            "objc_name": "webView:didFailNavigation:withError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFailProvisionalNavigation:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@webview_flutter_wkwebview@objc(cs)NavigationDelegateImpl(im)webView:didFailProvisionalNavigation:withError:",
+            "mangledName": "$s25webview_flutter_wkwebview22NavigationDelegateImplC7webView_018didFailProvisionalD09withErrorySo05WKWebH0C_So12WKNavigationCSgs0M0_ptF",
+            "moduleName": "webview_flutter_wkwebview",
+            "objc_name": "webView:didFailProvisionalNavigation:withError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webViewWebContentProcessDidTerminate",
+            "printedName": "webViewWebContentProcessDidTerminate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@webview_flutter_wkwebview@objc(cs)NavigationDelegateImpl(im)webViewWebContentProcessDidTerminate:",
+            "mangledName": "$s25webview_flutter_wkwebview22NavigationDelegateImplC36webViewWebContentProcessDidTerminateyySo05WKWebH0CF",
+            "moduleName": "webview_flutter_wkwebview",
+            "objc_name": "webViewWebContentProcessDidTerminate:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@webview_flutter_wkwebview@objc(cs)NavigationDelegateImpl(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s25webview_flutter_wkwebview22NavigationDelegateImplC7webView_15decidePolicyFor15decisionHandlerySo05WKWebH0C_So18WKNavigationActionCySo0opJ0VctF",
+            "moduleName": "webview_flutter_wkwebview",
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationResponse",
+                "printedName": "WebKit.WKNavigationResponse",
+                "usr": "c:objc(cs)WKNavigationResponse"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationResponsePolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationResponsePolicy",
+                    "printedName": "WebKit.WKNavigationResponsePolicy",
+                    "usr": "c:@E@WKNavigationResponsePolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@webview_flutter_wkwebview@objc(cs)NavigationDelegateImpl(im)webView:decidePolicyForNavigationResponse:decisionHandler:",
+            "mangledName": "$s25webview_flutter_wkwebview22NavigationDelegateImplC7webView_15decidePolicyFor15decisionHandlerySo05WKWebH0C_So20WKNavigationResponseCySo0opJ0VctF",
+            "moduleName": "webview_flutter_wkwebview",
+            "objc_name": "webView:decidePolicyForNavigationResponse:decisionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didReceive:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLAuthenticationChallenge",
+                "printedName": "Foundation.URLAuthenticationChallenge",
+                "usr": "c:objc(cs)NSURLAuthenticationChallenge"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthChallengeDisposition",
+                        "printedName": "Foundation.URLSession.AuthChallengeDisposition",
+                        "usr": "c:@E@NSURLSessionAuthChallengeDisposition"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLCredential?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLCredential",
+                            "printedName": "Foundation.URLCredential",
+                            "usr": "c:objc(cs)NSURLCredential"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@webview_flutter_wkwebview@objc(cs)NavigationDelegateImpl(im)webView:didReceiveAuthenticationChallenge:completionHandler:",
+            "mangledName": "$s25webview_flutter_wkwebview22NavigationDelegateImplC7webView_10didReceive17completionHandlerySo05WKWebH0C_So28NSURLAuthenticationChallengeCySo016NSURLSessionAuthO11DispositionV_So15NSURLCredentialCSgtctF",
+            "moduleName": "webview_flutter_wkwebview",
+            "objc_name": "webView:didReceiveAuthenticationChallenge:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NavigationDelegateImpl",
+                "printedName": "webview_flutter_wkwebview.NavigationDelegateImpl",
+                "usr": "c:@M@webview_flutter_wkwebview@objc(cs)NavigationDelegateImpl"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@webview_flutter_wkwebview@objc(cs)NavigationDelegateImpl(im)init",
+            "mangledName": "$s25webview_flutter_wkwebview22NavigationDelegateImplCACycfc",
+            "moduleName": "webview_flutter_wkwebview",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@webview_flutter_wkwebview@objc(cs)NavigationDelegateImpl",
+        "mangledName": "$s25webview_flutter_wkwebview22NavigationDelegateImplC",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ProxyAPIRegistrar",
+        "printedName": "ProxyAPIRegistrar",
+        "declKind": "Class",
+        "usr": "s:25webview_flutter_wkwebview17ProxyAPIRegistrarC",
+        "mangledName": "$s25webview_flutter_wkwebview17ProxyAPIRegistrarC",
+        "moduleName": "webview_flutter_wkwebview",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "s:25webview_flutter_wkwebview36WebKitLibraryPigeonProxyApiRegistrarC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "webview_flutter_wkwebview.WebKitLibraryPigeonProxyApiRegistrar"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview"
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebKitLibraryPigeonProxyApiRegistrar",
+        "printedName": "WebKitLibraryPigeonProxyApiRegistrar",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ignoreCallsToDart",
+            "printedName": "ignoreCallsToDart",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25webview_flutter_wkwebview36WebKitLibraryPigeonProxyApiRegistrarC17ignoreCallsToDartSbvp",
+            "mangledName": "$s25webview_flutter_wkwebview36WebKitLibraryPigeonProxyApiRegistrarC17ignoreCallsToDartSbvp",
+            "moduleName": "webview_flutter_wkwebview",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25webview_flutter_wkwebview36WebKitLibraryPigeonProxyApiRegistrarC17ignoreCallsToDartSbvg",
+                "mangledName": "$s25webview_flutter_wkwebview36WebKitLibraryPigeonProxyApiRegistrarC17ignoreCallsToDartSbvg",
+                "moduleName": "webview_flutter_wkwebview",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25webview_flutter_wkwebview36WebKitLibraryPigeonProxyApiRegistrarC17ignoreCallsToDartSbvs",
+                "mangledName": "$s25webview_flutter_wkwebview36WebKitLibraryPigeonProxyApiRegistrarC17ignoreCallsToDartSbvs",
+                "moduleName": "webview_flutter_wkwebview",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25webview_flutter_wkwebview36WebKitLibraryPigeonProxyApiRegistrarC17ignoreCallsToDartSbvM",
+                "mangledName": "$s25webview_flutter_wkwebview36WebKitLibraryPigeonProxyApiRegistrarC17ignoreCallsToDartSbvM",
+                "moduleName": "webview_flutter_wkwebview",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:25webview_flutter_wkwebview36WebKitLibraryPigeonProxyApiRegistrarC",
+        "mangledName": "$s25webview_flutter_wkwebview36WebKitLibraryPigeonProxyApiRegistrarC",
+        "moduleName": "webview_flutter_wkwebview",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PigeonApiDelegateURLResponse",
+        "printedName": "PigeonApiDelegateURLResponse",
+        "declKind": "Class",
+        "usr": "s:25webview_flutter_wkwebview28PigeonApiDelegateURLResponseC",
+        "mangledName": "$s25webview_flutter_wkwebview28PigeonApiDelegateURLResponseC",
+        "moduleName": "webview_flutter_wkwebview",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PigeonApiDelegateWKWebView",
+        "printedName": "PigeonApiDelegateWKWebView",
+        "declKind": "Class",
+        "usr": "s:25webview_flutter_wkwebview26PigeonApiDelegateWKWebViewC",
+        "mangledName": "$s25webview_flutter_wkwebview26PigeonApiDelegateWKWebViewC",
+        "moduleName": "webview_flutter_wkwebview",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebViewFlutterPlugin",
+        "printedName": "WebViewFlutterPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@webview_flutter_wkwebview@objc(cs)WebViewFlutterPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s25webview_flutter_wkwebview20WebViewFlutterPluginC8register4withySo0fG9Registrar_p_tFZ",
+            "moduleName": "webview_flutter_wkwebview",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "detachFromEngine",
+            "printedName": "detachFromEngine(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@webview_flutter_wkwebview@objc(cs)WebViewFlutterPlugin(im)detachFromEngineForRegistrar:",
+            "mangledName": "$s25webview_flutter_wkwebview20WebViewFlutterPluginC16detachFromEngine3forySo0fG9Registrar_p_tF",
+            "moduleName": "webview_flutter_wkwebview",
+            "objc_name": "detachFromEngineForRegistrar:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewFlutterPlugin",
+                "printedName": "webview_flutter_wkwebview.WebViewFlutterPlugin",
+                "usr": "c:@M@webview_flutter_wkwebview@objc(cs)WebViewFlutterPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@webview_flutter_wkwebview@objc(cs)WebViewFlutterPlugin(im)init",
+            "mangledName": "$s25webview_flutter_wkwebview20WebViewFlutterPluginCACycfc",
+            "moduleName": "webview_flutter_wkwebview",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@webview_flutter_wkwebview@objc(cs)WebViewFlutterPlugin",
+        "mangledName": "$s25webview_flutter_wkwebview20WebViewFlutterPluginC",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FWFWebViewFlutterWKWebViewExternalAPI",
+        "printedName": "FWFWebViewFlutterWKWebViewExternalAPI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(forIdentifier:withPluginRegistry:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistry",
+                "printedName": "any Flutter.FlutterPluginRegistry",
+                "usr": "c:objc(pl)FlutterPluginRegistry"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@webview_flutter_wkwebview@objc(cs)FWFWebViewFlutterWKWebViewExternalAPI(cm)webViewForIdentifier:withPluginRegistry:",
+            "mangledName": "$s25webview_flutter_wkwebview022FWFWebViewFlutterWKWebE11ExternalAPIC03webE013forIdentifier18withPluginRegistrySo0gE0CSgs5Int64V_So0fnO0_ptFZ",
+            "moduleName": "webview_flutter_wkwebview",
+            "static": true,
+            "objc_name": "webViewForIdentifier:withPluginRegistry:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FWFWebViewFlutterWKWebViewExternalAPI",
+                "printedName": "webview_flutter_wkwebview.FWFWebViewFlutterWKWebViewExternalAPI",
+                "usr": "c:@M@webview_flutter_wkwebview@objc(cs)FWFWebViewFlutterWKWebViewExternalAPI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@webview_flutter_wkwebview@objc(cs)FWFWebViewFlutterWKWebViewExternalAPI(im)init",
+            "mangledName": "$s25webview_flutter_wkwebview022FWFWebViewFlutterWKWebE11ExternalAPICACycfc",
+            "moduleName": "webview_flutter_wkwebview",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@webview_flutter_wkwebview@objc(cs)FWFWebViewFlutterWKWebViewExternalAPI",
+        "mangledName": "$s25webview_flutter_wkwebview022FWFWebViewFlutterWKWebE11ExternalAPIC",
+        "moduleName": "webview_flutter_wkwebview",
+        "objc_name": "FWFWebViewFlutterWKWebViewExternalAPI",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "webview_flutter_wkwebview",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/FlutterViewFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 594,
+      "length": 16,
+      "value": "\"webview_flutter_wkwebview.PlatformViewImpl\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/FlutterViewFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 444,
+      "length": 18,
+      "value": "\"webview_flutter_wkwebview.FlutterViewFactory\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/NavigationDelegateProxyAPIDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 22,
+      "value": "\"webview_flutter_wkwebview.NavigationDelegateImpl\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/NSObjectProxyAPIDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 12,
+      "value": "\"webview_flutter_wkwebview.NSObjectImpl\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/ProxyAPIRegistrar.swift",
+      "kind": "StringLiteral",
+      "offset": 478,
+      "length": 17,
+      "value": "\"webview_flutter_wkwebview.ProxyAPIRegistrar\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/ScriptMessageHandlerProxyAPIDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 24,
+      "value": "\"webview_flutter_wkwebview.ScriptMessageHandlerImpl\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/ScrollViewDelegateProxyAPIDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 22,
+      "value": "\"webview_flutter_wkwebview.ScrollViewDelegateImpl\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/UIDelegateProxyAPIDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 14,
+      "value": "\"webview_flutter_wkwebview.UIDelegateImpl\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2323,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4567,
+      "length": 5,
+      "value": "65536"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "StringLiteral",
+      "offset": 4621,
+      "length": 36,
+      "value": "\"WebKitLibraryPigeonInstanceManager\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24145,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "StringLiteral",
+      "offset": 30927,
+      "length": 46,
+      "value": "\"webview_flutter_wkwebview.WebKitLibraryPigeonInternalProxyApiCodecReader\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "StringLiteral",
+      "offset": 30927,
+      "length": 46,
+      "value": "\"webview_flutter_wkwebview.WebKitLibraryPigeonInternalProxyApiCodecReader\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "StringLiteral",
+      "offset": 31783,
+      "length": 46,
+      "value": "\"webview_flutter_wkwebview.WebKitLibraryPigeonInternalProxyApiCodecWriter\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "StringLiteral",
+      "offset": 31783,
+      "length": 46,
+      "value": "\"webview_flutter_wkwebview.WebKitLibraryPigeonInternalProxyApiCodecWriter\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "StringLiteral",
+      "offset": 30758,
+      "length": 52,
+      "value": "\"webview_flutter_wkwebview.WebKitLibraryPigeonInternalProxyApiCodecReaderWriter\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47611,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47735,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47898,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48082,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47611,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47735,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47898,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48082,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47611,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47735,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47898,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48082,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48341,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48471,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48598,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48728,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48797,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48341,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48471,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48598,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48728,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48797,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48341,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48471,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48598,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48728,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48797,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49266,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49422,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49688,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49888,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50161,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50230,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49266,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49422,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49688,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49888,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50161,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50230,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49266,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49422,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49688,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49888,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50161,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50230,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50600,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50749,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50818,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50600,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50749,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50818,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50600,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50749,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50818,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51084,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51179,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51274,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51352,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51084,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51179,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51274,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51352,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51084,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51179,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51274,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51352,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51614,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51661,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51704,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51777,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51827,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51881,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51932,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51989,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51614,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51661,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51704,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51777,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51827,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51881,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51932,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51989,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51614,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51661,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51704,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51777,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51827,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51881,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51932,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51989,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52270,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52317,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52374,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52270,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52317,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52374,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52270,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52317,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52374,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52660,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52707,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52764,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52660,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52707,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52764,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52660,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52707,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52764,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53049,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53151,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53273,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53352,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53462,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53605,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53690,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53781,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53855,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53979,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54068,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54191,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54267,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54351,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54421,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53049,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53151,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53273,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53352,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53462,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53605,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53690,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53781,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53855,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53979,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54068,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54191,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54267,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54351,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54421,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53049,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53151,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53273,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53352,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53462,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53605,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53690,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53781,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53855,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53979,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54068,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54191,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54267,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54351,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54421,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54635,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54694,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54774,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54831,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54894,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54977,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55046,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54635,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54694,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54774,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54831,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54894,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54977,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55046,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54635,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54694,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54774,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54831,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54894,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54977,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55046,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55291,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55358,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55441,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55291,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55358,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55441,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55291,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55358,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55441,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55696,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55793,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55860,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55929,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55696,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55793,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55860,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55929,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55696,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55793,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55860,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55929,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56206,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56348,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56422,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56587,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56656,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56206,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56348,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56422,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56587,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56656,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56206,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56348,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56422,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56587,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56656,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56898,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56981,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 57057,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 57247,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56898,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56981,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 57057,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 57247,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56898,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56981,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 57057,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebKitLibrary.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 57247,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebViewFlutterPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 20,
+      "value": "\"webview_flutter_wkwebview.WebViewFlutterPlugin\""
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/webview_flutter_wkwebview-3.18.5\/darwin\/webview_flutter_wkwebview\/Sources\/webview_flutter_wkwebview\/WebViewProxyAPIDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 186,
+      "length": 11,
+      "value": "\"webview_flutter_wkwebview.WebViewImpl\""
+    }
+  ]
+}
