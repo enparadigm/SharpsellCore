@@ -49,7 +49,7 @@ let package = Package(
                 //                                "GoogleDataTransport",
 //                "GoogleUtilities",
                 "image_cropper",
-                "image_gallery_saver",
+//                "image_gallery_saver",
                 "image_picker_ios",
                 "is_lock_screen",
                 "just_audio",
@@ -182,8 +182,8 @@ let package = Package(
             .binaryTarget(name: "image_cropper",
                           path: "artifacts/image_cropper.xcframework"),
         
-            .binaryTarget(name: "image_gallery_saver",
-                          path: "artifacts/image_gallery_saver.xcframework"),
+//            .binaryTarget(name: "image_gallery_saver",
+//                          path: "artifacts/image_gallery_saver.xcframework"),
         
             .binaryTarget(name: "image_picker_ios",
                           path: "artifacts/image_picker_ios.xcframework"),

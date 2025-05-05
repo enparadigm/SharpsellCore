@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "printing",
+    "printedName": "printing",
     "children": [
       {
         "kind": "Import",
@@ -637,6 +637,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -725,8 +739,9 @@
             "mangledName": "$s8printing8PrintJobC5indexSivp",
             "moduleName": "printing",
             "declAttributes": [
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -823,6 +838,7 @@
             "mangledName": "$s8printing8PrintJobCAA5indexAcA14PrintingPluginC_Sitcfc",
             "moduleName": "printing",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -860,6 +876,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -887,6 +904,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -957,6 +975,7 @@
             "objc_name": "printInteractionController:choosePaper:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1012,6 +1031,7 @@
             "mangledName": "$s8printing8PrintJobC9rasterPdf4data5pages5scaley10Foundation4DataV_SaySiGSg12CoreGraphics7CGFloatVtF",
             "moduleName": "printing",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1035,6 +1055,7 @@
             "moduleName": "printing",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final",
               "AccessControl"
@@ -1063,6 +1084,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -1074,6 +1096,7 @@
         "mangledName": "$s8printing8PrintJobC",
         "moduleName": "printing",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -1084,6 +1107,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1140,13 +1177,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/printing-5.12.0\/ios\/Classes\/PrintingPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 682,
-      "length": 14,
-      "value": "\"printing.PrintingPlugin\""
-    },
-    {
       "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/printing-5.12.0\/ios\/Classes\/PrintJob.swift",
       "kind": "IntegerLiteral",
       "offset": 1407,
@@ -1162,10 +1192,10 @@
     },
     {
       "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/printing-5.12.0\/ios\/Classes\/PrintJob.swift",
-      "kind": "StringLiteral",
-      "offset": 994,
-      "length": 8,
-      "value": "\"printing.PrintJob\""
+      "kind": "IntegerLiteral",
+      "offset": 5099,
+      "length": 1,
+      "value": "0"
     }
   ]
 }

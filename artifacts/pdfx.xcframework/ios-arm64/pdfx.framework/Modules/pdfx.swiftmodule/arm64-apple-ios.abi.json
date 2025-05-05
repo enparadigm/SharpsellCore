@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "pdfx",
+    "printedName": "pdfx",
     "children": [
       {
         "kind": "Import",
@@ -796,6 +796,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -871,34 +885,6 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.6.0\/ios\/Classes\/Document.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7791,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.6.0\/ios\/Classes\/Document.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7809,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.6.0\/ios\/Classes\/Document.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7791,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.6.0\/ios\/Classes\/Document.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7809,
-      "length": 1,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.6.0\/ios\/Classes\/Resources.swift",
       "kind": "Dictionary",
       "offset": 111,
@@ -928,13 +914,6 @@
     },
     {
       "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.6.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 141,
-      "length": 15,
-      "value": "\"pdfx.SwiftPdfxPlugin\""
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.6.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 11930,
       "length": 1,
@@ -960,13 +939,6 @@
       "offset": 12512,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.6.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 11802,
-      "length": 14,
-      "value": "\"pdfx.PdfPageTexture\""
     }
   ]
 }

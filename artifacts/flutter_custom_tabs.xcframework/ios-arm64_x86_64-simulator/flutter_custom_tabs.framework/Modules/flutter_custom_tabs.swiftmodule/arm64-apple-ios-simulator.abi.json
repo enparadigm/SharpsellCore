@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "flutter_custom_tabs",
+    "printedName": "flutter_custom_tabs",
     "children": [
       {
         "kind": "Import",
@@ -158,6 +158,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -269,6 +283,7 @@
             "moduleName": "flutter_custom_tabs",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -283,6 +298,7 @@
         "intro_iOS": "9.0",
         "objc_name": "SFSafariViewController",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Available",
           "ObjC",
@@ -297,6 +313,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
