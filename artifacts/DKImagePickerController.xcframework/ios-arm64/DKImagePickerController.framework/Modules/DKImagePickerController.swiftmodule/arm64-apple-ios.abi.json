@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "DKImagePickerController",
+    "printedName": "DKImagePickerController",
     "children": [
       {
         "kind": "Import",
@@ -191,6 +191,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1973,6 +1987,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2557,6 +2585,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2954,6 +2996,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2990,6 +3048,7 @@
             "static": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -3016,8 +3075,9 @@
             "declAttributes": [
               "HasInitialValue",
               "ObjC",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -3132,8 +3192,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -3243,8 +3304,9 @@
             "declAttributes": [
               "HasInitialValue",
               "ObjC",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3352,8 +3414,9 @@
             "declAttributes": [
               "HasInitialValue",
               "ObjC",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3468,6 +3531,7 @@
             "objc_name": "thumbnailImageView",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3524,6 +3588,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -3565,6 +3630,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Required"
@@ -3593,6 +3659,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -3664,6 +3731,7 @@
         "moduleName": "DKImagePickerController",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -3684,6 +3752,20 @@
             "printedName": "DKAssetGroupCellItemProtocol",
             "usr": "c:@M@DKImagePickerController@objc(pl)DKAssetGroupCellItemProtocol",
             "mangledName": "$s23DKImagePickerController28DKAssetGroupCellItemProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3784,6 +3866,7 @@
             "static": true,
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -3797,6 +3880,7 @@
         "mangledName": "$s23DKImagePickerController28DKAssetGroupDetailCameraCellC",
         "moduleName": "DKImagePickerController",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjCMembers",
@@ -3820,6 +3904,20 @@
             "printedName": "DKAssetGroupCellItemProtocol",
             "usr": "c:@M@DKImagePickerController@objc(pl)DKAssetGroupCellItemProtocol",
             "mangledName": "$s23DKImagePickerController28DKAssetGroupCellItemProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3927,6 +4025,7 @@
             "static": true,
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -3974,6 +4073,7 @@
                 "declAttributes": [
                   "Dynamic",
                   "ObjC",
+                  "Preconcurrency",
                   "Custom",
                   "AccessControl",
                   "Required"
@@ -4001,6 +4101,7 @@
                 "declAttributes": [
                   "Dynamic",
                   "ObjC",
+                  "Preconcurrency",
                   "Custom",
                   "AccessControl",
                   "Override"
@@ -4014,6 +4115,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -4027,6 +4129,20 @@
               "ObjectiveC.NSObject"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -4127,6 +4243,7 @@
             "objc_name": "thumbnailImage",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override",
@@ -4243,6 +4360,7 @@
             "objc_name": "selectedIndex",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -4342,6 +4460,7 @@
             "objc_name": "thumbnailImageView",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -4391,8 +4510,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -4445,6 +4565,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -4513,6 +4634,7 @@
         "mangledName": "$s23DKImagePickerController27DKAssetGroupDetailImageCellC",
         "moduleName": "DKImagePickerController",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjCMembers",
@@ -4536,6 +4658,20 @@
             "printedName": "DKAssetGroupCellItemProtocol",
             "usr": "c:@M@DKImagePickerController@objc(pl)DKAssetGroupCellItemProtocol",
             "mangledName": "$s23DKImagePickerController28DKAssetGroupCellItemProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4664,8 +4800,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -4768,8 +4905,9 @@
             "declAttributes": [
               "HasInitialValue",
               "ObjC",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -4881,8 +5019,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -4971,6 +5110,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -5004,6 +5144,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -5031,6 +5172,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -5058,6 +5200,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -5083,6 +5226,7 @@
             "objc_name": "reload",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5105,6 +5249,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5132,6 +5277,7 @@
             "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC11selectAsset7atIndexy10Foundation0K4PathV_tF",
             "moduleName": "DKImagePickerController",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -5160,6 +5306,7 @@
             "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC13deselectAsset7atIndexy10Foundation0K4PathV_tF",
             "moduleName": "DKImagePickerController",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5188,6 +5335,7 @@
             "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC16adjustAssetIndexyS2iF",
             "moduleName": "DKImagePickerController",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5222,6 +5370,7 @@
             "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC6scroll2to7animtedy10Foundation9IndexPathV_SbtF",
             "moduleName": "DKImagePickerController",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5250,6 +5399,7 @@
             "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC21scrollToLastIndexPath8animatedySb_tF",
             "moduleName": "DKImagePickerController",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5286,6 +5436,7 @@
             "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC18thumbnailImageView3forSo07UIImageJ0CSg10Foundation9IndexPathV_tF",
             "moduleName": "DKImagePickerController",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5322,6 +5473,7 @@
             "objc_name": "gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -5353,6 +5505,7 @@
             "objc_name": "gestureRecognizerShouldBegin:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5389,6 +5542,7 @@
             "objc_name": "collectionView:numberOfItemsInSection:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -5426,6 +5580,7 @@
             "objc_name": "collectionView:cellForItemAtIndexPath:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5467,6 +5622,7 @@
             "objc_name": "collectionView:willDisplayCell:forItemAtIndexPath:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5508,6 +5664,7 @@
             "objc_name": "collectionView:didEndDisplayingCell:forItemAtIndexPath:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5544,6 +5701,7 @@
             "objc_name": "collectionView:shouldSelectItemAtIndexPath:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5579,6 +5737,7 @@
             "objc_name": "collectionView:didSelectItemAtIndexPath:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5614,6 +5773,7 @@
             "objc_name": "collectionView:didDeselectItemAtIndexPath:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5643,6 +5803,7 @@
             "objc_name": "scrollViewDidScroll:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5666,6 +5827,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -5722,6 +5884,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -5763,6 +5926,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -5775,6 +5939,7 @@
         "moduleName": "DKImagePickerController",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment",
@@ -5794,6 +5959,20 @@
             "printedName": "DKImagePickerControllerAware",
             "usr": "c:@M@DKImagePickerController@objc(pl)DKImagePickerControllerAware",
             "mangledName": "$s23DKImagePickerController0abC5AwareP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -5896,6 +6075,7 @@
             "objc_name": "cellReuseIdentifier",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -5922,6 +6102,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -5947,6 +6128,7 @@
             "objc_name": "asset",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ReferenceOwnership",
@@ -6065,6 +6247,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -6133,6 +6316,7 @@
         "mangledName": "$s23DKImagePickerController27DKAssetGroupDetailVideoCellC",
         "moduleName": "DKImagePickerController",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjCMembers",
@@ -6157,6 +6341,20 @@
             "printedName": "DKAssetGroupCellItemProtocol",
             "usr": "c:@M@DKImagePickerController@objc(pl)DKAssetGroupCellItemProtocol",
             "mangledName": "$s23DKImagePickerController28DKAssetGroupCellItemProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -6266,6 +6464,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -6294,6 +6493,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -6335,6 +6535,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -6347,6 +6548,7 @@
         "moduleName": "DKImagePickerController",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -6359,6 +6561,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -6540,6 +6756,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6619,7 +6851,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -6792,6 +7040,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7000,6 +7262,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7352,6 +7628,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -7907,6 +8199,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -8215,6 +8521,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -8471,6 +8791,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -9179,7 +9513,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -9319,7 +9669,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -9576,6 +9942,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -9691,6 +10071,22 @@
         "moduleName": "DKImagePickerController",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -9886,6 +10282,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -9993,6 +10403,20 @@
             "printedName": "DKImageExtensionProtocol",
             "usr": "s:23DKImagePickerController0A17ExtensionProtocolP",
             "mangledName": "$s23DKImagePickerController0A17ExtensionProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -10319,6 +10743,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10968,6 +11406,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11553,6 +12005,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -12469,6 +12935,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -12749,6 +13229,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -12998,6 +13492,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -13206,6 +13714,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -13377,6 +13899,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -13447,6 +13985,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "Available"
@@ -13481,6 +14020,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -13536,6 +14076,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -13577,6 +14118,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -13589,6 +14131,7 @@
         "moduleName": "DKImagePickerController",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC",
@@ -13603,6 +14146,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -13699,8 +14256,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -13810,6 +14368,7 @@
             "moduleName": "DKImagePickerController",
             "intro_iOS": "13.0",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC",
@@ -13858,8 +14417,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -13953,8 +14513,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -14048,8 +14609,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -14144,8 +14706,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -14243,8 +14806,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -14347,8 +14911,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -14442,8 +15007,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -14537,8 +15103,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -14632,8 +15199,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -14727,8 +15295,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -14822,8 +15391,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -14917,8 +15487,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -15012,8 +15583,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -15107,8 +15679,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -15202,8 +15775,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -15316,8 +15890,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -15477,8 +16052,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -15647,8 +16223,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -15780,8 +16357,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -15875,8 +16453,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -15978,8 +16557,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -16088,8 +16668,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -16183,8 +16764,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "SetterAccess",
               "AccessControl",
               "ObjC",
@@ -16254,8 +16836,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -16388,6 +16971,7 @@
             "mangledName": "$s23DKImagePickerControllerAAC16groupDataManagerAA0a5GroupeF0Cvp",
             "moduleName": "DKImagePickerController",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Lazy",
               "SetterAccess",
@@ -16446,8 +17030,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "SetterAccess",
               "AccessControl"
             ],
@@ -16507,6 +17092,7 @@
             "mangledName": "$s23DKImagePickerControllerAAC09extensionC0AA0a9ExtensionC0CSgvp",
             "moduleName": "DKImagePickerController",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Lazy",
               "AccessControl",
@@ -16624,6 +17210,7 @@
             "mangledName": "$s23DKImagePickerControllerAAC16groupDataManagerAbA0a5GroupeF0CSg_tcfc",
             "moduleName": "DKImagePickerController",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Convenience",
               "AccessControl"
@@ -16657,6 +17244,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -16680,6 +17268,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -16703,6 +17292,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -16769,6 +17359,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -16828,6 +17419,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -16851,6 +17443,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -16874,6 +17467,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -16897,6 +17491,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -16927,6 +17522,7 @@
             "isOpen": true,
             "objc_name": "reloadWith:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC",
@@ -17002,6 +17598,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC",
@@ -17050,6 +17647,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -17097,6 +17695,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -17154,6 +17753,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -17184,6 +17784,7 @@
             "isOpen": true,
             "objc_name": "selectWithAsset:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC",
@@ -17223,6 +17824,7 @@
             "isOpen": true,
             "objc_name": "selectWithAssets:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -17246,6 +17848,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -17276,6 +17879,7 @@
             "isOpen": true,
             "objc_name": "deselectWithAsset:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -17306,6 +17910,7 @@
             "isOpen": true,
             "objc_name": "removeSelectionWithAsset:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -17329,6 +17934,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -17367,6 +17973,7 @@
             "isOpen": true,
             "objc_name": "setSelectedAssetsWithAssets:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -17405,6 +18012,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -17435,6 +18043,7 @@
             "isOpen": true,
             "objc_name": "containsWithAsset:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -17472,6 +18081,7 @@
             "isOpen": true,
             "objc_name": "scrollTo:animated:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -17503,6 +18113,7 @@
             "isOpen": true,
             "objc_name": "scrollToLastTappedIndexPathWithAnimated:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -17534,6 +18145,7 @@
             "mangledName": "$s23DKImagePickerControllerAAC14selectedAssetsSayAA7DKAssetCGvp",
             "moduleName": "DKImagePickerController",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -17602,6 +18214,7 @@
             "isOpen": true,
             "objc_name": "canSelectWithAsset:showAlert:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -17630,6 +18243,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -17685,6 +18299,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -17743,6 +18358,7 @@
             "objc_name": "presentationControllerShouldDismiss:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Available",
@@ -17774,6 +18390,7 @@
             "objc_name": "presentationControllerDidDismiss:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -17830,6 +18447,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -17899,6 +18517,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "Available"
@@ -17933,6 +18552,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -17988,6 +18608,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -18029,6 +18650,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -18041,6 +18663,7 @@
         "moduleName": "DKImagePickerController",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -18055,6 +18678,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -18300,6 +18937,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -18953,6 +19604,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -20053,6 +20720,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -20831,6 +21512,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -20927,6 +21622,7 @@
             "static": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -20953,6 +21649,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -20976,6 +21673,7 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -21010,6 +21708,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -21051,6 +21750,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -21063,6 +21763,7 @@
         "moduleName": "DKImagePickerController",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -21075,6 +21776,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -21243,6 +21958,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -21365,6 +22094,7 @@
             "static": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -21389,6 +22119,7 @@
             "static": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -21413,8 +22144,9 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -21510,6 +22242,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -21537,6 +22270,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -21571,6 +22305,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override",
@@ -21628,6 +22363,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -21669,6 +22405,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -21681,6 +22418,7 @@
         "moduleName": "DKImagePickerController",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -21693,6 +22431,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -21790,6 +22542,27 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
             "printedName": "_ObjectiveCBridgeable",
             "children": [
@@ -21837,6 +22610,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -21939,6 +22719,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -21993,1075 +22787,942 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
       "kind": "IntegerLiteral",
       "offset": 541,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
-      "kind": "IntegerLiteral",
-      "offset": 541,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
       "kind": "IntegerLiteral",
       "offset": 1028,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
-      "kind": "StringLiteral",
-      "offset": 673,
-      "length": 7,
-      "value": "\"DKImagePickerController.DKAsset\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Export.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Export.swift",
       "kind": "IntegerLiteral",
       "offset": 2141,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Export.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Export.swift",
       "kind": "IntegerLiteral",
       "offset": 2192,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Export.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Export.swift",
       "kind": "IntegerLiteral",
       "offset": 2243,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Export.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Export.swift",
       "kind": "IntegerLiteral",
       "offset": 2294,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Export.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Export.swift",
       "kind": "IntegerLiteral",
       "offset": 2342,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Fetch.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Fetch.swift",
       "kind": "FloatLiteral",
       "offset": 3844,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Fetch.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Fetch.swift",
       "kind": "IntegerLiteral",
       "offset": 6420,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Fetch.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Fetch.swift",
       "kind": "IntegerLiteral",
       "offset": 6478,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAssetGroup.swift",
-      "kind": "StringLiteral",
-      "offset": 283,
-      "length": 12,
-      "value": "\"DKImagePickerController.DKAssetGroup\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
       "kind": "IntegerLiteral",
       "offset": 579,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
       "kind": "FloatLiteral",
       "offset": 1370,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1382,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
       "kind": "FloatLiteral",
       "offset": 1496,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
       "kind": "FloatLiteral",
       "offset": 1504,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
       "kind": "FloatLiteral",
       "offset": 1611,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1623,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
       "kind": "FloatLiteral",
       "offset": 1650,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1678,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
       "kind": "StringLiteral",
       "offset": 2633,
       "length": 27,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2657,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
       "kind": "StringLiteral",
       "offset": 2659,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2889,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "BooleanLiteral",
       "offset": 1670,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "BooleanLiteral",
       "offset": 11698,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "BooleanLiteral",
       "offset": 11979,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "BooleanLiteral",
       "offset": 12840,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "FloatLiteral",
       "offset": 12941,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "BooleanLiteral",
       "offset": 13193,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "IntegerLiteral",
       "offset": 13281,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1273,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1346,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1413,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "StringLiteral",
       "offset": 1473,
       "length": 17,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "StringLiteral",
       "offset": 1484,
       "length": 1,
       "value": "\":%02d\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1712,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1717,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1729,
       "length": 3,
       "value": "129"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1735,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1746,
       "length": 3,
       "value": "252"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1752,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1764,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "FloatLiteral",
       "offset": 1856,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "FloatLiteral",
       "offset": 1868,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2011,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2017,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2027,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2040,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2274,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2278,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2314,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2488,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2601,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2756,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2762,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2801,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "StringLiteral",
       "offset": 218,
       "length": 28,
       "value": "\"DKImageGroupCellIdentifier\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
       "offset": 592,
       "length": 2,
       "value": "70"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "BooleanLiteral",
       "offset": 1141,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
       "offset": 1312,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
       "offset": 1465,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
       "offset": 1962,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
       "offset": 2073,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
       "offset": 2510,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
       "offset": 2538,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "FloatLiteral",
       "offset": 2575,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "BooleanLiteral",
       "offset": 5654,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "StringLiteral",
-      "offset": 5368,
-      "length": 18,
-      "value": "\"DKImagePickerController.DKAssetGroupListVC\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "StringLiteral",
-      "offset": 5368,
-      "length": 18,
-      "value": "\"DKImagePickerController.DKAssetGroupListVC\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
       "offset": 1441,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1441,
-      "length": 12,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
       "offset": 1590,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1590,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
       "offset": 1791,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
       "offset": 1834,
       "length": 28,
       "value": "\"DKImageAssetExporterDomain\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
       "offset": 1955,
       "length": 33,
       "value": "\"DKImageExportResultRequestIDKey\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
       "offset": 2076,
       "length": 27,
       "value": "\"DKImageExportCancelledKey\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
       "offset": 3539,
       "length": 22,
       "value": "\"DKImageAssetExporter\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "FloatLiteral",
       "offset": 3614,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
       "offset": 4714,
       "length": 34,
       "value": "\"DKImageAssetExporter_ExportQueue\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
       "offset": 4799,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
       "offset": 4894,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
       "offset": 11367,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
       "offset": 14921,
       "length": 31,
       "value": "\"DKPhotoImagePreviewVC.ioQueue\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 4359,
-      "length": 20,
-      "value": "\"DKImagePickerController.DKImageAssetExporter\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1261,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1485,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
       "kind": "IntegerLiteral",
       "offset": 12004,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
       "kind": "IntegerLiteral",
       "offset": 522,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
       "kind": "IntegerLiteral",
       "offset": 530,
       "length": 12,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
       "kind": "IntegerLiteral",
       "offset": 544,
       "length": 11,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 522,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 530,
-      "length": 12,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 544,
-      "length": 11,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
-      "kind": "StringLiteral",
-      "offset": 813,
-      "length": 20,
-      "value": "\"DKImagePickerController.DKImageBaseExtension\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
       "kind": "Array",
       "offset": 2249,
       "length": 272,
       "value": "[\"DKImagePickerController.DKImageExtensionGallery\", \"DKImagePickerController.DKImageExtensionCamera\", \"DKImagePickerController.DKImageExtensionInlineCamera\", \"DKImagePickerController.DKImageExtensionPhotoCropper\"]"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
-      "kind": "StringLiteral",
-      "offset": 1789,
-      "length": 26,
-      "value": "\"DKImagePickerController.DKImageExtensionController\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1700,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2287,
-      "length": 23,
-      "value": "\"DKImagePickerController.DKImageGroupDataManager\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "IntegerLiteral",
       "offset": 434,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "IntegerLiteral",
       "offset": 445,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 434,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 445,
-      "length": 9,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "IntegerLiteral",
       "offset": 535,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "IntegerLiteral",
       "offset": 542,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 535,
+      "offset": 626,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1890,
       "length": 5,
-      "value": "1"
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 542,
-      "length": 4,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 626,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 626,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 2027,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 2128,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "IntegerLiteral",
       "offset": 2284,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 2480,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 2727,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 2807,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 2922,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 3430,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 3563,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 3714,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 3850,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "IntegerLiteral",
       "offset": 4006,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 4872,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 7616,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 7679,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 8040,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "IntegerLiteral",
       "offset": 8115,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "IntegerLiteral",
       "offset": 8346,
       "length": 3,
       "value": "680"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "IntegerLiteral",
       "offset": 8359,
       "length": 3,
       "value": "600"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 8437,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 8521,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 9449,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 25659,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 25906,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
       "offset": 26707,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28936,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28943,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 280,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 280,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
       "kind": "BooleanLiteral",
       "offset": 2567,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
       "kind": "BooleanLiteral",
       "offset": 2592,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
       "kind": "IntegerLiteral",
       "offset": 2851,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
       "kind": "FloatLiteral",
       "offset": 2861,
       "length": 5,
       "value": "122.0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
       "kind": "IntegerLiteral",
       "offset": 2869,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
       "kind": "IntegerLiteral",
       "offset": 2880,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
       "kind": "IntegerLiteral",
       "offset": 2890,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
-      "kind": "StringLiteral",
-      "offset": 2421,
-      "length": 22,
-      "value": "\"DKImagePickerController.DKPermissionViewColors\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1708,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1759,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1967,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2005,
       "length": 2,
       "value": "10"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1565,
-      "length": 13,
-      "value": "\"DKImagePickerController.DKPopoverView\""
     }
   ]
 }

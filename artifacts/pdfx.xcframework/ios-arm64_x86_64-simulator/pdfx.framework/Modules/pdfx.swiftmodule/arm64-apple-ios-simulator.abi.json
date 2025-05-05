@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "pdfx",
+    "printedName": "pdfx",
     "children": [
       {
         "kind": "TypeDecl",
@@ -364,7 +364,23 @@
         "usr": "s:4pdfx8DocumentC",
         "mangledName": "$s4pdfx8DocumentC",
         "moduleName": "pdfx",
-        "isOpen": true
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1102,14 +1118,46 @@
             "usr": "s:4pdfx4PageC10DataResultC",
             "mangledName": "$s4pdfx4PageC10DataResultC",
             "moduleName": "pdfx",
-            "isOpen": true
+            "isOpen": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           }
         ],
         "declKind": "Class",
         "usr": "s:4pdfx4PageC",
         "mangledName": "$s4pdfx4PageC",
         "moduleName": "pdfx",
-        "isOpen": true
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1274,6 +1322,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1314,6 +1376,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -1472,6 +1541,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1497,6 +1580,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -1777,7 +1867,23 @@
         "moduleName": "pdfx",
         "genericSig": "<τ_0_0>",
         "sugared_genericSig": "<T>",
-        "isOpen": true
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1842,6 +1948,22 @@
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "pdfx.Repository<pdfx.Document>"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1913,6 +2035,22 @@
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "pdfx.Repository<pdfx.Page>"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3207,6 +3345,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3421,6 +3573,20 @@
         "moduleName": "pdfx",
         "isEnumExhaustive": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -4188,6 +4354,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4298,6 +4478,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4413,6 +4607,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_CFObject",
             "printedName": "_CFObject",
             "usr": "s:14CoreFoundation9_CFObjectP",
@@ -4439,123 +4647,81 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/Document.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/Document.swift",
       "kind": "StringLiteral",
       "offset": 1592,
       "length": 9,
       "value": "\"#ffffff\""
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/Document.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/Document.swift",
       "kind": "IntegerLiteral",
       "offset": 7791,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/Document.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/Document.swift",
       "kind": "IntegerLiteral",
       "offset": 7809,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/Document.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7791,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/Document.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7809,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/Document.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7791,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/Document.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7809,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/Resources.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/Resources.swift",
       "kind": "Dictionary",
       "offset": 111,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 278,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
       "kind": "StringLiteral",
       "offset": 324,
       "length": 22,
       "value": "\"io.scer.pdf_renderer\""
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
       "kind": "Dictionary",
       "offset": 471,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 141,
-      "length": 15,
-      "value": "\"pdfx.SwiftPdfxPlugin\""
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 12148,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 12173,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 12199,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 12730,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/pdfx-2.8.0\/ios\/Classes\/SwiftPdfxPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 12020,
-      "length": 14,
-      "value": "\"pdfx.PdfPageTexture\""
     }
   ]
 }

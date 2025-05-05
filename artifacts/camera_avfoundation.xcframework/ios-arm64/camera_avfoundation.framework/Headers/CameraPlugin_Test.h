@@ -6,15 +6,7 @@
 
 #import "CameraPlugin.h"
 #import "FLTCam.h"
-#import "FLTCamConfiguration.h"
-#import "FLTCameraDeviceDiscovering.h"
-#import "FLTCameraPermissionManager.h"
-#import "FLTCaptureDevice.h"
 #import "messages.g.h"
-
-NS_ASSUME_NONNULL_BEGIN
-
-typedef NSObject<FLTCaptureDevice> *_Nonnull (^CaptureNamedDeviceFactory)(NSString *name);
 
 /// APIs exposed for unit testing.
 @interface CameraPlugin ()
@@ -23,7 +15,7 @@ typedef NSObject<FLTCaptureDevice> *_Nonnull (^CaptureNamedDeviceFactory)(NSStri
 @property(nonatomic, strong) dispatch_queue_t captureSessionQueue;
 
 /// An internal camera object that manages camera's state and performs camera operations.
-@property(nonatomic, strong) FLTCam *_Nullable camera;
+@property(nonatomic, strong) FLTCam *camera;
 
 /// Inject @p FlutterTextureRegistry and @p FlutterBinaryMessenger for unit testing.
 - (instancetype)initWithRegistry:(NSObject<FlutterTextureRegistry> *)registry
@@ -33,13 +25,7 @@ typedef NSObject<FLTCaptureDevice> *_Nonnull (^CaptureNamedDeviceFactory)(NSStri
 /// unit testing.
 - (instancetype)initWithRegistry:(NSObject<FlutterTextureRegistry> *)registry
                        messenger:(NSObject<FlutterBinaryMessenger> *)messenger
-                       globalAPI:(FCPCameraGlobalEventApi *)globalAPI
-                deviceDiscoverer:(id<FLTCameraDeviceDiscovering>)deviceDiscoverer
-               permissionManager:(FLTCameraPermissionManager *)permissionManager
-                   deviceFactory:(CaptureNamedDeviceFactory)deviceFactory
-           captureSessionFactory:(CaptureSessionFactory)captureSessionFactory
-       captureDeviceInputFactory:(id<FLTCaptureDeviceInputFactory>)captureDeviceInputFactory
-    NS_DESIGNATED_INITIALIZER;
+                       globalAPI:(FCPCameraGlobalEventApi *)globalAPI NS_DESIGNATED_INITIALIZER;
 
 /// Hide the default public constructor.
 - (instancetype)init NS_UNAVAILABLE;
@@ -56,8 +42,5 @@ typedef NSObject<FLTCaptureDevice> *_Nonnull (^CaptureNamedDeviceFactory)(NSStri
 /// @param completion the callback to inform the Dart side of the plugin of creation.
 - (void)createCameraOnSessionQueueWithName:(NSString *)name
                                   settings:(FCPPlatformMediaSettings *)settings
-                                completion:(void (^)(NSNumber *_Nullable,
-                                                     FlutterError *_Nullable))completion;
+                                completion:(void (^)(NSNumber *, FlutterError *))completion;
 @end
-
-NS_ASSUME_NONNULL_END

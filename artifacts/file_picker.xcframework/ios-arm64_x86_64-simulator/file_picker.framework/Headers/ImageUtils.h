@@ -5,8 +5,6 @@
 //  Created by Miguel Ruivo on 05/03/2019.
 //
 
-#import <UIKit/UIKit.h>
-
 @interface ImageUtils : NSObject
 + (BOOL)hasAlpha:(UIImage *)image;
 + (NSURL*)saveTmpImage:(UIImage *)image;

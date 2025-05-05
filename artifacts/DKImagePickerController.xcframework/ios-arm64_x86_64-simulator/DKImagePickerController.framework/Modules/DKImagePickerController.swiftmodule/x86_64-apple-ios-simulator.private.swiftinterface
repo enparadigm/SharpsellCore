@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name DKImagePickerController
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 @_exported import DKImagePickerController
 import DKPhotoGallery
@@ -103,100 +104,100 @@ extension DKImagePickerController.DKAsset {
   @objc var thumbnailImage: UIKit.UIImage? { get set }
   @objc var thumbnailImageView: UIKit.UIImageView { get }
 }
-@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class DKAssetGroupDetailBaseCell : UIKit.UICollectionViewCell, DKImagePickerController.DKAssetGroupCellItemProtocol {
-  @_Concurrency.MainActor(unsafe) open class func cellReuseIdentifier() -> Swift.String
-  @_Concurrency.MainActor(unsafe) @objc weak open var asset: DKImagePickerController.DKAsset?
-  @_Concurrency.MainActor(unsafe) weak open var imagePickerController: DKImagePickerController.DKImagePickerController?
-  @_Concurrency.MainActor(unsafe) @objc open var selectedIndex: Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc open var thumbnailImage: UIKit.UIImage?
-  @_Concurrency.MainActor(unsafe) @objc open var thumbnailImageView: UIKit.UIImageView {
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency open class DKAssetGroupDetailBaseCell : UIKit.UICollectionViewCell, DKImagePickerController.DKAssetGroupCellItemProtocol {
+  @_Concurrency.MainActor @preconcurrency open class func cellReuseIdentifier() -> Swift.String
+  @_Concurrency.MainActor @preconcurrency @objc weak open var asset: DKImagePickerController.DKAsset?
+  @_Concurrency.MainActor @preconcurrency weak open var imagePickerController: DKImagePickerController.DKImagePickerController?
+  @_Concurrency.MainActor @preconcurrency @objc open var selectedIndex: Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc open var thumbnailImage: UIKit.UIImage?
+  @_Concurrency.MainActor @preconcurrency @objc open var thumbnailImageView: UIKit.UIImageView {
     @objc get
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isHighlighted: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isHighlighted: Swift.Bool {
     @objc get
     @objc set
   }
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class DKAssetGroupDetailCameraCell : DKImagePickerController.DKAssetGroupDetailBaseCell {
-  @objc @_Concurrency.MainActor(unsafe) override public class func cellReuseIdentifier() -> Swift.String
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class DKAssetGroupDetailCameraCell : DKImagePickerController.DKAssetGroupDetailBaseCell {
+  @objc @_Concurrency.MainActor @preconcurrency override public class func cellReuseIdentifier() -> Swift.String
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class DKAssetGroupDetailImageCell : DKImagePickerController.DKAssetGroupDetailBaseCell {
-  @objc @_Concurrency.MainActor(unsafe) override public class func cellReuseIdentifier() -> Swift.String
-  @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class DKImageCheckView : UIKit.UIView {
-    @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-    @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class DKAssetGroupDetailImageCell : DKImagePickerController.DKAssetGroupDetailBaseCell {
+  @objc @_Concurrency.MainActor @preconcurrency override public class func cellReuseIdentifier() -> Swift.String
+  @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency open class DKImageCheckView : UIKit.UIView {
+    @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+    @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
     @objc deinit
   }
-  @_Concurrency.MainActor(unsafe) @objc override public var thumbnailImage: UIKit.UIImage? {
+  @_Concurrency.MainActor @preconcurrency @objc override public var thumbnailImage: UIKit.UIImage? {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override public var selectedIndex: Swift.Int {
+  @_Concurrency.MainActor @preconcurrency @objc override public var selectedIndex: Swift.Int {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override public var thumbnailImageView: UIKit.UIImageView {
+  @_Concurrency.MainActor @preconcurrency @objc override public var thumbnailImageView: UIKit.UIImageView {
     @objc get
   }
-  @objc @_Concurrency.MainActor(unsafe) final public let checkView: DKImagePickerController.DKAssetGroupDetailImageCell.DKImageCheckView
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public var isSelected: Swift.Bool {
-    @objc get
-    @objc set
-  }
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class DKAssetGroupDetailVC : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate, UIKit.UICollectionViewDelegate, UIKit.UICollectionViewDataSource, DKImagePickerController.DKImagePickerControllerAware {
-  @_Concurrency.MainActor(unsafe) public var selectedGroupId: Swift.String?
-  @_Concurrency.MainActor(unsafe) @objc weak public var imagePickerController: DKImagePickerController.DKImagePickerController?
-  @_Concurrency.MainActor(unsafe) public var thumbnailSize: CoreFoundation.CGSize
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc open func reload()
-  @_Concurrency.MainActor(unsafe) open func updateTitleView()
-  @_Concurrency.MainActor(unsafe) public func selectAsset(atIndex indexPath: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) public func deselectAsset(atIndex indexPath: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) public func adjustAssetIndex(_ index: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) public func scroll(to indexPath: Foundation.IndexPath, animted: Swift.Bool = false)
-  @_Concurrency.MainActor(unsafe) public func scrollToLastIndexPath(animated: Swift.Bool = false)
-  @_Concurrency.MainActor(unsafe) public func thumbnailImageView(for indexPath: Foundation.IndexPath) -> UIKit.UIImageView?
-  @_Concurrency.MainActor(unsafe) @objc public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
-  @_Concurrency.MainActor(unsafe) @objc public func collectionView(_ collectionView: UIKit.UICollectionView, willDisplay cell: UIKit.UICollectionViewCell, forItemAt indexPath: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) @objc public func collectionView(_ collectionView: UIKit.UICollectionView, didEndDisplaying cell: UIKit.UICollectionViewCell, forItemAt indexPath: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) @objc public func collectionView(_ collectionView: UIKit.UICollectionView, shouldSelectItemAt indexPath: Foundation.IndexPath) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) @objc public func collectionView(_ collectionView: UIKit.UICollectionView, didDeselectItemAt indexPath: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) @objc public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
-  @_Concurrency.MainActor(unsafe) open func enableCaching() -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class DKAssetGroupDetailVideoCell : DKImagePickerController.DKAssetGroupDetailImageCell {
-  @_Concurrency.MainActor(unsafe) @objc override public class func cellReuseIdentifier() -> Swift.String
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override weak public var asset: DKImagePickerController.DKAsset? {
-    @objc get
-    @objc set
-  }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public var isSelected: Swift.Bool {
+  @objc @_Concurrency.MainActor @preconcurrency final public let checkView: DKImagePickerController.DKAssetGroupDetailImageCell.DKImageCheckView
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var isSelected: Swift.Bool {
     @objc get
     @objc set
   }
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class DKAssetGroupGridLayout : UIKit.UICollectionViewFlowLayout {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func prepare()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class DKAssetGroupDetailVC : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate, UIKit.UICollectionViewDelegate, UIKit.UICollectionViewDataSource, DKImagePickerController.DKImagePickerControllerAware {
+  @_Concurrency.MainActor @preconcurrency public var selectedGroupId: Swift.String?
+  @_Concurrency.MainActor @preconcurrency @objc weak public var imagePickerController: DKImagePickerController.DKImagePickerController?
+  @_Concurrency.MainActor @preconcurrency public var thumbnailSize: CoreFoundation.CGSize
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc open func reload()
+  @_Concurrency.MainActor @preconcurrency open func updateTitleView()
+  @_Concurrency.MainActor @preconcurrency public func selectAsset(atIndex indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency public func deselectAsset(atIndex indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency public func adjustAssetIndex(_ index: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency public func scroll(to indexPath: Foundation.IndexPath, animted: Swift.Bool = false)
+  @_Concurrency.MainActor @preconcurrency public func scrollToLastIndexPath(animated: Swift.Bool = false)
+  @_Concurrency.MainActor @preconcurrency public func thumbnailImageView(for indexPath: Foundation.IndexPath) -> UIKit.UIImageView?
+  @_Concurrency.MainActor @preconcurrency @objc public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @_Concurrency.MainActor @preconcurrency @objc public func collectionView(_ collectionView: UIKit.UICollectionView, willDisplay cell: UIKit.UICollectionViewCell, forItemAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc public func collectionView(_ collectionView: UIKit.UICollectionView, didEndDisplaying cell: UIKit.UICollectionViewCell, forItemAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc public func collectionView(_ collectionView: UIKit.UICollectionView, shouldSelectItemAt indexPath: Foundation.IndexPath) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc public func collectionView(_ collectionView: UIKit.UICollectionView, didDeselectItemAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency open func enableCaching() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class DKAssetGroupDetailVideoCell : DKImagePickerController.DKAssetGroupDetailImageCell {
+  @_Concurrency.MainActor @preconcurrency @objc override public class func cellReuseIdentifier() -> Swift.String
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override weak public var asset: DKImagePickerController.DKAsset? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var isSelected: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class DKAssetGroupGridLayout : UIKit.UICollectionViewFlowLayout {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func prepare()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @objc public protocol DKAssetGroupCellType {
@@ -392,104 +393,104 @@ public protocol DKImageExtensionProtocol {
   @objc weak var imagePickerController: DKImagePickerController.DKImagePickerController! { get set }
   @objc func reload()
 }
-@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class DKUINavigationController : UIKit.UINavigationController {
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency open class DKUINavigationController : UIKit.UINavigationController {
   @available(iOS 5.0, *)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(rootViewController: UIKit.UIViewController)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class DKImagePickerController : DKImagePickerController.DKUINavigationController, UIKit.UIAdaptivePresentationControllerDelegate {
-  @objc @_Concurrency.MainActor(unsafe) public var UIDelegate: DKImagePickerController.DKImagePickerControllerBaseUIDelegate! {
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency open class DKImagePickerController : DKImagePickerController.DKUINavigationController, UIKit.UIAdaptivePresentationControllerDelegate {
+  @objc @_Concurrency.MainActor @preconcurrency public var UIDelegate: DKImagePickerController.DKImagePickerControllerBaseUIDelegate! {
     @objc get
     @objc set
   }
   @available(iOS 13.0, *)
-  @objc @_Concurrency.MainActor(unsafe) public var shouldDismissViaUserAction: Swift.Bool {
+  @objc @_Concurrency.MainActor @preconcurrency public var shouldDismissViaUserAction: Swift.Bool {
     @objc get
   }
-  @objc @_Concurrency.MainActor(unsafe) public var singleSelect: Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) public var autoCloseOnSingleSelect: Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) public var maxSelectableCount: Swift.Int
-  @_Concurrency.MainActor(unsafe) open var containsGPSInMetadata: Swift.Bool
-  @_Concurrency.MainActor(unsafe) public var defaultAssetGroup: Photos.PHAssetCollectionSubtype?
-  @objc @_Concurrency.MainActor(unsafe) public var allowSwipeToSelect: Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) public var allowSelectAll: Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) public var inline: Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) public var assetType: DKImagePickerController.DKImagePickerControllerAssetType
-  @objc @_Concurrency.MainActor(unsafe) public var sourceType: DKImagePickerController.DKImagePickerControllerSourceType
-  @objc @_Concurrency.MainActor(unsafe) public var allowMultipleTypes: Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) public var allowsLandscape: Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) public var showsEmptyAlbums: Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) public var showsCancelButton: Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) public var fetchLimit: Swift.Int
-  @objc @_Concurrency.MainActor(unsafe) public var didCancel: (() -> Swift.Void)?
-  @objc @_Concurrency.MainActor(unsafe) public var didSelectAssets: ((_ assets: [DKImagePickerController.DKAsset]) -> Swift.Void)?
-  @objc @_Concurrency.MainActor(unsafe) public var selectedChanged: (() -> Swift.Void)?
-  @objc @_Concurrency.MainActor(unsafe) public var permissionViewColors: DKImagePickerController.DKPermissionViewColors
-  @objc @_Concurrency.MainActor(unsafe) public var exportsWhenCompleted: Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) public var exporter: DKImagePickerController.DKImageAssetExporter?
-  @objc @_Concurrency.MainActor(unsafe) public var thumbnailSize: CoreFoundation.CGSize
-  @objc @_Concurrency.MainActor(unsafe) public var exportStatus: DKImagePickerController.DKImagePickerControllerExportStatus {
+  @objc @_Concurrency.MainActor @preconcurrency public var singleSelect: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public var autoCloseOnSingleSelect: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public var maxSelectableCount: Swift.Int
+  @_Concurrency.MainActor @preconcurrency open var containsGPSInMetadata: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public var defaultAssetGroup: Photos.PHAssetCollectionSubtype?
+  @objc @_Concurrency.MainActor @preconcurrency public var allowSwipeToSelect: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public var allowSelectAll: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public var inline: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public var assetType: DKImagePickerController.DKImagePickerControllerAssetType
+  @objc @_Concurrency.MainActor @preconcurrency public var sourceType: DKImagePickerController.DKImagePickerControllerSourceType
+  @objc @_Concurrency.MainActor @preconcurrency public var allowMultipleTypes: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public var allowsLandscape: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public var showsEmptyAlbums: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public var showsCancelButton: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public var fetchLimit: Swift.Int
+  @objc @_Concurrency.MainActor @preconcurrency public var didCancel: (() -> Swift.Void)?
+  @objc @_Concurrency.MainActor @preconcurrency public var didSelectAssets: ((_ assets: [DKImagePickerController.DKAsset]) -> Swift.Void)?
+  @objc @_Concurrency.MainActor @preconcurrency public var selectedChanged: (() -> Swift.Void)?
+  @objc @_Concurrency.MainActor @preconcurrency public var permissionViewColors: DKImagePickerController.DKPermissionViewColors
+  @objc @_Concurrency.MainActor @preconcurrency public var exportsWhenCompleted: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public var exporter: DKImagePickerController.DKImageAssetExporter?
+  @objc @_Concurrency.MainActor @preconcurrency public var thumbnailSize: CoreFoundation.CGSize
+  @objc @_Concurrency.MainActor @preconcurrency public var exportStatus: DKImagePickerController.DKImagePickerControllerExportStatus {
     @objc get
   }
-  @objc @_Concurrency.MainActor(unsafe) public var exportStatusChanged: ((DKImagePickerController.DKImagePickerControllerExportStatus) -> Swift.Void)?
-  @objc @_Concurrency.MainActor(unsafe) public var groupDataManager: DKImagePickerController.DKImageGroupDataManager {
+  @objc @_Concurrency.MainActor @preconcurrency public var exportStatusChanged: ((DKImagePickerController.DKImagePickerControllerExportStatus) -> Swift.Void)?
+  @objc @_Concurrency.MainActor @preconcurrency public var groupDataManager: DKImagePickerController.DKImageGroupDataManager {
     @objc get
   }
-  @_Concurrency.MainActor(unsafe) public var selectedAssetIdentifiers: [Swift.String] {
+  @_Concurrency.MainActor @preconcurrency public var selectedAssetIdentifiers: [Swift.String] {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var extensionController: DKImagePickerController.DKImageExtensionController! {
+  @_Concurrency.MainActor @preconcurrency public var extensionController: DKImagePickerController.DKImageExtensionController! {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) convenience public init(groupDataManager: DKImagePickerController.DKImageGroupDataManager? = nil)
+  @_Concurrency.MainActor @preconcurrency convenience public init(groupDataManager: DKImagePickerController.DKImageGroupDataManager? = nil)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
-  @objc @_Concurrency.MainActor(unsafe) open func makeRootVC() -> any UIKit.UIViewController & DKImagePickerController.DKImagePickerControllerAware
-  @objc @_Concurrency.MainActor(unsafe) open func presentCamera()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func present(_ viewControllerToPresent: UIKit.UIViewController, animated flag: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func dismiss(animated flag: Swift.Bool, completion: (() -> Swift.Void)? = nil)
-  @objc @_Concurrency.MainActor(unsafe) open func dismissCamera()
-  @objc @_Concurrency.MainActor(unsafe) open func dismiss()
-  @objc @_Concurrency.MainActor(unsafe) open func done()
-  @objc @_Concurrency.MainActor(unsafe) open func reload(with dataManager: DKImagePickerController.DKImageGroupDataManager)
-  @objc @_Concurrency.MainActor(unsafe) open func saveImage(_ image: UIKit.UIImage, _ metadata: [Swift.AnyHashable : Any]?, _ completeBlock: @escaping ((_ asset: DKImagePickerController.DKAsset) -> Swift.Void))
-  @objc @_Concurrency.MainActor(unsafe) open func saveImageToAlbum(_ image: UIKit.UIImage, _ completeBlock: @escaping ((_ asset: DKImagePickerController.DKAsset) -> Swift.Void))
-  @objc @_Concurrency.MainActor(unsafe) open func saveImageDataToAlbumForiOS9(_ imageDataWithMetadata: Foundation.Data, _ completeBlock: @escaping ((_ asset: DKImagePickerController.DKAsset) -> Swift.Void))
-  @objc @_Concurrency.MainActor(unsafe) open func writeMetadata(_ metadata: Swift.Dictionary<Swift.AnyHashable, Any>, into imageData: Foundation.Data) -> Foundation.Data?
-  @objc @_Concurrency.MainActor(unsafe) open func select(asset: DKImagePickerController.DKAsset)
-  @objc @_Concurrency.MainActor(unsafe) open func select(assets: [DKImagePickerController.DKAsset])
-  @objc @_Concurrency.MainActor(unsafe) open func handleSelectAll()
-  @objc @_Concurrency.MainActor(unsafe) open func deselect(asset: DKImagePickerController.DKAsset)
-  @objc @_Concurrency.MainActor(unsafe) open func removeSelection(asset: DKImagePickerController.DKAsset)
-  @objc @_Concurrency.MainActor(unsafe) open func deselectAll()
-  @objc @_Concurrency.MainActor(unsafe) open func setSelectedAssets(assets: [DKImagePickerController.DKAsset])
-  @_Concurrency.MainActor(unsafe) open func index(of asset: DKImagePickerController.DKAsset) -> Swift.Int?
-  @objc @_Concurrency.MainActor(unsafe) open func contains(asset: DKImagePickerController.DKAsset) -> Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) open func scroll(to indexPath: Foundation.IndexPath, animated: Swift.Bool = false)
-  @objc @_Concurrency.MainActor(unsafe) open func scrollToLastTappedIndexPath(animated: Swift.Bool = false)
-  @objc @_Concurrency.MainActor(unsafe) public var selectedAssets: [DKImagePickerController.DKAsset] {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @objc @_Concurrency.MainActor @preconcurrency open func makeRootVC() -> any UIKit.UIViewController & DKImagePickerController.DKImagePickerControllerAware
+  @objc @_Concurrency.MainActor @preconcurrency open func presentCamera()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func present(_ viewControllerToPresent: UIKit.UIViewController, animated flag: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func dismiss(animated flag: Swift.Bool, completion: (() -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor @preconcurrency open func dismissCamera()
+  @objc @_Concurrency.MainActor @preconcurrency open func dismiss()
+  @objc @_Concurrency.MainActor @preconcurrency open func done()
+  @objc @_Concurrency.MainActor @preconcurrency open func reload(with dataManager: DKImagePickerController.DKImageGroupDataManager)
+  @objc @_Concurrency.MainActor @preconcurrency open func saveImage(_ image: UIKit.UIImage, _ metadata: [Swift.AnyHashable : Any]?, _ completeBlock: @escaping ((_ asset: DKImagePickerController.DKAsset) -> Swift.Void))
+  @objc @_Concurrency.MainActor @preconcurrency open func saveImageToAlbum(_ image: UIKit.UIImage, _ completeBlock: @escaping ((_ asset: DKImagePickerController.DKAsset) -> Swift.Void))
+  @objc @_Concurrency.MainActor @preconcurrency open func saveImageDataToAlbumForiOS9(_ imageDataWithMetadata: Foundation.Data, _ completeBlock: @escaping ((_ asset: DKImagePickerController.DKAsset) -> Swift.Void))
+  @objc @_Concurrency.MainActor @preconcurrency open func writeMetadata(_ metadata: Swift.Dictionary<Swift.AnyHashable, Any>, into imageData: Foundation.Data) -> Foundation.Data?
+  @objc @_Concurrency.MainActor @preconcurrency open func select(asset: DKImagePickerController.DKAsset)
+  @objc @_Concurrency.MainActor @preconcurrency open func select(assets: [DKImagePickerController.DKAsset])
+  @objc @_Concurrency.MainActor @preconcurrency open func handleSelectAll()
+  @objc @_Concurrency.MainActor @preconcurrency open func deselect(asset: DKImagePickerController.DKAsset)
+  @objc @_Concurrency.MainActor @preconcurrency open func removeSelection(asset: DKImagePickerController.DKAsset)
+  @objc @_Concurrency.MainActor @preconcurrency open func deselectAll()
+  @objc @_Concurrency.MainActor @preconcurrency open func setSelectedAssets(assets: [DKImagePickerController.DKAsset])
+  @_Concurrency.MainActor @preconcurrency open func index(of asset: DKImagePickerController.DKAsset) -> Swift.Int?
+  @objc @_Concurrency.MainActor @preconcurrency open func contains(asset: DKImagePickerController.DKAsset) -> Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency open func scroll(to indexPath: Foundation.IndexPath, animated: Swift.Bool = false)
+  @objc @_Concurrency.MainActor @preconcurrency open func scrollToLastTappedIndexPath(animated: Swift.Bool = false)
+  @objc @_Concurrency.MainActor @preconcurrency public var selectedAssets: [DKImagePickerController.DKAsset] {
     @objc get
   }
-  @objc @_Concurrency.MainActor(unsafe) open func canSelect(asset: DKImagePickerController.DKAsset, showAlert: Swift.Bool = true) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var shouldAutorotate: Swift.Bool {
+  @objc @_Concurrency.MainActor @preconcurrency open func canSelect(asset: DKImagePickerController.DKAsset, showAlert: Swift.Bool = true) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var shouldAutorotate: Swift.Bool {
     @objc get
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
     @objc get
   }
   @available(iOS 13.0, *)
-  @_Concurrency.MainActor(unsafe) @objc public func presentationControllerShouldDismiss(_ presentationController: UIKit.UIPresentationController) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc public func presentationControllerDidDismiss(_ presentationController: UIKit.UIPresentationController)
-  @_Concurrency.MainActor(unsafe) open func showGallery(with presentationIndex: Swift.Int?, presentingFromImageView: UIKit.UIImageView?, groupId: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc public func presentationControllerShouldDismiss(_ presentationController: UIKit.UIPresentationController) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc public func presentationControllerDidDismiss(_ presentationController: UIKit.UIPresentationController)
+  @_Concurrency.MainActor @preconcurrency open func showGallery(with presentationIndex: Swift.Int?, presentingFromImageView: UIKit.UIImageView?, groupId: Swift.String)
   @available(iOS 5.0, *)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(rootViewController: UIKit.UIViewController)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
 }
 @objc public enum DKImagePickerGroupListPresentationStyle : Swift.Int {
   case popover
@@ -567,12 +568,12 @@ public protocol DKImageExtensionProtocol {
   @objc override dynamic public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class DKPermissionView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) open class func permissionView(_ style: DKImagePickerController.DKImagePickerControllerSourceType, withColors colors: DKImagePickerController.DKPermissionViewColors = DKPermissionViewColors()) -> DKImagePickerController.DKPermissionView
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didMoveToWindow()
-  @objc @_Concurrency.MainActor(unsafe) open func gotoSettings()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency open class DKPermissionView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency open class func permissionView(_ style: DKImagePickerController.DKImagePickerControllerSourceType, withColors colors: DKImagePickerController.DKPermissionViewColors = DKPermissionViewColors()) -> DKImagePickerController.DKPermissionView
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func didMoveToWindow()
+  @objc @_Concurrency.MainActor @preconcurrency open func gotoSettings()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @objc public class DKPermissionViewColors : ObjectiveC.NSObject {
@@ -580,16 +581,16 @@ public protocol DKImageExtensionProtocol {
   @objc deinit
 }
 public func ArrowDefaultColor() -> UIKit.UIColor
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class DKPopoverViewController : UIKit.UIViewController {
-  @objc @_Concurrency.MainActor(unsafe) open class func popoverViewController(_ viewController: UIKit.UIViewController, fromView: UIKit.UIView, arrowColor: UIKit.UIColor = ArrowDefaultColor())
-  @objc @_Concurrency.MainActor(unsafe) open class func dismissPopoverViewController()
-  @objc @_Concurrency.MainActor(unsafe) public var arrowColor: UIKit.UIColor
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func loadView()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class DKPopoverViewController : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor @preconcurrency open class func popoverViewController(_ viewController: UIKit.UIViewController, fromView: UIKit.UIView, arrowColor: UIKit.UIColor = ArrowDefaultColor())
+  @objc @_Concurrency.MainActor @preconcurrency open class func dismissPopoverViewController()
+  @objc @_Concurrency.MainActor @preconcurrency public var arrowColor: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func loadView()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
   @available(iOS, deprecated: 8.0)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didRotate(from fromInterfaceOrientation: UIKit.UIInterfaceOrientation)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func didRotate(from fromInterfaceOrientation: UIKit.UIInterfaceOrientation)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension DKImagePickerController.DKAssetType : Swift.Equatable {}

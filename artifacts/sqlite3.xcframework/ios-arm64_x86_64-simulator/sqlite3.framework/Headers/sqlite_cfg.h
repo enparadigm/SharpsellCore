@@ -23,7 +23,6 @@
 /* #undef HAVE_MALLOC_H */
 /* #undef HAVE_MALLOC_USABLE_SIZE */
 #define HAVE_MEMORY_H 1
-#define HAVE_NANOSLEEP 1
 #define HAVE_PREAD 1
 /* #undef HAVE_PREAD64 */
 #define HAVE_PTHREAD_CREATE 1
@@ -54,8 +53,8 @@
 #define HAVE_ZLIB_H 1
 #define PACKAGE_BUGREPORT "https://sqlite.org/forum"
 #define PACKAGE_NAME "sqlite"
-#define PACKAGE_STRING "sqlite 3.49.1"
+#define PACKAGE_STRING "sqlite 3.48.0"
 #define PACKAGE_URL "https://sqlite.org"
-#define PACKAGE_VERSION "3.49.1"
+#define PACKAGE_VERSION "3.48.0"
 #define SIZEOF_OFF_T 8
 #endif

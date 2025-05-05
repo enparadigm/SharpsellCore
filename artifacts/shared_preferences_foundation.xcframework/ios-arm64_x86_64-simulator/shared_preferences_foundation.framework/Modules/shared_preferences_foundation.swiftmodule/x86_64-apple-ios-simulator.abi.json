@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "shared_preferences_foundation",
+    "printedName": "shared_preferences_foundation",
     "children": [
       {
         "kind": "Import",
@@ -20,308 +20,6 @@
         "printedName": "Flutter",
         "declKind": "Import",
         "moduleName": "shared_preferences_foundation"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "PigeonError",
-        "printedName": "PigeonError",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "code",
-            "printedName": "code",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:29shared_preferences_foundation11PigeonErrorC4codeSSvp",
-            "mangledName": "$s29shared_preferences_foundation11PigeonErrorC4codeSSvp",
-            "moduleName": "shared_preferences_foundation",
-            "declAttributes": [
-              "Final",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:29shared_preferences_foundation11PigeonErrorC4codeSSvg",
-                "mangledName": "$s29shared_preferences_foundation11PigeonErrorC4codeSSvg",
-                "moduleName": "shared_preferences_foundation",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent",
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "message",
-            "printedName": "message",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:29shared_preferences_foundation11PigeonErrorC7messageSSSgvp",
-            "mangledName": "$s29shared_preferences_foundation11PigeonErrorC7messageSSSgvp",
-            "moduleName": "shared_preferences_foundation",
-            "declAttributes": [
-              "Final",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 1,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:29shared_preferences_foundation11PigeonErrorC7messageSSSgvg",
-                "mangledName": "$s29shared_preferences_foundation11PigeonErrorC7messageSSSgvg",
-                "moduleName": "shared_preferences_foundation",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent",
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "details",
-            "printedName": "details",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:29shared_preferences_foundation11PigeonErrorC7detailsypSgvp",
-            "mangledName": "$s29shared_preferences_foundation11PigeonErrorC7detailsypSgvp",
-            "moduleName": "shared_preferences_foundation",
-            "declAttributes": [
-              "Final",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 2,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Any?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:29shared_preferences_foundation11PigeonErrorC7detailsypSgvg",
-                "mangledName": "$s29shared_preferences_foundation11PigeonErrorC7detailsypSgvg",
-                "moduleName": "shared_preferences_foundation",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent",
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(code:message:details:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PigeonError",
-                "printedName": "shared_preferences_foundation.PigeonError",
-                "usr": "s:29shared_preferences_foundation11PigeonErrorC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:29shared_preferences_foundation11PigeonErrorC4code7message7detailsACSS_SSSgypSgtcfc",
-            "mangledName": "$s29shared_preferences_foundation11PigeonErrorC4code7message7detailsACSS_SSSgypSgtcfc",
-            "moduleName": "shared_preferences_foundation",
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "localizedDescription",
-            "printedName": "localizedDescription",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:29shared_preferences_foundation11PigeonErrorC20localizedDescriptionSSvp",
-            "mangledName": "$s29shared_preferences_foundation11PigeonErrorC20localizedDescriptionSSvp",
-            "moduleName": "shared_preferences_foundation",
-            "declAttributes": [
-              "Final"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:29shared_preferences_foundation11PigeonErrorC20localizedDescriptionSSvg",
-                "mangledName": "$s29shared_preferences_foundation11PigeonErrorC20localizedDescriptionSSvg",
-                "moduleName": "shared_preferences_foundation",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:29shared_preferences_foundation11PigeonErrorC",
-        "mangledName": "$s29shared_preferences_foundation11PigeonErrorC",
-        "moduleName": "shared_preferences_foundation",
-        "declAttributes": [
-          "Final",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
       },
       {
         "kind": "TypeDecl",
@@ -493,9 +191,6 @@
             "mangledName": "$s29shared_preferences_foundation30SharedPreferencesPigeonOptionsV8fromListyACSgSayypSgGFZ",
             "moduleName": "shared_preferences_foundation",
             "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -595,6 +290,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -604,8 +313,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "MessagesPigeonCodec",
-        "printedName": "MessagesPigeonCodec",
+        "name": "LegacyUserDefaultsApiCodec",
+        "printedName": "LegacyUserDefaultsApiCodec",
         "children": [
           {
             "kind": "Var",
@@ -614,14 +323,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "MessagesPigeonCodec",
-                "printedName": "shared_preferences_foundation.MessagesPigeonCodec",
-                "usr": "c:@M@shared_preferences_foundation@objc(cs)MessagesPigeonCodec"
+                "name": "LegacyUserDefaultsApiCodec",
+                "printedName": "shared_preferences_foundation.LegacyUserDefaultsApiCodec",
+                "usr": "c:@M@shared_preferences_foundation@objc(cs)LegacyUserDefaultsApiCodec"
               }
             ],
             "declKind": "Var",
-            "usr": "s:29shared_preferences_foundation19MessagesPigeonCodecC0A0ACvpZ",
-            "mangledName": "$s29shared_preferences_foundation19MessagesPigeonCodecC0A0ACvpZ",
+            "usr": "s:29shared_preferences_foundation26LegacyUserDefaultsApiCodecC0A0ACvpZ",
+            "mangledName": "$s29shared_preferences_foundation26LegacyUserDefaultsApiCodecC0A0ACvpZ",
             "moduleName": "shared_preferences_foundation",
             "static": true,
             "declAttributes": [
@@ -639,14 +348,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "MessagesPigeonCodec",
-                    "printedName": "shared_preferences_foundation.MessagesPigeonCodec",
-                    "usr": "c:@M@shared_preferences_foundation@objc(cs)MessagesPigeonCodec"
+                    "name": "LegacyUserDefaultsApiCodec",
+                    "printedName": "shared_preferences_foundation.LegacyUserDefaultsApiCodec",
+                    "usr": "c:@M@shared_preferences_foundation@objc(cs)LegacyUserDefaultsApiCodec"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:29shared_preferences_foundation19MessagesPigeonCodecC0A0ACvgZ",
-                "mangledName": "$s29shared_preferences_foundation19MessagesPigeonCodecC0A0ACvgZ",
+                "usr": "s:29shared_preferences_foundation26LegacyUserDefaultsApiCodecC0A0ACvgZ",
+                "mangledName": "$s29shared_preferences_foundation26LegacyUserDefaultsApiCodecC0A0ACvgZ",
                 "moduleName": "shared_preferences_foundation",
                 "static": true,
                 "implicit": true,
@@ -664,14 +373,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "MessagesPigeonCodec",
-                "printedName": "shared_preferences_foundation.MessagesPigeonCodec",
-                "usr": "c:@M@shared_preferences_foundation@objc(cs)MessagesPigeonCodec"
+                "name": "LegacyUserDefaultsApiCodec",
+                "printedName": "shared_preferences_foundation.LegacyUserDefaultsApiCodec",
+                "usr": "c:@M@shared_preferences_foundation@objc(cs)LegacyUserDefaultsApiCodec"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@shared_preferences_foundation@objc(cs)MessagesPigeonCodec(im)init",
-            "mangledName": "$s29shared_preferences_foundation19MessagesPigeonCodecCACycfc",
+            "usr": "c:@M@shared_preferences_foundation@objc(cs)LegacyUserDefaultsApiCodec(im)init",
+            "mangledName": "$s29shared_preferences_foundation26LegacyUserDefaultsApiCodecCACycfc",
             "moduleName": "shared_preferences_foundation",
             "overriding": true,
             "implicit": true,
@@ -685,8 +394,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@shared_preferences_foundation@objc(cs)MessagesPigeonCodec",
-        "mangledName": "$s29shared_preferences_foundation19MessagesPigeonCodecC",
+        "usr": "c:@M@shared_preferences_foundation@objc(cs)LegacyUserDefaultsApiCodec",
+        "mangledName": "$s29shared_preferences_foundation26LegacyUserDefaultsApiCodecC",
         "moduleName": "shared_preferences_foundation",
         "isOpen": true,
         "declAttributes": [
@@ -701,10 +410,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -899,18 +615,34 @@
               {
                 "kind": "TypeNominal",
                 "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
+                "printedName": "[Swift.String? : Any?]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "usr": "s:SD"
@@ -945,8 +677,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:29shared_preferences_foundation21LegacyUserDefaultsApiP6getAll6prefix9allowListSDySSypGSS_SaySSGSgtKF",
-            "mangledName": "$s29shared_preferences_foundation21LegacyUserDefaultsApiP6getAll6prefix9allowListSDySSypGSS_SaySSGSgtKF",
+            "usr": "s:29shared_preferences_foundation21LegacyUserDefaultsApiP6getAll6prefix9allowListSDySSSgypSgGSS_SaySSGSgtKF",
+            "mangledName": "$s29shared_preferences_foundation21LegacyUserDefaultsApiP6getAll6prefix9allowListSDySSSgypSgGSS_SaySSGSgtKF",
             "moduleName": "shared_preferences_foundation",
             "genericSig": "<τ_0_0 where τ_0_0 : shared_preferences_foundation.LegacyUserDefaultsApi>",
             "sugared_genericSig": "<Self where Self : shared_preferences_foundation.LegacyUserDefaultsApi>",
@@ -1013,6 +745,22 @@
         "moduleName": "shared_preferences_foundation",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1038,7 +786,8 @@
             "moduleName": "shared_preferences_foundation",
             "static": true,
             "declAttributes": [
-              "Final"
+              "Final",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -1068,7 +817,7 @@
           {
             "kind": "Function",
             "name": "setUp",
-            "printedName": "setUp(binaryMessenger:api:messageChannelSuffix:)",
+            "printedName": "setUp(binaryMessenger:api:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1094,18 +843,11 @@
                   }
                 ],
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZ",
-            "mangledName": "$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZ",
+            "usr": "s:29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryL0_p_AA0defG0_pSgtFZ",
+            "mangledName": "$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryL0_p_AA0defG0_pSgtFZ",
             "moduleName": "shared_preferences_foundation",
             "static": true,
             "declAttributes": [
@@ -1141,6 +883,184 @@
         "isOpen": true,
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserDefaultsApiCodec",
+        "printedName": "UserDefaultsApiCodec",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserDefaultsApiCodec",
+                "printedName": "shared_preferences_foundation.UserDefaultsApiCodec",
+                "usr": "c:@M@shared_preferences_foundation@objc(cs)UserDefaultsApiCodec"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:29shared_preferences_foundation20UserDefaultsApiCodecC0A0ACvpZ",
+            "mangledName": "$s29shared_preferences_foundation20UserDefaultsApiCodecC0A0ACvpZ",
+            "moduleName": "shared_preferences_foundation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserDefaultsApiCodec",
+                    "printedName": "shared_preferences_foundation.UserDefaultsApiCodec",
+                    "usr": "c:@M@shared_preferences_foundation@objc(cs)UserDefaultsApiCodec"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29shared_preferences_foundation20UserDefaultsApiCodecC0A0ACvgZ",
+                "mangledName": "$s29shared_preferences_foundation20UserDefaultsApiCodecC0A0ACvgZ",
+                "moduleName": "shared_preferences_foundation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserDefaultsApiCodec",
+                "printedName": "shared_preferences_foundation.UserDefaultsApiCodec",
+                "usr": "c:@M@shared_preferences_foundation@objc(cs)UserDefaultsApiCodec"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@shared_preferences_foundation@objc(cs)UserDefaultsApiCodec(im)init",
+            "mangledName": "$s29shared_preferences_foundation20UserDefaultsApiCodecCACycfc",
+            "moduleName": "shared_preferences_foundation",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@shared_preferences_foundation@objc(cs)UserDefaultsApiCodec",
+        "mangledName": "$s29shared_preferences_foundation20UserDefaultsApiCodecC",
+        "moduleName": "shared_preferences_foundation",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)FlutterStandardMessageCodec",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Flutter.FlutterStandardMessageCodec",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {
@@ -1424,6 +1344,22 @@
         "moduleName": "shared_preferences_foundation",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1449,7 +1385,8 @@
             "moduleName": "shared_preferences_foundation",
             "static": true,
             "declAttributes": [
-              "Final"
+              "Final",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -1479,7 +1416,7 @@
           {
             "kind": "Function",
             "name": "setUp",
-            "printedName": "setUp(binaryMessenger:api:messageChannelSuffix:)",
+            "printedName": "setUp(binaryMessenger:api:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1505,18 +1442,11 @@
                   }
                 ],
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZ",
-            "mangledName": "$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZ",
+            "usr": "s:29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZ",
+            "mangledName": "$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZ",
             "moduleName": "shared_preferences_foundation",
             "static": true,
             "declAttributes": [
@@ -1552,6 +1482,22 @@
         "isOpen": true,
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1637,18 +1583,34 @@
               {
                 "kind": "TypeNominal",
                 "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
+                "printedName": "[Swift.String? : Any?]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "usr": "s:SD"
@@ -1683,8 +1645,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:29shared_preferences_foundation29LegacySharedPreferencesPluginC6getAll6prefix9allowListSDySSypGSS_SaySSGSgtF",
-            "mangledName": "$s29shared_preferences_foundation29LegacySharedPreferencesPluginC6getAll6prefix9allowListSDySSypGSS_SaySSGSgtF",
+            "usr": "s:29shared_preferences_foundation29LegacySharedPreferencesPluginC6getAll6prefix9allowListSDySSSgypSgGSS_SaySSGSgtF",
+            "mangledName": "$s29shared_preferences_foundation29LegacySharedPreferencesPluginC6getAll6prefix9allowListSDySSSgypSgGSS_SaySSGSgtF",
             "moduleName": "shared_preferences_foundation",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -1960,6 +1922,20 @@
             "printedName": "LegacyUserDefaultsApi",
             "usr": "s:29shared_preferences_foundation21LegacyUserDefaultsApiP",
             "mangledName": "$s29shared_preferences_foundation21LegacyUserDefaultsApiP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2460,6 +2436,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2514,21 +2504,7 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.5.4\/darwin\/shared_preferences_foundation\/Sources\/shared_preferences_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 4057,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.5.4\/darwin\/shared_preferences_foundation\/Sources\/shared_preferences_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 9507,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.5.4\/darwin\/shared_preferences_foundation\/Sources\/shared_preferences_foundation\/SharedPreferencesPlugin.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.5.0\/darwin\/shared_preferences_foundation\/Sources\/shared_preferences_foundation\/SharedPreferencesPlugin.swift",
       "kind": "StringLiteral",
       "offset": 289,
       "length": 16,

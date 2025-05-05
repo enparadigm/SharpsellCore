@@ -1,5 +1,3 @@
-#import <Foundation/Foundation.h>
-
 @interface LoadControl : NSObject
 
 @property (readwrite, nonatomic) NSNumber *preferredForwardBufferDuration;

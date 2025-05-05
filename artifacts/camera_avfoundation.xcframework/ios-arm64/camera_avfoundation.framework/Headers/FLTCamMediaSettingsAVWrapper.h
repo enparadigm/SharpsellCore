@@ -5,11 +5,6 @@
 @import AVFoundation;
 @import Foundation;
 
-#import "FLTAssetWriter.h"
-#import "FLTCaptureDevice.h"
-#import "FLTCaptureSession.h"
-#import "FLTCaptureVideoDataOutput.h"
-
 NS_ASSUME_NONNULL_BEGIN
 
 /**
@@ -30,15 +25,14 @@ NS_ASSUME_NONNULL_BEGIN
  * @param outError The optional error.
  * @result A BOOL indicating whether the device was successfully locked for configuration.
  */
-- (BOOL)lockDevice:(NSObject<FLTCaptureDevice> *)captureDevice
-             error:(NSError *_Nullable *_Nullable)outError NS_SWIFT_NAME(lockDevice(_:));
+- (BOOL)lockDevice:(AVCaptureDevice *)captureDevice error:(NSError *_Nullable *_Nullable)outError;
 
 /**
  * @method unlockDevice:
  * @abstract Release exclusive control over device hardware properties.
  * @param captureDevice The capture device.
  */
-- (void)unlockDevice:(NSObject<FLTCaptureDevice> *)captureDevice NS_SWIFT_NAME(unlockDevice(_:)) ;
+- (void)unlockDevice:(AVCaptureDevice *)captureDevice;
 
 /**
  * @method beginConfigurationForSession:
@@ -46,7 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
  * operations on a running session into atomic updates.
  * @param videoCaptureSession The video capture session.
  */
-- (void)beginConfigurationForSession:(NSObject<FLTCaptureSession> *)videoCaptureSession;
+- (void)beginConfigurationForSession:(AVCaptureSession *)videoCaptureSession;
 
 /**
  * @method commitConfigurationForSession:
@@ -54,7 +48,7 @@ NS_ASSUME_NONNULL_BEGIN
  * operations on a running session into atomic updates.
  * @param videoCaptureSession The video capture session.
  */
-- (void)commitConfigurationForSession:(NSObject<FLTCaptureSession> *)videoCaptureSession;
+- (void)commitConfigurationForSession:(AVCaptureSession *)videoCaptureSession;
 
 /**
  * @method setMinFrameDuration:onDevice:
@@ -63,7 +57,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param duration The frame duration.
  * @param captureDevice The capture device
  */
-- (void)setMinFrameDuration:(CMTime)duration onDevice:(NSObject<FLTCaptureDevice> *)captureDevice;
+- (void)setMinFrameDuration:(CMTime)duration onDevice:(AVCaptureDevice *)captureDevice;
 
 /**
  * @method setMaxFrameDuration:onDevice:
@@ -72,7 +66,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param duration The frame duration.
  * @param captureDevice The capture device
  */
-- (void)setMaxFrameDuration:(CMTime)duration onDevice:(NSObject<FLTCaptureDevice> *)captureDevice;
+- (void)setMaxFrameDuration:(CMTime)duration onDevice:(AVCaptureDevice *)captureDevice;
 
 /**
  * @method assetWriterAudioInputWithOutputSettings:
@@ -81,7 +75,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param outputSettings The settings used for encoding the audio appended to the output.
  * @result An instance of `AVAssetWriterInput`.
  */
-- (NSObject<FLTAssetWriterInput> *)assetWriterAudioInputWithOutputSettings:
+- (AVAssetWriterInput *)assetWriterAudioInputWithOutputSettings:
     (nullable NSDictionary<NSString *, id> *)outputSettings;
 
 /**
@@ -91,7 +85,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param outputSettings The settings used for encoding the video appended to the output.
  * @result An instance of `AVAssetWriterInput`.
  */
-- (NSObject<FLTAssetWriterInput> *)assetWriterVideoInputWithOutputSettings:
+- (AVAssetWriterInput *)assetWriterVideoInputWithOutputSettings:
     (nullable NSDictionary<NSString *, id> *)outputSettings;
 
 /**
@@ -100,21 +94,19 @@ NS_ASSUME_NONNULL_BEGIN
  * @param writerInput The `AVAssetWriterInput` object to be added.
  * @param writer The `AVAssetWriter` object.
  */
-- (void)addInput:(NSObject<FLTAssetWriterInput> *)writerInput
-    toAssetWriter:(NSObject<FLTAssetWriter> *)writer NS_SWIFT_NAME(addInput(_:to:));
+- (void)addInput:(AVAssetWriterInput *)writerInput toAssetWriter:(AVAssetWriter *)writer;
 
 /**
  * @method recommendedVideoSettingsForAssetWriterWithFileType:forOutput:
  * @abstract Specifies the recommended video settings for `AVCaptureVideoDataOutput`.
  * @param fileType Specifies the UTI of the file type to be written (see AVMediaFormat.h for a list
  * of file format UTIs).
- * @param output The `FLTCaptureVideoDataOutput` instance.
+ * @param output The `AVCaptureVideoDataOutput` instance.
  * @result A fully populated dictionary of keys and values that are compatible with AVAssetWriter.
  */
 - (nullable NSDictionary<NSString *, id> *)
     recommendedVideoSettingsForAssetWriterWithFileType:(AVFileType)fileType
-                                             forOutput:
-                                                 (NSObject<FLTCaptureVideoDataOutput> *)output;
+                                             forOutput:(AVCaptureVideoDataOutput *)output;
 @end
 
 NS_ASSUME_NONNULL_END

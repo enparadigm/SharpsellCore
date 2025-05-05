@@ -1,291 +1,232 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/admin/Documents/GitHub/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/record_darwin/record_darwin.framework/record_darwin'
+binary-path:     '/Users/nikunjkhunt/Documents/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/record_darwin/record_darwin.framework/record_darwin'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x71BD9, size: 0x8, addend: 0x0, symName: _record_darwinVersionString, symObjAddr: 0x0, symBinAddr: 0x17F80, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x71C0E, size: 0x8, addend: 0x0, symName: _record_darwinVersionNumber, symObjAddr: 0x30, symBinAddr: 0x17FB0, symSize: 0x0 }
-  - { offsetInCU: 0x27, offset: 0x71C4B, size: 0x8, addend: 0x0, symName: '+[RecordPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
-  - { offsetInCU: 0x91, offset: 0x71CB5, size: 0x8, addend: 0x0, symName: '+[RecordPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
-  - { offsetInCU: 0x87, offset: 0x71DA9, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOSYAASY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0x50C, symBinAddr: 0x4518, symSize: 0xC }
-  - { offsetInCU: 0xA3, offset: 0x71DC5, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x518, symBinAddr: 0x4524, symSize: 0x24 }
-  - { offsetInCU: 0xB8, offset: 0x71DDA, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x6C, symBinAddr: 0x4078, symSize: 0x40 }
-  - { offsetInCU: 0x18A, offset: 0x71EAC, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOSHAASQWb', symObjAddr: 0x758, symBinAddr: 0x4764, symSize: 0x4 }
-  - { offsetInCU: 0x19E, offset: 0x71EC0, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOACSQAAWl', symObjAddr: 0x75C, symBinAddr: 0x4768, symSize: 0x44 }
-  - { offsetInCU: 0x1B2, offset: 0x71ED4, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x7A0, symBinAddr: 0x47AC, symSize: 0xC }
-  - { offsetInCU: 0x1C6, offset: 0x71EE8, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x7AC, symBinAddr: 0x47B8, symSize: 0x4 }
-  - { offsetInCU: 0x1DA, offset: 0x71EFC, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOwet', symObjAddr: 0x7B0, symBinAddr: 0x47BC, symSize: 0x90 }
-  - { offsetInCU: 0x1EE, offset: 0x71F10, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOwst', symObjAddr: 0x840, symBinAddr: 0x484C, symSize: 0xBC }
-  - { offsetInCU: 0x202, offset: 0x71F24, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOwug', symObjAddr: 0x8FC, symBinAddr: 0x4908, symSize: 0x8 }
-  - { offsetInCU: 0x216, offset: 0x71F38, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOwup', symObjAddr: 0x904, symBinAddr: 0x4910, symSize: 0x4 }
-  - { offsetInCU: 0x22A, offset: 0x71F4C, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOwui', symObjAddr: 0x908, symBinAddr: 0x4914, symSize: 0x8 }
-  - { offsetInCU: 0x23E, offset: 0x71F60, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOMa', symObjAddr: 0x910, symBinAddr: 0x491C, symSize: 0x10 }
-  - { offsetInCU: 0x252, offset: 0x71F74, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12RecordConfigCMa', symObjAddr: 0x920, symBinAddr: 0x492C, symSize: 0x20 }
-  - { offsetInCU: 0x266, offset: 0x71F88, size: 0x8, addend: 0x0, symName: '_$s13record_darwin6DeviceCMa', symObjAddr: 0x94C, symBinAddr: 0x4958, symSize: 0x20 }
-  - { offsetInCU: 0x27A, offset: 0x71F9C, size: 0x8, addend: 0x0, symName: '_$s13record_darwin9IosConfigVwCP', symObjAddr: 0x978, symBinAddr: 0x4984, symSize: 0x34 }
-  - { offsetInCU: 0x28E, offset: 0x71FB0, size: 0x8, addend: 0x0, symName: '_$s13record_darwin9IosConfigVwxx', symObjAddr: 0x9AC, symBinAddr: 0x49B8, symSize: 0x8 }
-  - { offsetInCU: 0x2A2, offset: 0x71FC4, size: 0x8, addend: 0x0, symName: '_$s13record_darwin9IosConfigVwca', symObjAddr: 0x9B4, symBinAddr: 0x49C0, symSize: 0x4C }
-  - { offsetInCU: 0x2B6, offset: 0x71FD8, size: 0x8, addend: 0x0, symName: ___swift_memcpy9_8, symObjAddr: 0xA00, symBinAddr: 0x4A0C, symSize: 0x14 }
-  - { offsetInCU: 0x2CA, offset: 0x71FEC, size: 0x8, addend: 0x0, symName: '_$s13record_darwin9IosConfigVwta', symObjAddr: 0xA14, symBinAddr: 0x4A20, symSize: 0x3C }
-  - { offsetInCU: 0x2DE, offset: 0x72000, size: 0x8, addend: 0x0, symName: '_$s13record_darwin9IosConfigVwet', symObjAddr: 0xA50, symBinAddr: 0x4A5C, symSize: 0x48 }
-  - { offsetInCU: 0x2F2, offset: 0x72014, size: 0x8, addend: 0x0, symName: '_$s13record_darwin9IosConfigVwst', symObjAddr: 0xA98, symBinAddr: 0x4AA4, symSize: 0x40 }
-  - { offsetInCU: 0x306, offset: 0x72028, size: 0x8, addend: 0x0, symName: '_$s13record_darwin9IosConfigVMa', symObjAddr: 0xAD8, symBinAddr: 0x4AE4, symSize: 0x10 }
-  - { offsetInCU: 0x356, offset: 0x72078, size: 0x8, addend: 0x0, symName: '_$s13record_darwin9IosConfigV3mapACSDySSypG_tcfcSo29AVAudioSessionCategoryOptionsVSgSsXEfU_', symObjAddr: 0xAE8, symBinAddr: 0x4AF4, symSize: 0x260 }
-  - { offsetInCU: 0x594, offset: 0x722B6, size: 0x8, addend: 0x0, symName: '_$s13record_darwin9IosConfigV3mapACSDySSypG_tcfCTf4nd_n', symObjAddr: 0x1B58, symBinAddr: 0x5B64, symSize: 0x340 }
-  - { offsetInCU: 0x84F, offset: 0x72571, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlF13record_darwin6DeviceC_Tgm5', symObjAddr: 0xF4C, symBinAddr: 0x4F58, symSize: 0x50 }
-  - { offsetInCU: 0x87C, offset: 0x7259E, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0xF9C, symBinAddr: 0x4FA8, symSize: 0x10 }
-  - { offsetInCU: 0x890, offset: 0x725B2, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0xFAC, symBinAddr: 0x4FB8, symSize: 0x3C }
-  - { offsetInCU: 0xDBF, offset: 0x72AE1, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC13record_darwin6DeviceC_Tgm5', symObjAddr: 0x1870, symBinAddr: 0x587C, symSize: 0x80 }
-  - { offsetInCU: 0xE8C, offset: 0x72BAE, size: 0x8, addend: 0x0, symName: '_$sSlsE5split9maxSplits25omittingEmptySubsequences14whereSeparatorSay11SubSequenceQzGSi_S2b7ElementQzKXEtKF17appendSubsequenceL_3endSb5IndexQz_tSlRzlFSS_Tg5', symObjAddr: 0x19E4, symBinAddr: 0x59F0, symSize: 0x10C }
-  - { offsetInCU: 0xFF0, offset: 0x72D12, size: 0x8, addend: 0x0, symName: '_$sSysE2eeoiySbx_qd__tSyRd__lFZSS_SsTgq5Tf4nnd_n', symObjAddr: 0x1AF0, symBinAddr: 0x5AFC, symSize: 0x68 }
-  - { offsetInCU: 0x1148, offset: 0x72E6A, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x1E98, symBinAddr: 0x5EA4, symSize: 0x40 }
-  - { offsetInCU: 0x11A5, offset: 0x72EC7, size: 0x8, addend: 0x0, symName: '_$sSlsSQ7ElementRpzrlE5split9separator9maxSplits25omittingEmptySubsequencesSay11SubSequenceQzGAB_SiSbtFSbABXEfU_SS_TG5TA', symObjAddr: 0x1ED8, symBinAddr: 0x5EE4, symSize: 0x54 }
-  - { offsetInCU: 0x1237, offset: 0x72F59, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVMa', symObjAddr: 0x1F2C, symBinAddr: 0x5F38, symSize: 0x54 }
-  - { offsetInCU: 0x124B, offset: 0x72F6D, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCSQWb', symObjAddr: 0x1FB4, symBinAddr: 0x5FC0, symSize: 0x24 }
-  - { offsetInCU: 0x125F, offset: 0x72F81, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCs25ExpressibleByArrayLiteralPWb', symObjAddr: 0x1FD8, symBinAddr: 0x5FE4, symSize: 0x24 }
-  - { offsetInCU: 0x1273, offset: 0x72F95, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs9OptionSetSCSYWb', symObjAddr: 0x1FFC, symBinAddr: 0x6008, symSize: 0x24 }
-  - { offsetInCU: 0x1287, offset: 0x72FA9, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs9OptionSetSCs0F7AlgebraPWb', symObjAddr: 0x2020, symBinAddr: 0x602C, symSize: 0x24 }
-  - { offsetInCU: 0x1355, offset: 0x73077, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x174, symBinAddr: 0x4180, symSize: 0xC }
-  - { offsetInCU: 0x1395, offset: 0x730B7, size: 0x8, addend: 0x0, symName: '_$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF13record_darwin12AudioEncoderO_TB5', symObjAddr: 0x180, symBinAddr: 0x418C, symSize: 0x214 }
-  - { offsetInCU: 0x14A7, offset: 0x731C9, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOSHAASH9hashValueSivgTW', symObjAddr: 0x394, symBinAddr: 0x43A0, symSize: 0x44 }
-  - { offsetInCU: 0x150F, offset: 0x73231, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x3D8, symBinAddr: 0x43E4, symSize: 0x8 }
-  - { offsetInCU: 0x1542, offset: 0x73264, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x4CC, symBinAddr: 0x44D8, symSize: 0x40 }
-  - { offsetInCU: 0x15D3, offset: 0x732F5, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACPxycfCTW', symObjAddr: 0xD48, symBinAddr: 0x4D54, symSize: 0x8 }
-  - { offsetInCU: 0x1636, offset: 0x73358, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP5unionyxxnFTW', symObjAddr: 0xD50, symBinAddr: 0x4D5C, symSize: 0x14 }
-  - { offsetInCU: 0x16E7, offset: 0x73409, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP12intersectionyxxFTW', symObjAddr: 0xD64, symBinAddr: 0x4D70, symSize: 0x14 }
-  - { offsetInCU: 0x1790, offset: 0x734B2, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP19symmetricDifferenceyxxnFTW', symObjAddr: 0xD78, symBinAddr: 0x4D84, symSize: 0x14 }
-  - { offsetInCU: 0x1846, offset: 0x73568, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW', symObjAddr: 0xD8C, symBinAddr: 0x4D98, symSize: 0x30 }
-  - { offsetInCU: 0x19D2, offset: 0x736F4, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP6removey7ElementQzSgAGFTW', symObjAddr: 0xDBC, symBinAddr: 0x4DC8, symSize: 0x2C }
-  - { offsetInCU: 0x1B69, offset: 0x7388B, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP6update4with7ElementQzSgAHn_tFTW', symObjAddr: 0xDE8, symBinAddr: 0x4DF4, symSize: 0x24 }
-  - { offsetInCU: 0x1C55, offset: 0x73977, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP9formUnionyyxnFTW', symObjAddr: 0xE0C, symBinAddr: 0x4E18, symSize: 0x14 }
-  - { offsetInCU: 0x1CBB, offset: 0x739DD, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP16formIntersectionyyxFTW', symObjAddr: 0xE20, symBinAddr: 0x4E2C, symSize: 0x14 }
-  - { offsetInCU: 0x1D21, offset: 0x73A43, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP23formSymmetricDifferenceyyxnFTW', symObjAddr: 0xE34, symBinAddr: 0x4E40, symSize: 0x14 }
-  - { offsetInCU: 0x1DA0, offset: 0x73AC2, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP11subtractingyxxFTW', symObjAddr: 0xE48, symBinAddr: 0x4E54, symSize: 0x14 }
-  - { offsetInCU: 0x1E53, offset: 0x73B75, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP8isSubset2ofSbx_tFTW', symObjAddr: 0xE5C, symBinAddr: 0x4E68, symSize: 0x14 }
-  - { offsetInCU: 0x1ED4, offset: 0x73BF6, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP10isDisjoint4withSbx_tFTW', symObjAddr: 0xE70, symBinAddr: 0x4E7C, symSize: 0x14 }
-  - { offsetInCU: 0x1F96, offset: 0x73CB8, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP10isSuperset2ofSbx_tFTW', symObjAddr: 0xE84, symBinAddr: 0x4E90, symSize: 0x14 }
-  - { offsetInCU: 0x2030, offset: 0x73D52, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP7isEmptySbvgTW', symObjAddr: 0xE98, symBinAddr: 0x4EA4, symSize: 0x10 }
-  - { offsetInCU: 0x2098, offset: 0x73DBA, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACPyxqd__ncSTRd__7ElementQyd__AERtzlufCTW', symObjAddr: 0xEA8, symBinAddr: 0x4EB4, symSize: 0x18 }
-  - { offsetInCU: 0x20B4, offset: 0x73DD6, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP8subtractyyxFTW', symObjAddr: 0xEC0, symBinAddr: 0x4ECC, symSize: 0x14 }
-  - { offsetInCU: 0x2130, offset: 0x73E52, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0xED4, symBinAddr: 0x4EE0, symSize: 0x14 }
-  - { offsetInCU: 0x218D, offset: 0x73EAF, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs25ExpressibleByArrayLiteralSCsACP05arrayH0x0gH7ElementQzd_tcfCTW', symObjAddr: 0xEE8, symBinAddr: 0x4EF4, symSize: 0x3C }
-  - { offsetInCU: 0x235F, offset: 0x74081, size: 0x8, addend: 0x0, symName: '_$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfCSo29AVAudioSessionCategoryOptionsV_Tgq5Tf4gd_n', symObjAddr: 0x2084, symBinAddr: 0x6090, symSize: 0x38 }
-  - { offsetInCU: 0x237F, offset: 0x740A1, size: 0x8, addend: 0x0, symName: '_$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfCSo29AVAudioSessionCategoryOptionsV_Tgq5Tf4gd_n', symObjAddr: 0x2084, symBinAddr: 0x6090, symSize: 0x38 }
-  - { offsetInCU: 0x2393, offset: 0x740B5, size: 0x8, addend: 0x0, symName: '_$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfCSo29AVAudioSessionCategoryOptionsV_Tgq5Tf4gd_n', symObjAddr: 0x2084, symBinAddr: 0x6090, symSize: 0x38 }
-  - { offsetInCU: 0x23B3, offset: 0x740D5, size: 0x8, addend: 0x0, symName: '_$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfCSo29AVAudioSessionCategoryOptionsV_Tgq5Tf4gd_n', symObjAddr: 0x2084, symBinAddr: 0x6090, symSize: 0x38 }
-  - { offsetInCU: 0x23C7, offset: 0x740E9, size: 0x8, addend: 0x0, symName: '_$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfCSo29AVAudioSessionCategoryOptionsV_Tgq5Tf4gd_n', symObjAddr: 0x2084, symBinAddr: 0x6090, symSize: 0x38 }
-  - { offsetInCU: 0x23DB, offset: 0x740FD, size: 0x8, addend: 0x0, symName: '_$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfCSo29AVAudioSessionCategoryOptionsV_Tgq5Tf4gd_n', symObjAddr: 0x2084, symBinAddr: 0x6090, symSize: 0x38 }
-  - { offsetInCU: 0x23EF, offset: 0x74111, size: 0x8, addend: 0x0, symName: '_$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfCSo29AVAudioSessionCategoryOptionsV_Tgq5Tf4gd_n', symObjAddr: 0x2084, symBinAddr: 0x6090, symSize: 0x38 }
-  - { offsetInCU: 0x25C0, offset: 0x742E2, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderO8rawValueACSgSS_tcfC', symObjAddr: 0x0, symBinAddr: 0x400C, symSize: 0x6C }
-  - { offsetInCU: 0x25F7, offset: 0x74319, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderO8rawValueSSvg', symObjAddr: 0xAC, symBinAddr: 0x40B8, symSize: 0xC8 }
-  - { offsetInCU: 0x264B, offset: 0x7436D, size: 0x8, addend: 0x0, symName: '_$sSYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF13record_darwin12AudioEncoderO_TB5', symObjAddr: 0x3E0, symBinAddr: 0x43EC, symSize: 0xEC }
-  - { offsetInCU: 0x26AE, offset: 0x743D0, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12RecordConfigCfd', symObjAddr: 0x53C, symBinAddr: 0x4548, symSize: 0x2C }
-  - { offsetInCU: 0x26E5, offset: 0x74407, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12RecordConfigCfD', symObjAddr: 0x568, symBinAddr: 0x4574, symSize: 0x34 }
-  - { offsetInCU: 0x2733, offset: 0x74455, size: 0x8, addend: 0x0, symName: '_$s13record_darwin6DeviceC3mapACSDySSypG_tcfc', symObjAddr: 0x59C, symBinAddr: 0x45A8, symSize: 0x16C }
-  - { offsetInCU: 0x27B8, offset: 0x744DA, size: 0x8, addend: 0x0, symName: '_$s13record_darwin6DeviceCfd', symObjAddr: 0x708, symBinAddr: 0x4714, symSize: 0x24 }
-  - { offsetInCU: 0x27EF, offset: 0x74511, size: 0x8, addend: 0x0, symName: '_$s13record_darwin6DeviceCfD', symObjAddr: 0x72C, symBinAddr: 0x4738, symSize: 0x2C }
-  - { offsetInCU: 0x287D, offset: 0x7459F, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs9OptionSetSCsACP8rawValuex03RawH0Qz_tcfCTW', symObjAddr: 0xF24, symBinAddr: 0x4F30, symSize: 0xC }
-  - { offsetInCU: 0x2891, offset: 0x745B3, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVSYSCSY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0xF30, symBinAddr: 0x4F3C, symSize: 0x10 }
-  - { offsetInCU: 0x28AD, offset: 0x745CF, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVSYSCSY8rawValue03RawF0QzvgTW', symObjAddr: 0xF40, symBinAddr: 0x4F4C, symSize: 0xC }
-  - { offsetInCU: 0x29D8, offset: 0x746FA, size: 0x8, addend: 0x0, symName: '_$sSlsE5split9maxSplits25omittingEmptySubsequences14whereSeparatorSay11SubSequenceQzGSi_S2b7ElementQzKXEtKFSS_Tg5', symObjAddr: 0xFE8, symBinAddr: 0x4FF4, symSize: 0x41C }
-  - { offsetInCU: 0x2E4E, offset: 0x74B70, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo29AVAudioSessionCategoryOptionsV_Tg5', symObjAddr: 0x1404, symBinAddr: 0x5410, symSize: 0x124 }
-  - { offsetInCU: 0x2F84, offset: 0x74CA6, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSs_Tg5', symObjAddr: 0x1528, symBinAddr: 0x5534, symSize: 0x104 }
-  - { offsetInCU: 0x30C1, offset: 0x74DE3, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF13record_darwin6DeviceC_Tg5', symObjAddr: 0x162C, symBinAddr: 0x5638, symSize: 0x15C }
-  - { offsetInCU: 0x3234, offset: 0x74F56, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tg5', symObjAddr: 0x1788, symBinAddr: 0x5794, symSize: 0xE8 }
-  - { offsetInCU: 0x3363, offset: 0x75085, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF13record_darwin6DeviceC_Tg5', symObjAddr: 0x18F0, symBinAddr: 0x58FC, symSize: 0xF4 }
-  - { offsetInCU: 0x1B7, offset: 0x75459, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC18isEncoderSupportedySbSSFTf4nd_n', symObjAddr: 0x106C, symBinAddr: 0x70FC, symSize: 0x178 }
-  - { offsetInCU: 0x430, offset: 0x756D2, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderCMa', symObjAddr: 0xE1C, symBinAddr: 0x6EEC, symSize: 0x20 }
-  - { offsetInCU: 0x444, offset: 0x756E6, size: 0x8, addend: 0x0, symName: '_$sSo17OS_dispatch_queueCMa', symObjAddr: 0xE3C, symBinAddr: 0x6F0C, symSize: 0x3C }
-  - { offsetInCU: 0x458, offset: 0x756FA, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC11updateState33_976E7D3F409C1A3C5DD7B8E12AD50F13LLyyAA06RecordE0OFyyScMYccfU_TA', symObjAddr: 0xE9C, symBinAddr: 0x6F6C, symSize: 0x54 }
-  - { offsetInCU: 0x48C, offset: 0x7572E, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0xEF0, symBinAddr: 0x6FC0, symSize: 0x10 }
-  - { offsetInCU: 0x4A0, offset: 0x75742, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0xF00, symBinAddr: 0x6FD0, symSize: 0x8 }
-  - { offsetInCU: 0x4B4, offset: 0x75756, size: 0x8, addend: 0x0, symName: '_$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl', symObjAddr: 0xF08, symBinAddr: 0x6FD8, symSize: 0x48 }
-  - { offsetInCU: 0x4C8, offset: 0x7576A, size: 0x8, addend: 0x0, symName: '_$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl', symObjAddr: 0xF90, symBinAddr: 0x7020, symSize: 0x4C }
-  - { offsetInCU: 0x4DC, offset: 0x7577E, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0xFDC, symBinAddr: 0x706C, symSize: 0x44 }
-  - { offsetInCU: 0x4F0, offset: 0x75792, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_SgWOe', symObjAddr: 0x1020, symBinAddr: 0x70B0, symSize: 0x10 }
-  - { offsetInCU: 0x504, offset: 0x757A6, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOACs0D0AAWl', symObjAddr: 0x11E4, symBinAddr: 0x7274, symSize: 0x44 }
-  - { offsetInCU: 0x518, offset: 0x757BA, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegate_pSgWOb', symObjAddr: 0x1228, symBinAddr: 0x72B8, symSize: 0x48 }
-  - { offsetInCU: 0x52C, offset: 0x757CE, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegate_pSgWOd', symObjAddr: 0x1270, symBinAddr: 0x7300, symSize: 0x48 }
-  - { offsetInCU: 0x540, offset: 0x757E2, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC11startStream6configyAA12RecordConfigC_tKFyycfU0_TA', symObjAddr: 0x12B8, symBinAddr: 0x7348, symSize: 0x24 }
-  - { offsetInCU: 0x572, offset: 0x75814, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC11startStream6configyAA12RecordConfigC_tKFyycfU1_TA', symObjAddr: 0x12DC, symBinAddr: 0x736C, symSize: 0x28 }
-  - { offsetInCU: 0x5A4, offset: 0x75846, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegate_pSgWOc', symObjAddr: 0x1304, symBinAddr: 0x7394, symSize: 0x48 }
-  - { offsetInCU: 0x5B8, offset: 0x7585A, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegate_pWOc', symObjAddr: 0x134C, symBinAddr: 0x73DC, symSize: 0x44 }
-  - { offsetInCU: 0x5CC, offset: 0x7586E, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0x1390, symBinAddr: 0x7420, symSize: 0x24 }
-  - { offsetInCU: 0x5E0, offset: 0x75882, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_1, symObjAddr: 0x13BC, symBinAddr: 0x744C, symSize: 0x20 }
-  - { offsetInCU: 0x820, offset: 0x75AC2, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC7disposeyyF', symObjAddr: 0x0, symBinAddr: 0x60D0, symSize: 0x10C }
-  - { offsetInCU: 0x8FD, offset: 0x75B9F, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC5start6config4pathyAA12RecordConfigC_SStKF', symObjAddr: 0x10C, symBinAddr: 0x61DC, symSize: 0x230 }
-  - { offsetInCU: 0xA2D, offset: 0x75CCF, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC11startStream6configyAA12RecordConfigC_tKF', symObjAddr: 0x33C, symBinAddr: 0x640C, symSize: 0x284 }
-  - { offsetInCU: 0xB1B, offset: 0x75DBD, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC11startStream6configyAA12RecordConfigC_tKFySSSgcfU_', symObjAddr: 0x5C0, symBinAddr: 0x6690, symSize: 0x4 }
-  - { offsetInCU: 0xB7B, offset: 0x75E1D, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC4stop17completionHandleryySSSgc_tF', symObjAddr: 0x5C4, symBinAddr: 0x6694, symSize: 0x11C }
-  - { offsetInCU: 0xBC1, offset: 0x75E63, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC4stop17completionHandleryySSSgc_tFyAFcfU_', symObjAddr: 0x6E0, symBinAddr: 0x67B0, symSize: 0x40 }
-  - { offsetInCU: 0xC0D, offset: 0x75EAF, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC5pauseyyF', symObjAddr: 0x720, symBinAddr: 0x67F0, symSize: 0xD0 }
-  - { offsetInCU: 0xC46, offset: 0x75EE8, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC6resumeyyKF', symObjAddr: 0x7F0, symBinAddr: 0x68C0, symSize: 0xEC }
-  - { offsetInCU: 0xCD4, offset: 0x75F76, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC12getAmplitudeSDySSSfGyF', symObjAddr: 0x8DC, symBinAddr: 0x69AC, symSize: 0x218 }
-  - { offsetInCU: 0xE99, offset: 0x7613B, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC6cancelyyKF', symObjAddr: 0xAF4, symBinAddr: 0x6BC4, symSize: 0xCC }
-  - { offsetInCU: 0xF2E, offset: 0x761D0, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC11updateState33_976E7D3F409C1A3C5DD7B8E12AD50F13LLyyAA06RecordE0OF', symObjAddr: 0xBC0, symBinAddr: 0x6C90, symSize: 0x220 }
-  - { offsetInCU: 0xFF6, offset: 0x76298, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderCfD', symObjAddr: 0xDE0, symBinAddr: 0x6EB0, symSize: 0x3C }
-  - { offsetInCU: 0x27, offset: 0x76326, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateO8rawValueSivg', symObjAddr: 0x0, symBinAddr: 0x74F4, symSize: 0x8 }
-  - { offsetInCU: 0x78, offset: 0x76377, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOSYAASY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0x134, symBinAddr: 0x7628, symSize: 0x8 }
-  - { offsetInCU: 0x94, offset: 0x76393, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x13C, symBinAddr: 0x7630, symSize: 0xC }
-  - { offsetInCU: 0xB4, offset: 0x763B3, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x13C, symBinAddr: 0x7630, symSize: 0xC }
-  - { offsetInCU: 0xD1, offset: 0x763D0, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOSHAASQWb', symObjAddr: 0x40, symBinAddr: 0x7534, symSize: 0x4 }
-  - { offsetInCU: 0xE5, offset: 0x763E4, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOACSQAAWl', symObjAddr: 0x44, symBinAddr: 0x7538, symSize: 0x44 }
-  - { offsetInCU: 0x119, offset: 0x76418, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwCP', symObjAddr: 0x148, symBinAddr: 0x763C, symSize: 0x30 }
-  - { offsetInCU: 0x12D, offset: 0x7642C, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwxx', symObjAddr: 0x178, symBinAddr: 0x766C, symSize: 0x28 }
-  - { offsetInCU: 0x141, offset: 0x76440, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwcp', symObjAddr: 0x1A0, symBinAddr: 0x7694, symSize: 0x3C }
-  - { offsetInCU: 0x155, offset: 0x76454, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwca', symObjAddr: 0x1DC, symBinAddr: 0x76D0, symSize: 0x6C }
-  - { offsetInCU: 0x169, offset: 0x76468, size: 0x8, addend: 0x0, symName: ___swift_memcpy32_8, symObjAddr: 0x248, symBinAddr: 0x773C, symSize: 0xC }
-  - { offsetInCU: 0x17D, offset: 0x7647C, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwta', symObjAddr: 0x254, symBinAddr: 0x7748, symSize: 0x44 }
-  - { offsetInCU: 0x191, offset: 0x76490, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwet', symObjAddr: 0x298, symBinAddr: 0x778C, symSize: 0x48 }
-  - { offsetInCU: 0x1A5, offset: 0x764A4, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwst', symObjAddr: 0x2E0, symBinAddr: 0x77D4, symSize: 0x40 }
-  - { offsetInCU: 0x1B9, offset: 0x764B8, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwug', symObjAddr: 0x320, symBinAddr: 0x7814, symSize: 0x8 }
-  - { offsetInCU: 0x1CD, offset: 0x764CC, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwup', symObjAddr: 0x328, symBinAddr: 0x781C, symSize: 0x4 }
-  - { offsetInCU: 0x1E1, offset: 0x764E0, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwui', symObjAddr: 0x32C, symBinAddr: 0x7820, symSize: 0x4 }
-  - { offsetInCU: 0x1F5, offset: 0x764F4, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOMa', symObjAddr: 0x330, symBinAddr: 0x7824, symSize: 0x10 }
-  - { offsetInCU: 0x209, offset: 0x76508, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOwet', symObjAddr: 0x350, symBinAddr: 0x7834, symSize: 0x90 }
-  - { offsetInCU: 0x21D, offset: 0x7651C, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOwst', symObjAddr: 0x3E0, symBinAddr: 0x78C4, symSize: 0xBC }
-  - { offsetInCU: 0x231, offset: 0x76530, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOwug', symObjAddr: 0x49C, symBinAddr: 0x7980, symSize: 0x8 }
-  - { offsetInCU: 0x245, offset: 0x76544, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOwup', symObjAddr: 0x4A4, symBinAddr: 0x7988, symSize: 0x4 }
-  - { offsetInCU: 0x259, offset: 0x76558, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOwui', symObjAddr: 0x4A8, symBinAddr: 0x798C, symSize: 0x8 }
-  - { offsetInCU: 0x26D, offset: 0x7656C, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOMa', symObjAddr: 0x4B0, symBinAddr: 0x7994, symSize: 0x10 }
-  - { offsetInCU: 0x2A1, offset: 0x765A0, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOs0D0AAsADP7_domainSSvgTW', symObjAddr: 0x8, symBinAddr: 0x74FC, symSize: 0x4 }
-  - { offsetInCU: 0x2BD, offset: 0x765BC, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOs0D0AAsADP5_codeSivgTW', symObjAddr: 0xC, symBinAddr: 0x7500, symSize: 0x4 }
-  - { offsetInCU: 0x2D9, offset: 0x765D8, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOs0D0AAsADP9_userInfoyXlSgvgTW', symObjAddr: 0x10, symBinAddr: 0x7504, symSize: 0x4 }
-  - { offsetInCU: 0x2F5, offset: 0x765F4, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOs0D0AAsADP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0x14, symBinAddr: 0x7508, symSize: 0x4 }
-  - { offsetInCU: 0x32C, offset: 0x7662B, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x2C, symBinAddr: 0x7520, symSize: 0x14 }
-  - { offsetInCU: 0x3DC, offset: 0x766DB, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOSHAASH9hashValueSivgTW', symObjAddr: 0x88, symBinAddr: 0x757C, symSize: 0x44 }
-  - { offsetInCU: 0x48B, offset: 0x7678A, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0xCC, symBinAddr: 0x75C0, symSize: 0x28 }
-  - { offsetInCU: 0x4DE, offset: 0x767DD, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0xF4, symBinAddr: 0x75E8, symSize: 0x40 }
-  - { offsetInCU: 0x609, offset: 0x76908, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateO8rawValueSivg', symObjAddr: 0x0, symBinAddr: 0x74F4, symSize: 0x8 }
-  - { offsetInCU: 0x62A, offset: 0x76929, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateO8rawValueACSgSi_tcfC', symObjAddr: 0x18, symBinAddr: 0x750C, symSize: 0x14 }
-  - { offsetInCU: 0x159, offset: 0x76AE3, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateC05audioC18DidFinishRecording_12successfullyySo07AVAudioC0C_SbtFTo', symObjAddr: 0x400, symBinAddr: 0x7E24, symSize: 0x4 }
-  - { offsetInCU: 0x18B, offset: 0x76B15, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCACycfcTo', symObjAddr: 0x404, symBinAddr: 0x7E28, symSize: 0x2C }
-  - { offsetInCU: 0x208, offset: 0x76B92, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCAA014AudioRecordingdE0A2aDP5start6config4pathyAA12RecordConfigC_SStKFTW', symObjAddr: 0x4E4, symBinAddr: 0x7F08, symSize: 0x20 }
-  - { offsetInCU: 0x22B, offset: 0x76BB5, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCAA014AudioRecordingE0A2aDP4stop17completionHandleryySSSgc_tFTW', symObjAddr: 0x504, symBinAddr: 0x7F28, symSize: 0x20 }
-  - { offsetInCU: 0x247, offset: 0x76BD1, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCAA014AudioRecordingE0A2aDP6cancelyyKFTW', symObjAddr: 0x524, symBinAddr: 0x7F48, symSize: 0x20 }
-  - { offsetInCU: 0x280, offset: 0x76C0A, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCAA014AudioRecordingE0A2aDP12getAmplitudeSfyFTW', symObjAddr: 0x544, symBinAddr: 0x7F68, symSize: 0x5C }
-  - { offsetInCU: 0x325, offset: 0x76CAF, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCAA014AudioRecordingE0A2aDP5pauseyyFTW', symObjAddr: 0x5A0, symBinAddr: 0x7FC4, symSize: 0xA8 }
-  - { offsetInCU: 0x3AC, offset: 0x76D36, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCAA014AudioRecordingE0A2aDP6resumeyyKFTW', symObjAddr: 0x648, symBinAddr: 0x806C, symSize: 0x3C }
-  - { offsetInCU: 0x40D, offset: 0x76D97, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCAA014AudioRecordingE0A2aDP7disposeyyFTW', symObjAddr: 0x684, symBinAddr: 0x80A8, symSize: 0x20 }
-  - { offsetInCU: 0x429, offset: 0x76DB3, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateC06deleteD033_90730503536DC054C6A43012971AB008LL4pathySS_tKFTf4nd_n', symObjAddr: 0x1EC8, symBinAddr: 0x98EC, symSize: 0x224 }
-  - { offsetInCU: 0x4C2, offset: 0x76E4C, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCfETo', symObjAddr: 0x460, symBinAddr: 0x7E84, symSize: 0x64 }
-  - { offsetInCU: 0x4F1, offset: 0x76E7B, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCMa', symObjAddr: 0x4C4, symBinAddr: 0x7EE8, symSize: 0x20 }
-  - { offsetInCU: 0x8AC, offset: 0x77236, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegatePAAE16getInputSettings6configSDySSypGAA12RecordConfigC_tFAA012RecorderFileE0C_Tg5Tf4nd_n', symObjAddr: 0x2130, symBinAddr: 0x9B10, symSize: 0xD8 }
-  - { offsetInCU: 0xA9D, offset: 0x77427, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegatePAAE12nearestValue33_A587D0BD7CD3423F8F0813EFD901F81CLL6values5value3keySo8NSNumberCSayAJG_AJSStFAA012RecorderFileE0C_Tg5Tf4nnnd_n', symObjAddr: 0x2208, symBinAddr: 0x9BE8, symSize: 0x520 }
-  - { offsetInCU: 0x112F, offset: 0x77AB9, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegatePAAE17getOutputSettings6configSDySSypGAA12RecordConfigC_tKFAA012RecorderFileE0C_Tg5Tf4nd_n', symObjAddr: 0x2728, symBinAddr: 0xA108, symSize: 0x1398 }
-  - { offsetInCU: 0x1AAB, offset: 0x78435, size: 0x8, addend: 0x0, symName: '_$sSo8NSNumberCMa', symObjAddr: 0x3B50, symBinAddr: 0xB4A0, symSize: 0x3C }
-  - { offsetInCU: 0x1ABF, offset: 0x78449, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x3B8C, symBinAddr: 0xB4DC, symSize: 0x20 }
-  - { offsetInCU: 0x1AD3, offset: 0x7845D, size: 0x8, addend: 0x0, symName: '_$sSS_yptWOc', symObjAddr: 0x3BE8, symBinAddr: 0xB4FC, symSize: 0x48 }
-  - { offsetInCU: 0x1BCE, offset: 0x78558, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTgm5Tf4g_n', symObjAddr: 0x1BF4, symBinAddr: 0x9618, symSize: 0xFC }
-  - { offsetInCU: 0x1D24, offset: 0x786AE, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SfTgm5Tf4g_n', symObjAddr: 0x1CF0, symBinAddr: 0x9714, symSize: 0xEC }
-  - { offsetInCU: 0x1E7A, offset: 0x78804, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_13record_darwin8RecorderCTgm5Tf4g_n', symObjAddr: 0x1DDC, symBinAddr: 0x9800, symSize: 0xEC }
-  - { offsetInCU: 0x2473, offset: 0x78DFD, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateC5start6config4pathyAA12RecordConfigC_SStKF', symObjAddr: 0x0, symBinAddr: 0x7A24, symSize: 0x210 }
-  - { offsetInCU: 0x25C1, offset: 0x78F4B, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateC4stop17completionHandleryySSSgc_tF', symObjAddr: 0x210, symBinAddr: 0x7C34, symSize: 0xB0 }
-  - { offsetInCU: 0x26B0, offset: 0x7903A, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateC6cancelyyKF', symObjAddr: 0x2C0, symBinAddr: 0x7CE4, symSize: 0xC4 }
-  - { offsetInCU: 0x27B2, offset: 0x7913C, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateC7disposeyyF', symObjAddr: 0x384, symBinAddr: 0x7DA8, symSize: 0x7C }
-  - { offsetInCU: 0x28A4, offset: 0x7922E, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCfD', symObjAddr: 0x430, symBinAddr: 0x7E54, symSize: 0x30 }
-  - { offsetInCU: 0x292C, offset: 0x792B6, size: 0x8, addend: 0x0, symName: '_$sSo15AVAudioRecorderC3url8settingsAB10Foundation3URLV_SDySSypGtKcfcTO', symObjAddr: 0x6A4, symBinAddr: 0x80C8, symSize: 0x158 }
-  - { offsetInCU: 0x2970, offset: 0x792FA, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFSS_ypTg5', symObjAddr: 0x90C, symBinAddr: 0x8330, symSize: 0x1F4 }
-  - { offsetInCU: 0x2A1E, offset: 0x793A8, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFSS_SfTg5', symObjAddr: 0xB00, symBinAddr: 0x8524, symSize: 0x1BC }
-  - { offsetInCU: 0x2ACC, offset: 0x79456, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFSS_13record_darwin8RecorderCTg5', symObjAddr: 0xCBC, symBinAddr: 0x86E0, symSize: 0x1C4 }
-  - { offsetInCU: 0x2B8F, offset: 0x79519, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_ypTg5', symObjAddr: 0xE80, symBinAddr: 0x88A4, symSize: 0x340 }
-  - { offsetInCU: 0x2C86, offset: 0x79610, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_SfTg5', symObjAddr: 0x11C0, symBinAddr: 0x8BE4, symSize: 0x334 }
-  - { offsetInCU: 0x2D69, offset: 0x796F3, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_13record_darwin8RecorderCTg5', symObjAddr: 0x14F4, symBinAddr: 0x8F18, symSize: 0x340 }
-  - { offsetInCU: 0x2E53, offset: 0x797DD, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_ypTg5', symObjAddr: 0x1834, symBinAddr: 0x9258, symSize: 0x1DC }
-  - { offsetInCU: 0x2EF8, offset: 0x79882, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_13record_darwin8RecorderCTg5', symObjAddr: 0x1A10, symBinAddr: 0x9434, symSize: 0x1E4 }
-  - { offsetInCU: 0x2B, offset: 0x79BC2, size: 0x8, addend: 0x0, symName: '_$s13record_darwin10listInputsSayAA6DeviceCGyKF', symObjAddr: 0x0, symBinAddr: 0xB544, symSize: 0x250 }
-  - { offsetInCU: 0x118, offset: 0x79CAF, size: 0x8, addend: 0x0, symName: '_$s13record_darwin10listInputsSayAA6DeviceCGyKF', symObjAddr: 0x0, symBinAddr: 0xB544, symSize: 0x250 }
-  - { offsetInCU: 0x581, offset: 0x7A118, size: 0x8, addend: 0x0, symName: '_$s13record_darwin16listInputDevicesSaySo29AVAudioSessionPortDescriptionCGSgyKF', symObjAddr: 0x250, symBinAddr: 0xB794, symSize: 0x270 }
-  - { offsetInCU: 0x65D, offset: 0x7A1F4, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8setInput33_8482C6AC2752839F5C32116E8234560ELLyyAA12RecordConfigCKF', symObjAddr: 0x4C0, symBinAddr: 0xBA04, symSize: 0x2A0 }
-  - { offsetInCU: 0x85F, offset: 0x7A3F6, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionPortDescriptionCMa', symObjAddr: 0x7A4, symBinAddr: 0xBCA4, symSize: 0x3C }
-  - { offsetInCU: 0x233, offset: 0x7A9F5, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCACycfcTo', symObjAddr: 0x2090, symBinAddr: 0xDD70, symSize: 0x2C }
-  - { offsetInCU: 0x2B0, offset: 0x7AA72, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCAA014AudioRecordingdE0A2aDP5start6config0A12EventHandleryAA12RecordConfigC_AA0ldK0CtKFTW', symObjAddr: 0x215C, symBinAddr: 0xDE3C, symSize: 0x20 }
-  - { offsetInCU: 0x2D3, offset: 0x7AA95, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCAA014AudioRecordingE0A2aDP4stop17completionHandleryySSSgc_tFTW', symObjAddr: 0x217C, symBinAddr: 0xDE5C, symSize: 0x20 }
-  - { offsetInCU: 0x2EF, offset: 0x7AAB1, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCAA014AudioRecordingE0A2aDP6cancelyyKFTW', symObjAddr: 0x219C, symBinAddr: 0xDE7C, symSize: 0x20 }
-  - { offsetInCU: 0x33E, offset: 0x7AB00, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCAA014AudioRecordingE0A2aDP12getAmplitudeSfyFTW', symObjAddr: 0x21BC, symBinAddr: 0xDE9C, symSize: 0x14 }
-  - { offsetInCU: 0x397, offset: 0x7AB59, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCAA014AudioRecordingE0A2aDP5pauseyyFTW', symObjAddr: 0x21D0, symBinAddr: 0xDEB0, symSize: 0x54 }
-  - { offsetInCU: 0x40A, offset: 0x7ABCC, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCAA014AudioRecordingE0A2aDP6resumeyyKFTW', symObjAddr: 0x2224, symBinAddr: 0xDF04, symSize: 0x20 }
-  - { offsetInCU: 0x42D, offset: 0x7ABEF, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCAA014AudioRecordingE0A2aDP7disposeyyFTW', symObjAddr: 0x2244, symBinAddr: 0xDF24, symSize: 0x20 }
-  - { offsetInCU: 0x449, offset: 0x7AC0B, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC18setVoiceProcessing33_A88AF34A225FB2AA97D066A76E36C3F4LL10echoCancel8autoGain11audioEngineySb_SbSo07AVAudioX0CtKFTf4nnnd_n', symObjAddr: 0x22F4, symBinAddr: 0xDF94, symSize: 0x1E8 }
-  - { offsetInCU: 0x507, offset: 0x7ACC9, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC19convertInt16toUInt833_A88AF34A225FB2AA97D066A76E36C3F4LLySays0H0VGSays5Int16VGFTf4nd_n', symObjAddr: 0x24F4, symBinAddr: 0xE194, symSize: 0x12C }
-  - { offsetInCU: 0x7C1, offset: 0x7AF83, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegatePAAE18initAVAudioSession6configyAA12RecordConfigC_tKFy10Foundation12NotificationVcxcfu1_yAJcfu2_AA014RecorderStreamE0C_Tg5', symObjAddr: 0x970, symBinAddr: 0xC650, symSize: 0x158 }
-  - { offsetInCU: 0x8EF, offset: 0x7B0B1, size: 0x8, addend: 0x0, symName: '_$s10Foundation12NotificationVIeghn_So14NSNotificationCIeyBhy_TR', symObjAddr: 0xC5C, symBinAddr: 0xC93C, symSize: 0xA4 }
-  - { offsetInCU: 0x93F, offset: 0x7B101, size: 0x8, addend: 0x0, symName: '_$sSo16AVAudioPCMBufferCSo0A4TimeCIeggg_AbDIeyByy_TR', symObjAddr: 0x1210, symBinAddr: 0xCEF0, symSize: 0x78 }
-  - { offsetInCU: 0xC07, offset: 0x7B3C9, size: 0x8, addend: 0x0, symName: '_$ss6UInt32VSpySo27AVAudioConverterInputStatusVGSo0B6BufferCSgIegyyo_AbeHIeyByya_TR', symObjAddr: 0x1F68, symBinAddr: 0xDC48, symSize: 0x54 }
-  - { offsetInCU: 0xC35, offset: 0x7B3F7, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCfETo', symObjAddr: 0x20EC, symBinAddr: 0xDDCC, symSize: 0x50 }
-  - { offsetInCU: 0xC64, offset: 0x7B426, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCMa', symObjAddr: 0x213C, symBinAddr: 0xDE1C, symSize: 0x20 }
-  - { offsetInCU: 0xC78, offset: 0x7B43A, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC6stream33_A88AF34A225FB2AA97D066A76E36C3F4LL6buffer9dstFormat9converter0A12EventHandlerySo16AVAudioPCMBufferC_So0wS0CSo0W9ConverterCAA06RecorddV0CtFSo0W6BufferCSgs6UInt32V_SpySo0wY11InputStatusVGtcfU_TA', symObjAddr: 0x2288, symBinAddr: 0xDF68, symSize: 0x2C }
-  - { offsetInCU: 0xCC7, offset: 0x7B489, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x24DC, symBinAddr: 0xE17C, symSize: 0x10 }
-  - { offsetInCU: 0xCDB, offset: 0x7B49D, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x24EC, symBinAddr: 0xE18C, symSize: 0x8 }
-  - { offsetInCU: 0xDFD, offset: 0x7B5BF, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_SgWOy', symObjAddr: 0x2620, symBinAddr: 0xE2C0, symSize: 0x10 }
-  - { offsetInCU: 0xE50, offset: 0x7B612, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV06InlineB0VyAESWcfCTf4nd_n', symObjAddr: 0x2698, symBinAddr: 0xE2D0, symSize: 0xC4 }
-  - { offsetInCU: 0xEC6, offset: 0x7B688, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10LargeSliceVyAESWcfCTf4nd_n', symObjAddr: 0x275C, symBinAddr: 0xE394, symSize: 0x78 }
-  - { offsetInCU: 0xEF3, offset: 0x7B6B5, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV11InlineSliceVyAESWcfCTf4nd_n', symObjAddr: 0x27D4, symBinAddr: 0xE40C, symSize: 0x80 }
-  - { offsetInCU: 0xF87, offset: 0x7B749, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOyAESWcfCTf4nd_n', symObjAddr: 0x2854, symBinAddr: 0xE48C, symSize: 0x68 }
-  - { offsetInCU: 0xFDC, offset: 0x7B79E, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x2908, symBinAddr: 0xE520, symSize: 0x44 }
-  - { offsetInCU: 0xFF0, offset: 0x7B7B2, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC6stream33_A88AF34A225FB2AA97D066A76E36C3F4LL6buffer9dstFormat9converter0A12EventHandlerySo16AVAudioPCMBufferC_So0wS0CSo0W9ConverterCAA06RecorddV0CtFyyScMYccfU2_TA', symObjAddr: 0x294C, symBinAddr: 0xE564, symSize: 0xC }
-  - { offsetInCU: 0x1004, offset: 0x7B7C6, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOy', symObjAddr: 0x2958, symBinAddr: 0xE570, symSize: 0x44 }
-  - { offsetInCU: 0x1018, offset: 0x7B7DA, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC5start6config0A12EventHandleryAA12RecordConfigC_AA0jdI0CtKFySo16AVAudioPCMBufferC_So0L4TimeCtcfU_TA', symObjAddr: 0x2B2C, symBinAddr: 0xE668, symSize: 0x28 }
-  - { offsetInCU: 0x1077, offset: 0x7B839, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegatePAAE18initAVAudioSession6configyAA12RecordConfigC_tKFy10Foundation12NotificationVcxcfu1_yAJcfu2_AA014RecorderStreamE0C_TG5TA', symObjAddr: 0x2B54, symBinAddr: 0xE690, symSize: 0x8 }
-  - { offsetInCU: 0x108F, offset: 0x7B851, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegatePAAE18initAVAudioSession6configyAA12RecordConfigC_tKFy10Foundation12NotificationVcxcfu1_yAJcfu2_AA014RecorderStreamE0C_TG5TA', symObjAddr: 0x2B54, symBinAddr: 0xE690, symSize: 0x8 }
-  - { offsetInCU: 0x10A0, offset: 0x7B862, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOh', symObjAddr: 0x2B5C, symBinAddr: 0xE698, symSize: 0x34 }
-  - { offsetInCU: 0x10E1, offset: 0x7B8A3, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegatePAAE18initAVAudioSession6configyAA12RecordConfigC_tKFy10Foundation12NotificationVcxcfu1_yAJcfu2_AA012RecorderFileE0C_TG5TA', symObjAddr: 0x2BCC, symBinAddr: 0xE6CC, symSize: 0x20 }
-  - { offsetInCU: 0x1738, offset: 0x7BEFA, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegatePAAE02onC19SessionInterruption33_8482C6AC2752839F5C32116E8234560ELL12notificationy10Foundation12NotificationV_tFAA012RecorderFileE0C_Tg5', symObjAddr: 0xAC8, symBinAddr: 0xC7A8, symSize: 0x194 }
-  - { offsetInCU: 0x18B7, offset: 0x7C079, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC5start6config0A12EventHandleryAA12RecordConfigC_AA0jdI0CtKF', symObjAddr: 0xD00, symBinAddr: 0xC9E0, symSize: 0x510 }
-  - { offsetInCU: 0x1B42, offset: 0x7C304, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC4stop17completionHandleryySSSgc_tF', symObjAddr: 0x1288, symBinAddr: 0xCF68, symSize: 0xFC }
-  - { offsetInCU: 0x1C22, offset: 0x7C3E4, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC6resumeyyKF', symObjAddr: 0x1384, symBinAddr: 0xD064, symSize: 0xBC }
-  - { offsetInCU: 0x1CCC, offset: 0x7C48E, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC6cancelyyKF', symObjAddr: 0x1440, symBinAddr: 0xD120, symSize: 0xE8 }
-  - { offsetInCU: 0x1DAB, offset: 0x7C56D, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC7disposeyyF', symObjAddr: 0x1528, symBinAddr: 0xD208, symSize: 0xDC }
-  - { offsetInCU: 0x1EFC, offset: 0x7C6BE, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC6stream33_A88AF34A225FB2AA97D066A76E36C3F4LL6buffer9dstFormat9converter0A12EventHandlerySo16AVAudioPCMBufferC_So0wS0CSo0W9ConverterCAA06RecorddV0CtF', symObjAddr: 0x1604, symBinAddr: 0xD2E4, symSize: 0x964 }
-  - { offsetInCU: 0x277A, offset: 0x7CF3C, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC6stream33_A88AF34A225FB2AA97D066A76E36C3F4LL6buffer9dstFormat9converter0A12EventHandlerySo16AVAudioPCMBufferC_So0wS0CSo0W9ConverterCAA06RecorddV0CtFyyScMYccfU2_', symObjAddr: 0x1FBC, symBinAddr: 0xDC9C, symSize: 0xD4 }
-  - { offsetInCU: 0x29AD, offset: 0x7D16F, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCfD', symObjAddr: 0x20BC, symBinAddr: 0xDD9C, symSize: 0x30 }
-  - { offsetInCU: 0x43, offset: 0x7D31D, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0x0, symBinAddr: 0xE714, symSize: 0x2C }
-  - { offsetInCU: 0x80, offset: 0x7D35A, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC8register4withySo07FlutterE9Registrar_p_tFZTo', symObjAddr: 0x30, symBinAddr: 0xE744, symSize: 0x30 }
-  - { offsetInCU: 0xCD, offset: 0x7D3A7, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC16detachFromEngine3forySo07FlutterE9Registrar_p_tFTo', symObjAddr: 0x64, symBinAddr: 0xE778, symSize: 0x44 }
-  - { offsetInCU: 0x1E6, offset: 0x7D4C0, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0x2390, symBinAddr: 0x10AA4, symSize: 0x7C }
-  - { offsetInCU: 0x218, offset: 0x7D4F2, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC13hasPermission33_B0746FF9E35655FCB9E7AD8130BF927CLLyyyypSgcFySbcfU_', symObjAddr: 0x24F4, symBinAddr: 0x10C08, symSize: 0x1F4 }
-  - { offsetInCU: 0x2D6, offset: 0x7D5B0, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginCACycfcTo', symObjAddr: 0x2A34, symBinAddr: 0x11148, symSize: 0x2C }
-  - { offsetInCU: 0x373, offset: 0x7D64D, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC8register4withySo07FlutterE9Registrar_p_tFZTf4nd_n', symObjAddr: 0x3984, symBinAddr: 0x1204C, symSize: 0x124 }
-  - { offsetInCU: 0x42A, offset: 0x7D704, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC9getConfig33_B0746FF9E35655FCB9E7AD8130BF927CLL_6resultAA0dG0CSgSDySSypG_yypSgctF015$syXlSgIeyBy_ypR7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0x3B7C, symBinAddr: 0x121B8, symSize: 0x848 }
-  - { offsetInCU: 0x735, offset: 0x7DA0F, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC13hasPermission33_B0746FF9E35655FCB9E7AD8130BF927CLLyyyypSgcF015$syXlSgIeyBy_ypQ7Iegn_TRyXlSgIeyBy_Tf1cn_nTf4dg_n', symObjAddr: 0x43C4, symBinAddr: 0x12A00, symSize: 0x228 }
-  - { offsetInCU: 0x780, offset: 0x7DA5A, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypM7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n', symObjAddr: 0x45EC, symBinAddr: 0x12C28, symSize: 0x2C7C }
-  - { offsetInCU: 0x11EF, offset: 0x7E4C9, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC9getConfig33_B0746FF9E35655FCB9E7AD8130BF927CLL_6resultAA0dG0CSgSDySSypG_yypSgctFTf4nnd_n', symObjAddr: 0x7268, symBinAddr: 0x158A4, symSize: 0x7A0 }
-  - { offsetInCU: 0x14FF, offset: 0x7E7D9, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC13hasPermission33_B0746FF9E35655FCB9E7AD8130BF927CLLyyyypSgcFTf4nd_n', symObjAddr: 0x7A08, symBinAddr: 0x16044, symSize: 0x13C }
-  - { offsetInCU: 0x190D, offset: 0x7EBE7, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TR', symObjAddr: 0x240C, symBinAddr: 0x10B20, symSize: 0xE8 }
-  - { offsetInCU: 0x1921, offset: 0x7EBFB, size: 0x8, addend: 0x0, symName: '_$sSbIegy_SbIeyBy_TR', symObjAddr: 0x26E8, symBinAddr: 0x10DFC, symSize: 0x3C }
-  - { offsetInCU: 0x19EA, offset: 0x7ECC4, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginCfETo', symObjAddr: 0x2A6C, symBinAddr: 0x11180, symSize: 0x38 }
-  - { offsetInCU: 0x1A19, offset: 0x7ECF3, size: 0x8, addend: 0x0, symName: '_$s13record_darwin18StateStreamHandlerCfETo', symObjAddr: 0x2B18, symBinAddr: 0x1122C, symSize: 0x14 }
-  - { offsetInCU: 0x1A48, offset: 0x7ED22, size: 0x8, addend: 0x0, symName: '_$s13record_darwin19RecordStreamHandlerCfETo', symObjAddr: 0x2E44, symBinAddr: 0x11558, symSize: 0x14 }
-  - { offsetInCU: 0x1E22, offset: 0x7F0FC, size: 0x8, addend: 0x0, symName: '_$sypSgWOb', symObjAddr: 0x3AA8, symBinAddr: 0x12170, symSize: 0x48 }
-  - { offsetInCU: 0x1EF5, offset: 0x7F1CF, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFySSSgcfU_TA', symObjAddr: 0x7B68, symBinAddr: 0x161A4, symSize: 0x8 }
-  - { offsetInCU: 0x1F09, offset: 0x7F1E3, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginCMa', symObjAddr: 0x7B70, symBinAddr: 0x161AC, symSize: 0x20 }
-  - { offsetInCU: 0x1F1D, offset: 0x7F1F7, size: 0x8, addend: 0x0, symName: '_$s13record_darwin18StateStreamHandlerCMa', symObjAddr: 0x7BA0, symBinAddr: 0x161CC, symSize: 0x20 }
-  - { offsetInCU: 0x1F31, offset: 0x7F20B, size: 0x8, addend: 0x0, symName: '_$s13record_darwin19RecordStreamHandlerCMa', symObjAddr: 0x7BC0, symBinAddr: 0x161EC, symSize: 0x20 }
-  - { offsetInCU: 0x1F45, offset: 0x7F21F, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0x7C74, symBinAddr: 0x162A0, symSize: 0x8 }
-  - { offsetInCU: 0x1F59, offset: 0x7F233, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC13hasPermission33_B0746FF9E35655FCB9E7AD8130BF927CLLyyyypSgcFySbcfU_TA', symObjAddr: 0x7CA0, symBinAddr: 0x162CC, symSize: 0x8 }
-  - { offsetInCU: 0x1F6D, offset: 0x7F247, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x7CA8, symBinAddr: 0x162D4, symSize: 0x10 }
-  - { offsetInCU: 0x1F81, offset: 0x7F25B, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x7CB8, symBinAddr: 0x162E4, symSize: 0x8 }
-  - { offsetInCU: 0x1F95, offset: 0x7F26F, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC13hasPermission33_B0746FF9E35655FCB9E7AD8130BF927CLLyyyypSgcFySbcfU_yyScMYccfU_TA', symObjAddr: 0x7CE4, symBinAddr: 0x16310, symSize: 0x54 }
-  - { offsetInCU: 0x1FC9, offset: 0x7F2A3, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOc', symObjAddr: 0x7E10, symBinAddr: 0x16364, symSize: 0x3C }
-  - { offsetInCU: 0x1FDD, offset: 0x7F2B7, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC4stop17completionHandleryySSSgc_tFyAFcfU_TA', symObjAddr: 0x7FCC, symBinAddr: 0x164A8, symSize: 0xC }
-  - { offsetInCU: 0x24F8, offset: 0x7F7D2, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC8register4withySo07FlutterE9Registrar_p_tFZ', symObjAddr: 0x2C, symBinAddr: 0xE740, symSize: 0x4 }
-  - { offsetInCU: 0x2513, offset: 0x7F7ED, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC16detachFromEngine3forySo07FlutterE9Registrar_p_tF', symObjAddr: 0x60, symBinAddr: 0xE774, symSize: 0x4 }
-  - { offsetInCU: 0x2624, offset: 0x7F8FE, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC7disposeyyF', symObjAddr: 0xA8, symBinAddr: 0xE7BC, symSize: 0x2A4 }
-  - { offsetInCU: 0x2881, offset: 0x7FB5B, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x34C, symBinAddr: 0xEA60, symSize: 0x1FDC }
-  - { offsetInCU: 0x3206, offset: 0x804E0, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFySSSgcfU_', symObjAddr: 0x2328, symBinAddr: 0x10A3C, symSize: 0x68 }
-  - { offsetInCU: 0x340C, offset: 0x806E6, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC14createRecorder33_B0746FF9E35655FCB9E7AD8130BF927CLL10recorderIdySS_tF', symObjAddr: 0x2724, symBinAddr: 0x10E38, symSize: 0x2C4 }
-  - { offsetInCU: 0x36CB, offset: 0x809A5, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginCACycfC', symObjAddr: 0x29E8, symBinAddr: 0x110FC, symSize: 0x20 }
-  - { offsetInCU: 0x36DF, offset: 0x809B9, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginCACycfc', symObjAddr: 0x2A08, symBinAddr: 0x1111C, symSize: 0x2C }
-  - { offsetInCU: 0x3745, offset: 0x80A1F, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x2E58, symBinAddr: 0x1156C, symSize: 0x64 }
-  - { offsetInCU: 0x3783, offset: 0x80A5D, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5', symObjAddr: 0x2EBC, symBinAddr: 0x115D0, symSize: 0x30 }
-  - { offsetInCU: 0x37AC, offset: 0x80A86, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x2EEC, symBinAddr: 0x11600, symSize: 0xE0 }
-  - { offsetInCU: 0x3820, offset: 0x80AFA, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs11AnyHashableV_Tg5', symObjAddr: 0x2FCC, symBinAddr: 0x116E0, symSize: 0xC4 }
-  - { offsetInCU: 0x3849, offset: 0x80B23, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_ypTg5', symObjAddr: 0x3090, symBinAddr: 0x117A4, symSize: 0x6C }
-  - { offsetInCU: 0x38D7, offset: 0x80BB1, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_SfTg5', symObjAddr: 0x30FC, symBinAddr: 0x11810, symSize: 0x4C }
-  - { offsetInCU: 0x396B, offset: 0x80C45, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV19_getElementSlowPathyyXlSiF13record_darwin6DeviceC_Tg5', symObjAddr: 0x33B0, symBinAddr: 0x11A78, symSize: 0x1D0 }
-  - { offsetInCU: 0x39DD, offset: 0x80CB7, size: 0x8, addend: 0x0, symName: '_$sSD8_VariantV8setValue_6forKeyyq_n_xtFSS_13record_darwin8RecorderCTg5', symObjAddr: 0x3580, symBinAddr: 0x11C48, symSize: 0xE4 }
-  - { offsetInCU: 0x3ACE, offset: 0x80DA8, size: 0x8, addend: 0x0, symName: '_$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSS_13record_darwin8RecorderCTg5', symObjAddr: 0x3664, symBinAddr: 0x11D2C, symSize: 0xCC }
-  - { offsetInCU: 0x3B60, offset: 0x80E3A, size: 0x8, addend: 0x0, symName: '_$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFs5Int16V_Tg5', symObjAddr: 0x3730, symBinAddr: 0x11DF8, symSize: 0x1C }
-  - { offsetInCU: 0x3B74, offset: 0x80E4E, size: 0x8, addend: 0x0, symName: '_$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSDySSypG_Tg5', symObjAddr: 0x374C, symBinAddr: 0x11E14, symSize: 0x1C }
-  - { offsetInCU: 0x3BB2, offset: 0x80E8C, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5Int16V_Tg5', symObjAddr: 0x3768, symBinAddr: 0x11E30, symSize: 0xF8 }
-  - { offsetInCU: 0x3CB0, offset: 0x80F8A, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSDySSypG_Tg5', symObjAddr: 0x3860, symBinAddr: 0x11F28, symSize: 0x124 }
+  - { offset: 0x79406, size: 0x8, addend: 0x0, symName: _record_darwinVersionString, symObjAddr: 0x0, symBinAddr: 0x15A30, symSize: 0x0 }
+  - { offset: 0x7943B, size: 0x8, addend: 0x0, symName: _record_darwinVersionNumber, symObjAddr: 0x30, symBinAddr: 0x15A60, symSize: 0x0 }
+  - { offset: 0x79478, size: 0x8, addend: 0x0, symName: '+[RecordPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offset: 0x79486, size: 0x8, addend: 0x0, symName: '+[RecordPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offset: 0x795E3, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x168, symBinAddr: 0x4174, symSize: 0xC }
+  - { offset: 0x79614, size: 0x8, addend: 0x0, symName: '_$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF13record_darwin12AudioEncoderO_TB5', symObjAddr: 0x174, symBinAddr: 0x4180, symSize: 0x1FC }
+  - { offset: 0x79717, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOSHAASH9hashValueSivgTW', symObjAddr: 0x370, symBinAddr: 0x437C, symSize: 0x44 }
+  - { offset: 0x7977F, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x3B4, symBinAddr: 0x43C0, symSize: 0x8 }
+  - { offset: 0x79793, size: 0x8, addend: 0x0, symName: '_$sSYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF13record_darwin12AudioEncoderO_TB5', symObjAddr: 0x3BC, symBinAddr: 0x43C8, symSize: 0xE0 }
+  - { offset: 0x797F8, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x49C, symBinAddr: 0x44A8, symSize: 0x40 }
+  - { offset: 0x798E7, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x6C, symBinAddr: 0x4078, symSize: 0x40 }
+  - { offset: 0x799B4, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOSHAASQWb', symObjAddr: 0x6F4, symBinAddr: 0x4700, symSize: 0x4 }
+  - { offset: 0x799C8, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOACSQAAWl', symObjAddr: 0x6F8, symBinAddr: 0x4704, symSize: 0x44 }
+  - { offset: 0x799DC, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x73C, symBinAddr: 0x4748, symSize: 0xC }
+  - { offset: 0x799F0, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x748, symBinAddr: 0x4754, symSize: 0x4 }
+  - { offset: 0x79A04, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOwet', symObjAddr: 0x74C, symBinAddr: 0x4758, symSize: 0x90 }
+  - { offset: 0x79A18, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOwst', symObjAddr: 0x7DC, symBinAddr: 0x47E8, symSize: 0xBC }
+  - { offset: 0x79A2C, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOwug', symObjAddr: 0x898, symBinAddr: 0x48A4, symSize: 0x8 }
+  - { offset: 0x79A40, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOwup', symObjAddr: 0x8A0, symBinAddr: 0x48AC, symSize: 0x4 }
+  - { offset: 0x79A54, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOwui', symObjAddr: 0x8A4, symBinAddr: 0x48B0, symSize: 0x8 }
+  - { offset: 0x79A68, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOMa', symObjAddr: 0x8AC, symBinAddr: 0x48B8, symSize: 0x10 }
+  - { offset: 0x79A7C, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12RecordConfigCMa', symObjAddr: 0x8BC, symBinAddr: 0x48C8, symSize: 0x20 }
+  - { offset: 0x79A90, size: 0x8, addend: 0x0, symName: '_$s13record_darwin6DeviceCMa', symObjAddr: 0x8E8, symBinAddr: 0x48F4, symSize: 0x20 }
+  - { offset: 0x79AA4, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x9DC, symBinAddr: 0x4920, symSize: 0x3C }
+  - { offset: 0x79AB8, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0xA18, symBinAddr: 0x495C, symSize: 0x10 }
+  - { offset: 0x79AD3, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderO8rawValueACSgSS_tcfC', symObjAddr: 0x0, symBinAddr: 0x400C, symSize: 0x6C }
+  - { offset: 0x79B0A, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderO8rawValueSSvg', symObjAddr: 0xAC, symBinAddr: 0x40B8, symSize: 0xBC }
+  - { offset: 0x79B4F, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOSYAASY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0x4DC, symBinAddr: 0x44E8, symSize: 0xC }
+  - { offset: 0x79B63, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12AudioEncoderOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x4E8, symBinAddr: 0x44F4, symSize: 0x24 }
+  - { offset: 0x79B87, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12RecordConfigCfd', symObjAddr: 0x50C, symBinAddr: 0x4518, symSize: 0x24 }
+  - { offset: 0x79BBD, size: 0x8, addend: 0x0, symName: '_$s13record_darwin12RecordConfigCfD', symObjAddr: 0x530, symBinAddr: 0x453C, symSize: 0x2C }
+  - { offset: 0x79BFD, size: 0x8, addend: 0x0, symName: '_$s13record_darwin6DeviceC3mapACSDySSypG_tcfc', symObjAddr: 0x55C, symBinAddr: 0x4568, symSize: 0x148 }
+  - { offset: 0x79CB2, size: 0x8, addend: 0x0, symName: '_$s13record_darwin6DeviceCfd', symObjAddr: 0x6A4, symBinAddr: 0x46B0, symSize: 0x24 }
+  - { offset: 0x79CE8, size: 0x8, addend: 0x0, symName: '_$s13record_darwin6DeviceCfD', symObjAddr: 0x6C8, symBinAddr: 0x46D4, symSize: 0x2C }
+  - { offset: 0x7A0A5, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderCMa', symObjAddr: 0xD40, symBinAddr: 0x56A8, symSize: 0x20 }
+  - { offset: 0x7A0B9, size: 0x8, addend: 0x0, symName: '_$sSo17OS_dispatch_queueCMa', symObjAddr: 0xD60, symBinAddr: 0x56C8, symSize: 0x3C }
+  - { offset: 0x7A0CD, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC11updateState33_976E7D3F409C1A3C5DD7B8E12AD50F13LLyyAA06RecordE0OFyyScMYccfU_TA', symObjAddr: 0xDC0, symBinAddr: 0x5728, symSize: 0x54 }
+  - { offset: 0x7A101, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0xE14, symBinAddr: 0x577C, symSize: 0x10 }
+  - { offset: 0x7A115, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0xE24, symBinAddr: 0x578C, symSize: 0x8 }
+  - { offset: 0x7A129, size: 0x8, addend: 0x0, symName: '_$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl', symObjAddr: 0xE2C, symBinAddr: 0x5794, symSize: 0x48 }
+  - { offset: 0x7A13D, size: 0x8, addend: 0x0, symName: '_$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl', symObjAddr: 0xEB4, symBinAddr: 0x57DC, symSize: 0x4C }
+  - { offset: 0x7A151, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0xF00, symBinAddr: 0x5828, symSize: 0x44 }
+  - { offset: 0x7A165, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_SgWOe', symObjAddr: 0xF44, symBinAddr: 0x586C, symSize: 0x10 }
+  - { offset: 0x7A179, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOACs0D0AAWl', symObjAddr: 0x1108, symBinAddr: 0x5A30, symSize: 0x44 }
+  - { offset: 0x7A18D, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegate_pSgWOb', symObjAddr: 0x114C, symBinAddr: 0x5A74, symSize: 0x48 }
+  - { offset: 0x7A1A1, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegate_pSgWOd', symObjAddr: 0x1194, symBinAddr: 0x5ABC, symSize: 0x48 }
+  - { offset: 0x7A1B5, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegate_pSgWOc', symObjAddr: 0x11DC, symBinAddr: 0x5B04, symSize: 0x48 }
+  - { offset: 0x7A1C9, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegate_pWOc', symObjAddr: 0x1224, symBinAddr: 0x5B4C, symSize: 0x44 }
+  - { offset: 0x7A1DD, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0x1268, symBinAddr: 0x5B90, symSize: 0x24 }
+  - { offset: 0x7A1F1, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_1, symObjAddr: 0x1294, symBinAddr: 0x5BBC, symSize: 0x20 }
+  - { offset: 0x7A3AA, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC7disposeyyF', symObjAddr: 0x0, symBinAddr: 0x496C, symSize: 0x10C }
+  - { offset: 0x7A437, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC5start6config4pathyAA12RecordConfigC_SStKF', symObjAddr: 0x10C, symBinAddr: 0x4A78, symSize: 0x1CC }
+  - { offset: 0x7A509, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC11startStream6configyAA12RecordConfigC_tKF', symObjAddr: 0x2D8, symBinAddr: 0x4C44, symSize: 0x214 }
+  - { offset: 0x7A5EC, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC4stop17completionHandleryySSSgc_tF', symObjAddr: 0x4F0, symBinAddr: 0x4E58, symSize: 0x11C }
+  - { offset: 0x7A633, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC5pauseyyF', symObjAddr: 0x64C, symBinAddr: 0x4FB4, symSize: 0xD0 }
+  - { offset: 0x7A66C, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC6resumeyyKF', symObjAddr: 0x71C, symBinAddr: 0x5084, symSize: 0xEC }
+  - { offset: 0x7A6C5, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC12getAmplitudeSDySSSfGyF', symObjAddr: 0x808, symBinAddr: 0x5170, symSize: 0x21C }
+  - { offset: 0x7A89D, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC6cancelyyKF', symObjAddr: 0xA24, symBinAddr: 0x538C, symSize: 0xCC }
+  - { offset: 0x7A931, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC11updateState33_976E7D3F409C1A3C5DD7B8E12AD50F13LLyyAA06RecordE0OF', symObjAddr: 0xAF0, symBinAddr: 0x5458, symSize: 0x214 }
+  - { offset: 0x7A9F5, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderCfD', symObjAddr: 0xD04, symBinAddr: 0x566C, symSize: 0x3C }
+  - { offset: 0x7AA44, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC18isEncoderSupportedySbSSFTf4nd_n', symObjAddr: 0xF90, symBinAddr: 0x58B8, symSize: 0x178 }
+  - { offset: 0x7AC1D, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateO8rawValueSivg', symObjAddr: 0x0, symBinAddr: 0x5C54, symSize: 0x8 }
+  - { offset: 0x7ACA7, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOSHAASQWb', symObjAddr: 0x40, symBinAddr: 0x5C94, symSize: 0x4 }
+  - { offset: 0x7ACBB, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOACSQAAWl', symObjAddr: 0x44, symBinAddr: 0x5C98, symSize: 0x44 }
+  - { offset: 0x7ACDA, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwCP', symObjAddr: 0x148, symBinAddr: 0x5D9C, symSize: 0x30 }
+  - { offset: 0x7ACEE, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwxx', symObjAddr: 0x178, symBinAddr: 0x5DCC, symSize: 0x28 }
+  - { offset: 0x7AD02, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwcp', symObjAddr: 0x1A0, symBinAddr: 0x5DF4, symSize: 0x3C }
+  - { offset: 0x7AD16, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwca', symObjAddr: 0x1DC, symBinAddr: 0x5E30, symSize: 0x6C }
+  - { offset: 0x7AD2A, size: 0x8, addend: 0x0, symName: ___swift_memcpy32_8, symObjAddr: 0x248, symBinAddr: 0x5E9C, symSize: 0xC }
+  - { offset: 0x7AD3E, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwta', symObjAddr: 0x254, symBinAddr: 0x5EA8, symSize: 0x44 }
+  - { offset: 0x7AD52, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwet', symObjAddr: 0x298, symBinAddr: 0x5EEC, symSize: 0x48 }
+  - { offset: 0x7AD66, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwst', symObjAddr: 0x2E0, symBinAddr: 0x5F34, symSize: 0x40 }
+  - { offset: 0x7AD7A, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOwug', symObjAddr: 0x320, symBinAddr: 0x5F74, symSize: 0x8 }
+  - { offset: 0x7AD8E, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOMa', symObjAddr: 0x330, symBinAddr: 0x5F7C, symSize: 0x10 }
+  - { offset: 0x7ADA2, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOwet', symObjAddr: 0x350, symBinAddr: 0x5F8C, symSize: 0x90 }
+  - { offset: 0x7ADB6, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOwst', symObjAddr: 0x3E0, symBinAddr: 0x601C, symSize: 0xBC }
+  - { offset: 0x7ADCA, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOMa', symObjAddr: 0x4B0, symBinAddr: 0x60D8, symSize: 0x10 }
+  - { offset: 0x7ADF8, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOs0D0AAsADP7_domainSSvgTW', symObjAddr: 0x8, symBinAddr: 0x5C5C, symSize: 0x4 }
+  - { offset: 0x7AE14, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOs0D0AAsADP5_codeSivgTW', symObjAddr: 0xC, symBinAddr: 0x5C60, symSize: 0x4 }
+  - { offset: 0x7AE30, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOs0D0AAsADP9_userInfoyXlSgvgTW', symObjAddr: 0x10, symBinAddr: 0x5C64, symSize: 0x4 }
+  - { offset: 0x7AE4C, size: 0x8, addend: 0x0, symName: '_$s13record_darwin13RecorderErrorOs0D0AAsADP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0x14, symBinAddr: 0x5C68, symSize: 0x4 }
+  - { offset: 0x7AE83, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x2C, symBinAddr: 0x5C80, symSize: 0x14 }
+  - { offset: 0x7AF14, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOSHAASH9hashValueSivgTW', symObjAddr: 0x88, symBinAddr: 0x5CDC, symSize: 0x44 }
+  - { offset: 0x7AFAE, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0xCC, symBinAddr: 0x5D20, symSize: 0x28 }
+  - { offset: 0x7AFEC, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0xF4, symBinAddr: 0x5D48, symSize: 0x40 }
+  - { offset: 0x7B05B, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateO8rawValueSivg', symObjAddr: 0x0, symBinAddr: 0x5C54, symSize: 0x8 }
+  - { offset: 0x7B07C, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateO8rawValueACSgSi_tcfC', symObjAddr: 0x18, symBinAddr: 0x5C6C, symSize: 0x14 }
+  - { offset: 0x7B0A9, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOSYAASY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0x134, symBinAddr: 0x5D88, symSize: 0x8 }
+  - { offset: 0x7B0D4, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x13C, symBinAddr: 0x5D90, symSize: 0xC }
+  - { offset: 0x7B0EC, size: 0x8, addend: 0x0, symName: '_$s13record_darwin11RecordStateOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x13C, symBinAddr: 0x5D90, symSize: 0xC }
+  - { offset: 0x7B472, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCfETo', symObjAddr: 0x418, symBinAddr: 0x6580, symSize: 0x3C }
+  - { offset: 0x7B4A1, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCMa', symObjAddr: 0x454, symBinAddr: 0x65BC, symSize: 0x20 }
+  - { offset: 0x7B4EC, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFSS_ypTg5', symObjAddr: 0x858, symBinAddr: 0x69C0, symSize: 0x1F8 }
+  - { offset: 0x7B5AA, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFSS_SfTg5', symObjAddr: 0xA50, symBinAddr: 0x6BB8, symSize: 0x1C0 }
+  - { offset: 0x7B668, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFSS_13record_darwin8RecorderCTg5', symObjAddr: 0xC10, symBinAddr: 0x6D78, symSize: 0x1C8 }
+  - { offset: 0x7B73C, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_ypTg5', symObjAddr: 0xDD8, symBinAddr: 0x6F40, symSize: 0x32C }
+  - { offset: 0x7B83A, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_SfTg5', symObjAddr: 0x1104, symBinAddr: 0x726C, symSize: 0x320 }
+  - { offset: 0x7B924, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_13record_darwin8RecorderCTg5', symObjAddr: 0x1424, symBinAddr: 0x758C, symSize: 0x32C }
+  - { offset: 0x7BA19, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_ypTg5', symObjAddr: 0x1750, symBinAddr: 0x78B8, symSize: 0x1D4 }
+  - { offset: 0x7BAB9, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_13record_darwin8RecorderCTg5', symObjAddr: 0x1924, symBinAddr: 0x7A8C, symSize: 0x1D4 }
+  - { offset: 0x7BBF3, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegatePAAE16getInputSettings6configSDySSypGAA12RecordConfigC_tFAA012RecorderFileE0C_Tg5Tf4nd_n', symObjAddr: 0x1FCC, symBinAddr: 0x80F0, symSize: 0xD8 }
+  - { offset: 0x7BD97, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegatePAAE12nearestValue33_A587D0BD7CD3423F8F0813EFD901F81CLL6values5value3keySo8NSNumberCSayAJG_AJSStFAA012RecorderFileE0C_Tg5Tf4nnnd_n', symObjAddr: 0x20A4, symBinAddr: 0x81C8, symSize: 0x520 }
+  - { offset: 0x7C403, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegatePAAE17getOutputSettings6configSDySSypGAA12RecordConfigC_tKFAA012RecorderFileE0C_Tg5Tf4nd_n', symObjAddr: 0x25C4, symBinAddr: 0x86E8, symSize: 0x13B0 }
+  - { offset: 0x7CE0D, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x39B4, symBinAddr: 0x9A98, symSize: 0x40 }
+  - { offset: 0x7CE21, size: 0x8, addend: 0x0, symName: '_$sSo8NSNumberCMa', symObjAddr: 0x3A04, symBinAddr: 0x9AD8, symSize: 0x3C }
+  - { offset: 0x7CE35, size: 0x8, addend: 0x0, symName: '_$sSS_yptWOc', symObjAddr: 0x3A9C, symBinAddr: 0x9B14, symSize: 0x48 }
+  - { offset: 0x7CEE5, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTgm5Tf4g_n', symObjAddr: 0x1AF8, symBinAddr: 0x7C60, symSize: 0xFC }
+  - { offset: 0x7D026, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SfTgm5Tf4g_n', symObjAddr: 0x1BF4, symBinAddr: 0x7D5C, symSize: 0xEC }
+  - { offset: 0x7D167, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_13record_darwin8RecorderCTgm5Tf4g_n', symObjAddr: 0x1CE0, symBinAddr: 0x7E48, symSize: 0xEC }
+  - { offset: 0x7D673, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateC5start6config4pathyAA12RecordConfigC_SStKF', symObjAddr: 0x0, symBinAddr: 0x6168, symSize: 0x210 }
+  - { offset: 0x7D7A7, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateC4stop17completionHandleryySSSgc_tF', symObjAddr: 0x210, symBinAddr: 0x6378, symSize: 0x8C }
+  - { offset: 0x7D878, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateC6cancelyyKF', symObjAddr: 0x29C, symBinAddr: 0x6404, symSize: 0xA0 }
+  - { offset: 0x7D956, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateC7disposeyyF', symObjAddr: 0x33C, symBinAddr: 0x64A4, symSize: 0x50 }
+  - { offset: 0x7DA26, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateC05audioC18DidFinishRecording_12successfullyySo07AVAudioC0C_SbtFTo', symObjAddr: 0x38C, symBinAddr: 0x64F4, symSize: 0x4 }
+  - { offset: 0x7DA4E, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCACycfcTo', symObjAddr: 0x390, symBinAddr: 0x64F8, symSize: 0x58 }
+  - { offset: 0x7DA83, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCfD', symObjAddr: 0x3E8, symBinAddr: 0x6550, symSize: 0x30 }
+  - { offset: 0x7DAA6, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCAA014AudioRecordingdE0A2aDP5start6config4pathyAA12RecordConfigC_SStKFTW', symObjAddr: 0x474, symBinAddr: 0x65DC, symSize: 0x20 }
+  - { offset: 0x7DABA, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCAA014AudioRecordingE0A2aDP4stop17completionHandleryySSSgc_tFTW', symObjAddr: 0x494, symBinAddr: 0x65FC, symSize: 0x20 }
+  - { offset: 0x7DACE, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCAA014AudioRecordingE0A2aDP6cancelyyKFTW', symObjAddr: 0x4B4, symBinAddr: 0x661C, symSize: 0x20 }
+  - { offset: 0x7DAF6, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCAA014AudioRecordingE0A2aDP12getAmplitudeSfyFTW', symObjAddr: 0x4D4, symBinAddr: 0x663C, symSize: 0x5C }
+  - { offset: 0x7DB8F, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCAA014AudioRecordingE0A2aDP5pauseyyFTW', symObjAddr: 0x530, symBinAddr: 0x6698, symSize: 0x64 }
+  - { offset: 0x7DBEE, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCAA014AudioRecordingE0A2aDP6resumeyyKFTW', symObjAddr: 0x594, symBinAddr: 0x66FC, symSize: 0x3C }
+  - { offset: 0x7DC41, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateCAA014AudioRecordingE0A2aDP7disposeyyFTW', symObjAddr: 0x5D0, symBinAddr: 0x6738, symSize: 0x20 }
+  - { offset: 0x7DC55, size: 0x8, addend: 0x0, symName: '_$sSo15AVAudioRecorderC3url8settingsAB10Foundation3URLV_SDySSypGtKcfcTO', symObjAddr: 0x5F0, symBinAddr: 0x6758, symSize: 0x158 }
+  - { offset: 0x7DC96, size: 0x8, addend: 0x0, symName: '_$s13record_darwin20RecorderFileDelegateC06deleteD033_90730503536DC054C6A43012971AB008LL4pathySS_tKFTf4nd_n', symObjAddr: 0x1DCC, symBinAddr: 0x7F34, symSize: 0x1BC }
+  - { offset: 0x7DEBB, size: 0x8, addend: 0x0, symName: '_$s13record_darwin10listInputsSayAA6DeviceCGyKF', symObjAddr: 0x0, symBinAddr: 0x9B5C, symSize: 0x410 }
+  - { offset: 0x7DFDF, size: 0x8, addend: 0x0, symName: '_$s13record_darwin10listInputsSayAA6DeviceCGyKF', symObjAddr: 0x0, symBinAddr: 0x9B5C, symSize: 0x410 }
+  - { offset: 0x7E4A4, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8setInput33_8482C6AC2752839F5C32116E8234560ELLyyAA12RecordConfigCKF', symObjAddr: 0x410, symBinAddr: 0x9F6C, symSize: 0x3E0 }
+  - { offset: 0x7E72E, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionPortDescriptionCMa', symObjAddr: 0x834, symBinAddr: 0xA34C, symSize: 0x3C }
+  - { offset: 0x7EBE9, size: 0x8, addend: 0x0, symName: '_$sSTsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFs8StrideToVySiG_s5Int16Vs5NeverOTg50192$s13record_darwin22RecorderStreamDelegateC6stream33_A88AF34A225FB2AA97D066A76E36C3F4LL6buffer9dstFormat9converter0A12EventHandlerySo16AVAudioPCMBufferC_So0wS0CSo0W9ConverterCAA06RecorddV0CtFs5F9VSiXEfU1_SpyAJGTf1cn_n', symObjAddr: 0x1CB0, symBinAddr: 0xC038, symSize: 0x1DC }
+  - { offset: 0x7EF5E, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegatePAAE02onC19SessionInterruption33_8482C6AC2752839F5C32116E8234560ELL12notificationy10Foundation12NotificationV_tFAA012RecorderFileE0C_Tg5', symObjAddr: 0x624, symBinAddr: 0xA9AC, symSize: 0x26C }
+  - { offset: 0x7F3A3, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegatePAAE02onC19SessionInterruption33_8482C6AC2752839F5C32116E8234560ELL12notificationy10Foundation12NotificationV_tFAA014RecorderStreamE0C_Tg5', symObjAddr: 0x890, symBinAddr: 0xAC18, symSize: 0x358 }
+  - { offset: 0x7F5CE, size: 0x8, addend: 0x0, symName: '_$s10Foundation12NotificationVIeghn_So14NSNotificationCIeyBhy_TR', symObjAddr: 0xBE8, symBinAddr: 0xAF70, symSize: 0xA4 }
+  - { offset: 0x7F614, size: 0x8, addend: 0x0, symName: '_$sSo16AVAudioPCMBufferCSo0A4TimeCIeggg_AbDIeyByy_TR', symObjAddr: 0x1174, symBinAddr: 0xB4FC, symSize: 0x78 }
+  - { offset: 0x7F774, size: 0x8, addend: 0x0, symName: '_$ss6UInt32VSpySo27AVAudioConverterInputStatusVGSo0B6BufferCSgIegyyo_AbeHIeyByya_TR', symObjAddr: 0x1C5C, symBinAddr: 0xBFE4, symSize: 0x54 }
+  - { offset: 0x7F831, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCfETo', symObjAddr: 0x1FF4, symBinAddr: 0xC37C, symSize: 0x10 }
+  - { offset: 0x7F860, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCMa', symObjAddr: 0x2004, symBinAddr: 0xC38C, symSize: 0x20 }
+  - { offset: 0x7F874, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC6stream33_A88AF34A225FB2AA97D066A76E36C3F4LL6buffer9dstFormat9converter0A12EventHandlerySo16AVAudioPCMBufferC_So0wS0CSo0W9ConverterCAA06RecorddV0CtFSo0W6BufferCSgs6UInt32V_SpySo0wY11InputStatusVGtcfU_TA', symObjAddr: 0x2118, symBinAddr: 0xC4A0, symSize: 0x2C }
+  - { offset: 0x7F8C3, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x2184, symBinAddr: 0xC4CC, symSize: 0x10 }
+  - { offset: 0x7F8D7, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x2194, symBinAddr: 0xC4DC, symSize: 0x8 }
+  - { offset: 0x7F8F6, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlF13record_darwin6DeviceC_Tgm5', symObjAddr: 0x219C, symBinAddr: 0xC4E4, symSize: 0x54 }
+  - { offset: 0x7F986, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF13record_darwin6DeviceC_Tg5', symObjAddr: 0x21F0, symBinAddr: 0xC538, symSize: 0x150 }
+  - { offset: 0x7FB1D, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tg5', symObjAddr: 0x2340, symBinAddr: 0xC688, symSize: 0xE8 }
+  - { offset: 0x7FC2A, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC13record_darwin6DeviceC_Tgm5', symObjAddr: 0x2428, symBinAddr: 0xC770, symSize: 0x7C }
+  - { offset: 0x7FCAB, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF13record_darwin6DeviceC_Tg5', symObjAddr: 0x24A4, symBinAddr: 0xC7EC, symSize: 0xFC }
+  - { offset: 0x7FE0C, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_SgWOy', symObjAddr: 0x26CC, symBinAddr: 0xCA14, symSize: 0x10 }
+  - { offset: 0x7FE41, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV06InlineB0VyAESWcfCTf4nd_n', symObjAddr: 0x2744, symBinAddr: 0xCA24, symSize: 0xC0 }
+  - { offset: 0x7FEB7, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10LargeSliceVyAESWcfCTf4nd_n', symObjAddr: 0x2804, symBinAddr: 0xCAE4, symSize: 0x78 }
+  - { offset: 0x7FEE4, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV11InlineSliceVyAESWcfCTf4nd_n', symObjAddr: 0x287C, symBinAddr: 0xCB5C, symSize: 0x80 }
+  - { offset: 0x7FF5A, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOyAESWcfCTf4nd_n', symObjAddr: 0x28FC, symBinAddr: 0xCBDC, symSize: 0x64 }
+  - { offset: 0x7FF76, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOyAESWcfCTf4nd_n', symObjAddr: 0x28FC, symBinAddr: 0xCBDC, symSize: 0x64 }
+  - { offset: 0x7FFC3, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x29AC, symBinAddr: 0xCC6C, symSize: 0x44 }
+  - { offset: 0x7FFD7, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC6stream33_A88AF34A225FB2AA97D066A76E36C3F4LL6buffer9dstFormat9converter0A12EventHandlerySo16AVAudioPCMBufferC_So0wS0CSo0W9ConverterCAA06RecorddV0CtFyyScMYccfU2_TA', symObjAddr: 0x29F0, symBinAddr: 0xCCB0, symSize: 0xC }
+  - { offset: 0x7FFEB, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOy', symObjAddr: 0x29FC, symBinAddr: 0xCCBC, symSize: 0x44 }
+  - { offset: 0x7FFFF, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC5start6config0A12EventHandleryAA12RecordConfigC_AA0jdI0CtKFySo16AVAudioPCMBufferC_So0L4TimeCtcfU_TA', symObjAddr: 0x2BD0, symBinAddr: 0xCDB4, symSize: 0x28 }
+  - { offset: 0x80080, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegatePAAE18initAVAudioSession6configyAA12RecordConfigC_tKFy10Foundation12NotificationVcxcfu_yAJcfu0_AA014RecorderStreamE0C_TG5TA', symObjAddr: 0x2BF8, symBinAddr: 0xCDDC, symSize: 0x20 }
+  - { offset: 0x800D0, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOh', symObjAddr: 0x2C18, symBinAddr: 0xCDFC, symSize: 0x34 }
+  - { offset: 0x80111, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22AudioRecordingDelegatePAAE18initAVAudioSession6configyAA12RecordConfigC_tKFy10Foundation12NotificationVcxcfu_yAJcfu0_AA012RecorderFileE0C_TG5TA', symObjAddr: 0x2C88, symBinAddr: 0xCE30, symSize: 0x20 }
+  - { offset: 0x80425, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC5start6config0A12EventHandleryAA12RecordConfigC_AA0jdI0CtKF', symObjAddr: 0xC8C, symBinAddr: 0xB014, symSize: 0x4E8 }
+  - { offset: 0x806A5, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC4stop17completionHandleryySSSgc_tF', symObjAddr: 0x11EC, symBinAddr: 0xB574, symSize: 0x9C }
+  - { offset: 0x80726, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC6resumeyyKF', symObjAddr: 0x1288, symBinAddr: 0xB610, symSize: 0xBC }
+  - { offset: 0x80763, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC6cancelyyKF', symObjAddr: 0x1344, symBinAddr: 0xB6CC, symSize: 0x84 }
+  - { offset: 0x807F4, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC7disposeyyF', symObjAddr: 0x13C8, symBinAddr: 0xB750, symSize: 0x78 }
+  - { offset: 0x80A0F, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC6stream33_A88AF34A225FB2AA97D066A76E36C3F4LL6buffer9dstFormat9converter0A12EventHandlerySo16AVAudioPCMBufferC_So0wS0CSo0W9ConverterCAA06RecorddV0CtF', symObjAddr: 0x1440, symBinAddr: 0xB7C8, symSize: 0x81C }
+  - { offset: 0x81080, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC6stream33_A88AF34A225FB2AA97D066A76E36C3F4LL6buffer9dstFormat9converter0A12EventHandlerySo16AVAudioPCMBufferC_So0wS0CSo0W9ConverterCAA06RecorddV0CtFyyScMYccfU2_', symObjAddr: 0x1E8C, symBinAddr: 0xC214, symSize: 0xD4 }
+  - { offset: 0x8116E, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCACycfcTo', symObjAddr: 0x1F60, symBinAddr: 0xC2E8, symSize: 0x64 }
+  - { offset: 0x811A3, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCfD', symObjAddr: 0x1FC4, symBinAddr: 0xC34C, symSize: 0x30 }
+  - { offset: 0x811C6, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCAA014AudioRecordingdE0A2aDP5start6config0A12EventHandleryAA12RecordConfigC_AA0ldK0CtKFTW', symObjAddr: 0x2024, symBinAddr: 0xC3AC, symSize: 0x20 }
+  - { offset: 0x811DA, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCAA014AudioRecordingE0A2aDP4stop17completionHandleryySSSgc_tFTW', symObjAddr: 0x2044, symBinAddr: 0xC3CC, symSize: 0x20 }
+  - { offset: 0x811EE, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCAA014AudioRecordingE0A2aDP6cancelyyKFTW', symObjAddr: 0x2064, symBinAddr: 0xC3EC, symSize: 0x20 }
+  - { offset: 0x8122A, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCAA014AudioRecordingE0A2aDP12getAmplitudeSfyFTW', symObjAddr: 0x2084, symBinAddr: 0xC40C, symSize: 0x14 }
+  - { offset: 0x8127B, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCAA014AudioRecordingE0A2aDP5pauseyyFTW', symObjAddr: 0x2098, symBinAddr: 0xC420, symSize: 0x1C }
+  - { offset: 0x812CE, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCAA014AudioRecordingE0A2aDP6resumeyyKFTW', symObjAddr: 0x20B4, symBinAddr: 0xC43C, symSize: 0x20 }
+  - { offset: 0x812E2, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateCAA014AudioRecordingE0A2aDP7disposeyyFTW', symObjAddr: 0x20D4, symBinAddr: 0xC45C, symSize: 0x20 }
+  - { offset: 0x8131E, size: 0x8, addend: 0x0, symName: '_$s13record_darwin22RecorderStreamDelegateC19convertInt16toUInt833_A88AF34A225FB2AA97D066A76E36C3F4LLySays0H0VGSays5Int16VGFTf4nd_n', symObjAddr: 0x25A0, symBinAddr: 0xC8E8, symSize: 0x12C }
+  - { offset: 0x8178C, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0x0, symBinAddr: 0xCE78, symSize: 0x2C }
+  - { offset: 0x81D69, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TR', symObjAddr: 0x21B4, symBinAddr: 0xF02C, symSize: 0xE8 }
+  - { offset: 0x81D7D, size: 0x8, addend: 0x0, symName: '_$sSbIegy_SbIeyBy_TR', symObjAddr: 0x2490, symBinAddr: 0xF308, symSize: 0x3C }
+  - { offset: 0x81ECF, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginCfETo', symObjAddr: 0x2814, symBinAddr: 0xF68C, symSize: 0x38 }
+  - { offset: 0x81EFE, size: 0x8, addend: 0x0, symName: '_$s13record_darwin18StateStreamHandlerCfETo', symObjAddr: 0x2970, symBinAddr: 0xF7E8, symSize: 0x14 }
+  - { offset: 0x81F2D, size: 0x8, addend: 0x0, symName: '_$s13record_darwin19RecordStreamHandlerCfETo', symObjAddr: 0x2C68, symBinAddr: 0xFAE0, symSize: 0x14 }
+  - { offset: 0x81F67, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x2C7C, symBinAddr: 0xFAF4, symSize: 0x64 }
+  - { offset: 0x81F9F, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5', symObjAddr: 0x2CE0, symBinAddr: 0xFB58, symSize: 0x30 }
+  - { offset: 0x81FD7, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x2D10, symBinAddr: 0xFB88, symSize: 0xE0 }
+  - { offset: 0x8205A, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs11AnyHashableV_Tg5', symObjAddr: 0x2DF0, symBinAddr: 0xFC68, symSize: 0xC4 }
+  - { offset: 0x82087, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_ypTg5', symObjAddr: 0x2EB4, symBinAddr: 0xFD2C, symSize: 0x68 }
+  - { offset: 0x82121, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_SfTg5', symObjAddr: 0x2F1C, symBinAddr: 0xFD94, symSize: 0x48 }
+  - { offset: 0x821B4, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV19_getElementSlowPathyyXlSiF13record_darwin6DeviceC_Tg5', symObjAddr: 0x31C8, symBinAddr: 0xFFF8, symSize: 0x1D0 }
+  - { offset: 0x82241, size: 0x8, addend: 0x0, symName: '_$sSD8_VariantV8setValue_6forKeyyq_n_xtFSS_13record_darwin8RecorderCTg5', symObjAddr: 0x3398, symBinAddr: 0x101C8, symSize: 0xE0 }
+  - { offset: 0x82340, size: 0x8, addend: 0x0, symName: '_$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSS_13record_darwin8RecorderCTg5', symObjAddr: 0x3478, symBinAddr: 0x102A8, symSize: 0xD4 }
+  - { offset: 0x823D6, size: 0x8, addend: 0x0, symName: '_$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFs5Int16V_Tg5', symObjAddr: 0x354C, symBinAddr: 0x1037C, symSize: 0x1C }
+  - { offset: 0x823EE, size: 0x8, addend: 0x0, symName: '_$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSDySSypG_Tg5', symObjAddr: 0x3568, symBinAddr: 0x10398, symSize: 0x1C }
+  - { offset: 0x8245E, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5Int16V_Tg5', symObjAddr: 0x3584, symBinAddr: 0x103B4, symSize: 0xF4 }
+  - { offset: 0x82597, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSDySSypG_Tg5', symObjAddr: 0x3678, symBinAddr: 0x104A8, symSize: 0x120 }
+  - { offset: 0x82683, size: 0x8, addend: 0x0, symName: '_$sypSgWOb', symObjAddr: 0x38BC, symBinAddr: 0x106EC, symSize: 0x48 }
+  - { offset: 0x8272B, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFySSSgcfU_TA', symObjAddr: 0x6FEC, symBinAddr: 0x13D90, symSize: 0x8 }
+  - { offset: 0x8273F, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginCMa', symObjAddr: 0x6FF4, symBinAddr: 0x13D98, symSize: 0x20 }
+  - { offset: 0x82753, size: 0x8, addend: 0x0, symName: '_$s13record_darwin18StateStreamHandlerCMa', symObjAddr: 0x7024, symBinAddr: 0x13DB8, symSize: 0x20 }
+  - { offset: 0x82767, size: 0x8, addend: 0x0, symName: '_$s13record_darwin19RecordStreamHandlerCMa', symObjAddr: 0x7044, symBinAddr: 0x13DD8, symSize: 0x20 }
+  - { offset: 0x8277B, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0x70F8, symBinAddr: 0x13E8C, symSize: 0x8 }
+  - { offset: 0x8278F, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC13hasPermission33_B0746FF9E35655FCB9E7AD8130BF927CLLyyyypSgcFySbcfU_TA', symObjAddr: 0x7124, symBinAddr: 0x13EB8, symSize: 0x8 }
+  - { offset: 0x827A3, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x712C, symBinAddr: 0x13EC0, symSize: 0x10 }
+  - { offset: 0x827B7, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x713C, symBinAddr: 0x13ED0, symSize: 0x8 }
+  - { offset: 0x827CB, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC13hasPermission33_B0746FF9E35655FCB9E7AD8130BF927CLLyyyypSgcFySbcfU_yyScMYccfU_TA', symObjAddr: 0x7168, symBinAddr: 0x13EFC, symSize: 0x54 }
+  - { offset: 0x827FF, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOc', symObjAddr: 0x7294, symBinAddr: 0x13F50, symSize: 0x3C }
+  - { offset: 0x82813, size: 0x8, addend: 0x0, symName: '_$s13record_darwin8RecorderC4stop17completionHandleryySSSgc_tFyAFcfU_TA', symObjAddr: 0x7450, symBinAddr: 0x13FFC, symSize: 0xC }
+  - { offset: 0x8290F, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC8register4withySo07FlutterE9Registrar_p_tFZ', symObjAddr: 0x2C, symBinAddr: 0xCEA4, symSize: 0x4 }
+  - { offset: 0x82930, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC8register4withySo07FlutterE9Registrar_p_tFZTo', symObjAddr: 0x30, symBinAddr: 0xCEA8, symSize: 0x30 }
+  - { offset: 0x8295A, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC16detachFromEngine3forySo07FlutterE9Registrar_p_tF', symObjAddr: 0x60, symBinAddr: 0xCED8, symSize: 0x4 }
+  - { offset: 0x829A7, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC16detachFromEngine3forySo07FlutterE9Registrar_p_tFTo', symObjAddr: 0x64, symBinAddr: 0xCEDC, symSize: 0x44 }
+  - { offset: 0x82D01, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC7disposeyyF', symObjAddr: 0xA8, symBinAddr: 0xCF20, symSize: 0x2E0 }
+  - { offset: 0x82EED, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x388, symBinAddr: 0xD200, symSize: 0x1D48 }
+  - { offset: 0x838A0, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFySSSgcfU_', symObjAddr: 0x20D0, symBinAddr: 0xEF48, symSize: 0x68 }
+  - { offset: 0x83924, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0x2138, symBinAddr: 0xEFB0, symSize: 0x7C }
+  - { offset: 0x83986, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC13hasPermission33_B0746FF9E35655FCB9E7AD8130BF927CLLyyyypSgcFySbcfU_', symObjAddr: 0x229C, symBinAddr: 0xF114, symSize: 0x1F4 }
+  - { offset: 0x83A6D, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC14createRecorder33_B0746FF9E35655FCB9E7AD8130BF927CLL10recorderIdySS_tF', symObjAddr: 0x24CC, symBinAddr: 0xF344, symSize: 0x2C4 }
+  - { offset: 0x83D02, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginCACycfC', symObjAddr: 0x2790, symBinAddr: 0xF608, symSize: 0x20 }
+  - { offset: 0x83D16, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginCACycfc', symObjAddr: 0x27B0, symBinAddr: 0xF628, symSize: 0x2C }
+  - { offset: 0x83D6F, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginCACycfcTo', symObjAddr: 0x27DC, symBinAddr: 0xF654, symSize: 0x2C }
+  - { offset: 0x83E29, size: 0x8, addend: 0x0, symName: '_$s13record_darwin18StateStreamHandlerC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTo', symObjAddr: 0x2858, symBinAddr: 0xF6D0, symSize: 0xCC }
+  - { offset: 0x83EE4, size: 0x8, addend: 0x0, symName: '_$s13record_darwin19RecordStreamHandlerC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTo', symObjAddr: 0x29D0, symBinAddr: 0xF848, symSize: 0xCC }
+  - { offset: 0x83F99, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC8register4withySo07FlutterE9Registrar_p_tFZTf4nd_n', symObjAddr: 0x3798, symBinAddr: 0x105C8, symSize: 0x124 }
+  - { offset: 0x840E8, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC9getConfig33_B0746FF9E35655FCB9E7AD8130BF927CLL_6resultAA0dG0CSgSDySSypG_yypSgctF015$syXlSgIeyBy_ypR7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0x3990, symBinAddr: 0x10734, symSize: 0x664 }
+  - { offset: 0x8436A, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC13hasPermission33_B0746FF9E35655FCB9E7AD8130BF927CLLyyyypSgcF015$syXlSgIeyBy_ypQ7Iegn_TRyXlSgIeyBy_Tf1cn_nTf4dg_n', symObjAddr: 0x3FF4, symBinAddr: 0x10D98, symSize: 0x228 }
+  - { offset: 0x843A9, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypM7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n', symObjAddr: 0x421C, symBinAddr: 0x10FC0, symSize: 0x26B4 }
+  - { offset: 0x84DDE, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC9getConfig33_B0746FF9E35655FCB9E7AD8130BF927CLL_6resultAA0dG0CSgSDySSypG_yypSgctFTf4nnd_n', symObjAddr: 0x68D0, symBinAddr: 0x13674, symSize: 0x5BC }
+  - { offset: 0x85063, size: 0x8, addend: 0x0, symName: '_$s13record_darwin17SwiftRecordPluginC13hasPermission33_B0746FF9E35655FCB9E7AD8130BF927CLLyyyypSgcFTf4nd_n', symObjAddr: 0x6E8C, symBinAddr: 0x13C30, symSize: 0x13C }
 ...
