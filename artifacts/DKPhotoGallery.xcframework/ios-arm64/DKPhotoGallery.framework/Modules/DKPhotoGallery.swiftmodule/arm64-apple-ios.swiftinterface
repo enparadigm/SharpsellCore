@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DKPhotoGallery
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DKPhotoGallery
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import AVFoundation
 import AVKit
 @_exported import DKPhotoGallery
@@ -59,7 +59,7 @@ public protocol DKPhotoBasePreviewDataSource : ObjectiveC.NSObjectProtocol {
   func createContentView() -> UIKit.UIView
   func updateContentView(with content: Any)
   func contentSize() -> CoreFoundation.CGSize
-  func fetchContent(withProgressBlock progressBlock: @escaping ((_ progress: Swift.Float) -> Swift.Void), completeBlock: @escaping ((_ data: Any?, _ error: (any Swift.Error)?) -> Swift.Void))
+  func fetchContent(withProgressBlock progressBlock: @escaping (_ progress: Swift.Float) -> Swift.Void, completeBlock: @escaping (_ data: Any?, _ error: (any Swift.Error)?) -> Swift.Void)
   func snapshotImage() -> UIKit.UIImage?
   func showError()
   func hidesError()
@@ -108,7 +108,7 @@ public protocol DKPhotoBasePreviewDataSource : ObjectiveC.NSObjectProtocol {
   @_Concurrency.MainActor @preconcurrency public func createContentView() -> UIKit.UIView
   @_Concurrency.MainActor @preconcurrency public func updateContentView(with content: Any)
   @_Concurrency.MainActor @preconcurrency public func contentSize() -> CoreFoundation.CGSize
-  @_Concurrency.MainActor @preconcurrency public func fetchContent(withProgressBlock progressBlock: @escaping ((_ progress: Swift.Float) -> Swift.Void), completeBlock: @escaping ((_ data: Any?, _ error: (any Swift.Error)?) -> Swift.Void))
+  @_Concurrency.MainActor @preconcurrency public func fetchContent(withProgressBlock progressBlock: @escaping (_ progress: Swift.Float) -> Swift.Void, completeBlock: @escaping (_ data: Any?, _ error: (any Swift.Error)?) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public func snapshotImage() -> UIKit.UIImage?
   @_Concurrency.MainActor @preconcurrency public func showError()
   @_Concurrency.MainActor @preconcurrency public func hidesError()
@@ -141,8 +141,8 @@ public protocol DKPhotoBasePreviewDataSource : ObjectiveC.NSObjectProtocol {
 }
 @objc public protocol DKPhotoGalleryIncrementalDataSource : ObjectiveC.NSObjectProtocol {
   @objc optional func numberOfItems(in gallery: DKPhotoGallery.DKPhotoGallery) -> Swift.Int
-  @objc func photoGallery(_ gallery: DKPhotoGallery.DKPhotoGallery, itemsBefore item: DKPhotoGallery.DKPhotoGalleryItem?, resultHandler: @escaping ((_ items: [DKPhotoGallery.DKPhotoGalleryItem]?, _ error: (any Swift.Error)?) -> Swift.Void))
-  @objc func photoGallery(_ gallery: DKPhotoGallery.DKPhotoGallery, itemsAfter item: DKPhotoGallery.DKPhotoGalleryItem?, resultHandler: @escaping ((_ items: [DKPhotoGallery.DKPhotoGalleryItem]?, _ error: (any Swift.Error)?) -> Swift.Void))
+  @objc func photoGallery(_ gallery: DKPhotoGallery.DKPhotoGallery, itemsBefore item: DKPhotoGallery.DKPhotoGalleryItem?, resultHandler: @escaping (_ items: [DKPhotoGallery.DKPhotoGalleryItem]?, _ error: (any Swift.Error)?) -> Swift.Void)
+  @objc func photoGallery(_ gallery: DKPhotoGallery.DKPhotoGallery, itemsAfter item: DKPhotoGallery.DKPhotoGalleryItem?, resultHandler: @escaping (_ items: [DKPhotoGallery.DKPhotoGalleryItem]?, _ error: (any Swift.Error)?) -> Swift.Void)
 }
 @objc public enum DKPhotoGallerySingleTapMode : Swift.Int {
   case dismiss, toggleControlView
@@ -313,7 +313,7 @@ public enum DKPhotoIncrementalIndicatorDirection {
   @_Concurrency.MainActor @preconcurrency override open func prepareForReuse()
   @_Concurrency.MainActor @preconcurrency override open func createContentView() -> UIKit.UIView
   @_Concurrency.MainActor @preconcurrency override open func contentSize() -> CoreFoundation.CGSize
-  @_Concurrency.MainActor @preconcurrency override open func fetchContent(withProgressBlock progressBlock: @escaping ((Swift.Float) -> Swift.Void), completeBlock: @escaping ((Any?, (any Swift.Error)?) -> Swift.Void))
+  @_Concurrency.MainActor @preconcurrency override open func fetchContent(withProgressBlock progressBlock: @escaping (Swift.Float) -> Swift.Void, completeBlock: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency override open func updateContentView(with content: Any)
   @_Concurrency.MainActor @preconcurrency override open func enableZoom() -> Swift.Bool
   @_Concurrency.MainActor @preconcurrency override public func enableIndicatorView() -> Swift.Bool
@@ -339,7 +339,7 @@ public enum DKPhotoIncrementalIndicatorDirection {
   @_Concurrency.MainActor @preconcurrency override open func prepareForReuse()
   @_Concurrency.MainActor @preconcurrency override open func createContentView() -> UIKit.UIView
   @_Concurrency.MainActor @preconcurrency override open func contentSize() -> CoreFoundation.CGSize
-  @_Concurrency.MainActor @preconcurrency override open func fetchContent(withProgressBlock progressBlock: @escaping ((Swift.Float) -> Swift.Void), completeBlock: @escaping ((Any?, (any Swift.Error)?) -> Swift.Void))
+  @_Concurrency.MainActor @preconcurrency override open func fetchContent(withProgressBlock progressBlock: @escaping (Swift.Float) -> Swift.Void, completeBlock: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency override open func updateContentView(with content: Any)
   @_Concurrency.MainActor @preconcurrency override open func enableZoom() -> Swift.Bool
   @_Concurrency.MainActor @preconcurrency override public func enableIndicatorView() -> Swift.Bool

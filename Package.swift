@@ -90,7 +90,7 @@ let package = Package(
                 "sqlite3",
                 "store_redirect",
                 "SwiftyGif",
-                "Toast",
+//                "Toast",
                 "TOCropViewController",
                 "url_launcher_ios",
                 "video_player_avfoundation",
@@ -305,8 +305,8 @@ let package = Package(
             .binaryTarget(name: "SwiftyGif",
                           path: "artifacts/SwiftyGif.xcframework"),
 
-            .binaryTarget(name: "Toast",
-                          path: "artifacts/Toast.xcframework"),
+//            .binaryTarget(name: "Toast",
+//                          path: "artifacts/Toast.xcframework"),
 
             .binaryTarget(name: "TOCropViewController",
                           path: "artifacts/TOCropViewController.xcframework"),

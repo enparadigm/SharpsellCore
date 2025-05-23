@@ -5,6 +5,228 @@
     "printedName": "printing",
     "children": [
       {
+        "kind": "TypeDecl",
+        "name": "CustomPrintPaper",
+        "printedName": "CustomPrintPaper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "paperSize",
+            "printedName": "paperSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@printing@objc(cs)CustomPrintPaper(py)paperSize",
+            "mangledName": "$s8printing16CustomPrintPaperC9paperSizeSo6CGSizeVvp",
+            "moduleName": "printing",
+            "overriding": true,
+            "objc_name": "paperSize",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@printing@objc(cs)CustomPrintPaper(im)paperSize",
+                "mangledName": "$s8printing16CustomPrintPaperC9paperSizeSo6CGSizeVvg",
+                "moduleName": "printing",
+                "overriding": true,
+                "objc_name": "paperSize",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "printableRect",
+            "printedName": "printableRect",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@printing@objc(cs)CustomPrintPaper(py)printableRect",
+            "mangledName": "$s8printing16CustomPrintPaperC13printableRectSo6CGRectVvp",
+            "moduleName": "printing",
+            "overriding": true,
+            "objc_name": "printableRect",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@printing@objc(cs)CustomPrintPaper(im)printableRect",
+                "mangledName": "$s8printing16CustomPrintPaperC13printableRectSo6CGRectVvg",
+                "moduleName": "printing",
+                "overriding": true,
+                "objc_name": "printableRect",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomPrintPaper",
+                "printedName": "printing.CustomPrintPaper",
+                "usr": "c:@M@printing@objc(cs)CustomPrintPaper"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@printing@objc(cs)CustomPrintPaper(im)init",
+            "mangledName": "$s8printing16CustomPrintPaperCACycfc",
+            "moduleName": "printing",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@printing@objc(cs)CustomPrintPaper",
+        "mangledName": "$s8printing16CustomPrintPaperC",
+        "moduleName": "printing",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIPrintPaper",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIPrintPaper",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Flutter",
         "printedName": "Flutter",
@@ -1177,25 +1399,39 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/printing-5.12.0\/ios\/Classes\/PrintJob.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/printing-5.14.2\/ios\/Classes\/PrintJob.swift",
       "kind": "IntegerLiteral",
-      "offset": 1407,
+      "offset": 1479,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/printing-5.12.0\/ios\/Classes\/PrintJob.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/printing-5.14.2\/ios\/Classes\/PrintJob.swift",
       "kind": "BooleanLiteral",
-      "offset": 1436,
+      "offset": 1508,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/printing-5.12.0\/ios\/Classes\/PrintJob.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/printing-5.14.2\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1591,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/printing-5.14.2\/ios\/Classes\/PrintJob.swift",
       "kind": "IntegerLiteral",
-      "offset": 5099,
+      "offset": 5217,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/printing-5.14.2\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6576,
+      "length": 5,
+      "value": "false"
     }
   ]
 }

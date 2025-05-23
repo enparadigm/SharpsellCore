@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name DKImagePickerController
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DKImagePickerController
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import AVFoundation
 @_exported import DKImagePickerController
 import DKPhotoGallery
@@ -457,9 +457,9 @@ public protocol DKImageExtensionProtocol {
   @objc @_Concurrency.MainActor @preconcurrency open func dismiss()
   @objc @_Concurrency.MainActor @preconcurrency open func done()
   @objc @_Concurrency.MainActor @preconcurrency open func reload(with dataManager: DKImagePickerController.DKImageGroupDataManager)
-  @objc @_Concurrency.MainActor @preconcurrency open func saveImage(_ image: UIKit.UIImage, _ metadata: [Swift.AnyHashable : Any]?, _ completeBlock: @escaping ((_ asset: DKImagePickerController.DKAsset) -> Swift.Void))
-  @objc @_Concurrency.MainActor @preconcurrency open func saveImageToAlbum(_ image: UIKit.UIImage, _ completeBlock: @escaping ((_ asset: DKImagePickerController.DKAsset) -> Swift.Void))
-  @objc @_Concurrency.MainActor @preconcurrency open func saveImageDataToAlbumForiOS9(_ imageDataWithMetadata: Foundation.Data, _ completeBlock: @escaping ((_ asset: DKImagePickerController.DKAsset) -> Swift.Void))
+  @objc @_Concurrency.MainActor @preconcurrency open func saveImage(_ image: UIKit.UIImage, _ metadata: [Swift.AnyHashable : Any]?, _ completeBlock: @escaping (_ asset: DKImagePickerController.DKAsset) -> Swift.Void)
+  @objc @_Concurrency.MainActor @preconcurrency open func saveImageToAlbum(_ image: UIKit.UIImage, _ completeBlock: @escaping (_ asset: DKImagePickerController.DKAsset) -> Swift.Void)
+  @objc @_Concurrency.MainActor @preconcurrency open func saveImageDataToAlbumForiOS9(_ imageDataWithMetadata: Foundation.Data, _ completeBlock: @escaping (_ asset: DKImagePickerController.DKAsset) -> Swift.Void)
   @objc @_Concurrency.MainActor @preconcurrency open func writeMetadata(_ metadata: Swift.Dictionary<Swift.AnyHashable, Any>, into imageData: Foundation.Data) -> Foundation.Data?
   @objc @_Concurrency.MainActor @preconcurrency open func select(asset: DKImagePickerController.DKAsset)
   @objc @_Concurrency.MainActor @preconcurrency open func select(assets: [DKImagePickerController.DKAsset])

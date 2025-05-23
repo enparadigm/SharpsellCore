@@ -5,6 +5,13 @@
     "printedName": "record_darwin",
     "children": [
       {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "record_darwin"
+      },
+      {
         "kind": "TypeDecl",
         "name": "AudioEncoder",
         "printedName": "AudioEncoder",
@@ -874,9 +881,72 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "iosConfig",
+            "printedName": "iosConfig",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "record_darwin.IosConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IosConfig",
+                    "printedName": "record_darwin.IosConfig",
+                    "usr": "s:13record_darwin9IosConfigV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13record_darwin12RecordConfigC03iosD0AA03IosD0VSgvp",
+            "mangledName": "$s13record_darwin12RecordConfigC03iosD0AA03IosD0VSgvp",
+            "moduleName": "record_darwin",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "record_darwin.IosConfig?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IosConfig",
+                        "printedName": "record_darwin.IosConfig",
+                        "usr": "s:13record_darwin9IosConfigV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13record_darwin12RecordConfigC03iosD0AA03IosD0VSgvg",
+                "mangledName": "$s13record_darwin12RecordConfigC03iosD0AA03IosD0VSgvg",
+                "moduleName": "record_darwin",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(encoder:bitRate:sampleRate:numChannels:device:autoGain:echoCancel:noiseSuppress:)",
+            "printedName": "init(encoder:bitRate:sampleRate:numChannels:device:autoGain:echoCancel:noiseSuppress:iosConfig:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -943,11 +1013,26 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "record_darwin.IosConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IosConfig",
+                    "printedName": "record_darwin.IosConfig",
+                    "usr": "s:13record_darwin9IosConfigV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13record_darwin12RecordConfigC7encoder7bitRate06sampleG011numChannels6device8autoGain10echoCancel13noiseSuppressACSS_S3iAA6DeviceCSgS3btcfc",
-            "mangledName": "$s13record_darwin12RecordConfigC7encoder7bitRate06sampleG011numChannels6device8autoGain10echoCancel13noiseSuppressACSS_S3iAA6DeviceCSgS3btcfc",
+            "usr": "s:13record_darwin12RecordConfigC7encoder7bitRate06sampleG011numChannels6device8autoGain10echoCancel13noiseSuppress03iosD0ACSS_S3iAA6DeviceCSgS3bAA03IosD0VSgtcfc",
+            "mangledName": "$s13record_darwin12RecordConfigC7encoder7bitRate06sampleG011numChannels6device8autoGain10echoCancel13noiseSuppress03iosD0ACSS_S3iAA6DeviceCSgS3bAA03IosD0VSgtcfc",
             "moduleName": "record_darwin",
             "init_kind": "Designated"
           }
@@ -1200,6 +1285,187 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IosConfig",
+        "printedName": "IosConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "categoryOptions",
+            "printedName": "categoryOptions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AVFAudio.AVAudioSession.CategoryOptions]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CategoryOptions",
+                    "printedName": "AVFAudio.AVAudioSession.CategoryOptions",
+                    "usr": "c:@E@AVAudioSessionCategoryOptions"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13record_darwin9IosConfigV15categoryOptionsSaySo022AVAudioSessionCategoryF0VGvp",
+            "mangledName": "$s13record_darwin9IosConfigV15categoryOptionsSaySo022AVAudioSessionCategoryF0VGvp",
+            "moduleName": "record_darwin",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AVFAudio.AVAudioSession.CategoryOptions]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CategoryOptions",
+                        "printedName": "AVFAudio.AVAudioSession.CategoryOptions",
+                        "usr": "c:@E@AVAudioSessionCategoryOptions"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13record_darwin9IosConfigV15categoryOptionsSaySo022AVAudioSessionCategoryF0VGvg",
+                "mangledName": "$s13record_darwin9IosConfigV15categoryOptionsSaySo022AVAudioSessionCategoryF0VGvg",
+                "moduleName": "record_darwin",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "manageAudioSession",
+            "printedName": "manageAudioSession",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13record_darwin9IosConfigV18manageAudioSessionSbvp",
+            "mangledName": "$s13record_darwin9IosConfigV18manageAudioSessionSbvp",
+            "moduleName": "record_darwin",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13record_darwin9IosConfigV18manageAudioSessionSbvg",
+                "mangledName": "$s13record_darwin9IosConfigV18manageAudioSessionSbvg",
+                "moduleName": "record_darwin",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(map:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IosConfig",
+                "printedName": "record_darwin.IosConfig",
+                "usr": "s:13record_darwin9IosConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13record_darwin9IosConfigV3mapACSDySSypG_tcfc",
+            "mangledName": "$s13record_darwin9IosConfigV3mapACSDySSypG_tcfc",
+            "moduleName": "record_darwin",
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13record_darwin9IosConfigV",
+        "mangledName": "$s13record_darwin9IosConfigV",
+        "moduleName": "record_darwin",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -2651,6 +2917,128 @@
             "hasStorage": true
           },
           {
+            "kind": "Var",
+            "name": "onPause",
+            "printedName": "onPause",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13record_darwin20RecorderFileDelegateC7onPause33_90730503536DC054C6A43012971AB008LLyycvp",
+            "mangledName": "$s13record_darwin20RecorderFileDelegateC7onPause33_90730503536DC054C6A43012971AB008LLyycvp",
+            "moduleName": "record_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "onStop",
+            "printedName": "onStop",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13record_darwin20RecorderFileDelegateC6onStop33_90730503536DC054C6A43012971AB008LLyycvp",
+            "mangledName": "$s13record_darwin20RecorderFileDelegateC6onStop33_90730503536DC054C6A43012971AB008LLyycvp",
+            "moduleName": "record_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(onPause:onStop:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RecorderFileDelegate",
+                "printedName": "record_darwin.RecorderFileDelegate",
+                "usr": "c:@M@record_darwin@objc(cs)RecorderFileDelegate"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13record_darwin20RecorderFileDelegateC7onPause0F4StopACyyc_yyctcfc",
+            "mangledName": "$s13record_darwin20RecorderFileDelegateC7onPause0F4StopACyyc_yyctcfc",
+            "moduleName": "record_darwin",
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "start",
             "printedName": "start(config:path:)",
@@ -2887,7 +3275,6 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
         ],
@@ -3159,6 +3546,128 @@
             "hasStorage": true
           },
           {
+            "kind": "Var",
+            "name": "onPause",
+            "printedName": "onPause",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13record_darwin22RecorderStreamDelegateC7onPause33_A88AF34A225FB2AA97D066A76E36C3F4LLyycvp",
+            "mangledName": "$s13record_darwin22RecorderStreamDelegateC7onPause33_A88AF34A225FB2AA97D066A76E36C3F4LLyycvp",
+            "moduleName": "record_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "onStop",
+            "printedName": "onStop",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13record_darwin22RecorderStreamDelegateC6onStop33_A88AF34A225FB2AA97D066A76E36C3F4LLyycvp",
+            "mangledName": "$s13record_darwin22RecorderStreamDelegateC6onStop33_A88AF34A225FB2AA97D066A76E36C3F4LLyycvp",
+            "moduleName": "record_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(onPause:onStop:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RecorderStreamDelegate",
+                "printedName": "record_darwin.RecorderStreamDelegate",
+                "usr": "c:@M@record_darwin@objc(cs)RecorderStreamDelegate"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13record_darwin22RecorderStreamDelegateC7onPause0F4StopACyyc_yyctcfc",
+            "mangledName": "$s13record_darwin22RecorderStreamDelegateC7onPause0F4StopACyyc_yyctcfc",
+            "moduleName": "record_darwin",
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "start",
             "printedName": "start(config:recordEventHandler:)",
@@ -3362,7 +3871,6 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
         ],
@@ -4534,126 +5042,126 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
-      "offset": 50,
+      "offset": 71,
       "length": 7,
       "value": "\"aacLc\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
-      "offset": 74,
+      "offset": 95,
       "length": 8,
       "value": "\"aacEld\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
-      "offset": 98,
+      "offset": 119,
       "length": 7,
       "value": "\"aacHe\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
-      "offset": 121,
+      "offset": 142,
       "length": 7,
       "value": "\"amrNb\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
-      "offset": 144,
+      "offset": 165,
       "length": 7,
       "value": "\"amrWb\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
-      "offset": 166,
+      "offset": 187,
       "length": 6,
       "value": "\"opus\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
-      "offset": 187,
+      "offset": 208,
       "length": 6,
       "value": "\"flac\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
-      "offset": 213,
+      "offset": 234,
       "length": 11,
       "value": "\"pcm16bits\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
-      "offset": 238,
+      "offset": 259,
       "length": 5,
       "value": "\"wav\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 602,
+      "offset": 651,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 635,
+      "offset": 684,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 671,
+      "offset": 720,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/Recorder.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/Recorder.swift",
       "kind": "FloatLiteral",
       "offset": 94,
       "length": 6,
       "value": "-160.0"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
       "kind": "IntegerLiteral",
       "offset": 171,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
       "kind": "IntegerLiteral",
       "offset": 189,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
       "kind": "IntegerLiteral",
       "offset": 205,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/delegate\/RecorderStreamDelegate.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderStreamDelegate.swift",
       "kind": "FloatLiteral",
       "offset": 185,
       "length": 6,
       "value": "-160.0"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.0.1\/ios\/Classes\/delegate\/RecorderStreamDelegate.swift",
+      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderStreamDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 212,
       "length": 1,
