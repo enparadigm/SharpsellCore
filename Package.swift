@@ -13,41 +13,28 @@ let package = Package(
             targets: ["SharpsellCore"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/moengage/MoEngage-iOS-SDK", .exact("9.17.5")),
-        .package(url: "https://github.com/moengage/MoEngage-iOS-InApps", .exact("6.00.3"))
+//        .package(url: "https://github.com/moengage/MoEngage-iOS-SDK", .exact("9.17.5")),
+//        .package(url: "https://github.com/moengage/MoEngage-iOS-InApps", .exact("6.00.3"))
         ],
     targets: [
         .target(
             name: "SharpsellCore",
             dependencies: [
-                "MoEngage-iOS-SDK",
-//                .product(name: "MoEngage-iOS-SDK", package: "MoEngage-iOS-SDK"),
-                .product(name: "MoEngageInApps", package: "MoEngage-iOS-InApps"),
-//                "MoEngage-iOS-InApps",
-                //                "Flutter",
-                //                "App",
+               
                 "app_links",
                 "audio_session",
                 "camera_avfoundation",
                 "connectivity_plus",
                 "contacts_service",
                 "device_info_plus",
-                //                                "FBLPromises",
                 "firebase_analytics",
                 "firebase_core",
                 "firebase_crashlytics",
-//                "FirebaseCoreExtension",
-//                "FirebaseCoreInternal",
-//                "FirebaseSessions",
                 "flutter_custom_tabs",
                 "flutter_inappwebview",
                 "fluttercontactpicker",
                 "FlutterPluginRegistrant",
                 "fluttertoast",
-//                "FMDB",
-                //                                "GoogleAppMeasurement",
-                //                                "GoogleDataTransport",
-//                "GoogleUtilities",
                 "image_cropper",
                 "image_gallery_saver",
                 "image_picker_ios",
@@ -57,6 +44,14 @@ let package = Package(
                 "light_compressor",
                 "moengage_flutter_ios",
                 "MoEngagePluginBase",
+                "MoEngageInApps",
+                "MoEngageTriggerEvaluator",
+                "MoEngageAnalytics",
+                "MoEngageCore",
+                "MoEngageMessaging",
+                "MoEngageObjCUtils",
+                "MoEngageSDK",
+                "MoEngageSecurity",
                 "open_filex",
                 "OrderedSet",
                 "package_info_plus",
@@ -86,9 +81,6 @@ let package = Package(
                 "webview_flutter_wkwebview"
                 
             ]),
-        //        .testTarget(
-        //            name: "SharpsellcoreTests",
-        //            dependencies: ["Sharpsellcore"]),
         
             .binaryTarget(name: "FlutterPluginRegistrant",
                           path: "artifacts/FlutterPluginRegistrant.xcframework"),
@@ -112,9 +104,6 @@ let package = Package(
             .binaryTarget(name: "device_info_plus",
                           path: "artifacts/device_info_plus.xcframework"),
         
-        //            .binaryTarget(name: "FBLPromises",
-        //                          path: "artifacts/FBLPromises.xcframework"),
-        
             .binaryTarget(name: "firebase_analytics",
                           path: "artifacts/firebase_analytics.xcframework"),
         
@@ -123,36 +112,6 @@ let package = Package(
         
             .binaryTarget(name: "firebase_crashlytics",
                           path: "artifacts/firebase_crashlytics.xcframework"),
-        
-//            .binaryTarget(name: "FirebaseCoreExtension",
-//                          path: "artifacts/FirebaseCoreExtension.xcframework"),
-        
-//            .binaryTarget(name: "FirebaseCoreInternal",
-//                          path: "artifacts/FirebaseCoreInternal.xcframework"),
-        
-//            .binaryTarget(name: "FirebaseSessions",
-//                          path: "artifacts/FirebaseSessions.xcframework"),
-        
-//            .binaryTarget(name: "firebase_messaging",
-//                          path: "artifacts/firebase_messaging.xcframework"),
-        //
-        //            .binaryTarget(name: "FirebaseAnalytics",
-        //                          path: "artifacts/FirebaseAnalytics.xcframework"),
-        //
-        //            .binaryTarget(name: "FirebaseCore",
-        //                          path: "artifacts/FirebaseCore.xcframework"),
-        //
-        //            .binaryTarget(name: "FirebaseCoreDiagnostics",
-        //                          path: "artifacts/FirebaseCoreDiagnostics.xcframework"),
-        //
-        //            .binaryTarget(name: "FirebaseCrashlytics",
-        //                          path: "artifacts/FirebaseCrashlytics.xcframework"),
-        //
-        //            .binaryTarget(name: "FirebaseInstallations",
-        //                          path: "artifacts/FirebaseInstallations.xcframework"),
-        //
-        //            .binaryTarget(name: "FirebaseMessaging",
-        //                          path: "artifacts/FirebaseMessaging.xcframework"),
         
             .binaryTarget(name: "flutter_custom_tabs",
                           path: "artifacts/flutter_custom_tabs.xcframework"),
@@ -166,18 +125,6 @@ let package = Package(
             
             .binaryTarget(name: "fluttertoast",
                           path: "artifacts/fluttertoast.xcframework"),
-        
-//            .binaryTarget(name: "FMDB",
-//                          path: "artifacts/FMDB.xcframework"),
-        
-        //            .binaryTarget(name: "GoogleAppMeasurement",
-        //                          path: "artifacts/GoogleAppMeasurement.xcframework"),
-        //
-        //            .binaryTarget(name: "GoogleDataTransport",
-        //                          path: "artifacts/GoogleDataTransport.xcframework"),
-        
-//            .binaryTarget(name: "GoogleUtilities",
-//                          path: "artifacts/GoogleUtilities.xcframework"),
         
             .binaryTarget(name: "image_cropper",
                           path: "artifacts/image_cropper.xcframework"),
@@ -200,13 +147,35 @@ let package = Package(
             .binaryTarget(name: "light_compressor",
                           path: "artifacts/light_compressor.xcframework"),
         
-        //            .binaryTarget(name: "nanopb",
-        //                          path: "artifacts/nanopb.xcframework"),
             .binaryTarget(name: "moengage_flutter_ios",
                           path: "artifacts/moengage_flutter_ios.xcframework"),
         
             .binaryTarget(name: "MoEngagePluginBase",
                           path: "artifacts/MoEngagePluginBase.xcframework"),
+        
+            .binaryTarget(name: "MoEngageInApps",
+                          path: "artifacts/MoEngageInApps.xcframework"),
+        
+            .binaryTarget(name: "MoEngageTriggerEvaluator",
+                          path: "artifacts/MoEngageTriggerEvaluator.xcframework"),
+        
+            .binaryTarget(name: "MoEngageAnalytics",
+                          path: "artifacts/MoEngageAnalytics.xcframework"),
+        
+            .binaryTarget(name: "MoEngageCore",
+                          path: "artifacts/MoEngageCore.xcframework"),
+        
+            .binaryTarget(name: "MoEngageMessaging",
+                          path: "artifacts/MoEngageMessaging.xcframework"),
+        
+            .binaryTarget(name: "MoEngageObjCUtils",
+                          path: "artifacts/MoEngageObjCUtils.xcframework"),
+        
+            .binaryTarget(name: "MoEngageSDK",
+                          path: "artifacts/MoEngageSDK.xcframework"),
+        
+            .binaryTarget(name: "MoEngageSecurity",
+                          path: "artifacts/MoEngageSecurity.xcframework"),
         
             .binaryTarget(name: "open_filex",
                           path: "artifacts/open_filex.xcframework"),
