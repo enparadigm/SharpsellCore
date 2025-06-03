@@ -147,6 +147,7 @@ let package = Package(
             .binaryTarget(name: "light_compressor",
                           path: "artifacts/light_compressor.xcframework"),
         
+
             .binaryTarget(name: "moengage_flutter_ios",
                           path: "artifacts/moengage_flutter_ios.xcframework"),
         
