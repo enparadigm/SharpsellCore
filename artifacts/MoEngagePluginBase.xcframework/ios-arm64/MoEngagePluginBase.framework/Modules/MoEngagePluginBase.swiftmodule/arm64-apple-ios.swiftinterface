@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MoEngagePluginBase
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MoEngagePluginBase
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import Foundation
 import MoEngageInApps
 @_exported import MoEngagePluginBase
@@ -9,6 +10,10 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class MoEngageInitConfigCache {
+  public static let sharedInstance: MoEngagePluginBase.MoEngageInitConfigCache
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @available(iOSApplicationExtension, unavailable)
 @objc final public class MoEngagePlugin : ObjectiveC.NSObject {
   @objc final public func initializeInstance(withConfig initializationConfig: MoEngagePluginBase.MoEngageSDKInitializationConfig)
@@ -31,6 +36,8 @@ public protocol MoEngagePluginBaseProtocol {
   @objc final public func setPluginBridgeDelegate(_ delegate: any MoEngagePluginBase.MoEngagePluginBridgeDelegate, payload: [Swift.String : Any])
   @objc final public func updateSDKState(_ sdkState: [Swift.String : Any])
   @objc final public func optOutDataTracking(_ dataTrack: [Swift.String : Any])
+  @objc final public func identifyUser(_ identities: [Swift.String : Any])
+  @objc final public func getUserIdentities(_ payload: [Swift.String : Any], completionHandler: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
   @objc final public func setAppStatus(_ appStatus: [Swift.String : Any])
   @objc final public func setAlias(_ alias: [Swift.String : Any])
   @objc final public func setUserAttribute(_ userAttribute: [Swift.String : Any])
@@ -39,10 +46,13 @@ public protocol MoEngagePluginBaseProtocol {
   @objc final public func showInApp(_ inApp: [Swift.String : Any])
   @objc final public func showNudge(_ inApp: [Swift.String : Any])
   @objc final public func getSelfHandledInApp(_ inApp: [Swift.String : Any])
+  @objc final public func getSelfHandledInApps(_ payload: [Swift.String : Any], completionBlock: @escaping ([Swift.String : Any]) -> Swift.Void)
   @objc final public func setInAppContext(_ context: [Swift.String : Any])
   @objc final public func resetInAppContext(_ context: [Swift.String : Any])
   @objc final public func updateSelfHandledImpression(_ inApp: [Swift.String : Any])
   @objc final public func registerForPush()
+  @available(iOS 12.0, *)
+  @objc final public func registerForProvisionalPush()
   @objc final public func validateSDKVersion() -> Swift.Bool
   @objc deinit
 }
@@ -50,6 +60,7 @@ public struct MoEngagePluginConstants {
   public struct General {
     public static let accountMeta: Swift.String
     public static let data: Swift.String
+    public static let identity: Swift.String
     public static let campaignId: Swift.String
     public static let platform: Swift.String
     public static let iOS: Swift.String
@@ -60,6 +71,9 @@ public struct MoEngagePluginConstants {
     public static let navigationType: Swift.String
     public static let actionType: Swift.String
     public static let type: Swift.String
+    public static let initConfig: Swift.String
+    public static let analyticsConfig: Swift.String
+    public static let shouldTrackUserAttributeBooleanAsNumber: Swift.String
   }
   public struct UserAttribute {
     public static let type: Swift.String

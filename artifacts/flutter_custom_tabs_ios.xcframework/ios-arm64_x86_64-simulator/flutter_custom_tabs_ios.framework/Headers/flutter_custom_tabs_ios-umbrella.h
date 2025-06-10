@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "CustomTabsPlugin.h"
 
 FOUNDATION_EXPORT double flutter_custom_tabs_iosVersionNumber;
 FOUNDATION_EXPORT const unsigned char flutter_custom_tabs_iosVersionString[];
