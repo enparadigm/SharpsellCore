@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/admin/Documents/GitHub/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/sqlite3/sqlite3.framework/sqlite3'
+binary-path:     '/Users/aman.verma/Documents/projects/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/sqlite3/sqlite3.framework/sqlite3'
 relocations:
   - { offset: 0x22146, size: 0x8, addend: 0x0, symName: _sqlite3VersionString, symObjAddr: 0x0, symBinAddr: 0xC5800, symSize: 0x0 }
   - { offset: 0x2217A, size: 0x8, addend: 0x0, symName: _sqlite3VersionNumber, symObjAddr: 0x28, symBinAddr: 0xC5828, symSize: 0x0 }
@@ -20,22 +20,22 @@ relocations:
   - { offset: 0x24424, size: 0x8, addend: 0x0, symName: _sqlite3_vtab_on_conflict.aMap, symObjAddr: 0xC218E, symBinAddr: 0xC6476, symSize: 0x0 }
   - { offset: 0x24449, size: 0x8, addend: 0x0, symName: _sqlite3_complete, symObjAddr: 0xF040, symBinAddr: 0x13040, symSize: 0x3E4 }
   - { offset: 0x24475, size: 0x8, addend: 0x0, symName: _sqlite3_complete.trans, symObjAddr: 0xC25EA, symBinAddr: 0xC68D2, symSize: 0x0 }
-  - { offset: 0x2458B, size: 0x8, addend: 0x0, symName: _sqlite3_temp_directory, symObjAddr: 0x440A88, symBinAddr: 0xDE790, symSize: 0x0 }
-  - { offset: 0x245A4, size: 0x8, addend: 0x0, symName: _sqlite3_data_directory, symObjAddr: 0x440A90, symBinAddr: 0xDE798, symSize: 0x0 }
+  - { offset: 0x2458B, size: 0x8, addend: 0x0, symName: _sqlite3_temp_directory, symObjAddr: 0x4415A8, symBinAddr: 0xDE790, symSize: 0x0 }
+  - { offset: 0x245A4, size: 0x8, addend: 0x0, symName: _sqlite3_data_directory, symObjAddr: 0x4415B0, symBinAddr: 0xDE798, symSize: 0x0 }
   - { offset: 0x245AE, size: 0x8, addend: 0x0, symName: _sqlite3_config, symObjAddr: 0xF6FC, symBinAddr: 0x136FC, symSize: 0x4A4 }
   - { offset: 0x247AF, size: 0x8, addend: 0x0, symName: _sqlite3_db_config, symObjAddr: 0xFDA8, symBinAddr: 0x13DA8, symSize: 0x17C }
   - { offset: 0x247DB, size: 0x8, addend: 0x0, symName: _sqlite3_db_config.aFlagOp, symObjAddr: 0xC262C, symBinAddr: 0xC6914, symSize: 0x0 }
   - { offset: 0x249A8, size: 0x8, addend: 0x0, symName: _sqlite3_errmsg16, symObjAddr: 0x11704, symBinAddr: 0x15704, symSize: 0x150 }
   - { offset: 0x249D4, size: 0x8, addend: 0x0, symName: _sqlite3_errmsg16.outOfMem, symObjAddr: 0xC26BC, symBinAddr: 0xC69A4, symSize: 0x0 }
   - { offset: 0x249ED, size: 0x8, addend: 0x0, symName: _sqlite3_errmsg16.misuse, symObjAddr: 0xC26D8, symBinAddr: 0xC69C0, symSize: 0x0 }
-  - { offset: 0x24B8B, size: 0x8, addend: 0x0, symName: _sqlite3BuiltinFunctions, symObjAddr: 0x440828, symBinAddr: 0xDE530, symSize: 0x0 }
-  - { offset: 0x29A0F, size: 0x8, addend: 0x0, symName: _sqlite3Prng, symObjAddr: 0x440788, symBinAddr: 0xDE490, symSize: 0x0 }
-  - { offset: 0x29A7B, size: 0x8, addend: 0x0, symName: _sqlite3Stat, symObjAddr: 0x4406C0, symBinAddr: 0xDE3C8, symSize: 0x0 }
+  - { offset: 0x24B8B, size: 0x8, addend: 0x0, symName: _sqlite3BuiltinFunctions, symObjAddr: 0x441348, symBinAddr: 0xDE530, symSize: 0x0 }
+  - { offset: 0x29A0F, size: 0x8, addend: 0x0, symName: _sqlite3Prng, symObjAddr: 0x4412A8, symBinAddr: 0xDE490, symSize: 0x0 }
+  - { offset: 0x29A7B, size: 0x8, addend: 0x0, symName: _sqlite3Stat, symObjAddr: 0x4411E0, symBinAddr: 0xDE3C8, symSize: 0x0 }
   - { offset: 0x29ACE, size: 0x8, addend: 0x0, symName: _sqlite3Config, symObjAddr: 0xC8E70, symBinAddr: 0xDAC20, symSize: 0x0 }
-  - { offset: 0x2A03C, size: 0x8, addend: 0x0, symName: _vfsList, symObjAddr: 0x440760, symBinAddr: 0xDE468, symSize: 0x0 }
+  - { offset: 0x2A03C, size: 0x8, addend: 0x0, symName: _vfsList, symObjAddr: 0x441280, symBinAddr: 0xDE468, symSize: 0x0 }
   - { offset: 0x2A04B, size: 0x8, addend: 0x0, symName: _pthreadMutexAlloc, symObjAddr: 0x14798, symBinAddr: 0x18798, symSize: 0xCC }
   - { offset: 0x2A073, size: 0x8, addend: 0x0, symName: _pthreadMutexAlloc.staticMutexes, symObjAddr: 0xC92F0, symBinAddr: 0xDB0A0, symSize: 0x0 }
-  - { offset: 0x2A171, size: 0x8, addend: 0x0, symName: _mem0, symObjAddr: 0x440768, symBinAddr: 0xDE470, symSize: 0x0 }
+  - { offset: 0x2A171, size: 0x8, addend: 0x0, symName: _mem0, symObjAddr: 0x441288, symBinAddr: 0xDE470, symSize: 0x0 }
   - { offset: 0x2A1C6, size: 0x8, addend: 0x0, symName: _fmtinfo, symObjAddr: 0xC1E7B, symBinAddr: 0xC6163, symSize: 0x0 }
   - { offset: 0x2A25E, size: 0x8, addend: 0x0, symName: _aPrefix, symObjAddr: 0xC1F05, symBinAddr: 0xC61ED, symSize: 0x0 }
   - { offset: 0x2A275, size: 0x8, addend: 0x0, symName: _sqlite3OomStr, symObjAddr: 0xC9028, symBinAddr: 0xDADD8, symSize: 0x0 }
@@ -43,26 +43,26 @@ relocations:
   - { offset: 0x2A321, size: 0x8, addend: 0x0, symName: _posixIoFinder, symObjAddr: 0xD4940, symBinAddr: 0xD8010, symSize: 0x0 }
   - { offset: 0x2A6B7, size: 0x8, addend: 0x0, symName: _posixIoMethods, symObjAddr: 0xD4958, symBinAddr: 0xD8028, symSize: 0x0 }
   - { offset: 0x2A6DA, size: 0x8, addend: 0x0, symName: _aSyscall, symObjAddr: 0xC95F0, symBinAddr: 0xDB3A0, symSize: 0x0 }
-  - { offset: 0x2A72E, size: 0x8, addend: 0x0, symName: _inodeList, symObjAddr: 0x4408E8, symBinAddr: 0xDE5F0, symSize: 0x0 }
+  - { offset: 0x2A72E, size: 0x8, addend: 0x0, symName: _inodeList, symObjAddr: 0x441408, symBinAddr: 0xDE5F0, symSize: 0x0 }
   - { offset: 0x2A745, size: 0x8, addend: 0x0, symName: _azTempDirs, symObjAddr: 0xC98A8, symBinAddr: 0xDB658, symSize: 0x0 }
   - { offset: 0x2A75B, size: 0x8, addend: 0x0, symName: _unixShmMap, symObjAddr: 0x15D80, symBinAddr: 0x19D80, symSize: 0x60C }
-  - { offset: 0x2AEF2, size: 0x8, addend: 0x0, symName: _randomnessPid, symObjAddr: 0x4408F0, symBinAddr: 0xDE5F8, symSize: 0x0 }
+  - { offset: 0x2AEF2, size: 0x8, addend: 0x0, symName: _randomnessPid, symObjAddr: 0x441410, symBinAddr: 0xDE5F8, symSize: 0x0 }
   - { offset: 0x2AF09, size: 0x8, addend: 0x0, symName: _nolockIoMethods, symObjAddr: 0xD49F0, symBinAddr: 0xD80C0, symSize: 0x0 }
   - { offset: 0x2AF20, size: 0x8, addend: 0x0, symName: _dotlockIoMethods, symObjAddr: 0xD4A88, symBinAddr: 0xD8158, symSize: 0x0 }
   - { offset: 0x2AF2A, size: 0x8, addend: 0x0, symName: _unixCurrentTimeInt64, symObjAddr: 0x4E44, symBinAddr: 0x8E44, symSize: 0x74 }
   - { offset: 0x2AFB8, size: 0x8, addend: 0x0, symName: _nolockIoFinder, symObjAddr: 0xD4948, symBinAddr: 0xD8018, symSize: 0x0 }
   - { offset: 0x2AFCF, size: 0x8, addend: 0x0, symName: _dotlockIoFinder, symObjAddr: 0xD4950, symBinAddr: 0xD8020, symSize: 0x0 }
-  - { offset: 0x2AFE6, size: 0x8, addend: 0x0, symName: _unixBigLock, symObjAddr: 0x440810, symBinAddr: 0xDE518, symSize: 0x0 }
+  - { offset: 0x2AFE6, size: 0x8, addend: 0x0, symName: _unixBigLock, symObjAddr: 0x441330, symBinAddr: 0xDE518, symSize: 0x0 }
   - { offset: 0x2AFFD, size: 0x8, addend: 0x0, symName: _memdb_io_methods, symObjAddr: 0xD4B20, symBinAddr: 0xD81F0, symSize: 0x0 }
-  - { offset: 0x2B014, size: 0x8, addend: 0x0, symName: _memdb_g.0, symObjAddr: 0x4408F8, symBinAddr: 0xDE600, symSize: 0x0 }
-  - { offset: 0x2B021, size: 0x8, addend: 0x0, symName: _memdb_g.1, symObjAddr: 0x440900, symBinAddr: 0xDE608, symSize: 0x0 }
-  - { offset: 0x2B112, size: 0x8, addend: 0x0, symName: _pcache1_g, symObjAddr: 0x440908, symBinAddr: 0xDE610, symSize: 0x0 }
+  - { offset: 0x2B014, size: 0x8, addend: 0x0, symName: _memdb_g.0, symObjAddr: 0x441418, symBinAddr: 0xDE600, symSize: 0x0 }
+  - { offset: 0x2B021, size: 0x8, addend: 0x0, symName: _memdb_g.1, symObjAddr: 0x441420, symBinAddr: 0xDE608, symSize: 0x0 }
+  - { offset: 0x2B112, size: 0x8, addend: 0x0, symName: _pcache1_g, symObjAddr: 0x441428, symBinAddr: 0xDE610, symSize: 0x0 }
   - { offset: 0x2B3E5, size: 0x8, addend: 0x0, symName: _sqlite3OpenTempDatabase, symObjAddr: 0x1871C, symBinAddr: 0x1C71C, symSize: 0xB8 }
-  - { offset: 0x2B4F2, size: 0x8, addend: 0x0, symName: _sqlite3SharedCacheList, symObjAddr: 0x440998, symBinAddr: 0xDE6A0, symSize: 0x0 }
+  - { offset: 0x2B4F2, size: 0x8, addend: 0x0, symName: _sqlite3SharedCacheList, symObjAddr: 0x4414B8, symBinAddr: 0xDE6A0, symSize: 0x0 }
   - { offset: 0x2B509, size: 0x8, addend: 0x0, symName: _memdb_vfs, symObjAddr: 0xC98D8, symBinAddr: 0xDB688, symSize: 0x0 }
   - { offset: 0x2B522, size: 0x8, addend: 0x0, symName: _MemJournalMethods, symObjAddr: 0xD4BB8, symBinAddr: 0xD8288, symSize: 0x0 }
-  - { offset: 0x2B539, size: 0x8, addend: 0x0, symName: _sqlite3Hooks.0, symObjAddr: 0x4409A0, symBinAddr: 0xDE6A8, symSize: 0x0 }
-  - { offset: 0x2B544, size: 0x8, addend: 0x0, symName: _sqlite3Hooks.1, symObjAddr: 0x4409A8, symBinAddr: 0xDE6B0, symSize: 0x0 }
+  - { offset: 0x2B539, size: 0x8, addend: 0x0, symName: _sqlite3Hooks.0, symObjAddr: 0x4414C0, symBinAddr: 0xDE6A8, symSize: 0x0 }
+  - { offset: 0x2B544, size: 0x8, addend: 0x0, symName: _sqlite3Hooks.1, symObjAddr: 0x4414C8, symBinAddr: 0xDE6B0, symSize: 0x0 }
   - { offset: 0x2B574, size: 0x8, addend: 0x0, symName: _syncJournal, symObjAddr: 0x1A994, symBinAddr: 0x1E994, symSize: 0x230 }
   - { offset: 0x2B59C, size: 0x8, addend: 0x0, symName: _syncJournal.zerobyte, symObjAddr: 0xC275F, symBinAddr: 0xC6A47, symSize: 0x0 }
   - { offset: 0x2B842, size: 0x8, addend: 0x0, symName: _aJournalMagic, symObjAddr: 0xC2757, symBinAddr: 0xC6A3F, symSize: 0x0 }
@@ -83,7 +83,7 @@ relocations:
   - { offset: 0x33B9E, size: 0x8, addend: 0x0, symName: _vdbeSorterCompareInt, symObjAddr: 0x3C004, symBinAddr: 0x40004, symSize: 0x104 }
   - { offset: 0x33BCA, size: 0x8, addend: 0x0, symName: _vdbeSorterCompareInt.aLen, symObjAddr: 0xC287A, symBinAddr: 0xC6B62, symSize: 0x0 }
   - { offset: 0x33D04, size: 0x8, addend: 0x0, symName: _findElementWithHash, symObjAddr: 0x3DB18, symBinAddr: 0x41B18, symSize: 0xDC }
-  - { offset: 0x33D2C, size: 0x8, addend: 0x0, symName: _findElementWithHash.nullElement, symObjAddr: 0x4409B8, symBinAddr: 0xDE6C0, symSize: 0x0 }
+  - { offset: 0x33D2C, size: 0x8, addend: 0x0, symName: _findElementWithHash.nullElement, symObjAddr: 0x4414D8, symBinAddr: 0xDE6C0, symSize: 0x0 }
   - { offset: 0x33E19, size: 0x8, addend: 0x0, symName: _corruptSchema, symObjAddr: 0x3DC60, symBinAddr: 0x41C60, symSize: 0x14C }
   - { offset: 0x33E41, size: 0x8, addend: 0x0, symName: _corruptSchema.azAlterType, symObjAddr: 0xD52A8, symBinAddr: 0xD8978, symSize: 0x0 }
   - { offset: 0x33FFC, size: 0x8, addend: 0x0, symName: _sqlite3DefaultRowEst, symObjAddr: 0x3E5FC, symBinAddr: 0x425FC, symSize: 0xB8 }
@@ -101,8 +101,8 @@ relocations:
   - { offset: 0x3493F, size: 0x8, addend: 0x0, symName: _likeInfoNorm, symObjAddr: 0xC208A, symBinAddr: 0xC6372, symSize: 0x0 }
   - { offset: 0x34956, size: 0x8, addend: 0x0, symName: _sqlite3CtypeMap, symObjAddr: 0xC208E, symBinAddr: 0xC6376, symSize: 0x0 }
   - { offset: 0x3497C, size: 0x8, addend: 0x0, symName: _sqlite3Apis, symObjAddr: 0xD5BF8, symBinAddr: 0xD92C8, symSize: 0x0 }
-  - { offset: 0x36BFE, size: 0x8, addend: 0x0, symName: _sqlite3Autoext.0, symObjAddr: 0x440818, symBinAddr: 0xDE520, symSize: 0x0 }
-  - { offset: 0x36C0B, size: 0x8, addend: 0x0, symName: _sqlite3Autoext.1, symObjAddr: 0x440820, symBinAddr: 0xDE528, symSize: 0x0 }
+  - { offset: 0x36BFE, size: 0x8, addend: 0x0, symName: _sqlite3Autoext.0, symObjAddr: 0x441338, symBinAddr: 0xDE520, symSize: 0x0 }
+  - { offset: 0x36C0B, size: 0x8, addend: 0x0, symName: _sqlite3Autoext.1, symObjAddr: 0x441340, symBinAddr: 0xDE528, symSize: 0x0 }
   - { offset: 0x36C58, size: 0x8, addend: 0x0, symName: _zKWText, symObjAddr: 0xC2193, symBinAddr: 0xC647B, symSize: 0x0 }
   - { offset: 0x36C7E, size: 0x8, addend: 0x0, symName: _aKWOffset, symObjAddr: 0xC242E, symBinAddr: 0xC6716, symSize: 0x0 }
   - { offset: 0x36CA8, size: 0x8, addend: 0x0, symName: _aKWLen, symObjAddr: 0xC2556, symBinAddr: 0xC683E, symSize: 0x0 }
@@ -196,7 +196,7 @@ relocations:
   - { offset: 0x45701, size: 0x8, addend: 0x0, symName: _jsonAppendControlChar, symObjAddr: 0x99D3C, symBinAddr: 0x9DD3C, symSize: 0xB4 }
   - { offset: 0x45729, size: 0x8, addend: 0x0, symName: _jsonAppendControlChar.aSpecial, symObjAddr: 0xC6773, symBinAddr: 0xCAA5B, symSize: 0x0 }
   - { offset: 0x45771, size: 0x8, addend: 0x0, symName: _jsonbType, symObjAddr: 0xD69D8, symBinAddr: 0xDA0A8, symSize: 0x0 }
-  - { offset: 0x45794, size: 0x8, addend: 0x0, symName: __sqliteZone_, symObjAddr: 0x4409F8, symBinAddr: 0xDE700, symSize: 0x0 }
+  - { offset: 0x45794, size: 0x8, addend: 0x0, symName: __sqliteZone_, symObjAddr: 0x441518, symBinAddr: 0xDE700, symSize: 0x0 }
   - { offset: 0x457A3, size: 0x8, addend: 0x0, symName: _sqliteDefaultBusyCallback, symObjAddr: 0x10530, symBinAddr: 0x14530, symSize: 0x7C }
   - { offset: 0x457CF, size: 0x8, addend: 0x0, symName: _sqliteDefaultBusyCallback.delays, symObjAddr: 0xC6793, symBinAddr: 0xCAA7B, symSize: 0x0 }
   - { offset: 0x457E8, size: 0x8, addend: 0x0, symName: _sqliteDefaultBusyCallback.totals, symObjAddr: 0xC679F, symBinAddr: 0xCAA87, symSize: 0x0 }
@@ -235,9 +235,9 @@ relocations:
   - { offset: 0x46E4C, size: 0x8, addend: 0x0, symName: _sqlite3JsonTableFunctions.aMod, symObjAddr: 0xD70E8, symBinAddr: 0xDA7B8, symSize: 0x0 }
   - { offset: 0x46F31, size: 0x8, addend: 0x0, symName: _jsonEachModule, symObjAddr: 0xCC488, symBinAddr: 0xDE238, symSize: 0x0 }
   - { offset: 0x46F4A, size: 0x8, addend: 0x0, symName: _jsonTreeModule, symObjAddr: 0xCC550, symBinAddr: 0xDE300, symSize: 0x0 }
-  - { offset: 0x46F61, size: 0x8, addend: 0x0, symName: _sqlite3SavedPrng, symObjAddr: 0x440A00, symBinAddr: 0xDE708, symSize: 0x0 }
-  - { offset: 0x46F78, size: 0x8, addend: 0x0, symName: _sqlite3TreeTrace, symObjAddr: 0x4408E0, symBinAddr: 0xDE5E8, symSize: 0x0 }
-  - { offset: 0x46F8F, size: 0x8, addend: 0x0, symName: _sqlite3WhereTrace, symObjAddr: 0x4408E4, symBinAddr: 0xDE5EC, symSize: 0x0 }
+  - { offset: 0x46F61, size: 0x8, addend: 0x0, symName: _sqlite3SavedPrng, symObjAddr: 0x441520, symBinAddr: 0xDE708, symSize: 0x0 }
+  - { offset: 0x46F78, size: 0x8, addend: 0x0, symName: _sqlite3TreeTrace, symObjAddr: 0x441400, symBinAddr: 0xDE5E8, symSize: 0x0 }
+  - { offset: 0x46F8F, size: 0x8, addend: 0x0, symName: _sqlite3WhereTrace, symObjAddr: 0x441404, symBinAddr: 0xDE5EC, symSize: 0x0 }
   - { offset: 0x46F99, size: 0x8, addend: 0x0, symName: _sqlite3LogEst, symObjAddr: 0x13C58, symBinAddr: 0x17C58, symSize: 0x9C }
   - { offset: 0x46FC1, size: 0x8, addend: 0x0, symName: _sqlite3LogEst.a, symObjAddr: 0xC8B0A, symBinAddr: 0xCCDF2, symSize: 0x0 }
   - { offset: 0x47005, size: 0x8, addend: 0x0, symName: _sqlite3azCompileOpt, symObjAddr: 0xD7108, symBinAddr: 0xDA7D8, symSize: 0x0 }
