@@ -2,12 +2,10 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/aman.verma/Documents/projects/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/device_info_plus/device_info_plus.framework/device_info_plus'
 relocations:
-  - { offset: 0x3D0A, size: 0x8, addend: 0x0, symName: _device_info_plusVersionString, symObjAddr: 0x0, symBinAddr: 0x5CC0, symSize: 0x0 }
-  - { offset: 0x3D3E, size: 0x8, addend: 0x0, symName: _device_info_plusVersionNumber, symObjAddr: 0x30, symBinAddr: 0x5CF0, symSize: 0x0 }
-  - { offset: 0x3D7A, size: 0x8, addend: 0x0, symName: '+[DeviceIdentifiers userKnownDeviceModel:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xD44 }
-  - { offset: 0x3D87, size: 0x8, addend: 0x0, symName: '+[DeviceIdentifiers userKnownDeviceModel:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xD44 }
-  - { offset: 0x3E2B, size: 0x8, addend: 0x0, symName: '+[FPPDeviceInfoPlusPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4D44, symSize: 0xA4 }
-  - { offset: 0x3E48, size: 0x8, addend: 0x0, symName: '+[FPPDeviceInfoPlusPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4D44, symSize: 0xA4 }
-  - { offset: 0x3EA1, size: 0x8, addend: 0x0, symName: '-[FPPDeviceInfoPlusPlugin handleMethodCall:result:]', symObjAddr: 0xA4, symBinAddr: 0x4DE8, symSize: 0x510 }
-  - { offset: 0x3FF7, size: 0x8, addend: 0x0, symName: '-[FPPDeviceInfoPlusPlugin isDevicePhysical]', symObjAddr: 0x5B4, symBinAddr: 0x52F8, symSize: 0x8 }
+  - { offset: 0x3D0A, size: 0x8, addend: 0x0, symName: _device_info_plusVersionString, symObjAddr: 0x0, symBinAddr: 0x4880, symSize: 0x0 }
+  - { offset: 0x3D3E, size: 0x8, addend: 0x0, symName: _device_info_plusVersionNumber, symObjAddr: 0x30, symBinAddr: 0x48B0, symSize: 0x0 }
+  - { offset: 0x3D7A, size: 0x8, addend: 0x0, symName: '+[FPPDeviceInfoPlusPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA4 }
+  - { offset: 0x3D97, size: 0x8, addend: 0x0, symName: '+[FPPDeviceInfoPlusPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA4 }
+  - { offset: 0x3DF0, size: 0x8, addend: 0x0, symName: '-[FPPDeviceInfoPlusPlugin handleMethodCall:result:]', symObjAddr: 0xA4, symBinAddr: 0x40A4, symSize: 0x458 }
+  - { offset: 0x3F19, size: 0x8, addend: 0x0, symName: '-[FPPDeviceInfoPlusPlugin isDevicePhysical]', symObjAddr: 0x4FC, symBinAddr: 0x44FC, symSize: 0x8 }
 ...

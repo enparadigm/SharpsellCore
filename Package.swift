@@ -258,7 +258,7 @@ let package = Package(
                           path: "artifacts/pointer_interceptor_ios.xcframework"),
         
             .binaryTarget(name: "promises",
-                          path: "artifacts/promises.xcframework"),
+                          path: "artifacts/Promises.xcframework"),
         
             .binaryTarget(name: "printing",
                           path: "artifacts/printing.xcframework"),
