@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "flutter_custom_tabs_ios",
+    "printedName": "flutter_custom_tabs_ios",
     "children": [
       {
         "kind": "Import",
@@ -224,29 +224,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swift.String?]",
+                "printedName": "[Swift.String]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "s:23flutter_custom_tabs_ios16CustomTabsPluginC13mayLaunchURLsySSSgSayAEGKF",
-            "mangledName": "$s23flutter_custom_tabs_ios16CustomTabsPluginC13mayLaunchURLsySSSgSayAEGKF",
+            "usr": "s:23flutter_custom_tabs_ios16CustomTabsPluginC13mayLaunchURLsySSSgSaySSGKF",
+            "mangledName": "$s23flutter_custom_tabs_ios16CustomTabsPluginC13mayLaunchURLsySSSgSaySSGKF",
             "moduleName": "flutter_custom_tabs_ios",
             "isOpen": true,
             "throwing": true,
@@ -328,6 +320,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -376,6 +382,13 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "flutter_custom_tabs_ios"
       },
       {
         "kind": "Import",
@@ -670,7 +683,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1038,8 +1067,8 @@
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "Transparent",
-                  "Final"
+                  "Final",
+                  "Transparent"
                 ],
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -1056,6 +1085,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -2148,6 +2191,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -2168,29 +2225,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swift.String?]",
+                "printedName": "[Swift.String]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Var",
-            "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSSgGvp",
-            "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSSgGvp",
+            "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSGvp",
+            "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSGvp",
             "moduleName": "flutter_custom_tabs_ios",
             "declAttributes": [
               "HasStorage"
@@ -2206,29 +2255,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Swift.String?]",
+                    "printedName": "[Swift.String]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSSgGvg",
-                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSSgGvg",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSGvg",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSGvg",
                 "moduleName": "flutter_custom_tabs_ios",
                 "implicit": true,
                 "declAttributes": [
@@ -2249,29 +2290,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Swift.String?]",
+                    "printedName": "[Swift.String]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSSgGvs",
-                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSSgGvs",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSGvs",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSGvs",
                 "moduleName": "flutter_custom_tabs_ios",
                 "implicit": true,
                 "declAttributes": [
@@ -2291,8 +2324,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSSgGvM",
-                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSSgGvM",
+                "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSGvM",
+                "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detentsSaySSGvM",
                 "moduleName": "flutter_custom_tabs_ios",
                 "implicit": true,
                 "declAttributes": [
@@ -2995,21 +3028,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swift.String?]",
+                "printedName": "[Swift.String]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sa"
@@ -3091,8 +3116,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detents31largestUndimmedDetentIdentifier41prefersScrollingExpandsWhenScrolledToEdge0N14GrabberVisible0nT23AttachedInCompactHeight21preferredCornerRadiusACSaySSSgG_AJSbSgA2LSdSgtcfc",
-            "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detents31largestUndimmedDetentIdentifier41prefersScrollingExpandsWhenScrolledToEdge0N14GrabberVisible0nT23AttachedInCompactHeight21preferredCornerRadiusACSaySSSgG_AJSbSgA2LSdSgtcfc",
+            "usr": "s:23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detents31largestUndimmedDetentIdentifier41prefersScrollingExpandsWhenScrolledToEdge0N14GrabberVisible0nT23AttachedInCompactHeight21preferredCornerRadiusACSaySSG_SSSgSbSgA2LSdSgtcfc",
+            "mangledName": "$s23flutter_custom_tabs_ios42UISheetPresentationControllerConfigurationV7detents31largestUndimmedDetentIdentifier41prefersScrollingExpandsWhenScrolledToEdge0N14GrabberVisible0nT23AttachedInCompactHeight21preferredCornerRadiusACSaySSG_SSSgSbSgA2LSdSgtcfc",
             "moduleName": "flutter_custom_tabs_ios",
             "implicit": true,
             "init_kind": "Designated"
@@ -3108,6 +3133,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -3117,8 +3156,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "messagesPigeonCodec",
-        "printedName": "messagesPigeonCodec",
+        "name": "MessagesPigeonCodec",
+        "printedName": "MessagesPigeonCodec",
         "children": [
           {
             "kind": "Var",
@@ -3127,14 +3166,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "messagesPigeonCodec",
-                "printedName": "flutter_custom_tabs_ios.messagesPigeonCodec",
-                "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)messagesPigeonCodec"
+                "name": "MessagesPigeonCodec",
+                "printedName": "flutter_custom_tabs_ios.MessagesPigeonCodec",
+                "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)MessagesPigeonCodec"
               }
             ],
             "declKind": "Var",
-            "usr": "s:23flutter_custom_tabs_ios19messagesPigeonCodecC6sharedACvpZ",
-            "mangledName": "$s23flutter_custom_tabs_ios19messagesPigeonCodecC6sharedACvpZ",
+            "usr": "s:23flutter_custom_tabs_ios19MessagesPigeonCodecC6sharedACvpZ",
+            "mangledName": "$s23flutter_custom_tabs_ios19MessagesPigeonCodecC6sharedACvpZ",
             "moduleName": "flutter_custom_tabs_ios",
             "static": true,
             "declAttributes": [
@@ -3152,14 +3191,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "messagesPigeonCodec",
-                    "printedName": "flutter_custom_tabs_ios.messagesPigeonCodec",
-                    "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)messagesPigeonCodec"
+                    "name": "MessagesPigeonCodec",
+                    "printedName": "flutter_custom_tabs_ios.MessagesPigeonCodec",
+                    "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)MessagesPigeonCodec"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:23flutter_custom_tabs_ios19messagesPigeonCodecC6sharedACvgZ",
-                "mangledName": "$s23flutter_custom_tabs_ios19messagesPigeonCodecC6sharedACvgZ",
+                "usr": "s:23flutter_custom_tabs_ios19MessagesPigeonCodecC6sharedACvgZ",
+                "mangledName": "$s23flutter_custom_tabs_ios19MessagesPigeonCodecC6sharedACvgZ",
                 "moduleName": "flutter_custom_tabs_ios",
                 "static": true,
                 "implicit": true,
@@ -3177,14 +3216,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "messagesPigeonCodec",
-                "printedName": "flutter_custom_tabs_ios.messagesPigeonCodec",
-                "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)messagesPigeonCodec"
+                "name": "MessagesPigeonCodec",
+                "printedName": "flutter_custom_tabs_ios.MessagesPigeonCodec",
+                "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)MessagesPigeonCodec"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)messagesPigeonCodec(im)init",
-            "mangledName": "$s23flutter_custom_tabs_ios19messagesPigeonCodecCACycfc",
+            "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)MessagesPigeonCodec(im)init",
+            "mangledName": "$s23flutter_custom_tabs_ios19MessagesPigeonCodecCACycfc",
             "moduleName": "flutter_custom_tabs_ios",
             "overriding": true,
             "implicit": true,
@@ -3198,8 +3237,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)messagesPigeonCodec",
-        "mangledName": "$s23flutter_custom_tabs_ios19messagesPigeonCodecC",
+        "usr": "c:@M@flutter_custom_tabs_ios@objc(cs)MessagesPigeonCodec",
+        "mangledName": "$s23flutter_custom_tabs_ios19MessagesPigeonCodecC",
         "moduleName": "flutter_custom_tabs_ios",
         "isOpen": true,
         "declAttributes": [
@@ -3218,6 +3257,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3427,29 +3480,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swift.String?]",
+                "printedName": "[Swift.String]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "s:23flutter_custom_tabs_ios13CustomTabsApiP13mayLaunchURLsySSSgSayAEGKF",
-            "mangledName": "$s23flutter_custom_tabs_ios13CustomTabsApiP13mayLaunchURLsySSSgSayAEGKF",
+            "usr": "s:23flutter_custom_tabs_ios13CustomTabsApiP13mayLaunchURLsySSSgSaySSGKF",
+            "mangledName": "$s23flutter_custom_tabs_ios13CustomTabsApiP13mayLaunchURLsySSSgSaySSGKF",
             "moduleName": "flutter_custom_tabs_ios",
             "genericSig": "<τ_0_0 where τ_0_0 : flutter_custom_tabs_ios.CustomTabsApi>",
             "sugared_genericSig": "<Self where Self : flutter_custom_tabs_ios.CustomTabsApi>",
@@ -3493,6 +3538,22 @@
         "moduleName": "flutter_custom_tabs_ios",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -3621,6 +3682,22 @@
         "isOpen": true,
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3675,6 +3752,7 @@
             "moduleName": "flutter_custom_tabs_ios",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -3689,6 +3767,7 @@
         "intro_iOS": "9.0",
         "objc_name": "SFSafariViewController",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Available",
           "ObjC",
@@ -3703,6 +3782,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3766,42 +3859,35 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/CustomTabsPlugin.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.4.0\/ios\/flutter_custom_tabs_ios\/Sources\/flutter_custom_tabs_ios\/CustomTabsPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 51,
-      "length": 16,
-      "value": "\"flutter_custom_tabs_ios.CustomTabsPlugin\""
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/CustomTabsPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 2769,
+      "offset": 2435,
       "length": 14,
       "value": "\"LAUNCH_ERROR\""
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/Launcher.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.4.0\/ios\/flutter_custom_tabs_ios\/Sources\/flutter_custom_tabs_ios\/Launcher.swift",
       "kind": "Dictionary",
-      "offset": 220,
+      "offset": 223,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/messages.g.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.4.0\/ios\/flutter_custom_tabs_ios\/Sources\/flutter_custom_tabs_ios\/messages.g.swift",
       "kind": "StringLiteral",
-      "offset": 7451,
+      "offset": 7058,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/SFSafariViewController+Factory.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.4.0\/ios\/flutter_custom_tabs_ios\/Sources\/flutter_custom_tabs_ios\/SFSafariViewController+Factory.swift",
       "kind": "StringLiteral",
       "offset": 139,
       "length": 8,
       "value": "\"medium\""
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.2.0\/ios\/Classes\/SFSafariViewController+Factory.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/flutter_custom_tabs_ios-2.4.0\/ios\/flutter_custom_tabs_ios\/Sources\/flutter_custom_tabs_ios\/SFSafariViewController+Factory.swift",
       "kind": "StringLiteral",
       "offset": 183,
       "length": 7,

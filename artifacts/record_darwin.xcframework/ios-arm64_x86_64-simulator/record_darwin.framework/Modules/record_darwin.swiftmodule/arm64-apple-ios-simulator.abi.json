@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "record_darwin",
+    "printedName": "record_darwin",
     "children": [
       {
         "kind": "Import",
@@ -431,6 +431,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1031,7 +1045,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1240,7 +1270,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1400,6 +1446,20 @@
         "mangledName": "$s13record_darwin9IosConfigV",
         "moduleName": "record_darwin",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Sendable",
@@ -1892,7 +1952,23 @@
         "usr": "s:13record_darwin8RecorderC",
         "mangledName": "$s13record_darwin8RecorderC",
         "moduleName": "record_darwin",
-        "isOpen": true
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1993,6 +2069,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -2207,6 +2297,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2563,6 +2667,22 @@
         "moduleName": "record_darwin",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2615,6 +2735,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
           {
             "kind": "Conformance",
             "name": "AudioRecordingDelegate",
@@ -2674,6 +2808,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
           {
             "kind": "Conformance",
             "name": "AudioRecordingDelegate",
@@ -3140,6 +3288,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3193,6 +3355,13 @@
             "printedName": "AudioRecordingDelegate",
             "usr": "s:13record_darwin22AudioRecordingDelegateP",
             "mangledName": "$s13record_darwin22AudioRecordingDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -3715,6 +3884,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3995,6 +4178,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4380,6 +4577,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4763,6 +4974,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4817,256 +5042,130 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
       "offset": 71,
       "length": 7,
       "value": "\"aacLc\""
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
       "offset": 95,
       "length": 8,
       "value": "\"aacEld\""
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
       "offset": 119,
       "length": 7,
       "value": "\"aacHe\""
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
       "offset": 142,
       "length": 7,
       "value": "\"amrNb\""
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
       "offset": 165,
       "length": 7,
       "value": "\"amrWb\""
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
       "offset": 187,
       "length": 6,
       "value": "\"opus\""
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 6,
       "value": "\"flac\""
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
       "offset": 234,
       "length": 11,
       "value": "\"pcm16bits\""
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "StringLiteral",
       "offset": 259,
       "length": 5,
       "value": "\"wav\""
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 71,
-      "length": 7,
-      "value": "\"aacLc\""
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 95,
-      "length": 8,
-      "value": "\"aacEld\""
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 119,
-      "length": 7,
-      "value": "\"aacHe\""
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 142,
-      "length": 7,
-      "value": "\"amrNb\""
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 165,
-      "length": 7,
-      "value": "\"amrWb\""
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 187,
-      "length": 6,
-      "value": "\"opus\""
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 208,
-      "length": 6,
-      "value": "\"flac\""
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 234,
-      "length": 11,
-      "value": "\"pcm16bits\""
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 259,
-      "length": 5,
-      "value": "\"wav\""
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 651,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 684,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/RecordConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 720,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/Recorder.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/Recorder.swift",
       "kind": "FloatLiteral",
       "offset": 94,
       "length": 6,
       "value": "-160.0"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
       "kind": "IntegerLiteral",
       "offset": 171,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
       "kind": "IntegerLiteral",
       "offset": 189,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
       "kind": "IntegerLiteral",
       "offset": 205,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
-      "kind": "IntegerLiteral",
-      "offset": 171,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
-      "kind": "IntegerLiteral",
-      "offset": 189,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
-      "kind": "IntegerLiteral",
-      "offset": 205,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
-      "kind": "IntegerLiteral",
-      "offset": 171,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
-      "kind": "IntegerLiteral",
-      "offset": 189,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderDelegateProtocols.swift",
-      "kind": "IntegerLiteral",
-      "offset": 205,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderFileDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 45,
-      "length": 20,
-      "value": "\"record_darwin.RecorderFileDelegate\""
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderStreamDelegate.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderStreamDelegate.swift",
       "kind": "FloatLiteral",
       "offset": 185,
       "length": 6,
       "value": "-160.0"
     },
     {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderStreamDelegate.swift",
+      "filePath": "\/Users\/ankit.kumar\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderStreamDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 212,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/delegate\/RecorderStreamDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 45,
-      "length": 22,
-      "value": "\"record_darwin.RecorderStreamDelegate\""
-    },
-    {
-      "filePath": "\/Users\/admin\/.pub-cache\/hosted\/pub.dev\/record_darwin-1.2.2\/ios\/Classes\/SwiftRecordPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 121,
-      "length": 17,
-      "value": "\"record_darwin.SwiftRecordPlugin\""
     }
   ]
 }

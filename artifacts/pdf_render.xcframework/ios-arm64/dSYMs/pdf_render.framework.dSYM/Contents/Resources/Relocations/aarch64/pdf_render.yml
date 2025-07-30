@@ -1,104 +1,101 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/admin/Documents/GitHub/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/pdf_render/pdf_render.framework/pdf_render'
+binary-path:     '/Users/ankit.kumar/Desktop/Projects/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/pdf_render/pdf_render.framework/pdf_render'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x5B837, size: 0x8, addend: 0x0, symName: _pdf_renderVersionString, symObjAddr: 0x0, symBinAddr: 0xF9D0, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x5B86C, size: 0x8, addend: 0x0, symName: _pdf_renderVersionNumber, symObjAddr: 0x28, symBinAddr: 0xF9F8, symSize: 0x0 }
-  - { offsetInCU: 0x27, offset: 0x5B8A9, size: 0x8, addend: 0x0, symName: '+[PdfRenderPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
-  - { offsetInCU: 0x91, offset: 0x5B913, size: 0x8, addend: 0x0, symName: '+[PdfRenderPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
-  - { offsetInCU: 0x4B, offset: 0x5B9CB, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC7invalidSo8NSNumberCvpZ', symObjAddr: 0x2E260, symBinAddr: 0x1A688, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x5B9E5, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC5newIdSivpZ', symObjAddr: 0x2E268, symBinAddr: 0x1A690, symSize: 0x0 }
-  - { offsetInCU: 0x10D, offset: 0x5BA8D, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC7invalid_WZ', symObjAddr: 0xE0, symBinAddr: 0x40EC, symSize: 0x34 }
-  - { offsetInCU: 0x177, offset: 0x5BAF7, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC8register4withySo07FlutterF9Registrar_p_tFZTo', symObjAddr: 0x118, symBinAddr: 0x4124, symSize: 0x30 }
-  - { offsetInCU: 0x235, offset: 0x5BBB5, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0x15BC, symBinAddr: 0x55C8, symSize: 0x7C }
-  - { offsetInCU: 0x3B6, offset: 0x5BD36, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC9updateTex4args6resultySo12NSDictionaryC_yypSgctKF015$syXlSgIeyBy_ypN7Iegn_TRyXlSgIeyBy_Tf1ncn_n', symObjAddr: 0x412C, symBinAddr: 0x8138, symSize: 0xE14 }
-  - { offsetInCU: 0x960, offset: 0x5C2E0, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginCACycfcTo', symObjAddr: 0x5CB0, symBinAddr: 0x9CBC, symSize: 0x2C }
-  - { offsetInCU: 0xA0C, offset: 0x5C38C, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC8register4withySo07FlutterF9Registrar_p_tFZTf4nd_n', symObjAddr: 0x7D78, symBinAddr: 0xBD5C, symSize: 0xE0 }
-  - { offsetInCU: 0xAA5, offset: 0x5C425, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC10releaseTex5texId6resultys5Int64V_yypSgctF015$syXlSgIeyBy_ypO7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n', symObjAddr: 0x83A4, symBinAddr: 0xC388, symSize: 0x1D8 }
-  - { offsetInCU: 0xBB4, offset: 0x5C534, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypN7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n', symObjAddr: 0x857C, symBinAddr: 0xC560, symSize: 0x1A9C }
-  - { offsetInCU: 0xF80, offset: 0x5C900, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TR', symObjAddr: 0x1638, symBinAddr: 0x5644, symSize: 0xE8 }
-  - { offsetInCU: 0x134D, offset: 0x5CCCD, size: 0x8, addend: 0x0, symName: '_$s10pdf_render0B11PdfPageRgba4page1x1y5width6height9fullWidth0I6Height14backgroundFill17allowAntialiasingAA0D4DataCSgSo12CGPDFPageRefa_S4iS2dS2btF', symObjAddr: 0x39C8, symBinAddr: 0x79D4, symSize: 0x4E4 }
-  - { offsetInCU: 0x1964, offset: 0x5D2E4, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfPageTextureCACycfcTo', symObjAddr: 0x6364, symBinAddr: 0xA348, symSize: 0x2C }
-  - { offsetInCU: 0x1A95, offset: 0x5D415, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginCfETo', symObjAddr: 0x5CE8, symBinAddr: 0x9CF4, symSize: 0x58 }
-  - { offsetInCU: 0x1ACF, offset: 0x5D44F, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfPageTextureCfETo', symObjAddr: 0x63CC, symBinAddr: 0xA3B0, symSize: 0x38 }
-  - { offsetInCU: 0x1B17, offset: 0x5D497, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfPageTextureC15copyPixelBuffers9UnmanagedVySo11CVBufferRefaGSgyFTo', symObjAddr: 0x6404, symBinAddr: 0xA3E8, symSize: 0x10 }
-  - { offsetInCU: 0x1B37, offset: 0x5D4B7, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfPageTextureC15copyPixelBuffers9UnmanagedVySo11CVBufferRefaGSgyFTo', symObjAddr: 0x6404, symBinAddr: 0xA3E8, symSize: 0x10 }
-  - { offsetInCU: 0x1B55, offset: 0x5D4D5, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfPageTextureC15copyPixelBuffers9UnmanagedVySo11CVBufferRefaGSgyFTo', symObjAddr: 0x6404, symBinAddr: 0xA3E8, symSize: 0x10 }
-  - { offsetInCU: 0x21C5, offset: 0x5DB45, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x7E58, symBinAddr: 0xBE3C, symSize: 0x40 }
-  - { offsetInCU: 0x21D9, offset: 0x5DB59, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x7E98, symBinAddr: 0xBE7C, symSize: 0x40 }
-  - { offsetInCU: 0x21ED, offset: 0x5DB6D, size: 0x8, addend: 0x0, symName: '_$sypSgWOb', symObjAddr: 0x7ED8, symBinAddr: 0xBEBC, symSize: 0x48 }
-  - { offsetInCU: 0x2201, offset: 0x5DB81, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOACs0E0AAWl', symObjAddr: 0x7F20, symBinAddr: 0xBF04, symSize: 0x44 }
-  - { offsetInCU: 0x2215, offset: 0x5DB95, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x7F64, symBinAddr: 0xBF48, symSize: 0x24 }
-  - { offsetInCU: 0x2229, offset: 0x5DBA9, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x7F88, symBinAddr: 0xBF6C, symSize: 0x20 }
-  - { offsetInCU: 0x223D, offset: 0x5DBBD, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x7FA8, symBinAddr: 0xBF8C, symSize: 0x10 }
-  - { offsetInCU: 0x2251, offset: 0x5DBD1, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x7FB8, symBinAddr: 0xBF9C, symSize: 0x44 }
-  - { offsetInCU: 0x2265, offset: 0x5DBE5, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginCMa', symObjAddr: 0x7FFC, symBinAddr: 0xBFE0, symSize: 0x20 }
-  - { offsetInCU: 0x2279, offset: 0x5DBF9, size: 0x8, addend: 0x0, symName: '_$s10pdf_render3DocCMa', symObjAddr: 0x801C, symBinAddr: 0xC000, symSize: 0x20 }
-  - { offsetInCU: 0x228D, offset: 0x5DC0D, size: 0x8, addend: 0x0, symName: '_$s10pdf_render8PageDataCMa', symObjAddr: 0x8064, symBinAddr: 0xC048, symSize: 0x20 }
-  - { offsetInCU: 0x22A1, offset: 0x5DC21, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfPageTextureCMa', symObjAddr: 0x8084, symBinAddr: 0xC068, symSize: 0x20 }
-  - { offsetInCU: 0x22B5, offset: 0x5DC35, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOWOy', symObjAddr: 0x8128, symBinAddr: 0xC10C, symSize: 0x18 }
-  - { offsetInCU: 0x22C9, offset: 0x5DC49, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOwxx', symObjAddr: 0x8140, symBinAddr: 0xC124, symSize: 0x10 }
-  - { offsetInCU: 0x22DD, offset: 0x5DC5D, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOWOe', symObjAddr: 0x8150, symBinAddr: 0xC134, symSize: 0x18 }
-  - { offsetInCU: 0x22F1, offset: 0x5DC71, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOwca', symObjAddr: 0x81B4, symBinAddr: 0xC198, symSize: 0x54 }
-  - { offsetInCU: 0x2305, offset: 0x5DC85, size: 0x8, addend: 0x0, symName: ___swift_memcpy17_8, symObjAddr: 0x8208, symBinAddr: 0xC1EC, symSize: 0x14 }
-  - { offsetInCU: 0x2319, offset: 0x5DC99, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOwta', symObjAddr: 0x821C, symBinAddr: 0xC200, symSize: 0x44 }
-  - { offsetInCU: 0x232D, offset: 0x5DCAD, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOwet', symObjAddr: 0x8260, symBinAddr: 0xC244, symSize: 0x48 }
-  - { offsetInCU: 0x2341, offset: 0x5DCC1, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOwst', symObjAddr: 0x82A8, symBinAddr: 0xC28C, symSize: 0x44 }
-  - { offsetInCU: 0x2355, offset: 0x5DCD5, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOwug', symObjAddr: 0x82EC, symBinAddr: 0xC2D0, symSize: 0x8 }
-  - { offsetInCU: 0x2369, offset: 0x5DCE9, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOwup', symObjAddr: 0x82F4, symBinAddr: 0xC2D8, symSize: 0x4 }
-  - { offsetInCU: 0x237D, offset: 0x5DCFD, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOwui', symObjAddr: 0x82F8, symBinAddr: 0xC2DC, symSize: 0x8 }
-  - { offsetInCU: 0x2391, offset: 0x5DD11, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOMa', symObjAddr: 0x8300, symBinAddr: 0xC2E4, symSize: 0x10 }
-  - { offsetInCU: 0x23A5, offset: 0x5DD25, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOc', symObjAddr: 0x8310, symBinAddr: 0xC2F4, symSize: 0x3C }
-  - { offsetInCU: 0x23B9, offset: 0x5DD39, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOh', symObjAddr: 0x834C, symBinAddr: 0xC330, symSize: 0x34 }
-  - { offsetInCU: 0x23CD, offset: 0x5DD4D, size: 0x8, addend: 0x0, symName: '_$sSo22FlutterPluginRegistrar_pSgXwWOh', symObjAddr: 0x8380, symBinAddr: 0xC364, symSize: 0x24 }
-  - { offsetInCU: 0x23E1, offset: 0x5DD61, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0xA03C, symBinAddr: 0xE020, symSize: 0x8 }
-  - { offsetInCU: 0x23F5, offset: 0x5DD75, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC0B04args6resultySo12NSDictionaryC_yypSgctKFyyYbcfU_TA', symObjAddr: 0xA070, symBinAddr: 0xE054, symSize: 0x48 }
-  - { offsetInCU: 0x2409, offset: 0x5DD89, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0xA0B8, symBinAddr: 0xE09C, symSize: 0x10 }
-  - { offsetInCU: 0x241D, offset: 0x5DD9D, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0xA0C8, symBinAddr: 0xE0AC, symSize: 0x8 }
-  - { offsetInCU: 0x2431, offset: 0x5DDB1, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0xA0D0, symBinAddr: 0xE0B4, symSize: 0x44 }
-  - { offsetInCU: 0x2445, offset: 0x5DDC5, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC0B04args6resultySo12NSDictionaryC_yypSgctKFyyYbcfU_yyScMYccfU_Tf2ni_nTA', symObjAddr: 0xA178, symBinAddr: 0xE15C, symSize: 0x94 }
-  - { offsetInCU: 0x2491, offset: 0x5DE11, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOy', symObjAddr: 0xA20C, symBinAddr: 0xE1F0, symSize: 0x44 }
-  - { offsetInCU: 0x24E4, offset: 0x5DE64, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV06InlineB0VyAESWcfCTf4nd_n', symObjAddr: 0xA294, symBinAddr: 0xE278, symSize: 0xC4 }
-  - { offsetInCU: 0x256F, offset: 0x5DEEF, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationO_5countAeA02__B7StorageC_SitcfCTf4nnd_n', symObjAddr: 0xA358, symBinAddr: 0xE33C, symSize: 0xE4 }
-  - { offsetInCU: 0x26F8, offset: 0x5E078, size: 0x8, addend: 0x0, symName: '_$sSa9repeating5countSayxGx_SitcfCSo12CGPDFPageRefaSg_Tgm5', symObjAddr: 0x0, symBinAddr: 0x400C, symSize: 0xA4 }
-  - { offsetInCU: 0x274F, offset: 0x5E0CF, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOs0E0AAsADP7_domainSSvgTW', symObjAddr: 0xD0, symBinAddr: 0x40DC, symSize: 0x4 }
-  - { offsetInCU: 0x276B, offset: 0x5E0EB, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOs0E0AAsADP5_codeSivgTW', symObjAddr: 0xD4, symBinAddr: 0x40E0, symSize: 0x4 }
-  - { offsetInCU: 0x2787, offset: 0x5E107, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOs0E0AAsADP9_userInfoyXlSgvgTW', symObjAddr: 0xD8, symBinAddr: 0x40E4, symSize: 0x4 }
-  - { offsetInCU: 0x27A3, offset: 0x5E123, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOs0E0AAsADP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0xDC, symBinAddr: 0x40E8, symSize: 0x4 }
-  - { offsetInCU: 0x2BA2, offset: 0x5E522, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSi_10pdf_render3DocCTgm5Tf4g_n', symObjAddr: 0x75F8, symBinAddr: 0xB5DC, symSize: 0xFC }
-  - { offsetInCU: 0x2CE8, offset: 0x5E668, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCs5Int64V_10pdf_render14PdfPageTextureCTgm5Tf4g_n', symObjAddr: 0x76F4, symBinAddr: 0xB6D8, symSize: 0xFC }
-  - { offsetInCU: 0x2E40, offset: 0x5E7C0, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTgm5Tf4g_n', symObjAddr: 0x77F0, symBinAddr: 0xB7D4, symSize: 0x110 }
-  - { offsetInCU: 0x2FA2, offset: 0x5E922, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCs11AnyHashableV_ypTgm5Tf4g_n', symObjAddr: 0x7900, symBinAddr: 0xB8E4, symSize: 0x114 }
-  - { offsetInCU: 0x3104, offset: 0x5EA84, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypSgTgm5Tf4g_n', symObjAddr: 0x7A14, symBinAddr: 0xB9F8, symSize: 0x110 }
-  - { offsetInCU: 0x35AD, offset: 0x5EF2D, size: 0x8, addend: 0x0, symName: '_$s10pdf_render3DocCfD', symObjAddr: 0xA4, symBinAddr: 0x40B0, symSize: 0x2C }
-  - { offsetInCU: 0x3600, offset: 0x5EF80, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC8register4withySo07FlutterF9Registrar_p_tFZ', symObjAddr: 0x114, symBinAddr: 0x4120, symSize: 0x4 }
-  - { offsetInCU: 0x374D, offset: 0x5F0CD, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x148, symBinAddr: 0x4154, symSize: 0x1474 }
-  - { offsetInCU: 0x3B0F, offset: 0x5F48F, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC14registerNewDocySo12NSDictionaryCSgSo16CGPDFDocumentRefaSgKF', symObjAddr: 0x1720, symBinAddr: 0x572C, symSize: 0x174 }
-  - { offsetInCU: 0x3C55, offset: 0x5F5D5, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC7getInfo5docIdSo12NSDictionaryCSgSi_tKF', symObjAddr: 0x1894, symBinAddr: 0x58A0, symSize: 0x434 }
-  - { offsetInCU: 0x3F59, offset: 0x5F8D9, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC5close5docIdySi_tF', symObjAddr: 0x1CC8, symBinAddr: 0x5CD4, symSize: 0xC4 }
-  - { offsetInCU: 0x4053, offset: 0x5F9D3, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC12openAssetDoc4nameSo16CGPDFDocumentRefaSgSS_tKF', symObjAddr: 0x1D8C, symBinAddr: 0x5D98, symSize: 0x28C }
-  - { offsetInCU: 0x431C, offset: 0x5FC9C, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC8openPage4argsSo12NSDictionaryCSgAG_tF', symObjAddr: 0x2018, symBinAddr: 0x6024, symSize: 0x488 }
-  - { offsetInCU: 0x47BE, offset: 0x6013E, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC0B04args6resultySo12NSDictionaryC_yypSgctKF', symObjAddr: 0x24A0, symBinAddr: 0x64AC, symSize: 0xD14 }
-  - { offsetInCU: 0x4C45, offset: 0x605C5, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC0B04args6resultySo12NSDictionaryC_yypSgctKFyyYbcfU_', symObjAddr: 0x31B4, symBinAddr: 0x71C0, symSize: 0x814 }
-  - { offsetInCU: 0x52D3, offset: 0x60C53, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC8allocTexs5Int64VyF', symObjAddr: 0x3EE0, symBinAddr: 0x7EEC, symSize: 0x120 }
-  - { offsetInCU: 0x53F4, offset: 0x60D74, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC10releaseTex5texId6resultys5Int64V_yypSgctF', symObjAddr: 0x4000, symBinAddr: 0x800C, symSize: 0x12C }
-  - { offsetInCU: 0x5509, offset: 0x60E89, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC9updateTex4args6resultySo12NSDictionaryC_yypSgctKF', symObjAddr: 0x4F40, symBinAddr: 0x8F4C, symSize: 0xD24 }
-  - { offsetInCU: 0x5A5B, offset: 0x613DB, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginCACycfC', symObjAddr: 0x5C64, symBinAddr: 0x9C70, symSize: 0x20 }
-  - { offsetInCU: 0x5A6F, offset: 0x613EF, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginCACycfc', symObjAddr: 0x5C84, symBinAddr: 0x9C90, symSize: 0x2C }
-  - { offsetInCU: 0x5ADD, offset: 0x6145D, size: 0x8, addend: 0x0, symName: '_$s10pdf_render8PageDataCfD', symObjAddr: 0x5D68, symBinAddr: 0x9D4C, symSize: 0x24 }
-  - { offsetInCU: 0x5BDC, offset: 0x6155C, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfPageTextureC9updateTex4page5width6height4srcX0K1Y9fullWidth0L6Height14backgroundFill17allowAntialiasingySo12CGPDFPageRefa_S4iSdSgAPS2btKF', symObjAddr: 0x5D8C, symBinAddr: 0x9D70, symSize: 0x5D8 }
-  - { offsetInCU: 0x613D, offset: 0x61ABD, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSi_Tg5', symObjAddr: 0x6414, symBinAddr: 0xA3F8, symSize: 0x38 }
-  - { offsetInCU: 0x6182, offset: 0x61B02, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x644C, symBinAddr: 0xA430, symSize: 0x64 }
-  - { offsetInCU: 0x61C0, offset: 0x61B40, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5', symObjAddr: 0x64B0, symBinAddr: 0xA494, symSize: 0x30 }
-  - { offsetInCU: 0x61E9, offset: 0x61B69, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x657C, symBinAddr: 0xA560, symSize: 0xE0 }
-  - { offsetInCU: 0x625D, offset: 0x61BDD, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs11AnyHashableV_Tg5', symObjAddr: 0x665C, symBinAddr: 0xA640, symSize: 0xC4 }
-  - { offsetInCU: 0x62A9, offset: 0x61C29, size: 0x8, addend: 0x0, symName: '_$sSD8_VariantV8setValue_6forKeyyq_n_xtFSi_10pdf_render3DocCTg5', symObjAddr: 0x6720, symBinAddr: 0xA704, symSize: 0xF4 }
-  - { offsetInCU: 0x639B, offset: 0x61D1B, size: 0x8, addend: 0x0, symName: '_$sSD8_VariantV8setValue_6forKeyyq_n_xtFs5Int64V_10pdf_render14PdfPageTextureCTg5', symObjAddr: 0x6814, symBinAddr: 0xA7F8, symSize: 0xF4 }
-  - { offsetInCU: 0x6471, offset: 0x61DF1, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFSi_10pdf_render3DocCTg5', symObjAddr: 0x69EC, symBinAddr: 0xA9D0, symSize: 0x1B0 }
-  - { offsetInCU: 0x650A, offset: 0x61E8A, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFs5Int64V_10pdf_render14PdfPageTextureCTg5', symObjAddr: 0x6B9C, symBinAddr: 0xAB80, symSize: 0x1B0 }
-  - { offsetInCU: 0x65BF, offset: 0x61F3F, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSi_10pdf_render3DocCTg5', symObjAddr: 0x6D4C, symBinAddr: 0xAD30, symSize: 0x2E4 }
-  - { offsetInCU: 0x66A9, offset: 0x62029, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFs5Int64V_10pdf_render14PdfPageTextureCTg5', symObjAddr: 0x7030, symBinAddr: 0xB014, symSize: 0x2E4 }
-  - { offsetInCU: 0x678C, offset: 0x6210C, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFSo12CGPDFPageRefaSg_Tg5', symObjAddr: 0x74C0, symBinAddr: 0xB4A4, symSize: 0x14 }
-  - { offsetInCU: 0x67E6, offset: 0x62166, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo12CGPDFPageRefaSg_Tg5', symObjAddr: 0x74D4, symBinAddr: 0xB4B8, symSize: 0x124 }
-  - { offsetInCU: 0x6A0D, offset: 0x6238D, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC9registrarACSo07FlutterF9Registrar_p_tcfcTf4gn_n', symObjAddr: 0x7B24, symBinAddr: 0xBB08, symSize: 0x254 }
+  - { offset: 0x627C0, size: 0x8, addend: 0x0, symName: _pdf_renderVersionString, symObjAddr: 0x0, symBinAddr: 0xFD20, symSize: 0x0 }
+  - { offset: 0x627F5, size: 0x8, addend: 0x0, symName: _pdf_renderVersionNumber, symObjAddr: 0x28, symBinAddr: 0xFD48, symSize: 0x0 }
+  - { offset: 0x62832, size: 0x8, addend: 0x0, symName: '+[PdfRenderPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offset: 0x62840, size: 0x8, addend: 0x0, symName: '+[PdfRenderPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offset: 0x62985, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC7invalidSo8NSNumberCvpZ', symObjAddr: 0x2E810, symBinAddr: 0x19BA8, symSize: 0x0 }
+  - { offset: 0x6299F, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC5newIdSivpZ', symObjAddr: 0x2E818, symBinAddr: 0x19BB0, symSize: 0x0 }
+  - { offset: 0x62A3D, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC7invalid_WZ', symObjAddr: 0xE0, symBinAddr: 0x40EC, symSize: 0x34 }
+  - { offset: 0x62E1F, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TR', symObjAddr: 0x15F8, symBinAddr: 0x5604, symSize: 0xE8 }
+  - { offset: 0x631D9, size: 0x8, addend: 0x0, symName: '_$s10pdf_render0B11PdfPageRgba4page1x1y5width6height9fullWidth0I6Height14backgroundFill17allowAntialiasingAA0D4DataCSgSo12CGPDFPageRefa_S4iS2dS2btF', symObjAddr: 0x39B8, symBinAddr: 0x79C4, symSize: 0x4BC }
+  - { offset: 0x638BD, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginCfETo', symObjAddr: 0x5CD0, symBinAddr: 0x9CDC, symSize: 0x58 }
+  - { offset: 0x638F7, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfPageTextureCfETo', symObjAddr: 0x63DC, symBinAddr: 0xA3C8, symSize: 0x38 }
+  - { offset: 0x63948, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfPageTextureC15copyPixelBuffers9UnmanagedVySo11CVBufferRefaGSgyFTo', symObjAddr: 0x6414, symBinAddr: 0xA400, symSize: 0x10 }
+  - { offset: 0x63968, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfPageTextureC15copyPixelBuffers9UnmanagedVySo11CVBufferRefaGSgyFTo', symObjAddr: 0x6414, symBinAddr: 0xA400, symSize: 0x10 }
+  - { offset: 0x63988, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfPageTextureC15copyPixelBuffers9UnmanagedVySo11CVBufferRefaGSgyFTo', symObjAddr: 0x6414, symBinAddr: 0xA400, symSize: 0x10 }
+  - { offset: 0x639B0, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSi_Tg5', symObjAddr: 0x6424, symBinAddr: 0xA410, symSize: 0x38 }
+  - { offset: 0x639E8, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x645C, symBinAddr: 0xA448, symSize: 0x64 }
+  - { offset: 0x63A20, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5', symObjAddr: 0x64C0, symBinAddr: 0xA4AC, symSize: 0x30 }
+  - { offset: 0x63A58, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x658C, symBinAddr: 0xA578, symSize: 0xE0 }
+  - { offset: 0x63ADB, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs11AnyHashableV_Tg5', symObjAddr: 0x666C, symBinAddr: 0xA658, symSize: 0xC4 }
+  - { offset: 0x63B13, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFSi_10pdf_render3DocCTg5', symObjAddr: 0x6814, symBinAddr: 0xA800, symSize: 0x1AC }
+  - { offset: 0x63BB8, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFs5Int64V_10pdf_render14PdfPageTextureCTg5', symObjAddr: 0x69C0, symBinAddr: 0xA9AC, symSize: 0x1AC }
+  - { offset: 0x63C7E, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSi_10pdf_render3DocCTg5', symObjAddr: 0x6B6C, symBinAddr: 0xAB58, symSize: 0x2C8 }
+  - { offset: 0x63D73, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFs5Int64V_10pdf_render14PdfPageTextureCTg5', symObjAddr: 0x6E34, symBinAddr: 0xAE20, symSize: 0x2C8 }
+  - { offset: 0x63E5D, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFSo12CGPDFPageRefaSg_Tg5', symObjAddr: 0x726C, symBinAddr: 0xB258, symSize: 0x14 }
+  - { offset: 0x63EE2, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo12CGPDFPageRefaSg_Tg5', symObjAddr: 0x7280, symBinAddr: 0xB26C, symSize: 0x120 }
+  - { offset: 0x6414F, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x7BF4, symBinAddr: 0xBBE0, symSize: 0x40 }
+  - { offset: 0x64163, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x7C34, symBinAddr: 0xBC20, symSize: 0x44 }
+  - { offset: 0x64177, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOACs0E0AAWl', symObjAddr: 0x7C78, symBinAddr: 0xBC64, symSize: 0x40 }
+  - { offset: 0x6418B, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x7CB8, symBinAddr: 0xBCA4, symSize: 0x24 }
+  - { offset: 0x6419F, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x7CDC, symBinAddr: 0xBCC8, symSize: 0x20 }
+  - { offset: 0x641B3, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x7CFC, symBinAddr: 0xBCE8, symSize: 0x10 }
+  - { offset: 0x641C7, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x7D0C, symBinAddr: 0xBCF8, symSize: 0x40 }
+  - { offset: 0x641DB, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginCMa', symObjAddr: 0x7D4C, symBinAddr: 0xBD38, symSize: 0x20 }
+  - { offset: 0x641EF, size: 0x8, addend: 0x0, symName: '_$s10pdf_render3DocCMa', symObjAddr: 0x7D6C, symBinAddr: 0xBD58, symSize: 0x20 }
+  - { offset: 0x64203, size: 0x8, addend: 0x0, symName: '_$s10pdf_render8PageDataCMa', symObjAddr: 0x7DB4, symBinAddr: 0xBDA0, symSize: 0x20 }
+  - { offset: 0x64217, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfPageTextureCMa', symObjAddr: 0x7DD4, symBinAddr: 0xBDC0, symSize: 0x20 }
+  - { offset: 0x6422B, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOWOy', symObjAddr: 0x7E78, symBinAddr: 0xBE64, symSize: 0x18 }
+  - { offset: 0x6423F, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOwxx', symObjAddr: 0x7E90, symBinAddr: 0xBE7C, symSize: 0x10 }
+  - { offset: 0x64253, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOWOe', symObjAddr: 0x7EA0, symBinAddr: 0xBE8C, symSize: 0x18 }
+  - { offset: 0x64267, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOwca', symObjAddr: 0x7F00, symBinAddr: 0xBEEC, symSize: 0x54 }
+  - { offset: 0x6427B, size: 0x8, addend: 0x0, symName: ___swift_memcpy17_8, symObjAddr: 0x7F54, symBinAddr: 0xBF40, symSize: 0x14 }
+  - { offset: 0x6428F, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOwta', symObjAddr: 0x7F68, symBinAddr: 0xBF54, symSize: 0x44 }
+  - { offset: 0x642A3, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOwet', symObjAddr: 0x7FAC, symBinAddr: 0xBF98, symSize: 0x48 }
+  - { offset: 0x642B7, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOwst', symObjAddr: 0x7FF4, symBinAddr: 0xBFE0, symSize: 0x44 }
+  - { offset: 0x642CB, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOwug', symObjAddr: 0x8038, symBinAddr: 0xC024, symSize: 0x8 }
+  - { offset: 0x642DF, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOwup', symObjAddr: 0x8040, symBinAddr: 0xC02C, symSize: 0x4 }
+  - { offset: 0x642F3, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOwui', symObjAddr: 0x8044, symBinAddr: 0xC030, symSize: 0x8 }
+  - { offset: 0x64307, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOMa', symObjAddr: 0x804C, symBinAddr: 0xC038, symSize: 0x10 }
+  - { offset: 0x6431B, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOc', symObjAddr: 0x805C, symBinAddr: 0xC048, symSize: 0x3C }
+  - { offset: 0x6432F, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOh', symObjAddr: 0x8098, symBinAddr: 0xC084, symSize: 0x34 }
+  - { offset: 0x64343, size: 0x8, addend: 0x0, symName: '_$sSo22FlutterPluginRegistrar_pSgXwWOh', symObjAddr: 0x80CC, symBinAddr: 0xC0B8, symSize: 0x24 }
+  - { offset: 0x64357, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0x9D28, symBinAddr: 0xDD14, symSize: 0x8 }
+  - { offset: 0x6436B, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC0B04args6resultySo12NSDictionaryC_yypSgctKFyyYbcfU_TA', symObjAddr: 0x9D5C, symBinAddr: 0xDD48, symSize: 0x48 }
+  - { offset: 0x6437F, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x9DA4, symBinAddr: 0xDD90, symSize: 0x10 }
+  - { offset: 0x64393, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x9DB4, symBinAddr: 0xDDA0, symSize: 0x8 }
+  - { offset: 0x643A7, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0x9DBC, symBinAddr: 0xDDA8, symSize: 0x48 }
+  - { offset: 0x643BB, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC0B04args6resultySo12NSDictionaryC_yypSgctKFyyYbcfU_yyScMYccfU_Tf2ni_nTA', symObjAddr: 0x9E70, symBinAddr: 0xDE5C, symSize: 0x94 }
+  - { offset: 0x64407, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOy', symObjAddr: 0x9F04, symBinAddr: 0xDEF0, symSize: 0x40 }
+  - { offset: 0x6443C, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV06InlineB0VyAESWcfCTf4nd_n', symObjAddr: 0x9F88, symBinAddr: 0xDF74, symSize: 0xA4 }
+  - { offset: 0x644BD, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationO_5countAeA02__B7StorageC_SitcfCTf4nnd_n', symObjAddr: 0xA02C, symBinAddr: 0xE018, symSize: 0xE0 }
+  - { offset: 0x64642, size: 0x8, addend: 0x0, symName: '_$sSa9repeating5countSayxGx_SitcfCSo12CGPDFPageRefaSg_Tt1g5', symObjAddr: 0x0, symBinAddr: 0x400C, symSize: 0xA4 }
+  - { offset: 0x64699, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOs0E0AAsADP7_domainSSvgTW', symObjAddr: 0xD0, symBinAddr: 0x40DC, symSize: 0x4 }
+  - { offset: 0x646B5, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOs0E0AAsADP5_codeSivgTW', symObjAddr: 0xD4, symBinAddr: 0x40E0, symSize: 0x4 }
+  - { offset: 0x646D1, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOs0E0AAsADP9_userInfoyXlSgvgTW', symObjAddr: 0xD8, symBinAddr: 0x40E4, symSize: 0x4 }
+  - { offset: 0x646ED, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfRenderErrorOs0E0AAsADP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0xDC, symBinAddr: 0x40E8, symSize: 0x4 }
+  - { offset: 0x64A15, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSi_10pdf_render3DocCTt0g5Tf4g_n', symObjAddr: 0x73A0, symBinAddr: 0xB38C, symSize: 0xFC }
+  - { offset: 0x64B46, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCs5Int64V_10pdf_render14PdfPageTextureCTt0g5Tf4g_n', symObjAddr: 0x749C, symBinAddr: 0xB488, symSize: 0xFC }
+  - { offset: 0x64C83, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0g5Tf4g_n', symObjAddr: 0x7598, symBinAddr: 0xB584, symSize: 0x10C }
+  - { offset: 0x64DCA, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCs11AnyHashableV_ypTt0g5Tf4g_n', symObjAddr: 0x76A4, symBinAddr: 0xB690, symSize: 0x110 }
+  - { offset: 0x64F11, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypSgTt0g5Tf4g_n', symObjAddr: 0x77B4, symBinAddr: 0xB7A0, symSize: 0x10C }
+  - { offset: 0x6519D, size: 0x8, addend: 0x0, symName: '_$s10pdf_render3DocCfD', symObjAddr: 0xA4, symBinAddr: 0x40B0, symSize: 0x2C }
+  - { offset: 0x652C0, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC8register4withySo07FlutterF9Registrar_p_tFZ', symObjAddr: 0x114, symBinAddr: 0x4120, symSize: 0x4 }
+  - { offset: 0x652E1, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC8register4withySo07FlutterF9Registrar_p_tFZTo', symObjAddr: 0x118, symBinAddr: 0x4124, symSize: 0x30 }
+  - { offset: 0x6549C, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x148, symBinAddr: 0x4154, symSize: 0x1434 }
+  - { offset: 0x658C5, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0x157C, symBinAddr: 0x5588, symSize: 0x7C }
+  - { offset: 0x6593C, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC14registerNewDocySo12NSDictionaryCSgSo16CGPDFDocumentRefaSgKF', symObjAddr: 0x16E0, symBinAddr: 0x56EC, symSize: 0x210 }
+  - { offset: 0x65B28, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC7getInfo5docIdSo12NSDictionaryCSgSi_tKF', symObjAddr: 0x18F0, symBinAddr: 0x58FC, symSize: 0x430 }
+  - { offset: 0x65E1B, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC5close5docIdySi_tF', symObjAddr: 0x1D20, symBinAddr: 0x5D2C, symSize: 0xB4 }
+  - { offset: 0x65F07, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC12openAssetDoc4nameSo16CGPDFDocumentRefaSgSS_tKF', symObjAddr: 0x1DD4, symBinAddr: 0x5DE0, symSize: 0x284 }
+  - { offset: 0x660D3, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC8openPage4argsSo12NSDictionaryCSgAG_tF', symObjAddr: 0x2058, symBinAddr: 0x6064, symSize: 0x46C }
+  - { offset: 0x66575, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC0B04args6resultySo12NSDictionaryC_yypSgctKF', symObjAddr: 0x24C4, symBinAddr: 0x64D0, symSize: 0xCE8 }
+  - { offset: 0x66A37, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC0B04args6resultySo12NSDictionaryC_yypSgctKFyyYbcfU_', symObjAddr: 0x31AC, symBinAddr: 0x71B8, symSize: 0x80C }
+  - { offset: 0x6707B, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC8allocTexs5Int64VyF', symObjAddr: 0x3EA4, symBinAddr: 0x7EB0, symSize: 0x1CC }
+  - { offset: 0x67223, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC10releaseTex5texId6resultys5Int64V_yypSgctF', symObjAddr: 0x4070, symBinAddr: 0x807C, symSize: 0x124 }
+  - { offset: 0x67331, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC9updateTex4args6resultySo12NSDictionaryC_yypSgctKF015$syXlSgIeyBy_ypN7Iegn_TRyXlSgIeyBy_Tf1ncn_n', symObjAddr: 0x4194, symBinAddr: 0x81A0, symSize: 0xDD8 }
+  - { offset: 0x678D5, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC9updateTex4args6resultySo12NSDictionaryC_yypSgctKF', symObjAddr: 0x4F6C, symBinAddr: 0x8F78, symSize: 0xCE0 }
+  - { offset: 0x67E7C, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginCACycfC', symObjAddr: 0x5C4C, symBinAddr: 0x9C58, symSize: 0x20 }
+  - { offset: 0x67E90, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginCACycfc', symObjAddr: 0x5C6C, symBinAddr: 0x9C78, symSize: 0x2C }
+  - { offset: 0x67EE9, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginCACycfcTo', symObjAddr: 0x5C98, symBinAddr: 0x9CA4, symSize: 0x2C }
+  - { offset: 0x67F53, size: 0x8, addend: 0x0, symName: '_$s10pdf_render8PageDataCfD', symObjAddr: 0x5D48, symBinAddr: 0x9D34, symSize: 0x24 }
+  - { offset: 0x68052, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfPageTextureC9updateTex4page5width6height4srcX0K1Y9fullWidth0L6Height14backgroundFill17allowAntialiasingySo12CGPDFPageRefa_S4iSdSgAPS2btKF', symObjAddr: 0x5D6C, symBinAddr: 0x9D58, symSize: 0x608 }
+  - { offset: 0x685CE, size: 0x8, addend: 0x0, symName: '_$s10pdf_render14PdfPageTextureCACycfcTo', symObjAddr: 0x6374, symBinAddr: 0xA360, symSize: 0x2C }
+  - { offset: 0x6865A, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC9registrarACSo07FlutterF9Registrar_p_tcfcTf4gn_n', symObjAddr: 0x78C0, symBinAddr: 0xB8AC, symSize: 0x254 }
+  - { offset: 0x68713, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC8register4withySo07FlutterF9Registrar_p_tFZTf4nd_n', symObjAddr: 0x7B14, symBinAddr: 0xBB00, symSize: 0xE0 }
+  - { offset: 0x687A2, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC10releaseTex5texId6resultys5Int64V_yypSgctF015$syXlSgIeyBy_ypO7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n', symObjAddr: 0x80F0, symBinAddr: 0xC0DC, symSize: 0x1C4 }
+  - { offset: 0x688A1, size: 0x8, addend: 0x0, symName: '_$s10pdf_render20SwiftPdfRenderPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypN7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n', symObjAddr: 0x82B4, symBinAddr: 0xC2A0, symSize: 0x1A50 }
 ...

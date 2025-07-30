@@ -1,174 +1,162 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/admin/Documents/GitHub/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/light_compressor/light_compressor.framework/light_compressor'
+binary-path:     '/Users/ankit.kumar/Desktop/Projects/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/light_compressor/light_compressor.framework/light_compressor'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x73EBE, size: 0x8, addend: 0x0, symName: _light_compressorVersionString, symObjAddr: 0x0, symBinAddr: 0x12170, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x73EF3, size: 0x8, addend: 0x0, symName: _light_compressorVersionNumber, symObjAddr: 0x30, symBinAddr: 0x121A0, symSize: 0x0 }
-  - { offsetInCU: 0x27, offset: 0x73F30, size: 0x8, addend: 0x0, symName: '+[LightCompressorPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
-  - { offsetInCU: 0x91, offset: 0x73F9A, size: 0x8, addend: 0x0, symName: '+[LightCompressorPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
-  - { offsetInCU: 0x3F, offset: 0x74046, size: 0x8, addend: 0x0, symName: ___swift_memcpy16_8, symObjAddr: 0x0, symBinAddr: 0x400C, symSize: 0xC }
-  - { offsetInCU: 0x53, offset: 0x7405A, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0xC, symBinAddr: 0x4018, symSize: 0x4 }
-  - { offsetInCU: 0x67, offset: 0x7406E, size: 0x8, addend: 0x0, symName: '_$sSo6CGSizeVwet', symObjAddr: 0x10, symBinAddr: 0x401C, symSize: 0x20 }
-  - { offsetInCU: 0x7B, offset: 0x74082, size: 0x8, addend: 0x0, symName: '_$sSo6CGSizeVwst', symObjAddr: 0x30, symBinAddr: 0x403C, symSize: 0x28 }
-  - { offsetInCU: 0xAA, offset: 0x742CA, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x80, symBinAddr: 0x4150, symSize: 0x14 }
-  - { offsetInCU: 0xCA, offset: 0x742EA, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x80, symBinAddr: 0x4150, symSize: 0x14 }
-  - { offsetInCU: 0xF0, offset: 0x74310, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOSHAASH9hashValueSivgTW', symObjAddr: 0x94, symBinAddr: 0x4164, symSize: 0x44 }
-  - { offsetInCU: 0x1D3, offset: 0x743F3, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0xD8, symBinAddr: 0x41A8, symSize: 0x28 }
-  - { offsetInCU: 0x558, offset: 0x74778, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV13compressVideo6videos13progressQueue0H7Handler10completionAA11CompressionCSayAC0F0VG_So17OS_dispatch_queueCySo10NSProgressCcSgyAA0L6ResultOctF027$s16light_compressor26Swiftcd59PluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFyAA17lQ6OcfU0_SbypSgIegn_Tf1nnncn_n24$syXlSgIeyBy_ypSgIegn_TRyXlSgIeyBy_Tf1nnnnnc_nTf4nnnnng_n', symObjAddr: 0x53D4, symBinAddr: 0x9494, symSize: 0x18FC }
-  - { offsetInCU: 0xF43, offset: 0x75163, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV13compressVideo6videos13progressQueue0H7Handler10completionAA11CompressionCSayAC0F0VG_So17OS_dispatch_queueCySo10NSProgressCcSgyAA0L6ResultOctF027$s16light_compressor26Swiftcd59PluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFyAA17lQ6OcfU0_SbypSgIegn_Tf1nnncn_nTf4nnnnng_n', symObjAddr: 0x6D34, symBinAddr: 0xADF4, symSize: 0x1828 }
-  - { offsetInCU: 0x1B2D, offset: 0x75D4D, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x1CB0, symBinAddr: 0x5D80, symSize: 0x40 }
-  - { offsetInCU: 0x1B41, offset: 0x75D61, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionCMa', symObjAddr: 0x1CF0, symBinAddr: 0x5DC0, symSize: 0x20 }
-  - { offsetInCU: 0x1B55, offset: 0x75D75, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVWOc', symObjAddr: 0x1D20, symBinAddr: 0x5DF0, symSize: 0x44 }
-  - { offsetInCU: 0x1B69, offset: 0x75D89, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVWOb', symObjAddr: 0x1D64, symBinAddr: 0x5E34, symSize: 0x44 }
-  - { offsetInCU: 0x1B7D, offset: 0x75D9D, size: 0x8, addend: 0x0, symName: '_$sSi6offset_16light_compressor15LightCompressorV5VideoV7elementtSgWOb', symObjAddr: 0x1DA8, symBinAddr: 0x5E78, symSize: 0x48 }
-  - { offsetInCU: 0x1CDA, offset: 0x75EFA, size: 0x8, addend: 0x0, symName: '_$sIegh_IeyBh_TR', symObjAddr: 0x3630, symBinAddr: 0x7700, symSize: 0x2C }
-  - { offsetInCU: 0x2003, offset: 0x76223, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0x4330, symBinAddr: 0x8400, symSize: 0x44 }
-  - { offsetInCU: 0x2017, offset: 0x76237, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x438C, symBinAddr: 0x845C, symSize: 0x10 }
-  - { offsetInCU: 0x202B, offset: 0x7624B, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x439C, symBinAddr: 0x846C, symSize: 0x8 }
-  - { offsetInCU: 0x203F, offset: 0x7625F, size: 0x8, addend: 0x0, symName: '_$sSo10NSProgressCIegg_SgWOy', symObjAddr: 0x43A4, symBinAddr: 0x8474, symSize: 0x10 }
-  - { offsetInCU: 0x2053, offset: 0x76273, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOSHAASQWb', symObjAddr: 0x43B4, symBinAddr: 0x8484, symSize: 0x4 }
-  - { offsetInCU: 0x2067, offset: 0x76287, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOACSQAAWl', symObjAddr: 0x43B8, symBinAddr: 0x8488, symSize: 0x44 }
-  - { offsetInCU: 0x207B, offset: 0x7629B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorV10Foundation09LocalizedD0AAs0D0PWb', symObjAddr: 0x43FC, symBinAddr: 0x84CC, symSize: 0x4 }
-  - { offsetInCU: 0x208F, offset: 0x762AF, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVACs0D0AAWl', symObjAddr: 0x4400, symBinAddr: 0x84D0, symSize: 0x44 }
-  - { offsetInCU: 0x20A3, offset: 0x762C3, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x44C8, symBinAddr: 0x8598, symSize: 0xC }
-  - { offsetInCU: 0x20B7, offset: 0x762D7, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOwet', symObjAddr: 0x44D8, symBinAddr: 0x85A4, symSize: 0x90 }
-  - { offsetInCU: 0x20CB, offset: 0x762EB, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOwst', symObjAddr: 0x4568, symBinAddr: 0x8634, symSize: 0xBC }
-  - { offsetInCU: 0x20DF, offset: 0x762FF, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOwug', symObjAddr: 0x4624, symBinAddr: 0x86F0, symSize: 0x8 }
-  - { offsetInCU: 0x20F3, offset: 0x76313, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOwup', symObjAddr: 0x462C, symBinAddr: 0x86F8, symSize: 0x4 }
-  - { offsetInCU: 0x2107, offset: 0x76327, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOwui', symObjAddr: 0x4630, symBinAddr: 0x86FC, symSize: 0x8 }
-  - { offsetInCU: 0x211B, offset: 0x7633B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOMa', symObjAddr: 0x4638, symBinAddr: 0x8704, symSize: 0x10 }
-  - { offsetInCU: 0x212F, offset: 0x7634F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwCP', symObjAddr: 0x4648, symBinAddr: 0x8714, symSize: 0x100 }
-  - { offsetInCU: 0x2143, offset: 0x76363, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwxx', symObjAddr: 0x4748, symBinAddr: 0x8814, symSize: 0x74 }
-  - { offsetInCU: 0x2157, offset: 0x76377, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwcp', symObjAddr: 0x47BC, symBinAddr: 0x8888, symSize: 0xD8 }
-  - { offsetInCU: 0x216B, offset: 0x7638B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwca', symObjAddr: 0x4894, symBinAddr: 0x8960, symSize: 0xF8 }
-  - { offsetInCU: 0x217F, offset: 0x7639F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwtk', symObjAddr: 0x498C, symBinAddr: 0x8A58, symSize: 0xA8 }
-  - { offsetInCU: 0x2193, offset: 0x763B3, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwta', symObjAddr: 0x4A34, symBinAddr: 0x8B00, symSize: 0xC0 }
-  - { offsetInCU: 0x21A7, offset: 0x763C7, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwet', symObjAddr: 0x4AF4, symBinAddr: 0x8BC0, symSize: 0xC }
-  - { offsetInCU: 0x21BB, offset: 0x763DB, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwst', symObjAddr: 0x4B00, symBinAddr: 0x8BCC, symSize: 0xC }
-  - { offsetInCU: 0x21CF, offset: 0x763EF, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwug', symObjAddr: 0x4B0C, symBinAddr: 0x8BD8, symSize: 0x4 }
-  - { offsetInCU: 0x21E3, offset: 0x76403, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwup', symObjAddr: 0x4B10, symBinAddr: 0x8BDC, symSize: 0x4 }
-  - { offsetInCU: 0x21F7, offset: 0x76417, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwui', symObjAddr: 0x4B14, symBinAddr: 0x8BE0, symSize: 0x10 }
-  - { offsetInCU: 0x220B, offset: 0x7642B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOMr', symObjAddr: 0x4B24, symBinAddr: 0x8BF0, symSize: 0x84 }
-  - { offsetInCU: 0x221F, offset: 0x7643F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVwCP', symObjAddr: 0x4BE0, symBinAddr: 0x8CAC, symSize: 0x2C }
-  - { offsetInCU: 0x2233, offset: 0x76453, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVwxx', symObjAddr: 0x4C0C, symBinAddr: 0x8CD8, symSize: 0x8 }
-  - { offsetInCU: 0x2247, offset: 0x76467, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVwca', symObjAddr: 0x4C14, symBinAddr: 0x8CE0, symSize: 0x40 }
-  - { offsetInCU: 0x225B, offset: 0x7647B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVwta', symObjAddr: 0x4C60, symBinAddr: 0x8D20, symSize: 0x30 }
-  - { offsetInCU: 0x226F, offset: 0x7648F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVwet', symObjAddr: 0x4C90, symBinAddr: 0x8D50, symSize: 0x48 }
-  - { offsetInCU: 0x2283, offset: 0x764A3, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVwst', symObjAddr: 0x4CD8, symBinAddr: 0x8D98, symSize: 0x3C }
-  - { offsetInCU: 0x2297, offset: 0x764B7, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVMa', symObjAddr: 0x4D14, symBinAddr: 0x8DD4, symSize: 0x10 }
-  - { offsetInCU: 0x22AB, offset: 0x764CB, size: 0x8, addend: 0x0, symName: ___swift_memcpy24_8, symObjAddr: 0x4D24, symBinAddr: 0x8DE4, symSize: 0x14 }
-  - { offsetInCU: 0x22BF, offset: 0x764DF, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorVwet', symObjAddr: 0x4D38, symBinAddr: 0x8DF8, symSize: 0x20 }
-  - { offsetInCU: 0x22D3, offset: 0x764F3, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorVwst', symObjAddr: 0x4D58, symBinAddr: 0x8E18, symSize: 0x2C }
-  - { offsetInCU: 0x22E7, offset: 0x76507, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorVMa', symObjAddr: 0x4D84, symBinAddr: 0x8E44, symSize: 0x10 }
-  - { offsetInCU: 0x22FB, offset: 0x7651B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVwCP', symObjAddr: 0x4D94, symBinAddr: 0x8E54, symSize: 0xB8 }
-  - { offsetInCU: 0x230F, offset: 0x7652F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVwxx', symObjAddr: 0x4E4C, symBinAddr: 0x8F0C, symSize: 0x68 }
-  - { offsetInCU: 0x2323, offset: 0x76543, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVwcp', symObjAddr: 0x4EB4, symBinAddr: 0x8F74, symSize: 0x8C }
-  - { offsetInCU: 0x2337, offset: 0x76557, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVwca', symObjAddr: 0x4F40, symBinAddr: 0x9000, symSize: 0xBC }
-  - { offsetInCU: 0x234B, offset: 0x7656B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVwtk', symObjAddr: 0x4FFC, symBinAddr: 0x90BC, symSize: 0x8C }
-  - { offsetInCU: 0x235F, offset: 0x7657F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVwta', symObjAddr: 0x5088, symBinAddr: 0x9148, symSize: 0xBC }
-  - { offsetInCU: 0x2373, offset: 0x76593, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVwet', symObjAddr: 0x5144, symBinAddr: 0x9204, symSize: 0xC }
-  - { offsetInCU: 0x2387, offset: 0x765A7, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVwst', symObjAddr: 0x51E0, symBinAddr: 0x92A0, symSize: 0xC }
-  - { offsetInCU: 0x239B, offset: 0x765BB, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVMr', symObjAddr: 0x5268, symBinAddr: 0x9328, symSize: 0x74 }
-  - { offsetInCU: 0x23AF, offset: 0x765CF, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationVwCP', symObjAddr: 0x52DC, symBinAddr: 0x939C, symSize: 0x30 }
-  - { offsetInCU: 0x23C3, offset: 0x765E3, size: 0x8, addend: 0x0, symName: ___swift_memcpy41_8, symObjAddr: 0x530C, symBinAddr: 0x93CC, symSize: 0x14 }
-  - { offsetInCU: 0x23D7, offset: 0x765F7, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationVwet', symObjAddr: 0x5320, symBinAddr: 0x93E0, symSize: 0x54 }
-  - { offsetInCU: 0x23EB, offset: 0x7660B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationVwst', symObjAddr: 0x5374, symBinAddr: 0x9434, symSize: 0x50 }
-  - { offsetInCU: 0x23FF, offset: 0x7661F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationVMa', symObjAddr: 0x53C4, symBinAddr: 0x9484, symSize: 0x10 }
-  - { offsetInCU: 0x2413, offset: 0x76633, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0x6CF4, symBinAddr: 0xADB4, symSize: 0x8 }
-  - { offsetInCU: 0x2427, offset: 0x76647, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFyAA17CompressionResultOcfU0_TA', symObjAddr: 0x6D20, symBinAddr: 0xADE0, symSize: 0xC }
-  - { offsetInCU: 0x243B, offset: 0x7665B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV13compressVideo6videos13progressQueue0H7Handler10completionAA11CompressionCSayAC0F0VG_So17OS_dispatch_queueCySo10NSProgressCcSgyAA0L6ResultOctFyyYbcfU_yyYbcfU0_TA', symObjAddr: 0x8764, symBinAddr: 0xC824, symSize: 0x4C }
-  - { offsetInCU: 0x244F, offset: 0x7666F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV13compressVideo6videos13progressQueue0H7Handler10completionAA11CompressionCSayAC0F0VG_So17OS_dispatch_queueCySo10NSProgressCcSgyAA0L6ResultOctFyyYbcfU_yyYbcfU_TA', symObjAddr: 0x87DC, symBinAddr: 0xC89C, symSize: 0x28 }
-  - { offsetInCU: 0x248B, offset: 0x766AB, size: 0x8, addend: 0x0, symName: '_$sSS3key_yp5valuetSgWOh', symObjAddr: 0x8938, symBinAddr: 0xC9F8, symSize: 0x40 }
-  - { offsetInCU: 0x249F, offset: 0x766BF, size: 0x8, addend: 0x0, symName: '_$sSD8IteratorV8_VariantOyxq___GSHRzr0_lWOe', symObjAddr: 0x8978, symBinAddr: 0xCA38, symSize: 0x8 }
-  - { offsetInCU: 0x24B3, offset: 0x766D3, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x8980, symBinAddr: 0xCA40, symSize: 0x10 }
-  - { offsetInCU: 0x24C7, offset: 0x766E7, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x8990, symBinAddr: 0xCA50, symSize: 0x20 }
-  - { offsetInCU: 0x2564, offset: 0x76784, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x100, symBinAddr: 0x41D0, symSize: 0x40 }
-  - { offsetInCU: 0x260C, offset: 0x7682C, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVs0D0AAsADP7_domainSSvgTW', symObjAddr: 0x270, symBinAddr: 0x4340, symSize: 0x4 }
-  - { offsetInCU: 0x2628, offset: 0x76848, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVs0D0AAsADP5_codeSivgTW', symObjAddr: 0x274, symBinAddr: 0x4344, symSize: 0x4 }
-  - { offsetInCU: 0x2644, offset: 0x76864, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVs0D0AAsADP9_userInfoyXlSgvgTW', symObjAddr: 0x278, symBinAddr: 0x4348, symSize: 0x4 }
-  - { offsetInCU: 0x2660, offset: 0x76880, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVs0D0AAsADP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0x27C, symBinAddr: 0x434C, symSize: 0x4 }
-  - { offsetInCU: 0x280B, offset: 0x76A2B, size: 0x8, addend: 0x0, symName: '_$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_yXlSSypTg5', symObjAddr: 0x2714, symBinAddr: 0x67E4, symSize: 0x364 }
-  - { offsetInCU: 0x2964, offset: 0x76B84, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SSTgm5Tf4g_n', symObjAddr: 0x3F24, symBinAddr: 0x7FF4, symSize: 0xFC }
-  - { offsetInCU: 0x2A99, offset: 0x76CB9, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SbTgm5Tf4g_n', symObjAddr: 0x4020, symBinAddr: 0x80F0, symSize: 0xE4 }
-  - { offsetInCU: 0x2BCE, offset: 0x76DEE, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SiTgm5Tf4g_n', symObjAddr: 0x4104, symBinAddr: 0x81D4, symSize: 0xE4 }
-  - { offsetInCU: 0x2CFD, offset: 0x76F1D, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_yXlTgm5Tf4g_n', symObjAddr: 0x41E8, symBinAddr: 0x82B8, symSize: 0xEC }
-  - { offsetInCU: 0x3219, offset: 0x77439, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorV10Foundation09LocalizedD0AadEP16errorDescriptionSSSgvgTW', symObjAddr: 0x260, symBinAddr: 0x4330, symSize: 0x4 }
-  - { offsetInCU: 0x3235, offset: 0x77455, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorV10Foundation09LocalizedD0AadEP13failureReasonSSSgvgTW', symObjAddr: 0x264, symBinAddr: 0x4334, symSize: 0x4 }
-  - { offsetInCU: 0x3251, offset: 0x77471, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorV10Foundation09LocalizedD0AadEP18recoverySuggestionSSSgvgTW', symObjAddr: 0x268, symBinAddr: 0x4338, symSize: 0x4 }
-  - { offsetInCU: 0x326D, offset: 0x7748D, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorV10Foundation09LocalizedD0AadEP10helpAnchorSSSgvgTW', symObjAddr: 0x26C, symBinAddr: 0x433C, symSize: 0x4 }
-  - { offsetInCU: 0x32D4, offset: 0x774F4, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityO2eeoiySbAC_ACtFZ', symObjAddr: 0x0, symBinAddr: 0x40D0, symSize: 0x14 }
-  - { offsetInCU: 0x331B, offset: 0x7753B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityO4hash4intoys6HasherVz_tF', symObjAddr: 0x14, symBinAddr: 0x40E4, symSize: 0x28 }
-  - { offsetInCU: 0x33A7, offset: 0x775C7, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityO9hashValueSivg', symObjAddr: 0x3C, symBinAddr: 0x410C, symSize: 0x44 }
-  - { offsetInCU: 0x34D0, offset: 0x776F0, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionCACycfC', symObjAddr: 0x140, symBinAddr: 0x4210, symSize: 0x24 }
-  - { offsetInCU: 0x3503, offset: 0x77723, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionCACycfc', symObjAddr: 0x164, symBinAddr: 0x4234, symSize: 0xC }
-  - { offsetInCU: 0x3522, offset: 0x77742, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionC6cancelSbvg', symObjAddr: 0x170, symBinAddr: 0x4240, symSize: 0x30 }
-  - { offsetInCU: 0x353F, offset: 0x7775F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionC6cancelSbvs', symObjAddr: 0x1A0, symBinAddr: 0x4270, symSize: 0x3C }
-  - { offsetInCU: 0x3564, offset: 0x77784, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionC6cancelSbvM', symObjAddr: 0x1DC, symBinAddr: 0x42AC, symSize: 0x3C }
-  - { offsetInCU: 0x3589, offset: 0x777A9, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionC6cancelSbvM.resume.0', symObjAddr: 0x218, symBinAddr: 0x42E8, symSize: 0x4 }
-  - { offsetInCU: 0x35B0, offset: 0x777D0, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionCfd', symObjAddr: 0x21C, symBinAddr: 0x42EC, symSize: 0x8 }
-  - { offsetInCU: 0x35D5, offset: 0x777F5, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionCfD', symObjAddr: 0x224, symBinAddr: 0x42F4, symSize: 0x10 }
-  - { offsetInCU: 0x35FA, offset: 0x7781A, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorV5titleSSvg', symObjAddr: 0x234, symBinAddr: 0x4304, symSize: 0x2C }
-  - { offsetInCU: 0x360E, offset: 0x7782E, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationV7qualityAA0E7QualityOvg', symObjAddr: 0x280, symBinAddr: 0x4350, symSize: 0xC }
-  - { offsetInCU: 0x3622, offset: 0x77842, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationV24isMinBitrateCheckEnabledSbvg', symObjAddr: 0x28C, symBinAddr: 0x435C, symSize: 0x8 }
-  - { offsetInCU: 0x3636, offset: 0x77856, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationV18videoBitrateInMbpsSiSgvg', symObjAddr: 0x294, symBinAddr: 0x4364, symSize: 0xC }
-  - { offsetInCU: 0x364A, offset: 0x7786A, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationV12disableAudioSbvg', symObjAddr: 0x2A0, symBinAddr: 0x4370, symSize: 0x8 }
-  - { offsetInCU: 0x365E, offset: 0x7787E, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationV22keepOriginalResolutionSbvg', symObjAddr: 0x2A8, symBinAddr: 0x4378, symSize: 0x8 }
-  - { offsetInCU: 0x3672, offset: 0x77892, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationV9videoSizeSo6CGSizeVSgvg', symObjAddr: 0x2B0, symBinAddr: 0x4380, symSize: 0xC }
-  - { offsetInCU: 0x368C, offset: 0x778AC, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationV7quality24isMinBitrateCheckEnabled05videoJ6InMbps12disableAudio22keepOriginalResolution0M4SizeAgA0E7QualityO_SbSiSgS2bSo6CGSizeVSgtcfC', symObjAddr: 0x2BC, symBinAddr: 0x438C, symSize: 0x34 }
-  - { offsetInCU: 0x36F5, offset: 0x77915, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV6source10Foundation3URLVvg', symObjAddr: 0x2F0, symBinAddr: 0x43C0, symSize: 0x38 }
-  - { offsetInCU: 0x371A, offset: 0x7793A, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV11destination10Foundation3URLVvg', symObjAddr: 0x328, symBinAddr: 0x43F8, symSize: 0x48 }
-  - { offsetInCU: 0x373F, offset: 0x7795F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13configurationAE13ConfigurationVvg', symObjAddr: 0x384, symBinAddr: 0x4454, symSize: 0x6C }
-  - { offsetInCU: 0x376A, offset: 0x7798A, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV6source11destination13configurationAE10Foundation3URLV_AkE13ConfigurationVtcfC', symObjAddr: 0x3F0, symBinAddr: 0x44C0, symSize: 0xF8 }
-  - { offsetInCU: 0x37B5, offset: 0x779D5, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorVACycfC', symObjAddr: 0x4E8, symBinAddr: 0x45B8, symSize: 0x1C }
-  - { offsetInCU: 0x39FC, offset: 0x77C1C, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV13compressVideo6videos13progressQueue0H7Handler10completionAA11CompressionCSayAC0F0VG_So17OS_dispatch_queueCySo10NSProgressCcSgyAA0L6ResultOctF', symObjAddr: 0x504, symBinAddr: 0x45D4, symSize: 0x1764 }
-  - { offsetInCU: 0x439A, offset: 0x785BA, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV13compressVideo6videos13progressQueue0H7Handler10completionAA11CompressionCSayAC0F0VG_So17OS_dispatch_queueCySo10NSProgressCcSgyAA0L6ResultOctFyyYbcfU_', symObjAddr: 0x2A78, symBinAddr: 0x6B48, symSize: 0xBB8 }
-  - { offsetInCU: 0x4573, offset: 0x78793, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV13compressVideo6videos13progressQueue0H7Handler10completionAA11CompressionCSayAC0F0VG_So17OS_dispatch_queueCySo10NSProgressCcSgyAA0L6ResultOctFyyYbcfU_yyYbcfU0_', symObjAddr: 0x365C, symBinAddr: 0x772C, symSize: 0x3DC }
-  - { offsetInCU: 0x467D, offset: 0x7889D, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV10getBitrate021_7A650D4D7F2C9E279085H10E05EB99412LL7bitrate7qualitySiSf_AA12VideoQualityOtF', symObjAddr: 0x1E2C, symBinAddr: 0x5EFC, symSize: 0x1A0 }
-  - { offsetInCU: 0x4888, offset: 0x78AA8, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV22generateWidthAndHeight021_7A650D4D7F2C9E279085J10E05EB99412LL5width6height22keepOriginalResolutionSiAF_SiAGt12CoreGraphics7CGFloatV_AKSbtF', symObjAddr: 0x1FE0, symBinAddr: 0x60B0, symSize: 0x564 }
-  - { offsetInCU: 0x4D10, offset: 0x78F30, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV22getVideoWriterSettings021_7A650D4D7F2C9E279085J10E05EB99412LL7bitrate5width6heightSDySSyXlGSi_S2itF', symObjAddr: 0x2544, symBinAddr: 0x6614, symSize: 0x1D0 }
-  - { offsetInCU: 0x4F91, offset: 0x791B1, size: 0x8, addend: 0x0, symName: '_$sSo13AVAssetWriterC9outputURL8fileTypeAB10Foundation0D0V_So06AVFileF0atKcfcTO', symObjAddr: 0x3B1C, symBinAddr: 0x7BEC, symSize: 0x13C }
-  - { offsetInCU: 0x4FA5, offset: 0x791C5, size: 0x8, addend: 0x0, symName: '_$sSo13AVAssetReaderC5assetABSo0A0C_tKcfcTO', symObjAddr: 0x3C58, symBinAddr: 0x7D28, symSize: 0xD8 }
-  - { offsetInCU: 0x4FCC, offset: 0x791EC, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSo12AVAssetTrackC_Tg5', symObjAddr: 0x3D30, symBinAddr: 0x7E00, symSize: 0x1F4 }
-  - { offsetInCU: 0x43, offset: 0x794D8, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0x168, symBinAddr: 0xCC18, symSize: 0x2C }
-  - { offsetInCU: 0x96, offset: 0x7952B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC8register4withySo07FlutterF9Registrar_p_tFZTo', symObjAddr: 0x1B8, symBinAddr: 0xCC68, symSize: 0x30 }
-  - { offsetInCU: 0x13E, offset: 0x795D3, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0x1CBC, symBinAddr: 0xE76C, symSize: 0x7C }
-  - { offsetInCU: 0x1AB, offset: 0x79640, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTo', symObjAddr: 0x1E5C, symBinAddr: 0xE90C, symSize: 0xE0 }
-  - { offsetInCU: 0x23D, offset: 0x796D2, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tFTo', symObjAddr: 0x1F68, symBinAddr: 0xEA18, symSize: 0x94 }
-  - { offsetInCU: 0x2DB, offset: 0x79770, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginCACycfcTo', symObjAddr: 0x2204, symBinAddr: 0xECB4, symSize: 0x58 }
-  - { offsetInCU: 0x32C, offset: 0x797C1, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC8register4withySo07FlutterF9Registrar_p_tFZTf4nd_n', symObjAddr: 0x2BF0, symBinAddr: 0xF6A0, symSize: 0x170 }
-  - { offsetInCU: 0x3E1, offset: 0x79876, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypN7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n', symObjAddr: 0x2FD4, symBinAddr: 0xFA24, symSize: 0x101C }
-  - { offsetInCU: 0xA6C, offset: 0x79F01, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TR', symObjAddr: 0x1D38, symBinAddr: 0xE7E8, symSize: 0xE0 }
-  - { offsetInCU: 0xA80, offset: 0x79F15, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginCfETo', symObjAddr: 0x228C, symBinAddr: 0xED3C, symSize: 0x3C }
-  - { offsetInCU: 0xB14, offset: 0x79FA9, size: 0x8, addend: 0x0, symName: '_$sypSgWOb', symObjAddr: 0x2DA0, symBinAddr: 0xF810, symSize: 0x48 }
-  - { offsetInCU: 0xB28, offset: 0x79FBD, size: 0x8, addend: 0x0, symName: '_$sSo17OS_dispatch_queueCMa', symObjAddr: 0x2E24, symBinAddr: 0xF894, symSize: 0x3C }
-  - { offsetInCU: 0xB3C, offset: 0x79FD1, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFySo10NSProgressCcfU_TA', symObjAddr: 0x2E84, symBinAddr: 0xF8F4, symSize: 0x8 }
-  - { offsetInCU: 0xB50, offset: 0x79FE5, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x2E8C, symBinAddr: 0xF8FC, symSize: 0x48 }
-  - { offsetInCU: 0xB64, offset: 0x79FF9, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_SgWOe', symObjAddr: 0x2ED4, symBinAddr: 0xF944, symSize: 0x10 }
-  - { offsetInCU: 0xB78, offset: 0x7A00D, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginCMa', symObjAddr: 0x2EE4, symBinAddr: 0xF954, symSize: 0x20 }
-  - { offsetInCU: 0xB8C, offset: 0x7A021, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0x2F88, symBinAddr: 0xF9F8, symSize: 0x8 }
-  - { offsetInCU: 0xBA0, offset: 0x7A035, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x2F90, symBinAddr: 0xFA00, symSize: 0x24 }
-  - { offsetInCU: 0xBB4, offset: 0x7A049, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOWOc', symObjAddr: 0x3FF0, symBinAddr: 0x10A40, symSize: 0x44 }
-  - { offsetInCU: 0xBC8, offset: 0x7A05D, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x4044, symBinAddr: 0x10A94, symSize: 0x10 }
-  - { offsetInCU: 0xBDC, offset: 0x7A071, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x4054, symBinAddr: 0x10AA4, symSize: 0x8 }
-  - { offsetInCU: 0xBF0, offset: 0x7A085, size: 0x8, addend: 0x0, symName: '_$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl', symObjAddr: 0x405C, symBinAddr: 0x10AAC, symSize: 0x48 }
-  - { offsetInCU: 0xC04, offset: 0x7A099, size: 0x8, addend: 0x0, symName: '_$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl', symObjAddr: 0x40A4, symBinAddr: 0x10AF4, symSize: 0x4C }
-  - { offsetInCU: 0xC18, offset: 0x7A0AD, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x4144, symBinAddr: 0x10B50, symSize: 0x44 }
-  - { offsetInCU: 0xC2C, offset: 0x7A0C1, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFySo10NSProgressCcfU_yyScMYccfU_TA', symObjAddr: 0x4284, symBinAddr: 0x10C90, symSize: 0x8 }
-  - { offsetInCU: 0xC40, offset: 0x7A0D5, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_SgWOy', symObjAddr: 0x428C, symBinAddr: 0x10C98, symSize: 0x10 }
-  - { offsetInCU: 0xFC9, offset: 0x7A45E, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC8register4withySo07FlutterF9Registrar_p_tFZ', symObjAddr: 0x194, symBinAddr: 0xCC44, symSize: 0x4 }
-  - { offsetInCU: 0xFDD, offset: 0x7A472, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginCACycfC', symObjAddr: 0x198, symBinAddr: 0xCC48, symSize: 0x20 }
-  - { offsetInCU: 0x1125, offset: 0x7A5BA, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x1E8, symBinAddr: 0xCC98, symSize: 0xF28 }
-  - { offsetInCU: 0x15E1, offset: 0x7AA76, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFySo10NSProgressCcfU_', symObjAddr: 0x1110, symBinAddr: 0xDBC0, symSize: 0x1F8 }
-  - { offsetInCU: 0x1646, offset: 0x7AADB, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFySo10NSProgressCcfU_yyScMYccfU_', symObjAddr: 0x1308, symBinAddr: 0xDDB8, symSize: 0x118 }
-  - { offsetInCU: 0x16FE, offset: 0x7AB93, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFyAA17CompressionResultOcfU0_', symObjAddr: 0x1420, symBinAddr: 0xDED0, symSize: 0x6EC }
-  - { offsetInCU: 0x19F5, offset: 0x7AE8A, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFyAA17CompressionResultOcfU0_yyScMYccfU_', symObjAddr: 0x1B0C, symBinAddr: 0xE5BC, symSize: 0x158 }
-  - { offsetInCU: 0x1A20, offset: 0x7AEB5, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFyAA17CompressionResultOcfU0_yyScMYccfU_yycfU_', symObjAddr: 0x1C64, symBinAddr: 0xE714, symSize: 0x58 }
-  - { offsetInCU: 0x1A4B, offset: 0x7AEE0, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFyAA17CompressionResultOcfU0_015$syXlSgIeyBy_ypP7Iegn_TRyXlSgIeyBy_Tf1nnc_nTf4nng_n', symObjAddr: 0x240C, symBinAddr: 0xEEBC, symSize: 0x7E4 }
-  - { offsetInCU: 0x1E0C, offset: 0x7B2A1, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF', symObjAddr: 0x1E18, symBinAddr: 0xE8C8, symSize: 0x44 }
-  - { offsetInCU: 0x1EA1, offset: 0x7B336, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF', symObjAddr: 0x1F3C, symBinAddr: 0xE9EC, symSize: 0x2C }
-  - { offsetInCU: 0x1F0C, offset: 0x7B3A1, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC15getVideoQuality019_0E8A4C59EECA9FE286K12A602371352EALL7qualityAA0hI0OSS_tF', symObjAddr: 0x1FFC, symBinAddr: 0xEAAC, symSize: 0x1BC }
-  - { offsetInCU: 0x200F, offset: 0x7B4A4, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginCACycfc', symObjAddr: 0x21B8, symBinAddr: 0xEC68, symSize: 0x4C }
-  - { offsetInCU: 0x2040, offset: 0x7B4D5, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginCfD', symObjAddr: 0x225C, symBinAddr: 0xED0C, symSize: 0x30 }
-  - { offsetInCU: 0x2070, offset: 0x7B505, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x22C8, symBinAddr: 0xED78, symSize: 0x64 }
-  - { offsetInCU: 0x20AE, offset: 0x7B543, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x232C, symBinAddr: 0xEDDC, symSize: 0xE0 }
+  - { offset: 0x7CDDC, size: 0x8, addend: 0x0, symName: _light_compressorVersionString, symObjAddr: 0x0, symBinAddr: 0x11540, symSize: 0x0 }
+  - { offset: 0x7CE11, size: 0x8, addend: 0x0, symName: _light_compressorVersionNumber, symObjAddr: 0x30, symBinAddr: 0x11570, symSize: 0x0 }
+  - { offset: 0x7CE4E, size: 0x8, addend: 0x0, symName: '+[LightCompressorPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offset: 0x7CE5C, size: 0x8, addend: 0x0, symName: '+[LightCompressorPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offset: 0x7CF95, size: 0x8, addend: 0x0, symName: ___swift_memcpy16_8, symObjAddr: 0x0, symBinAddr: 0x400C, symSize: 0xC }
+  - { offset: 0x7CFA9, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0xC, symBinAddr: 0x4018, symSize: 0x4 }
+  - { offset: 0x7CFBD, size: 0x8, addend: 0x0, symName: '_$sSo6CGSizeVwet', symObjAddr: 0x10, symBinAddr: 0x401C, symSize: 0x20 }
+  - { offset: 0x7CFD1, size: 0x8, addend: 0x0, symName: '_$sSo6CGSizeVwst', symObjAddr: 0x30, symBinAddr: 0x403C, symSize: 0x28 }
+  - { offset: 0x7D6EF, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x1884, symBinAddr: 0x58D4, symSize: 0x44 }
+  - { offset: 0x7D703, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionCMa', symObjAddr: 0x18C8, symBinAddr: 0x5918, symSize: 0x20 }
+  - { offset: 0x7D717, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVWOc', symObjAddr: 0x18F8, symBinAddr: 0x5948, symSize: 0x44 }
+  - { offset: 0x7D72B, size: 0x8, addend: 0x0, symName: '_$sSi6offset_16light_compressor15LightCompressorV5VideoV7elementtSgWOb', symObjAddr: 0x193C, symBinAddr: 0x598C, symSize: 0x48 }
+  - { offset: 0x7D805, size: 0x8, addend: 0x0, symName: '_$sIegh_IeyBh_TR', symObjAddr: 0x3258, symBinAddr: 0x72A8, symSize: 0x2C }
+  - { offset: 0x7D828, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSo12AVAssetTrackC_Tg5', symObjAddr: 0x3744, symBinAddr: 0x7794, symSize: 0x1D4 }
+  - { offset: 0x7DA4B, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0x3E4C, symBinAddr: 0x7E9C, symSize: 0x48 }
+  - { offset: 0x7DA5F, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x3EAC, symBinAddr: 0x7EFC, symSize: 0x10 }
+  - { offset: 0x7DA73, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x3EBC, symBinAddr: 0x7F0C, symSize: 0x8 }
+  - { offset: 0x7DA87, size: 0x8, addend: 0x0, symName: '_$sSo10NSProgressCIegg_SgWOy', symObjAddr: 0x3EC4, symBinAddr: 0x7F14, symSize: 0x10 }
+  - { offset: 0x7DA9B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOSHAASQWb', symObjAddr: 0x3ED4, symBinAddr: 0x7F24, symSize: 0x4 }
+  - { offset: 0x7DAAF, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOACSQAAWl', symObjAddr: 0x3ED8, symBinAddr: 0x7F28, symSize: 0x40 }
+  - { offset: 0x7DAC3, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorV10Foundation09LocalizedD0AAs0D0PWb', symObjAddr: 0x3F18, symBinAddr: 0x7F68, symSize: 0x4 }
+  - { offset: 0x7DAD7, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVACs0D0AAWl', symObjAddr: 0x3F1C, symBinAddr: 0x7F6C, symSize: 0x40 }
+  - { offset: 0x7DAEB, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x3FE0, symBinAddr: 0x8030, symSize: 0xC }
+  - { offset: 0x7DAFF, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOwet', symObjAddr: 0x3FF0, symBinAddr: 0x803C, symSize: 0x90 }
+  - { offset: 0x7DB13, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOwst', symObjAddr: 0x4080, symBinAddr: 0x80CC, symSize: 0xB0 }
+  - { offset: 0x7DB27, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOwug', symObjAddr: 0x4130, symBinAddr: 0x817C, symSize: 0x8 }
+  - { offset: 0x7DB3B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOwup', symObjAddr: 0x4138, symBinAddr: 0x8184, symSize: 0x4 }
+  - { offset: 0x7DB4F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOwui', symObjAddr: 0x413C, symBinAddr: 0x8188, symSize: 0x8 }
+  - { offset: 0x7DB63, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOMa', symObjAddr: 0x4144, symBinAddr: 0x8190, symSize: 0x10 }
+  - { offset: 0x7DB77, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwCP', symObjAddr: 0x4154, symBinAddr: 0x81A0, symSize: 0xFC }
+  - { offset: 0x7DB8B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwxx', symObjAddr: 0x4250, symBinAddr: 0x829C, symSize: 0x70 }
+  - { offset: 0x7DB9F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwcp', symObjAddr: 0x42C0, symBinAddr: 0x830C, symSize: 0xD4 }
+  - { offset: 0x7DBB3, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwca', symObjAddr: 0x4394, symBinAddr: 0x83E0, symSize: 0xF4 }
+  - { offset: 0x7DBC7, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwtk', symObjAddr: 0x4488, symBinAddr: 0x84D4, symSize: 0xA8 }
+  - { offset: 0x7DBDB, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwta', symObjAddr: 0x4530, symBinAddr: 0x857C, symSize: 0xC0 }
+  - { offset: 0x7DBEF, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwet', symObjAddr: 0x45F0, symBinAddr: 0x863C, symSize: 0xC }
+  - { offset: 0x7DC03, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwst', symObjAddr: 0x45FC, symBinAddr: 0x8648, symSize: 0xC }
+  - { offset: 0x7DC17, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwug', symObjAddr: 0x4608, symBinAddr: 0x8654, symSize: 0x4 }
+  - { offset: 0x7DC2B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOwui', symObjAddr: 0x4610, symBinAddr: 0x8658, symSize: 0x10 }
+  - { offset: 0x7DC3F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOMr', symObjAddr: 0x4620, symBinAddr: 0x8668, symSize: 0x84 }
+  - { offset: 0x7DC53, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVwCP', symObjAddr: 0x46DC, symBinAddr: 0x8724, symSize: 0x2C }
+  - { offset: 0x7DC67, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVwxx', symObjAddr: 0x4708, symBinAddr: 0x8750, symSize: 0x8 }
+  - { offset: 0x7DC7B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVwca', symObjAddr: 0x4710, symBinAddr: 0x8758, symSize: 0x40 }
+  - { offset: 0x7DC8F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVwta', symObjAddr: 0x475C, symBinAddr: 0x8798, symSize: 0x30 }
+  - { offset: 0x7DCA3, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVwet', symObjAddr: 0x478C, symBinAddr: 0x87C8, symSize: 0x48 }
+  - { offset: 0x7DCB7, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVwst', symObjAddr: 0x47D4, symBinAddr: 0x8810, symSize: 0x3C }
+  - { offset: 0x7DCCB, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVMa', symObjAddr: 0x4810, symBinAddr: 0x884C, symSize: 0x10 }
+  - { offset: 0x7DCDF, size: 0x8, addend: 0x0, symName: ___swift_memcpy24_8, symObjAddr: 0x4820, symBinAddr: 0x885C, symSize: 0x14 }
+  - { offset: 0x7DCF3, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorVwet', symObjAddr: 0x4834, symBinAddr: 0x8870, symSize: 0x20 }
+  - { offset: 0x7DD07, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorVwst', symObjAddr: 0x4854, symBinAddr: 0x8890, symSize: 0x2C }
+  - { offset: 0x7DD1B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorVMa', symObjAddr: 0x4880, symBinAddr: 0x88BC, symSize: 0x10 }
+  - { offset: 0x7DD2F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVwCP', symObjAddr: 0x4890, symBinAddr: 0x88CC, symSize: 0xB8 }
+  - { offset: 0x7DD43, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVwxx', symObjAddr: 0x4948, symBinAddr: 0x8984, symSize: 0x68 }
+  - { offset: 0x7DD57, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVwcp', symObjAddr: 0x49B0, symBinAddr: 0x89EC, symSize: 0x8C }
+  - { offset: 0x7DD6B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVwca', symObjAddr: 0x4A3C, symBinAddr: 0x8A78, symSize: 0xBC }
+  - { offset: 0x7DD7F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVwtk', symObjAddr: 0x4AF8, symBinAddr: 0x8B34, symSize: 0x8C }
+  - { offset: 0x7DD93, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVwta', symObjAddr: 0x4B84, symBinAddr: 0x8BC0, symSize: 0xBC }
+  - { offset: 0x7DDA7, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVwet', symObjAddr: 0x4C40, symBinAddr: 0x8C7C, symSize: 0xC }
+  - { offset: 0x7DDBB, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVwst', symObjAddr: 0x4CDC, symBinAddr: 0x8D18, symSize: 0xC }
+  - { offset: 0x7DDCF, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoVMr', symObjAddr: 0x4D64, symBinAddr: 0x8DA0, symSize: 0x74 }
+  - { offset: 0x7DDE3, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationVwCP', symObjAddr: 0x4DD8, symBinAddr: 0x8E14, symSize: 0x2C }
+  - { offset: 0x7DDF7, size: 0x8, addend: 0x0, symName: ___swift_memcpy41_8, symObjAddr: 0x4E04, symBinAddr: 0x8E40, symSize: 0x14 }
+  - { offset: 0x7DE0B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationVwet', symObjAddr: 0x4E18, symBinAddr: 0x8E54, symSize: 0x54 }
+  - { offset: 0x7DE1F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationVwst', symObjAddr: 0x4E6C, symBinAddr: 0x8EA8, symSize: 0x50 }
+  - { offset: 0x7DE33, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationVMa', symObjAddr: 0x4EBC, symBinAddr: 0x8EF8, symSize: 0x10 }
+  - { offset: 0x7DE47, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0x6468, symBinAddr: 0xA4A4, symSize: 0x8 }
+  - { offset: 0x7DE5B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFyAA17CompressionResultOcfU0_TA', symObjAddr: 0x6494, symBinAddr: 0xA4D0, symSize: 0xC }
+  - { offset: 0x7DE6F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV13compressVideo6videos13progressQueue0H7Handler10completionAA11CompressionCSayAC0F0VG_So17OS_dispatch_queueCySo10NSProgressCcSgyAA0L6ResultOctFyyYbcfU_yyYbcfU0_TA', symObjAddr: 0x7B2C, symBinAddr: 0xBB68, symSize: 0x4C }
+  - { offset: 0x7DE83, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV13compressVideo6videos13progressQueue0H7Handler10completionAA11CompressionCSayAC0F0VG_So17OS_dispatch_queueCySo10NSProgressCcSgyAA0L6ResultOctFyyYbcfU_yyYbcfU_TA', symObjAddr: 0x7BA4, symBinAddr: 0xBBE0, symSize: 0x28 }
+  - { offset: 0x7DEBF, size: 0x8, addend: 0x0, symName: '_$sSo10NSProgressCIegg_SgWOe', symObjAddr: 0x7C4C, symBinAddr: 0xBC88, symSize: 0x10 }
+  - { offset: 0x7DED3, size: 0x8, addend: 0x0, symName: '_$sSD8IteratorV8_VariantOySSyXl__GWOe', symObjAddr: 0x7D04, symBinAddr: 0xBD40, symSize: 0x8 }
+  - { offset: 0x7DEE7, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x7D0C, symBinAddr: 0xBD48, symSize: 0x10 }
+  - { offset: 0x7DEFB, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x7D1C, symBinAddr: 0xBD58, symSize: 0x20 }
+  - { offset: 0x7DF88, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x100, symBinAddr: 0x4150, symSize: 0x40 }
+  - { offset: 0x7E01B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVs0D0AAsADP7_domainSSvgTW', symObjAddr: 0x264, symBinAddr: 0x42B4, symSize: 0x4 }
+  - { offset: 0x7E037, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVs0D0AAsADP5_codeSivgTW', symObjAddr: 0x268, symBinAddr: 0x42B8, symSize: 0x4 }
+  - { offset: 0x7E053, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVs0D0AAsADP9_userInfoyXlSgvgTW', symObjAddr: 0x26C, symBinAddr: 0x42BC, symSize: 0x4 }
+  - { offset: 0x7E06F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorVs0D0AAsADP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0x270, symBinAddr: 0x42C0, symSize: 0x4 }
+  - { offset: 0x7E1C0, size: 0x8, addend: 0x0, symName: '_$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_yXlSSypTg5', symObjAddr: 0x22E8, symBinAddr: 0x6338, symSize: 0x3A8 }
+  - { offset: 0x7E323, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SSTt0g5Tf4g_n', symObjAddr: 0x3918, symBinAddr: 0x7968, symSize: 0xFC }
+  - { offset: 0x7E44C, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SbTt0g5Tf4g_n', symObjAddr: 0x3A14, symBinAddr: 0x7A64, symSize: 0xE4 }
+  - { offset: 0x7E575, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SiTt0g5Tf4g_n', symObjAddr: 0x3AF8, symBinAddr: 0x7B48, symSize: 0xE4 }
+  - { offset: 0x7E69E, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_yXlTt0g5Tf4g_n', symObjAddr: 0x3BDC, symBinAddr: 0x7C2C, symSize: 0xEC }
+  - { offset: 0x7E936, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityO2eeoiySbAC_ACtFZ', symObjAddr: 0x0, symBinAddr: 0x40D0, symSize: 0x14 }
+  - { offset: 0x7E976, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityO4hash4intoys6HasherVz_tF', symObjAddr: 0x14, symBinAddr: 0x40E4, symSize: 0x28 }
+  - { offset: 0x7E9EC, size: 0x8, addend: 0x0, symName: '_$s16light_compressor12VideoQualityO9hashValueSivg', symObjAddr: 0x3C, symBinAddr: 0x410C, symSize: 0x44 }
+  - { offset: 0x7EB05, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionCACycfC', symObjAddr: 0x140, symBinAddr: 0x4190, symSize: 0x24 }
+  - { offset: 0x7EB38, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionCACycfc', symObjAddr: 0x164, symBinAddr: 0x41B4, symSize: 0xC }
+  - { offset: 0x7EB57, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionC6cancelSbvg', symObjAddr: 0x170, symBinAddr: 0x41C0, symSize: 0x30 }
+  - { offset: 0x7EB74, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionC6cancelSbvs', symObjAddr: 0x1A0, symBinAddr: 0x41F0, symSize: 0x3C }
+  - { offset: 0x7EB9D, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionC6cancelSbvM', symObjAddr: 0x1DC, symBinAddr: 0x422C, symSize: 0x30 }
+  - { offset: 0x7EBC0, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionC6cancelSbvM.resume.0', symObjAddr: 0x20C, symBinAddr: 0x425C, symSize: 0x4 }
+  - { offset: 0x7EBF1, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionCfd', symObjAddr: 0x210, symBinAddr: 0x4260, symSize: 0x8 }
+  - { offset: 0x7EC16, size: 0x8, addend: 0x0, symName: '_$s16light_compressor11CompressionCfD', symObjAddr: 0x218, symBinAddr: 0x4268, symSize: 0x10 }
+  - { offset: 0x7EC3B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorV5titleSSvg', symObjAddr: 0x228, symBinAddr: 0x4278, symSize: 0x2C }
+  - { offset: 0x7EC5C, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorV10Foundation09LocalizedD0AadEP16errorDescriptionSSSgvgTW', symObjAddr: 0x254, symBinAddr: 0x42A4, symSize: 0x4 }
+  - { offset: 0x7EC78, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorV10Foundation09LocalizedD0AadEP13failureReasonSSSgvgTW', symObjAddr: 0x258, symBinAddr: 0x42A8, symSize: 0x4 }
+  - { offset: 0x7EC94, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorV10Foundation09LocalizedD0AadEP18recoverySuggestionSSSgvgTW', symObjAddr: 0x25C, symBinAddr: 0x42AC, symSize: 0x4 }
+  - { offset: 0x7ECB0, size: 0x8, addend: 0x0, symName: '_$s16light_compressor16CompressionErrorV10Foundation09LocalizedD0AadEP10helpAnchorSSSgvgTW', symObjAddr: 0x260, symBinAddr: 0x42B0, symSize: 0x4 }
+  - { offset: 0x7ECD9, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationV7qualityAA0E7QualityOvg', symObjAddr: 0x274, symBinAddr: 0x42C4, symSize: 0xC }
+  - { offset: 0x7ECED, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationV24isMinBitrateCheckEnabledSbvg', symObjAddr: 0x280, symBinAddr: 0x42D0, symSize: 0x8 }
+  - { offset: 0x7ED01, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationV18videoBitrateInMbpsSiSgvg', symObjAddr: 0x288, symBinAddr: 0x42D8, symSize: 0xC }
+  - { offset: 0x7ED15, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationV12disableAudioSbvg', symObjAddr: 0x294, symBinAddr: 0x42E4, symSize: 0x8 }
+  - { offset: 0x7ED29, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationV22keepOriginalResolutionSbvg', symObjAddr: 0x29C, symBinAddr: 0x42EC, symSize: 0x8 }
+  - { offset: 0x7ED3D, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationV9videoSizeSo6CGSizeVSgvg', symObjAddr: 0x2A4, symBinAddr: 0x42F4, symSize: 0xC }
+  - { offset: 0x7ED57, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13ConfigurationV7quality24isMinBitrateCheckEnabled05videoJ6InMbps12disableAudio22keepOriginalResolution0M4SizeAgA0E7QualityO_SbSiSgS2bSo6CGSizeVSgtcfC', symObjAddr: 0x2B0, symBinAddr: 0x4300, symSize: 0x44 }
+  - { offset: 0x7EDDC, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV6source10Foundation3URLVvg', symObjAddr: 0x2F4, symBinAddr: 0x4344, symSize: 0x38 }
+  - { offset: 0x7EE01, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV11destination10Foundation3URLVvg', symObjAddr: 0x32C, symBinAddr: 0x437C, symSize: 0x4C }
+  - { offset: 0x7EE26, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV13configurationAE13ConfigurationVvg', symObjAddr: 0x38C, symBinAddr: 0x43DC, symSize: 0x3C }
+  - { offset: 0x7EE51, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV5VideoV6source11destination13configurationAE10Foundation3URLV_AkE13ConfigurationVtcfC', symObjAddr: 0x3C8, symBinAddr: 0x4418, symSize: 0x94 }
+  - { offset: 0x7EE9C, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorVACycfC', symObjAddr: 0x45C, symBinAddr: 0x44AC, symSize: 0x1C }
+  - { offset: 0x7F25B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV13compressVideo6videos13progressQueue0H7Handler10completionAA11CompressionCSayAC0F0VG_So17OS_dispatch_queueCySo10NSProgressCcSgyAA0L6ResultOctF', symObjAddr: 0x478, symBinAddr: 0x44C8, symSize: 0x13C8 }
+  - { offset: 0x7FC2C, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV13compressVideo6videos13progressQueue0H7Handler10completionAA11CompressionCSayAC0F0VG_So17OS_dispatch_queueCySo10NSProgressCcSgyAA0L6ResultOctFyyYbcfU_', symObjAddr: 0x2690, symBinAddr: 0x66E0, symSize: 0xBC8 }
+  - { offset: 0x7FE19, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV13compressVideo6videos13progressQueue0H7Handler10completionAA11CompressionCSayAC0F0VG_So17OS_dispatch_queueCySo10NSProgressCcSgyAA0L6ResultOctFyyYbcfU_yyYbcfU0_', symObjAddr: 0x3284, symBinAddr: 0x72D4, symSize: 0x3E0 }
+  - { offset: 0x7FF10, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV10getBitrate021_7A650D4D7F2C9E279085H10E05EB99412LL7bitrate7qualitySiSf_AA12VideoQualityOtF', symObjAddr: 0x19C0, symBinAddr: 0x5A10, symSize: 0x1B8 }
+  - { offset: 0x800A9, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV22generateWidthAndHeight021_7A650D4D7F2C9E279085J10E05EB99412LL5width6height22keepOriginalResolutionSiAF_SiAGt12CoreGraphics7CGFloatV_AKSbtF', symObjAddr: 0x1B78, symBinAddr: 0x5BC8, symSize: 0x57C }
+  - { offset: 0x804A7, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV22getVideoWriterSettings021_7A650D4D7F2C9E279085J10E05EB99412LL7bitrate5width6heightSDySSyXlGSi_S2itF', symObjAddr: 0x20F4, symBinAddr: 0x6144, symSize: 0x1F4 }
+  - { offset: 0x806FA, size: 0x8, addend: 0x0, symName: '_$sSo13AVAssetWriterC9outputURL8fileTypeAB10Foundation0D0V_So06AVFileF0atKcfcTOTf4ngn_n', symObjAddr: 0x3CC8, symBinAddr: 0x7D18, symSize: 0x120 }
+  - { offset: 0x80759, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV13compressVideo6videos13progressQueue0H7Handler10completionAA11CompressionCSayAC0F0VG_So17OS_dispatch_queueCySo10NSProgressCcSgyAA0L6ResultOctF027$s16light_compressor26Swiftcd59PluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFyAA17lQ6OcfU0_SbypSgIegn_Tf1nnncn_n24$syXlSgIeyBy_ypSgIegn_TRyXlSgIeyBy_Tf1nnnnnc_nTf4nnnnng_n', symObjAddr: 0x4ECC, symBinAddr: 0x8F08, symSize: 0x1578 }
+  - { offset: 0x8117F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor15LightCompressorV13compressVideo6videos13progressQueue0H7Handler10completionAA11CompressionCSayAC0F0VG_So17OS_dispatch_queueCySo10NSProgressCcSgyAA0L6ResultOctF027$s16light_compressor26Swiftcd59PluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFyAA17lQ6OcfU0_SbypSgIegn_Tf1nnncn_nTf4nnnnng_n', symObjAddr: 0x64A0, symBinAddr: 0xA4DC, symSize: 0x14A8 }
+  - { offset: 0x820FA, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TR', symObjAddr: 0x1B90, symBinAddr: 0xD96C, symSize: 0xE0 }
+  - { offset: 0x8210E, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginCfETo', symObjAddr: 0x20A4, symBinAddr: 0xDE80, symSize: 0x3C }
+  - { offset: 0x82148, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x20E0, symBinAddr: 0xDEBC, symSize: 0x64 }
+  - { offset: 0x82180, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x2144, symBinAddr: 0xDF20, symSize: 0xE0 }
+  - { offset: 0x82203, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x2AE8, symBinAddr: 0xE880, symSize: 0x48 }
+  - { offset: 0x82217, size: 0x8, addend: 0x0, symName: '_$sSo17OS_dispatch_queueCMa', symObjAddr: 0x2B30, symBinAddr: 0xE8C8, symSize: 0x44 }
+  - { offset: 0x8222B, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFySo10NSProgressCcfU_TA', symObjAddr: 0x2B98, symBinAddr: 0xE930, symSize: 0x8 }
+  - { offset: 0x8223F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginCMa', symObjAddr: 0x2BB0, symBinAddr: 0xE938, symSize: 0x20 }
+  - { offset: 0x82253, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x2C5C, symBinAddr: 0xE9DC, symSize: 0x24 }
+  - { offset: 0x82267, size: 0x8, addend: 0x0, symName: '_$s16light_compressor17CompressionResultOWOc', symObjAddr: 0x3B18, symBinAddr: 0xF878, symSize: 0x44 }
+  - { offset: 0x8227B, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x3BA8, symBinAddr: 0xF8CC, symSize: 0x10 }
+  - { offset: 0x8228F, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x3BB8, symBinAddr: 0xF8DC, symSize: 0x8 }
+  - { offset: 0x822A3, size: 0x8, addend: 0x0, symName: '_$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl', symObjAddr: 0x3BC0, symBinAddr: 0xF8E4, symSize: 0x44 }
+  - { offset: 0x822B7, size: 0x8, addend: 0x0, symName: '_$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl', symObjAddr: 0x3C04, symBinAddr: 0xF928, symSize: 0x48 }
+  - { offset: 0x822CB, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x3CA0, symBinAddr: 0xF97C, symSize: 0x40 }
+  - { offset: 0x822DF, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFySo10NSProgressCcfU_yyScMYccfU_TA', symObjAddr: 0x3DC4, symBinAddr: 0xFAA0, symSize: 0x8 }
+  - { offset: 0x823B6, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC8register4withySo07FlutterF9Registrar_p_tFZ', symObjAddr: 0x168, symBinAddr: 0xBF70, symSize: 0x4 }
+  - { offset: 0x823CA, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginCACycfC', symObjAddr: 0x16C, symBinAddr: 0xBF74, symSize: 0x20 }
+  - { offset: 0x823EB, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC8register4withySo07FlutterF9Registrar_p_tFZTo', symObjAddr: 0x18C, symBinAddr: 0xBF94, symSize: 0x30 }
+  - { offset: 0x82764, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x1BC, symBinAddr: 0xBFC4, symSize: 0xDD8 }
+  - { offset: 0x82CBF, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFySo10NSProgressCcfU_', symObjAddr: 0xF94, symBinAddr: 0xCD9C, symSize: 0x1F8 }
+  - { offset: 0x82D24, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFySo10NSProgressCcfU_yyScMYccfU_', symObjAddr: 0x118C, symBinAddr: 0xCF94, symSize: 0x118 }
+  - { offset: 0x82DD8, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFyAA17CompressionResultOcfU0_', symObjAddr: 0x12D0, symBinAddr: 0xD0AC, symSize: 0x694 }
+  - { offset: 0x830BD, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFyAA17CompressionResultOcfU0_yyScMYccfU_', symObjAddr: 0x1964, symBinAddr: 0xD740, symSize: 0x158 }
+  - { offset: 0x830E8, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFyAA17CompressionResultOcfU0_yyScMYccfU_yycfU_', symObjAddr: 0x1ABC, symBinAddr: 0xD898, symSize: 0x58 }
+  - { offset: 0x83113, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFyAA17CompressionResultOcfU0_015$syXlSgIeyBy_ypP7Iegn_TRyXlSgIeyBy_Tf1nnc_nTf4nng_n', symObjAddr: 0x2224, symBinAddr: 0xE000, symSize: 0x710 }
+  - { offset: 0x8347C, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0x1B14, symBinAddr: 0xD8F0, symSize: 0x7C }
+  - { offset: 0x834CB, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF', symObjAddr: 0x1C70, symBinAddr: 0xDA4C, symSize: 0x44 }
+  - { offset: 0x83560, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTo', symObjAddr: 0x1CB4, symBinAddr: 0xDA90, symSize: 0xCC }
+  - { offset: 0x835CF, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF', symObjAddr: 0x1D80, symBinAddr: 0xDB5C, symSize: 0x2C }
+  - { offset: 0x8363A, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tFTo', symObjAddr: 0x1DAC, symBinAddr: 0xDB88, symSize: 0x94 }
+  - { offset: 0x8369F, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC15getVideoQuality019_0E8A4C59EECA9FE286K12A602371352EALL7qualityAA0hI0OSS_tF', symObjAddr: 0x1E40, symBinAddr: 0xDC1C, symSize: 0x190 }
+  - { offset: 0x837A2, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginCACycfc', symObjAddr: 0x1FD0, symBinAddr: 0xDDAC, symSize: 0x4C }
+  - { offset: 0x837D5, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginCACycfcTo', symObjAddr: 0x201C, symBinAddr: 0xDDF8, symSize: 0x58 }
+  - { offset: 0x8380A, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginCfD', symObjAddr: 0x2074, symBinAddr: 0xDE50, symSize: 0x30 }
+  - { offset: 0x8384E, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC8register4withySo07FlutterF9Registrar_p_tFZTf4nd_n', symObjAddr: 0x2934, symBinAddr: 0xE710, symSize: 0x170 }
+  - { offset: 0x83912, size: 0x8, addend: 0x0, symName: '_$s16light_compressor26SwiftLightCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypN7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n', symObjAddr: 0x2CA0, symBinAddr: 0xEA00, symSize: 0xE78 }
 ...

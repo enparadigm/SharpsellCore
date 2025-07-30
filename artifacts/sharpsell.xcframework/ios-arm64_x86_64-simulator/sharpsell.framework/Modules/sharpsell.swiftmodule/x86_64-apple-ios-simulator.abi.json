@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "sharpsell",
+    "printedName": "sharpsell",
     "children": [
       {
         "kind": "Import",
@@ -576,6 +576,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -616,6 +630,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -701,6 +722,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -799,6 +834,7 @@
             "static": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -812,6 +848,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIApplication",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -826,6 +863,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -882,56 +933,28 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
       "offset": 6062,
       "length": 11,
       "value": "\"whats_app\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
       "offset": 6098,
       "length": 11,
       "value": "\"linked_in\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
       "offset": 6133,
       "length": 9,
       "value": "\"twitter\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 6167,
-      "length": 11,
-      "value": "\"face_book\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 6062,
-      "length": 11,
-      "value": "\"whats_app\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 6098,
-      "length": 11,
-      "value": "\"linked_in\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 6133,
-      "length": 9,
-      "value": "\"twitter\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
       "offset": 6167,
       "length": 11,

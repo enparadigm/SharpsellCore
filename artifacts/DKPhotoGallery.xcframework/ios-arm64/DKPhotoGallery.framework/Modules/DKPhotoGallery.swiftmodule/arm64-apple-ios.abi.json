@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "DKPhotoGallery",
+    "printedName": "DKPhotoGallery",
     "children": [
       {
         "kind": "Import",
@@ -49,8 +49,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -164,8 +165,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -272,8 +274,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "isLet": true,
@@ -324,6 +327,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -364,6 +368,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required",
               "AccessControl"
@@ -398,6 +403,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -411,6 +417,7 @@
         "isOpen": true,
         "intro_iOS": "11.0",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "Available",
@@ -423,6 +430,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -535,6 +556,7 @@
             "moduleName": "DKPhotoGallery",
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override",
@@ -564,6 +586,7 @@
             "moduleName": "DKPhotoGallery",
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -596,6 +619,7 @@
             "moduleName": "DKPhotoGallery",
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -619,6 +643,7 @@
             "moduleName": "DKPhotoGallery",
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -642,6 +667,7 @@
             "moduleName": "DKPhotoGallery",
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -666,6 +692,7 @@
             "moduleName": "DKPhotoGallery",
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -698,6 +725,7 @@
             "moduleName": "DKPhotoGallery",
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -730,6 +758,7 @@
             "moduleName": "DKPhotoGallery",
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -786,6 +815,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -827,6 +857,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -839,6 +870,7 @@
         "moduleName": "DKPhotoGallery",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -858,6 +890,20 @@
             "printedName": "DKPhotoBasePreviewDataSource",
             "usr": "s:14DKPhotoGallery0A21BasePreviewDataSourceP",
             "mangledName": "$s14DKPhotoGallery0A21BasePreviewDataSourceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1166,6 +1212,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1569,6 +1629,22 @@
         "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1603,8 +1679,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "SetterAccess",
               "AccessControl",
               "ObjC"
@@ -1671,8 +1748,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "SetterAccess",
               "AccessControl",
               "ObjC"
@@ -1747,8 +1825,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -1892,8 +1971,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -2039,8 +2119,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -2177,6 +2258,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -2204,6 +2286,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -2237,6 +2320,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -2260,6 +2344,7 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2282,6 +2367,7 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2304,6 +2390,7 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2332,6 +2419,7 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2354,6 +2442,7 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2376,6 +2465,7 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2411,6 +2501,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -2474,6 +2565,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -2529,6 +2621,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -2583,6 +2676,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -2637,6 +2731,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -2702,6 +2797,7 @@
             "objc_name": "viewForZoomingInScrollView:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2732,6 +2828,7 @@
             "objc_name": "scrollViewDidZoom:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2754,6 +2851,7 @@
             "mangledName": "$s14DKPhotoGallery0A13BasePreviewVCC17createContentViewSo6UIViewCyF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2781,6 +2879,7 @@
             "mangledName": "$s14DKPhotoGallery0A13BasePreviewVCC17updateContentView4withyyp_tF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2803,6 +2902,7 @@
             "mangledName": "$s14DKPhotoGallery0A13BasePreviewVCC11contentSizeSo6CGSizeVyF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2888,6 +2988,7 @@
             "mangledName": "$s14DKPhotoGallery0A13BasePreviewVCC12fetchContent17withProgressBlock08completeJ0yySfc_yypSg_s5Error_pSgtctF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2918,6 +3019,7 @@
             "mangledName": "$s14DKPhotoGallery0A13BasePreviewVCC13snapshotImageSo7UIImageCSgyF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2939,6 +3041,7 @@
             "mangledName": "$s14DKPhotoGallery0A13BasePreviewVCC9showErroryyF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2960,6 +3063,7 @@
             "mangledName": "$s14DKPhotoGallery0A13BasePreviewVCC10hidesErroryyF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2982,6 +3086,7 @@
             "mangledName": "$s14DKPhotoGallery0A13BasePreviewVCC10enableZoomSbyF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3004,6 +3109,7 @@
             "mangledName": "$s14DKPhotoGallery0A13BasePreviewVCC19enableIndicatorViewSbyF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3034,6 +3140,7 @@
             "mangledName": "$s14DKPhotoGallery0A13BasePreviewVCC07defaultD7ActionsSaySo19UIPreviewActionItem_pGyF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3064,6 +3171,7 @@
             "mangledName": "$s14DKPhotoGallery0A13BasePreviewVCC23defaultLongPressActionsSaySo13UIAlertActionCGyF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3086,6 +3194,7 @@
             "mangledName": "$s14DKPhotoGallery0A13BasePreviewVCC11previewTypeAA0adG0Ovp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3160,6 +3269,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -3201,6 +3311,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -3239,6 +3350,7 @@
             "objc_name": "photoPreviewClassWith:",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3272,6 +3384,7 @@
             "objc_name": "photoPreviewVCWith:",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3286,6 +3399,7 @@
         "moduleName": "DKPhotoGallery",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC",
@@ -3305,6 +3419,20 @@
             "printedName": "DKPhotoBasePreviewDataSource",
             "usr": "s:14DKPhotoGallery0A21BasePreviewDataSourceP",
             "mangledName": "$s14DKPhotoGallery0A21BasePreviewDataSourceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3421,6 +3549,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Required"
@@ -3449,6 +3578,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -3534,6 +3664,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -3570,6 +3701,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -3676,6 +3808,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -3688,6 +3821,7 @@
         "moduleName": "DKPhotoGallery",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -3700,6 +3834,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3835,6 +3983,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -4084,6 +4248,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -4258,6 +4438,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4334,8 +4528,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -4472,8 +4667,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -4628,8 +4824,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -4818,8 +5015,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -4932,8 +5130,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -5030,8 +5229,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -5128,8 +5328,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -5225,8 +5426,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ReferenceOwnership",
               "ObjC"
@@ -5357,8 +5559,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -5502,8 +5705,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -5638,8 +5842,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -5761,8 +5966,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -5870,6 +6076,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -5903,6 +6110,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -5936,6 +6144,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -5969,6 +6178,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -5992,6 +6202,7 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -6016,6 +6227,7 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -6040,6 +6252,7 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -6064,6 +6277,7 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -6087,6 +6301,7 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -6110,6 +6325,7 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -6133,6 +6349,7 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -6156,6 +6373,7 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -6179,6 +6397,7 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -6215,6 +6434,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -6288,6 +6508,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -6330,6 +6551,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -6359,6 +6581,7 @@
             "moduleName": "DKPhotoGallery",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -6386,6 +6609,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -6481,6 +6705,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "Available"
@@ -6515,6 +6740,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -6570,6 +6796,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -6611,6 +6838,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -6623,6 +6851,7 @@
         "moduleName": "DKPhotoGallery",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -6636,6 +6865,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -6754,8 +6997,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -6901,8 +7145,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -7029,8 +7274,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -7118,6 +7364,7 @@
             "mangledName": "$s14DKPhotoGallery0aB9ContentVCC07currentD0AA0a11BasePreviewD0Cvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -7159,6 +7406,7 @@
             "mangledName": "$s14DKPhotoGallery0aB9ContentVCC07currentC4ViewSo6UIViewCvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -7210,8 +7458,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -7319,6 +7568,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -7352,6 +7602,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -7380,6 +7631,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -7435,6 +7687,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -7511,6 +7764,7 @@
             "objc_name": "scrollViewWillEndDragging:withVelocity:targetContentOffset:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -7541,6 +7795,7 @@
             "objc_name": "scrollViewDidScroll:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -7596,6 +7851,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -7637,6 +7893,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -7649,6 +7906,7 @@
         "moduleName": "DKPhotoGallery",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC",
@@ -7662,6 +7920,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7938,6 +8210,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -9294,6 +9580,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -9756,7 +10056,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -9810,8 +10126,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -9943,6 +10260,7 @@
             "objc_name": "animationControllerForPresentedController:presentingController:sourceController:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -9982,6 +10300,7 @@
             "objc_name": "animationControllerForDismissedController:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -10020,6 +10339,7 @@
             "objc_name": "interactionControllerForDismissal:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -10058,6 +10378,7 @@
             "objc_name": "interactionControllerForPresentation:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -10105,6 +10426,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -10117,6 +10439,7 @@
         "moduleName": "DKPhotoGallery",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -10128,6 +10451,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10235,6 +10572,7 @@
             "objc_name": "transitionDuration:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -10266,6 +10604,7 @@
             "objc_name": "animateTransition:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -10293,6 +10632,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -10305,6 +10645,7 @@
         "moduleName": "DKPhotoGallery",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -10315,6 +10656,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10363,6 +10718,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -10422,6 +10784,7 @@
             "objc_name": "transitionDuration:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -10453,6 +10816,7 @@
             "objc_name": "animateTransition:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -10480,6 +10844,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -10492,6 +10857,7 @@
         "moduleName": "DKPhotoGallery",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -10502,6 +10868,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10550,6 +10930,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -10684,6 +11071,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -10725,6 +11113,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Required"
@@ -10767,6 +11156,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -10800,6 +11190,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -10812,6 +11203,7 @@
         "moduleName": "DKPhotoGallery",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -10824,6 +11216,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -11092,6 +11498,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11162,8 +11582,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -11291,8 +11712,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -11382,8 +11804,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -11492,8 +11915,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -11621,6 +12045,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -11646,6 +12071,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -11672,6 +12098,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -11760,6 +12187,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -11789,6 +12217,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -11814,6 +12243,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -11838,6 +12268,7 @@
             "moduleName": "DKPhotoGallery",
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -11863,6 +12294,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -11940,6 +12372,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -11981,6 +12414,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -11994,6 +12428,7 @@
         "isOpen": true,
         "intro_iOS": "11.0",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "Available",
@@ -12014,6 +12449,20 @@
             "printedName": "DKPhotoBasePreviewDataSource",
             "usr": "s:14DKPhotoGallery0A21BasePreviewDataSourceP",
             "mangledName": "$s14DKPhotoGallery0A21BasePreviewDataSourceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -12146,8 +12595,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -12271,8 +12721,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -12358,8 +12809,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -12464,8 +12916,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -12589,8 +13042,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -12676,6 +13130,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -12700,6 +13155,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -12724,6 +13180,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -12749,6 +13206,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -12775,6 +13233,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -12863,6 +13322,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -12892,6 +13352,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -12917,6 +13378,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -12941,6 +13403,7 @@
             "moduleName": "DKPhotoGallery",
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -12966,6 +13429,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -13043,6 +13507,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -13084,6 +13549,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -13096,6 +13562,7 @@
         "moduleName": "DKPhotoGallery",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -13115,6 +13582,20 @@
             "printedName": "DKPhotoBasePreviewDataSource",
             "usr": "s:14DKPhotoGallery0A21BasePreviewDataSourceP",
             "mangledName": "$s14DKPhotoGallery0A21BasePreviewDataSourceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -13335,6 +13816,22 @@
         "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -13412,8 +13909,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -13523,8 +14021,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -13634,8 +14133,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -13756,8 +14256,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -13900,8 +14401,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -14024,6 +14526,7 @@
             "mangledName": "$s14DKPhotoGallery12DKPlayerViewC15isControlHiddenSbvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -14106,6 +14609,7 @@
             "mangledName": "$s14DKPhotoGallery12DKPlayerViewC9isPlayingSbvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -14148,8 +14652,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -14235,8 +14740,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -14322,8 +14828,9 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -14410,8 +14917,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "isLet": true,
@@ -14470,6 +14978,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -14546,6 +15055,7 @@
             "mangledName": "$s14DKPhotoGallery12DKPlayerViewC5frame013controlParentD0ACSo6CGRectV_So6UIViewCSgtcfc",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -14586,6 +15096,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required",
               "AccessControl"
@@ -14608,6 +15119,7 @@
             "mangledName": "$s14DKPhotoGallery12DKPlayerViewC019playAndHidesControlD0yyF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -14630,6 +15142,7 @@
             "mangledName": "$s14DKPhotoGallery12DKPlayerViewC4playyyF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -14651,6 +15164,7 @@
             "mangledName": "$s14DKPhotoGallery12DKPlayerViewC5pauseyyF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -14673,6 +15187,7 @@
             "mangledName": "$s14DKPhotoGallery12DKPlayerViewC4stopyyF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -14700,6 +15215,7 @@
             "mangledName": "$s14DKPhotoGallery12DKPlayerViewC23updateContextBackground5alphay12CoreGraphics7CGFloatV_tF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -14721,6 +15237,7 @@
             "mangledName": "$s14DKPhotoGallery12DKPlayerViewC5resetyyF",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -14815,6 +15332,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -14850,6 +15368,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -14862,6 +15381,7 @@
         "moduleName": "DKPhotoGallery",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -14873,6 +15393,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -15000,6 +15534,7 @@
             "objc_name": "presentWithPhotoGallery:completion:",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -15014,6 +15549,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIViewController",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -15028,6 +15564,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -15098,543 +15648,508 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PDFPreview\/DKPDFView.swift",
-      "kind": "StringLiteral",
-      "offset": 63,
-      "length": 9,
-      "value": "\"DKPhotoGallery.DKPDFView\""
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13404,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "StringLiteral",
-      "offset": 295,
-      "length": 27,
-      "value": "\"DKPhotoGallery.DKPhotoContentAnimationView\""
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13608,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2667,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2694,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "IntegerLiteral",
       "offset": 1251,
       "length": 17,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1251,
-      "length": 17,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "IntegerLiteral",
       "offset": 1764,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
       "offset": 4758,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
       "offset": 4796,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
       "offset": 4812,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "FloatLiteral",
       "offset": 4943,
       "length": 4,
       "value": "0.35"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
       "offset": 5004,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
       "offset": 5021,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
       "offset": 5068,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
       "offset": 5085,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "IntegerLiteral",
       "offset": 5182,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "FloatLiteral",
       "offset": 5262,
       "length": 4,
       "value": "0.35"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
       "offset": 5320,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
       "offset": 5337,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "IntegerLiteral",
       "offset": 5394,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
       "offset": 11015,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
       "offset": 12016,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
       "offset": 13434,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "StringLiteral",
-      "offset": 185,
-      "length": 40,
-      "value": "\"DKPhotoGallery.DKPhotoGalleryContentFooterViewContainer\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
       "kind": "IntegerLiteral",
       "offset": 2168,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
       "kind": "Dictionary",
       "offset": 2645,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
       "kind": "Dictionary",
       "offset": 2777,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
       "kind": "IntegerLiteral",
       "offset": 2986,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
       "kind": "BooleanLiteral",
       "offset": 3029,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
       "kind": "BooleanLiteral",
       "offset": 3046,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
       "kind": "BooleanLiteral",
       "offset": 10199,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
       "kind": "BooleanLiteral",
       "offset": 10224,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
       "kind": "BooleanLiteral",
       "offset": 13426,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15624,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
       "kind": "BooleanLiteral",
       "offset": 534,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
       "kind": "IntegerLiteral",
       "offset": 691,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryItem.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryItem.swift",
       "kind": "StringLiteral",
       "offset": 250,
       "length": 54,
       "value": "\"DKPhotoGalleryItemExtraInfoKeyRemoteImageOriginalURL\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryItem.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryItem.swift",
       "kind": "StringLiteral",
       "offset": 391,
       "length": 55,
       "value": "\"DKPhotoGalleryItemExtraInfoKeyRemoteImageOriginalSize\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
       "kind": "BooleanLiteral",
       "offset": 2734,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionController.swift",
-      "kind": "StringLiteral",
-      "offset": 189,
-      "length": 34,
-      "value": "\"DKPhotoGallery.DKPhotoGalleryTransitionController\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
       "kind": "StringLiteral",
       "offset": 5287,
       "length": 31,
       "value": "\"DKPhotoImagePreviewVC.ioQueue\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
       "kind": "IntegerLiteral",
       "offset": 260,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
       "kind": "IntegerLiteral",
       "offset": 303,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
       "kind": "IntegerLiteral",
       "offset": 310,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
       "kind": "IntegerLiteral",
       "offset": 514,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
       "kind": "IntegerLiteral",
       "offset": 634,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
       "kind": "IntegerLiteral",
       "offset": 891,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageView.swift",
-      "kind": "StringLiteral",
-      "offset": 171,
-      "length": 16,
-      "value": "\"DKPhotoGallery.DKPhotoImageView\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageView.swift",
-      "kind": "StringLiteral",
-      "offset": 171,
-      "length": 16,
-      "value": "\"DKPhotoGallery.DKPhotoImageView\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
       "kind": "BooleanLiteral",
       "offset": 484,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
       "kind": "IntegerLiteral",
       "offset": 612,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
       "kind": "IntegerLiteral",
       "offset": 747,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
       "kind": "IntegerLiteral",
       "offset": 851,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
       "kind": "BooleanLiteral",
       "offset": 941,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
       "kind": "IntegerLiteral",
       "offset": 992,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
       "kind": "IntegerLiteral",
       "offset": 1049,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
       "kind": "IntegerLiteral",
       "offset": 892,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "StringLiteral",
-      "offset": 199,
-      "length": 27,
-      "value": "\"DKPhotoGallery.DKPhotoIncrementalIndicator\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
       "kind": "StringLiteral",
       "offset": 5573,
       "length": 39,
       "value": "\"DKPhotoIncrementalIndicatorKVOContext\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
       "kind": "StringLiteral",
       "offset": 5663,
       "length": 15,
       "value": "\"contentOffset\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
       "kind": "StringLiteral",
       "offset": 5727,
       "length": 13,
       "value": "\"contentSize\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PDFPreview\/DKPhotoPDFPreviewVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PDFPreview\/DKPhotoPDFPreviewVC.swift",
       "kind": "BooleanLiteral",
       "offset": 192,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PDFPreview\/DKPhotoPDFPreviewVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PDFPreview\/DKPhotoPDFPreviewVC.swift",
       "kind": "BooleanLiteral",
       "offset": 242,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPhotoPlayerPreviewVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPhotoPlayerPreviewVC.swift",
       "kind": "BooleanLiteral",
       "offset": 336,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPhotoPlayerPreviewVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPhotoPlayerPreviewVC.swift",
       "kind": "BooleanLiteral",
       "offset": 386,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPhotoPlayerPreviewVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPhotoPlayerPreviewVC.swift",
       "kind": "BooleanLiteral",
       "offset": 485,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
       "kind": "IntegerLiteral",
       "offset": 282,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
-      "kind": "StringLiteral",
-      "offset": 174,
-      "length": 24,
-      "value": "\"DKPhotoGallery.DKPhotoProgressIndicator\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoQRCodeResultVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoQRCodeResultVC.swift",
       "kind": "StringLiteral",
       "offset": 247,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 195,
       "value": "\"var meta = document.createElement('meta'); meta.setAttribute('name', 'viewport'); meta.setAttribute('content', 'width=device-width'); document.getElementsByTagName('head')[0].appendChild(meta);\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
       "kind": "BooleanLiteral",
       "offset": 636,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
       "kind": "BooleanLiteral",
       "offset": 1105,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 213,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
       "kind": "Array",
       "offset": 1710,
       "length": 22,
       "value": "[\"duration\", \"tracks\"]"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
       "kind": "StringLiteral",
       "offset": 1919,
       "length": 10,
       "value": "\"duration\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 3991,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 4041,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 4171,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
+      "filePath": "\/Users\/ankit.kumar\/Desktop\/Projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 5710,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 493,
-      "length": 12,
-      "value": "\"DKPhotoGallery.DKPlayerView\""
     }
   ]
 }
