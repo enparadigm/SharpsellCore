@@ -13,20 +13,18 @@ let package = Package(
             targets: ["SharpsellCore"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/moengage/MoEngage-iOS-SDK", .exact("9.17.5")),
-        .package(url: "https://github.com/moengage/MoEngage-iOS-InApps", .exact("6.00.3")),
-        //        .package(url: "https://github.com/daily-co/daily-client-ios", from: "0.28.0")
+        .package(url: "https://github.com/moengage/apple-sdk.git", .exact("9.23.1")),
     ],
     targets: [
         .target(
             name: "SharpsellCore",
             dependencies: [
-                "MoEngage-iOS-SDK",
+//                "MoEngage-iOS-SDK",
                 
                 //                .product(name: "Daily", package: "daily-client-ios"),
                 //                .product(name: "DailySystemBroadcast", package: "daily-client-ios"),
-                //                .product(name: "MoEngage-iOS-SDK", package: "MoEngage-iOS-SDK"),
-                    .product(name: "MoEngageInApps", package: "MoEngage-iOS-InApps"),
+                .product(name: "MoEngage-iOS-SDK", package: "apple-sdk"),
+                .product(name: "MoEngageInApps", package: "apple-sdk"),
                 //                "MoEngage-iOS-InApps",
                 //                "Flutter",
                 //                "App",
@@ -90,7 +88,7 @@ let package = Package(
                 "sqlite3",
                 "store_redirect",
                 "SwiftyGif",
-                //                "Toast",
+//                "Toast",
                 "TOCropViewController",
                 "url_launcher_ios",
                 "video_player_avfoundation",
