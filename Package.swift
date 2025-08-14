@@ -77,6 +77,8 @@ let package = Package(
                 //                "Reachability",
                 "record_darwin",
                 "rive_common",
+                "Sentry",
+                "sentry_flutter",
                 "SDWebImage",
                 "share_extend",
                 "share_plus",
@@ -272,6 +274,11 @@ let package = Package(
         
             .binaryTarget(name: "SDWebImage",
                           path: "artifacts/SDWebImage.xcframework"),
+            .binaryTarget(name: "Sentry",
+                      path: "artifacts/Sentry.xcframework"),
+        
+            .binaryTarget(name: "sentry_flutter",
+                      path: "artifacts/sentry_flutter.xcframework"),
         
             .binaryTarget(name: "share_extend",
                           path: "artifacts/share_extend.xcframework"),
