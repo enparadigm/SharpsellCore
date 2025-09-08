@@ -26,6 +26,13 @@
         "moduleName": "moengage_flutter_ios"
       },
       {
+        "kind": "Import",
+        "name": "MoEngageCore",
+        "printedName": "MoEngageCore",
+        "declKind": "Import",
+        "moduleName": "moengage_flutter_ios"
+      },
+      {
         "kind": "TypeDecl",
         "name": "MoEngageFlutterBridge",
         "printedName": "MoEngageFlutterBridge",
@@ -1304,6 +1311,202 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "kGetSelfHandleInApps",
+                "printedName": "kGetSelfHandleInApps",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:20moengage_flutter_ios24MoEngageFlutterConstantsV11MethodNamesV20kGetSelfHandleInAppsSSvpZ",
+                "mangledName": "$s20moengage_flutter_ios24MoEngageFlutterConstantsV11MethodNamesV20kGetSelfHandleInAppsSSvpZ",
+                "moduleName": "moengage_flutter_ios",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20moengage_flutter_ios24MoEngageFlutterConstantsV11MethodNamesV20kGetSelfHandleInAppsSSvgZ",
+                    "mangledName": "$s20moengage_flutter_ios24MoEngageFlutterConstantsV11MethodNamesV20kGetSelfHandleInAppsSSvgZ",
+                    "moduleName": "moengage_flutter_ios",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "kRegisterForProvisionalPush",
+                "printedName": "kRegisterForProvisionalPush",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:20moengage_flutter_ios24MoEngageFlutterConstantsV11MethodNamesV27kRegisterForProvisionalPushSSvpZ",
+                "mangledName": "$s20moengage_flutter_ios24MoEngageFlutterConstantsV11MethodNamesV27kRegisterForProvisionalPushSSvpZ",
+                "moduleName": "moengage_flutter_ios",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20moengage_flutter_ios24MoEngageFlutterConstantsV11MethodNamesV27kRegisterForProvisionalPushSSvgZ",
+                    "mangledName": "$s20moengage_flutter_ios24MoEngageFlutterConstantsV11MethodNamesV27kRegisterForProvisionalPushSSvgZ",
+                    "moduleName": "moengage_flutter_ios",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "kIdentifyUser",
+                "printedName": "kIdentifyUser",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:20moengage_flutter_ios24MoEngageFlutterConstantsV11MethodNamesV13kIdentifyUserSSvpZ",
+                "mangledName": "$s20moengage_flutter_ios24MoEngageFlutterConstantsV11MethodNamesV13kIdentifyUserSSvpZ",
+                "moduleName": "moengage_flutter_ios",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20moengage_flutter_ios24MoEngageFlutterConstantsV11MethodNamesV13kIdentifyUserSSvgZ",
+                    "mangledName": "$s20moengage_flutter_ios24MoEngageFlutterConstantsV11MethodNamesV13kIdentifyUserSSvgZ",
+                    "moduleName": "moengage_flutter_ios",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "kGetUserIdentities",
+                "printedName": "kGetUserIdentities",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:20moengage_flutter_ios24MoEngageFlutterConstantsV11MethodNamesV18kGetUserIdentitiesSSvpZ",
+                "mangledName": "$s20moengage_flutter_ios24MoEngageFlutterConstantsV11MethodNamesV18kGetUserIdentitiesSSvpZ",
+                "moduleName": "moengage_flutter_ios",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20moengage_flutter_ios24MoEngageFlutterConstantsV11MethodNamesV18kGetUserIdentitiesSSvgZ",
+                    "mangledName": "$s20moengage_flutter_ios24MoEngageFlutterConstantsV11MethodNamesV18kGetUserIdentitiesSSvgZ",
+                    "moduleName": "moengage_flutter_ios",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init()",
@@ -1947,6 +2150,171 @@
       },
       {
         "kind": "Import",
+        "name": "MoEngageCore",
+        "printedName": "MoEngageCore",
+        "declKind": "Import",
+        "moduleName": "moengage_flutter_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoEngageFlutterUtil",
+        "printedName": "MoEngageFlutterUtil",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "resume",
+            "printedName": "resume(channel:havingResult:withData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20moengage_flutter_ios19MoEngageFlutterUtilO6resume7channel12havingResult8withDataySS_yypSgcSDySSypGtFZ",
+            "mangledName": "$s20moengage_flutter_ios19MoEngageFlutterUtilO6resume7channel12havingResult8withDataySS_yypSgcSDySSypGtFZ",
+            "moduleName": "moengage_flutter_ios",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "serialize",
+            "printedName": "serialize(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20moengage_flutter_ios19MoEngageFlutterUtilO9serialize4dataSSSDySSypG_tFZ",
+            "mangledName": "$s20moengage_flutter_ios19MoEngageFlutterUtilO9serialize4dataSSSDySSypG_tFZ",
+            "moduleName": "moengage_flutter_ios",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20moengage_flutter_ios19MoEngageFlutterUtilO",
+        "mangledName": "$s20moengage_flutter_ios19MoEngageFlutterUtilO",
+        "moduleName": "moengage_flutter_ios",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "moengage_flutter_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UserNotifications",
         "printedName": "UserNotifications",
         "declKind": "Import",
@@ -2343,196 +2711,224 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 19,
       "value": "\"com.moengage\/core\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 292,
       "length": 9,
       "value": "\"flutter\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 382,
       "length": 12,
       "value": "\"initialise\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 445,
       "length": 14,
       "value": "\"setAppStatus\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 510,
       "length": 12,
       "value": "\"trackEvent\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 573,
       "length": 18,
       "value": "\"setUserAttribute\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 642,
       "length": 10,
       "value": "\"setAlias\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 703,
       "length": 17,
       "value": "\"registerForPush\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 771,
       "length": 11,
       "value": "\"showInApp\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 833,
       "length": 18,
       "value": "\"selfHandledInApp\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 902,
       "length": 21,
       "value": "\"selfHandledCallback\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 974,
       "length": 15,
       "value": "\"setAppContext\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 1040,
       "length": 21,
       "value": "\"resetCurrentContext\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 1112,
       "length": 11,
       "value": "\"showNudge\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 1174,
       "length": 16,
       "value": "\"optOutTracking\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 1241,
       "length": 16,
       "value": "\"updateSdkState\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 1308,
       "length": 25,
       "value": "\"startGeofenceMonitoring\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 1384,
       "length": 15,
       "value": "\"enableSDKLogs\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
       "offset": 1450,
       "length": 8,
       "value": "\"logout\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1547,
+      "offset": 1509,
+      "length": 19,
+      "value": "\"selfHandledInApps\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1579,
+      "length": 28,
+      "value": "\"registerForProvisionalPush\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1658,
+      "length": 14,
+      "value": "\"identifyUser\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1723,
+      "length": 19,
+      "value": "\"getUserIdentities\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1831,
       "length": 22,
       "value": "\"onPushTokenGenerated\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1620,
+      "offset": 1904,
       "length": 13,
       "value": "\"onPushClick\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1684,
+      "offset": 1968,
       "length": 14,
       "value": "\"onInAppShown\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1749,
+      "offset": 2033,
       "length": 14,
       "value": "\"onInAppClick\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1814,
+      "offset": 2098,
       "length": 21,
       "value": "\"onInAppCustomAction\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1886,
+      "offset": 2170,
       "length": 16,
       "value": "\"onInAppDismiss\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1953,
+      "offset": 2237,
       "length": 19,
       "value": "\"onInAppSelfHandle\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageFlutterPluginInfo.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageFlutterPluginInfo.swift",
       "kind": "StringLiteral",
       "offset": 106,
       "length": 7,
-      "value": "\"2.3.0\""
+      "value": "\"3.3.0\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-2.3.0\/ios\/Classes\/MoEngageInitializer.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/moengage_flutter_ios-3.3.0\/ios\/Classes\/MoEngageInitializer.swift",
       "kind": "BooleanLiteral",
       "offset": 1082,
       "length": 4,
