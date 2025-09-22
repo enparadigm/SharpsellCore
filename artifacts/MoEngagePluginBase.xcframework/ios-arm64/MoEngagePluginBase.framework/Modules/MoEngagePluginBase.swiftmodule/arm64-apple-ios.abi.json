@@ -16,6 +16,118 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoEngageInitConfigCache",
+        "printedName": "MoEngageInitConfigCache",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageInitConfigCache",
+                "printedName": "MoEngagePluginBase.MoEngageInitConfigCache",
+                "usr": "s:18MoEngagePluginBase0aB15InitConfigCacheC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MoEngagePluginBase0aB15InitConfigCacheC14sharedInstanceACvpZ",
+            "mangledName": "$s18MoEngagePluginBase0aB15InitConfigCacheC14sharedInstanceACvpZ",
+            "moduleName": "MoEngagePluginBase",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoEngageInitConfigCache",
+                    "printedName": "MoEngagePluginBase.MoEngageInitConfigCache",
+                    "usr": "s:18MoEngagePluginBase0aB15InitConfigCacheC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MoEngagePluginBase0aB15InitConfigCacheC14sharedInstanceACvgZ",
+                "mangledName": "$s18MoEngagePluginBase0aB15InitConfigCacheC14sharedInstanceACvgZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18MoEngagePluginBase0aB15InitConfigCacheC",
+        "mangledName": "$s18MoEngagePluginBase0aB15InitConfigCacheC",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngagePluginBase",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "MoEngageSDK",
         "printedName": "MoEngageSDK",
         "declKind": "Import",
@@ -808,6 +920,120 @@
           },
           {
             "kind": "Function",
+            "name": "identifyUser",
+            "printedName": "identifyUser(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)identifyUser:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC12identifyUseryySDySSypGF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserIdentities",
+            "printedName": "getUserIdentities(_:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String : Swift.String]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)getUserIdentities:completionHandler:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC17getUserIdentities_17completionHandlerySDySSypG_ySDyS2SGctF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setAppStatus",
             "printedName": "setAppStatus(_:)",
             "children": [
@@ -1137,6 +1363,78 @@
           },
           {
             "kind": "Function",
+            "name": "getSelfHandledInApps",
+            "printedName": "getSelfHandledInApps(_:completionBlock:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String : Any]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)getSelfHandledInApps:completionBlock:",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC20getSelfHandledInApps_15completionBlockySDySSypG_yAFctF",
+            "moduleName": "MoEngagePluginBase",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setInAppContext",
             "printedName": "setInAppContext(_:)",
             "children": [
@@ -1278,6 +1576,30 @@
               "AccessControl",
               "ObjC",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerForProvisionalPush",
+            "printedName": "registerForProvisionalPush()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngagePluginBase@objc(cs)MoEngagePluginBridge(im)registerForProvisionalPush",
+            "mangledName": "$s18MoEngagePluginBase0abC6BridgeC26registerForProvisionalPushyyF",
+            "moduleName": "MoEngagePluginBase",
+            "intro_iOS": "12.0",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "Available"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1495,6 +1817,53 @@
                     "declKind": "Accessor",
                     "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV4dataSSvgZ",
                     "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV4dataSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "identity",
+                "printedName": "identity",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV8identitySSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV8identitySSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV8identitySSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV8identitySSvgZ",
                     "moduleName": "MoEngagePluginBase",
                     "static": true,
                     "implicit": true,
@@ -1965,6 +2334,147 @@
                     "declKind": "Accessor",
                     "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV4typeSSvgZ",
                     "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV4typeSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "initConfig",
+                "printedName": "initConfig",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV10initConfigSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV10initConfigSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV10initConfigSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV10initConfigSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "analyticsConfig",
+                "printedName": "analyticsConfig",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV15analyticsConfigSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV15analyticsConfigSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV15analyticsConfigSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV15analyticsConfigSSvgZ",
+                    "moduleName": "MoEngagePluginBase",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "shouldTrackUserAttributeBooleanAsNumber",
+                "printedName": "shouldTrackUserAttributeBooleanAsNumber",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV39shouldTrackUserAttributeBooleanAsNumberSSvpZ",
+                "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV39shouldTrackUserAttributeBooleanAsNumberSSvpZ",
+                "moduleName": "MoEngagePluginBase",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18MoEngagePluginBase0abC9ConstantsV7GeneralV39shouldTrackUserAttributeBooleanAsNumberSSvgZ",
+                    "mangledName": "$s18MoEngagePluginBase0abC9ConstantsV7GeneralV39shouldTrackUserAttributeBooleanAsNumberSSvgZ",
                     "moduleName": "MoEngagePluginBase",
                     "static": true,
                     "implicit": true,
@@ -4369,504 +4879,560 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngageInitConfigCache.swift",
+      "kind": "Dictionary",
+      "offset": 301,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 7,
       "value": "\"8.3.0\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 7,
       "value": "\"8.3.0\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 346,
       "length": 7,
       "value": "\"8.4.0\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 433,
       "length": 13,
       "value": "\"accountMeta\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 480,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 526,
+      "offset": 524,
+      "length": 10,
+      "value": "\"identity\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 574,
       "length": 12,
       "value": "\"campaignId\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 576,
+      "offset": 624,
       "length": 10,
       "value": "\"platform\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 619,
+      "offset": 667,
       "length": 5,
       "value": "\"iOS\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 660,
+      "offset": 708,
       "length": 8,
       "value": "\"kvPair\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 703,
+      "offset": 751,
       "length": 7,
       "value": "\"value\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 750,
+      "offset": 798,
       "length": 12,
       "value": "\"navigation\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 799,
+      "offset": 847,
       "length": 9,
       "value": "\"payload\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 852,
+      "offset": 900,
       "length": 16,
       "value": "\"navigationType\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 908,
+      "offset": 956,
       "length": 12,
       "value": "\"actionType\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 954,
+      "offset": 1002,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 988,
+      "offset": 1048,
+      "length": 12,
+      "value": "\"initConfig\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1088,
       "length": 7,
       "value": "\"appId\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1030,
+      "offset": 1130,
       "length": 14,
       "value": "\"campaignName\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1072,
+      "offset": 1172,
       "length": 7,
       "value": "\"event\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1109,
+      "offset": 1209,
       "length": 9,
       "value": "\"message\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1156,
+      "offset": 1256,
       "length": 17,
       "value": "\"integrationMeta\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1211,
+      "offset": 1311,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1258,
+      "offset": 1358,
       "length": 9,
       "value": "\"version\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1362,
+      "offset": 1412,
+      "length": 17,
+      "value": "\"analyticsConfig\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1498,
+      "length": 41,
+      "value": "\"shouldTrackUserAttributeBooleanAsNumber\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1634,
       "length": 7,
       "value": "\"alias\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1403,
+      "offset": 1675,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1452,
+      "offset": 1724,
       "length": 15,
       "value": "\"attributeName\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1511,
+      "offset": 1783,
       "length": 16,
       "value": "\"attributeValue\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1574,
+      "offset": 1846,
       "length": 19,
       "value": "\"locationAttribute\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1631,
+      "offset": 1903,
       "length": 10,
       "value": "\"latitude\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1680,
+      "offset": 1952,
       "length": 11,
       "value": "\"longitude\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1728,
+      "offset": 2000,
       "length": 9,
       "value": "\"general\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1776,
+      "offset": 2048,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1825,
+      "offset": 2097,
       "length": 10,
       "value": "\"location\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1918,
+      "offset": 2190,
       "length": 11,
       "value": "\"eventName\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1967,
+      "offset": 2239,
       "length": 17,
       "value": "\"eventAttributes\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2023,
+      "offset": 2295,
       "length": 18,
       "value": "\"isNonInteractive\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2138,
+      "offset": 2410,
       "length": 14,
       "value": "\"isSdkEnabled\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2187,
+      "offset": 2459,
       "length": 7,
       "value": "\"state\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2228,
+      "offset": 2500,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2300,
+      "offset": 2572,
       "length": 11,
       "value": "\"appStatus\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2341,
+      "offset": 2613,
       "length": 9,
       "value": "\"INSTALL\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2379,
+      "offset": 2651,
       "length": 8,
       "value": "\"UPDATE\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2462,
+      "offset": 2734,
       "length": 10,
       "value": "\"contexts\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2512,
+      "offset": 2784,
       "length": 12,
       "value": "\"impression\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2559,
+      "offset": 2831,
       "length": 7,
       "value": "\"click\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2605,
+      "offset": 2877,
       "length": 11,
       "value": "\"dismissed\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2661,
+      "offset": 2933,
       "length": 17,
       "value": "\"campaignContext\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2716,
+      "offset": 2988,
       "length": 17,
       "value": "\"dismissInterval\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2774,
+      "offset": 3046,
       "length": 13,
       "value": "\"selfHandled\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2829,
+      "offset": 3101,
       "length": 14,
       "value": "\"customAction\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2872,
+      "offset": 3144,
       "length": 8,
       "value": "\"screen\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2911,
+      "offset": 3183,
       "length": 14,
       "value": "\"deep_linking\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2958,
+      "offset": 3230,
       "length": 12,
       "value": "\"campaignId\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3005,
+      "offset": 3277,
       "length": 14,
       "value": "\"campaignName\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3050,
+      "offset": 3322,
       "length": 10,
       "value": "\"position\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 3250,
-      "length": 13,
-      "value": "\"pushService\""
-    },
-    {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 3290,
-      "length": 6,
-      "value": "\"APNS\""
-    },
-    {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 3324,
-      "length": 7,
-      "value": "\"token\""
-    },
-    {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
       "offset": 3364,
+      "length": 11,
+      "value": "\"campaigns\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3410,
+      "length": 14,
+      "value": "\"displayRules\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3457,
       "length": 12,
       "value": "\"screenName\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3412,
+      "offset": 3651,
+      "length": 13,
+      "value": "\"pushService\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3691,
+      "length": 6,
+      "value": "\"APNS\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3725,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3765,
+      "length": 12,
+      "value": "\"screenName\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3813,
       "length": 15,
       "value": "\"clickedAction\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3529,
+      "offset": 3930,
       "length": 23,
       "value": "\"MoEInAppCampaignShown\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3596,
+      "offset": 3997,
       "length": 27,
       "value": "\"MoEInAppCampaignDismissed\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3665,
+      "offset": 4066,
       "length": 25,
       "value": "\"MoEInAppCampaignClicked\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3737,
+      "offset": 4138,
       "length": 30,
       "value": "\"MoEInAppCampaignCustomAction\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3813,
+      "offset": 4214,
       "length": 29,
       "value": "\"MoEInAppCampaignSelfHandled\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3890,
+      "offset": 4291,
       "length": 23,
       "value": "\"MoEPushTokenGenerated\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3954,
+      "offset": 4355,
       "length": 16,
       "value": "\"MoEPushClicked\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4047,
+      "offset": 4448,
       "length": 56,
       "value": "\"MoEngagePluginCards.MoEngagePluginCardsDelegateHandler\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageHandler.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 300,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageHandler.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageHandler.swift",
       "kind": "StringLiteral",
       "offset": 428,
       "length": 38,
       "value": "\"com.moengage.pluginBase.messageQueue\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageInstanceProvider.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngagePluginMessageInstanceProvider.swift",
       "kind": "StringLiteral",
       "offset": 392,
       "length": 42,
       "value": "\"com.moengage.pluginBase.instanceProvider\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngageSDKInitializationConfig.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngageSDKInitializationConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 907,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aman.verma\/Documents\/projects\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngageSDKInitializationConfig.swift",
+      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sharp-sell\/sdk\/sharpsell\/.ios\/Pods\/MoEngagePluginBase\/MoEngagePluginBase\/MoEngageSDKInitializationConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1071,
       "length": 4,
