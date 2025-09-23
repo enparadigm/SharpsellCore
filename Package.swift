@@ -49,6 +49,7 @@ let package = Package(
                 "flutter_custom_tabs_ios",
                 "flutter_inappwebview_ios",
                 "flutter_js",
+                "flutter_web_auth_2",
                 "fluttercontactpicker",
                 "FlutterPluginRegistrant",
                 "fluttertoast",
@@ -80,6 +81,8 @@ let package = Package(
                 "record_darwin",
                 "rive_common",
                 "SDWebImage",
+                "Sentry",
+                "sentry_flutter",
                 "share_extend",
                 "share_plus",
                 //                "share",
@@ -182,6 +185,9 @@ let package = Package(
             .binaryTarget(name: "flutter_js",
                           path: "artifacts/flutter_js.xcframework"),
         
+            .binaryTarget(name: "flutter_web_auth_2",
+                          path: "artifacts/flutter_web_auth_2.xcframework"),
+        
             .binaryTarget(name: "fluttercontactpicker",
                           path: "artifacts/fluttercontactpicker.xcframework"),
         
@@ -274,6 +280,11 @@ let package = Package(
         
             .binaryTarget(name: "SDWebImage",
                           path: "artifacts/SDWebImage.xcframework"),
+
+            .binaryTarget(name: "Sentry",
+                          path: "artifacts/Sentry.xcframework"),
+            .binaryTarget(name: "sentry_flutter",
+                          path: "artifacts/sentry_flutter.xcframework"),
         
             .binaryTarget(name: "share_extend",
                           path: "artifacts/share_extend.xcframework"),
