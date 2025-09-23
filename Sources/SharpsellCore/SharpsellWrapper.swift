@@ -10,8 +10,8 @@ import Flutter
 import FlutterPluginRegistrant
 import os
 import AVFoundation
-import MoEngageSDK
-import moengage_flutter_ios
+//import MoEngageSDK
+//import moengage_flutter_ios
 
 //MARK: - Enum Declaration
 fileprivate enum FlutterMethods: String{
@@ -22,7 +22,7 @@ fileprivate enum FlutterMethods: String{
     case isSharpsellNotification = "is_sharpsell_notification"
     case showNotification = "show_notification"
     case handleNotificationRedirection = "handle_notification_redirection"
-    case getMoEngageCompanyId = "get_moEngage_company_id"
+//    case getMoEngageCompanyId = "get_moEngage_company_id"
 }
 
 public enum SharpSellError: Error{
@@ -121,17 +121,17 @@ public struct SharpSellWrapper{
                     } else {
                         onSucces()
                         print("Sharpsell - Calling mo engage app  ")
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-                            getMoEngageAppId { moEngagaeAppId in
-                                print("Sharpsell - in getMoEngageAppId - \(moEngagaeAppId)")
-                                var sdkConfig = MoEngageSDKConfig(withAppID: moEngagaeAppId)
-//                                sdkConfig.enableLogs = true
-                                MoEngageInitializer.sharedInstance.initializeDefaultInstance(sdkConfig)
-                                
-                            } onFailure: { errorMessage, SharpSellError in
-                                print(errorMessage)
-                            }
-                        }
+//                        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+//                            getMoEngageAppId { moEngagaeAppId in
+//                                print("Sharpsell - in getMoEngageAppId - \(moEngagaeAppId)")
+//                                var sdkConfig = MoEngageSDKConfig(withAppID: moEngagaeAppId)
+////                                sdkConfig.enableLogs = true
+//                                MoEngageInitializer.sharedInstance.initializeDefaultInstance(sdkConfig)
+//                                
+//                            } onFailure: { errorMessage, SharpSellError in
+//                                print(errorMessage)
+//                            }
+//                        }
                         
                         
                     }
@@ -209,56 +209,56 @@ public struct SharpSellWrapper{
     ///   - onFailure: Failure closure will be called incase of any failure
     ///   - message: Flutter error message
     ///   - errorType: Passing the smartSellError enum by using this you check the type of error
-    private func getMoEngageAppId(onSucess: @escaping (_ result: String) -> (),
-                                  onFailure: @escaping (_ message: String,
-                                                        _ errorType: SharpSellError) -> ()){
-        do {
-            let flutterMethodChannel = try getFlutterMethodChannel()
-            NSLog("Sharpsell: isSharpsellNotification - Calling showNotification flutter invoke method")
-            
-            
-            flutterMethodChannel.invokeMethod(FlutterMethods.getMoEngageCompanyId.rawValue,
-                                              arguments: "") {  (flutterResult) in
-                
-                
-                if (flutterResult is FlutterError) {
-                    if let res = flutterResult as? FlutterError{
-                        NSLog("Sharpsell Error: getMoEngageCompanyId - Error Code : \(String(describing: res.code)) and Error Messaoge : \(String(describing: res.message))")
-                        onFailure(res.message ?? "Flutter Error", SharpSellError.flutterError)
-                        
-                    }else {
-                        debugPrint("Error:\(flutterResult ?? "")")
-                    }
-                }
-                
-                if FlutterMethodNotImplemented.isEqual(flutterResult){
-                    
-                    NSLog("Sharpsell Error: getMoEngageCompanyId - Method \(FlutterMethods.getMoEngageCompanyId.rawValue) is not implemented in Sharpsell SDK")
-                    
-                    onFailure("Flutter method not implemented", SharpSellError.flutterMethodNotImplemented)
-                    return
-                } else {
-                    print("*************** Flutter Result For getMoEngageCompanyId *********************")
-                    print(flutterResult)
-                    print("*************** Flutter Result For getMoEngageCompanyId *********************")
-                    onSucess(flutterResult as! String)
-                    //                    //If sharpsell return 1 then it is sharpsell notification
-                    //                    let isSharpsellNotifi = "\(flutterResult ?? 1)"
-                    //                    if isSharpsellNotifi == "1"{
-                    //                        onSucess(flutterResult)
-                    //                    } else {
-                    //                        onSucess(false)
-                    //                        NSLog("Sharpsell: Not a sharpsell notification")
-                    //                    }
-                }
-            }
-            
-        }catch (SharpSellError.flutterEngineFailure){
-            NSLog("Sharpsell Error: isSharpsellNotification - Flutter Engine Not Available")
-        } catch {
-            NSLog("Sharpsell Error: isSharpsellNotification - Flutter Engine Not Available")
-        }
-    }
+//    private func getMoEngageAppId(onSucess: @escaping (_ result: String) -> (),
+//                                  onFailure: @escaping (_ message: String,
+//                                                        _ errorType: SharpSellError) -> ()){
+//        do {
+//            let flutterMethodChannel = try getFlutterMethodChannel()
+//            NSLog("Sharpsell: isSharpsellNotification - Calling showNotification flutter invoke method")
+//            
+//            
+//            flutterMethodChannel.invokeMethod(FlutterMethods.getMoEngageCompanyId.rawValue,
+//                                              arguments: "") {  (flutterResult) in
+//                
+//                
+//                if (flutterResult is FlutterError) {
+//                    if let res = flutterResult as? FlutterError{
+//                        NSLog("Sharpsell Error: getMoEngageCompanyId - Error Code : \(String(describing: res.code)) and Error Messaoge : \(String(describing: res.message))")
+//                        onFailure(res.message ?? "Flutter Error", SharpSellError.flutterError)
+//                        
+//                    }else {
+//                        debugPrint("Error:\(flutterResult ?? "")")
+//                    }
+//                }
+//                
+//                if FlutterMethodNotImplemented.isEqual(flutterResult){
+//                    
+//                    NSLog("Sharpsell Error: getMoEngageCompanyId - Method \(FlutterMethods.getMoEngageCompanyId.rawValue) is not implemented in Sharpsell SDK")
+//                    
+//                    onFailure("Flutter method not implemented", SharpSellError.flutterMethodNotImplemented)
+//                    return
+//                } else {
+//                    print("*************** Flutter Result For getMoEngageCompanyId *********************")
+//                    print(flutterResult)
+//                    print("*************** Flutter Result For getMoEngageCompanyId *********************")
+//                    onSucess(flutterResult as! String)
+//                    //                    //If sharpsell return 1 then it is sharpsell notification
+//                    //                    let isSharpsellNotifi = "\(flutterResult ?? 1)"
+//                    //                    if isSharpsellNotifi == "1"{
+//                    //                        onSucess(flutterResult)
+//                    //                    } else {
+//                    //                        onSucess(false)
+//                    //                        NSLog("Sharpsell: Not a sharpsell notification")
+//                    //                    }
+//                }
+//            }
+//            
+//        }catch (SharpSellError.flutterEngineFailure){
+//            NSLog("Sharpsell Error: isSharpsellNotification - Flutter Engine Not Available")
+//        } catch {
+//            NSLog("Sharpsell Error: isSharpsellNotification - Flutter Engine Not Available")
+//        }
+//    }
     
     /// Use this function to handle the sharpsell notification
     /// - Parameters:
@@ -528,19 +528,19 @@ extension SharpSellWrapper{
     public func setPushTokenWhenDidRegisterForRemoteNotifications(with deviceToken: Data){
         NSLog("Sharpsell SDK:  Recived Device Token and shared the same ✅")
         //Sending the device token to mo engage to supprt mo engage push notification
-        MoEngageSDKMessaging.sharedInstance.setPushToken(deviceToken)
+//        MoEngageSDKMessaging.sharedInstance.setPushToken(deviceToken)
     }
     
     public func setNotificationDataWhenDidReceive(_ center: UNUserNotificationCenter, _ response: UNNotificationResponse){
         NSLog("Sharpsell SDK:  on notification didReceive and shared the same ✅")
         //Sending the notification details to mo engage to support mo engage push notification
-        MoEngageSDKMessaging.sharedInstance.userNotificationCenter(center, didReceive: response)
+//        MoEngageSDKMessaging.sharedInstance.userNotificationCenter(center, didReceive: response)
     }
     
     public func setNotificationDataWhenDidReceiveRemoteNotification(_ application: UIApplication, _ userInfo: [AnyHashable : Any]){
         NSLog("Sharpsell SDK:  on notification didReceiveRemoteNotification and shared the same ✅")
         //Sending the notification details to mo engage to support mo engage push notification
-        MoEngageSDKMessaging.sharedInstance.didReceieveNotification(inApplication: application, withInfo: userInfo)
+//        MoEngageSDKMessaging.sharedInstance.didReceieveNotification(inApplication: application, withInfo: userInfo)
     }
 }
 
