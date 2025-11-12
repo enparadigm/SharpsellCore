@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+# Define your code signing identity
+IDENTITY="iPhone Distribution: ENPARADIGM PERFORMANCE SOLUTIONS PRIVATE LIMITED (J8YRGNHWN4)"
+# Define the path to the folder containing the XCFrameworks
+XCFRAMEWORKS_DIR="/Users/garvit.rai/Documents/Sharpsell/SharpsellCore/artifacts"
+
+# Check if the directory exists
+if [ ! -d "$XCFRAMEWORKS_DIR" ]; then
+  echo "Directory $XCFRAMEWORKS_DIR does not exist."
+  exit 1
+fi
+
+# Loop through each XCFramework in the directory
+for XCFRAMEWORK in "$XCFRAMEWORKS_DIR"/*.xcframework; do
+  if [ -d "$XCFRAMEWORK" ]; then
+    echo "Signing XCFramework: $XCFRAMEWORK"
+
+    # Sign all binaries within the XCFramework
+    find "$XCFRAMEWORK" -type f \( -name "*.framework" -o -name "*.dylib" -o -name "*.so" -o -name "*.a" \) | while read BINARY; do
+      echo "Signing $BINARY"
+      codesign --force --sign "$IDENTITY" --timestamp --options=runtime "$BINARY"
+    done
+
+    # Sign the XCFramework bundle
+    echo "Signing XCFramework bundle"
+    codesign --force --sign "$IDENTITY" --timestamp --options=runtime "$XCFRAMEWORK"
+
+    # Verify the signatures
+    echo "Verifying signatures for $XCFRAMEWORK"
+    codesign --verify --deep --strict --verbose=2 "$XCFRAMEWORK"
+    echo "--------------------------------"
+  else
+    echo "$XCFRAMEWORK is not a directory."
+  fi
+done
+
+echo "All XCFrameworks have been processed."
