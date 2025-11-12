@@ -1,19 +1,19 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/ankit.kumar/Desktop/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/audio_session/audio_session.framework/audio_session'
+binary-path:     '/Users/aman.verma/Documents/projects/kli/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/audio_session/audio_session.framework/audio_session'
 relocations:
   - { offset: 0x1BD7B, size: 0x8, addend: 0x0, symName: _audio_sessionVersionString, symObjAddr: 0x0, symBinAddr: 0xA800, symSize: 0x0 }
   - { offset: 0x1BDAF, size: 0x8, addend: 0x0, symName: _audio_sessionVersionNumber, symObjAddr: 0x30, symBinAddr: 0xA830, symSize: 0x0 }
   - { offset: 0x1BDEB, size: 0x8, addend: 0x0, symName: '+[AudioSessionPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x8C }
-  - { offset: 0x1BE04, size: 0x8, addend: 0x0, symName: _configuration, symObjAddr: 0x34C8, symBinAddr: 0x122C0, symSize: 0x0 }
-  - { offset: 0x1BE1E, size: 0x8, addend: 0x0, symName: _plugins, symObjAddr: 0x34D0, symBinAddr: 0x122C8, symSize: 0x0 }
+  - { offset: 0x1BE04, size: 0x8, addend: 0x0, symName: _configuration, symObjAddr: 0x3528, symBinAddr: 0x122C0, symSize: 0x0 }
+  - { offset: 0x1BE1E, size: 0x8, addend: 0x0, symName: _plugins, symObjAddr: 0x3530, symBinAddr: 0x122C8, symSize: 0x0 }
   - { offset: 0x1BEA2, size: 0x8, addend: 0x0, symName: '+[AudioSessionPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x8C }
   - { offset: 0x1BEEC, size: 0x8, addend: 0x0, symName: '-[AudioSessionPlugin initWithRegistrar:]', symObjAddr: 0x8C, symBinAddr: 0x408C, symSize: 0xE8 }
   - { offset: 0x1BF2F, size: 0x8, addend: 0x0, symName: '-[AudioSessionPlugin channel]', symObjAddr: 0x174, symBinAddr: 0x4174, symSize: 0x8 }
   - { offset: 0x1BF63, size: 0x8, addend: 0x0, symName: '-[AudioSessionPlugin handleMethodCall:result:]', symObjAddr: 0x17C, symBinAddr: 0x417C, symSize: 0x278 }
   - { offset: 0x1C002, size: 0x8, addend: 0x0, symName: '-[AudioSessionPlugin .cxx_destruct]', symObjAddr: 0x3F4, symBinAddr: 0x43F4, symSize: 0x30 }
   - { offset: 0x1C0B4, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession initWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4424, symSize: 0x2DC }
-  - { offset: 0x1C0CD, size: 0x8, addend: 0x0, symName: _sessions, symObjAddr: 0x10D18, symBinAddr: 0x122D0, symSize: 0x0 }
+  - { offset: 0x1C0CD, size: 0x8, addend: 0x0, symName: _sessions, symObjAddr: 0x10EF0, symBinAddr: 0x122D0, symSize: 0x0 }
   - { offset: 0x1C192, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession initWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4424, symSize: 0x2DC }
   - { offset: 0x1C1EF, size: 0x8, addend: 0x0, symName: '___40-[DarwinAudioSession initWithRegistrar:]_block_invoke', symObjAddr: 0x2DC, symBinAddr: 0x4700, symSize: 0x6C }
   - { offset: 0x1C245, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x348, symBinAddr: 0x476C, symSize: 0xC }

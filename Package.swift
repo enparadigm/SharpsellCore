@@ -47,6 +47,7 @@ let package = Package(
                 "flutter_custom_tabs_ios",
                 "flutter_inappwebview_ios",
                 "flutter_js",
+                "flutter_web_auth_2",
                 "fluttercontactpicker",
                 "FlutterPluginRegistrant",
                 "fluttertoast",
@@ -181,6 +182,9 @@ let package = Package(
         
             .binaryTarget(name: "flutter_js",
                           path: "artifacts/flutter_js.xcframework"),
+        
+            .binaryTarget(name: "flutter_web_auth_2",
+                          path: "artifacts/flutter_web_auth_2.xcframework"),
         
             .binaryTarget(name: "fluttercontactpicker",
                           path: "artifacts/fluttercontactpicker.xcframework"),
