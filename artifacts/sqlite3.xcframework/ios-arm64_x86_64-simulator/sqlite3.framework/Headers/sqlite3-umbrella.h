@@ -11,9 +11,6 @@
 #endif
 
 #import "sqlite3.h"
-#import "sqlite3ext.h"
-#import "sqlite3session.h"
-#import "sqlite_cfg.h"
 
 FOUNDATION_EXPORT double sqlite3VersionNumber;
 FOUNDATION_EXPORT const unsigned char sqlite3VersionString[];
