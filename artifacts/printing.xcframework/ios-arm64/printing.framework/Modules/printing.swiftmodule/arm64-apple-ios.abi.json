@@ -30,8 +30,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
-              "Custom",
               "AccessControl",
               "Override"
             ],
@@ -83,8 +81,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
-              "Custom",
               "AccessControl",
               "Override"
             ],
@@ -137,8 +133,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
-              "Custom",
               "Override"
             ],
             "init_kind": "Designated"
@@ -149,8 +143,6 @@
         "mangledName": "$s8printing16CustomPrintPaperC",
         "moduleName": "printing",
         "declAttributes": [
-          "Preconcurrency",
-          "Custom",
           "AccessControl",
           "ObjC"
         ],
@@ -1391,6 +1383,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       }

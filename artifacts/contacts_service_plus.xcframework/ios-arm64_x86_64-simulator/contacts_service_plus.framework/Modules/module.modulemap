@@ -1,0 +1,11 @@
+framework module contacts_service_plus {
+  umbrella header "contacts_service_plus-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module contacts_service_plus.Swift {
+  header "contacts_service_plus-Swift.h"
+  requires objc
+}

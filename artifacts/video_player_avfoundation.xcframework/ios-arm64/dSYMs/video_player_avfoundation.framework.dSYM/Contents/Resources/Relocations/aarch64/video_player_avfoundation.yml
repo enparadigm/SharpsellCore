@@ -1,257 +1,288 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/aman.verma/Documents/projects/kli/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/video_player_avfoundation/video_player_avfoundation.framework/video_player_avfoundation'
+binary-path:     '/Users/aman.verma/Documents/projects/extras/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/video_player_avfoundation/video_player_avfoundation.framework/video_player_avfoundation'
 relocations:
-  - { offset: 0x792C1, size: 0x8, addend: 0x0, symName: _video_player_avfoundationVersionString, symObjAddr: 0x0, symBinAddr: 0xD4E0, symSize: 0x0 }
-  - { offset: 0x792F6, size: 0x8, addend: 0x0, symName: _video_player_avfoundationVersionNumber, symObjAddr: 0x38, symBinAddr: 0xD518, symSize: 0x0 }
-  - { offset: 0x79333, size: 0x8, addend: 0x0, symName: _FVPGetStandardizedTransformForTrack, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x198 }
-  - { offset: 0x79341, size: 0x8, addend: 0x0, symName: _FVPGetStandardizedTransformForTrack, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x198 }
-  - { offset: 0x793C6, size: 0x8, addend: 0x0, symName: '-[FVPDefaultAVFactory playerWithPlayerItem:]', symObjAddr: 0x0, symBinAddr: 0x4198, symSize: 0xC }
-  - { offset: 0x793E5, size: 0x8, addend: 0x0, symName: '-[FVPDefaultAVFactory playerWithPlayerItem:]', symObjAddr: 0x0, symBinAddr: 0x4198, symSize: 0xC }
-  - { offset: 0x79426, size: 0x8, addend: 0x0, symName: '-[FVPDefaultAVFactory videoOutputWithPixelBufferAttributes:]', symObjAddr: 0xC, symBinAddr: 0x41A4, symSize: 0x4C }
-  - { offset: 0x794CF, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLinkTarget initWithCallback:]', symObjAddr: 0x0, symBinAddr: 0x41F0, symSize: 0x78 }
-  - { offset: 0x795EE, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLinkTarget initWithCallback:]', symObjAddr: 0x0, symBinAddr: 0x41F0, symSize: 0x78 }
-  - { offset: 0x79635, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLinkTarget onDisplayLink:]', symObjAddr: 0x78, symBinAddr: 0x4268, symSize: 0x34 }
-  - { offset: 0x79680, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLinkTarget callback]', symObjAddr: 0xAC, symBinAddr: 0x429C, symSize: 0x8 }
-  - { offset: 0x796B7, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLinkTarget setCallback:]', symObjAddr: 0xB4, symBinAddr: 0x42A4, symSize: 0x8 }
-  - { offset: 0x796F6, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLinkTarget .cxx_destruct]', symObjAddr: 0xBC, symBinAddr: 0x42AC, symSize: 0xC }
-  - { offset: 0x79729, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLink initWithRegistrar:callback:]', symObjAddr: 0xC8, symBinAddr: 0x42B8, symSize: 0x104 }
-  - { offset: 0x7977C, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLink dealloc]', symObjAddr: 0x1CC, symBinAddr: 0x43BC, symSize: 0x48 }
-  - { offset: 0x797AF, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLink running]', symObjAddr: 0x214, symBinAddr: 0x4404, symSize: 0x3C }
-  - { offset: 0x797E6, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLink setRunning:]', symObjAddr: 0x250, symBinAddr: 0x4440, symSize: 0x38 }
-  - { offset: 0x79829, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLink duration]', symObjAddr: 0x288, symBinAddr: 0x4478, symSize: 0x44 }
-  - { offset: 0x79860, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLink displayLink]', symObjAddr: 0x2CC, symBinAddr: 0x44BC, symSize: 0x8 }
-  - { offset: 0x79897, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLink setDisplayLink:]', symObjAddr: 0x2D4, symBinAddr: 0x44C4, symSize: 0xC }
-  - { offset: 0x798D8, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLink target]', symObjAddr: 0x2E0, symBinAddr: 0x44D0, symSize: 0x8 }
-  - { offset: 0x7990F, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLink setTarget:]', symObjAddr: 0x2E8, symBinAddr: 0x44D8, symSize: 0xC }
-  - { offset: 0x79950, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLink .cxx_destruct]', symObjAddr: 0x2F4, symBinAddr: 0x44E4, symSize: 0x30 }
-  - { offset: 0x79A11, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater initWithRegistry:]', symObjAddr: 0x0, symBinAddr: 0x4514, symSize: 0x40 }
-  - { offset: 0x79AE0, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater initWithRegistry:]', symObjAddr: 0x0, symBinAddr: 0x4514, symSize: 0x40 }
-  - { offset: 0x79B27, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater displayLinkFired]', symObjAddr: 0x40, symBinAddr: 0x4554, symSize: 0x44 }
-  - { offset: 0x79B5A, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater textureIdentifier]', symObjAddr: 0x84, symBinAddr: 0x4598, symSize: 0x8 }
-  - { offset: 0x79B91, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater setTextureIdentifier:]', symObjAddr: 0x8C, symBinAddr: 0x45A0, symSize: 0x8 }
-  - { offset: 0x79BCE, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater registry]', symObjAddr: 0x94, symBinAddr: 0x45A8, symSize: 0x18 }
-  - { offset: 0x79C05, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater displayLink]', symObjAddr: 0xAC, symBinAddr: 0x45C0, symSize: 0x8 }
-  - { offset: 0x79C3C, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater setDisplayLink:]', symObjAddr: 0xB4, symBinAddr: 0x45C8, symSize: 0xC }
-  - { offset: 0x79C7D, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater frameDuration]', symObjAddr: 0xC0, symBinAddr: 0x45D4, symSize: 0x8 }
-  - { offset: 0x79CB2, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater setFrameDuration:]', symObjAddr: 0xC8, symBinAddr: 0x45DC, symSize: 0x8 }
-  - { offset: 0x79CF0, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater .cxx_destruct]', symObjAddr: 0xD0, symBinAddr: 0x45E4, symSize: 0x2C }
-  - { offset: 0x79D7C, size: 0x8, addend: 0x0, symName: '+[FVPPlayerView layerClass]', symObjAddr: 0x0, symBinAddr: 0x4610, symSize: 0xC }
-  - { offset: 0x79DCB, size: 0x8, addend: 0x0, symName: '+[FVPPlayerView layerClass]', symObjAddr: 0x0, symBinAddr: 0x4610, symSize: 0xC }
-  - { offset: 0x79DFE, size: 0x8, addend: 0x0, symName: '-[FVPPlayerView setPlayer:]', symObjAddr: 0xC, symBinAddr: 0x461C, symSize: 0x50 }
-  - { offset: 0x79E41, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoView initWithPlayer:]', symObjAddr: 0x5C, symBinAddr: 0x466C, symSize: 0x8C }
-  - { offset: 0x79E88, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoView view]', symObjAddr: 0xE8, symBinAddr: 0x46F8, symSize: 0x4 }
-  - { offset: 0x79EBD, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoView playerView]', symObjAddr: 0xEC, symBinAddr: 0x46FC, symSize: 0x8 }
-  - { offset: 0x79EF4, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoView setPlayerView:]', symObjAddr: 0xF4, symBinAddr: 0x4704, symSize: 0xC }
-  - { offset: 0x79F35, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoView .cxx_destruct]', symObjAddr: 0x100, symBinAddr: 0x4710, symSize: 0xC }
-  - { offset: 0x79FE3, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory initWithMessenger:playerByIdentifierProvider:]', symObjAddr: 0x0, symBinAddr: 0x471C, symSize: 0xA8 }
-  - { offset: 0x7A124, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory initWithMessenger:playerByIdentifierProvider:]', symObjAddr: 0x0, symBinAddr: 0x471C, symSize: 0xA8 }
-  - { offset: 0x7A17B, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory createWithFrame:viewIdentifier:arguments:]', symObjAddr: 0xA8, symBinAddr: 0x47C4, symSize: 0xD0 }
-  - { offset: 0x7A20E, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory createArgsCodec]', symObjAddr: 0x178, symBinAddr: 0x4894, symSize: 0x4 }
-  - { offset: 0x7A244, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory createArgsCodec]', symObjAddr: 0x178, symBinAddr: 0x4894, symSize: 0x4 }
-  - { offset: 0x7A25B, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory messenger]', symObjAddr: 0x17C, symBinAddr: 0x4898, symSize: 0x8 }
-  - { offset: 0x7A292, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory setMessenger:]', symObjAddr: 0x184, symBinAddr: 0x48A0, symSize: 0xC }
-  - { offset: 0x7A2D3, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory playerByIdProvider]', symObjAddr: 0x190, symBinAddr: 0x48AC, symSize: 0x8 }
-  - { offset: 0x7A30A, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory setPlayerByIdProvider:]', symObjAddr: 0x198, symBinAddr: 0x48B4, symSize: 0x8 }
-  - { offset: 0x7A349, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory .cxx_destruct]', symObjAddr: 0x1A0, symBinAddr: 0x48BC, symSize: 0x30 }
-  - { offset: 0x7A405, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer initWithAsset:frameUpdater:displayLink:avFactory:registrar:onDisposed:]', symObjAddr: 0x0, symBinAddr: 0x48EC, symSize: 0x140 }
-  - { offset: 0x7A413, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer copyPixelBuffer]', symObjAddr: 0x9A0, symBinAddr: 0x528C, symSize: 0x318 }
-  - { offset: 0x7A8C3, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer initWithAsset:frameUpdater:displayLink:avFactory:registrar:onDisposed:]', symObjAddr: 0x0, symBinAddr: 0x48EC, symSize: 0x140 }
-  - { offset: 0x7A95A, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer initWithURL:frameUpdater:displayLink:httpHeaders:avFactory:registrar:onDisposed:]', symObjAddr: 0x140, symBinAddr: 0x4A2C, symSize: 0x1DC }
-  - { offset: 0x7AA31, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer initWithPlayerItem:frameUpdater:displayLink:avFactory:registrar:onDisposed:]', symObjAddr: 0x31C, symBinAddr: 0x4C08, symSize: 0x1C4 }
-  - { offset: 0x7AAC8, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer dealloc]', symObjAddr: 0x4E0, symBinAddr: 0x4DCC, symSize: 0x50 }
-  - { offset: 0x7AB17, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setTextureIdentifier:]', symObjAddr: 0x530, symBinAddr: 0x4E1C, symSize: 0x38 }
-  - { offset: 0x7AB5A, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer expectFrame]', symObjAddr: 0x568, symBinAddr: 0x4E54, symSize: 0x34 }
-  - { offset: 0x7AB8D, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer flutterViewLayer]', symObjAddr: 0x59C, symBinAddr: 0x4E88, symSize: 0xA0 }
-  - { offset: 0x7ABD0, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer updatePlayingState]', symObjAddr: 0x63C, symBinAddr: 0x4F28, symSize: 0x70 }
-  - { offset: 0x7AC03, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer seekTo:completionHandler:]', symObjAddr: 0x6AC, symBinAddr: 0x4F98, symSize: 0xF8 }
-  - { offset: 0x7AC65, size: 0x8, addend: 0x0, symName: '___55-[FVPTextureBasedVideoPlayer seekTo:completionHandler:]_block_invoke', symObjAddr: 0x7A4, symBinAddr: 0x5090, symSize: 0xA8 }
-  - { offset: 0x7AD1D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x84C, symBinAddr: 0x5138, symSize: 0x34 }
-  - { offset: 0x7AD46, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x880, symBinAddr: 0x516C, symSize: 0x28 }
-  - { offset: 0x7AD65, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer disposeSansEventChannel]', symObjAddr: 0x8A8, symBinAddr: 0x5194, symSize: 0x7C }
-  - { offset: 0x7AD98, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer dispose]', symObjAddr: 0x924, symBinAddr: 0x5210, symSize: 0x7C }
-  - { offset: 0x7AE2B, size: 0x8, addend: 0x0, symName: '___45-[FVPTextureBasedVideoPlayer copyPixelBuffer]_block_invoke', symObjAddr: 0xCB8, symBinAddr: 0x55A4, symSize: 0x80 }
-  - { offset: 0x7AE6B, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0xD38, symBinAddr: 0x5624, symSize: 0x8 }
-  - { offset: 0x7AE92, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0xD40, symBinAddr: 0x562C, symSize: 0x8 }
-  - { offset: 0x7AEB1, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer onTextureUnregistered:]', symObjAddr: 0xD48, symBinAddr: 0x5634, symSize: 0x58 }
-  - { offset: 0x7AF08, size: 0x8, addend: 0x0, symName: '___52-[FVPTextureBasedVideoPlayer onTextureUnregistered:]_block_invoke', symObjAddr: 0xDA0, symBinAddr: 0x568C, symSize: 0x38 }
-  - { offset: 0x7AF4A, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer frameUpdater]', symObjAddr: 0xDD8, symBinAddr: 0x56C4, symSize: 0x10 }
-  - { offset: 0x7AF81, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setFrameUpdater:]', symObjAddr: 0xDE8, symBinAddr: 0x56D4, symSize: 0x14 }
-  - { offset: 0x7AFC2, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer displayLink]', symObjAddr: 0xDFC, symBinAddr: 0x56E8, symSize: 0x10 }
-  - { offset: 0x7AFF9, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setDisplayLink:]', symObjAddr: 0xE0C, symBinAddr: 0x56F8, symSize: 0x14 }
-  - { offset: 0x7B03A, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer latestPixelBuffer]', symObjAddr: 0xE20, symBinAddr: 0x570C, symSize: 0x10 }
-  - { offset: 0x7B071, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setLatestPixelBuffer:]', symObjAddr: 0xE30, symBinAddr: 0x571C, symSize: 0x10 }
-  - { offset: 0x7B0AE, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer targetTime]', symObjAddr: 0xE40, symBinAddr: 0x572C, symSize: 0x10 }
-  - { offset: 0x7B0E3, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setTargetTime:]', symObjAddr: 0xE50, symBinAddr: 0x573C, symSize: 0x10 }
-  - { offset: 0x7B121, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer selfRefresh]', symObjAddr: 0xE60, symBinAddr: 0x574C, symSize: 0x10 }
-  - { offset: 0x7B158, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setSelfRefresh:]', symObjAddr: 0xE70, symBinAddr: 0x575C, symSize: 0x10 }
-  - { offset: 0x7B193, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer startTime]', symObjAddr: 0xE80, symBinAddr: 0x576C, symSize: 0x10 }
-  - { offset: 0x7B1C8, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setStartTime:]', symObjAddr: 0xE90, symBinAddr: 0x577C, symSize: 0x10 }
-  - { offset: 0x7B206, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer framesCount]', symObjAddr: 0xEA0, symBinAddr: 0x578C, symSize: 0x10 }
-  - { offset: 0x7B23D, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setFramesCount:]', symObjAddr: 0xEB0, symBinAddr: 0x579C, symSize: 0x10 }
-  - { offset: 0x7B27A, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer latestDuration]', symObjAddr: 0xEC0, symBinAddr: 0x57AC, symSize: 0x10 }
-  - { offset: 0x7B2AF, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setLatestDuration:]', symObjAddr: 0xED0, symBinAddr: 0x57BC, symSize: 0x10 }
-  - { offset: 0x7B2ED, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer waitingForFrame]', symObjAddr: 0xEE0, symBinAddr: 0x57CC, symSize: 0x10 }
-  - { offset: 0x7B324, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setWaitingForFrame:]', symObjAddr: 0xEF0, symBinAddr: 0x57DC, symSize: 0x10 }
-  - { offset: 0x7B35F, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer onDisposed]', symObjAddr: 0xF00, symBinAddr: 0x57EC, symSize: 0x10 }
-  - { offset: 0x7B396, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setOnDisposed:]', symObjAddr: 0xF10, symBinAddr: 0x57FC, symSize: 0xC }
-  - { offset: 0x7B3D5, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer playerLayer]', symObjAddr: 0xF1C, symBinAddr: 0x5808, symSize: 0x10 }
-  - { offset: 0x7B40C, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer .cxx_destruct]', symObjAddr: 0xF2C, symBinAddr: 0x5818, symSize: 0x68 }
-  - { offset: 0x7B685, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer initWithAsset:avFactory:registrar:]', symObjAddr: 0x0, symBinAddr: 0x5880, symSize: 0xD4 }
-  - { offset: 0x7B69F, size: 0x8, addend: 0x0, symName: _TIME_UNSET, symObjAddr: 0x3030, symBinAddr: 0xD548, symSize: 0x0 }
-  - { offset: 0x7B6C1, size: 0x8, addend: 0x0, symName: _timeRangeContext, symObjAddr: 0x2FA0, symBinAddr: 0x18CF0, symSize: 0x0 }
-  - { offset: 0x7B6D8, size: 0x8, addend: 0x0, symName: _statusContext, symObjAddr: 0x2FA8, symBinAddr: 0x18CF8, symSize: 0x0 }
-  - { offset: 0x7B6EE, size: 0x8, addend: 0x0, symName: _presentationSizeContext, symObjAddr: 0x2FB0, symBinAddr: 0x18D00, symSize: 0x0 }
-  - { offset: 0x7B704, size: 0x8, addend: 0x0, symName: _durationContext, symObjAddr: 0x2FB8, symBinAddr: 0x18D08, symSize: 0x0 }
-  - { offset: 0x7B71A, size: 0x8, addend: 0x0, symName: _playbackLikelyToKeepUpContext, symObjAddr: 0x2FC0, symBinAddr: 0x18D10, symSize: 0x0 }
-  - { offset: 0x7B730, size: 0x8, addend: 0x0, symName: _rateContext, symObjAddr: 0x2FC8, symBinAddr: 0x18D18, symSize: 0x0 }
-  - { offset: 0x7B8E5, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer initWithAsset:avFactory:registrar:]', symObjAddr: 0x0, symBinAddr: 0x5880, symSize: 0xD4 }
-  - { offset: 0x7B94C, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer initWithURL:httpHeaders:avFactory:registrar:]', symObjAddr: 0xD4, symBinAddr: 0x5954, symSize: 0x178 }
-  - { offset: 0x7B9F3, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer initWithPlayerItem:avFactory:registrar:]', symObjAddr: 0x24C, symBinAddr: 0x5ACC, symSize: 0x2D0 }
-  - { offset: 0x7BA8A, size: 0x8, addend: 0x0, symName: '___57-[FVPVideoPlayer initWithPlayerItem:avFactory:registrar:]_block_invoke', symObjAddr: 0x51C, symBinAddr: 0x5D9C, symSize: 0x198 }
-  - { offset: 0x7BB37, size: 0x8, addend: 0x0, symName: '___57-[FVPVideoPlayer initWithPlayerItem:avFactory:registrar:]_block_invoke_2', symObjAddr: 0x6B4, symBinAddr: 0x5F34, symSize: 0xC8 }
-  - { offset: 0x7BC1A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s, symObjAddr: 0x77C, symBinAddr: 0x5FFC, symSize: 0x38 }
-  - { offset: 0x7BC43, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x7B4, symBinAddr: 0x6034, symSize: 0x38 }
-  - { offset: 0x7BC62, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x7EC, symBinAddr: 0x606C, symSize: 0x30 }
-  - { offset: 0x7BC8B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x81C, symBinAddr: 0x609C, symSize: 0x30 }
-  - { offset: 0x7BCAA, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer dealloc]', symObjAddr: 0x84C, symBinAddr: 0x60CC, symSize: 0x50 }
-  - { offset: 0x7BCDD, size: 0x8, addend: 0x0, symName: '+[FVPVideoPlayer absolutePathForAssetName:]', symObjAddr: 0x89C, symBinAddr: 0x611C, symSize: 0x74 }
-  - { offset: 0x7BD30, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer addObserversForItem:player:]', symObjAddr: 0x910, symBinAddr: 0x6190, symSize: 0x14C }
-  - { offset: 0x7BD83, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer itemDidPlayToEndTime:]', symObjAddr: 0xA5C, symBinAddr: 0x62DC, symSize: 0x10C }
-  - { offset: 0x7BE6D, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer getVideoCompositionWithTransform:withAsset:withVideoTrack:]', symObjAddr: 0xB68, symBinAddr: 0x63E8, symSize: 0x310 }
-  - { offset: 0x7C07C, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0xE78, symBinAddr: 0x66F8, symSize: 0x500 }
-  - { offset: 0x7C20E, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer updatePlayingState]', symObjAddr: 0x1378, symBinAddr: 0x6BF8, symSize: 0x38 }
-  - { offset: 0x7C242, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer updateRate]', symObjAddr: 0x13B0, symBinAddr: 0x6C30, symSize: 0x100 }
-  - { offset: 0x7C294, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer sendFailedToLoadVideoEvent]', symObjAddr: 0x14B0, symBinAddr: 0x6D30, symSize: 0x338 }
-  - { offset: 0x7C3A8, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x17E8, symBinAddr: 0x7068, symSize: 0x10 }
-  - { offset: 0x7C3CD, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x17F8, symBinAddr: 0x7078, symSize: 0x8 }
-  - { offset: 0x7C3EC, size: 0x8, addend: 0x0, symName: '___44-[FVPVideoPlayer sendFailedToLoadVideoEvent]_block_invoke', symObjAddr: 0x1800, symBinAddr: 0x7080, symSize: 0x1C }
-  - { offset: 0x7C439, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r, symObjAddr: 0x181C, symBinAddr: 0x709C, symSize: 0x10 }
-  - { offset: 0x7C462, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r, symObjAddr: 0x182C, symBinAddr: 0x70AC, symSize: 0xC }
-  - { offset: 0x7C481, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer setupEventSinkIfReadyToPlay]', symObjAddr: 0x1838, symBinAddr: 0x70B8, symSize: 0x34C }
-  - { offset: 0x7C587, size: 0x8, addend: 0x0, symName: '___45-[FVPVideoPlayer setupEventSinkIfReadyToPlay]_block_invoke', symObjAddr: 0x1B84, symBinAddr: 0x7404, symSize: 0x88 }
-  - { offset: 0x7C5EB, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x1C0C, symBinAddr: 0x748C, symSize: 0x28 }
-  - { offset: 0x7C614, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer play]', symObjAddr: 0x1C5C, symBinAddr: 0x74B4, symSize: 0xC }
-  - { offset: 0x7C646, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer pause]', symObjAddr: 0x1C68, symBinAddr: 0x74C0, symSize: 0x8 }
-  - { offset: 0x7C678, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer position]', symObjAddr: 0x1C70, symBinAddr: 0x74C8, symSize: 0x68 }
-  - { offset: 0x7C6C9, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer duration]', symObjAddr: 0x1CD8, symBinAddr: 0x7530, symSize: 0xB0 }
-  - { offset: 0x7C71A, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer seekTo:completionHandler:]', symObjAddr: 0x1D88, symBinAddr: 0x75E0, symSize: 0x17C }
-  - { offset: 0x7C7EE, size: 0x8, addend: 0x0, symName: '___43-[FVPVideoPlayer seekTo:completionHandler:]_block_invoke', symObjAddr: 0x1F04, symBinAddr: 0x775C, symSize: 0x14 }
-  - { offset: 0x7C84C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x1F18, symBinAddr: 0x7770, symSize: 0x10 }
-  - { offset: 0x7C875, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer setIsLooping:]', symObjAddr: 0x1F30, symBinAddr: 0x7780, symSize: 0x8 }
-  - { offset: 0x7C8B4, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer setVolume:]', symObjAddr: 0x1F38, symBinAddr: 0x7788, symSize: 0x24 }
-  - { offset: 0x7C8F9, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer setPlaybackSpeed:]', symObjAddr: 0x1F5C, symBinAddr: 0x77AC, symSize: 0x44 }
-  - { offset: 0x7C93E, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer onCancelWithArguments:]', symObjAddr: 0x1FA0, symBinAddr: 0x77F0, symSize: 0x24 }
-  - { offset: 0x7C983, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer onListenWithArguments:eventSink:]', symObjAddr: 0x1FC4, symBinAddr: 0x7814, symSize: 0x94 }
-  - { offset: 0x7C9D9, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer disposeSansEventChannel]', symObjAddr: 0x2058, symBinAddr: 0x78A8, symSize: 0x70 }
-  - { offset: 0x7CA0D, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer dispose]', symObjAddr: 0x20C8, symBinAddr: 0x7918, symSize: 0x28 }
-  - { offset: 0x7CA41, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer removeKeyValueObservers]', symObjAddr: 0x20F0, symBinAddr: 0x7940, symSize: 0xA8 }
-  - { offset: 0x7CA86, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer eventChannel]', symObjAddr: 0x2198, symBinAddr: 0x79E8, symSize: 0x8 }
-  - { offset: 0x7CABD, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer setEventChannel:]', symObjAddr: 0x21A0, symBinAddr: 0x79F0, symSize: 0xC }
-  - { offset: 0x7CAFE, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer player]', symObjAddr: 0x21AC, symBinAddr: 0x79FC, symSize: 0x8 }
-  - { offset: 0x7CB35, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer disposed]', symObjAddr: 0x21B4, symBinAddr: 0x7A04, symSize: 0x8 }
-  - { offset: 0x7CB6C, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer isLooping]', symObjAddr: 0x21BC, symBinAddr: 0x7A0C, symSize: 0x8 }
-  - { offset: 0x7CBA3, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer videoOutput]', symObjAddr: 0x21C4, symBinAddr: 0x7A14, symSize: 0x8 }
-  - { offset: 0x7CBDA, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer registrar]', symObjAddr: 0x21CC, symBinAddr: 0x7A1C, symSize: 0x8 }
-  - { offset: 0x7CC11, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer eventSink]', symObjAddr: 0x21D4, symBinAddr: 0x7A24, symSize: 0x8 }
-  - { offset: 0x7CC48, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer setEventSink:]', symObjAddr: 0x21DC, symBinAddr: 0x7A2C, symSize: 0x8 }
-  - { offset: 0x7CC87, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer preferredTransform]', symObjAddr: 0x21E4, symBinAddr: 0x7A34, symSize: 0x14 }
-  - { offset: 0x7CCBC, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer setPreferredTransform:]', symObjAddr: 0x21F8, symBinAddr: 0x7A48, symSize: 0x14 }
-  - { offset: 0x7CCFA, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer targetPlaybackSpeed]', symObjAddr: 0x220C, symBinAddr: 0x7A5C, symSize: 0x8 }
-  - { offset: 0x7CD31, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer isPlaying]', symObjAddr: 0x2214, symBinAddr: 0x7A64, symSize: 0x8 }
-  - { offset: 0x7CD68, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer isInitialized]', symObjAddr: 0x221C, symBinAddr: 0x7A6C, symSize: 0x8 }
-  - { offset: 0x7CD9F, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer .cxx_destruct]', symObjAddr: 0x2224, symBinAddr: 0x7A74, symSize: 0x60 }
-  - { offset: 0x7D260, size: 0x8, addend: 0x0, symName: '-[FVPDefaultDisplayLinkFactory displayLinkWithRegistrar:callback:]', symObjAddr: 0x0, symBinAddr: 0x7AD4, symSize: 0x70 }
-  - { offset: 0x7D47C, size: 0x8, addend: 0x0, symName: '-[FVPDefaultDisplayLinkFactory displayLinkWithRegistrar:callback:]', symObjAddr: 0x0, symBinAddr: 0x7AD4, symSize: 0x70 }
-  - { offset: 0x7D4CF, size: 0x8, addend: 0x0, symName: '+[FVPVideoPlayerPlugin registerWithRegistrar:]', symObjAddr: 0x70, symBinAddr: 0x7B44, symSize: 0x134 }
-  - { offset: 0x7D55E, size: 0x8, addend: 0x0, symName: '___46+[FVPVideoPlayerPlugin registerWithRegistrar:]_block_invoke', symObjAddr: 0x1A4, symBinAddr: 0x7C78, symSize: 0x10 }
-  - { offset: 0x7D5AD, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin initWithRegistrar:]', symObjAddr: 0x1C4, symBinAddr: 0x7C88, symSize: 0x90 }
-  - { offset: 0x7D5F4, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin initWithAVFactory:displayLinkFactory:registrar:]', symObjAddr: 0x254, symBinAddr: 0x7D18, symSize: 0x188 }
-  - { offset: 0x7D65B, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin detachFromEngineForRegistrar:]', symObjAddr: 0x3DC, symBinAddr: 0x7EA0, symSize: 0xBC }
-  - { offset: 0x7D6BA, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin onPlayerSetup:]', symObjAddr: 0x498, symBinAddr: 0x7F5C, symSize: 0x1B4 }
-  - { offset: 0x7D731, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin initialize:]', symObjAddr: 0x64C, symBinAddr: 0x8110, symSize: 0x98 }
-  - { offset: 0x7D78B, size: 0x8, addend: 0x0, symName: _upgradeAudioSessionCategory, symObjAddr: 0x6E4, symBinAddr: 0x81A8, symSize: 0x248 }
-  - { offset: 0x7D81E, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin createWithOptions:error:]', symObjAddr: 0x92C, symBinAddr: 0x83F0, symSize: 0x17C }
-  - { offset: 0x7D8AF, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin texturePlayerWithOptions:]', symObjAddr: 0xAA8, symBinAddr: 0x856C, symSize: 0x30C }
-  - { offset: 0x7D955, size: 0x8, addend: 0x0, symName: '___49-[FVPVideoPlayerPlugin texturePlayerWithOptions:]_block_invoke', symObjAddr: 0xDB4, symBinAddr: 0x8878, symSize: 0x8 }
-  - { offset: 0x7D990, size: 0x8, addend: 0x0, symName: '___49-[FVPVideoPlayerPlugin texturePlayerWithOptions:]_block_invoke.27', symObjAddr: 0xDBC, symBinAddr: 0x8880, symSize: 0x54 }
-  - { offset: 0x7D9DB, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0xE10, symBinAddr: 0x88D4, symSize: 0xC }
-  - { offset: 0x7DA04, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0xE1C, symBinAddr: 0x88E0, symSize: 0x8 }
-  - { offset: 0x7DA23, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin platformViewPlayerWithOptions:]', symObjAddr: 0xE24, symBinAddr: 0x88E8, symSize: 0x190 }
-  - { offset: 0x7DA89, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin assetPathFromCreationOptions:]', symObjAddr: 0xFB4, symBinAddr: 0x8A78, symSize: 0xE8 }
-  - { offset: 0x7DAE0, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin disposePlayer:error:]', symObjAddr: 0x109C, symBinAddr: 0x8B60, symSize: 0xA4 }
-  - { offset: 0x7DB51, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin setLooping:forPlayer:error:]', symObjAddr: 0x1140, symBinAddr: 0x8C04, symSize: 0x8C }
-  - { offset: 0x7DBC5, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin setVolume:forPlayer:error:]', symObjAddr: 0x11CC, symBinAddr: 0x8C90, symSize: 0x94 }
-  - { offset: 0x7DC39, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin setPlaybackSpeed:forPlayer:error:]', symObjAddr: 0x1260, symBinAddr: 0x8D24, symSize: 0x94 }
-  - { offset: 0x7DCAD, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin playPlayer:error:]', symObjAddr: 0x12F4, symBinAddr: 0x8DB8, symSize: 0x84 }
-  - { offset: 0x7DD10, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin positionForPlayer:error:]', symObjAddr: 0x1378, symBinAddr: 0x8E3C, symSize: 0xA8 }
-  - { offset: 0x7DD77, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin seekTo:forPlayer:completion:]', symObjAddr: 0x1420, symBinAddr: 0x8EE4, symSize: 0x104 }
-  - { offset: 0x7DDEF, size: 0x8, addend: 0x0, symName: '___52-[FVPVideoPlayerPlugin seekTo:forPlayer:completion:]_block_invoke', symObjAddr: 0x1524, symBinAddr: 0x8FE8, symSize: 0x68 }
-  - { offset: 0x7DEC4, size: 0x8, addend: 0x0, symName: '___52-[FVPVideoPlayerPlugin seekTo:forPlayer:completion:]_block_invoke_2', symObjAddr: 0x158C, symBinAddr: 0x9050, symSize: 0x10 }
-  - { offset: 0x7DF15, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin pausePlayer:error:]', symObjAddr: 0x15AC, symBinAddr: 0x9060, symSize: 0x84 }
-  - { offset: 0x7DF78, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin setMixWithOthers:error:]', symObjAddr: 0x1630, symBinAddr: 0x90E4, symSize: 0x74 }
-  - { offset: 0x7DFD4, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin registry]', symObjAddr: 0x16A4, symBinAddr: 0x9158, symSize: 0x18 }
-  - { offset: 0x7E00B, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin messenger]', symObjAddr: 0x16BC, symBinAddr: 0x9170, symSize: 0x18 }
-  - { offset: 0x7E042, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin registrar]', symObjAddr: 0x16D4, symBinAddr: 0x9188, symSize: 0x8 }
-  - { offset: 0x7E079, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin displayLinkFactory]', symObjAddr: 0x16DC, symBinAddr: 0x9190, symSize: 0x8 }
-  - { offset: 0x7E0B0, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin setDisplayLinkFactory:]', symObjAddr: 0x16E4, symBinAddr: 0x9198, symSize: 0xC }
-  - { offset: 0x7E0F1, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin avFactory]', symObjAddr: 0x16F0, symBinAddr: 0x91A4, symSize: 0x8 }
-  - { offset: 0x7E128, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin setAvFactory:]', symObjAddr: 0x16F8, symBinAddr: 0x91AC, symSize: 0xC }
-  - { offset: 0x7E169, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin nextNonTexturePlayerIdentifier]', symObjAddr: 0x1704, symBinAddr: 0x91B8, symSize: 0x8 }
-  - { offset: 0x7E1A0, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin setNextNonTexturePlayerIdentifier:]', symObjAddr: 0x170C, symBinAddr: 0x91C0, symSize: 0x8 }
-  - { offset: 0x7E1DD, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin playersByIdentifier]', symObjAddr: 0x1714, symBinAddr: 0x91C8, symSize: 0x8 }
-  - { offset: 0x7E214, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin .cxx_destruct]', symObjAddr: 0x171C, symBinAddr: 0x91D0, symSize: 0x58 }
-  - { offset: 0x7E6AE, size: 0x8, addend: 0x0, symName: '-[FVPPlatformVideoViewTypeBox initWithValue:]', symObjAddr: 0x0, symBinAddr: 0x9228, symSize: 0x48 }
-  - { offset: 0x7E6BC, size: 0x8, addend: 0x0, symName: _FVPGetMessagesCodec, symObjAddr: 0xADC, symBinAddr: 0x9D04, symSize: 0x30 }
-  - { offset: 0x7E6E2, size: 0x8, addend: 0x0, symName: _FVPGetMessagesCodec.sSharedObject, symObjAddr: 0xB908, symBinAddr: 0x18F60, symSize: 0x0 }
-  - { offset: 0x7E6F8, size: 0x8, addend: 0x0, symName: _FVPGetMessagesCodec.sPred, symObjAddr: 0xB910, symBinAddr: 0x18F68, symSize: 0x0 }
-  - { offset: 0x7E895, size: 0x8, addend: 0x0, symName: '-[FVPPlatformVideoViewTypeBox initWithValue:]', symObjAddr: 0x0, symBinAddr: 0x9228, symSize: 0x48 }
-  - { offset: 0x7E8DC, size: 0x8, addend: 0x0, symName: '-[FVPPlatformVideoViewTypeBox value]', symObjAddr: 0x48, symBinAddr: 0x9270, symSize: 0x8 }
-  - { offset: 0x7E913, size: 0x8, addend: 0x0, symName: '-[FVPPlatformVideoViewTypeBox setValue:]', symObjAddr: 0x50, symBinAddr: 0x9278, symSize: 0x8 }
-  - { offset: 0x7E950, size: 0x8, addend: 0x0, symName: '+[FVPPlatformVideoViewCreationParams makeWithPlayerId:]', symObjAddr: 0x58, symBinAddr: 0x9280, symSize: 0x3C }
-  - { offset: 0x7E9A3, size: 0x8, addend: 0x0, symName: '+[FVPPlatformVideoViewCreationParams fromList:]', symObjAddr: 0x94, symBinAddr: 0x92BC, symSize: 0x84 }
-  - { offset: 0x7EA12, size: 0x8, addend: 0x0, symName: _GetNullableObjectAtIndex, symObjAddr: 0x118, symBinAddr: 0x9340, symSize: 0x70 }
-  - { offset: 0x7EA5D, size: 0x8, addend: 0x0, symName: '+[FVPPlatformVideoViewCreationParams nullableFromList:]', symObjAddr: 0x188, symBinAddr: 0x93B0, symSize: 0x30 }
-  - { offset: 0x7EAA0, size: 0x8, addend: 0x0, symName: '-[FVPPlatformVideoViewCreationParams toList]', symObjAddr: 0x1B8, symBinAddr: 0x93E0, symSize: 0xA0 }
-  - { offset: 0x7EAD7, size: 0x8, addend: 0x0, symName: '-[FVPPlatformVideoViewCreationParams playerId]', symObjAddr: 0x258, symBinAddr: 0x9480, symSize: 0x8 }
-  - { offset: 0x7EB0E, size: 0x8, addend: 0x0, symName: '-[FVPPlatformVideoViewCreationParams setPlayerId:]', symObjAddr: 0x260, symBinAddr: 0x9488, symSize: 0x8 }
-  - { offset: 0x7EB4B, size: 0x8, addend: 0x0, symName: '+[FVPCreationOptions makeWithAsset:uri:packageName:formatHint:httpHeaders:viewType:]', symObjAddr: 0x268, symBinAddr: 0x9490, symSize: 0x108 }
-  - { offset: 0x7EBEE, size: 0x8, addend: 0x0, symName: '+[FVPCreationOptions fromList:]', symObjAddr: 0x370, symBinAddr: 0x9598, symSize: 0x160 }
-  - { offset: 0x7ECF9, size: 0x8, addend: 0x0, symName: '+[FVPCreationOptions nullableFromList:]', symObjAddr: 0x4D0, symBinAddr: 0x96F8, symSize: 0x30 }
-  - { offset: 0x7ED3C, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions toList]', symObjAddr: 0x500, symBinAddr: 0x9728, symSize: 0x234 }
-  - { offset: 0x7ED73, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions asset]', symObjAddr: 0x734, symBinAddr: 0x995C, symSize: 0x8 }
-  - { offset: 0x7EDAA, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions setAsset:]', symObjAddr: 0x73C, symBinAddr: 0x9964, symSize: 0x8 }
-  - { offset: 0x7EDE9, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions uri]', symObjAddr: 0x744, symBinAddr: 0x996C, symSize: 0x8 }
-  - { offset: 0x7EE20, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions setUri:]', symObjAddr: 0x74C, symBinAddr: 0x9974, symSize: 0x8 }
-  - { offset: 0x7EE5F, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions packageName]', symObjAddr: 0x754, symBinAddr: 0x997C, symSize: 0x8 }
-  - { offset: 0x7EE96, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions setPackageName:]', symObjAddr: 0x75C, symBinAddr: 0x9984, symSize: 0x8 }
-  - { offset: 0x7EED5, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions formatHint]', symObjAddr: 0x764, symBinAddr: 0x998C, symSize: 0x8 }
-  - { offset: 0x7EF0C, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions setFormatHint:]', symObjAddr: 0x76C, symBinAddr: 0x9994, symSize: 0x8 }
-  - { offset: 0x7EF4B, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions httpHeaders]', symObjAddr: 0x774, symBinAddr: 0x999C, symSize: 0x8 }
-  - { offset: 0x7EF82, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions setHttpHeaders:]', symObjAddr: 0x77C, symBinAddr: 0x99A4, symSize: 0x8 }
-  - { offset: 0x7EFC1, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions viewType]', symObjAddr: 0x784, symBinAddr: 0x99AC, symSize: 0x8 }
-  - { offset: 0x7EFF8, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions setViewType:]', symObjAddr: 0x78C, symBinAddr: 0x99B4, symSize: 0x8 }
-  - { offset: 0x7F035, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions .cxx_destruct]', symObjAddr: 0x794, symBinAddr: 0x99BC, symSize: 0x54 }
-  - { offset: 0x7F068, size: 0x8, addend: 0x0, symName: '-[FVPMessagesPigeonCodecReader readValueOfType:]', symObjAddr: 0x7E8, symBinAddr: 0x9A10, symSize: 0xF0 }
-  - { offset: 0x7F0C6, size: 0x8, addend: 0x0, symName: '-[FVPMessagesPigeonCodecWriter writeValue:]', symObjAddr: 0x8D8, symBinAddr: 0x9B00, symSize: 0x16C }
-  - { offset: 0x7F11C, size: 0x8, addend: 0x0, symName: '-[FVPMessagesPigeonCodecReaderWriter writerWithData:]', symObjAddr: 0xA44, symBinAddr: 0x9C6C, symSize: 0x4C }
-  - { offset: 0x7F15F, size: 0x8, addend: 0x0, symName: '-[FVPMessagesPigeonCodecReaderWriter readerWithData:]', symObjAddr: 0xA90, symBinAddr: 0x9CB8, symSize: 0x4C }
-  - { offset: 0x7F1D6, size: 0x8, addend: 0x0, symName: _FVPGetMessagesCodec.cold.1, symObjAddr: 0x2150, symBinAddr: 0xB358, symSize: 0x14 }
-  - { offset: 0x7F1F2, size: 0x8, addend: 0x0, symName: _FVPGetMessagesCodec.cold.1, symObjAddr: 0x2150, symBinAddr: 0xB358, symSize: 0x14 }
-  - { offset: 0x7F204, size: 0x8, addend: 0x0, symName: ___FVPGetMessagesCodec_block_invoke, symObjAddr: 0xB0C, symBinAddr: 0x9D34, symSize: 0x5C }
-  - { offset: 0x7F24A, size: 0x8, addend: 0x0, symName: _SetUpFVPAVFoundationVideoPlayerApi, symObjAddr: 0xB68, symBinAddr: 0x9D90, symSize: 0xC }
-  - { offset: 0x7F29C, size: 0x8, addend: 0x0, symName: _SetUpFVPAVFoundationVideoPlayerApiWithSuffix, symObjAddr: 0xB74, symBinAddr: 0x9D9C, symSize: 0x958 }
-  - { offset: 0x7F4DA, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke, symObjAddr: 0x14CC, symBinAddr: 0xA6F4, symSize: 0x94 }
-  - { offset: 0x7F587, size: 0x8, addend: 0x0, symName: _wrapResult, symObjAddr: 0x1560, symBinAddr: 0xA788, symSize: 0x1EC }
-  - { offset: 0x7F5C2, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke.97, symObjAddr: 0x175C, symBinAddr: 0xA974, symSize: 0xEC }
-  - { offset: 0x7F6BC, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke_2, symObjAddr: 0x1848, symBinAddr: 0xAA60, symSize: 0xE0 }
-  - { offset: 0x7F7A5, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke_3, symObjAddr: 0x1928, symBinAddr: 0xAB40, symSize: 0x10C }
-  - { offset: 0x7F8C2, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke_4, symObjAddr: 0x1A34, symBinAddr: 0xAC4C, symSize: 0x114 }
-  - { offset: 0x7F9DF, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke_5, symObjAddr: 0x1B48, symBinAddr: 0xAD60, symSize: 0x114 }
-  - { offset: 0x7FAFC, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke_6, symObjAddr: 0x1C5C, symBinAddr: 0xAE74, symSize: 0xE0 }
-  - { offset: 0x7FBEC, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke_7, symObjAddr: 0x1D3C, symBinAddr: 0xAF54, symSize: 0xF4 }
-  - { offset: 0x7FCEE, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke_8, symObjAddr: 0x1E30, symBinAddr: 0xB048, symSize: 0x10C }
-  - { offset: 0x7FDBC, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke_9, symObjAddr: 0x1F3C, symBinAddr: 0xB154, symSize: 0x44 }
-  - { offset: 0x7FE43, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke.115, symObjAddr: 0x1F90, symBinAddr: 0xB198, symSize: 0xE0 }
-  - { offset: 0x7FF33, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke_2.118, symObjAddr: 0x2070, symBinAddr: 0xB278, symSize: 0xE0 }
+  - { offset: 0xCA8EA, size: 0x8, addend: 0x0, symName: _video_player_avfoundationVersionString, symObjAddr: 0x0, symBinAddr: 0xED20, symSize: 0x0 }
+  - { offset: 0xCA91F, size: 0x8, addend: 0x0, symName: _video_player_avfoundationVersionNumber, symObjAddr: 0x38, symBinAddr: 0xED58, symSize: 0x0 }
+  - { offset: 0xCA95C, size: 0x8, addend: 0x0, symName: _FVPGetStandardizedTransformForTrack, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x198 }
+  - { offset: 0xCA96A, size: 0x8, addend: 0x0, symName: _FVPGetStandardizedTransformForTrack, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x198 }
+  - { offset: 0xCA9EF, size: 0x8, addend: 0x0, symName: '-[FVPDefaultAVFactory playerWithPlayerItem:]', symObjAddr: 0x0, symBinAddr: 0x4198, symSize: 0xC }
+  - { offset: 0xCAA0E, size: 0x8, addend: 0x0, symName: '-[FVPDefaultAVFactory playerWithPlayerItem:]', symObjAddr: 0x0, symBinAddr: 0x4198, symSize: 0xC }
+  - { offset: 0xCAA4F, size: 0x8, addend: 0x0, symName: '-[FVPDefaultAVFactory videoOutputWithPixelBufferAttributes:]', symObjAddr: 0xC, symBinAddr: 0x41A4, symSize: 0x4C }
+  - { offset: 0xCAAF8, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLinkTarget initWithCallback:]', symObjAddr: 0x0, symBinAddr: 0x41F0, symSize: 0x78 }
+  - { offset: 0xCABF0, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLinkTarget initWithCallback:]', symObjAddr: 0x0, symBinAddr: 0x41F0, symSize: 0x78 }
+  - { offset: 0xCAC37, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLinkTarget onDisplayLink:]', symObjAddr: 0x78, symBinAddr: 0x4268, symSize: 0x34 }
+  - { offset: 0xCAC82, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLinkTarget callback]', symObjAddr: 0xAC, symBinAddr: 0x429C, symSize: 0x8 }
+  - { offset: 0xCACB9, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLinkTarget setCallback:]', symObjAddr: 0xB4, symBinAddr: 0x42A4, symSize: 0x8 }
+  - { offset: 0xCACF8, size: 0x8, addend: 0x0, symName: '-[FVPDisplayLinkTarget .cxx_destruct]', symObjAddr: 0xBC, symBinAddr: 0x42AC, symSize: 0xC }
+  - { offset: 0xCAD2B, size: 0x8, addend: 0x0, symName: '-[FVPCADisplayLink initWithRegistrar:callback:]', symObjAddr: 0xC8, symBinAddr: 0x42B8, symSize: 0x104 }
+  - { offset: 0xCAD7E, size: 0x8, addend: 0x0, symName: '-[FVPCADisplayLink dealloc]', symObjAddr: 0x1CC, symBinAddr: 0x43BC, symSize: 0x48 }
+  - { offset: 0xCADB1, size: 0x8, addend: 0x0, symName: '-[FVPCADisplayLink running]', symObjAddr: 0x214, symBinAddr: 0x4404, symSize: 0x3C }
+  - { offset: 0xCADE8, size: 0x8, addend: 0x0, symName: '-[FVPCADisplayLink setRunning:]', symObjAddr: 0x250, symBinAddr: 0x4440, symSize: 0x38 }
+  - { offset: 0xCAE2B, size: 0x8, addend: 0x0, symName: '-[FVPCADisplayLink duration]', symObjAddr: 0x288, symBinAddr: 0x4478, symSize: 0x44 }
+  - { offset: 0xCAE62, size: 0x8, addend: 0x0, symName: '-[FVPCADisplayLink displayLink]', symObjAddr: 0x2CC, symBinAddr: 0x44BC, symSize: 0x8 }
+  - { offset: 0xCAE99, size: 0x8, addend: 0x0, symName: '-[FVPCADisplayLink setDisplayLink:]', symObjAddr: 0x2D4, symBinAddr: 0x44C4, symSize: 0xC }
+  - { offset: 0xCAEDA, size: 0x8, addend: 0x0, symName: '-[FVPCADisplayLink target]', symObjAddr: 0x2E0, symBinAddr: 0x44D0, symSize: 0x8 }
+  - { offset: 0xCAF11, size: 0x8, addend: 0x0, symName: '-[FVPCADisplayLink setTarget:]', symObjAddr: 0x2E8, symBinAddr: 0x44D8, symSize: 0xC }
+  - { offset: 0xCAF52, size: 0x8, addend: 0x0, symName: '-[FVPCADisplayLink .cxx_destruct]', symObjAddr: 0x2F4, symBinAddr: 0x44E4, symSize: 0x30 }
+  - { offset: 0xCB021, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge initWithMessenger:channelName:]', symObjAddr: 0x0, symBinAddr: 0x4514, symSize: 0xD4 }
+  - { offset: 0xCB0D0, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge initWithMessenger:channelName:]', symObjAddr: 0x0, symBinAddr: 0x4514, symSize: 0xD4 }
+  - { offset: 0xCB127, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge onListenWithArguments:eventSink:]', symObjAddr: 0xD4, symBinAddr: 0x45E8, symSize: 0x150 }
+  - { offset: 0xCB1A5, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge onCancelWithArguments:]', symObjAddr: 0x224, symBinAddr: 0x4738, symSize: 0x34 }
+  - { offset: 0xCB1E8, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge videoPlayerDidInitializeWithDuration:size:]', symObjAddr: 0x258, symBinAddr: 0x476C, symSize: 0x14C }
+  - { offset: 0xCB23B, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge videoPlayerDidErrorWithMessage:]', symObjAddr: 0x3A4, symBinAddr: 0x48B8, symSize: 0x54 }
+  - { offset: 0xCB27E, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge videoPlayerDidComplete]', symObjAddr: 0x3F8, symBinAddr: 0x490C, symSize: 0x9C }
+  - { offset: 0xCB2B1, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge videoPlayerDidStartBuffering]', symObjAddr: 0x494, symBinAddr: 0x49A8, symSize: 0x9C }
+  - { offset: 0xCB2E4, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge videoPlayerDidEndBuffering]', symObjAddr: 0x530, symBinAddr: 0x4A44, symSize: 0x9C }
+  - { offset: 0xCB317, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge videoPlayerDidUpdateBufferRegions:]', symObjAddr: 0x5CC, symBinAddr: 0x4AE0, symSize: 0xC8 }
+  - { offset: 0xCB35A, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge videoPlayerDidSetPlaying:]', symObjAddr: 0x694, symBinAddr: 0x4BA8, symSize: 0xD4 }
+  - { offset: 0xCB39D, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge videoPlayerWasDisposed]', symObjAddr: 0x768, symBinAddr: 0x4C7C, symSize: 0x34 }
+  - { offset: 0xCB3D0, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge sendOrQueue:]', symObjAddr: 0x79C, symBinAddr: 0x4CB0, symSize: 0x94 }
+  - { offset: 0xCB427, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge eventChannel]', symObjAddr: 0x830, symBinAddr: 0x4D44, symSize: 0x8 }
+  - { offset: 0xCB45E, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge setEventChannel:]', symObjAddr: 0x838, symBinAddr: 0x4D4C, symSize: 0xC }
+  - { offset: 0xCB49F, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge eventSink]', symObjAddr: 0x844, symBinAddr: 0x4D58, symSize: 0x8 }
+  - { offset: 0xCB4D6, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge setEventSink:]', symObjAddr: 0x84C, symBinAddr: 0x4D60, symSize: 0x8 }
+  - { offset: 0xCB515, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge queuedEvents]', symObjAddr: 0x854, symBinAddr: 0x4D68, symSize: 0x8 }
+  - { offset: 0xCB54C, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge setQueuedEvents:]', symObjAddr: 0x85C, symBinAddr: 0x4D70, symSize: 0xC }
+  - { offset: 0xCB58D, size: 0x8, addend: 0x0, symName: '-[FVPEventBridge .cxx_destruct]', symObjAddr: 0x868, symBinAddr: 0x4D7C, symSize: 0x3C }
+  - { offset: 0xCB640, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater initWithRegistry:]', symObjAddr: 0x0, symBinAddr: 0x4DB8, symSize: 0x40 }
+  - { offset: 0xCB6DC, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater initWithRegistry:]', symObjAddr: 0x0, symBinAddr: 0x4DB8, symSize: 0x40 }
+  - { offset: 0xCB723, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater displayLinkFired]', symObjAddr: 0x40, symBinAddr: 0x4DF8, symSize: 0x44 }
+  - { offset: 0xCB756, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater textureIdentifier]', symObjAddr: 0x84, symBinAddr: 0x4E3C, symSize: 0x8 }
+  - { offset: 0xCB78D, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater setTextureIdentifier:]', symObjAddr: 0x8C, symBinAddr: 0x4E44, symSize: 0x8 }
+  - { offset: 0xCB7CA, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater registry]', symObjAddr: 0x94, symBinAddr: 0x4E4C, symSize: 0x18 }
+  - { offset: 0xCB801, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater displayLink]', symObjAddr: 0xAC, symBinAddr: 0x4E64, symSize: 0x8 }
+  - { offset: 0xCB838, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater setDisplayLink:]', symObjAddr: 0xB4, symBinAddr: 0x4E6C, symSize: 0xC }
+  - { offset: 0xCB879, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater frameDuration]', symObjAddr: 0xC0, symBinAddr: 0x4E78, symSize: 0x8 }
+  - { offset: 0xCB8AE, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater setFrameDuration:]', symObjAddr: 0xC8, symBinAddr: 0x4E80, symSize: 0x8 }
+  - { offset: 0xCB8EC, size: 0x8, addend: 0x0, symName: '-[FVPFrameUpdater .cxx_destruct]', symObjAddr: 0xD0, symBinAddr: 0x4E88, symSize: 0x2C }
+  - { offset: 0xCB978, size: 0x8, addend: 0x0, symName: '+[FVPPlayerView layerClass]', symObjAddr: 0x0, symBinAddr: 0x4EB4, symSize: 0xC }
+  - { offset: 0xCB9C7, size: 0x8, addend: 0x0, symName: '+[FVPPlayerView layerClass]', symObjAddr: 0x0, symBinAddr: 0x4EB4, symSize: 0xC }
+  - { offset: 0xCB9FA, size: 0x8, addend: 0x0, symName: '-[FVPPlayerView setPlayer:]', symObjAddr: 0xC, symBinAddr: 0x4EC0, symSize: 0x50 }
+  - { offset: 0xCBA3D, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoView initWithPlayer:]', symObjAddr: 0x5C, symBinAddr: 0x4F10, symSize: 0x88 }
+  - { offset: 0xCBA84, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoView view]', symObjAddr: 0xE4, symBinAddr: 0x4F98, symSize: 0x4 }
+  - { offset: 0xCBAB9, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoView playerView]', symObjAddr: 0xE8, symBinAddr: 0x4F9C, symSize: 0x8 }
+  - { offset: 0xCBAF0, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoView setPlayerView:]', symObjAddr: 0xF0, symBinAddr: 0x4FA4, symSize: 0xC }
+  - { offset: 0xCBB31, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoView .cxx_destruct]', symObjAddr: 0xFC, symBinAddr: 0x4FB0, symSize: 0xC }
+  - { offset: 0xCBBDF, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory initWithMessenger:playerByIdentifierProvider:]', symObjAddr: 0x0, symBinAddr: 0x4FBC, symSize: 0xA8 }
+  - { offset: 0xCBD8D, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory initWithMessenger:playerByIdentifierProvider:]', symObjAddr: 0x0, symBinAddr: 0x4FBC, symSize: 0xA8 }
+  - { offset: 0xCBDE4, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory createWithFrame:viewIdentifier:arguments:]', symObjAddr: 0xA8, symBinAddr: 0x5064, symSize: 0xD0 }
+  - { offset: 0xCBE77, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory createArgsCodec]', symObjAddr: 0x178, symBinAddr: 0x5134, symSize: 0x4 }
+  - { offset: 0xCBEAD, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory createArgsCodec]', symObjAddr: 0x178, symBinAddr: 0x5134, symSize: 0x4 }
+  - { offset: 0xCBEC4, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory messenger]', symObjAddr: 0x17C, symBinAddr: 0x5138, symSize: 0x8 }
+  - { offset: 0xCBEFB, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory setMessenger:]', symObjAddr: 0x184, symBinAddr: 0x5140, symSize: 0xC }
+  - { offset: 0xCBF3C, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory playerByIdProvider]', symObjAddr: 0x190, symBinAddr: 0x514C, symSize: 0x8 }
+  - { offset: 0xCBF73, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory setPlayerByIdProvider:]', symObjAddr: 0x198, symBinAddr: 0x5154, symSize: 0x8 }
+  - { offset: 0xCBFB2, size: 0x8, addend: 0x0, symName: '-[FVPNativeVideoViewFactory .cxx_destruct]', symObjAddr: 0x1A0, symBinAddr: 0x515C, symSize: 0x30 }
+  - { offset: 0xCC06E, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer initWithPlayerItem:frameUpdater:displayLink:avFactory:viewProvider:]', symObjAddr: 0x0, symBinAddr: 0x518C, symSize: 0x1C8 }
+  - { offset: 0xCC07C, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer copyPixelBuffer]', symObjAddr: 0x588, symBinAddr: 0x5714, symSize: 0x318 }
+  - { offset: 0xCC4AF, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer initWithPlayerItem:frameUpdater:displayLink:avFactory:viewProvider:]', symObjAddr: 0x0, symBinAddr: 0x518C, symSize: 0x1C8 }
+  - { offset: 0xCC555, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer dealloc]', symObjAddr: 0x1C8, symBinAddr: 0x5354, symSize: 0x50 }
+  - { offset: 0xCC5A4, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setTextureIdentifier:]', symObjAddr: 0x218, symBinAddr: 0x53A4, symSize: 0x4C }
+  - { offset: 0xCC5E7, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer expectFrame]', symObjAddr: 0x264, symBinAddr: 0x53F0, symSize: 0x34 }
+  - { offset: 0xCC61A, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer updatePlayingState]', symObjAddr: 0x298, symBinAddr: 0x5424, symSize: 0x70 }
+  - { offset: 0xCC64D, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer seekTo:completion:]', symObjAddr: 0x308, symBinAddr: 0x5494, symSize: 0xF8 }
+  - { offset: 0xCC6AF, size: 0x8, addend: 0x0, symName: '___48-[FVPTextureBasedVideoPlayer seekTo:completion:]_block_invoke', symObjAddr: 0x400, symBinAddr: 0x558C, symSize: 0xB8 }
+  - { offset: 0xCC767, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x4B8, symBinAddr: 0x5644, symSize: 0x34 }
+  - { offset: 0xCC790, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x4EC, symBinAddr: 0x5678, symSize: 0x28 }
+  - { offset: 0xCC7AF, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer disposeWithError:]', symObjAddr: 0x514, symBinAddr: 0x56A0, symSize: 0x74 }
+  - { offset: 0xCC838, size: 0x8, addend: 0x0, symName: '___45-[FVPTextureBasedVideoPlayer copyPixelBuffer]_block_invoke', symObjAddr: 0x8A0, symBinAddr: 0x5A2C, symSize: 0x80 }
+  - { offset: 0xCC877, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x920, symBinAddr: 0x5AAC, symSize: 0x8 }
+  - { offset: 0xCC89E, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x928, symBinAddr: 0x5AB4, symSize: 0x8 }
+  - { offset: 0xCC8BD, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer onTextureUnregistered:]', symObjAddr: 0x930, symBinAddr: 0x5ABC, symSize: 0x58 }
+  - { offset: 0xCC912, size: 0x8, addend: 0x0, symName: '___52-[FVPTextureBasedVideoPlayer onTextureUnregistered:]_block_invoke', symObjAddr: 0x988, symBinAddr: 0x5B14, symSize: 0x40 }
+  - { offset: 0xCC970, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer frameUpdater]', symObjAddr: 0x9C8, symBinAddr: 0x5B54, symSize: 0x10 }
+  - { offset: 0xCC9A7, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setFrameUpdater:]', symObjAddr: 0x9D8, symBinAddr: 0x5B64, symSize: 0x14 }
+  - { offset: 0xCC9E8, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer displayLink]', symObjAddr: 0x9EC, symBinAddr: 0x5B78, symSize: 0x10 }
+  - { offset: 0xCCA1F, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setDisplayLink:]', symObjAddr: 0x9FC, symBinAddr: 0x5B88, symSize: 0x14 }
+  - { offset: 0xCCA60, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer latestPixelBuffer]', symObjAddr: 0xA10, symBinAddr: 0x5B9C, symSize: 0x10 }
+  - { offset: 0xCCA97, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setLatestPixelBuffer:]', symObjAddr: 0xA20, symBinAddr: 0x5BAC, symSize: 0x10 }
+  - { offset: 0xCCAD4, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer targetTime]', symObjAddr: 0xA30, symBinAddr: 0x5BBC, symSize: 0x10 }
+  - { offset: 0xCCB09, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setTargetTime:]', symObjAddr: 0xA40, symBinAddr: 0x5BCC, symSize: 0x10 }
+  - { offset: 0xCCB47, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer selfRefresh]', symObjAddr: 0xA50, symBinAddr: 0x5BDC, symSize: 0x10 }
+  - { offset: 0xCCB7E, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setSelfRefresh:]', symObjAddr: 0xA60, symBinAddr: 0x5BEC, symSize: 0x10 }
+  - { offset: 0xCCBB9, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer startTime]', symObjAddr: 0xA70, symBinAddr: 0x5BFC, symSize: 0x10 }
+  - { offset: 0xCCBEE, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setStartTime:]', symObjAddr: 0xA80, symBinAddr: 0x5C0C, symSize: 0x10 }
+  - { offset: 0xCCC2C, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer framesCount]', symObjAddr: 0xA90, symBinAddr: 0x5C1C, symSize: 0x10 }
+  - { offset: 0xCCC63, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setFramesCount:]', symObjAddr: 0xAA0, symBinAddr: 0x5C2C, symSize: 0x10 }
+  - { offset: 0xCCCA0, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer latestDuration]', symObjAddr: 0xAB0, symBinAddr: 0x5C3C, symSize: 0x10 }
+  - { offset: 0xCCCD5, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setLatestDuration:]', symObjAddr: 0xAC0, symBinAddr: 0x5C4C, symSize: 0x10 }
+  - { offset: 0xCCD13, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer waitingForFrame]', symObjAddr: 0xAD0, symBinAddr: 0x5C5C, symSize: 0x10 }
+  - { offset: 0xCCD4A, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer setWaitingForFrame:]', symObjAddr: 0xAE0, symBinAddr: 0x5C6C, symSize: 0x10 }
+  - { offset: 0xCCD85, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer playerLayer]', symObjAddr: 0xAF0, symBinAddr: 0x5C7C, symSize: 0x10 }
+  - { offset: 0xCCDBC, size: 0x8, addend: 0x0, symName: '-[FVPTextureBasedVideoPlayer .cxx_destruct]', symObjAddr: 0xB00, symBinAddr: 0x5C8C, symSize: 0x54 }
+  - { offset: 0xCD079, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer initWithPlayerItem:avFactory:viewProvider:]', symObjAddr: 0x0, symBinAddr: 0x5CE0, symSize: 0x2C0 }
+  - { offset: 0xCD093, size: 0x8, addend: 0x0, symName: _TIME_UNSET, symObjAddr: 0x2FD8, symBinAddr: 0xED88, symSize: 0x0 }
+  - { offset: 0xCD0B5, size: 0x8, addend: 0x0, symName: _timeRangeContext, symObjAddr: 0x2FE0, symBinAddr: 0x1CF60, symSize: 0x0 }
+  - { offset: 0xCD0CC, size: 0x8, addend: 0x0, symName: _statusContext, symObjAddr: 0x2FE8, symBinAddr: 0x1CF68, symSize: 0x0 }
+  - { offset: 0xCD0E2, size: 0x8, addend: 0x0, symName: _playbackLikelyToKeepUpContext, symObjAddr: 0x2FF0, symBinAddr: 0x1CF70, symSize: 0x0 }
+  - { offset: 0xCD0F8, size: 0x8, addend: 0x0, symName: _rateContext, symObjAddr: 0x2FF8, symBinAddr: 0x1CF78, symSize: 0x0 }
+  - { offset: 0xCD32E, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer initWithPlayerItem:avFactory:viewProvider:]', symObjAddr: 0x0, symBinAddr: 0x5CE0, symSize: 0x2C0 }
+  - { offset: 0xCD3C5, size: 0x8, addend: 0x0, symName: '___60-[FVPVideoPlayer initWithPlayerItem:avFactory:viewProvider:]_block_invoke', symObjAddr: 0x2C0, symBinAddr: 0x5FA0, symSize: 0x164 }
+  - { offset: 0xCD47D, size: 0x8, addend: 0x0, symName: '___60-[FVPVideoPlayer initWithPlayerItem:avFactory:viewProvider:]_block_invoke_2', symObjAddr: 0x424, symBinAddr: 0x6104, symSize: 0x168 }
+  - { offset: 0xCD51B, size: 0x8, addend: 0x0, symName: '___60-[FVPVideoPlayer initWithPlayerItem:avFactory:viewProvider:]_block_invoke_3', symObjAddr: 0x58C, symBinAddr: 0x626C, symSize: 0xD4 }
+  - { offset: 0xCD5FE, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s, symObjAddr: 0x660, symBinAddr: 0x6340, symSize: 0x38 }
+  - { offset: 0xCD627, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x698, symBinAddr: 0x6378, symSize: 0x38 }
+  - { offset: 0xCD646, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x6D0, symBinAddr: 0x63B0, symSize: 0x30 }
+  - { offset: 0xCD66F, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x700, symBinAddr: 0x63E0, symSize: 0x30 }
+  - { offset: 0xCD68E, size: 0x8, addend: 0x0, symName: '___60-[FVPVideoPlayer initWithPlayerItem:avFactory:viewProvider:]_block_invoke.5', symObjAddr: 0x730, symBinAddr: 0x6410, symSize: 0x84 }
+  - { offset: 0xCD720, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x7B4, symBinAddr: 0x6494, symSize: 0x10 }
+  - { offset: 0xCD749, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer dealloc]', symObjAddr: 0x7CC, symBinAddr: 0x64A4, symSize: 0xC8 }
+  - { offset: 0xCD7D9, size: 0x8, addend: 0x0, symName: _FVPGetPlayerItemObservations, symObjAddr: 0x9C0, symBinAddr: 0x6698, symSize: 0x11C }
+  - { offset: 0xCD7F3, size: 0x8, addend: 0x0, symName: _FVPRemoveKeyValueObservers, symObjAddr: 0x894, symBinAddr: 0x656C, symSize: 0x12C }
+  - { offset: 0xCD859, size: 0x8, addend: 0x0, symName: _FVPGetPlayerObservations, symObjAddr: 0xADC, symBinAddr: 0x67B4, symSize: 0xAC }
+  - { offset: 0xCD873, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer disposeWithError:]', symObjAddr: 0xB88, symBinAddr: 0x6860, symSize: 0x15C }
+  - { offset: 0xCD922, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer setEventListener:]', symObjAddr: 0xCE4, symBinAddr: 0x69BC, symSize: 0x128 }
+  - { offset: 0xCD9E1, size: 0x8, addend: 0x0, symName: _FVPRegisterKeyValueObservers, symObjAddr: 0xE0C, symBinAddr: 0x6AE4, symSize: 0x164 }
+  - { offset: 0xCDA45, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer itemDidPlayToEndTime:]', symObjAddr: 0xF70, symBinAddr: 0x6C48, symSize: 0x94 }
+  - { offset: 0xCDB14, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer getVideoCompositionWithTransform:withAsset:withVideoTrack:]', symObjAddr: 0x1004, symBinAddr: 0x6CDC, symSize: 0x314 }
+  - { offset: 0xCDD0E, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0x1318, symBinAddr: 0x6FF0, symSize: 0x380 }
+  - { offset: 0xCDE3F, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer reportStatusForPlayerItem:]', symObjAddr: 0x1698, symBinAddr: 0x7370, symSize: 0x70 }
+  - { offset: 0xCDE84, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer updatePlayingState]', symObjAddr: 0x1708, symBinAddr: 0x73E0, symSize: 0x38 }
+  - { offset: 0xCDEB8, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer updateRate]', symObjAddr: 0x1740, symBinAddr: 0x7418, symSize: 0x100 }
+  - { offset: 0xCDF0A, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer sendFailedToLoadVideoEvent]', symObjAddr: 0x1840, symBinAddr: 0x7518, symSize: 0x310 }
+  - { offset: 0xCE003, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x1B50, symBinAddr: 0x7828, symSize: 0x10 }
+  - { offset: 0xCE028, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x1B60, symBinAddr: 0x7838, symSize: 0x8 }
+  - { offset: 0xCE047, size: 0x8, addend: 0x0, symName: '___44-[FVPVideoPlayer sendFailedToLoadVideoEvent]_block_invoke', symObjAddr: 0x1B68, symBinAddr: 0x7840, symSize: 0x1C }
+  - { offset: 0xCE094, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r, symObjAddr: 0x1B84, symBinAddr: 0x785C, symSize: 0x10 }
+  - { offset: 0xCE0BD, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r, symObjAddr: 0x1B94, symBinAddr: 0x786C, symSize: 0xC }
+  - { offset: 0xCE0DC, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer reportInitialized]', symObjAddr: 0x1BA0, symBinAddr: 0x7878, symSize: 0x94 }
+  - { offset: 0xCE121, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer playWithError:]', symObjAddr: 0x1C34, symBinAddr: 0x790C, symSize: 0xC }
+  - { offset: 0xCE160, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer pauseWithError:]', symObjAddr: 0x1C40, symBinAddr: 0x7918, symSize: 0x8 }
+  - { offset: 0xCE19F, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer position:]', symObjAddr: 0x1C48, symBinAddr: 0x7920, symSize: 0x88 }
+  - { offset: 0xCE1FD, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer seekTo:completion:]', symObjAddr: 0x1CD0, symBinAddr: 0x79A8, symSize: 0x17C }
+  - { offset: 0xCE2D1, size: 0x8, addend: 0x0, symName: '___36-[FVPVideoPlayer seekTo:completion:]_block_invoke', symObjAddr: 0x1E4C, symBinAddr: 0x7B24, symSize: 0x70 }
+  - { offset: 0xCE345, size: 0x8, addend: 0x0, symName: '___36-[FVPVideoPlayer seekTo:completion:]_block_invoke_2', symObjAddr: 0x1EBC, symBinAddr: 0x7B94, symSize: 0x10 }
+  - { offset: 0xCE396, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer setLooping:error:]', symObjAddr: 0x1ECC, symBinAddr: 0x7BA4, symSize: 0x8 }
+  - { offset: 0xCE3E2, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer setVolume:error:]', symObjAddr: 0x1ED4, symBinAddr: 0x7BAC, symSize: 0x24 }
+  - { offset: 0xCE434, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer setPlaybackSpeed:error:]', symObjAddr: 0x1EF8, symBinAddr: 0x7BD0, symSize: 0x44 }
+  - { offset: 0xCE486, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer getAudioTracks:]', symObjAddr: 0x1F3C, symBinAddr: 0x7C14, symSize: 0x2F8 }
+  - { offset: 0xCE5E6, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer selectAudioTrackAtIndex:error:]', symObjAddr: 0x2234, symBinAddr: 0x7F0C, symSize: 0xFC }
+  - { offset: 0xCE68B, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer duration]', symObjAddr: 0x2330, symBinAddr: 0x8008, symSize: 0xB0 }
+  - { offset: 0xCE6DC, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer player]', symObjAddr: 0x23E0, symBinAddr: 0x80B8, symSize: 0x8 }
+  - { offset: 0xCE713, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer disposed]', symObjAddr: 0x23E8, symBinAddr: 0x80C0, symSize: 0x8 }
+  - { offset: 0xCE74A, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer isLooping]', symObjAddr: 0x23F0, symBinAddr: 0x80C8, symSize: 0x8 }
+  - { offset: 0xCE781, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer setIsLooping:]', symObjAddr: 0x23F8, symBinAddr: 0x80D0, symSize: 0x8 }
+  - { offset: 0xCE7BC, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer position]', symObjAddr: 0x2400, symBinAddr: 0x80D8, symSize: 0x8 }
+  - { offset: 0xCE7F3, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer eventListener]', symObjAddr: 0x2408, symBinAddr: 0x80E0, symSize: 0x8 }
+  - { offset: 0xCE82A, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer onDisposed]', symObjAddr: 0x2410, symBinAddr: 0x80E8, symSize: 0x8 }
+  - { offset: 0xCE861, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer setOnDisposed:]', symObjAddr: 0x2418, symBinAddr: 0x80F0, symSize: 0x8 }
+  - { offset: 0xCE8A0, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer videoOutput]', symObjAddr: 0x2420, symBinAddr: 0x80F8, symSize: 0x8 }
+  - { offset: 0xCE8D7, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer viewProvider]', symObjAddr: 0x2428, symBinAddr: 0x8100, symSize: 0x8 }
+  - { offset: 0xCE90E, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer preferredTransform]', symObjAddr: 0x2430, symBinAddr: 0x8108, symSize: 0x18 }
+  - { offset: 0xCE943, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer setPreferredTransform:]', symObjAddr: 0x2448, symBinAddr: 0x8120, symSize: 0x18 }
+  - { offset: 0xCE981, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer targetPlaybackSpeed]', symObjAddr: 0x2460, symBinAddr: 0x8138, symSize: 0x8 }
+  - { offset: 0xCE9B8, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer isPlaying]', symObjAddr: 0x2468, symBinAddr: 0x8140, symSize: 0x8 }
+  - { offset: 0xCE9EF, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer isInitialized]', symObjAddr: 0x2470, symBinAddr: 0x8148, symSize: 0x8 }
+  - { offset: 0xCEA26, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayer .cxx_destruct]', symObjAddr: 0x2478, symBinAddr: 0x8150, symSize: 0x60 }
+  - { offset: 0xCF02A, size: 0x8, addend: 0x0, symName: '-[FVPDefaultDisplayLinkFactory displayLinkWithRegistrar:callback:]', symObjAddr: 0x0, symBinAddr: 0x81B0, symSize: 0x70 }
+  - { offset: 0xCF132, size: 0x8, addend: 0x0, symName: '-[FVPDefaultDisplayLinkFactory displayLinkWithRegistrar:callback:]', symObjAddr: 0x0, symBinAddr: 0x81B0, symSize: 0x70 }
+  - { offset: 0xCF185, size: 0x8, addend: 0x0, symName: '+[FVPVideoPlayerPlugin registerWithRegistrar:]', symObjAddr: 0x70, symBinAddr: 0x8220, symSize: 0x134 }
+  - { offset: 0xCF214, size: 0x8, addend: 0x0, symName: '___46+[FVPVideoPlayerPlugin registerWithRegistrar:]_block_invoke', symObjAddr: 0x1A4, symBinAddr: 0x8354, symSize: 0x10 }
+  - { offset: 0xCF263, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin initWithRegistrar:]', symObjAddr: 0x1C4, symBinAddr: 0x8364, symSize: 0xB4 }
+  - { offset: 0xCF2AA, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin initWithAVFactory:displayLinkFactory:viewProvider:registrar:]', symObjAddr: 0x278, symBinAddr: 0x8418, symSize: 0x190 }
+  - { offset: 0xCF321, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin detachFromEngineForRegistrar:]', symObjAddr: 0x408, symBinAddr: 0x85A8, symSize: 0x1C8 }
+  - { offset: 0xCF3A0, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin configurePlayer:withExtraDisposeHandler:]', symObjAddr: 0x5D0, symBinAddr: 0x8770, symSize: 0x274 }
+  - { offset: 0xCF488, size: 0x8, addend: 0x0, symName: '___64-[FVPVideoPlayerPlugin configurePlayer:withExtraDisposeHandler:]_block_invoke', symObjAddr: 0x844, symBinAddr: 0x89E4, symSize: 0x9C }
+  - { offset: 0xCF524, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b56w, symObjAddr: 0x8E0, symBinAddr: 0x8A80, symSize: 0x48 }
+  - { offset: 0xCF54D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56w, symObjAddr: 0x928, symBinAddr: 0x8AC8, symSize: 0x38 }
+  - { offset: 0xCF56C, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin initialize:]', symObjAddr: 0x960, symBinAddr: 0x8B00, symSize: 0x1A4 }
+  - { offset: 0xCF5FD, size: 0x8, addend: 0x0, symName: _upgradeAudioSessionCategory, symObjAddr: 0xB04, symBinAddr: 0x8CA4, symSize: 0x248 }
+  - { offset: 0xCF690, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin createPlatformViewPlayerWithOptions:error:]', symObjAddr: 0xD4C, symBinAddr: 0x8EEC, symSize: 0x198 }
+  - { offset: 0xCF729, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin createTexturePlayerWithOptions:error:]', symObjAddr: 0xEE4, symBinAddr: 0x9084, symSize: 0x368 }
+  - { offset: 0xCF812, size: 0x8, addend: 0x0, symName: '___61-[FVPVideoPlayerPlugin createTexturePlayerWithOptions:error:]_block_invoke', symObjAddr: 0x124C, symBinAddr: 0x93EC, symSize: 0x8 }
+  - { offset: 0xCF84D, size: 0x8, addend: 0x0, symName: '___61-[FVPVideoPlayerPlugin createTexturePlayerWithOptions:error:]_block_invoke.25', symObjAddr: 0x1254, symBinAddr: 0x93F4, symSize: 0x6C }
+  - { offset: 0xCF898, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x12C0, symBinAddr: 0x9460, symSize: 0xC }
+  - { offset: 0xCF8C1, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x12CC, symBinAddr: 0x946C, symSize: 0x8 }
+  - { offset: 0xCF8E0, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin setMixWithOthers:error:]', symObjAddr: 0x12D4, symBinAddr: 0x9474, symSize: 0x74 }
+  - { offset: 0xCF939, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin fileURLForAssetWithName:package:error:]', symObjAddr: 0x1348, symBinAddr: 0x94E8, symSize: 0x12C }
+  - { offset: 0xCF9BC, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin playerItemWithCreationOptions:]', symObjAddr: 0x1474, symBinAddr: 0x9614, symSize: 0x168 }
+  - { offset: 0xCFA34, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin registrar]', symObjAddr: 0x15DC, symBinAddr: 0x977C, symSize: 0x8 }
+  - { offset: 0xCFA6B, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin displayLinkFactory]', symObjAddr: 0x15E4, symBinAddr: 0x9784, symSize: 0x8 }
+  - { offset: 0xCFAA2, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin setDisplayLinkFactory:]', symObjAddr: 0x15EC, symBinAddr: 0x978C, symSize: 0xC }
+  - { offset: 0xCFAE3, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin avFactory]', symObjAddr: 0x15F8, symBinAddr: 0x9798, symSize: 0x8 }
+  - { offset: 0xCFB1A, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin setAvFactory:]', symObjAddr: 0x1600, symBinAddr: 0x97A0, symSize: 0xC }
+  - { offset: 0xCFB5B, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin viewProvider]', symObjAddr: 0x160C, symBinAddr: 0x97AC, symSize: 0x8 }
+  - { offset: 0xCFB92, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin setViewProvider:]', symObjAddr: 0x1614, symBinAddr: 0x97B4, symSize: 0xC }
+  - { offset: 0xCFBD3, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin nextPlayerIdentifier]', symObjAddr: 0x1620, symBinAddr: 0x97C0, symSize: 0x8 }
+  - { offset: 0xCFC0A, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin setNextPlayerIdentifier:]', symObjAddr: 0x1628, symBinAddr: 0x97C8, symSize: 0x8 }
+  - { offset: 0xCFC47, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin playersByIdentifier]', symObjAddr: 0x1630, symBinAddr: 0x97D0, symSize: 0x8 }
+  - { offset: 0xCFC7E, size: 0x8, addend: 0x0, symName: '-[FVPVideoPlayerPlugin .cxx_destruct]', symObjAddr: 0x1638, symBinAddr: 0x97D8, symSize: 0x54 }
+  - { offset: 0xD0185, size: 0x8, addend: 0x0, symName: '-[FVPDefaultViewProvider initWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x982C, symSize: 0x78 }
+  - { offset: 0xD01C3, size: 0x8, addend: 0x0, symName: '-[FVPDefaultViewProvider initWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x982C, symSize: 0x78 }
+  - { offset: 0xD020A, size: 0x8, addend: 0x0, symName: '-[FVPDefaultViewProvider viewController]', symObjAddr: 0x78, symBinAddr: 0x98A4, symSize: 0x44 }
+  - { offset: 0xD0241, size: 0x8, addend: 0x0, symName: '-[FVPDefaultViewProvider registrar]', symObjAddr: 0xBC, symBinAddr: 0x98E8, symSize: 0x8 }
+  - { offset: 0xD0278, size: 0x8, addend: 0x0, symName: '-[FVPDefaultViewProvider setRegistrar:]', symObjAddr: 0xC4, symBinAddr: 0x98F0, symSize: 0xC }
+  - { offset: 0xD02B9, size: 0x8, addend: 0x0, symName: '-[FVPDefaultViewProvider .cxx_destruct]', symObjAddr: 0xD0, symBinAddr: 0x98FC, symSize: 0xC }
+  - { offset: 0xD0375, size: 0x8, addend: 0x0, symName: '+[FVPPlatformVideoViewCreationParams makeWithPlayerId:]', symObjAddr: 0x0, symBinAddr: 0x9908, symSize: 0x38 }
+  - { offset: 0xD0383, size: 0x8, addend: 0x0, symName: _FVPGetMessagesCodec, symObjAddr: 0xE08, symBinAddr: 0xA710, symSize: 0x30 }
+  - { offset: 0xD03A9, size: 0x8, addend: 0x0, symName: _FVPGetMessagesCodec.sSharedObject, symObjAddr: 0xE098, symBinAddr: 0x1D228, symSize: 0x0 }
+  - { offset: 0xD03BF, size: 0x8, addend: 0x0, symName: _FVPGetMessagesCodec.sPred, symObjAddr: 0xE0A0, symBinAddr: 0x1D230, symSize: 0x0 }
+  - { offset: 0xD0583, size: 0x8, addend: 0x0, symName: '+[FVPPlatformVideoViewCreationParams makeWithPlayerId:]', symObjAddr: 0x0, symBinAddr: 0x9908, symSize: 0x38 }
+  - { offset: 0xD05D6, size: 0x8, addend: 0x0, symName: '+[FVPPlatformVideoViewCreationParams fromList:]', symObjAddr: 0x38, symBinAddr: 0x9940, symSize: 0x80 }
+  - { offset: 0xD0645, size: 0x8, addend: 0x0, symName: _GetNullableObjectAtIndex, symObjAddr: 0xB8, symBinAddr: 0x99C0, symSize: 0x70 }
+  - { offset: 0xD0690, size: 0x8, addend: 0x0, symName: '+[FVPPlatformVideoViewCreationParams nullableFromList:]', symObjAddr: 0x128, symBinAddr: 0x9A30, symSize: 0x30 }
+  - { offset: 0xD06D3, size: 0x8, addend: 0x0, symName: '-[FVPPlatformVideoViewCreationParams toList]', symObjAddr: 0x158, symBinAddr: 0x9A60, symSize: 0xA0 }
+  - { offset: 0xD070A, size: 0x8, addend: 0x0, symName: '-[FVPPlatformVideoViewCreationParams playerId]', symObjAddr: 0x1F8, symBinAddr: 0x9B00, symSize: 0x8 }
+  - { offset: 0xD0741, size: 0x8, addend: 0x0, symName: '-[FVPPlatformVideoViewCreationParams setPlayerId:]', symObjAddr: 0x200, symBinAddr: 0x9B08, symSize: 0x8 }
+  - { offset: 0xD077E, size: 0x8, addend: 0x0, symName: '+[FVPCreationOptions makeWithUri:httpHeaders:]', symObjAddr: 0x208, symBinAddr: 0x9B10, symSize: 0x78 }
+  - { offset: 0xD07E1, size: 0x8, addend: 0x0, symName: '+[FVPCreationOptions fromList:]', symObjAddr: 0x280, symBinAddr: 0x9B88, symSize: 0xA4 }
+  - { offset: 0xD086C, size: 0x8, addend: 0x0, symName: '+[FVPCreationOptions nullableFromList:]', symObjAddr: 0x324, symBinAddr: 0x9C2C, symSize: 0x30 }
+  - { offset: 0xD08AF, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions toList]', symObjAddr: 0x354, symBinAddr: 0x9C5C, symSize: 0x118 }
+  - { offset: 0xD08E6, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions uri]', symObjAddr: 0x46C, symBinAddr: 0x9D74, symSize: 0x8 }
+  - { offset: 0xD091D, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions setUri:]', symObjAddr: 0x474, symBinAddr: 0x9D7C, symSize: 0x8 }
+  - { offset: 0xD095C, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions httpHeaders]', symObjAddr: 0x47C, symBinAddr: 0x9D84, symSize: 0x8 }
+  - { offset: 0xD0993, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions setHttpHeaders:]', symObjAddr: 0x484, symBinAddr: 0x9D8C, symSize: 0x8 }
+  - { offset: 0xD09D2, size: 0x8, addend: 0x0, symName: '-[FVPCreationOptions .cxx_destruct]', symObjAddr: 0x48C, symBinAddr: 0x9D94, symSize: 0x30 }
+  - { offset: 0xD0A05, size: 0x8, addend: 0x0, symName: '+[FVPTexturePlayerIds makeWithPlayerId:textureId:]', symObjAddr: 0x4BC, symBinAddr: 0x9DC4, symSize: 0x50 }
+  - { offset: 0xD0A68, size: 0x8, addend: 0x0, symName: '+[FVPTexturePlayerIds fromList:]', symObjAddr: 0x50C, symBinAddr: 0x9E14, symSize: 0xB0 }
+  - { offset: 0xD0AF3, size: 0x8, addend: 0x0, symName: '+[FVPTexturePlayerIds nullableFromList:]', symObjAddr: 0x5BC, symBinAddr: 0x9EC4, symSize: 0x30 }
+  - { offset: 0xD0B36, size: 0x8, addend: 0x0, symName: '-[FVPTexturePlayerIds toList]', symObjAddr: 0x5EC, symBinAddr: 0x9EF4, symSize: 0xDC }
+  - { offset: 0xD0B6D, size: 0x8, addend: 0x0, symName: '-[FVPTexturePlayerIds playerId]', symObjAddr: 0x6C8, symBinAddr: 0x9FD0, symSize: 0x8 }
+  - { offset: 0xD0BA4, size: 0x8, addend: 0x0, symName: '-[FVPTexturePlayerIds setPlayerId:]', symObjAddr: 0x6D0, symBinAddr: 0x9FD8, symSize: 0x8 }
+  - { offset: 0xD0BE1, size: 0x8, addend: 0x0, symName: '-[FVPTexturePlayerIds textureId]', symObjAddr: 0x6D8, symBinAddr: 0x9FE0, symSize: 0x8 }
+  - { offset: 0xD0C18, size: 0x8, addend: 0x0, symName: '-[FVPTexturePlayerIds setTextureId:]', symObjAddr: 0x6E0, symBinAddr: 0x9FE8, symSize: 0x8 }
+  - { offset: 0xD0C55, size: 0x8, addend: 0x0, symName: '+[FVPMediaSelectionAudioTrackData makeWithIndex:displayName:languageCode:isSelected:commonMetadataTitle:]', symObjAddr: 0x6E8, symBinAddr: 0x9FF0, symSize: 0xC4 }
+  - { offset: 0xD0CE8, size: 0x8, addend: 0x0, symName: '+[FVPMediaSelectionAudioTrackData fromList:]', symObjAddr: 0x7AC, symBinAddr: 0xA0B4, symSize: 0x130 }
+  - { offset: 0xD0DC7, size: 0x8, addend: 0x0, symName: '+[FVPMediaSelectionAudioTrackData nullableFromList:]', symObjAddr: 0x8DC, symBinAddr: 0xA1E4, symSize: 0x30 }
+  - { offset: 0xD0E0A, size: 0x8, addend: 0x0, symName: '-[FVPMediaSelectionAudioTrackData toList]', symObjAddr: 0x90C, symBinAddr: 0xA214, symSize: 0x1D8 }
+  - { offset: 0xD0E41, size: 0x8, addend: 0x0, symName: '-[FVPMediaSelectionAudioTrackData index]', symObjAddr: 0xAE4, symBinAddr: 0xA3EC, symSize: 0x8 }
+  - { offset: 0xD0E78, size: 0x8, addend: 0x0, symName: '-[FVPMediaSelectionAudioTrackData setIndex:]', symObjAddr: 0xAEC, symBinAddr: 0xA3F4, symSize: 0x8 }
+  - { offset: 0xD0EB5, size: 0x8, addend: 0x0, symName: '-[FVPMediaSelectionAudioTrackData displayName]', symObjAddr: 0xAF4, symBinAddr: 0xA3FC, symSize: 0x8 }
+  - { offset: 0xD0EEC, size: 0x8, addend: 0x0, symName: '-[FVPMediaSelectionAudioTrackData setDisplayName:]', symObjAddr: 0xAFC, symBinAddr: 0xA404, symSize: 0x8 }
+  - { offset: 0xD0F2B, size: 0x8, addend: 0x0, symName: '-[FVPMediaSelectionAudioTrackData languageCode]', symObjAddr: 0xB04, symBinAddr: 0xA40C, symSize: 0x8 }
+  - { offset: 0xD0F62, size: 0x8, addend: 0x0, symName: '-[FVPMediaSelectionAudioTrackData setLanguageCode:]', symObjAddr: 0xB0C, symBinAddr: 0xA414, symSize: 0x8 }
+  - { offset: 0xD0FA1, size: 0x8, addend: 0x0, symName: '-[FVPMediaSelectionAudioTrackData isSelected]', symObjAddr: 0xB14, symBinAddr: 0xA41C, symSize: 0x8 }
+  - { offset: 0xD0FD8, size: 0x8, addend: 0x0, symName: '-[FVPMediaSelectionAudioTrackData setIsSelected:]', symObjAddr: 0xB1C, symBinAddr: 0xA424, symSize: 0x8 }
+  - { offset: 0xD1013, size: 0x8, addend: 0x0, symName: '-[FVPMediaSelectionAudioTrackData commonMetadataTitle]', symObjAddr: 0xB24, symBinAddr: 0xA42C, symSize: 0x8 }
+  - { offset: 0xD104A, size: 0x8, addend: 0x0, symName: '-[FVPMediaSelectionAudioTrackData setCommonMetadataTitle:]', symObjAddr: 0xB2C, symBinAddr: 0xA434, symSize: 0x8 }
+  - { offset: 0xD1089, size: 0x8, addend: 0x0, symName: '-[FVPMediaSelectionAudioTrackData .cxx_destruct]', symObjAddr: 0xB34, symBinAddr: 0xA43C, symSize: 0x3C }
+  - { offset: 0xD10BC, size: 0x8, addend: 0x0, symName: '-[FVPMessagesPigeonCodecReader readValueOfType:]', symObjAddr: 0xB70, symBinAddr: 0xA478, symSize: 0xD4 }
+  - { offset: 0xD1103, size: 0x8, addend: 0x0, symName: '-[FVPMessagesPigeonCodecWriter writeValue:]', symObjAddr: 0xC44, symBinAddr: 0xA54C, symSize: 0x12C }
+  - { offset: 0xD1146, size: 0x8, addend: 0x0, symName: '-[FVPMessagesPigeonCodecReaderWriter writerWithData:]', symObjAddr: 0xD70, symBinAddr: 0xA678, symSize: 0x4C }
+  - { offset: 0xD1189, size: 0x8, addend: 0x0, symName: '-[FVPMessagesPigeonCodecReaderWriter readerWithData:]', symObjAddr: 0xDBC, symBinAddr: 0xA6C4, symSize: 0x4C }
+  - { offset: 0xD1207, size: 0x8, addend: 0x0, symName: _FVPGetMessagesCodec.cold.1, symObjAddr: 0x2A00, symBinAddr: 0xC7A8, symSize: 0x14 }
+  - { offset: 0xD1223, size: 0x8, addend: 0x0, symName: _FVPGetMessagesCodec.cold.1, symObjAddr: 0x2A00, symBinAddr: 0xC7A8, symSize: 0x14 }
+  - { offset: 0xD1235, size: 0x8, addend: 0x0, symName: ___FVPGetMessagesCodec_block_invoke, symObjAddr: 0xE38, symBinAddr: 0xA740, symSize: 0x58 }
+  - { offset: 0xD127B, size: 0x8, addend: 0x0, symName: _SetUpFVPAVFoundationVideoPlayerApi, symObjAddr: 0xE90, symBinAddr: 0xA798, symSize: 0xC }
+  - { offset: 0xD12CD, size: 0x8, addend: 0x0, symName: _SetUpFVPAVFoundationVideoPlayerApiWithSuffix, symObjAddr: 0xE9C, symBinAddr: 0xA7A4, symSize: 0x4C0 }
+  - { offset: 0xD13F9, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke, symObjAddr: 0x135C, symBinAddr: 0xAC64, symSize: 0x94 }
+  - { offset: 0xD14A6, size: 0x8, addend: 0x0, symName: _wrapResult, symObjAddr: 0x13F0, symBinAddr: 0xACF8, symSize: 0x1EC }
+  - { offset: 0xD14E1, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke.104, symObjAddr: 0x15EC, symBinAddr: 0xAEE4, symSize: 0xEC }
+  - { offset: 0xD15E3, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke_2, symObjAddr: 0x16D8, symBinAddr: 0xAFD0, symSize: 0xEC }
+  - { offset: 0xD16E5, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke_3, symObjAddr: 0x17C4, symBinAddr: 0xB0BC, symSize: 0xE0 }
+  - { offset: 0xD17D5, size: 0x8, addend: 0x0, symName: ___SetUpFVPAVFoundationVideoPlayerApiWithSuffix_block_invoke_4, symObjAddr: 0x18A4, symBinAddr: 0xB19C, symSize: 0x118 }
+  - { offset: 0xD1904, size: 0x8, addend: 0x0, symName: _SetUpFVPVideoPlayerInstanceApi, symObjAddr: 0x19BC, symBinAddr: 0xB2B4, symSize: 0xC }
+  - { offset: 0xD1959, size: 0x8, addend: 0x0, symName: _SetUpFVPVideoPlayerInstanceApiWithSuffix, symObjAddr: 0x19C8, symBinAddr: 0xB2C0, symSize: 0x894 }
+  - { offset: 0xD1B70, size: 0x8, addend: 0x0, symName: ___SetUpFVPVideoPlayerInstanceApiWithSuffix_block_invoke, symObjAddr: 0x225C, symBinAddr: 0xBB54, symSize: 0xE0 }
+  - { offset: 0xD1C61, size: 0x8, addend: 0x0, symName: ___SetUpFVPVideoPlayerInstanceApiWithSuffix_block_invoke_2, symObjAddr: 0x233C, symBinAddr: 0xBC34, symSize: 0xE0 }
+  - { offset: 0xD1D52, size: 0x8, addend: 0x0, symName: ___SetUpFVPVideoPlayerInstanceApiWithSuffix_block_invoke_3, symObjAddr: 0x241C, symBinAddr: 0xBD14, symSize: 0xE0 }
+  - { offset: 0xD1E43, size: 0x8, addend: 0x0, symName: ___SetUpFVPVideoPlayerInstanceApiWithSuffix_block_invoke_4, symObjAddr: 0x24FC, symBinAddr: 0xBDF4, symSize: 0x94 }
+  - { offset: 0xD1EF6, size: 0x8, addend: 0x0, symName: ___SetUpFVPVideoPlayerInstanceApiWithSuffix_block_invoke_5, symObjAddr: 0x2590, symBinAddr: 0xBE88, symSize: 0xA8 }
+  - { offset: 0xD1FBB, size: 0x8, addend: 0x0, symName: ___SetUpFVPVideoPlayerInstanceApiWithSuffix_block_invoke_6, symObjAddr: 0x2638, symBinAddr: 0xBF30, symSize: 0xC4 }
+  - { offset: 0xD2068, size: 0x8, addend: 0x0, symName: ___SetUpFVPVideoPlayerInstanceApiWithSuffix_block_invoke_7, symObjAddr: 0x26FC, symBinAddr: 0xBFF4, symSize: 0x44 }
+  - { offset: 0xD20EF, size: 0x8, addend: 0x0, symName: ___SetUpFVPVideoPlayerInstanceApiWithSuffix_block_invoke.126, symObjAddr: 0x2750, symBinAddr: 0xC038, symSize: 0x94 }
+  - { offset: 0xD21A2, size: 0x8, addend: 0x0, symName: ___SetUpFVPVideoPlayerInstanceApiWithSuffix_block_invoke_2.129, symObjAddr: 0x27E4, symBinAddr: 0xC0CC, symSize: 0x94 }
+  - { offset: 0xD2255, size: 0x8, addend: 0x0, symName: ___SetUpFVPVideoPlayerInstanceApiWithSuffix_block_invoke_3.132, symObjAddr: 0x2878, symBinAddr: 0xC160, symSize: 0xA8 }
+  - { offset: 0xD231A, size: 0x8, addend: 0x0, symName: ___SetUpFVPVideoPlayerInstanceApiWithSuffix_block_invoke_4.135, symObjAddr: 0x2920, symBinAddr: 0xC208, symSize: 0xE0 }
 ...

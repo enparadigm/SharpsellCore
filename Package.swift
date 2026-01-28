@@ -33,7 +33,7 @@ let package = Package(
                 "audio_session",
                 "camera_avfoundation",
                 "connectivity_plus",
-                "contacts_service",
+                "contacts_service_plus",
                 "device_info_plus",
                 "DKImagePickerController",
                 "DKPhotoGallery",
@@ -48,7 +48,7 @@ let package = Package(
                 "flutter_inappwebview_ios",
                 "flutter_js",
                 "flutter_web_auth_2",
-                "fluttercontactpicker",
+                "flutter_native_contact_picker",
                 "FlutterPluginRegistrant",
                 "fluttertoast",
                 //                "FMDB",
@@ -59,13 +59,13 @@ let package = Package(
                 "image_cropper",
                 "image_gallery_saver_plus",
                 "image_picker_ios",
-                "is_lock_screen",
+                //                "is_lock_screen",
                 "just_audio",
                 "libwebp",
                 "light_compressor",
                 "moengage_flutter_ios",
                 "MoEngagePluginBase",
-                "open_filex",
+                "open_file_ios",
                 "OrderedSet",
                 "package_info_plus",
                 "path_provider_foundation",
@@ -77,11 +77,11 @@ let package = Package(
                 "promises",
                 //                "Reachability",
                 "record_darwin",
-                "rive_common",
+                //                "rive_common",
                 "Sentry",
                 "sentry_flutter",
                 "SDWebImage",
-                "share_extend",
+                //                "share_extend",
                 "share_plus",
                 //                "share",
                 "shared_preferences_foundation",
@@ -97,7 +97,9 @@ let package = Package(
                 "video_player_avfoundation",
                 "video_thumbnail",
                 "wakelock_plus",
-                "webview_flutter_wkwebview"
+                "webview_flutter_wkwebview",
+                "flutter_webrtc",
+                "livekit_client"
                 
             ]),
         //        .testTarget(
@@ -123,8 +125,8 @@ let package = Package(
             .binaryTarget(name: "connectivity_plus",
                           path: "artifacts/connectivity_plus.xcframework"),
         
-            .binaryTarget(name: "contacts_service",
-                          path: "artifacts/contacts_service.xcframework"),
+            .binaryTarget(name: "contacts_service_plus",
+                          path: "artifacts/contacts_service_plus.xcframework"),
         
             .binaryTarget(name: "device_info_plus",
                           path: "artifacts/device_info_plus.xcframework"),
@@ -186,8 +188,8 @@ let package = Package(
             .binaryTarget(name: "flutter_web_auth_2",
                           path: "artifacts/flutter_web_auth_2.xcframework"),
         
-            .binaryTarget(name: "fluttercontactpicker",
-                          path: "artifacts/fluttercontactpicker.xcframework"),
+            .binaryTarget(name: "flutter_native_contact_picker",
+                          path: "artifacts/flutter_native_contact_picker.xcframework"),
         
         
             .binaryTarget(name: "fluttertoast",
@@ -217,8 +219,8 @@ let package = Package(
             .binaryTarget(name: "image_picker_ios",
                           path: "artifacts/image_picker_ios.xcframework"),
         
-            .binaryTarget(name: "is_lock_screen",
-                          path: "artifacts/is_lock_screen.xcframework"),
+        //            .binaryTarget(name: "is_lock_screen",
+        //                          path: "artifacts/is_lock_screen.xcframework"),
         
             .binaryTarget(name: "just_audio",
                           path: "artifacts/just_audio.xcframework"),
@@ -237,8 +239,8 @@ let package = Package(
             .binaryTarget(name: "MoEngagePluginBase",
                           path: "artifacts/MoEngagePluginBase.xcframework"),
         
-            .binaryTarget(name: "open_filex",
-                          path: "artifacts/open_filex.xcframework"),
+            .binaryTarget(name: "open_file_ios",
+                          path: "artifacts/open_file_ios.xcframework"),
         
             .binaryTarget(name: "OrderedSet",
                           path: "artifacts/OrderedSet.xcframework"),
@@ -273,8 +275,8 @@ let package = Package(
             .binaryTarget(name: "record_darwin",
                           path: "artifacts/record_darwin.xcframework"),
         
-            .binaryTarget(name: "rive_common",
-                          path: "artifacts/rive_common.xcframework"),
+        //            .binaryTarget(name: "rive_common",
+        //                          path: "artifacts/rive_common.xcframework"),
         
             .binaryTarget(name: "SDWebImage",
                           path: "artifacts/SDWebImage.xcframework"),
@@ -284,8 +286,8 @@ let package = Package(
             .binaryTarget(name: "sentry_flutter",
                       path: "artifacts/sentry_flutter.xcframework"),
         
-            .binaryTarget(name: "share_extend",
-                          path: "artifacts/share_extend.xcframework"),
+        //            .binaryTarget(name: "share_extend",
+        //                          path: "artifacts/share_extend.xcframework"),
         
             .binaryTarget(name: "share_plus",
                           path: "artifacts/share_plus.xcframework"),
@@ -332,6 +334,12 @@ let package = Package(
         
             .binaryTarget(name: "webview_flutter_wkwebview",
                           path: "artifacts/webview_flutter_wkwebview.xcframework"),
+        
+            .binaryTarget(name: "flutter_webrtc",
+                          path: "artifacts/flutter_webrtc.xcframework"),
+        
+            .binaryTarget(name: "livekit_client",
+                          path: "artifacts/livekit_client.xcframework"),
         
     ]
 )
