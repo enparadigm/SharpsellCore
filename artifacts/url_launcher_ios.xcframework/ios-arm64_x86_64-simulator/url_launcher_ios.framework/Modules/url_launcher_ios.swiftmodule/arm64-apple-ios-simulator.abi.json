@@ -449,20 +449,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Any?",
+                "printedName": "(any Swift.Sendable)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
+                    "name": "Sendable",
+                    "printedName": "any Swift.Sendable",
+                    "usr": "s:s8SendableP"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16url_launcher_ios11PigeonErrorC7detailsypSgvp",
-            "mangledName": "$s16url_launcher_ios11PigeonErrorC7detailsypSgvp",
+            "usr": "s:16url_launcher_ios11PigeonErrorC7detailss8Sendable_pSgvp",
+            "mangledName": "$s16url_launcher_ios11PigeonErrorC7detailss8Sendable_pSgvp",
             "moduleName": "url_launcher_ios",
             "declAttributes": [
               "Final",
@@ -480,20 +481,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Any?",
+                    "printedName": "(any Swift.Sendable)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
+                        "name": "Sendable",
+                        "printedName": "any Swift.Sendable",
+                        "usr": "s:s8SendableP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16url_launcher_ios11PigeonErrorC7detailsypSgvg",
-                "mangledName": "$s16url_launcher_ios11PigeonErrorC7detailsypSgvg",
+                "usr": "s:16url_launcher_ios11PigeonErrorC7detailss8Sendable_pSgvg",
+                "mangledName": "$s16url_launcher_ios11PigeonErrorC7detailss8Sendable_pSgvg",
                 "moduleName": "url_launcher_ios",
                 "implicit": true,
                 "declAttributes": [
@@ -538,20 +540,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Any?",
+                "printedName": "(any Swift.Sendable)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
+                    "name": "Sendable",
+                    "printedName": "any Swift.Sendable",
+                    "usr": "s:s8SendableP"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16url_launcher_ios11PigeonErrorC4code7message7detailsACSS_SSSgypSgtcfc",
-            "mangledName": "$s16url_launcher_ios11PigeonErrorC4code7message7detailsACSS_SSSgypSgtcfc",
+            "usr": "s:16url_launcher_ios11PigeonErrorC4code7message7detailsACSS_SSSgs8Sendable_pSgtcfc",
+            "mangledName": "$s16url_launcher_ios11PigeonErrorC4code7message7detailsACSS_SSSgs8Sendable_pSgtcfc",
             "moduleName": "url_launcher_ios",
             "init_kind": "Designated"
           },
@@ -635,6 +638,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1235,8 +1245,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "messagesPigeonCodec",
-        "printedName": "messagesPigeonCodec",
+        "name": "MessagesPigeonCodec",
+        "printedName": "MessagesPigeonCodec",
         "children": [
           {
             "kind": "Var",
@@ -1245,14 +1255,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "messagesPigeonCodec",
-                "printedName": "url_launcher_ios.messagesPigeonCodec",
-                "usr": "c:@M@url_launcher_ios@objc(cs)messagesPigeonCodec"
+                "name": "MessagesPigeonCodec",
+                "printedName": "url_launcher_ios.MessagesPigeonCodec",
+                "usr": "c:@M@url_launcher_ios@objc(cs)MessagesPigeonCodec"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16url_launcher_ios19messagesPigeonCodecC6sharedACvpZ",
-            "mangledName": "$s16url_launcher_ios19messagesPigeonCodecC6sharedACvpZ",
+            "usr": "s:16url_launcher_ios19MessagesPigeonCodecC6sharedACvpZ",
+            "mangledName": "$s16url_launcher_ios19MessagesPigeonCodecC6sharedACvpZ",
             "moduleName": "url_launcher_ios",
             "static": true,
             "declAttributes": [
@@ -1270,14 +1280,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "messagesPigeonCodec",
-                    "printedName": "url_launcher_ios.messagesPigeonCodec",
-                    "usr": "c:@M@url_launcher_ios@objc(cs)messagesPigeonCodec"
+                    "name": "MessagesPigeonCodec",
+                    "printedName": "url_launcher_ios.MessagesPigeonCodec",
+                    "usr": "c:@M@url_launcher_ios@objc(cs)MessagesPigeonCodec"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16url_launcher_ios19messagesPigeonCodecC6sharedACvgZ",
-                "mangledName": "$s16url_launcher_ios19messagesPigeonCodecC6sharedACvgZ",
+                "usr": "s:16url_launcher_ios19MessagesPigeonCodecC6sharedACvgZ",
+                "mangledName": "$s16url_launcher_ios19MessagesPigeonCodecC6sharedACvgZ",
                 "moduleName": "url_launcher_ios",
                 "static": true,
                 "implicit": true,
@@ -1295,14 +1305,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "messagesPigeonCodec",
-                "printedName": "url_launcher_ios.messagesPigeonCodec",
-                "usr": "c:@M@url_launcher_ios@objc(cs)messagesPigeonCodec"
+                "name": "MessagesPigeonCodec",
+                "printedName": "url_launcher_ios.MessagesPigeonCodec",
+                "usr": "c:@M@url_launcher_ios@objc(cs)MessagesPigeonCodec"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@url_launcher_ios@objc(cs)messagesPigeonCodec(im)init",
-            "mangledName": "$s16url_launcher_ios19messagesPigeonCodecCACycfc",
+            "usr": "c:@M@url_launcher_ios@objc(cs)MessagesPigeonCodec(im)init",
+            "mangledName": "$s16url_launcher_ios19MessagesPigeonCodecCACycfc",
             "moduleName": "url_launcher_ios",
             "overriding": true,
             "implicit": true,
@@ -1316,8 +1326,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@url_launcher_ios@objc(cs)messagesPigeonCodec",
-        "mangledName": "$s16url_launcher_ios19messagesPigeonCodecC",
+        "usr": "c:@M@url_launcher_ios@objc(cs)MessagesPigeonCodec",
+        "mangledName": "$s16url_launcher_ios19MessagesPigeonCodecC",
         "moduleName": "url_launcher_ios",
         "isOpen": true,
         "declAttributes": [
@@ -1399,6 +1409,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2852,65 +2869,65 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.3\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1747,
+      "offset": 1735,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.3\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1816,
+      "offset": 1804,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.3\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1897,
+      "offset": 1885,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.3\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 2050,
+      "offset": 2038,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.3\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 2115,
+      "offset": 2103,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.3\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 2196,
+      "offset": 2184,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.3\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 2265,
+      "offset": 2253,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.3\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "StringLiteral",
-      "offset": 4964,
+      "offset": 4952,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.3\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/URLLaunchSession.swift",
+      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/URLLaunchSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 559,
+      "offset": 537,
       "length": 5,
       "value": "false"
     }
