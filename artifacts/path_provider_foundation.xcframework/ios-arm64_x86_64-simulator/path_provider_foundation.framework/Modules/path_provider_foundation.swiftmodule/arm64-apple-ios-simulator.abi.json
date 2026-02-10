@@ -148,21 +148,20 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(any Swift.Sendable)?",
+                "printedName": "Any?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Sendable",
-                    "printedName": "any Swift.Sendable",
-                    "usr": "s:s8SendableP"
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:24path_provider_foundation11PigeonErrorC7detailss8Sendable_pSgvp",
-            "mangledName": "$s24path_provider_foundation11PigeonErrorC7detailss8Sendable_pSgvp",
+            "usr": "s:24path_provider_foundation11PigeonErrorC7detailsypSgvp",
+            "mangledName": "$s24path_provider_foundation11PigeonErrorC7detailsypSgvp",
             "moduleName": "path_provider_foundation",
             "declAttributes": [
               "Final",
@@ -180,21 +179,20 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any Swift.Sendable)?",
+                    "printedName": "Any?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "any Swift.Sendable",
-                        "usr": "s:s8SendableP"
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:24path_provider_foundation11PigeonErrorC7detailss8Sendable_pSgvg",
-                "mangledName": "$s24path_provider_foundation11PigeonErrorC7detailss8Sendable_pSgvg",
+                "usr": "s:24path_provider_foundation11PigeonErrorC7detailsypSgvg",
+                "mangledName": "$s24path_provider_foundation11PigeonErrorC7detailsypSgvg",
                 "moduleName": "path_provider_foundation",
                 "implicit": true,
                 "declAttributes": [
@@ -239,21 +237,20 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(any Swift.Sendable)?",
+                "printedName": "Any?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Sendable",
-                    "printedName": "any Swift.Sendable",
-                    "usr": "s:s8SendableP"
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:24path_provider_foundation11PigeonErrorC4code7message7detailsACSS_SSSgs8Sendable_pSgtcfc",
-            "mangledName": "$s24path_provider_foundation11PigeonErrorC4code7message7detailsACSS_SSSgs8Sendable_pSgtcfc",
+            "usr": "s:24path_provider_foundation11PigeonErrorC4code7message7detailsACSS_SSSgypSgtcfc",
+            "mangledName": "$s24path_provider_foundation11PigeonErrorC4code7message7detailsACSS_SSSgypSgtcfc",
             "moduleName": "path_provider_foundation",
             "init_kind": "Designated"
           },
@@ -337,13 +334,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -728,8 +718,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "MessagesPigeonCodec",
-        "printedName": "MessagesPigeonCodec",
+        "name": "messagesPigeonCodec",
+        "printedName": "messagesPigeonCodec",
         "children": [
           {
             "kind": "Var",
@@ -738,14 +728,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "MessagesPigeonCodec",
-                "printedName": "path_provider_foundation.MessagesPigeonCodec",
-                "usr": "c:@M@path_provider_foundation@objc(cs)MessagesPigeonCodec"
+                "name": "messagesPigeonCodec",
+                "printedName": "path_provider_foundation.messagesPigeonCodec",
+                "usr": "c:@M@path_provider_foundation@objc(cs)messagesPigeonCodec"
               }
             ],
             "declKind": "Var",
-            "usr": "s:24path_provider_foundation19MessagesPigeonCodecC6sharedACvpZ",
-            "mangledName": "$s24path_provider_foundation19MessagesPigeonCodecC6sharedACvpZ",
+            "usr": "s:24path_provider_foundation19messagesPigeonCodecC6sharedACvpZ",
+            "mangledName": "$s24path_provider_foundation19messagesPigeonCodecC6sharedACvpZ",
             "moduleName": "path_provider_foundation",
             "static": true,
             "declAttributes": [
@@ -763,14 +753,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "MessagesPigeonCodec",
-                    "printedName": "path_provider_foundation.MessagesPigeonCodec",
-                    "usr": "c:@M@path_provider_foundation@objc(cs)MessagesPigeonCodec"
+                    "name": "messagesPigeonCodec",
+                    "printedName": "path_provider_foundation.messagesPigeonCodec",
+                    "usr": "c:@M@path_provider_foundation@objc(cs)messagesPigeonCodec"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:24path_provider_foundation19MessagesPigeonCodecC6sharedACvgZ",
-                "mangledName": "$s24path_provider_foundation19MessagesPigeonCodecC6sharedACvgZ",
+                "usr": "s:24path_provider_foundation19messagesPigeonCodecC6sharedACvgZ",
+                "mangledName": "$s24path_provider_foundation19messagesPigeonCodecC6sharedACvgZ",
                 "moduleName": "path_provider_foundation",
                 "static": true,
                 "implicit": true,
@@ -788,14 +778,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "MessagesPigeonCodec",
-                "printedName": "path_provider_foundation.MessagesPigeonCodec",
-                "usr": "c:@M@path_provider_foundation@objc(cs)MessagesPigeonCodec"
+                "name": "messagesPigeonCodec",
+                "printedName": "path_provider_foundation.messagesPigeonCodec",
+                "usr": "c:@M@path_provider_foundation@objc(cs)messagesPigeonCodec"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@path_provider_foundation@objc(cs)MessagesPigeonCodec(im)init",
-            "mangledName": "$s24path_provider_foundation19MessagesPigeonCodecCACycfc",
+            "usr": "c:@M@path_provider_foundation@objc(cs)messagesPigeonCodec(im)init",
+            "mangledName": "$s24path_provider_foundation19messagesPigeonCodecCACycfc",
             "moduleName": "path_provider_foundation",
             "overriding": true,
             "implicit": true,
@@ -809,8 +799,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@path_provider_foundation@objc(cs)MessagesPigeonCodec",
-        "mangledName": "$s24path_provider_foundation19MessagesPigeonCodecC",
+        "usr": "c:@M@path_provider_foundation@objc(cs)messagesPigeonCodec",
+        "mangledName": "$s24path_provider_foundation19messagesPigeonCodecC",
         "moduleName": "path_provider_foundation",
         "isOpen": true,
         "declAttributes": [
@@ -892,13 +882,6 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1390,51 +1373,51 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.5.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1632,
+      "offset": 1644,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.5.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1662,
+      "offset": 1674,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.5.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1683,
+      "offset": 1695,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.5.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1702,
+      "offset": 1714,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.5.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1718,
+      "offset": 1730,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.5.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1746,
+      "offset": 1758,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/aman.verma\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.5.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
       "kind": "StringLiteral",
-      "offset": 3619,
+      "offset": 3631,
       "length": 2,
       "value": "\"\""
     }

@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name record_darwin
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name record_darwin
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AVFoundation
 import Flutter
 import Foundation
@@ -21,9 +21,7 @@ public enum AudioEncoder : Swift.String {
   case flac
   case pcm16bits
   case wav
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -42,18 +40,14 @@ public enum RecordState : Swift.Int {
   case pause
   case record
   case stop
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
 public protocol AudioRecordingDelegate {
-  #if compiler(>=5.3) && $NonescapableTypes
   func stop(completionHandler: @escaping (Swift.String?) -> ())
-  #endif
   func cancel() throws
   func getAmplitude() -> Swift.Float
   func pause()
@@ -73,22 +67,14 @@ public protocol AudioRecordingStreamDelegate : record_darwin.AudioRecordingDeleg
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class StateStreamHandler : ObjectiveC.NSObject, Flutter.FlutterStreamHandler {
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func onListen(withArguments arguments: Any?, eventSink events: @escaping Flutter.FlutterEventSink) -> Flutter.FlutterError?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func onCancel(withArguments arguments: Any?) -> Flutter.FlutterError?
-  #endif
   @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class RecordStreamHandler : ObjectiveC.NSObject, Flutter.FlutterStreamHandler {
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func onListen(withArguments arguments: Any?, eventSink events: @escaping Flutter.FlutterEventSink) -> Flutter.FlutterError?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func onCancel(withArguments arguments: Any?) -> Flutter.FlutterError?
-  #endif
   @objc override dynamic public init()
   @objc deinit
 }

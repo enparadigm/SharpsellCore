@@ -1,0 +1,562 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "v_video_compressor",
+    "printedName": "v_video_compressor",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "v_video_compressor"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "v_video_compressor"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "v_video_compressor"
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "v_video_compressor"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "v_video_compressor"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "v_video_compressor"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VVideoCompressorPlugin",
+        "printedName": "VVideoCompressorPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@v_video_compressor@objc(cs)VVideoCompressorPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s18v_video_compressor22VVideoCompressorPluginC8register4withySo07FlutterE9Registrar_p_tFZ",
+            "moduleName": "v_video_compressor",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@v_video_compressor@objc(cs)VVideoCompressorPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s18v_video_compressor22VVideoCompressorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "v_video_compressor",
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onListen",
+            "printedName": "onListen(withArguments:eventSink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@v_video_compressor@objc(cs)VVideoCompressorPlugin(im)onListenWithArguments:eventSink:",
+            "mangledName": "$s18v_video_compressor22VVideoCompressorPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
+            "moduleName": "v_video_compressor",
+            "objc_name": "onListenWithArguments:eventSink:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCancel",
+            "printedName": "onCancel(withArguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@v_video_compressor@objc(cs)VVideoCompressorPlugin(im)onCancelWithArguments:",
+            "mangledName": "$s18v_video_compressor22VVideoCompressorPluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
+            "moduleName": "v_video_compressor",
+            "objc_name": "onCancelWithArguments:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@v_video_compressor@objc(cs)VVideoCompressorPlugin",
+        "mangledName": "$s18v_video_compressor22VVideoCompressorPluginC",
+        "moduleName": "v_video_compressor",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "v_video_compressor"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "v_video_compressor"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "v_video_compressor"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "v_video_compressor"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoCompressionEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 178,
+      "length": 6,
+      "value": "128000"
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoCompressionEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 233,
+      "length": 5,
+      "value": "64000"
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoCompressionEngine.swift",
+      "kind": "FloatLiteral",
+      "offset": 290,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoCompressionEngine.swift",
+      "kind": "FloatLiteral",
+      "offset": 359,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoCompressionEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 497,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoCompressionEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 533,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoCompressorPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15182,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoCompressorPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 15189,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 145,
+      "length": 6,
+      "value": "\"HIGH\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
+      "length": 8,
+      "value": "\"MEDIUM\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 5,
+      "value": "\"LOW\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 10,
+      "value": "\"VERY_LOW\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 11,
+      "value": "\"ULTRA_LOW\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1202,
+      "length": 6,
+      "value": "\"H264\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1225,
+      "length": 6,
+      "value": "\"H265\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1491,
+      "length": 5,
+      "value": "\"AAC\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1512,
+      "length": 5,
+      "value": "\"MP3\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1789,
+      "length": 11,
+      "value": "\"ULTRAFAST\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1822,
+      "length": 11,
+      "value": "\"SUPERFAST\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1854,
+      "length": 10,
+      "value": "\"VERYFAST\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1883,
+      "length": 8,
+      "value": "\"FASTER\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1908,
+      "length": 6,
+      "value": "\"FAST\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1933,
+      "length": 8,
+      "value": "\"MEDIUM\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1958,
+      "length": 6,
+      "value": "\"SLOW\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1983,
+      "length": 8,
+      "value": "\"SLOWER\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2012,
+      "length": 10,
+      "value": "\"VERYSLOW\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 10633,
+      "length": 6,
+      "value": "\"JPEG\""
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 10655,
+      "length": 5,
+      "value": "\"PNG\""
+    }
+  ]
+}

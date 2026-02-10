@@ -1,4 +1,4 @@
-// Copyright 2013 The Flutter Authors
+// Copyright 2013 The Flutter Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
@@ -33,19 +33,13 @@ typedef void (^FlutterResultAdapter)(NSArray<NSString *> *_Nullable, FlutterErro
 /// If nil, no resampling is done.
 @property(nonatomic, strong, nullable) NSNumber *imageQuality;
 
-/// Maximum number of items to select. 0 indicates no maximum.
-@property(nonatomic, assign) int maxItemCount;
+/// Maximum number of images to select. 0 indicates no maximum.
+@property(nonatomic, assign) int maxImageCount;
 
-/// Whether the image should be picked with full metadata (requires gallery permissions).
+/// Whether the image should be picked with full metadata (requires gallery permissions)
 @property(nonatomic, assign) BOOL requestFullMetadata;
 
-/// Maximum duration for videos. 0 indicates no maximum.
-@property(nonatomic, assign) NSTimeInterval maxDuration;
-
-/// Whether the picker should include images in the list.
-@property(nonatomic, assign) BOOL includeImages;
-
-/// Whether the picker should include videos in the list.
+/// Whether the picker should include videos in the list*/
 @property(nonatomic, assign) BOOL includeVideo;
 
 @end
