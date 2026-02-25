@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-4.2 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
-// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name printing
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-compiler-version: Apple Swift version 6.2.3 effective-4.2 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name printing
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import Flutter
 import Foundation
 import Swift
@@ -10,11 +10,11 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_exported import printing
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class CustomPrintPaper : UIKit.UIPrintPaper {
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var paperSize: CoreFoundation.CGSize {
+@objc @_hasMissingDesignatedInitializers public class CustomPrintPaper : UIKit.UIPrintPaper {
+  @objc override dynamic public var paperSize: CoreFoundation.CGSize {
     @objc get
   }
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var printableRect: CoreFoundation.CGRect {
+  @objc override dynamic public var printableRect: CoreFoundation.CGRect {
     @objc get
   }
   @objc deinit
@@ -26,11 +26,15 @@ import _SwiftConcurrencyShims
   @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
   @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
   public func onLayout(printJob: printing.PrintJob, width: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat, marginLeft: CoreFoundation.CGFloat, marginTop: CoreFoundation.CGFloat, marginRight: CoreFoundation.CGFloat, marginBottom: CoreFoundation.CGFloat)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func onCompleted(printJob: printing.PrintJob, completed: Swift.Bool, error: Foundation.NSString?)
+  #endif
   public func onHtmlRendered(printJob: printing.PrintJob, pdfData: Foundation.Data)
   public func onHtmlError(printJob: printing.PrintJob, error: Swift.String)
   public func onPageRasterized(printJob: printing.PrintJob, imageData: Foundation.Data, width: Swift.Int, height: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func onPageRasterEnd(printJob: printing.PrintJob, error: Swift.String?)
+  #endif
   @objc deinit
 }
 @objc @_Concurrency.MainActor @preconcurrency public class PrintJob : UIKit.UIPrintPageRenderer, UIKit.UIPrintInteractionControllerDelegate {
@@ -41,7 +45,10 @@ import _SwiftConcurrencyShims
     @objc get
   }
   @_Concurrency.MainActor @preconcurrency @objc public func printInteractionController(_: UIKit.UIPrintInteractionController, choosePaper paperList: [UIKit.UIPrintPaper]) -> UIKit.UIPrintPaper
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func rasterPdf(data: Foundation.Data, pages: [Swift.Int]?, scale: CoreFoundation.CGFloat)
+  #endif
   @_Concurrency.MainActor @preconcurrency public static func printingInfo() -> Foundation.NSDictionary
   @objc deinit
 }
+extension printing.PrintJob : Swift.Sendable {}
