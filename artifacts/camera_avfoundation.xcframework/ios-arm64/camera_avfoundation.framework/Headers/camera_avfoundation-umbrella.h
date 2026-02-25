@@ -28,6 +28,8 @@
 #import "FLTCaptureVideoDataOutput.h"
 #import "FLTDeviceOrientationProviding.h"
 #import "FLTEventChannel.h"
+#import "FLTFormatUtils.h"
+#import "FLTImageStreamHandler.h"
 #import "FLTPermissionServicing.h"
 #import "FLTSavePhotoDelegate.h"
 #import "FLTSavePhotoDelegate_Test.h"
