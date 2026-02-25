@@ -69,7 +69,7 @@ let package = Package(
                 "open_file_ios",
                 "OrderedSet",
                 "package_info_plus",
-                "path_provider_foundation",
+//                "path_provider_foundation",
                 "pdf_render",
                 "pdfx",
                 "permission_handler_apple",
@@ -257,8 +257,8 @@ let package = Package(
             .binaryTarget(name: "package_info_plus",
                           path: "artifacts/package_info_plus.xcframework"),
         
-            .binaryTarget(name: "path_provider_foundation",
-                          path: "artifacts/path_provider_foundation.xcframework"),
+//            .binaryTarget(name: "path_provider_foundation",
+//                          path: "artifacts/path_provider_foundation.xcframework"),
         
             .binaryTarget(name: "pdf_render",
                           path: "artifacts/pdf_render.xcframework"),
