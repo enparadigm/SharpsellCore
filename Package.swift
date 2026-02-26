@@ -47,6 +47,7 @@ let package = Package(
                 "flutter_custom_tabs_ios",
                 "flutter_inappwebview_ios",
                 "flutter_js",
+                "flutter_local_notifications",
                 "flutter_native_contact_picker",
                 "flutter_web_auth_2",
                 
@@ -68,7 +69,7 @@ let package = Package(
                 "open_file_ios",
                 "OrderedSet",
                 "package_info_plus",
-                "path_provider_foundation",
+//                "path_provider_foundation",
                 "pdf_render",
                 "pdfx",
                 "permission_handler_apple",
@@ -187,6 +188,9 @@ let package = Package(
             .binaryTarget(name: "flutter_js",
                           path: "artifacts/flutter_js.xcframework"),
         
+            .binaryTarget(name: "flutter_local_notifications",
+                          path: "artifacts/flutter_local_notifications.xcframework"),
+        
             .binaryTarget(name: "flutter_web_auth_2",
                           path: "artifacts/flutter_web_auth_2.xcframework"),
         
@@ -253,8 +257,8 @@ let package = Package(
             .binaryTarget(name: "package_info_plus",
                           path: "artifacts/package_info_plus.xcframework"),
         
-            .binaryTarget(name: "path_provider_foundation",
-                          path: "artifacts/path_provider_foundation.xcframework"),
+//            .binaryTarget(name: "path_provider_foundation",
+//                          path: "artifacts/path_provider_foundation.xcframework"),
         
             .binaryTarget(name: "pdf_render",
                           path: "artifacts/pdf_render.xcframework"),

@@ -393,47 +393,59 @@ public struct SharpSellWrapper{
     public func handleNotificationRedirection(notificationData: [AnyHashable: Any],
                                               onSucess: @escaping (_ notificationData: String) -> (),
                                               onFailure: @escaping (_ message: String,_ errorType: SharpSellError) -> ()){
-        do {
-            let flutterMethodChannel = try getFlutterMethodChannel()
-            NSLog("Sharpsell : Calling handleNotificationRedirection flutter invoke method")
+        if let payload = notificationData["payload"] as? String, !payload.isEmpty {
+            NSLog("Sharpsell Parent App: Local notification with payload detected")
+            NSLog("Sharpsell Parent App: payload - \(payload)")
             
-            //Convert json to String
-            if let theJSONData = try?  JSONSerialization.data(
-                withJSONObject: notificationData,
-                options:.prettyPrinted),
-               //Convert Dict to json
-               let notificationDataInString = String(data: theJSONData,
-                                                     encoding: String.Encoding.ascii) {
+            // Store payload to UserDefaults so Main App's Flutter code can read it
+            storeLocalNotificationPayload(payload)
+            onSucess(payload)
+        } else {
+            do {
+                let flutterMethodChannel = try getFlutterMethodChannel()
+                NSLog("Sharpsell : Calling handleNotificationRedirection flutter invoke method")
                 
-                flutterMethodChannel.invokeMethod(FlutterMethods.handleNotificationRedirection.rawValue,
-                                                  arguments: notificationDataInString) {  (flutterResult) in
+                //Convert json to String
+                if let theJSONData = try?  JSONSerialization.data(
+                    withJSONObject: notificationData,
+                    options:.prettyPrinted),
+                   //Convert Dict to json
+                   let notificationDataInString = String(data: theJSONData,
+                                                         encoding: String.Encoding.ascii) {
                     
-                    if (flutterResult is FlutterError) {
-                        if let res = flutterResult as? FlutterError{
-                            NSLog("Sharpsell Error: handleNotificationRedirection - Error Code : \(String(describing: res.code)) and Error Messaoge : \(String(describing: res.message))")
-                            onFailure(res.message ?? "Flutter Error", SharpSellError.flutterError)
-                        }else {
-                            NSLog("Sharpsell Error: handleNotificationRedirection - Flutter Error: UnKnown")
+                    flutterMethodChannel.invokeMethod(FlutterMethods.handleNotificationRedirection.rawValue,
+                                                      arguments: notificationDataInString) {  (flutterResult) in
+                        
+                        if (flutterResult is FlutterError) {
+                            if let res = flutterResult as? FlutterError{
+                                NSLog("Sharpsell Error: handleNotificationRedirection - Error Code : \(String(describing: res.code)) and Error Messaoge : \(String(describing: res.message))")
+                                onFailure(res.message ?? "Flutter Error", SharpSellError.flutterError)
+                            }else {
+                                NSLog("Sharpsell Error: handleNotificationRedirection - Flutter Error: UnKnown")
+                            }
+                        }
+                        
+                        if FlutterMethodNotImplemented.isEqual(flutterResult){
+                            NSLog("Sharpsell Error: handleNotificationRedirection - Method \(FlutterMethods.open.rawValue) is not implemented in Sharpsell SDK")
+                            onFailure("Flutter method not implemented", SharpSellError.flutterMethodNotImplemented)
+                            return
+                        } else {
+                            onSucess(flutterResult as! String)
                         }
                     }
-                    
-                    if FlutterMethodNotImplemented.isEqual(flutterResult){
-                        NSLog("Sharpsell Error: handleNotificationRedirection - Method \(FlutterMethods.open.rawValue) is not implemented in Sharpsell SDK")
-                        onFailure("Flutter method not implemented", SharpSellError.flutterMethodNotImplemented)
-                        return
-                    } else {
-                        onSucess(flutterResult as! String)
-                    }
+                } else {
+                    NSLog("Sharpsell Error: handleNotificationRedirection - Arguments payload conversion of string error")
                 }
-            } else {
-                NSLog("Sharpsell Error: handleNotificationRedirection - Arguments payload conversion of string error")
+                
+            } catch (SharpSellError.flutterEngineFailure){
+                NSLog("Sharpsell Error: handleNotificationRedirection - Flutter Engine Not Available")
+            } catch {
+                NSLog("Sharpsell Error: handleNotificationRedirection - Flutter Engine Not Available")
             }
-            
-        } catch (SharpSellError.flutterEngineFailure){
-            NSLog("Sharpsell Error: handleNotificationRedirection - Flutter Engine Not Available")
-        } catch {
-            NSLog("Sharpsell Error: handleNotificationRedirection - Flutter Engine Not Available")
         }
+        
+        
+        
     }
     
     /// Use this function to clear the smartsell data before logout or based on your usecase
@@ -549,6 +561,12 @@ extension SharpSellWrapper{
         NSLog("Sharpsell SDK:  on notification didReceiveRemoteNotification and shared the same ✅")
         //Sending the notification details to mo engage to support mo engage push notification
         MoEngageSDKMessaging.sharedInstance.didReceieveNotification(inApplication: application, withInfo: userInfo)
+    }
+    
+    public func storeLocalNotificationPayload(_ payload: String) {
+        let storedLaunchPayloadKey = "sharpsell_stored_local_notification_payload"
+        UserDefaults.standard.set(payload, forKey: storedLaunchPayloadKey)
+        NSLog("Sharpsell SDK: Stored local notification payload for Flutter ✅")
     }
 }
 
