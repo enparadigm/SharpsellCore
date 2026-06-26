@@ -40,6 +40,7 @@ let package = Package(
                 "DKImagePickerController",
                 "DKPhotoGallery",
                 "file_picker",
+                "figma_design_library",
                 //                                "FBLPromises",
                 "firebase_core",
                 "firebase_crashlytics",
@@ -49,6 +50,7 @@ let package = Package(
                 "flutter_custom_tabs_ios",
                 "flutter_inappwebview_ios",
                 "flutter_js",
+                "flutter_local_notifications",
                 "flutter_native_contact_picker",
                 "flutter_web_auth_2",
 
@@ -144,6 +146,9 @@ let package = Package(
             .binaryTarget(name: "file_picker",
                           path: "artifacts/file_picker.xcframework"),
         
+            .binaryTarget(name: "figma_design_library",
+                          path: "artifacts/figma_design_library.xcframework"),
+        
             .binaryTarget(name: "firebase_core",
                           path: "artifacts/firebase_core.xcframework"),
         
@@ -188,6 +193,9 @@ let package = Package(
         
             .binaryTarget(name: "flutter_js",
                           path: "artifacts/flutter_js.xcframework"),
+        
+            .binaryTarget(name: "flutter_local_notifications",
+                          path: "artifacts/flutter_local_notifications.xcframework"),
         
             .binaryTarget(name: "flutter_web_auth_2",
                           path: "artifacts/flutter_web_auth_2.xcframework"),

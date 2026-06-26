@@ -284,6 +284,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import Flutter;
 @import Foundation;
 @import ObjectiveC;
+@import UserNotifications;
 @import WebKit;
 #endif
 
@@ -350,6 +351,13 @@ SWIFT_CLASS("_TtC25webview_flutter_wkwebview20WebViewFlutterPlugin")
 - (void)detachFromEngineForRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class UIApplication;
+@class UIScene;
+@interface WebViewFlutterPlugin (SWIFT_EXTENSION(webview_flutter_wkwebview)) <FlutterApplicationLifeCycleDelegate, FlutterSceneLifeCycleDelegate>
+- (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
+- (void)sceneDidDisconnect:(UIScene * _Nonnull)scene;
 @end
 
 #endif
@@ -646,6 +654,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import Flutter;
 @import Foundation;
 @import ObjectiveC;
+@import UserNotifications;
 @import WebKit;
 #endif
 
@@ -712,6 +721,13 @@ SWIFT_CLASS("_TtC25webview_flutter_wkwebview20WebViewFlutterPlugin")
 - (void)detachFromEngineForRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class UIApplication;
+@class UIScene;
+@interface WebViewFlutterPlugin (SWIFT_EXTENSION(webview_flutter_wkwebview)) <FlutterApplicationLifeCycleDelegate, FlutterSceneLifeCycleDelegate>
+- (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
+- (void)sceneDidDisconnect:(UIScene * _Nonnull)scene;
 @end
 
 #endif

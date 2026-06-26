@@ -164,10 +164,10 @@ relocations:
   - { offset: 0x19EA28, size: 0x8, addend: 0x0, symName: '-[SentryAppStartMeasurement didFinishLaunchingTimestamp]', symObjAddr: 0x1B8, symBinAddr: 0x8E68, symSize: 0x8 }
   - { offset: 0x19EA5F, size: 0x8, addend: 0x0, symName: '-[SentryAppStartMeasurement .cxx_destruct]', symObjAddr: 0x1C0, symBinAddr: 0x8E70, symSize: 0x54 }
   - { offset: 0x19EB47, size: 0x8, addend: 0x0, symName: '+[SentryAppStartTracker load]', symObjAddr: 0x0, symBinAddr: 0x8EC4, symSize: 0xB0 }
-  - { offset: 0x19EB6D, size: 0x8, addend: 0x0, symName: _runtimeInit, symObjAddr: 0x88E0, symBinAddr: 0x1B5A10, symSize: 0x0 }
+  - { offset: 0x19EB6D, size: 0x8, addend: 0x0, symName: _runtimeInit, symObjAddr: 0x8970, symBinAddr: 0x1B5A10, symSize: 0x0 }
   - { offset: 0x19EBA4, size: 0x8, addend: 0x0, symName: '-[SentryAppStartTracker buildAppStartMeasurement:]', symObjAddr: 0x454, symBinAddr: 0x9318, symSize: 0xBC }
-  - { offset: 0x19EBCA, size: 0x8, addend: 0x0, symName: '_buildAppStartMeasurement:.once', symObjAddr: 0x88F0, symBinAddr: 0x1B5A20, symSize: 0x0 }
-  - { offset: 0x19EC20, size: 0x8, addend: 0x0, symName: _isActivePrewarm, symObjAddr: 0x88E8, symBinAddr: 0x1B5A18, symSize: 0x0 }
+  - { offset: 0x19EBCA, size: 0x8, addend: 0x0, symName: '_buildAppStartMeasurement:.once', symObjAddr: 0x8980, symBinAddr: 0x1B5A20, symSize: 0x0 }
+  - { offset: 0x19EC20, size: 0x8, addend: 0x0, symName: _isActivePrewarm, symObjAddr: 0x8978, symBinAddr: 0x1B5A18, symSize: 0x0 }
   - { offset: 0x19EE48, size: 0x8, addend: 0x0, symName: '+[SentryAppStartTracker load]', symObjAddr: 0x0, symBinAddr: 0x8EC4, symSize: 0xB0 }
   - { offset: 0x19EE77, size: 0x8, addend: 0x0, symName: '-[SentryAppStartTracker initWithDispatchQueueWrapper:appStateManager:framesTracker:enablePreWarmedAppStartTracing:enablePerformanceV2:]', symObjAddr: 0xB0, symBinAddr: 0x8F74, symSize: 0x1A8 }
   - { offset: 0x19EEFE, size: 0x8, addend: 0x0, symName: '-[SentryAppStartTracker isActivePrewarmAvailable]', symObjAddr: 0x258, symBinAddr: 0x911C, symSize: 0x2C }
@@ -276,7 +276,7 @@ relocations:
   - { offset: 0x1A367A, size: 0x8, addend: 0x0, symName: _sentry_asyncLogSetFileName, symObjAddr: 0x0, symBinAddr: 0xB3E8, symSize: 0xA8 }
   - { offset: 0x1A3688, size: 0x8, addend: 0x0, symName: _sentry_asyncLogSetFileName, symObjAddr: 0x0, symBinAddr: 0xB3E8, symSize: 0xA8 }
   - { offset: 0x1A36AE, size: 0x8, addend: 0x0, symName: _sentry_asyncLogSetFileName.fd, symObjAddr: 0x248, symBinAddr: 0x1B0FC8, symSize: 0x0 }
-  - { offset: 0x1A3779, size: 0x8, addend: 0x0, symName: _g_logFilename, symObjAddr: 0x244C, symBinAddr: 0x1B5A28, symSize: 0x0 }
+  - { offset: 0x1A3779, size: 0x8, addend: 0x0, symName: _g_logFilename, symObjAddr: 0x24DC, symBinAddr: 0x1B5A28, symSize: 0x0 }
   - { offset: 0x1A379C, size: 0x8, addend: 0x0, symName: _g_fd, symObjAddr: 0x24C, symBinAddr: 0x1B0FCC, symSize: 0x0 }
   - { offset: 0x1A388A, size: 0x8, addend: 0x0, symName: _sentry_asyncLogC, symObjAddr: 0xA8, symBinAddr: 0xB490, symSize: 0xCC }
   - { offset: 0x1A39B3, size: 0x8, addend: 0x0, symName: _writeFmtToLog, symObjAddr: 0x174, symBinAddr: 0xB55C, symSize: 0x74 }
@@ -570,10 +570,10 @@ relocations:
   - { offset: 0x1BD312, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_SentryContinuousProfiler.mm, symObjAddr: 0xC30, symBinAddr: 0x15BB8, symSize: 0x40 }
   - { offset: 0x1BF21E, size: 0x8, addend: 0x0, symName: '+[SentryCoreDataSwizzling sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x15BF8, symSize: 0x74 }
   - { offset: 0x1BF238, size: 0x8, addend: 0x0, symName: '+[SentryCoreDataSwizzling sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x15BF8, symSize: 0x74 }
-  - { offset: 0x1BF262, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x4AA8, symBinAddr: 0x1B5E58, symSize: 0x0 }
-  - { offset: 0x1BF278, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x4AB0, symBinAddr: 0x1B5E60, symSize: 0x0 }
+  - { offset: 0x1BF262, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x4B38, symBinAddr: 0x1B5E58, symSize: 0x0 }
+  - { offset: 0x1BF278, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x4B40, symBinAddr: 0x1B5E60, symSize: 0x0 }
   - { offset: 0x1BF322, size: 0x8, addend: 0x0, symName: '-[SentryCoreDataSwizzling startWithTracker:]', symObjAddr: 0xA0, symBinAddr: 0x15C98, symSize: 0xAC }
-  - { offset: 0x1BF348, size: 0x8, addend: 0x0, symName: '_startWithTracker:.onceToken', symObjAddr: 0x4AB8, symBinAddr: 0x1B5E68, symSize: 0x0 }
+  - { offset: 0x1BF348, size: 0x8, addend: 0x0, symName: '_startWithTracker:.onceToken', symObjAddr: 0x4B48, symBinAddr: 0x1B5E68, symSize: 0x0 }
   - { offset: 0x1BF488, size: 0x8, addend: 0x0, symName: '___41+[SentryCoreDataSwizzling sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x15C6C, symSize: 0x2C }
   - { offset: 0x1BF4C7, size: 0x8, addend: 0x0, symName: '___44-[SentryCoreDataSwizzling startWithTracker:]_block_invoke', symObjAddr: 0x14C, symBinAddr: 0x15D44, symSize: 0x8 }
   - { offset: 0x1BF506, size: 0x8, addend: 0x0, symName: '-[SentryCoreDataSwizzling stop]', symObjAddr: 0x164, symBinAddr: 0x15D4C, symSize: 0x10 }
@@ -683,11 +683,11 @@ relocations:
   - { offset: 0x1C3E68, size: 0x8, addend: 0x0, symName: '-[SentryCrash setMonitoringFromUninstalledToRestore:]', symObjAddr: 0x1B1C, symBinAddr: 0x192DC, symSize: 0x8 }
   - { offset: 0x1C3EA3, size: 0x8, addend: 0x0, symName: '-[SentryCrash .cxx_destruct]', symObjAddr: 0x1B24, symBinAddr: 0x192E4, symSize: 0x54 }
   - { offset: 0x1C41EB, size: 0x8, addend: 0x0, symName: _sentrycrashbic_iterateOverImages, symObjAddr: 0x0, symBinAddr: 0x19338, symSize: 0x68 }
-  - { offset: 0x1C4205, size: 0x8, addend: 0x0, symName: _rootNode, symObjAddr: 0x2AE8, symBinAddr: 0x1B5E70, symSize: 0x0 }
-  - { offset: 0x1C430B, size: 0x8, addend: 0x0, symName: _tailNode, symObjAddr: 0x2B38, symBinAddr: 0x1B5EC0, symSize: 0x0 }
+  - { offset: 0x1C4205, size: 0x8, addend: 0x0, symName: _rootNode, symObjAddr: 0x2B78, symBinAddr: 0x1B5E70, symSize: 0x0 }
+  - { offset: 0x1C430B, size: 0x8, addend: 0x0, symName: _tailNode, symObjAddr: 0x2BC8, symBinAddr: 0x1B5EC0, symSize: 0x0 }
   - { offset: 0x1C4326, size: 0x8, addend: 0x0, symName: _binaryImagesMutex, symObjAddr: 0x2F8, symBinAddr: 0x1B1140, symSize: 0x0 }
-  - { offset: 0x1C433C, size: 0x8, addend: 0x0, symName: _imageAddedCallback, symObjAddr: 0x2B40, symBinAddr: 0x1B5EC8, symSize: 0x0 }
-  - { offset: 0x1C4373, size: 0x8, addend: 0x0, symName: _imageRemovedCallback, symObjAddr: 0x2B48, symBinAddr: 0x1B5ED0, symSize: 0x0 }
+  - { offset: 0x1C433C, size: 0x8, addend: 0x0, symName: _imageAddedCallback, symObjAddr: 0x2BD0, symBinAddr: 0x1B5EC8, symSize: 0x0 }
+  - { offset: 0x1C4373, size: 0x8, addend: 0x0, symName: _imageRemovedCallback, symObjAddr: 0x2BD8, symBinAddr: 0x1B5ED0, symSize: 0x0 }
   - { offset: 0x1C4384, size: 0x8, addend: 0x0, symName: _sentrycrashbic_iterateOverImages, symObjAddr: 0x0, symBinAddr: 0x19338, symSize: 0x68 }
   - { offset: 0x1C43D2, size: 0x8, addend: 0x0, symName: _sentrycrashbic_startCache, symObjAddr: 0x68, symBinAddr: 0x193A0, symSize: 0x68 }
   - { offset: 0x1C4498, size: 0x8, addend: 0x0, symName: _binaryImageAdded, symObjAddr: 0xD0, symBinAddr: 0x19408, symSize: 0x100 }
@@ -696,12 +696,12 @@ relocations:
   - { offset: 0x1C476D, size: 0x8, addend: 0x0, symName: _sentrycrashbic_registerAddedCallback, symObjAddr: 0x268, symBinAddr: 0x195A0, symSize: 0x84 }
   - { offset: 0x1C481A, size: 0x8, addend: 0x0, symName: _sentrycrashbic_registerRemovedCallback, symObjAddr: 0x2EC, symBinAddr: 0x19624, symSize: 0xC }
   - { offset: 0x1C48A4, size: 0x8, addend: 0x0, symName: _sentrycrash_install, symObjAddr: 0x0, symBinAddr: 0x19630, symSize: 0x11C }
-  - { offset: 0x1C48CC, size: 0x8, addend: 0x0, symName: _g_installed, symObjAddr: 0x4AF0, symBinAddr: 0x1B5ED8, symSize: 0x0 }
+  - { offset: 0x1C48CC, size: 0x8, addend: 0x0, symName: _g_installed, symObjAddr: 0x4B80, symBinAddr: 0x1B5ED8, symSize: 0x0 }
   - { offset: 0x1C48EE, size: 0x8, addend: 0x0, symName: _g_monitoring, symObjAddr: 0x3F4, symBinAddr: 0x1B1180, symSize: 0x0 }
-  - { offset: 0x1C4944, size: 0x8, addend: 0x0, symName: _g_lastCrashReportFilePath, symObjAddr: 0x4B10, symBinAddr: 0x1B5EF8, symSize: 0x0 }
-  - { offset: 0x1C4967, size: 0x8, addend: 0x0, symName: _g_saveScreenShot, symObjAddr: 0x4AF8, symBinAddr: 0x1B5EE0, symSize: 0x0 }
-  - { offset: 0x1C4993, size: 0x8, addend: 0x0, symName: _g_saveViewHierarchy, symObjAddr: 0x4B00, symBinAddr: 0x1B5EE8, symSize: 0x0 }
-  - { offset: 0x1C49A9, size: 0x8, addend: 0x0, symName: _g_saveTransaction, symObjAddr: 0x4B08, symBinAddr: 0x1B5EF0, symSize: 0x0 }
+  - { offset: 0x1C4944, size: 0x8, addend: 0x0, symName: _g_lastCrashReportFilePath, symObjAddr: 0x4BA0, symBinAddr: 0x1B5EF8, symSize: 0x0 }
+  - { offset: 0x1C4967, size: 0x8, addend: 0x0, symName: _g_saveScreenShot, symObjAddr: 0x4B88, symBinAddr: 0x1B5EE0, symSize: 0x0 }
+  - { offset: 0x1C4993, size: 0x8, addend: 0x0, symName: _g_saveViewHierarchy, symObjAddr: 0x4B90, symBinAddr: 0x1B5EE8, symSize: 0x0 }
+  - { offset: 0x1C49A9, size: 0x8, addend: 0x0, symName: _g_saveTransaction, symObjAddr: 0x4B98, symBinAddr: 0x1B5EF0, symSize: 0x0 }
   - { offset: 0x1C49D4, size: 0x8, addend: 0x0, symName: _sentrycrash_install, symObjAddr: 0x0, symBinAddr: 0x19630, symSize: 0x11C }
   - { offset: 0x1C4FE7, size: 0x8, addend: 0x0, symName: _onCrash, symObjAddr: 0x11C, symBinAddr: 0x1974C, symSize: 0x110 }
   - { offset: 0x1C51C1, size: 0x8, addend: 0x0, symName: _sentrycrash_setMonitoring, symObjAddr: 0x22C, symBinAddr: 0x1985C, symSize: 0x30 }
@@ -741,17 +741,17 @@ relocations:
   - { offset: 0x1C57B2, size: 0x8, addend: 0x0, symName: _sentrycrash_hasSaveTransaction, symObjAddr: 0x3CC, symBinAddr: 0x199FC, symSize: 0x14 }
   - { offset: 0x1C57CD, size: 0x8, addend: 0x0, symName: _sentrycrash_invokeSaveTransaction, symObjAddr: 0x3E0, symBinAddr: 0x19A10, symSize: 0x14 }
   - { offset: 0x1C58C6, size: 0x8, addend: 0x0, symName: _sentrycrashccd_init, symObjAddr: 0x0, symBinAddr: 0x19A24, symSize: 0xC8 }
-  - { offset: 0x1C58EE, size: 0x8, addend: 0x0, symName: _g_pollingIntervalInSeconds, symObjAddr: 0x3CF4, symBinAddr: 0x1B60F4, symSize: 0x0 }
-  - { offset: 0x1C590B, size: 0x8, addend: 0x0, symName: _g_cacheThread, symObjAddr: 0x3CF8, symBinAddr: 0x1B60F8, symSize: 0x0 }
-  - { offset: 0x1C5921, size: 0x8, addend: 0x0, symName: _g_allMachThreads, symObjAddr: 0x3D18, symBinAddr: 0x1B6118, symSize: 0x0 }
-  - { offset: 0x1C594E, size: 0x8, addend: 0x0, symName: _g_allThreadNames, symObjAddr: 0x3D08, symBinAddr: 0x1B6108, symSize: 0x0 }
-  - { offset: 0x1C5973, size: 0x8, addend: 0x0, symName: _g_allQueueNames, symObjAddr: 0x3D20, symBinAddr: 0x1B6120, symSize: 0x0 }
-  - { offset: 0x1C5989, size: 0x8, addend: 0x0, symName: _g_allThreadsCount, symObjAddr: 0x3D10, symBinAddr: 0x1B6110, symSize: 0x0 }
-  - { offset: 0x1C599F, size: 0x8, addend: 0x0, symName: _g_semaphoreCount, symObjAddr: 0x3D00, symBinAddr: 0x1B6100, symSize: 0x0 }
-  - { offset: 0x1C59B5, size: 0x8, addend: 0x0, symName: _g_hasThreadStarted, symObjAddr: 0x3CF0, symBinAddr: 0x1B60F0, symSize: 0x0 }
+  - { offset: 0x1C58EE, size: 0x8, addend: 0x0, symName: _g_pollingIntervalInSeconds, symObjAddr: 0x3D84, symBinAddr: 0x1B60F4, symSize: 0x0 }
+  - { offset: 0x1C590B, size: 0x8, addend: 0x0, symName: _g_cacheThread, symObjAddr: 0x3D88, symBinAddr: 0x1B60F8, symSize: 0x0 }
+  - { offset: 0x1C5921, size: 0x8, addend: 0x0, symName: _g_allMachThreads, symObjAddr: 0x3DA8, symBinAddr: 0x1B6118, symSize: 0x0 }
+  - { offset: 0x1C594E, size: 0x8, addend: 0x0, symName: _g_allThreadNames, symObjAddr: 0x3D98, symBinAddr: 0x1B6108, symSize: 0x0 }
+  - { offset: 0x1C5973, size: 0x8, addend: 0x0, symName: _g_allQueueNames, symObjAddr: 0x3DB0, symBinAddr: 0x1B6120, symSize: 0x0 }
+  - { offset: 0x1C5989, size: 0x8, addend: 0x0, symName: _g_allThreadsCount, symObjAddr: 0x3DA0, symBinAddr: 0x1B6110, symSize: 0x0 }
+  - { offset: 0x1C599F, size: 0x8, addend: 0x0, symName: _g_semaphoreCount, symObjAddr: 0x3D90, symBinAddr: 0x1B6100, symSize: 0x0 }
+  - { offset: 0x1C59B5, size: 0x8, addend: 0x0, symName: _g_hasThreadStarted, symObjAddr: 0x3D80, symBinAddr: 0x1B60F0, symSize: 0x0 }
   - { offset: 0x1C59CD, size: 0x8, addend: 0x0, symName: _monitorCachedData, symObjAddr: 0xC8, symBinAddr: 0x19AEC, symSize: 0x298 }
   - { offset: 0x1C59F3, size: 0x8, addend: 0x0, symName: _monitorCachedData.quickPollCount, symObjAddr: 0x560, symBinAddr: 0x1B1184, symSize: 0x0 }
-  - { offset: 0x1C5D5C, size: 0x8, addend: 0x0, symName: _g_allPThreads, symObjAddr: 0x3D38, symBinAddr: 0x1B6138, symSize: 0x0 }
+  - { offset: 0x1C5D5C, size: 0x8, addend: 0x0, symName: _g_allPThreads, symObjAddr: 0x3DC8, symBinAddr: 0x1B6138, symSize: 0x0 }
   - { offset: 0x1C5D6E, size: 0x8, addend: 0x0, symName: _sentrycrashccd_init, symObjAddr: 0x0, symBinAddr: 0x19A24, symSize: 0xC8 }
   - { offset: 0x1C6132, size: 0x8, addend: 0x0, symName: _sentrycrashccd_close, symObjAddr: 0x360, symBinAddr: 0x19D84, symSize: 0x24 }
   - { offset: 0x1C616E, size: 0x8, addend: 0x0, symName: _sentrycrashccd_hasThreadStarted, symObjAddr: 0x384, symBinAddr: 0x19DA8, symSize: 0xC }
@@ -787,7 +787,7 @@ relocations:
   - { offset: 0x1C6CE6, size: 0x8, addend: 0x0, symName: '-[SentryCrashDefaultBinaryImageProvider getImageCount]', symObjAddr: 0x0, symBinAddr: 0x1A28C, symSize: 0x18 }
   - { offset: 0x1C6D33, size: 0x8, addend: 0x0, symName: '-[SentryCrashDefaultBinaryImageProvider getBinaryImage:isCrash:]', symObjAddr: 0x18, symBinAddr: 0x1A2A4, symSize: 0x1C }
   - { offset: 0x1C6EF0, size: 0x8, addend: 0x0, symName: '+[SentryCrashDefaultMachineContextWrapper load]', symObjAddr: 0x0, symBinAddr: 0x1A2C0, symSize: 0x24 }
-  - { offset: 0x1C6F11, size: 0x8, addend: 0x0, symName: _mainThreadID, symObjAddr: 0x37B0, symBinAddr: 0x1C0548, symSize: 0x0 }
+  - { offset: 0x1C6F11, size: 0x8, addend: 0x0, symName: _mainThreadID, symObjAddr: 0x3840, symBinAddr: 0x1C0548, symSize: 0x0 }
   - { offset: 0x1C6F3E, size: 0x8, addend: 0x0, symName: '+[SentryCrashDefaultMachineContextWrapper load]', symObjAddr: 0x0, symBinAddr: 0x1A2C0, symSize: 0x24 }
   - { offset: 0x1C6FB0, size: 0x8, addend: 0x0, symName: '-[SentryCrashDefaultMachineContextWrapper fillContextForCurrentThread:]', symObjAddr: 0x24, symBinAddr: 0x1A2E4, symSize: 0x28 }
   - { offset: 0x1C70C9, size: 0x8, addend: 0x0, symName: '-[SentryCrashDefaultMachineContextWrapper getThreadCount:]', symObjAddr: 0x4C, symBinAddr: 0x1A30C, symSize: 0x8 }
@@ -875,7 +875,7 @@ relocations:
   - { offset: 0x1CAB85, size: 0x8, addend: 0x0, symName: _sentrycrashid_generate, symObjAddr: 0x0, symBinAddr: 0x1DA08, symSize: 0xCC }
   - { offset: 0x1CABA8, size: 0x8, addend: 0x0, symName: _sentrycrashid_generate, symObjAddr: 0x0, symBinAddr: 0x1DA08, symSize: 0xCC }
   - { offset: 0x1CAC48, size: 0x8, addend: 0x0, symName: '-[SentryCrashInstallation init]', symObjAddr: 0x0, symBinAddr: 0x1DAD4, symSize: 0x68 }
-  - { offset: 0x1CAC73, size: 0x8, addend: 0x0, symName: _g_crashHandlerData, symObjAddr: 0x5D88, symBinAddr: 0x1B6140, symSize: 0x0 }
+  - { offset: 0x1CAC73, size: 0x8, addend: 0x0, symName: _g_crashHandlerData, symObjAddr: 0x5E18, symBinAddr: 0x1B6140, symSize: 0x0 }
   - { offset: 0x1CB064, size: 0x8, addend: 0x0, symName: '-[SentryCrashInstallation init]', symObjAddr: 0x0, symBinAddr: 0x1DAD4, symSize: 0x68 }
   - { offset: 0x1CB09B, size: 0x8, addend: 0x0, symName: '-[SentryCrashInstallation initWithRequiredProperties:]', symObjAddr: 0x68, symBinAddr: 0x1DB3C, symSize: 0xD0 }
   - { offset: 0x1CB0E2, size: 0x8, addend: 0x0, symName: '-[SentryCrashInstallation dealloc]', symObjAddr: 0x138, symBinAddr: 0x1DC0C, symSize: 0xDC }
@@ -911,8 +911,8 @@ relocations:
   - { offset: 0x1CBE00, size: 0x8, addend: 0x0, symName: '-[SentryCrashInstallationReporter setDispatchQueue:]', symObjAddr: 0x380, symBinAddr: 0x1E8B8, symSize: 0x14 }
   - { offset: 0x1CBE41, size: 0x8, addend: 0x0, symName: '-[SentryCrashInstallationReporter .cxx_destruct]', symObjAddr: 0x394, symBinAddr: 0x1E8CC, symSize: 0x54 }
   - { offset: 0x1CC030, size: 0x8, addend: 0x0, symName: _sentry_finishAndSaveTransaction, symObjAddr: 0x0, symBinAddr: 0x1E920, symSize: 0x90 }
-  - { offset: 0x1CC056, size: 0x8, addend: 0x0, symName: _installation, symObjAddr: 0x8980, symBinAddr: 0x1B6148, symSize: 0x0 }
-  - { offset: 0x1CC092, size: 0x8, addend: 0x0, symName: _installationToken, symObjAddr: 0x8988, symBinAddr: 0x1B6150, symSize: 0x0 }
+  - { offset: 0x1CC056, size: 0x8, addend: 0x0, symName: _installation, symObjAddr: 0x8A10, symBinAddr: 0x1B6148, symSize: 0x0 }
+  - { offset: 0x1CC092, size: 0x8, addend: 0x0, symName: _installationToken, symObjAddr: 0x8A18, symBinAddr: 0x1B6150, symSize: 0x0 }
   - { offset: 0x1CCD4A, size: 0x8, addend: 0x0, symName: _sentry_finishAndSaveTransaction, symObjAddr: 0x0, symBinAddr: 0x1E920, symSize: 0x90 }
   - { offset: 0x1CCD90, size: 0x8, addend: 0x0, symName: '-[SentryCrashIntegration init]', symObjAddr: 0x90, symBinAddr: 0x1E9B0, symSize: 0x78 }
   - { offset: 0x1CCDC7, size: 0x8, addend: 0x0, symName: '-[SentryCrashIntegration initWithCrashAdapter:andDispatchQueueWrapper:]', symObjAddr: 0x108, symBinAddr: 0x1EA28, symSize: 0x98 }
@@ -1075,20 +1075,20 @@ relocations:
   - { offset: 0x1D32E3, size: 0x8, addend: 0x0, symName: _sentrycrashmc_hasValidExceptionRegisters, symObjAddr: 0x524, symBinAddr: 0x21AB0, symSize: 0x2C }
   - { offset: 0x1D3301, size: 0x8, addend: 0x0, symName: _sentrycrashmc_hasValidExceptionRegisters, symObjAddr: 0x524, symBinAddr: 0x21AB0, symSize: 0x2C }
   - { offset: 0x1D3406, size: 0x8, addend: 0x0, symName: _sentrycrashmem_maxReadableBytes, symObjAddr: 0x0, symBinAddr: 0x21ADC, symSize: 0x1A0 }
-  - { offset: 0x1D3420, size: 0x8, addend: 0x0, symName: _g_memoryTestBuffer, symObjAddr: 0x2B7D, symBinAddr: 0x1B6158, symSize: 0x0 }
+  - { offset: 0x1D3420, size: 0x8, addend: 0x0, symName: _g_memoryTestBuffer, symObjAddr: 0x2C0D, symBinAddr: 0x1B6158, symSize: 0x0 }
   - { offset: 0x1D35AB, size: 0x8, addend: 0x0, symName: _sentrycrashmem_maxReadableBytes, symObjAddr: 0x0, symBinAddr: 0x21ADC, symSize: 0x1A0 }
   - { offset: 0x1D3858, size: 0x8, addend: 0x0, symName: _sentrycrashmem_isMemoryReadable, symObjAddr: 0x1A0, symBinAddr: 0x21C7C, symSize: 0x98 }
   - { offset: 0x1D3944, size: 0x8, addend: 0x0, symName: _sentrycrashmem_copyMaxPossible, symObjAddr: 0x238, symBinAddr: 0x21D14, symSize: 0x11C }
   - { offset: 0x1D3AD8, size: 0x8, addend: 0x0, symName: _sentrycrashmem_copySafely, symObjAddr: 0x354, symBinAddr: 0x21E30, symSize: 0x4C }
   - { offset: 0x1D3BCC, size: 0x8, addend: 0x0, symName: _sentrycrashcm_setEventCallback, symObjAddr: 0x0, symBinAddr: 0x21E7C, symSize: 0xC }
   - { offset: 0x1D3BDA, size: 0x8, addend: 0x0, symName: _sentrycrashcm_setActiveMonitors, symObjAddr: 0x18, symBinAddr: 0x21E94, symSize: 0xF8 }
-  - { offset: 0x1D3BFC, size: 0x8, addend: 0x0, symName: _sentrycrashcm_setActiveMonitors.hasWarned, symObjAddr: 0x34D0, symBinAddr: 0x1B8960, symSize: 0x0 }
-  - { offset: 0x1D3D43, size: 0x8, addend: 0x0, symName: _g_onExceptionEvent, symObjAddr: 0x34C8, symBinAddr: 0x1B8958, symSize: 0x0 }
-  - { offset: 0x1D423C, size: 0x8, addend: 0x0, symName: _g_requiresAsyncSafety, symObjAddr: 0x34D1, symBinAddr: 0x1B8961, symSize: 0x0 }
+  - { offset: 0x1D3BFC, size: 0x8, addend: 0x0, symName: _sentrycrashcm_setActiveMonitors.hasWarned, symObjAddr: 0x3560, symBinAddr: 0x1B8960, symSize: 0x0 }
+  - { offset: 0x1D3D43, size: 0x8, addend: 0x0, symName: _g_onExceptionEvent, symObjAddr: 0x3558, symBinAddr: 0x1B8958, symSize: 0x0 }
+  - { offset: 0x1D423C, size: 0x8, addend: 0x0, symName: _g_requiresAsyncSafety, symObjAddr: 0x3561, symBinAddr: 0x1B8961, symSize: 0x0 }
   - { offset: 0x1D425F, size: 0x8, addend: 0x0, symName: _g_monitors, symObjAddr: 0x258, symBinAddr: 0x15E3E8, symSize: 0x0 }
-  - { offset: 0x1D4302, size: 0x8, addend: 0x0, symName: _g_activeMonitors, symObjAddr: 0x34D4, symBinAddr: 0x1B8964, symSize: 0x0 }
-  - { offset: 0x1D4318, size: 0x8, addend: 0x0, symName: _g_handlingFatalException, symObjAddr: 0x34D8, symBinAddr: 0x1B8968, symSize: 0x0 }
-  - { offset: 0x1D4335, size: 0x8, addend: 0x0, symName: _g_crashedDuringExceptionHandling, symObjAddr: 0x34D9, symBinAddr: 0x1B8969, symSize: 0x0 }
+  - { offset: 0x1D4302, size: 0x8, addend: 0x0, symName: _g_activeMonitors, symObjAddr: 0x3564, symBinAddr: 0x1B8964, symSize: 0x0 }
+  - { offset: 0x1D4318, size: 0x8, addend: 0x0, symName: _g_handlingFatalException, symObjAddr: 0x3568, symBinAddr: 0x1B8968, symSize: 0x0 }
+  - { offset: 0x1D4335, size: 0x8, addend: 0x0, symName: _g_crashedDuringExceptionHandling, symObjAddr: 0x3569, symBinAddr: 0x1B8969, symSize: 0x0 }
   - { offset: 0x1D4346, size: 0x8, addend: 0x0, symName: _sentrycrashcm_setEventCallback, symObjAddr: 0x0, symBinAddr: 0x21E7C, symSize: 0xC }
   - { offset: 0x1D436B, size: 0x8, addend: 0x0, symName: _sentrycrashcm_getEventCallback, symObjAddr: 0xC, symBinAddr: 0x21E88, symSize: 0xC }
   - { offset: 0x1D4404, size: 0x8, addend: 0x0, symName: _sentrycrashcm_getActiveMonitors, symObjAddr: 0x110, symBinAddr: 0x21F8C, symSize: 0xC }
@@ -1097,10 +1097,10 @@ relocations:
   - { offset: 0x1D4661, size: 0x8, addend: 0x0, symName: _sentrycrashstate_initialize, symObjAddr: 0x0, symBinAddr: 0x220D4, symSize: 0x1D4 }
   - { offset: 0x1D466F, size: 0x8, addend: 0x0, symName: _sentrycrashcm_appstate_getAPI, symObjAddr: 0x7CC, symBinAddr: 0x228A0, symSize: 0xC }
   - { offset: 0x1D4697, size: 0x8, addend: 0x0, symName: _sentrycrashcm_appstate_getAPI.api, symObjAddr: 0xA90, symBinAddr: 0x1B1248, symSize: 0x0 }
-  - { offset: 0x1D4BE2, size: 0x8, addend: 0x0, symName: _g_stateFilePath, symObjAddr: 0x6598, symBinAddr: 0x1B8978, symSize: 0x0 }
-  - { offset: 0x1D4BF8, size: 0x8, addend: 0x0, symName: _g_state, symObjAddr: 0x65A0, symBinAddr: 0x1B8980, symSize: 0x0 }
-  - { offset: 0x1D4CBA, size: 0x8, addend: 0x0, symName: _g_crashstate_initialize_time, symObjAddr: 0x6590, symBinAddr: 0x1B8970, symSize: 0x0 }
-  - { offset: 0x1D4CD0, size: 0x8, addend: 0x0, symName: _g_isEnabled, symObjAddr: 0x65F0, symBinAddr: 0x1B89D0, symSize: 0x0 }
+  - { offset: 0x1D4BE2, size: 0x8, addend: 0x0, symName: _g_stateFilePath, symObjAddr: 0x6628, symBinAddr: 0x1B8978, symSize: 0x0 }
+  - { offset: 0x1D4BF8, size: 0x8, addend: 0x0, symName: _g_state, symObjAddr: 0x6630, symBinAddr: 0x1B8980, symSize: 0x0 }
+  - { offset: 0x1D4CBA, size: 0x8, addend: 0x0, symName: _g_crashstate_initialize_time, symObjAddr: 0x6620, symBinAddr: 0x1B8970, symSize: 0x0 }
+  - { offset: 0x1D4CD0, size: 0x8, addend: 0x0, symName: _g_isEnabled, symObjAddr: 0x6680, symBinAddr: 0x1B89D0, symSize: 0x0 }
   - { offset: 0x1D4EC7, size: 0x8, addend: 0x0, symName: _sentrycrashstate_initialize, symObjAddr: 0x0, symBinAddr: 0x220D4, symSize: 0x1D4 }
   - { offset: 0x1D5161, size: 0x8, addend: 0x0, symName: _sentrycrashstate_reset, symObjAddr: 0x1D4, symBinAddr: 0x222A8, symSize: 0x78 }
   - { offset: 0x1D518B, size: 0x8, addend: 0x0, symName: _saveState, symObjAddr: 0x24C, symBinAddr: 0x22320, symSize: 0x1F8 }
@@ -1147,19 +1147,19 @@ relocations:
   - { offset: 0x1D747E, size: 0x8, addend: 0x0, symName: _sentrycrashcm_isReservedThread, symObjAddr: 0x0, symBinAddr: 0x2309C, symSize: 0x20 }
   - { offset: 0x1D748C, size: 0x8, addend: 0x0, symName: _sentrycrashcm_machexception_getAPI, symObjAddr: 0x40, symBinAddr: 0x230DC, symSize: 0xC }
   - { offset: 0x1D74B4, size: 0x8, addend: 0x0, symName: _sentrycrashcm_machexception_getAPI.api, symObjAddr: 0x800, symBinAddr: 0x1B1278, symSize: 0x0 }
-  - { offset: 0x1D79FF, size: 0x8, addend: 0x0, symName: _g_primaryMachThread, symObjAddr: 0x5F68, symBinAddr: 0x1B8F50, symSize: 0x0 }
-  - { offset: 0x1D7A15, size: 0x8, addend: 0x0, symName: _g_secondaryMachThread, symObjAddr: 0x5F6C, symBinAddr: 0x1B8F54, symSize: 0x0 }
-  - { offset: 0x1D7A2B, size: 0x8, addend: 0x0, symName: _g_isEnabled, symObjAddr: 0x5F70, symBinAddr: 0x1B8F58, symSize: 0x0 }
-  - { offset: 0x1D7A46, size: 0x8, addend: 0x0, symName: _g_isInstalled, symObjAddr: 0x5F71, symBinAddr: 0x1B8F59, symSize: 0x0 }
-  - { offset: 0x1D7A5C, size: 0x8, addend: 0x0, symName: _g_primaryEventID, symObjAddr: 0x5F72, symBinAddr: 0x1B8F5A, symSize: 0x0 }
-  - { offset: 0x1D7A7E, size: 0x8, addend: 0x0, symName: _g_secondaryEventID, symObjAddr: 0x5F97, symBinAddr: 0x1B8F7F, symSize: 0x0 }
-  - { offset: 0x1D7A94, size: 0x8, addend: 0x0, symName: _g_previousExceptionPorts, symObjAddr: 0x5FBC, symBinAddr: 0x1B8FA4, symSize: 0x0 }
-  - { offset: 0x1D7B1B, size: 0x8, addend: 0x0, symName: _g_exceptionPort, symObjAddr: 0x60A0, symBinAddr: 0x1B9088, symSize: 0x0 }
-  - { offset: 0x1D7B31, size: 0x8, addend: 0x0, symName: _g_secondaryPThread, symObjAddr: 0x60A8, symBinAddr: 0x1B9090, symSize: 0x0 }
-  - { offset: 0x1D7B47, size: 0x8, addend: 0x0, symName: _g_isHandlingCrash, symObjAddr: 0x60B8, symBinAddr: 0x1B90A0, symSize: 0x0 }
-  - { offset: 0x1D7B64, size: 0x8, addend: 0x0, symName: _g_monitorContext, symObjAddr: 0x60C0, symBinAddr: 0x1B90A8, symSize: 0x0 }
-  - { offset: 0x1D7B85, size: 0x8, addend: 0x0, symName: _g_stackCursor, symObjAddr: 0x6288, symBinAddr: 0x1B9270, symSize: 0x0 }
-  - { offset: 0x1D7C8E, size: 0x8, addend: 0x0, symName: _g_primaryPThread, symObjAddr: 0x60B0, symBinAddr: 0x1B9098, symSize: 0x0 }
+  - { offset: 0x1D79FF, size: 0x8, addend: 0x0, symName: _g_primaryMachThread, symObjAddr: 0x5FF8, symBinAddr: 0x1B8F50, symSize: 0x0 }
+  - { offset: 0x1D7A15, size: 0x8, addend: 0x0, symName: _g_secondaryMachThread, symObjAddr: 0x5FFC, symBinAddr: 0x1B8F54, symSize: 0x0 }
+  - { offset: 0x1D7A2B, size: 0x8, addend: 0x0, symName: _g_isEnabled, symObjAddr: 0x6000, symBinAddr: 0x1B8F58, symSize: 0x0 }
+  - { offset: 0x1D7A46, size: 0x8, addend: 0x0, symName: _g_isInstalled, symObjAddr: 0x6001, symBinAddr: 0x1B8F59, symSize: 0x0 }
+  - { offset: 0x1D7A5C, size: 0x8, addend: 0x0, symName: _g_primaryEventID, symObjAddr: 0x6002, symBinAddr: 0x1B8F5A, symSize: 0x0 }
+  - { offset: 0x1D7A7E, size: 0x8, addend: 0x0, symName: _g_secondaryEventID, symObjAddr: 0x6027, symBinAddr: 0x1B8F7F, symSize: 0x0 }
+  - { offset: 0x1D7A94, size: 0x8, addend: 0x0, symName: _g_previousExceptionPorts, symObjAddr: 0x604C, symBinAddr: 0x1B8FA4, symSize: 0x0 }
+  - { offset: 0x1D7B1B, size: 0x8, addend: 0x0, symName: _g_exceptionPort, symObjAddr: 0x6130, symBinAddr: 0x1B9088, symSize: 0x0 }
+  - { offset: 0x1D7B31, size: 0x8, addend: 0x0, symName: _g_secondaryPThread, symObjAddr: 0x6138, symBinAddr: 0x1B9090, symSize: 0x0 }
+  - { offset: 0x1D7B47, size: 0x8, addend: 0x0, symName: _g_isHandlingCrash, symObjAddr: 0x6148, symBinAddr: 0x1B90A0, symSize: 0x0 }
+  - { offset: 0x1D7B64, size: 0x8, addend: 0x0, symName: _g_monitorContext, symObjAddr: 0x6150, symBinAddr: 0x1B90A8, symSize: 0x0 }
+  - { offset: 0x1D7B85, size: 0x8, addend: 0x0, symName: _g_stackCursor, symObjAddr: 0x6318, symBinAddr: 0x1B9270, symSize: 0x0 }
+  - { offset: 0x1D7C8E, size: 0x8, addend: 0x0, symName: _g_primaryPThread, symObjAddr: 0x6140, symBinAddr: 0x1B9098, symSize: 0x0 }
   - { offset: 0x1D7C98, size: 0x8, addend: 0x0, symName: _sentrycrashcm_isReservedThread, symObjAddr: 0x0, symBinAddr: 0x2309C, symSize: 0x20 }
   - { offset: 0x1D7CC5, size: 0x8, addend: 0x0, symName: _sentrycrashcm_hasReservedThreads, symObjAddr: 0x20, symBinAddr: 0x230BC, symSize: 0x20 }
   - { offset: 0x1D7D63, size: 0x8, addend: 0x0, symName: _setEnabled, symObjAddr: 0x4C, symBinAddr: 0x230E8, symSize: 0x354 }
@@ -1170,9 +1170,9 @@ relocations:
   - { offset: 0x1D8958, size: 0x8, addend: 0x0, symName: _sentrycrashcm_nsexception_getAPI, symObjAddr: 0x0, symBinAddr: 0x23898, symSize: 0xC }
   - { offset: 0x1D8972, size: 0x8, addend: 0x0, symName: _sentrycrashcm_nsexception_getAPI, symObjAddr: 0x0, symBinAddr: 0x23898, symSize: 0xC }
   - { offset: 0x1D8998, size: 0x8, addend: 0x0, symName: _sentrycrashcm_nsexception_getAPI.api, symObjAddr: 0x498, symBinAddr: 0x1B1290, symSize: 0x0 }
-  - { offset: 0x1D8EDC, size: 0x8, addend: 0x0, symName: _g_isEnabled, symObjAddr: 0x45F8, symBinAddr: 0x1B95D8, symSize: 0x0 }
-  - { offset: 0x1D8EF7, size: 0x8, addend: 0x0, symName: _g_previousUncaughtExceptionHandler, symObjAddr: 0x4600, symBinAddr: 0x1B95E0, symSize: 0x0 }
-  - { offset: 0x1D8F17, size: 0x8, addend: 0x0, symName: _g_monitorContext, symObjAddr: 0x4608, symBinAddr: 0x1B95E8, symSize: 0x0 }
+  - { offset: 0x1D8EDC, size: 0x8, addend: 0x0, symName: _g_isEnabled, symObjAddr: 0x4688, symBinAddr: 0x1B95D8, symSize: 0x0 }
+  - { offset: 0x1D8EF7, size: 0x8, addend: 0x0, symName: _g_previousUncaughtExceptionHandler, symObjAddr: 0x4690, symBinAddr: 0x1B95E0, symSize: 0x0 }
+  - { offset: 0x1D8F17, size: 0x8, addend: 0x0, symName: _g_monitorContext, symObjAddr: 0x4698, symBinAddr: 0x1B95E8, symSize: 0x0 }
   - { offset: 0x1D8F2C, size: 0x8, addend: 0x0, symName: _setEnabled, symObjAddr: 0xC, symBinAddr: 0x238A4, symSize: 0x118 }
   - { offset: 0x1D9024, size: 0x8, addend: 0x0, symName: _isEnabled, symObjAddr: 0x124, symBinAddr: 0x239BC, symSize: 0xC }
   - { offset: 0x1D91F9, size: 0x8, addend: 0x0, symName: _handleUncaughtException, symObjAddr: 0x130, symBinAddr: 0x239C8, symSize: 0x33C }
@@ -1180,13 +1180,13 @@ relocations:
   - { offset: 0x1D95DB, size: 0x8, addend: 0x0, symName: _sentrycrashcm_setEnableSigtermReporting, symObjAddr: 0x0, symBinAddr: 0x23D04, symSize: 0xC }
   - { offset: 0x1D95E9, size: 0x8, addend: 0x0, symName: _sentrycrashcm_signal_getAPI, symObjAddr: 0xC, symBinAddr: 0x23D10, symSize: 0xC }
   - { offset: 0x1D9611, size: 0x8, addend: 0x0, symName: _sentrycrashcm_signal_getAPI.api, symObjAddr: 0x488, symBinAddr: 0x1B12A8, symSize: 0x0 }
-  - { offset: 0x1D9B5C, size: 0x8, addend: 0x0, symName: _g_isSigtermReportingEnabled, symObjAddr: 0x4438, symBinAddr: 0x1B97B0, symSize: 0x0 }
-  - { offset: 0x1D9B72, size: 0x8, addend: 0x0, symName: _g_isEnabled, symObjAddr: 0x4439, symBinAddr: 0x1B97B1, symSize: 0x0 }
-  - { offset: 0x1D9B8D, size: 0x8, addend: 0x0, symName: _g_eventID, symObjAddr: 0x443A, symBinAddr: 0x1B97B2, symSize: 0x0 }
-  - { offset: 0x1D9BAF, size: 0x8, addend: 0x0, symName: _g_signalStack, symObjAddr: 0x4460, symBinAddr: 0x1B97D8, symSize: 0x0 }
-  - { offset: 0x1D9BC5, size: 0x8, addend: 0x0, symName: _g_previousSignalHandlers, symObjAddr: 0x4478, symBinAddr: 0x1B97F0, symSize: 0x0 }
-  - { offset: 0x1D9BE0, size: 0x8, addend: 0x0, symName: _g_stackCursor, symObjAddr: 0x4480, symBinAddr: 0x1B97F8, symSize: 0x0 }
-  - { offset: 0x1D9CE9, size: 0x8, addend: 0x0, symName: _g_monitorContext, symObjAddr: 0x47E8, symBinAddr: 0x1B9B60, symSize: 0x0 }
+  - { offset: 0x1D9B5C, size: 0x8, addend: 0x0, symName: _g_isSigtermReportingEnabled, symObjAddr: 0x44C8, symBinAddr: 0x1B97B0, symSize: 0x0 }
+  - { offset: 0x1D9B72, size: 0x8, addend: 0x0, symName: _g_isEnabled, symObjAddr: 0x44C9, symBinAddr: 0x1B97B1, symSize: 0x0 }
+  - { offset: 0x1D9B8D, size: 0x8, addend: 0x0, symName: _g_eventID, symObjAddr: 0x44CA, symBinAddr: 0x1B97B2, symSize: 0x0 }
+  - { offset: 0x1D9BAF, size: 0x8, addend: 0x0, symName: _g_signalStack, symObjAddr: 0x44F0, symBinAddr: 0x1B97D8, symSize: 0x0 }
+  - { offset: 0x1D9BC5, size: 0x8, addend: 0x0, symName: _g_previousSignalHandlers, symObjAddr: 0x4508, symBinAddr: 0x1B97F0, symSize: 0x0 }
+  - { offset: 0x1D9BE0, size: 0x8, addend: 0x0, symName: _g_stackCursor, symObjAddr: 0x4510, symBinAddr: 0x1B97F8, symSize: 0x0 }
+  - { offset: 0x1D9CE9, size: 0x8, addend: 0x0, symName: _g_monitorContext, symObjAddr: 0x4878, symBinAddr: 0x1B9B60, symSize: 0x0 }
   - { offset: 0x1D9CFE, size: 0x8, addend: 0x0, symName: _sentrycrashcm_setEnableSigtermReporting, symObjAddr: 0x0, symBinAddr: 0x23D04, symSize: 0xC }
   - { offset: 0x1D9DCE, size: 0x8, addend: 0x0, symName: _setEnabled, symObjAddr: 0x18, symBinAddr: 0x23D1C, symSize: 0x2CC }
   - { offset: 0x1DA0D3, size: 0x8, addend: 0x0, symName: _isEnabled, symObjAddr: 0x2E4, symBinAddr: 0x23FE8, symSize: 0xC }
@@ -1195,8 +1195,8 @@ relocations:
   - { offset: 0x1DA3CB, size: 0x8, addend: 0x0, symName: _sentrycrashcm_system_freememory_size, symObjAddr: 0x0, symBinAddr: 0x24184, symSize: 0x38 }
   - { offset: 0x1DA3E5, size: 0x8, addend: 0x0, symName: _sentrycrashcm_system_getAPI, symObjAddr: 0x40, symBinAddr: 0x241C4, symSize: 0xC }
   - { offset: 0x1DA40D, size: 0x8, addend: 0x0, symName: _sentrycrashcm_system_getAPI.api, symObjAddr: 0xDB0, symBinAddr: 0x1B12C0, symSize: 0x0 }
-  - { offset: 0x1DA951, size: 0x8, addend: 0x0, symName: _g_isEnabled, symObjAddr: 0x7930, symBinAddr: 0x1B9D30, symSize: 0x0 }
-  - { offset: 0x1DA96C, size: 0x8, addend: 0x0, symName: _g_systemData, symObjAddr: 0x7940, symBinAddr: 0x1B9D40, symSize: 0x0 }
+  - { offset: 0x1DA951, size: 0x8, addend: 0x0, symName: _g_isEnabled, symObjAddr: 0x79C0, symBinAddr: 0x1B9D30, symSize: 0x0 }
+  - { offset: 0x1DA96C, size: 0x8, addend: 0x0, symName: _g_systemData, symObjAddr: 0x79D0, symBinAddr: 0x1B9D40, symSize: 0x0 }
   - { offset: 0x1DAB00, size: 0x8, addend: 0x0, symName: _sentrycrashcm_system_freememory_size, symObjAddr: 0x0, symBinAddr: 0x24184, symSize: 0x38 }
   - { offset: 0x1DAB60, size: 0x8, addend: 0x0, symName: _VMStats, symObjAddr: 0x9E0, symBinAddr: 0x24B64, symSize: 0xE0 }
   - { offset: 0x1DAC8F, size: 0x8, addend: 0x0, symName: _sentrycrash_isSimulatorBuild, symObjAddr: 0x38, symBinAddr: 0x241BC, symSize: 0x8 }
@@ -1313,14 +1313,14 @@ relocations:
   - { offset: 0x1E118C, size: 0x8, addend: 0x0, symName: _objectIsValid, symObjAddr: 0x1BC4, symBinAddr: 0x26304, symSize: 0x8 }
   - { offset: 0x1E1278, size: 0x8, addend: 0x0, symName: _sentrycrashreport_writeRecrashReport, symObjAddr: 0x0, symBinAddr: 0x26350, symSize: 0x2E8 }
   - { offset: 0x1E1286, size: 0x8, addend: 0x0, symName: _sentrycrashreport_writeRecrashReport, symObjAddr: 0x0, symBinAddr: 0x26350, symSize: 0x2E8 }
-  - { offset: 0x1E12AA, size: 0x8, addend: 0x0, symName: _sentrycrashreport_writeRecrashReport.tempPath, symObjAddr: 0x111C0, symBinAddr: 0x1B9E00, symSize: 0x0 }
+  - { offset: 0x1E12AA, size: 0x8, addend: 0x0, symName: _sentrycrashreport_writeRecrashReport.tempPath, symObjAddr: 0x11250, symBinAddr: 0x1B9E00, symSize: 0x0 }
   - { offset: 0x1E1702, size: 0x8, addend: 0x0, symName: _sentrycrashreport_setUserInfoJSON, symObjAddr: 0x1894, symBinAddr: 0x27BE4, symSize: 0x58 }
   - { offset: 0x1E1726, size: 0x8, addend: 0x0, symName: _sentrycrashreport_setUserInfoJSON.mutex, symObjAddr: 0x2E80, symBinAddr: 0x1B15D8, symSize: 0x0 }
-  - { offset: 0x1E178E, size: 0x8, addend: 0x0, symName: _g_userInfoJSON, symObjAddr: 0x113D0, symBinAddr: 0x1BA010, symSize: 0x0 }
-  - { offset: 0x1E17AE, size: 0x8, addend: 0x0, symName: _g_introspectionRules.0, symObjAddr: 0x113B8, symBinAddr: 0x1B9FF8, symSize: 0x0 }
-  - { offset: 0x1E17BB, size: 0x8, addend: 0x0, symName: _g_introspectionRules.1, symObjAddr: 0x113C0, symBinAddr: 0x1BA000, symSize: 0x0 }
-  - { offset: 0x1E17C6, size: 0x8, addend: 0x0, symName: _g_introspectionRules.2, symObjAddr: 0x113C8, symBinAddr: 0x1BA008, symSize: 0x0 }
-  - { offset: 0x1E1825, size: 0x8, addend: 0x0, symName: _g_logFilename, symObjAddr: 0x113D8, symBinAddr: 0x1BA018, symSize: 0x0 }
+  - { offset: 0x1E178E, size: 0x8, addend: 0x0, symName: _g_userInfoJSON, symObjAddr: 0x11460, symBinAddr: 0x1BA010, symSize: 0x0 }
+  - { offset: 0x1E17AE, size: 0x8, addend: 0x0, symName: _g_introspectionRules.0, symObjAddr: 0x11448, symBinAddr: 0x1B9FF8, symSize: 0x0 }
+  - { offset: 0x1E17BB, size: 0x8, addend: 0x0, symName: _g_introspectionRules.1, symObjAddr: 0x11450, symBinAddr: 0x1BA000, symSize: 0x0 }
+  - { offset: 0x1E17C6, size: 0x8, addend: 0x0, symName: _g_introspectionRules.2, symObjAddr: 0x11458, symBinAddr: 0x1BA008, symSize: 0x0 }
+  - { offset: 0x1E1825, size: 0x8, addend: 0x0, symName: _g_logFilename, symObjAddr: 0x11468, symBinAddr: 0x1BA018, symSize: 0x0 }
   - { offset: 0x1E1F6F, size: 0x8, addend: 0x0, symName: _writeReportInfo, symObjAddr: 0x318, symBinAddr: 0x26668, symSize: 0xCC }
   - { offset: 0x1E208C, size: 0x8, addend: 0x0, symName: _writeError, symObjAddr: 0x3E4, symBinAddr: 0x26734, symSize: 0x350 }
   - { offset: 0x1E2413, size: 0x8, addend: 0x0, symName: _writeThread, symObjAddr: 0x734, symBinAddr: 0x26A84, symSize: 0x698 }
@@ -1505,10 +1505,10 @@ relocations:
   - { offset: 0x1ECBEE, size: 0x8, addend: 0x0, symName: '-[SentryCrashReportSink setDispatchQueue:]', symObjAddr: 0x704, symBinAddr: 0x30674, symSize: 0xC }
   - { offset: 0x1ECC2F, size: 0x8, addend: 0x0, symName: '-[SentryCrashReportSink .cxx_destruct]', symObjAddr: 0x710, symBinAddr: 0x30680, symSize: 0x3C }
   - { offset: 0x1ED13D, size: 0x8, addend: 0x0, symName: _sentrycrashcrs_initialize, symObjAddr: 0x0, symBinAddr: 0x306BC, symSize: 0xCC }
-  - { offset: 0x1ED165, size: 0x8, addend: 0x0, symName: _g_appName, symObjAddr: 0x4D18, symBinAddr: 0x1BA418, symSize: 0x0 }
-  - { offset: 0x1ED185, size: 0x8, addend: 0x0, symName: _g_reportsPath, symObjAddr: 0x4D20, symBinAddr: 0x1BA420, symSize: 0x0 }
+  - { offset: 0x1ED165, size: 0x8, addend: 0x0, symName: _g_appName, symObjAddr: 0x4DA8, symBinAddr: 0x1BA418, symSize: 0x0 }
+  - { offset: 0x1ED185, size: 0x8, addend: 0x0, symName: _g_reportsPath, symObjAddr: 0x4DB0, symBinAddr: 0x1BA420, symSize: 0x0 }
   - { offset: 0x1ED19B, size: 0x8, addend: 0x0, symName: _g_mutex, symObjAddr: 0x920, symBinAddr: 0x1B1678, symSize: 0x0 }
-  - { offset: 0x1ED1C5, size: 0x8, addend: 0x0, symName: _g_nextUniqueIDLow, symObjAddr: 0x4D28, symBinAddr: 0x1BA428, symSize: 0x0 }
+  - { offset: 0x1ED1C5, size: 0x8, addend: 0x0, symName: _g_nextUniqueIDLow, symObjAddr: 0x4DB8, symBinAddr: 0x1BA428, symSize: 0x0 }
   - { offset: 0x1ED1E2, size: 0x8, addend: 0x0, symName: _g_maxReportCount, symObjAddr: 0x960, symBinAddr: 0x1B16B8, symSize: 0x0 }
   - { offset: 0x1ED23A, size: 0x8, addend: 0x0, symName: _sentrycrashcrs_initialize, symObjAddr: 0x0, symBinAddr: 0x306BC, symSize: 0xCC }
   - { offset: 0x1ED39A, size: 0x8, addend: 0x0, symName: _pruneReports, symObjAddr: 0xCC, symBinAddr: 0x30788, symSize: 0xCC }
@@ -1583,7 +1583,7 @@ relocations:
   - { offset: 0x1EFED9, size: 0x8, addend: 0x0, symName: _resetCursor, symObjAddr: 0x50, symBinAddr: 0x31820, symSize: 0x30 }
   - { offset: 0x1EFF35, size: 0x8, addend: 0x0, symName: _advanceCursor, symObjAddr: 0x80, symBinAddr: 0x31850, symSize: 0xE0 }
   - { offset: 0x1F0101, size: 0x8, addend: 0x0, symName: _sentrycrashsc_setSwiftAsyncStitching, symObjAddr: 0x0, symBinAddr: 0x31930, symSize: 0xC }
-  - { offset: 0x1F011B, size: 0x8, addend: 0x0, symName: _stitchSwiftAsync, symObjAddr: 0x1CD7, symBinAddr: 0x1BA42C, symSize: 0x0 }
+  - { offset: 0x1F011B, size: 0x8, addend: 0x0, symName: _stitchSwiftAsync, symObjAddr: 0x1D67, symBinAddr: 0x1BA42C, symSize: 0x0 }
   - { offset: 0x1F01BE, size: 0x8, addend: 0x0, symName: _sentrycrashsc_setSwiftAsyncStitching, symObjAddr: 0x0, symBinAddr: 0x31930, symSize: 0xC }
   - { offset: 0x1F01E1, size: 0x8, addend: 0x0, symName: _sentrycrashsc_initSelfThread, symObjAddr: 0xC, symBinAddr: 0x3193C, symSize: 0x7C }
   - { offset: 0x1F0484, size: 0x8, addend: 0x0, symName: '-[SentryCrashStackEntryMapper initWithInAppLogic:]', symObjAddr: 0x0, symBinAddr: 0x319B8, symSize: 0x6C }
@@ -1627,11 +1627,11 @@ relocations:
   - { offset: 0x1F2245, size: 0x8, addend: 0x0, symName: _sentrycrashdl_convertBinaryImageUUID, symObjAddr: 0x0, symBinAddr: 0x32A48, symSize: 0x12C }
   - { offset: 0x1F2338, size: 0x8, addend: 0x0, symName: '+[SentryCrashWrapper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x32B74, symSize: 0x74 }
   - { offset: 0x1F2352, size: 0x8, addend: 0x0, symName: '+[SentryCrashWrapper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x32B74, symSize: 0x74 }
-  - { offset: 0x1F237C, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x5BA0, symBinAddr: 0x1BA430, symSize: 0x0 }
-  - { offset: 0x1F2392, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x5BA8, symBinAddr: 0x1BA438, symSize: 0x0 }
+  - { offset: 0x1F237C, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x5C38, symBinAddr: 0x1BA430, symSize: 0x0 }
+  - { offset: 0x1F2392, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x5C40, symBinAddr: 0x1BA438, symSize: 0x0 }
   - { offset: 0x1F2400, size: 0x8, addend: 0x0, symName: '-[SentryCrashWrapper systemInfo]', symObjAddr: 0x1F8, symBinAddr: 0x32D6C, symSize: 0x30 }
-  - { offset: 0x1F242A, size: 0x8, addend: 0x0, symName: _systemInfo.sharedInfo, symObjAddr: 0x5BB0, symBinAddr: 0x1BA440, symSize: 0x0 }
-  - { offset: 0x1F2440, size: 0x8, addend: 0x0, symName: _systemInfo.onceToken, symObjAddr: 0x5BB8, symBinAddr: 0x1BA448, symSize: 0x0 }
+  - { offset: 0x1F242A, size: 0x8, addend: 0x0, symName: _systemInfo.sharedInfo, symObjAddr: 0x5C48, symBinAddr: 0x1BA440, symSize: 0x0 }
+  - { offset: 0x1F2440, size: 0x8, addend: 0x0, symName: _systemInfo.onceToken, symObjAddr: 0x5C50, symBinAddr: 0x1BA448, symSize: 0x0 }
   - { offset: 0x1F24D5, size: 0x8, addend: 0x0, symName: '___36+[SentryCrashWrapper sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x32BE8, symSize: 0x2C }
   - { offset: 0x1F2514, size: 0x8, addend: 0x0, symName: '-[SentryCrashWrapper init]', symObjAddr: 0xA0, symBinAddr: 0x32C14, symSize: 0x58 }
   - { offset: 0x1F25E4, size: 0x8, addend: 0x0, symName: '-[SentryCrashWrapper crashedLastLaunch]', symObjAddr: 0xF8, symBinAddr: 0x32C6C, symSize: 0x64 }
@@ -1682,11 +1682,11 @@ relocations:
   - { offset: 0x1F31F1, size: 0x8, addend: 0x0, symName: '-[SentryDateUtil .cxx_destruct]', symObjAddr: 0x1C0, symBinAddr: 0x33AD0, symSize: 0xC }
   - { offset: 0x1F3452, size: 0x8, addend: 0x0, symName: _sentryGetIso8601Formatter, symObjAddr: 0x0, symBinAddr: 0x33ADC, symSize: 0x30 }
   - { offset: 0x1F346C, size: 0x8, addend: 0x0, symName: _sentryGetIso8601Formatter, symObjAddr: 0x0, symBinAddr: 0x33ADC, symSize: 0x30 }
-  - { offset: 0x1F3492, size: 0x8, addend: 0x0, symName: _sentryGetIso8601Formatter.isoFormatter, symObjAddr: 0x1E18, symBinAddr: 0x1BA450, symSize: 0x0 }
-  - { offset: 0x1F34A8, size: 0x8, addend: 0x0, symName: _sentryGetIso8601Formatter.onceToken, symObjAddr: 0x1E20, symBinAddr: 0x1BA458, symSize: 0x0 }
+  - { offset: 0x1F3492, size: 0x8, addend: 0x0, symName: _sentryGetIso8601Formatter.isoFormatter, symObjAddr: 0x1EA8, symBinAddr: 0x1BA450, symSize: 0x0 }
+  - { offset: 0x1F34A8, size: 0x8, addend: 0x0, symName: _sentryGetIso8601Formatter.onceToken, symObjAddr: 0x1EB0, symBinAddr: 0x1BA458, symSize: 0x0 }
   - { offset: 0x1F34DA, size: 0x8, addend: 0x0, symName: _sentryGetIso8601FormatterWithMillisecondPrecision, symObjAddr: 0xE8, symBinAddr: 0x33BC4, symSize: 0x30 }
-  - { offset: 0x1F3500, size: 0x8, addend: 0x0, symName: _sentryGetIso8601FormatterWithMillisecondPrecision.isoFormatter, symObjAddr: 0x1E28, symBinAddr: 0x1BA460, symSize: 0x0 }
-  - { offset: 0x1F3516, size: 0x8, addend: 0x0, symName: _sentryGetIso8601FormatterWithMillisecondPrecision.onceToken, symObjAddr: 0x1E30, symBinAddr: 0x1BA468, symSize: 0x0 }
+  - { offset: 0x1F3500, size: 0x8, addend: 0x0, symName: _sentryGetIso8601FormatterWithMillisecondPrecision.isoFormatter, symObjAddr: 0x1EB8, symBinAddr: 0x1BA460, symSize: 0x0 }
+  - { offset: 0x1F3516, size: 0x8, addend: 0x0, symName: _sentryGetIso8601FormatterWithMillisecondPrecision.onceToken, symObjAddr: 0x1EC0, symBinAddr: 0x1BA468, symSize: 0x0 }
   - { offset: 0x1F3578, size: 0x8, addend: 0x0, symName: _sentryGetIso8601Formatter.cold.1, symObjAddr: 0x2D8, symBinAddr: 0xF6128, symSize: 0x14 }
   - { offset: 0x1F3594, size: 0x8, addend: 0x0, symName: _sentryGetIso8601Formatter.cold.1, symObjAddr: 0x2D8, symBinAddr: 0xF6128, symSize: 0x14 }
   - { offset: 0x1F35A6, size: 0x8, addend: 0x0, symName: ___sentryGetIso8601Formatter_block_invoke, symObjAddr: 0x30, symBinAddr: 0x33B0C, symSize: 0xB8 }
@@ -1739,8 +1739,8 @@ relocations:
   - { offset: 0x1F4B15, size: 0x8, addend: 0x0, symName: '-[SentryDebugMeta .cxx_destruct]', symObjAddr: 0x284, symBinAddr: 0x35088, symSize: 0x78 }
   - { offset: 0x1F4BEB, size: 0x8, addend: 0x0, symName: '+[SentryDefaultObjCRuntimeWrapper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x35100, symSize: 0x74 }
   - { offset: 0x1F4C00, size: 0x8, addend: 0x0, symName: '+[SentryDefaultObjCRuntimeWrapper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x35100, symSize: 0x74 }
-  - { offset: 0x1F4C2A, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x2640, symBinAddr: 0x1BA470, symSize: 0x0 }
-  - { offset: 0x1F4C40, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x2648, symBinAddr: 0x1BA478, symSize: 0x0 }
+  - { offset: 0x1F4C2A, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x26D0, symBinAddr: 0x1BA470, symSize: 0x0 }
+  - { offset: 0x1F4C40, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x26D8, symBinAddr: 0x1BA478, symSize: 0x0 }
   - { offset: 0x1F4CFD, size: 0x8, addend: 0x0, symName: '___49+[SentryDefaultObjCRuntimeWrapper sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x35174, symSize: 0x2C }
   - { offset: 0x1F4D3C, size: 0x8, addend: 0x0, symName: '-[SentryDefaultObjCRuntimeWrapper copyClassNamesForImage:amount:]', symObjAddr: 0xA0, symBinAddr: 0x351A0, symSize: 0xC }
   - { offset: 0x1F4DE8, size: 0x8, addend: 0x0, symName: '-[SentryDefaultObjCRuntimeWrapper class_getImageName:]', symObjAddr: 0xAC, symBinAddr: 0x351AC, symSize: 0x8 }
@@ -1784,10 +1784,10 @@ relocations:
   - { offset: 0x1F624E, size: 0x8, addend: 0x0, symName: '-[SentryDelayedFramesTracker previousFrameSystemTimestamp]', symObjAddr: 0x934, symBinAddr: 0x36198, symSize: 0x8 }
   - { offset: 0x1F6285, size: 0x8, addend: 0x0, symName: '-[SentryDelayedFramesTracker .cxx_destruct]', symObjAddr: 0x93C, symBinAddr: 0x361A0, symSize: 0x30 }
   - { offset: 0x1F6550, size: 0x8, addend: 0x0, symName: '+[SentryDependencyContainer initialize]', symObjAddr: 0x0, symBinAddr: 0x361D0, symSize: 0x9C }
-  - { offset: 0x1F659E, size: 0x8, addend: 0x0, symName: _instance, symObjAddr: 0x12D60, symBinAddr: 0x1BA490, symSize: 0x0 }
-  - { offset: 0x1F7187, size: 0x8, addend: 0x0, symName: _sentryDependencyContainerDependenciesLock, symObjAddr: 0x12D58, symBinAddr: 0x1BA488, symSize: 0x0 }
-  - { offset: 0x1F719D, size: 0x8, addend: 0x0, symName: _sentryDependencyContainerInstanceLock, symObjAddr: 0x12D50, symBinAddr: 0x1BA480, symSize: 0x0 }
-  - { offset: 0x1F71B3, size: 0x8, addend: 0x0, symName: _isInitialializingDependencyContainer, symObjAddr: 0x12D68, symBinAddr: 0x1BA498, symSize: 0x0 }
+  - { offset: 0x1F659E, size: 0x8, addend: 0x0, symName: _instance, symObjAddr: 0x12DF0, symBinAddr: 0x1BA490, symSize: 0x0 }
+  - { offset: 0x1F7187, size: 0x8, addend: 0x0, symName: _sentryDependencyContainerDependenciesLock, symObjAddr: 0x12DE8, symBinAddr: 0x1BA488, symSize: 0x0 }
+  - { offset: 0x1F719D, size: 0x8, addend: 0x0, symName: _sentryDependencyContainerInstanceLock, symObjAddr: 0x12DE0, symBinAddr: 0x1BA480, symSize: 0x0 }
+  - { offset: 0x1F71B3, size: 0x8, addend: 0x0, symName: _isInitialializingDependencyContainer, symObjAddr: 0x12DF8, symBinAddr: 0x1BA498, symSize: 0x0 }
   - { offset: 0x1F7286, size: 0x8, addend: 0x0, symName: '+[SentryDependencyContainer initialize]', symObjAddr: 0x0, symBinAddr: 0x361D0, symSize: 0x9C }
   - { offset: 0x1F72B9, size: 0x8, addend: 0x0, symName: '+[SentryDependencyContainer sharedInstance]', symObjAddr: 0x9C, symBinAddr: 0x3626C, symSize: 0x94 }
   - { offset: 0x1F7335, size: 0x8, addend: 0x0, symName: '+[SentryDependencyContainer reset]', symObjAddr: 0x130, symBinAddr: 0x36300, symSize: 0x88 }
@@ -2111,7 +2111,7 @@ relocations:
   - { offset: 0x2018DB, size: 0x8, addend: 0x0, symName: '-[SentryExtraContextProvider setDeviceWrapper:]', symObjAddr: 0x590, symBinAddr: 0x3DC18, symSize: 0xC }
   - { offset: 0x20191C, size: 0x8, addend: 0x0, symName: '-[SentryExtraContextProvider .cxx_destruct]', symObjAddr: 0x59C, symBinAddr: 0x3DC24, symSize: 0x3C }
   - { offset: 0x2019F4, size: 0x8, addend: 0x0, symName: '+[SentryExtraPackages initialize]', symObjAddr: 0x0, symBinAddr: 0x3DC60, symSize: 0x5C }
-  - { offset: 0x201A1A, size: 0x8, addend: 0x0, symName: _extraPackages, symObjAddr: 0x1500, symBinAddr: 0x1BA4A0, symSize: 0x0 }
+  - { offset: 0x201A1A, size: 0x8, addend: 0x0, symName: _extraPackages, symObjAddr: 0x1598, symBinAddr: 0x1BA4A0, symSize: 0x0 }
   - { offset: 0x201A29, size: 0x8, addend: 0x0, symName: '+[SentryExtraPackages initialize]', symObjAddr: 0x0, symBinAddr: 0x3DC60, symSize: 0x5C }
   - { offset: 0x201A5C, size: 0x8, addend: 0x0, symName: '+[SentryExtraPackages addPackageName:version:]', symObjAddr: 0x5C, symBinAddr: 0x3DCBC, symSize: 0x138 }
   - { offset: 0x201AC2, size: 0x8, addend: 0x0, symName: '+[SentryExtraPackages getPackages]', symObjAddr: 0x194, symBinAddr: 0x3DDF4, symSize: 0x60 }
@@ -2158,14 +2158,14 @@ relocations:
   - { offset: 0x203464, size: 0x8, addend: 0x0, symName: '-[SentryFileIOTrackingIntegration .cxx_destruct]', symObjAddr: 0x214, symBinAddr: 0x3F444, symSize: 0x14 }
   - { offset: 0x2035A8, size: 0x8, addend: 0x0, symName: _EnvelopesPathComponent, symObjAddr: 0x5E80, symBinAddr: 0x15F590, symSize: 0x0 }
   - { offset: 0x2035B9, size: 0x8, addend: 0x0, symName: _sentryStaticCachesPath, symObjAddr: 0x2BE8, symBinAddr: 0x4202C, symSize: 0x30 }
-  - { offset: 0x2035E1, size: 0x8, addend: 0x0, symName: _sentryStaticCachesPath.sentryStaticCachesPath, symObjAddr: 0x1B908, symBinAddr: 0x1BA4A8, symSize: 0x0 }
-  - { offset: 0x2035F8, size: 0x8, addend: 0x0, symName: _sentryStaticCachesPath.onceToken, symObjAddr: 0x1B910, symBinAddr: 0x1BA4B0, symSize: 0x0 }
+  - { offset: 0x2035E1, size: 0x8, addend: 0x0, symName: _sentryStaticCachesPath.sentryStaticCachesPath, symObjAddr: 0x1B998, symBinAddr: 0x1BA4A8, symSize: 0x0 }
+  - { offset: 0x2035F8, size: 0x8, addend: 0x0, symName: _sentryStaticCachesPath.onceToken, symObjAddr: 0x1B9A0, symBinAddr: 0x1BA4B0, symSize: 0x0 }
   - { offset: 0x203626, size: 0x8, addend: 0x0, symName: _sentryStaticBasePath, symObjAddr: 0x2E74, symBinAddr: 0x422B8, symSize: 0x30 }
-  - { offset: 0x20364E, size: 0x8, addend: 0x0, symName: _sentryStaticBasePath.sentryStaticBasePath, symObjAddr: 0x1B918, symBinAddr: 0x1BA4B8, symSize: 0x0 }
-  - { offset: 0x203665, size: 0x8, addend: 0x0, symName: _sentryStaticBasePath.onceToken, symObjAddr: 0x1B920, symBinAddr: 0x1BA4C0, symSize: 0x0 }
-  - { offset: 0x203699, size: 0x8, addend: 0x0, symName: _sentryLaunchConfigFileURL, symObjAddr: 0x1B930, symBinAddr: 0x1C0550, symSize: 0x0 }
+  - { offset: 0x20364E, size: 0x8, addend: 0x0, symName: _sentryStaticBasePath.sentryStaticBasePath, symObjAddr: 0x1B9A8, symBinAddr: 0x1BA4B8, symSize: 0x0 }
+  - { offset: 0x203665, size: 0x8, addend: 0x0, symName: _sentryStaticBasePath.onceToken, symObjAddr: 0x1B9B0, symBinAddr: 0x1BA4C0, symSize: 0x0 }
+  - { offset: 0x203699, size: 0x8, addend: 0x0, symName: _sentryLaunchConfigFileURL, symObjAddr: 0x1B9C0, symBinAddr: 0x1C0550, symSize: 0x0 }
   - { offset: 0x2036A8, size: 0x8, addend: 0x0, symName: _launchProfileConfigFileURL, symObjAddr: 0x2F24, symBinAddr: 0x42368, symSize: 0x30 }
-  - { offset: 0x2036D0, size: 0x8, addend: 0x0, symName: _launchProfileConfigFileURL.onceToken, symObjAddr: 0x1B928, symBinAddr: 0x1BA4C8, symSize: 0x0 }
+  - { offset: 0x2036D0, size: 0x8, addend: 0x0, symName: _launchProfileConfigFileURL.onceToken, symObjAddr: 0x1B9B8, symBinAddr: 0x1BA4C8, symSize: 0x0 }
   - { offset: 0x203AE3, size: 0x8, addend: 0x0, symName: _isErrorPathTooLong, symObjAddr: 0x0, symBinAddr: 0x3F458, symSize: 0x18C }
   - { offset: 0x203B5D, size: 0x8, addend: 0x0, symName: _createDirectoryIfNotExists, symObjAddr: 0x18C, symBinAddr: 0x3F5E4, symSize: 0xF8 }
   - { offset: 0x203C60, size: 0x8, addend: 0x0, symName: __non_thread_safe_removeFileAtPath, symObjAddr: 0x284, symBinAddr: 0x3F6DC, symSize: 0x138 }
@@ -2386,8 +2386,8 @@ relocations:
   - { offset: 0x20AAEF, size: 0x8, addend: 0x0, symName: '-[SentryGeo .cxx_destruct]', symObjAddr: 0x50C, symBinAddr: 0x45850, symSize: 0x3C }
   - { offset: 0x20AD73, size: 0x8, addend: 0x0, symName: '+[SentryGlobalEventProcessor shared]', symObjAddr: 0x0, symBinAddr: 0x4588C, symSize: 0x74 }
   - { offset: 0x20AD88, size: 0x8, addend: 0x0, symName: '+[SentryGlobalEventProcessor shared]', symObjAddr: 0x0, symBinAddr: 0x4588C, symSize: 0x74 }
-  - { offset: 0x20ADB2, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0x2978, symBinAddr: 0x1BA4D0, symSize: 0x0 }
-  - { offset: 0x20ADC8, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x2980, symBinAddr: 0x1BA4D8, symSize: 0x0 }
+  - { offset: 0x20ADB2, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0x2A08, symBinAddr: 0x1BA4D0, symSize: 0x0 }
+  - { offset: 0x20ADC8, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x2A10, symBinAddr: 0x1BA4D8, symSize: 0x0 }
   - { offset: 0x20AEA4, size: 0x8, addend: 0x0, symName: '___36+[SentryGlobalEventProcessor shared]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x45900, symSize: 0x2C }
   - { offset: 0x20AEE3, size: 0x8, addend: 0x0, symName: '-[SentryGlobalEventProcessor initPrivate]', symObjAddr: 0xA0, symBinAddr: 0x4592C, symSize: 0x6C }
   - { offset: 0x20AF1A, size: 0x8, addend: 0x0, symName: '-[SentryGlobalEventProcessor addEventProcessor:]', symObjAddr: 0x10C, symBinAddr: 0x45998, symSize: 0x70 }
@@ -2553,8 +2553,8 @@ relocations:
   - { offset: 0x21309B, size: 0x8, addend: 0x0, symName: '-[SentryInAppLogic .cxx_destruct]', symObjAddr: 0x5CC, symBinAddr: 0x4B198, symSize: 0x30 }
   - { offset: 0x213167, size: 0x8, addend: 0x0, symName: '+[SentryInstallation installationStringsByCacheDirectoryPaths]', symObjAddr: 0x0, symBinAddr: 0x4B1C8, symSize: 0x30 }
   - { offset: 0x213181, size: 0x8, addend: 0x0, symName: '+[SentryInstallation installationStringsByCacheDirectoryPaths]', symObjAddr: 0x0, symBinAddr: 0x4B1C8, symSize: 0x30 }
-  - { offset: 0x2131AB, size: 0x8, addend: 0x0, symName: _installationStringsByCacheDirectoryPaths.once, symObjAddr: 0x2E38, symBinAddr: 0x1BA4E0, symSize: 0x0 }
-  - { offset: 0x2131C1, size: 0x8, addend: 0x0, symName: _installationStringsByCacheDirectoryPaths.dictionary, symObjAddr: 0x2E40, symBinAddr: 0x1BA4E8, symSize: 0x0 }
+  - { offset: 0x2131AB, size: 0x8, addend: 0x0, symName: _installationStringsByCacheDirectoryPaths.once, symObjAddr: 0x2EC8, symBinAddr: 0x1BA4E0, symSize: 0x0 }
+  - { offset: 0x2131C1, size: 0x8, addend: 0x0, symName: _installationStringsByCacheDirectoryPaths.dictionary, symObjAddr: 0x2ED0, symBinAddr: 0x1BA4E8, symSize: 0x0 }
   - { offset: 0x21324A, size: 0x8, addend: 0x0, symName: '+[SentryInstallation installationStringsByCacheDirectoryPaths].cold.1', symObjAddr: 0x3E8, symBinAddr: 0xF618C, symSize: 0x14 }
   - { offset: 0x213266, size: 0x8, addend: 0x0, symName: '+[SentryInstallation installationStringsByCacheDirectoryPaths].cold.1', symObjAddr: 0x3E8, symBinAddr: 0xF618C, symSize: 0x14 }
   - { offset: 0x213278, size: 0x8, addend: 0x0, symName: '___62+[SentryInstallation installationStringsByCacheDirectoryPaths]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x4B1F8, symSize: 0x34 }
@@ -2572,10 +2572,10 @@ relocations:
   - { offset: 0x2136CF, size: 0x8, addend: 0x0, symName: _kSentryLaunchProfileConfigKeyContinuousProfilingV2, symObjAddr: 0x1EB8, symBinAddr: 0x15F740, symSize: 0x0 }
   - { offset: 0x2136E5, size: 0x8, addend: 0x0, symName: _kSentryLaunchProfileConfigKeyContinuousProfilingV2Lifecycle, symObjAddr: 0x1EC0, symBinAddr: 0x15F748, symSize: 0x0 }
   - { offset: 0x2136F6, size: 0x8, addend: 0x0, symName: _sentry_startLaunchProfile, symObjAddr: 0x1008, symBinAddr: 0x4C598, symSize: 0x28 }
-  - { offset: 0x21371A, size: 0x8, addend: 0x0, symName: _sentry_startLaunchProfile.onceToken, symObjAddr: 0xB0E0, symBinAddr: 0x1BA4F0, symSize: 0x0 }
-  - { offset: 0x213754, size: 0x8, addend: 0x0, symName: _isProfilingAppLaunch, symObjAddr: 0xB0D8, symBinAddr: 0x1C0568, symSize: 0x0 }
-  - { offset: 0x213D29, size: 0x8, addend: 0x0, symName: _sentry_launchTracer, symObjAddr: 0xB0D0, symBinAddr: 0x1C0560, symSize: 0x0 }
-  - { offset: 0x213D40, size: 0x8, addend: 0x0, symName: _sentry_isTracingAppLaunch, symObjAddr: 0xB0C8, symBinAddr: 0x1C0558, symSize: 0x0 }
+  - { offset: 0x21371A, size: 0x8, addend: 0x0, symName: _sentry_startLaunchProfile.onceToken, symObjAddr: 0xB170, symBinAddr: 0x1BA4F0, symSize: 0x0 }
+  - { offset: 0x213754, size: 0x8, addend: 0x0, symName: _isProfilingAppLaunch, symObjAddr: 0xB168, symBinAddr: 0x1C0568, symSize: 0x0 }
+  - { offset: 0x213D29, size: 0x8, addend: 0x0, symName: _sentry_launchTracer, symObjAddr: 0xB160, symBinAddr: 0x1C0560, symSize: 0x0 }
+  - { offset: 0x213D40, size: 0x8, addend: 0x0, symName: _sentry_isTracingAppLaunch, symObjAddr: 0xB158, symBinAddr: 0x1C0558, symSize: 0x0 }
   - { offset: 0x213DB9, size: 0x8, addend: 0x0, symName: _sentry_configForLaunchProfilerForTrace, symObjAddr: 0x0, symBinAddr: 0x4B5A0, symSize: 0xCC }
   - { offset: 0x213E14, size: 0x8, addend: 0x0, symName: _sentry_launchShouldHaveTransactionProfiling, symObjAddr: 0xCC, symBinAddr: 0x4B66C, symSize: 0x1E8 }
   - { offset: 0x215307, size: 0x8, addend: 0x0, symName: _sentry_launchShouldHaveContinuousProfilingV2, symObjAddr: 0x2B4, symBinAddr: 0x4B854, symSize: 0x30C }
@@ -2790,8 +2790,8 @@ relocations:
   - { offset: 0x21E140, size: 0x8, addend: 0x0, symName: _SENTRY_NETWORK_REQUEST_START_DATE, symObjAddr: 0x2F50, symBinAddr: 0x15FA30, symSize: 0x0 }
   - { offset: 0x21E156, size: 0x8, addend: 0x0, symName: _SENTRY_NETWORK_REQUEST_TRACKER_BREADCRUMB, symObjAddr: 0x2F58, symBinAddr: 0x15FA38, symSize: 0x0 }
   - { offset: 0x21E167, size: 0x8, addend: 0x0, symName: '+[SentryNetworkTracker sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x52254, symSize: 0x74 }
-  - { offset: 0x21E191, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0xC5C0, symBinAddr: 0x1BA4F8, symSize: 0x0 }
-  - { offset: 0x21E1A7, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC5C8, symBinAddr: 0x1BA500, symSize: 0x0 }
+  - { offset: 0x21E191, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0xC650, symBinAddr: 0x1BA4F8, symSize: 0x0 }
+  - { offset: 0x21E1A7, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC658, symBinAddr: 0x1BA500, symSize: 0x0 }
   - { offset: 0x21E3BD, size: 0x8, addend: 0x0, symName: '___38+[SentryNetworkTracker sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x522C8, symSize: 0x2C }
   - { offset: 0x21E3FC, size: 0x8, addend: 0x0, symName: '-[SentryNetworkTracker init]', symObjAddr: 0xA0, symBinAddr: 0x522F4, symSize: 0x3C }
   - { offset: 0x21E433, size: 0x8, addend: 0x0, symName: '-[SentryNetworkTracker enableNetworkTracking]', symObjAddr: 0xDC, symBinAddr: 0x52330, symSize: 0xC }
@@ -2832,8 +2832,8 @@ relocations:
   - { offset: 0x22012C, size: 0x8, addend: 0x0, symName: '___57+[SentryNetworkTrackingIntegration swizzleURLSessionTask]_block_invoke_2.33', symObjAddr: 0x504, symBinAddr: 0x54BEC, symSize: 0x70 }
   - { offset: 0x220C6D, size: 0x8, addend: 0x0, symName: '+[SentryNoOpSpan shared]', symObjAddr: 0x0, symBinAddr: 0x54C5C, symSize: 0x74 }
   - { offset: 0x220C87, size: 0x8, addend: 0x0, symName: '+[SentryNoOpSpan shared]', symObjAddr: 0x0, symBinAddr: 0x54C5C, symSize: 0x74 }
-  - { offset: 0x220CB1, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0x5048, symBinAddr: 0x1BA508, symSize: 0x0 }
-  - { offset: 0x220CC7, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x5050, symBinAddr: 0x1BA510, symSize: 0x0 }
+  - { offset: 0x220CB1, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0x50E0, symBinAddr: 0x1BA508, symSize: 0x0 }
+  - { offset: 0x220CC7, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x50E8, symBinAddr: 0x1BA510, symSize: 0x0 }
   - { offset: 0x22103D, size: 0x8, addend: 0x0, symName: '___24+[SentryNoOpSpan shared]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x54CD0, symSize: 0x2C }
   - { offset: 0x22107C, size: 0x8, addend: 0x0, symName: '-[SentryNoOpSpan init]', symObjAddr: 0xA0, symBinAddr: 0x54CFC, symSize: 0xC8 }
   - { offset: 0x2210B3, size: 0x8, addend: 0x0, symName: '-[SentryNoOpSpan startChildWithOperation:]', symObjAddr: 0x168, symBinAddr: 0x54DC4, symSize: 0xC }
@@ -2856,8 +2856,8 @@ relocations:
   - { offset: 0x2214C6, size: 0x8, addend: 0x0, symName: '-[SentryNoOpSpan .cxx_destruct]', symObjAddr: 0x274, symBinAddr: 0x54ED0, symSize: 0x14 }
   - { offset: 0x221834, size: 0x8, addend: 0x0, symName: '+[SentryNSDataSwizzling shared]', symObjAddr: 0x0, symBinAddr: 0x54EE4, symSize: 0x74 }
   - { offset: 0x22184E, size: 0x8, addend: 0x0, symName: '+[SentryNSDataSwizzling shared]', symObjAddr: 0x0, symBinAddr: 0x54EE4, symSize: 0x74 }
-  - { offset: 0x221878, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0xB8F8, symBinAddr: 0x1BA518, symSize: 0x0 }
-  - { offset: 0x22188E, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0xB900, symBinAddr: 0x1BA520, symSize: 0x0 }
+  - { offset: 0x221878, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0xB988, symBinAddr: 0x1BA518, symSize: 0x0 }
+  - { offset: 0x22188E, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0xB990, symBinAddr: 0x1BA520, symSize: 0x0 }
   - { offset: 0x221BA7, size: 0x8, addend: 0x0, symName: '___31+[SentryNSDataSwizzling shared]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x54F58, symSize: 0x2C }
   - { offset: 0x221BE6, size: 0x8, addend: 0x0, symName: '-[SentryNSDataSwizzling startWithOptions:tracker:]', symObjAddr: 0xA0, symBinAddr: 0x54F84, symSize: 0xC8 }
   - { offset: 0x221C92, size: 0x8, addend: 0x0, symName: '-[SentryNSDataSwizzling stop]', symObjAddr: 0x168, symBinAddr: 0x5504C, symSize: 0xC }
@@ -2896,8 +2896,8 @@ relocations:
   - { offset: 0x224BAF, size: 0x8, addend: 0x0, symName: '-[SentryNSError .cxx_destruct]', symObjAddr: 0x184, symBinAddr: 0x56300, symSize: 0xC }
   - { offset: 0x224C80, size: 0x8, addend: 0x0, symName: '+[SentryNSFileManagerSwizzling shared]', symObjAddr: 0x0, symBinAddr: 0x5630C, symSize: 0x74 }
   - { offset: 0x224C9A, size: 0x8, addend: 0x0, symName: '+[SentryNSFileManagerSwizzling shared]', symObjAddr: 0x0, symBinAddr: 0x5630C, symSize: 0x74 }
-  - { offset: 0x224CC4, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0x8500, symBinAddr: 0x1BA528, symSize: 0x0 }
-  - { offset: 0x224CDA, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x8508, symBinAddr: 0x1BA530, symSize: 0x0 }
+  - { offset: 0x224CC4, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0x8598, symBinAddr: 0x1BA528, symSize: 0x0 }
+  - { offset: 0x224CDA, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x85A0, symBinAddr: 0x1BA530, symSize: 0x0 }
   - { offset: 0x224F68, size: 0x8, addend: 0x0, symName: '___38+[SentryNSFileManagerSwizzling shared]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x56380, symSize: 0x2C }
   - { offset: 0x224FA7, size: 0x8, addend: 0x0, symName: '-[SentryNSFileManagerSwizzling startWithOptions:tracker:]', symObjAddr: 0xA0, symBinAddr: 0x563AC, symSize: 0xC8 }
   - { offset: 0x225053, size: 0x8, addend: 0x0, symName: '-[SentryNSFileManagerSwizzling stop]', symObjAddr: 0x168, symBinAddr: 0x56474, symSize: 0xC }
@@ -2948,8 +2948,8 @@ relocations:
   - { offset: 0x228663, size: 0x8, addend: 0x0, symName: '+[SentryNSURLSessionTaskSearch urlSessionTaskClassesToTrack]', symObjAddr: 0x0, symBinAddr: 0x57970, symSize: 0x178 }
   - { offset: 0x22889D, size: 0x8, addend: 0x0, symName: _kSentryDefaultEnvironment, symObjAddr: 0x4FF0, symBinAddr: 0x15FCE8, symSize: 0x0 }
   - { offset: 0x2288AE, size: 0x8, addend: 0x0, symName: '-[SentryOptions isBlock:]', symObjAddr: 0x3434, symBinAddr: 0x5AF0C, symSize: 0x5C }
-  - { offset: 0x2288DA, size: 0x8, addend: 0x0, symName: '_isBlock:.blockClass', symObjAddr: 0x216E0, symBinAddr: 0x1BA548, symSize: 0x0 }
-  - { offset: 0x2288F1, size: 0x8, addend: 0x0, symName: '_isBlock:.onceToken', symObjAddr: 0x216E8, symBinAddr: 0x1BA550, symSize: 0x0 }
+  - { offset: 0x2288DA, size: 0x8, addend: 0x0, symName: '_isBlock:.blockClass', symObjAddr: 0x21770, symBinAddr: 0x1BA548, symSize: 0x0 }
+  - { offset: 0x2288F1, size: 0x8, addend: 0x0, symName: '_isBlock:.onceToken', symObjAddr: 0x21778, symBinAddr: 0x1BA550, symSize: 0x0 }
   - { offset: 0x22A3F3, size: 0x8, addend: 0x0, symName: '+[SentryOptions defaultIntegrations]', symObjAddr: 0x0, symBinAddr: 0x57AE8, symSize: 0x158 }
   - { offset: 0x22A48A, size: 0x8, addend: 0x0, symName: '+[SentryOptions defaultIntegrationClasses]', symObjAddr: 0x158, symBinAddr: 0x57C40, symSize: 0x1F8 }
   - { offset: 0x22A4CD, size: 0x8, addend: 0x0, symName: '-[SentryOptions init]', symObjAddr: 0x350, symBinAddr: 0x57E38, symSize: 0x66C }
@@ -3167,8 +3167,8 @@ relocations:
   - { offset: 0x22DBD8, size: 0x8, addend: 0x0, symName: '-[SentryOptions .cxx_destruct]', symObjAddr: 0x3A7C, symBinAddr: 0x5B554, symSize: 0x1AC }
   - { offset: 0x22EF3D, size: 0x8, addend: 0x0, symName: '+[SentryPerformanceTracker shared]', symObjAddr: 0x0, symBinAddr: 0x5B700, symSize: 0x74 }
   - { offset: 0x22EF57, size: 0x8, addend: 0x0, symName: '+[SentryPerformanceTracker shared]', symObjAddr: 0x0, symBinAddr: 0x5B700, symSize: 0x74 }
-  - { offset: 0x22EF81, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0x7808, symBinAddr: 0x1BA558, symSize: 0x0 }
-  - { offset: 0x22EF97, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x7810, symBinAddr: 0x1BA560, symSize: 0x0 }
+  - { offset: 0x22EF81, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0x7898, symBinAddr: 0x1BA558, symSize: 0x0 }
+  - { offset: 0x22EF97, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x78A0, symBinAddr: 0x1BA560, symSize: 0x0 }
   - { offset: 0x22F511, size: 0x8, addend: 0x0, symName: '___34+[SentryPerformanceTracker shared]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x5B774, symSize: 0x2C }
   - { offset: 0x22F550, size: 0x8, addend: 0x0, symName: '-[SentryPerformanceTracker init]', symObjAddr: 0xA0, symBinAddr: 0x5B7A0, symSize: 0x98 }
   - { offset: 0x22F587, size: 0x8, addend: 0x0, symName: '-[SentryPerformanceTracker startSpanWithName:nameSource:operation:origin:]', symObjAddr: 0x138, symBinAddr: 0x5B838, symSize: 0x3BC }
@@ -3359,8 +3359,8 @@ relocations:
   - { offset: 0x24BBD9, size: 0x8, addend: 0x0, symName: _SentryConnectivityCellular, symObjAddr: 0xEF0, symBinAddr: 0x1600F8, symSize: 0x0 }
   - { offset: 0x24BBEF, size: 0x8, addend: 0x0, symName: _SentryConnectivityWiFi, symObjAddr: 0xEF8, symBinAddr: 0x160100, symSize: 0x0 }
   - { offset: 0x24BC05, size: 0x8, addend: 0x0, symName: _SentryConnectivityNone, symObjAddr: 0xF00, symBinAddr: 0x160108, symSize: 0x0 }
-  - { offset: 0x24BC38, size: 0x8, addend: 0x0, symName: _sentry_reachability_observers, symObjAddr: 0x4360, symBinAddr: 0x1BA590, symSize: 0x0 }
-  - { offset: 0x24BC53, size: 0x8, addend: 0x0, symName: _sentry_reachability_queue, symObjAddr: 0x4368, symBinAddr: 0x1BA598, symSize: 0x0 }
+  - { offset: 0x24BC38, size: 0x8, addend: 0x0, symName: _sentry_reachability_observers, symObjAddr: 0x43F0, symBinAddr: 0x1BA590, symSize: 0x0 }
+  - { offset: 0x24BC53, size: 0x8, addend: 0x0, symName: _sentry_reachability_queue, symObjAddr: 0x43F8, symBinAddr: 0x1BA598, symSize: 0x0 }
   - { offset: 0x24BC69, size: 0x8, addend: 0x0, symName: _sentry_current_reachability_state, symObjAddr: 0xF08, symBinAddr: 0x1B1C50, symSize: 0x0 }
   - { offset: 0x24BCA0, size: 0x8, addend: 0x0, symName: _SentryConnectivityShouldReportChange, symObjAddr: 0x0, symBinAddr: 0x65034, symSize: 0x7C }
   - { offset: 0x24BD4B, size: 0x8, addend: 0x0, symName: _SentryConnectivityFlagRepresentation, symObjAddr: 0x7C, symBinAddr: 0x650B0, symSize: 0x2C }
@@ -3546,7 +3546,7 @@ relocations:
   - { offset: 0x25B1B6, size: 0x8, addend: 0x0, symName: '-[SentryScope setContextDictionary:]', symObjAddr: 0x3140, symBinAddr: 0x6ACD0, symSize: 0x8 }
   - { offset: 0x25B1F5, size: 0x8, addend: 0x0, symName: '-[SentryScope .cxx_destruct]', symObjAddr: 0x3148, symBinAddr: 0x6ACD8, symSize: 0xCC }
   - { offset: 0x25B913, size: 0x8, addend: 0x0, symName: _sentrycrash_scopesync_getScope, symObjAddr: 0x0, symBinAddr: 0x6ADA4, symSize: 0xC }
-  - { offset: 0x25B92D, size: 0x8, addend: 0x0, symName: _scope, symObjAddr: 0x2160, symBinAddr: 0x1BA5A0, symSize: 0x0 }
+  - { offset: 0x25B92D, size: 0x8, addend: 0x0, symName: _scope, symObjAddr: 0x21F0, symBinAddr: 0x1BA5A0, symSize: 0x0 }
   - { offset: 0x25B9F0, size: 0x8, addend: 0x0, symName: _sentrycrash_scopesync_getScope, symObjAddr: 0x0, symBinAddr: 0x6ADA4, symSize: 0xC }
   - { offset: 0x25BA0A, size: 0x8, addend: 0x0, symName: _sentrycrash_scopesync_setUser, symObjAddr: 0xC, symBinAddr: 0x6ADB0, symSize: 0xC }
   - { offset: 0x25BA3E, size: 0x8, addend: 0x0, symName: _setField, symObjAddr: 0x18, symBinAddr: 0x6ADBC, symSize: 0x40 }
@@ -3600,22 +3600,22 @@ relocations:
   - { offset: 0x25DD67, size: 0x8, addend: 0x0, symName: '-[SentryScreenshotIntegration .cxx_destruct]', symObjAddr: 0x4D8, symBinAddr: 0x6BFCC, symSize: 0x14 }
   - { offset: 0x25DF45, size: 0x8, addend: 0x0, symName: '+[SentrySDK initialize]', symObjAddr: 0x0, symBinAddr: 0x6BFE0, symSize: 0xA4 }
   - { offset: 0x25DF70, size: 0x8, addend: 0x0, symName: _SENTRY_XCODE_PREVIEW_ENVIRONMENT_KEY, symObjAddr: 0x2EC0, symBinAddr: 0x1601A0, symSize: 0x0 }
-  - { offset: 0x25DF86, size: 0x8, addend: 0x0, symName: _startTimestamp, symObjAddr: 0x10A70, symBinAddr: 0x1BA600, symSize: 0x0 }
+  - { offset: 0x25DF86, size: 0x8, addend: 0x0, symName: _startTimestamp, symObjAddr: 0x10B00, symBinAddr: 0x1BA600, symSize: 0x0 }
   - { offset: 0x25DF95, size: 0x8, addend: 0x0, symName: '+[SentrySDK replay]', symObjAddr: 0x188, symBinAddr: 0x6C168, symSize: 0x30 }
-  - { offset: 0x25DFBF, size: 0x8, addend: 0x0, symName: _replay.replay, symObjAddr: 0x10AB0, symBinAddr: 0x1BA640, symSize: 0x0 }
-  - { offset: 0x25DFD5, size: 0x8, addend: 0x0, symName: _replay.onceToken, symObjAddr: 0x10AB8, symBinAddr: 0x1BA648, symSize: 0x0 }
+  - { offset: 0x25DFBF, size: 0x8, addend: 0x0, symName: _replay.replay, symObjAddr: 0x10B40, symBinAddr: 0x1BA640, symSize: 0x0 }
+  - { offset: 0x25DFD5, size: 0x8, addend: 0x0, symName: _replay.onceToken, symObjAddr: 0x10B48, symBinAddr: 0x1BA648, symSize: 0x0 }
   - { offset: 0x25E032, size: 0x8, addend: 0x0, symName: '+[SentrySDK feedback]', symObjAddr: 0x180C, symBinAddr: 0x6D7BC, symSize: 0x30 }
-  - { offset: 0x25E05E, size: 0x8, addend: 0x0, symName: _feedback.feedbackAPI, symObjAddr: 0x10AD0, symBinAddr: 0x1BA660, symSize: 0x0 }
-  - { offset: 0x25E075, size: 0x8, addend: 0x0, symName: _feedback.onceToken, symObjAddr: 0x10AD8, symBinAddr: 0x1BA668, symSize: 0x0 }
-  - { offset: 0x25E0D1, size: 0x8, addend: 0x0, symName: _currentHub, symObjAddr: 0x10AA0, symBinAddr: 0x1BA630, symSize: 0x0 }
-  - { offset: 0x25E1B5, size: 0x8, addend: 0x0, symName: _currentHubLock, symObjAddr: 0x10A80, symBinAddr: 0x1BA610, symSize: 0x0 }
-  - { offset: 0x25E1D0, size: 0x8, addend: 0x0, symName: _crashedLastRunCalled, symObjAddr: 0x10AC0, symBinAddr: 0x1BA650, symSize: 0x0 }
-  - { offset: 0x25E1ED, size: 0x8, addend: 0x0, symName: _sentrySDKappStartMeasurement, symObjAddr: 0x10AC8, symBinAddr: 0x1BA658, symSize: 0x0 }
-  - { offset: 0x25E2CD, size: 0x8, addend: 0x0, symName: _sentrySDKappStartMeasurementLock, symObjAddr: 0x10A78, symBinAddr: 0x1BA608, symSize: 0x0 }
-  - { offset: 0x25E2E3, size: 0x8, addend: 0x0, symName: __detectedStartUpCrash, symObjAddr: 0x10A98, symBinAddr: 0x1BA628, symSize: 0x0 }
-  - { offset: 0x25E2F9, size: 0x8, addend: 0x0, symName: _startOption, symObjAddr: 0x10AA8, symBinAddr: 0x1BA638, symSize: 0x0 }
-  - { offset: 0x25F8B2, size: 0x8, addend: 0x0, symName: _startOptionsLock, symObjAddr: 0x10A88, symBinAddr: 0x1BA618, symSize: 0x0 }
-  - { offset: 0x25F8C8, size: 0x8, addend: 0x0, symName: _startInvocations, symObjAddr: 0x10A90, symBinAddr: 0x1BA620, symSize: 0x0 }
+  - { offset: 0x25E05E, size: 0x8, addend: 0x0, symName: _feedback.feedbackAPI, symObjAddr: 0x10B60, symBinAddr: 0x1BA660, symSize: 0x0 }
+  - { offset: 0x25E075, size: 0x8, addend: 0x0, symName: _feedback.onceToken, symObjAddr: 0x10B68, symBinAddr: 0x1BA668, symSize: 0x0 }
+  - { offset: 0x25E0D1, size: 0x8, addend: 0x0, symName: _currentHub, symObjAddr: 0x10B30, symBinAddr: 0x1BA630, symSize: 0x0 }
+  - { offset: 0x25E1B5, size: 0x8, addend: 0x0, symName: _currentHubLock, symObjAddr: 0x10B10, symBinAddr: 0x1BA610, symSize: 0x0 }
+  - { offset: 0x25E1D0, size: 0x8, addend: 0x0, symName: _crashedLastRunCalled, symObjAddr: 0x10B50, symBinAddr: 0x1BA650, symSize: 0x0 }
+  - { offset: 0x25E1ED, size: 0x8, addend: 0x0, symName: _sentrySDKappStartMeasurement, symObjAddr: 0x10B58, symBinAddr: 0x1BA658, symSize: 0x0 }
+  - { offset: 0x25E2CD, size: 0x8, addend: 0x0, symName: _sentrySDKappStartMeasurementLock, symObjAddr: 0x10B08, symBinAddr: 0x1BA608, symSize: 0x0 }
+  - { offset: 0x25E2E3, size: 0x8, addend: 0x0, symName: __detectedStartUpCrash, symObjAddr: 0x10B28, symBinAddr: 0x1BA628, symSize: 0x0 }
+  - { offset: 0x25E2F9, size: 0x8, addend: 0x0, symName: _startOption, symObjAddr: 0x10B38, symBinAddr: 0x1BA638, symSize: 0x0 }
+  - { offset: 0x25F8B2, size: 0x8, addend: 0x0, symName: _startOptionsLock, symObjAddr: 0x10B18, symBinAddr: 0x1BA618, symSize: 0x0 }
+  - { offset: 0x25F8C8, size: 0x8, addend: 0x0, symName: _startInvocations, symObjAddr: 0x10B20, symBinAddr: 0x1BA620, symSize: 0x0 }
   - { offset: 0x25F8ED, size: 0x8, addend: 0x0, symName: '+[SentrySDK initialize]', symObjAddr: 0x0, symBinAddr: 0x6BFE0, symSize: 0xA4 }
   - { offset: 0x25F920, size: 0x8, addend: 0x0, symName: '+[SentrySDK currentHub]', symObjAddr: 0xA4, symBinAddr: 0x6C084, symSize: 0x94 }
   - { offset: 0x25F953, size: 0x8, addend: 0x0, symName: '+[SentrySDK options]', symObjAddr: 0x138, symBinAddr: 0x6C118, symSize: 0x50 }
@@ -3744,7 +3744,7 @@ relocations:
   - { offset: 0x265080, size: 0x8, addend: 0x0, symName: '-[SentrySession setAbnormalMechanism:]', symObjAddr: 0xF14, symBinAddr: 0x712B4, symSize: 0x8 }
   - { offset: 0x2650BF, size: 0x8, addend: 0x0, symName: '-[SentrySession .cxx_destruct]', symObjAddr: 0xF1C, symBinAddr: 0x712BC, symSize: 0x90 }
   - { offset: 0x265347, size: 0x8, addend: 0x0, symName: '-[SentrySessionReplayIntegration init]', symObjAddr: 0x0, symBinAddr: 0x7134C, symSize: 0x34 }
-  - { offset: 0x265379, size: 0x8, addend: 0x0, symName: __touchTracker, symObjAddr: 0x169A0, symBinAddr: 0x1BA670, symSize: 0x0 }
+  - { offset: 0x265379, size: 0x8, addend: 0x0, symName: __touchTracker, symObjAddr: 0x16A30, symBinAddr: 0x1BA670, symSize: 0x0 }
   - { offset: 0x265912, size: 0x8, addend: 0x0, symName: '-[SentrySessionReplayIntegration init]', symObjAddr: 0x0, symBinAddr: 0x7134C, symSize: 0x34 }
   - { offset: 0x265949, size: 0x8, addend: 0x0, symName: '-[SentrySessionReplayIntegration initForManualUse:]', symObjAddr: 0x34, symBinAddr: 0x71380, symSize: 0x128 }
   - { offset: 0x265990, size: 0x8, addend: 0x0, symName: '-[SentrySessionReplayIntegration installWithOptions:]', symObjAddr: 0x15C, symBinAddr: 0x714A8, symSize: 0x100 }
@@ -3806,7 +3806,7 @@ relocations:
   - { offset: 0x2676CD, size: 0x8, addend: 0x0, symName: '-[SentrySessionReplayIntegration setViewPhotographer:]', symObjAddr: 0x3630, symBinAddr: 0x74950, symSize: 0x14 }
   - { offset: 0x26770E, size: 0x8, addend: 0x0, symName: '-[SentrySessionReplayIntegration .cxx_destruct]', symObjAddr: 0x3644, symBinAddr: 0x74964, symSize: 0xF4 }
   - { offset: 0x2693BC, size: 0x8, addend: 0x0, symName: _sentrySessionReplaySync_start, symObjAddr: 0x0, symBinAddr: 0x74A58, symSize: 0x9C }
-  - { offset: 0x2693E4, size: 0x8, addend: 0x0, symName: _crashReplay, symObjAddr: 0x2328, symBinAddr: 0x1BA678, symSize: 0x0 }
+  - { offset: 0x2693E4, size: 0x8, addend: 0x0, symName: _crashReplay, symObjAddr: 0x23B8, symBinAddr: 0x1BA678, symSize: 0x0 }
   - { offset: 0x269436, size: 0x8, addend: 0x0, symName: _sentrySessionReplaySync_start, symObjAddr: 0x0, symBinAddr: 0x74A58, symSize: 0x9C }
   - { offset: 0x269518, size: 0x8, addend: 0x0, symName: _sentrySessionReplaySync_updateInfo, symObjAddr: 0x9C, symBinAddr: 0x74AF4, symSize: 0x14 }
   - { offset: 0x26954C, size: 0x8, addend: 0x0, symName: _sentrySessionReplaySync_writeInfo, symObjAddr: 0xB0, symBinAddr: 0x74B08, symSize: 0x128 }
@@ -3901,7 +3901,7 @@ relocations:
   - { offset: 0x26DAAC, size: 0x8, addend: 0x0, symName: _SentrySpanDataKeyFileSize, symObjAddr: 0x58, symBinAddr: 0x160308, symSize: 0x0 }
   - { offset: 0x26DACC, size: 0x8, addend: 0x0, symName: _SentrySpanDataKeyFilePath, symObjAddr: 0x60, symBinAddr: 0x160310, symSize: 0x0 }
   - { offset: 0x26DB0B, size: 0x8, addend: 0x0, symName: '-[SentrySpanId init]', symObjAddr: 0x0, symBinAddr: 0x779E8, symSize: 0x50 }
-  - { offset: 0x26DB2A, size: 0x8, addend: 0x0, symName: __empty, symObjAddr: 0x2678, symBinAddr: 0x1BA690, symSize: 0x0 }
+  - { offset: 0x26DB2A, size: 0x8, addend: 0x0, symName: __empty, symObjAddr: 0x2710, symBinAddr: 0x1BA690, symSize: 0x0 }
   - { offset: 0x26DB7E, size: 0x8, addend: 0x0, symName: '-[SentrySpanId init]', symObjAddr: 0x0, symBinAddr: 0x779E8, symSize: 0x50 }
   - { offset: 0x26DBB5, size: 0x8, addend: 0x0, symName: '-[SentrySpanId initWithUUID:]', symObjAddr: 0x50, symBinAddr: 0x77A38, symSize: 0xB8 }
   - { offset: 0x26DBFC, size: 0x8, addend: 0x0, symName: '-[SentrySpanId initWithValue:]', symObjAddr: 0x108, symBinAddr: 0x77AF0, symSize: 0xD0 }
@@ -4008,8 +4008,8 @@ relocations:
   - { offset: 0x270F06, size: 0x8, addend: 0x0, symName: '-[SentrySwiftAsyncIntegration uninstall]', symObjAddr: 0x44, symBinAddr: 0x795B4, symSize: 0x8 }
   - { offset: 0x271846, size: 0x8, addend: 0x0, symName: '-[SentrySwizzleInfo getOriginalImplementation]', symObjAddr: 0x0, symBinAddr: 0x795BC, symSize: 0x44 }
   - { offset: 0x271867, size: 0x8, addend: 0x0, symName: _swizzledClassesDictionary, symObjAddr: 0x344, symBinAddr: 0x79900, symSize: 0x30 }
-  - { offset: 0x27188D, size: 0x8, addend: 0x0, symName: _swizzledClassesDictionary.swizzledClasses, symObjAddr: 0x4B58, symBinAddr: 0x1BA698, symSize: 0x0 }
-  - { offset: 0x2718A3, size: 0x8, addend: 0x0, symName: _swizzledClassesDictionary.onceToken, symObjAddr: 0x4B60, symBinAddr: 0x1BA6A0, symSize: 0x0 }
+  - { offset: 0x27188D, size: 0x8, addend: 0x0, symName: _swizzledClassesDictionary.swizzledClasses, symObjAddr: 0x4BE8, symBinAddr: 0x1BA698, symSize: 0x0 }
+  - { offset: 0x2718A3, size: 0x8, addend: 0x0, symName: _swizzledClassesDictionary.onceToken, symObjAddr: 0x4BF0, symBinAddr: 0x1BA6A0, symSize: 0x0 }
   - { offset: 0x2718E1, size: 0x8, addend: 0x0, symName: _gLock, symObjAddr: 0xC10, symBinAddr: 0x1B1E38, symSize: 0x0 }
   - { offset: 0x2719F3, size: 0x8, addend: 0x0, symName: '-[SentrySwizzleInfo getOriginalImplementation]', symObjAddr: 0x0, symBinAddr: 0x795BC, symSize: 0x44 }
   - { offset: 0x271A8F, size: 0x8, addend: 0x0, symName: '-[SentrySwizzleInfo selector]', symObjAddr: 0x44, symBinAddr: 0x79600, symSize: 0x8 }
@@ -4027,7 +4027,7 @@ relocations:
   - { offset: 0x272448, size: 0x8, addend: 0x0, symName: '+[SentrySwizzleWrapper initialize]', symObjAddr: 0x0, symBinAddr: 0x79ACC, symSize: 0x58 }
   - { offset: 0x272469, size: 0x8, addend: 0x0, symName: '-[SentrySwizzleWrapper swizzleSendAction:forKey:]', symObjAddr: 0x58, symBinAddr: 0x79B24, symSize: 0x120 }
   - { offset: 0x27248F, size: 0x8, addend: 0x0, symName: '_swizzleSendAction:forKey:.swizzleSendActionKey', symObjAddr: 0x6A8, symBinAddr: 0x1B1E78, symSize: 0x0 }
-  - { offset: 0x272521, size: 0x8, addend: 0x0, symName: _sentrySwizzleSendActionCallbacks, symObjAddr: 0x3248, symBinAddr: 0x1BA6A8, symSize: 0x0 }
+  - { offset: 0x272521, size: 0x8, addend: 0x0, symName: _sentrySwizzleSendActionCallbacks, symObjAddr: 0x32D8, symBinAddr: 0x1BA6A8, symSize: 0x0 }
   - { offset: 0x2725B9, size: 0x8, addend: 0x0, symName: '+[SentrySwizzleWrapper initialize]', symObjAddr: 0x0, symBinAddr: 0x79ACC, symSize: 0x58 }
   - { offset: 0x272635, size: 0x8, addend: 0x0, symName: '___49-[SentrySwizzleWrapper swizzleSendAction:forKey:]_block_invoke', symObjAddr: 0x178, symBinAddr: 0x79C44, symSize: 0x88 }
   - { offset: 0x2726AF, size: 0x8, addend: 0x0, symName: '___49-[SentrySwizzleWrapper swizzleSendAction:forKey:]_block_invoke_2', symObjAddr: 0x200, symBinAddr: 0x79CCC, symSize: 0xD0 }
@@ -4037,9 +4037,9 @@ relocations:
   - { offset: 0x2728CC, size: 0x8, addend: 0x0, symName: '-[SentrySwizzleWrapper removeAllCallbacks]', symObjAddr: 0x49C, symBinAddr: 0x79F58, symSize: 0xC }
   - { offset: 0x2728FB, size: 0x8, addend: 0x0, symName: '+[SentrySwizzleWrapper hasCallbacks]', symObjAddr: 0x4A8, symBinAddr: 0x79F64, symSize: 0x24 }
   - { offset: 0x272B96, size: 0x8, addend: 0x0, symName: _sentryModuleInitializationHook, symObjAddr: 0x0, symBinAddr: 0x79F88, symSize: 0x34 }
-  - { offset: 0x272BB7, size: 0x8, addend: 0x0, symName: _runtimeInit, symObjAddr: 0x3188, symBinAddr: 0x1BA6B0, symSize: 0x0 }
-  - { offset: 0x272BD2, size: 0x8, addend: 0x0, symName: _moduleInitializationTimestamp, symObjAddr: 0x3190, symBinAddr: 0x1BA6B8, symSize: 0x0 }
-  - { offset: 0x272BE8, size: 0x8, addend: 0x0, symName: _runtimeInitSystemTimestamp, symObjAddr: 0x3198, symBinAddr: 0x1BA6C0, symSize: 0x0 }
+  - { offset: 0x272BB7, size: 0x8, addend: 0x0, symName: _runtimeInit, symObjAddr: 0x3218, symBinAddr: 0x1BA6B0, symSize: 0x0 }
+  - { offset: 0x272BD2, size: 0x8, addend: 0x0, symName: _moduleInitializationTimestamp, symObjAddr: 0x3220, symBinAddr: 0x1BA6B8, symSize: 0x0 }
+  - { offset: 0x272BE8, size: 0x8, addend: 0x0, symName: _runtimeInitSystemTimestamp, symObjAddr: 0x3228, symBinAddr: 0x1BA6C0, symSize: 0x0 }
   - { offset: 0x272C4B, size: 0x8, addend: 0x0, symName: _sentryModuleInitializationHook, symObjAddr: 0x0, symBinAddr: 0x79F88, symSize: 0x34 }
   - { offset: 0x272C61, size: 0x8, addend: 0x0, symName: '+[SentrySysctl load]', symObjAddr: 0x34, symBinAddr: 0x79FBC, symSize: 0x4C }
   - { offset: 0x272C90, size: 0x8, addend: 0x0, symName: '-[SentrySysctl runtimeInitTimestamp]', symObjAddr: 0x80, symBinAddr: 0x7A008, symSize: 0xC }
@@ -4229,8 +4229,8 @@ relocations:
   - { offset: 0x292322, size: 0x8, addend: 0x0, symName: '+[SentryTraceProfiler timeoutTimerExpired]', symObjAddr: 0x48C, symBinAddr: 0x7F5CC, symSize: 0xC4 }
   - { offset: 0x29244A, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_SentryTraceProfiler.mm, symObjAddr: 0x630, symBinAddr: 0x7F690, symSize: 0x40 }
   - { offset: 0x2942A2, size: 0x8, addend: 0x0, symName: '+[SentryTracer initialize]', symObjAddr: 0x0, symBinAddr: 0x7F6D0, symSize: 0x5C }
-  - { offset: 0x29431A, size: 0x8, addend: 0x0, symName: _appStartMeasurementLock, symObjAddr: 0x13468, symBinAddr: 0x1BA6D0, symSize: 0x0 }
-  - { offset: 0x294335, size: 0x8, addend: 0x0, symName: _appStartMeasurementRead, symObjAddr: 0x13470, symBinAddr: 0x1BA6D8, symSize: 0x0 }
+  - { offset: 0x29431A, size: 0x8, addend: 0x0, symName: _appStartMeasurementLock, symObjAddr: 0x134F8, symBinAddr: 0x1BA6D0, symSize: 0x0 }
+  - { offset: 0x294335, size: 0x8, addend: 0x0, symName: _appStartMeasurementRead, symObjAddr: 0x13500, symBinAddr: 0x1BA6D8, symSize: 0x0 }
   - { offset: 0x294E07, size: 0x8, addend: 0x0, symName: '+[SentryTracer initialize]', symObjAddr: 0x0, symBinAddr: 0x7F6D0, symSize: 0x5C }
   - { offset: 0x294E3A, size: 0x8, addend: 0x0, symName: '-[SentryTracer initWithTransactionContext:hub:]', symObjAddr: 0x5C, symBinAddr: 0x7F72C, symSize: 0x90 }
   - { offset: 0x294E91, size: 0x8, addend: 0x0, symName: '-[SentryTracer initWithTransactionContext:hub:configuration:]', symObjAddr: 0xEC, symBinAddr: 0x7F7BC, symSize: 0x5CC }
@@ -5255,8 +5255,8 @@ relocations:
   - { offset: 0x2C424E, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A21GraphicsImageRendererC5image7actionsSo7UIImageCyAC7ContextVXE_tF017$s6Sentry0A14Maskd47V2C14maskScreenshot10screenshot4size7maskingSo7g44CAI_So6CGSizeVSayAA12RedactRegionVGtFyAA0a13bc4C0C7H6VXEfU_AA0aldM0CAGSo0S0VSayAA0vW0VGTf1cn_nTf4ndgng_n', symObjAddr: 0xF74, symBinAddr: 0xA2890, symSize: 0x314 }
   - { offset: 0x2C4671, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A21GraphicsImageRendererC5image7actionsSo7UIImageCyAC7ContextVXE_tF017$s6Sentry0A14Viewd18V2C6render4viewSo7g21CSo6UIViewC_tFyAA0a13bc4C0C7H6VXEfU_AA0aldM0CSo0Q0CTf1cn_nTf4ngg_n', symObjAddr: 0x1288, symBinAddr: 0xA2BA4, symSize: 0x358 }
   - { offset: 0x2C4C37, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A11IconographyV4logo_WZ', symObjAddr: 0x0, symBinAddr: 0xA3110, symSize: 0x1C }
-  - { offset: 0x2C4C5B, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A11IconographyV4logoSo16CGMutablePathRefavpZ', symObjAddr: 0x5F50, symBinAddr: 0x1C0580, symSize: 0x0 }
-  - { offset: 0x2C4C75, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A11IconographyV9megaphoneSo16CGMutablePathRefavpZ', symObjAddr: 0x5F58, symBinAddr: 0x1C0588, symSize: 0x0 }
+  - { offset: 0x2C4C5B, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A11IconographyV4logoSo16CGMutablePathRefavpZ', symObjAddr: 0x5FE8, symBinAddr: 0x1C0580, symSize: 0x0 }
+  - { offset: 0x2C4C75, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A11IconographyV9megaphoneSo16CGMutablePathRefavpZ', symObjAddr: 0x5FF0, symBinAddr: 0x1C0588, symSize: 0x0 }
   - { offset: 0x2C4C83, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A11IconographyV4logo_WZ', symObjAddr: 0x0, symBinAddr: 0xA3110, symSize: 0x1C }
   - { offset: 0x2C5959, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A11IconographyV9megaphone_WZ', symObjAddr: 0x504, symBinAddr: 0xA3614, symSize: 0x114 }
   - { offset: 0x2C59F2, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A11IconographyV4logoSo16CGMutablePathRefavpZfiAFyXEfU_', symObjAddr: 0x1C, symBinAddr: 0xA312C, symSize: 0x4E8 }
@@ -5286,7 +5286,7 @@ relocations:
   - { offset: 0x2C8343, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A2IdC4hashSivg', symObjAddr: 0xD54, symBinAddr: 0xA43D8, symSize: 0x28 }
   - { offset: 0x2C8362, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A2IdCfD', symObjAddr: 0xD7C, symBinAddr: 0xA4400, symSize: 0x34 }
   - { offset: 0x2C8501, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A11LevelHelperC12levelForNameyAA0aB0OSSFZ', symObjAddr: 0x0, symBinAddr: 0xA4594, symSize: 0x4 }
-  - { offset: 0x2C8525, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A5LevelO10levelNamesSaySSGvpZ', symObjAddr: 0x51D0, symBinAddr: 0x1C0590, symSize: 0x0 }
+  - { offset: 0x2C8525, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A5LevelO10levelNamesSaySSGvpZ', symObjAddr: 0x5260, symBinAddr: 0x1C0590, symSize: 0x0 }
   - { offset: 0x2C868B, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A5LevelO10levelNames_WZ', symObjAddr: 0x8, symBinAddr: 0xA4598, symSize: 0x38 }
   - { offset: 0x2C86DA, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A5LevelO11descriptionSSvg', symObjAddr: 0x154, symBinAddr: 0xA4618, symSize: 0x84 }
   - { offset: 0x2C877C, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A5LevelOs23CustomStringConvertibleAAsADP11descriptionSSvgTW', symObjAddr: 0x1D8, symBinAddr: 0xA469C, symSize: 0x7C }
@@ -6446,7 +6446,7 @@ relocations:
   - { offset: 0x2FA2C9, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A26UserFeedbackFormControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x4B0, symBinAddr: 0xD9CC0, symSize: 0x84 }
   - { offset: 0x2FA31D, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A26UserFeedbackFormControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x534, symBinAddr: 0xD9D44, symSize: 0x2C }
   - { offset: 0x2FA37C, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A26UserFeedbackFormControllerCfD', symObjAddr: 0x560, symBinAddr: 0xD9D70, symSize: 0x30 }
-  - { offset: 0x2FA68D, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A25UserFeedbackFormViewModelC13dateFormatterSo06NSDateH0CvpZ', symObjAddr: 0x257A8, symBinAddr: 0x1C0598, symSize: 0x0 }
+  - { offset: 0x2FA68D, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A25UserFeedbackFormViewModelC13dateFormatterSo06NSDateH0CvpZ', symObjAddr: 0x258C8, symBinAddr: 0x1C0598, symSize: 0x0 }
   - { offset: 0x2FB44F, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A25UserFeedbackFormViewModelC8validates6ResultOySSAC10InputErrorOGyF', symObjAddr: 0x10, symBinAddr: 0xDA9C8, symSize: 0x88C }
   - { offset: 0x2FBE46, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A25UserFeedbackFormViewModelC13dateFormatter_WZ', symObjAddr: 0xAC0, symBinAddr: 0xDB478, symSize: 0x60 }
   - { offset: 0x2FC013, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A25UserFeedbackFormViewModelCfETo', symObjAddr: 0x4714, symBinAddr: 0xDF0CC, symSize: 0x218 }
@@ -6675,7 +6675,7 @@ relocations:
   - { offset: 0x303734, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A30UserFeedbackThemeConfigurationCACycfcTo', symObjAddr: 0x1CCC, symBinAddr: 0xE470C, symSize: 0x20 }
   - { offset: 0x303748, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A30UserFeedbackThemeConfigurationC10fontFamilySSSgvgTf4n_g', symObjAddr: 0x1E34, symBinAddr: 0xE4874, symSize: 0x30 }
   - { offset: 0x30376B, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A30UserFeedbackThemeConfigurationC0A23FormElementOutlineStyleC5color12cornerRadius12outlineWidthAESo7UIColorC_12CoreGraphics7CGFloatVAMtcfcTf4gnnn_n', symObjAddr: 0x1E78, symBinAddr: 0xE48B8, symSize: 0x108 }
-  - { offset: 0x3039B5, size: 0x8, addend: 0x0, symName: '_$s6Sentry14displayingFormSbvp', symObjAddr: 0x9DE9, symBinAddr: 0x1C05A0, symSize: 0x0 }
+  - { offset: 0x3039B5, size: 0x8, addend: 0x0, symName: '_$s6Sentry14displayingFormSbvp', symObjAddr: 0x9E79, symBinAddr: 0x1C05A0, symSize: 0x0 }
   - { offset: 0x303E16, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A18UserFeedbackWidgetCMa', symObjAddr: 0xFF8, symBinAddr: 0xE5E1C, symSize: 0x20 }
   - { offset: 0x303E2A, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A18UserFeedbackWidgetC6WindowCMa', symObjAddr: 0x1018, symBinAddr: 0xE5E3C, symSize: 0x20 }
   - { offset: 0x303E3E, size: 0x8, addend: 0x0, symName: '_$s6Sentry0A18UserFeedbackWidgetC18RootViewControllerCMa', symObjAddr: 0x1038, symBinAddr: 0xE5E5C, symSize: 0x20 }

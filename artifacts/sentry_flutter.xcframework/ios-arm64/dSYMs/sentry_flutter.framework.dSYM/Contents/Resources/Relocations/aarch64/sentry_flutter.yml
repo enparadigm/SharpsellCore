@@ -2,13 +2,13 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/nikunjkhunt/Documents/ss/sdk/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/sentry_flutter/sentry_flutter.framework/sentry_flutter'
 relocations:
-  - { offset: 0xAC696, size: 0x8, addend: 0x0, symName: _sentry_flutterVersionString, symObjAddr: 0x0, symBinAddr: 0x1C200, symSize: 0x0 }
-  - { offset: 0xAC6CB, size: 0x8, addend: 0x0, symName: _sentry_flutterVersionNumber, symObjAddr: 0x30, symBinAddr: 0x1C230, symSize: 0x0 }
+  - { offset: 0xAC696, size: 0x8, addend: 0x0, symName: _sentry_flutterVersionString, symObjAddr: 0x0, symBinAddr: 0x1B210, symSize: 0x0 }
+  - { offset: 0xAC6CB, size: 0x8, addend: 0x0, symName: _sentry_flutterVersionNumber, symObjAddr: 0x30, symBinAddr: 0x1B240, symSize: 0x0 }
   - { offset: 0xAC708, size: 0x8, addend: 0x0, symName: '-[SentryFlutterReplayBreadcrumbConverter init]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x6C }
   - { offset: 0xAC74C, size: 0x8, addend: 0x0, symName: '-[SentryFlutterReplayBreadcrumbConverter init]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x6C }
   - { offset: 0xAC783, size: 0x8, addend: 0x0, symName: '-[SentryFlutterReplayBreadcrumbConverter convertFrom:]', symObjAddr: 0x6C, symBinAddr: 0x406C, symSize: 0x3F0 }
   - { offset: 0xAC7DD, size: 0x8, addend: 0x0, symName: '-[SentryFlutterReplayBreadcrumbConverter convertFrom:withCategory:andMessage:]', symObjAddr: 0x45C, symBinAddr: 0x445C, symSize: 0x14C }
-  - { offset: 0xAC7E8, size: 0x8, addend: 0x0, symName: '-[SentryFlutterReplayBreadcrumbConverter convertFrom:].cold.1', symObjAddr: 0xE08, symBinAddr: 0x1B0B0, symSize: 0x28 }
+  - { offset: 0xAC7E8, size: 0x8, addend: 0x0, symName: '-[SentryFlutterReplayBreadcrumbConverter convertFrom:].cold.1', symObjAddr: 0xE08, symBinAddr: 0x1A238, symSize: 0x28 }
   - { offset: 0xAC800, size: 0x8, addend: 0x0, symName: '-[SentryFlutterReplayBreadcrumbConverter convertFrom:withCategory:andMessage:]', symObjAddr: 0x45C, symBinAddr: 0x445C, symSize: 0x14C }
   - { offset: 0xAC863, size: 0x8, addend: 0x0, symName: '-[SentryFlutterReplayBreadcrumbConverter convertNetwork:]', symObjAddr: 0x5A8, symBinAddr: 0x45A8, symSize: 0x55C }
   - { offset: 0xAC8EA, size: 0x8, addend: 0x0, symName: '-[SentryFlutterReplayBreadcrumbConverter dateFrom:]', symObjAddr: 0xB04, symBinAddr: 0x4B04, symSize: 0x38 }
@@ -19,7 +19,7 @@ relocations:
   - { offset: 0xACD4B, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x458, symBinAddr: 0x5260, symSize: 0x10 }
   - { offset: 0xACD92, size: 0x8, addend: 0x0, symName: '-[SentryFlutterReplayScreenshotProvider initWithChannel:]', symObjAddr: 0x0, symBinAddr: 0x4E08, symSize: 0x78 }
   - { offset: 0xACDD9, size: 0x8, addend: 0x0, symName: '-[SentryFlutterReplayScreenshotProvider imageWithView:onComplete:]', symObjAddr: 0x78, symBinAddr: 0x4E80, symSize: 0x15C }
-  - { offset: 0xACEF6, size: 0x8, addend: 0x0, symName: '___66-[SentryFlutterReplayScreenshotProvider imageWithView:onComplete:]_block_invoke.cold.1', symObjAddr: 0x47C, symBinAddr: 0x1B0D8, symSize: 0x28 }
+  - { offset: 0xACEF6, size: 0x8, addend: 0x0, symName: '___66-[SentryFlutterReplayScreenshotProvider imageWithView:onComplete:]_block_invoke.cold.1', symObjAddr: 0x47C, symBinAddr: 0x1A260, symSize: 0x28 }
   - { offset: 0xACF0E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x458, symBinAddr: 0x5260, symSize: 0x10 }
   - { offset: 0xACF37, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x468, symBinAddr: 0x5270, symSize: 0x8 }
   - { offset: 0xACF56, size: 0x8, addend: 0x0, symName: '-[SentryFlutterReplayScreenshotProvider .cxx_destruct]', symObjAddr: 0x470, symBinAddr: 0x5278, symSize: 0xC }
@@ -36,7 +36,7 @@ relocations:
   - { offset: 0xAD4F2, size: 0x8, addend: 0x0, symName: '_$s14sentry_flutter13SentryFlutterCfD', symObjAddr: 0x24, symBinAddr: 0x52A0, symSize: 0x10 }
   - { offset: 0xAD52B, size: 0x8, addend: 0x0, symName: '_$s14sentry_flutter13SentryFlutterC12logLevelFrom33_F671EB0F1C25DA1B0D0AA5894043A194LL010diagnosticF00C00cF0OSS_tFTf4nd_n', symObjAddr: 0x40, symBinAddr: 0x52B0, symSize: 0x170 }
   - { offset: 0xAD6B8, size: 0x8, addend: 0x0, symName: '_$s14sentry_flutter13SentryFlutterC6update7options4withySo0C7OptionsC_SDySSypGtFTf4nnd_n', symObjAddr: 0x1B0, symBinAddr: 0x5420, symSize: 0x1C10 }
-  - { offset: 0xAE41E, size: 0x8, addend: 0x0, symName: '_$s14sentry_flutter19SentryFlutterPluginC22pluginRegistrationTime33_491F737C4EFC5E801AEAEA4C4751A42DLLs5Int64VvpZ', symObjAddr: 0x125C0, symBinAddr: 0x26328, symSize: 0x0 }
+  - { offset: 0xAE41E, size: 0x8, addend: 0x0, symName: '_$s14sentry_flutter19SentryFlutterPluginC22pluginRegistrationTime33_491F737C4EFC5E801AEAEA4C4751A42DLLs5Int64VvpZ', symObjAddr: 0x125C0, symBinAddr: 0x25668, symSize: 0x0 }
   - { offset: 0xAEFE9, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TR', symObjAddr: 0x20F4, symBinAddr: 0x9294, symSize: 0xF0 }
   - { offset: 0xAF1BF, size: 0x8, addend: 0x0, symName: '_$sSo11SentryEventCABSgIeghgo_AbCIeyBhya_TR', symObjAddr: 0x3C90, symBinAddr: 0xAE30, symSize: 0x58 }
   - { offset: 0xAF337, size: 0x8, addend: 0x0, symName: '_$s14sentry_flutter19SentryFlutterPluginCfETo', symObjAddr: 0x5598, symBinAddr: 0xC738, symSize: 0x58 }

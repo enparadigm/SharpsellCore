@@ -55,6 +55,10 @@ import _SwiftConcurrencyShims
   @objc public func detachFromEngine(for registrar: any Flutter.FlutterPluginRegistrar)
   @objc deinit
 }
+extension webview_flutter_wkwebview.WebViewFlutterPlugin : Flutter.FlutterApplicationLifeCycleDelegate, Flutter.FlutterSceneLifeCycleDelegate {
+  @objc dynamic public func applicationWillTerminate(_ application: UIKit.UIApplication)
+  @objc dynamic public func sceneDidDisconnect(_ scene: UIKit.UIScene)
+}
 @_inheritsConvenienceInitializers @objc(FWFWebViewFlutterWKWebViewExternalAPI) public class FWFWebViewFlutterWKWebViewExternalAPI : ObjectiveC.NSObject {
   #if compiler(>=5.3) && $NonescapableTypes
   @objc(webViewForIdentifier:withPluginRegistry:) public static func webView(forIdentifier identifier: Swift.Int64, withPluginRegistry registry: any Flutter.FlutterPluginRegistry) -> WebKit.WKWebView?

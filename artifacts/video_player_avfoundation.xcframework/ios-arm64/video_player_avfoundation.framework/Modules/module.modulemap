@@ -4,3 +4,8 @@ framework module video_player_avfoundation {
   export *
   module * { export * }
 }
+
+module video_player_avfoundation.Swift {
+  header "video_player_avfoundation-Swift.h"
+  requires objc
+}

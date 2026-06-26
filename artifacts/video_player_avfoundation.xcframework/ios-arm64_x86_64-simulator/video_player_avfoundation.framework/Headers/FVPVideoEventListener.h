@@ -1,8 +1,10 @@
-// Copyright 2013 The Flutter Authors. All rights reserved.
+// Copyright 2013 The Flutter Authors
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#import <Foundation/Foundation.h>
+@import Foundation;
+
+NS_ASSUME_NONNULL_BEGIN
 
 /// Handles event/status callbacks from FVPVideoPlayer.
 ///
@@ -30,3 +32,5 @@
 /// Called when the video player has been disposed on the Dart side.
 - (void)videoPlayerWasDisposed;
 @end
+
+NS_ASSUME_NONNULL_END

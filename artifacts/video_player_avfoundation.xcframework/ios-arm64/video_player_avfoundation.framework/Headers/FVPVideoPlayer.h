@@ -1,18 +1,18 @@
-// Copyright 2013 The Flutter Authors. All rights reserved.
+// Copyright 2013 The Flutter Authors
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#import <AVFoundation/AVFoundation.h>
+@import AVFoundation;
 
-#import "./messages.g.h"
+#import "./VideoPlayerInstanceMessages.g.h"
 #import "FVPAVFactory.h"
 #import "FVPVideoEventListener.h"
 #import "FVPViewProvider.h"
 
 #if TARGET_OS_OSX
-#import <FlutterMacOS/FlutterMacOS.h>
+@import FlutterMacOS;
 #else
-#import <Flutter/Flutter.h>
+@import Flutter;
 #endif
 
 NS_ASSUME_NONNULL_BEGIN
@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// FVPVideoPlayer manages video playback using AVPlayer.
 /// It provides methods for controlling playback, adjusting volume, and handling seeking.
 /// This class contains all functionalities needed to manage video playback in platform views and is
-/// typically used alongside FVPNativeVideoViewFactory. If you need to display a video using a
+/// typically used alongside NativeVideoViewFactory. If you need to display a video using a
 /// texture, use FVPTextureBasedVideoPlayer instead.
 @interface FVPVideoPlayer : NSObject <FVPVideoPlayerInstanceApi>
 /// The AVPlayer instance used for video playback.
@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// Initializes a new instance of FVPVideoPlayer with the given AVPlayerItem, AV factory, and view
 /// provider.
-- (instancetype)initWithPlayerItem:(AVPlayerItem *)item
+- (instancetype)initWithPlayerItem:(NSObject<FVPAVPlayerItem> *)item
                          avFactory:(id<FVPAVFactory>)avFactory
                       viewProvider:(NSObject<FVPViewProvider> *)viewProvider;
 

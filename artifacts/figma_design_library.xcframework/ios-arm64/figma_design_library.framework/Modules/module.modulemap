@@ -1,0 +1,11 @@
+framework module figma_design_library {
+  umbrella header "figma_design_library-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module figma_design_library.Swift {
+  header "figma_design_library-Swift.h"
+  requires objc
+}

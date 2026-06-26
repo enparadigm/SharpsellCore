@@ -1,0 +1,3590 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "video_player_avfoundation",
+    "printedName": "video_player_avfoundation",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "video_player_avfoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "video_player_avfoundation"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NativeVideoViewFactory",
+        "printedName": "NativeVideoViewFactory",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "messenger",
+            "printedName": "messenger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterBinaryMessenger",
+                "printedName": "any Flutter.FlutterBinaryMessenger",
+                "usr": "c:objc(pl)FlutterBinaryMessenger"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation22NativeVideoViewFactoryC9messenger33_393A5762497EC0CF8E0219A1A01E6B2FLLSo22FlutterBinaryMessenger_pvp",
+            "mangledName": "$s25video_player_avfoundation22NativeVideoViewFactoryC9messenger33_393A5762497EC0CF8E0219A1A01E6B2FLLSo22FlutterBinaryMessenger_pvp",
+            "moduleName": "video_player_avfoundation",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "playerByIdentifierProvider",
+            "printedName": "playerByIdentifierProvider",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int64) -> video_player_avfoundation.FVPVideoPlayer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "video_player_avfoundation.FVPVideoPlayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FVPVideoPlayer",
+                        "printedName": "video_player_avfoundation.FVPVideoPlayer",
+                        "usr": "c:objc(cs)FVPVideoPlayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation22NativeVideoViewFactoryC0B20ByIdentifierProvider33_393A5762497EC0CF8E0219A1A01E6B2FLLySo14FVPVideoPlayerCSgs5Int64Vcvp",
+            "mangledName": "$s25video_player_avfoundation22NativeVideoViewFactoryC0B20ByIdentifierProvider33_393A5762497EC0CF8E0219A1A01E6B2FLLySo14FVPVideoPlayerCSgs5Int64Vcvp",
+            "moduleName": "video_player_avfoundation",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(messenger:playerByIdentifierProvider:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NativeVideoViewFactory",
+                "printedName": "video_player_avfoundation.NativeVideoViewFactory",
+                "usr": "c:@M@video_player_avfoundation@objc(cs)NativeVideoViewFactory"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterBinaryMessenger",
+                "printedName": "any Flutter.FlutterBinaryMessenger",
+                "usr": "c:objc(pl)FlutterBinaryMessenger"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int64) -> video_player_avfoundation.FVPVideoPlayer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "video_player_avfoundation.FVPVideoPlayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FVPVideoPlayer",
+                        "printedName": "video_player_avfoundation.FVPVideoPlayer",
+                        "usr": "c:objc(cs)FVPVideoPlayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25video_player_avfoundation22NativeVideoViewFactoryC9messenger0B20ByIdentifierProviderACSo22FlutterBinaryMessenger_p_So14FVPVideoPlayerCSgs5Int64Vctcfc",
+            "mangledName": "$s25video_player_avfoundation22NativeVideoViewFactoryC9messenger0B20ByIdentifierProviderACSo22FlutterBinaryMessenger_p_So14FVPVideoPlayerCSgs5Int64Vctcfc",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create(withFrame:viewIdentifier:arguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPlatformView",
+                "printedName": "any Flutter.FlutterPlatformView",
+                "usr": "c:objc(pl)FlutterPlatformView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@video_player_avfoundation@objc(cs)NativeVideoViewFactory(im)createWithFrame:viewIdentifier:arguments:",
+            "mangledName": "$s25video_player_avfoundation22NativeVideoViewFactoryC6create9withFrame14viewIdentifier9argumentsSo015FlutterPlatformF0_pSo6CGRectV_s5Int64VypSgtF",
+            "moduleName": "video_player_avfoundation",
+            "objc_name": "createWithFrame:viewIdentifier:arguments:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createArgsCodec",
+            "printedName": "createArgsCodec()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "any Flutter.FlutterMessageCodec & ObjectiveC.NSObjectProtocol"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@video_player_avfoundation@objc(cs)NativeVideoViewFactory(im)createArgsCodec",
+            "mangledName": "$s25video_player_avfoundation22NativeVideoViewFactoryC15createArgsCodecSo014FlutterMessageJ0_So8NSObjectpyF",
+            "moduleName": "video_player_avfoundation",
+            "objc_name": "createArgsCodec",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NativeVideoViewFactory",
+                "printedName": "video_player_avfoundation.NativeVideoViewFactory",
+                "usr": "c:@M@video_player_avfoundation@objc(cs)NativeVideoViewFactory"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@video_player_avfoundation@objc(cs)NativeVideoViewFactory(im)init",
+            "mangledName": "$s25video_player_avfoundation22NativeVideoViewFactoryCACycfc",
+            "moduleName": "video_player_avfoundation",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@video_player_avfoundation@objc(cs)NativeVideoViewFactory",
+        "mangledName": "$s25video_player_avfoundation22NativeVideoViewFactoryC",
+        "moduleName": "video_player_avfoundation",
+        "declAttributes": [
+          "Final",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "video_player_avfoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "video_player_avfoundation"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DisplayLinkFactory",
+        "printedName": "DisplayLinkFactory",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "displayLink",
+            "printedName": "displayLink(with:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FVPDisplayLink",
+                "printedName": "any video_player_avfoundation.FVPDisplayLink",
+                "usr": "c:objc(pl)FVPDisplayLink"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FVPViewProvider",
+                "printedName": "any video_player_avfoundation.FVPViewProvider",
+                "usr": "c:objc(pl)FVPViewProvider"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation18DisplayLinkFactoryP07displayE04with8callbackSo010FVPDisplayE0_pSo15FVPViewProvider_p_yyctF",
+            "mangledName": "$s25video_player_avfoundation18DisplayLinkFactoryP07displayE04with8callbackSo010FVPDisplayE0_pSo15FVPViewProvider_p_yyctF",
+            "moduleName": "video_player_avfoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : video_player_avfoundation.DisplayLinkFactory>",
+            "sugared_genericSig": "<Self where Self : video_player_avfoundation.DisplayLinkFactory>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:25video_player_avfoundation18DisplayLinkFactoryP",
+        "mangledName": "$s25video_player_avfoundation18DisplayLinkFactoryP",
+        "moduleName": "video_player_avfoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultDisplayLinkFactory",
+        "printedName": "DefaultDisplayLinkFactory",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "displayLink",
+            "printedName": "displayLink(with:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FVPDisplayLink",
+                "printedName": "any video_player_avfoundation.FVPDisplayLink",
+                "usr": "c:objc(pl)FVPDisplayLink"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FVPViewProvider",
+                "printedName": "any video_player_avfoundation.FVPViewProvider",
+                "usr": "c:objc(pl)FVPViewProvider"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation25DefaultDisplayLinkFactoryC07displayF04with8callbackSo010FVPDisplayF0_pSo15FVPViewProvider_p_yyctF",
+            "mangledName": "$s25video_player_avfoundation25DefaultDisplayLinkFactoryC07displayF04with8callbackSo010FVPDisplayF0_pSo15FVPViewProvider_p_yyctF",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultDisplayLinkFactory",
+                "printedName": "video_player_avfoundation.DefaultDisplayLinkFactory",
+                "usr": "s:25video_player_avfoundation25DefaultDisplayLinkFactoryC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25video_player_avfoundation25DefaultDisplayLinkFactoryCACycfc",
+            "mangledName": "$s25video_player_avfoundation25DefaultDisplayLinkFactoryCACycfc",
+            "moduleName": "video_player_avfoundation",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:25video_player_avfoundation25DefaultDisplayLinkFactoryC",
+        "mangledName": "$s25video_player_avfoundation25DefaultDisplayLinkFactoryC",
+        "moduleName": "video_player_avfoundation",
+        "declAttributes": [
+          "Final",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DisplayLinkFactory",
+            "printedName": "DisplayLinkFactory",
+            "usr": "s:25video_player_avfoundation18DisplayLinkFactoryP",
+            "mangledName": "$s25video_player_avfoundation18DisplayLinkFactoryP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultAssetProvider",
+        "printedName": "DefaultAssetProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "registrar",
+            "printedName": "registrar",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any Flutter.FlutterPluginRegistrar)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation20DefaultAssetProviderC9registrar33_3A1920214884E1F244F5997B62512ADCLLSo22FlutterPluginRegistrar_pSgvp",
+            "mangledName": "$s25video_player_avfoundation20DefaultAssetProviderC9registrar33_3A1920214884E1F244F5997B62512ADCLLSo22FlutterPluginRegistrar_pSgvp",
+            "moduleName": "video_player_avfoundation",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "ownership": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(registrar:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAssetProvider",
+                "printedName": "video_player_avfoundation.DefaultAssetProvider",
+                "usr": "c:@M@video_player_avfoundation@objc(cs)DefaultAssetProvider"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25video_player_avfoundation20DefaultAssetProviderC9registrarACSo22FlutterPluginRegistrar_p_tcfc",
+            "mangledName": "$s25video_player_avfoundation20DefaultAssetProviderC9registrarACSo22FlutterPluginRegistrar_p_tcfc",
+            "moduleName": "video_player_avfoundation",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "lookupKey",
+            "printedName": "lookupKey(forAsset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@video_player_avfoundation@objc(cs)DefaultAssetProvider(im)lookupKeyForAsset:",
+            "mangledName": "$s25video_player_avfoundation20DefaultAssetProviderC9lookupKey03forE0SSSgSS_tF",
+            "moduleName": "video_player_avfoundation",
+            "objc_name": "lookupKeyForAsset:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "lookupKey",
+            "printedName": "lookupKey(forAsset:fromPackage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@video_player_avfoundation@objc(cs)DefaultAssetProvider(im)lookupKeyForAsset:fromPackage:",
+            "mangledName": "$s25video_player_avfoundation20DefaultAssetProviderC9lookupKey03forE011fromPackageSSSgSS_SStF",
+            "moduleName": "video_player_avfoundation",
+            "objc_name": "lookupKeyForAsset:fromPackage:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAssetProvider",
+                "printedName": "video_player_avfoundation.DefaultAssetProvider",
+                "usr": "c:@M@video_player_avfoundation@objc(cs)DefaultAssetProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@video_player_avfoundation@objc(cs)DefaultAssetProvider(im)init",
+            "mangledName": "$s25video_player_avfoundation20DefaultAssetProviderCACycfc",
+            "moduleName": "video_player_avfoundation",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@video_player_avfoundation@objc(cs)DefaultAssetProvider",
+        "mangledName": "$s25video_player_avfoundation20DefaultAssetProviderC",
+        "moduleName": "video_player_avfoundation",
+        "declAttributes": [
+          "Final",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoPlayerPlugin",
+        "printedName": "VideoPlayerPlugin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "playersByIdentifier",
+            "printedName": "playersByIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.Int64 : video_player_avfoundation.FVPVideoPlayer]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FVPVideoPlayer",
+                    "printedName": "video_player_avfoundation.FVPVideoPlayer",
+                    "usr": "c:objc(cs)FVPVideoPlayer"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation17VideoPlayerPluginC19playersByIdentifierSDys5Int64VSo08FVPVideoE0CGvp",
+            "mangledName": "$s25video_player_avfoundation17VideoPlayerPluginC19playersByIdentifierSDys5Int64VSo08FVPVideoE0CGvp",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.Int64 : video_player_avfoundation.FVPVideoPlayer]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FVPVideoPlayer",
+                        "printedName": "video_player_avfoundation.FVPVideoPlayer",
+                        "usr": "c:objc(cs)FVPVideoPlayer"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation17VideoPlayerPluginC19playersByIdentifierSDys5Int64VSo08FVPVideoE0CGvg",
+                "mangledName": "$s25video_player_avfoundation17VideoPlayerPluginC19playersByIdentifierSDys5Int64VSo08FVPVideoE0CGvg",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.Int64 : video_player_avfoundation.FVPVideoPlayer]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FVPVideoPlayer",
+                        "printedName": "video_player_avfoundation.FVPVideoPlayer",
+                        "usr": "c:objc(cs)FVPVideoPlayer"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation17VideoPlayerPluginC19playersByIdentifierSDys5Int64VSo08FVPVideoE0CGvs",
+                "mangledName": "$s25video_player_avfoundation17VideoPlayerPluginC19playersByIdentifierSDys5Int64VSo08FVPVideoE0CGvs",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation17VideoPlayerPluginC19playersByIdentifierSDys5Int64VSo08FVPVideoE0CGvM",
+                "mangledName": "$s25video_player_avfoundation17VideoPlayerPluginC19playersByIdentifierSDys5Int64VSo08FVPVideoE0CGvM",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@video_player_avfoundation@objc(cs)VideoPlayerPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s25video_player_avfoundation17VideoPlayerPluginC8register4withySo07FlutterF9Registrar_p_tFZ",
+            "moduleName": "video_player_avfoundation",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(registrar:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoPlayerPlugin",
+                "printedName": "video_player_avfoundation.VideoPlayerPlugin",
+                "usr": "c:@M@video_player_avfoundation@objc(cs)VideoPlayerPlugin"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25video_player_avfoundation17VideoPlayerPluginC9registrarACSo07FlutterF9Registrar_p_tcfc",
+            "mangledName": "$s25video_player_avfoundation17VideoPlayerPluginC9registrarACSo07FlutterF9Registrar_p_tcfc",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(avFactory:displayLinkFactory:binaryMessenger:textureRegistry:viewProvider:assetProvider:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoPlayerPlugin",
+                "printedName": "video_player_avfoundation.VideoPlayerPlugin",
+                "usr": "c:@M@video_player_avfoundation@objc(cs)VideoPlayerPlugin"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FVPAVFactory",
+                "printedName": "any video_player_avfoundation.FVPAVFactory",
+                "usr": "c:objc(pl)FVPAVFactory"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DisplayLinkFactory",
+                "printedName": "any video_player_avfoundation.DisplayLinkFactory",
+                "usr": "s:25video_player_avfoundation18DisplayLinkFactoryP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterBinaryMessenger",
+                "printedName": "any Flutter.FlutterBinaryMessenger",
+                "usr": "c:objc(pl)FlutterBinaryMessenger"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterTextureRegistry",
+                "printedName": "any Flutter.FlutterTextureRegistry",
+                "usr": "c:objc(pl)FlutterTextureRegistry"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FVPViewProvider",
+                "printedName": "any video_player_avfoundation.FVPViewProvider",
+                "usr": "c:objc(pl)FVPViewProvider"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FVPAssetProvider",
+                "printedName": "any video_player_avfoundation.FVPAssetProvider",
+                "usr": "c:objc(pl)FVPAssetProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25video_player_avfoundation17VideoPlayerPluginC9avFactory011displayLinkH015binaryMessenger15textureRegistry12viewProvider05assetP0ACSo12FVPAVFactory_p_AA07DisplayjH0_pSo013FlutterBinaryL0_pSo0t7TextureN0_pSo07FVPViewP0_pSo08FVPAssetP0_ptcfc",
+            "mangledName": "$s25video_player_avfoundation17VideoPlayerPluginC9avFactory011displayLinkH015binaryMessenger15textureRegistry12viewProvider05assetP0ACSo12FVPAVFactory_p_AA07DisplayjH0_pSo013FlutterBinaryL0_pSo0t7TextureN0_pSo07FVPViewP0_pSo08FVPAssetP0_ptcfc",
+            "moduleName": "video_player_avfoundation",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "detachFromEngine",
+            "printedName": "detachFromEngine(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@video_player_avfoundation@objc(cs)VideoPlayerPlugin(im)detachFromEngineForRegistrar:",
+            "mangledName": "$s25video_player_avfoundation17VideoPlayerPluginC16detachFromEngine3forySo07FlutterF9Registrar_p_tF",
+            "moduleName": "video_player_avfoundation",
+            "objc_name": "detachFromEngineForRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation17VideoPlayerPluginC10initializeyyKF",
+            "mangledName": "$s25video_player_avfoundation17VideoPlayerPluginC10initializeyyKF",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "Final"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createPlatformViewPlayer",
+            "printedName": "createPlatformViewPlayer(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CreationOptions",
+                "printedName": "video_player_avfoundation.CreationOptions",
+                "usr": "s:25video_player_avfoundation15CreationOptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation17VideoPlayerPluginC018createPlatformViewE07optionss5Int64VAA15CreationOptionsV_tKF",
+            "mangledName": "$s25video_player_avfoundation17VideoPlayerPluginC018createPlatformViewE07optionss5Int64VAA15CreationOptionsV_tKF",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "Final"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createTexturePlayer",
+            "printedName": "createTexturePlayer(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TexturePlayerIds",
+                "printedName": "video_player_avfoundation.TexturePlayerIds",
+                "usr": "s:25video_player_avfoundation16TexturePlayerIdsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CreationOptions",
+                "printedName": "video_player_avfoundation.CreationOptions",
+                "usr": "s:25video_player_avfoundation15CreationOptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation17VideoPlayerPluginC013createTextureE07optionsAA0hE3IdsVAA15CreationOptionsV_tKF",
+            "mangledName": "$s25video_player_avfoundation17VideoPlayerPluginC013createTextureE07optionsAA0hE3IdsVAA15CreationOptionsV_tKF",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "Final"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMixWithOthers",
+            "printedName": "setMixWithOthers(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation17VideoPlayerPluginC16setMixWithOthersyySbKF",
+            "mangledName": "$s25video_player_avfoundation17VideoPlayerPluginC16setMixWithOthersyySbKF",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "Final"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fileURLForAsset",
+            "printedName": "fileURLForAsset(name:package:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation17VideoPlayerPluginC15fileURLForAsset4name7packageSSSgSS_AGtKF",
+            "mangledName": "$s25video_player_avfoundation17VideoPlayerPluginC15fileURLForAsset4name7packageSSSgSS_AGtKF",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "Final"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoPlayerPlugin",
+                "printedName": "video_player_avfoundation.VideoPlayerPlugin",
+                "usr": "c:@M@video_player_avfoundation@objc(cs)VideoPlayerPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@video_player_avfoundation@objc(cs)VideoPlayerPlugin(im)init",
+            "mangledName": "$s25video_player_avfoundation17VideoPlayerPluginCACycfc",
+            "moduleName": "video_player_avfoundation",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@video_player_avfoundation@objc(cs)VideoPlayerPlugin",
+        "mangledName": "$s25video_player_avfoundation17VideoPlayerPluginC",
+        "moduleName": "video_player_avfoundation",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AVFoundationVideoPlayerApi",
+            "printedName": "AVFoundationVideoPlayerApi",
+            "usr": "s:25video_player_avfoundation26AVFoundationVideoPlayerApiP",
+            "mangledName": "$s25video_player_avfoundation26AVFoundationVideoPlayerApiP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "video_player_avfoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "video_player_avfoundation"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PigeonError",
+        "printedName": "PigeonError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation11PigeonErrorC4codeSSvp",
+            "mangledName": "$s25video_player_avfoundation11PigeonErrorC4codeSSvp",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation11PigeonErrorC4codeSSvg",
+                "mangledName": "$s25video_player_avfoundation11PigeonErrorC4codeSSvg",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation11PigeonErrorC7messageSSSgvp",
+            "mangledName": "$s25video_player_avfoundation11PigeonErrorC7messageSSSgvp",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation11PigeonErrorC7messageSSSgvg",
+                "mangledName": "$s25video_player_avfoundation11PigeonErrorC7messageSSSgvg",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "details",
+            "printedName": "details",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Sendable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Sendable",
+                    "printedName": "any Swift.Sendable",
+                    "usr": "s:s8SendableP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation11PigeonErrorC7detailss8Sendable_pSgvp",
+            "mangledName": "$s25video_player_avfoundation11PigeonErrorC7detailss8Sendable_pSgvp",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Sendable)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "any Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation11PigeonErrorC7detailss8Sendable_pSgvg",
+                "mangledName": "$s25video_player_avfoundation11PigeonErrorC7detailss8Sendable_pSgvg",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:message:details:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PigeonError",
+                "printedName": "video_player_avfoundation.PigeonError",
+                "usr": "s:25video_player_avfoundation11PigeonErrorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Sendable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Sendable",
+                    "printedName": "any Swift.Sendable",
+                    "usr": "s:s8SendableP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25video_player_avfoundation11PigeonErrorC4code7message7detailsACSS_SSSgs8Sendable_pSgtcfc",
+            "mangledName": "$s25video_player_avfoundation11PigeonErrorC4code7message7detailsACSS_SSSgs8Sendable_pSgtcfc",
+            "moduleName": "video_player_avfoundation",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "localizedDescription",
+            "printedName": "localizedDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation11PigeonErrorC20localizedDescriptionSSvp",
+            "mangledName": "$s25video_player_avfoundation11PigeonErrorC20localizedDescriptionSSvp",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "Final"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation11PigeonErrorC20localizedDescriptionSSvg",
+                "mangledName": "$s25video_player_avfoundation11PigeonErrorC20localizedDescriptionSSvg",
+                "moduleName": "video_player_avfoundation",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:25video_player_avfoundation11PigeonErrorC",
+        "mangledName": "$s25video_player_avfoundation11PigeonErrorC",
+        "moduleName": "video_player_avfoundation",
+        "declAttributes": [
+          "Final",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "deepEqualsVideoPlayerPluginMessages",
+        "printedName": "deepEqualsVideoPlayerPluginMessages(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Any?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Any?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:25video_player_avfoundation35deepEqualsVideoPlayerPluginMessagesySbypSg_ACtF",
+        "mangledName": "$s25video_player_avfoundation35deepEqualsVideoPlayerPluginMessagesySbypSg_ACtF",
+        "moduleName": "video_player_avfoundation",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "deepHashVideoPlayerPluginMessages",
+        "printedName": "deepHashVideoPlayerPluginMessages(value:hasher:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Any?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Hasher",
+            "printedName": "Swift.Hasher",
+            "paramValueOwnership": "InOut",
+            "usr": "s:s6HasherV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:25video_player_avfoundation33deepHashVideoPlayerPluginMessages5value6hasheryypSg_s6HasherVztF",
+        "mangledName": "$s25video_player_avfoundation33deepHashVideoPlayerPluginMessages5value6hasheryypSg_s6HasherVztF",
+        "moduleName": "video_player_avfoundation",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlatformVideoViewCreationParams",
+        "printedName": "PlatformVideoViewCreationParams",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "playerId",
+            "printedName": "playerId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation31PlatformVideoViewCreationParamsV0B2Ids5Int64Vvp",
+            "mangledName": "$s25video_player_avfoundation31PlatformVideoViewCreationParamsV0B2Ids5Int64Vvp",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation31PlatformVideoViewCreationParamsV0B2Ids5Int64Vvg",
+                "mangledName": "$s25video_player_avfoundation31PlatformVideoViewCreationParamsV0B2Ids5Int64Vvg",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation31PlatformVideoViewCreationParamsV0B2Ids5Int64Vvs",
+                "mangledName": "$s25video_player_avfoundation31PlatformVideoViewCreationParamsV0B2Ids5Int64Vvs",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation31PlatformVideoViewCreationParamsV0B2Ids5Int64VvM",
+                "mangledName": "$s25video_player_avfoundation31PlatformVideoViewCreationParamsV0B2Ids5Int64VvM",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "fromList",
+            "printedName": "fromList(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "video_player_avfoundation.PlatformVideoViewCreationParams?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlatformVideoViewCreationParams",
+                    "printedName": "video_player_avfoundation.PlatformVideoViewCreationParams",
+                    "usr": "s:25video_player_avfoundation31PlatformVideoViewCreationParamsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation31PlatformVideoViewCreationParamsV8fromListyACSgSayypSgGFZ",
+            "mangledName": "$s25video_player_avfoundation31PlatformVideoViewCreationParamsV8fromListyACSgSayypSgGFZ",
+            "moduleName": "video_player_avfoundation",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toList",
+            "printedName": "toList()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation31PlatformVideoViewCreationParamsV6toListSayypSgGyF",
+            "mangledName": "$s25video_player_avfoundation31PlatformVideoViewCreationParamsV6toListSayypSgGyF",
+            "moduleName": "video_player_avfoundation",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlatformVideoViewCreationParams",
+                "printedName": "video_player_avfoundation.PlatformVideoViewCreationParams",
+                "usr": "s:25video_player_avfoundation31PlatformVideoViewCreationParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlatformVideoViewCreationParams",
+                "printedName": "video_player_avfoundation.PlatformVideoViewCreationParams",
+                "usr": "s:25video_player_avfoundation31PlatformVideoViewCreationParamsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation31PlatformVideoViewCreationParamsV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s25video_player_avfoundation31PlatformVideoViewCreationParamsV2eeoiySbAC_ACtFZ",
+            "moduleName": "video_player_avfoundation",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation31PlatformVideoViewCreationParamsV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s25video_player_avfoundation31PlatformVideoViewCreationParamsV4hash4intoys6HasherVz_tF",
+            "moduleName": "video_player_avfoundation",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(playerId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlatformVideoViewCreationParams",
+                "printedName": "video_player_avfoundation.PlatformVideoViewCreationParams",
+                "usr": "s:25video_player_avfoundation31PlatformVideoViewCreationParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25video_player_avfoundation31PlatformVideoViewCreationParamsV0B2IdACs5Int64V_tcfc",
+            "mangledName": "$s25video_player_avfoundation31PlatformVideoViewCreationParamsV0B2IdACs5Int64V_tcfc",
+            "moduleName": "video_player_avfoundation",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation31PlatformVideoViewCreationParamsV9hashValueSivp",
+            "mangledName": "$s25video_player_avfoundation31PlatformVideoViewCreationParamsV9hashValueSivp",
+            "moduleName": "video_player_avfoundation",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation31PlatformVideoViewCreationParamsV9hashValueSivg",
+                "mangledName": "$s25video_player_avfoundation31PlatformVideoViewCreationParamsV9hashValueSivg",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:25video_player_avfoundation31PlatformVideoViewCreationParamsV",
+        "mangledName": "$s25video_player_avfoundation31PlatformVideoViewCreationParamsV",
+        "moduleName": "video_player_avfoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CreationOptions",
+        "printedName": "CreationOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "uri",
+            "printedName": "uri",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation15CreationOptionsV3uriSSvp",
+            "mangledName": "$s25video_player_avfoundation15CreationOptionsV3uriSSvp",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation15CreationOptionsV3uriSSvg",
+                "mangledName": "$s25video_player_avfoundation15CreationOptionsV3uriSSvg",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation15CreationOptionsV3uriSSvs",
+                "mangledName": "$s25video_player_avfoundation15CreationOptionsV3uriSSvs",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation15CreationOptionsV3uriSSvM",
+                "mangledName": "$s25video_player_avfoundation15CreationOptionsV3uriSSvM",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "httpHeaders",
+            "printedName": "httpHeaders",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation15CreationOptionsV11httpHeadersSDyS2SGvp",
+            "mangledName": "$s25video_player_avfoundation15CreationOptionsV11httpHeadersSDyS2SGvp",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation15CreationOptionsV11httpHeadersSDyS2SGvg",
+                "mangledName": "$s25video_player_avfoundation15CreationOptionsV11httpHeadersSDyS2SGvg",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation15CreationOptionsV11httpHeadersSDyS2SGvs",
+                "mangledName": "$s25video_player_avfoundation15CreationOptionsV11httpHeadersSDyS2SGvs",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation15CreationOptionsV11httpHeadersSDyS2SGvM",
+                "mangledName": "$s25video_player_avfoundation15CreationOptionsV11httpHeadersSDyS2SGvM",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "fromList",
+            "printedName": "fromList(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "video_player_avfoundation.CreationOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CreationOptions",
+                    "printedName": "video_player_avfoundation.CreationOptions",
+                    "usr": "s:25video_player_avfoundation15CreationOptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation15CreationOptionsV8fromListyACSgSayypSgGFZ",
+            "mangledName": "$s25video_player_avfoundation15CreationOptionsV8fromListyACSgSayypSgGFZ",
+            "moduleName": "video_player_avfoundation",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toList",
+            "printedName": "toList()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation15CreationOptionsV6toListSayypSgGyF",
+            "mangledName": "$s25video_player_avfoundation15CreationOptionsV6toListSayypSgGyF",
+            "moduleName": "video_player_avfoundation",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CreationOptions",
+                "printedName": "video_player_avfoundation.CreationOptions",
+                "usr": "s:25video_player_avfoundation15CreationOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CreationOptions",
+                "printedName": "video_player_avfoundation.CreationOptions",
+                "usr": "s:25video_player_avfoundation15CreationOptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation15CreationOptionsV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s25video_player_avfoundation15CreationOptionsV2eeoiySbAC_ACtFZ",
+            "moduleName": "video_player_avfoundation",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation15CreationOptionsV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s25video_player_avfoundation15CreationOptionsV4hash4intoys6HasherVz_tF",
+            "moduleName": "video_player_avfoundation",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(uri:httpHeaders:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CreationOptions",
+                "printedName": "video_player_avfoundation.CreationOptions",
+                "usr": "s:25video_player_avfoundation15CreationOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25video_player_avfoundation15CreationOptionsV3uri11httpHeadersACSS_SDyS2SGtcfc",
+            "mangledName": "$s25video_player_avfoundation15CreationOptionsV3uri11httpHeadersACSS_SDyS2SGtcfc",
+            "moduleName": "video_player_avfoundation",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation15CreationOptionsV9hashValueSivp",
+            "mangledName": "$s25video_player_avfoundation15CreationOptionsV9hashValueSivp",
+            "moduleName": "video_player_avfoundation",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation15CreationOptionsV9hashValueSivg",
+                "mangledName": "$s25video_player_avfoundation15CreationOptionsV9hashValueSivg",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:25video_player_avfoundation15CreationOptionsV",
+        "mangledName": "$s25video_player_avfoundation15CreationOptionsV",
+        "moduleName": "video_player_avfoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TexturePlayerIds",
+        "printedName": "TexturePlayerIds",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "playerId",
+            "printedName": "playerId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation16TexturePlayerIdsV0B2Ids5Int64Vvp",
+            "mangledName": "$s25video_player_avfoundation16TexturePlayerIdsV0B2Ids5Int64Vvp",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation16TexturePlayerIdsV0B2Ids5Int64Vvg",
+                "mangledName": "$s25video_player_avfoundation16TexturePlayerIdsV0B2Ids5Int64Vvg",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation16TexturePlayerIdsV0B2Ids5Int64Vvs",
+                "mangledName": "$s25video_player_avfoundation16TexturePlayerIdsV0B2Ids5Int64Vvs",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation16TexturePlayerIdsV0B2Ids5Int64VvM",
+                "mangledName": "$s25video_player_avfoundation16TexturePlayerIdsV0B2Ids5Int64VvM",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textureId",
+            "printedName": "textureId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation16TexturePlayerIdsV9textureIds5Int64Vvp",
+            "mangledName": "$s25video_player_avfoundation16TexturePlayerIdsV9textureIds5Int64Vvp",
+            "moduleName": "video_player_avfoundation",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation16TexturePlayerIdsV9textureIds5Int64Vvg",
+                "mangledName": "$s25video_player_avfoundation16TexturePlayerIdsV9textureIds5Int64Vvg",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation16TexturePlayerIdsV9textureIds5Int64Vvs",
+                "mangledName": "$s25video_player_avfoundation16TexturePlayerIdsV9textureIds5Int64Vvs",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation16TexturePlayerIdsV9textureIds5Int64VvM",
+                "mangledName": "$s25video_player_avfoundation16TexturePlayerIdsV9textureIds5Int64VvM",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "fromList",
+            "printedName": "fromList(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "video_player_avfoundation.TexturePlayerIds?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TexturePlayerIds",
+                    "printedName": "video_player_avfoundation.TexturePlayerIds",
+                    "usr": "s:25video_player_avfoundation16TexturePlayerIdsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation16TexturePlayerIdsV8fromListyACSgSayypSgGFZ",
+            "mangledName": "$s25video_player_avfoundation16TexturePlayerIdsV8fromListyACSgSayypSgGFZ",
+            "moduleName": "video_player_avfoundation",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toList",
+            "printedName": "toList()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation16TexturePlayerIdsV6toListSayypSgGyF",
+            "mangledName": "$s25video_player_avfoundation16TexturePlayerIdsV6toListSayypSgGyF",
+            "moduleName": "video_player_avfoundation",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TexturePlayerIds",
+                "printedName": "video_player_avfoundation.TexturePlayerIds",
+                "usr": "s:25video_player_avfoundation16TexturePlayerIdsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TexturePlayerIds",
+                "printedName": "video_player_avfoundation.TexturePlayerIds",
+                "usr": "s:25video_player_avfoundation16TexturePlayerIdsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation16TexturePlayerIdsV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s25video_player_avfoundation16TexturePlayerIdsV2eeoiySbAC_ACtFZ",
+            "moduleName": "video_player_avfoundation",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation16TexturePlayerIdsV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s25video_player_avfoundation16TexturePlayerIdsV4hash4intoys6HasherVz_tF",
+            "moduleName": "video_player_avfoundation",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(playerId:textureId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TexturePlayerIds",
+                "printedName": "video_player_avfoundation.TexturePlayerIds",
+                "usr": "s:25video_player_avfoundation16TexturePlayerIdsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25video_player_avfoundation16TexturePlayerIdsV0B2Id07textureG0ACs5Int64V_AGtcfc",
+            "mangledName": "$s25video_player_avfoundation16TexturePlayerIdsV0B2Id07textureG0ACs5Int64V_AGtcfc",
+            "moduleName": "video_player_avfoundation",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation16TexturePlayerIdsV9hashValueSivp",
+            "mangledName": "$s25video_player_avfoundation16TexturePlayerIdsV9hashValueSivp",
+            "moduleName": "video_player_avfoundation",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation16TexturePlayerIdsV9hashValueSivg",
+                "mangledName": "$s25video_player_avfoundation16TexturePlayerIdsV9hashValueSivg",
+                "moduleName": "video_player_avfoundation",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:25video_player_avfoundation16TexturePlayerIdsV",
+        "mangledName": "$s25video_player_avfoundation16TexturePlayerIdsV",
+        "moduleName": "video_player_avfoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoPlayerPluginMessagesPigeonCodec",
+        "printedName": "VideoPlayerPluginMessagesPigeonCodec",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoPlayerPluginMessagesPigeonCodec",
+                "printedName": "video_player_avfoundation.VideoPlayerPluginMessagesPigeonCodec",
+                "usr": "c:@M@video_player_avfoundation@objc(cs)VideoPlayerPluginMessagesPigeonCodec"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation36VideoPlayerPluginMessagesPigeonCodecC6sharedACvpZ",
+            "mangledName": "$s25video_player_avfoundation36VideoPlayerPluginMessagesPigeonCodecC6sharedACvpZ",
+            "moduleName": "video_player_avfoundation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoPlayerPluginMessagesPigeonCodec",
+                    "printedName": "video_player_avfoundation.VideoPlayerPluginMessagesPigeonCodec",
+                    "usr": "c:@M@video_player_avfoundation@objc(cs)VideoPlayerPluginMessagesPigeonCodec"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation36VideoPlayerPluginMessagesPigeonCodecC6sharedACvgZ",
+                "mangledName": "$s25video_player_avfoundation36VideoPlayerPluginMessagesPigeonCodecC6sharedACvgZ",
+                "moduleName": "video_player_avfoundation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoPlayerPluginMessagesPigeonCodec",
+                "printedName": "video_player_avfoundation.VideoPlayerPluginMessagesPigeonCodec",
+                "usr": "c:@M@video_player_avfoundation@objc(cs)VideoPlayerPluginMessagesPigeonCodec"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@video_player_avfoundation@objc(cs)VideoPlayerPluginMessagesPigeonCodec(im)init",
+            "mangledName": "$s25video_player_avfoundation36VideoPlayerPluginMessagesPigeonCodecCACycfc",
+            "moduleName": "video_player_avfoundation",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@video_player_avfoundation@objc(cs)VideoPlayerPluginMessagesPigeonCodec",
+        "mangledName": "$s25video_player_avfoundation36VideoPlayerPluginMessagesPigeonCodecC",
+        "moduleName": "video_player_avfoundation",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)FlutterStandardMessageCodec",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Flutter.FlutterStandardMessageCodec",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AVFoundationVideoPlayerApi",
+        "printedName": "AVFoundationVideoPlayerApi",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation26AVFoundationVideoPlayerApiP10initializeyyKF",
+            "mangledName": "$s25video_player_avfoundation26AVFoundationVideoPlayerApiP10initializeyyKF",
+            "moduleName": "video_player_avfoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : video_player_avfoundation.AVFoundationVideoPlayerApi>",
+            "sugared_genericSig": "<Self where Self : video_player_avfoundation.AVFoundationVideoPlayerApi>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createPlatformViewPlayer",
+            "printedName": "createPlatformViewPlayer(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CreationOptions",
+                "printedName": "video_player_avfoundation.CreationOptions",
+                "usr": "s:25video_player_avfoundation15CreationOptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation26AVFoundationVideoPlayerApiP018createPlatformViewF07optionss5Int64VAA15CreationOptionsV_tKF",
+            "mangledName": "$s25video_player_avfoundation26AVFoundationVideoPlayerApiP018createPlatformViewF07optionss5Int64VAA15CreationOptionsV_tKF",
+            "moduleName": "video_player_avfoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : video_player_avfoundation.AVFoundationVideoPlayerApi>",
+            "sugared_genericSig": "<Self where Self : video_player_avfoundation.AVFoundationVideoPlayerApi>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createTexturePlayer",
+            "printedName": "createTexturePlayer(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TexturePlayerIds",
+                "printedName": "video_player_avfoundation.TexturePlayerIds",
+                "usr": "s:25video_player_avfoundation16TexturePlayerIdsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CreationOptions",
+                "printedName": "video_player_avfoundation.CreationOptions",
+                "usr": "s:25video_player_avfoundation15CreationOptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation26AVFoundationVideoPlayerApiP013createTextureF07optionsAA0iF3IdsVAA15CreationOptionsV_tKF",
+            "mangledName": "$s25video_player_avfoundation26AVFoundationVideoPlayerApiP013createTextureF07optionsAA0iF3IdsVAA15CreationOptionsV_tKF",
+            "moduleName": "video_player_avfoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : video_player_avfoundation.AVFoundationVideoPlayerApi>",
+            "sugared_genericSig": "<Self where Self : video_player_avfoundation.AVFoundationVideoPlayerApi>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMixWithOthers",
+            "printedName": "setMixWithOthers(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation26AVFoundationVideoPlayerApiP16setMixWithOthersyySbKF",
+            "mangledName": "$s25video_player_avfoundation26AVFoundationVideoPlayerApiP16setMixWithOthersyySbKF",
+            "moduleName": "video_player_avfoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : video_player_avfoundation.AVFoundationVideoPlayerApi>",
+            "sugared_genericSig": "<Self where Self : video_player_avfoundation.AVFoundationVideoPlayerApi>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fileURLForAsset",
+            "printedName": "fileURLForAsset(name:package:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation26AVFoundationVideoPlayerApiP15fileURLForAsset4name7packageSSSgSS_AGtKF",
+            "mangledName": "$s25video_player_avfoundation26AVFoundationVideoPlayerApiP15fileURLForAsset4name7packageSSSgSS_AGtKF",
+            "moduleName": "video_player_avfoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : video_player_avfoundation.AVFoundationVideoPlayerApi>",
+            "sugared_genericSig": "<Self where Self : video_player_avfoundation.AVFoundationVideoPlayerApi>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:25video_player_avfoundation26AVFoundationVideoPlayerApiP",
+        "mangledName": "$s25video_player_avfoundation26AVFoundationVideoPlayerApiP",
+        "moduleName": "video_player_avfoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AVFoundationVideoPlayerApiSetup",
+        "printedName": "AVFoundationVideoPlayerApiSetup",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "codec",
+            "printedName": "codec",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterStandardMessageCodec",
+                "printedName": "Flutter.FlutterStandardMessageCodec",
+                "usr": "c:objc(cs)FlutterStandardMessageCodec"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25video_player_avfoundation31AVFoundationVideoPlayerApiSetupC5codecSo27FlutterStandardMessageCodecCvpZ",
+            "mangledName": "$s25video_player_avfoundation31AVFoundationVideoPlayerApiSetupC5codecSo27FlutterStandardMessageCodecCvpZ",
+            "moduleName": "video_player_avfoundation",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterStandardMessageCodec",
+                    "printedName": "Flutter.FlutterStandardMessageCodec",
+                    "usr": "c:objc(cs)FlutterStandardMessageCodec"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25video_player_avfoundation31AVFoundationVideoPlayerApiSetupC5codecSo27FlutterStandardMessageCodecCvgZ",
+                "mangledName": "$s25video_player_avfoundation31AVFoundationVideoPlayerApiSetupC5codecSo27FlutterStandardMessageCodecCvgZ",
+                "moduleName": "video_player_avfoundation",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setUp",
+            "printedName": "setUp(binaryMessenger:api:messageChannelSuffix:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterBinaryMessenger",
+                "printedName": "any Flutter.FlutterBinaryMessenger",
+                "usr": "c:objc(pl)FlutterBinaryMessenger"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any video_player_avfoundation.AVFoundationVideoPlayerApi)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVFoundationVideoPlayerApi",
+                    "printedName": "any video_player_avfoundation.AVFoundationVideoPlayerApi",
+                    "usr": "s:25video_player_avfoundation26AVFoundationVideoPlayerApiP"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25video_player_avfoundation31AVFoundationVideoPlayerApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZ",
+            "mangledName": "$s25video_player_avfoundation31AVFoundationVideoPlayerApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZ",
+            "moduleName": "video_player_avfoundation",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AVFoundationVideoPlayerApiSetup",
+                "printedName": "video_player_avfoundation.AVFoundationVideoPlayerApiSetup",
+                "usr": "s:25video_player_avfoundation31AVFoundationVideoPlayerApiSetupC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25video_player_avfoundation31AVFoundationVideoPlayerApiSetupCACycfc",
+            "mangledName": "$s25video_player_avfoundation31AVFoundationVideoPlayerApiSetupCACycfc",
+            "moduleName": "video_player_avfoundation",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:25video_player_avfoundation31AVFoundationVideoPlayerApiSetupC",
+        "mangledName": "$s25video_player_avfoundation31AVFoundationVideoPlayerApiSetupC",
+        "moduleName": "video_player_avfoundation",
+        "isOpen": true,
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/video_player_avfoundation-2.9.7\/darwin\/video_player_avfoundation\/Sources\/video_player_avfoundation\/VideoPlayerPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2188,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/video_player_avfoundation-2.9.7\/darwin\/video_player_avfoundation\/Sources\/video_player_avfoundation\/VideoPlayerPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 2243,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/video_player_avfoundation-2.9.7\/darwin\/video_player_avfoundation\/Sources\/video_player_avfoundation\/VideoPlayerPluginMessages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 10831,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

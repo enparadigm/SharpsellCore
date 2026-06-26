@@ -3,11 +3,13 @@
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name camera_avfoundation
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVFoundation
+import CoreMedia
 import CoreMotion
 import Dispatch
 import Flutter
-import ObjectiveC
+import Foundation
 import Swift
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -108,4 +110,11 @@ extension camera_avfoundation.CameraPlugin : camera_avfoundation.FCPCameraApi {
   #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func setImageFileFormat(_ format: camera_avfoundation.FCPPlatformImageFileFormat, completion: @escaping (Flutter.FlutterError?) -> Swift.Void)
   #endif
+}
+@_inheritsConvenienceInitializers @objc public class DefaultDeviceOrientationProvider : ObjectiveC.NSObject {
+  @objc public var orientation: UIKit.UIDeviceOrientation {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
 }

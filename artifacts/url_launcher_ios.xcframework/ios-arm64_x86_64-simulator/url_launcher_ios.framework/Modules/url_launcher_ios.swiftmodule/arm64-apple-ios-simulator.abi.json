@@ -1055,6 +1055,47 @@
           },
           {
             "kind": "Var",
+            "name": "noUI",
+            "printedName": "noUI",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(url_launcher_ios.InAppLoadResult.Type) -> url_launcher_ios.InAppLoadResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InAppLoadResult",
+                    "printedName": "url_launcher_ios.InAppLoadResult",
+                    "usr": "s:16url_launcher_ios15InAppLoadResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "url_launcher_ios.InAppLoadResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InAppLoadResult",
+                        "printedName": "url_launcher_ios.InAppLoadResult",
+                        "usr": "s:16url_launcher_ios15InAppLoadResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16url_launcher_ios15InAppLoadResultO4noUIyA2CmF",
+            "mangledName": "$s16url_launcher_ios15InAppLoadResultO4noUIyA2CmF",
+            "moduleName": "url_launcher_ios",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
             "name": "dismissed",
             "printedName": "dismissed",
             "children": [
@@ -1092,7 +1133,7 @@
             "declAttributes": [
               "RawDocComment"
             ],
-            "fixedbinaryorder": 3
+            "fixedbinaryorder": 4
           },
           {
             "kind": "Constructor",
@@ -1835,7 +1876,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(launcher:)",
+            "printedName": "init(launcher:viewPresenterProvider:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1849,11 +1890,17 @@
                 "printedName": "any url_launcher_ios.Launcher",
                 "hasDefaultArg": true,
                 "usr": "s:16url_launcher_ios8LauncherP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ViewPresenterProvider",
+                "printedName": "any url_launcher_ios.ViewPresenterProvider",
+                "usr": "s:16url_launcher_ios21ViewPresenterProviderP"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16url_launcher_ios17URLLauncherPluginC0B0AcA8Launcher_p_tcfc",
-            "mangledName": "$s16url_launcher_ios17URLLauncherPluginC0B0AcA8Launcher_p_tcfc",
+            "usr": "s:16url_launcher_ios17URLLauncherPluginC0B021viewPresenterProviderAcA8Launcher_p_AA04ViewgH0_ptcfc",
+            "mangledName": "$s16url_launcher_ios17URLLauncherPluginC0B021viewPresenterProviderAcA8Launcher_p_AA04ViewgH0_ptcfc",
             "moduleName": "url_launcher_ios",
             "init_kind": "Designated"
           },
@@ -2720,32 +2767,146 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "url_launcher_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "url_launcher_ios"
+      },
+      {
         "kind": "TypeDecl",
-        "name": "UIViewController",
-        "printedName": "UIViewController",
+        "name": "ViewPresenter",
+        "printedName": "ViewPresenter",
         "children": [
           {
-            "kind": "Var",
-            "name": "topViewController",
-            "printedName": "topViewController",
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(_:animated:completion:)",
             "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
               {
                 "kind": "TypeNominal",
                 "name": "UIViewController",
                 "printedName": "UIKit.UIViewController",
                 "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16url_launcher_ios13ViewPresenterP7present_8animated10completionySo16UIViewControllerC_SbyycSgtF",
+            "mangledName": "$s16url_launcher_ios13ViewPresenterP7present_8animated10completionySo16UIViewControllerC_SbyycSgtF",
+            "moduleName": "url_launcher_ios",
+            "genericSig": "<τ_0_0 where τ_0_0 : url_launcher_ios.ViewPresenter>",
+            "sugared_genericSig": "<Self where Self : url_launcher_ios.ViewPresenter>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16url_launcher_ios13ViewPresenterP",
+        "mangledName": "$s16url_launcher_ios13ViewPresenterP",
+        "moduleName": "url_launcher_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ViewPresenterProvider",
+        "printedName": "ViewPresenterProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "viewPresenter",
+            "printedName": "viewPresenter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any url_launcher_ios.ViewPresenter)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewPresenter",
+                    "printedName": "any url_launcher_ios.ViewPresenter",
+                    "usr": "s:16url_launcher_ios13ViewPresenterP"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:So16UIViewControllerC16url_launcher_iosE07topViewB0ABvp",
-            "mangledName": "$sSo16UIViewControllerC16url_launcher_iosE07topViewB0ABvp",
+            "usr": "s:16url_launcher_ios21ViewPresenterProviderP04viewE0AA0dE0_pSgvp",
+            "mangledName": "$s16url_launcher_ios21ViewPresenterProviderP04viewE0AA0dE0_pSgvp",
             "moduleName": "url_launcher_ios",
-            "isOpen": true,
+            "protocolReq": true,
             "declAttributes": [
-              "Preconcurrency",
-              "Custom"
+              "RawDocComment"
             ],
-            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -2754,22 +2915,207 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
+                    "name": "Optional",
+                    "printedName": "(any url_launcher_ios.ViewPresenter)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewPresenter",
+                        "printedName": "any url_launcher_ios.ViewPresenter",
+                        "usr": "s:16url_launcher_ios13ViewPresenterP"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:So16UIViewControllerC16url_launcher_iosE07topViewB0ABvg",
-                "mangledName": "$sSo16UIViewControllerC16url_launcher_iosE07topViewB0ABvg",
+                "usr": "s:16url_launcher_ios21ViewPresenterProviderP04viewE0AA0dE0_pSgvg",
+                "mangledName": "$s16url_launcher_ios21ViewPresenterProviderP04viewE0AA0dE0_pSgvg",
                 "moduleName": "url_launcher_ios",
-                "isOpen": true,
-                "isFromExtension": true,
+                "genericSig": "<τ_0_0 where τ_0_0 : url_launcher_ios.ViewPresenterProvider>",
+                "sugared_genericSig": "<Self where Self : url_launcher_ios.ViewPresenterProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
               }
             ]
           }
         ],
+        "declKind": "Protocol",
+        "usr": "s:16url_launcher_ios21ViewPresenterProviderP",
+        "mangledName": "$s16url_launcher_ios21ViewPresenterProviderP",
+        "moduleName": "url_launcher_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultViewPresenterProvider",
+        "printedName": "DefaultViewPresenterProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "registrar",
+            "printedName": "registrar",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16url_launcher_ios28DefaultViewPresenterProviderC9registrar33_8789216EDB040CA6B1CE397069F21C5DLLSo22FlutterPluginRegistrar_pvp",
+            "mangledName": "$s16url_launcher_ios28DefaultViewPresenterProviderC9registrar33_8789216EDB040CA6B1CE397069F21C5DLLSo22FlutterPluginRegistrar_pvp",
+            "moduleName": "url_launcher_ios",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(registrar:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultViewPresenterProvider",
+                "printedName": "url_launcher_ios.DefaultViewPresenterProvider",
+                "usr": "s:16url_launcher_ios28DefaultViewPresenterProviderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16url_launcher_ios28DefaultViewPresenterProviderC9registrarACSo22FlutterPluginRegistrar_p_tcfc",
+            "mangledName": "$s16url_launcher_ios28DefaultViewPresenterProviderC9registrarACSo22FlutterPluginRegistrar_p_tcfc",
+            "moduleName": "url_launcher_ios",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "viewPresenter",
+            "printedName": "viewPresenter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any url_launcher_ios.ViewPresenter)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewPresenter",
+                    "printedName": "any url_launcher_ios.ViewPresenter",
+                    "usr": "s:16url_launcher_ios13ViewPresenterP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16url_launcher_ios28DefaultViewPresenterProviderC04viewF0AA0eF0_pSgvp",
+            "mangledName": "$s16url_launcher_ios28DefaultViewPresenterProviderC04viewF0AA0eF0_pSgvp",
+            "moduleName": "url_launcher_ios",
+            "declAttributes": [
+              "Final"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any url_launcher_ios.ViewPresenter)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewPresenter",
+                        "printedName": "any url_launcher_ios.ViewPresenter",
+                        "usr": "s:16url_launcher_ios13ViewPresenterP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16url_launcher_ios28DefaultViewPresenterProviderC04viewF0AA0eF0_pSgvg",
+                "mangledName": "$s16url_launcher_ios28DefaultViewPresenterProviderC04viewF0AA0eF0_pSgvg",
+                "moduleName": "url_launcher_ios",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16url_launcher_ios28DefaultViewPresenterProviderC",
+        "mangledName": "$s16url_launcher_ios28DefaultViewPresenterProviderC",
+        "moduleName": "url_launcher_ios",
+        "declAttributes": [
+          "Final",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ViewPresenterProvider",
+            "printedName": "ViewPresenterProvider",
+            "usr": "s:16url_launcher_ios21ViewPresenterProviderP",
+            "mangledName": "$s16url_launcher_ios21ViewPresenterProviderP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIViewController",
+        "printedName": "UIViewController",
         "declKind": "Class",
         "usr": "c:objc(cs)UIViewController",
         "moduleName": "UIKit",
@@ -2857,6 +3203,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "ViewPresenter",
+            "printedName": "ViewPresenter",
+            "usr": "s:16url_launcher_ios13ViewPresenterP",
+            "mangledName": "$s16url_launcher_ios13ViewPresenterP"
+          },
+          {
+            "kind": "Conformance",
             "name": "UITraitChangeObservable",
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
@@ -2869,65 +3222,72 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.4.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1757,
+      "offset": 1735,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.4.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1826,
+      "offset": 1804,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.4.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1907,
+      "offset": 1885,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.4.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 2060,
+      "offset": 2038,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.4.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 2125,
+      "offset": 2103,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.4.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 2206,
+      "offset": 2184,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.4.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 2275,
+      "offset": 2264,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.4.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2333,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.4.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "StringLiteral",
-      "offset": 4974,
+      "offset": 5032,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/URLLaunchSession.swift",
+      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.4.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/URLLaunchSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 559,
+      "offset": 537,
       "length": 5,
       "value": "false"
     }
