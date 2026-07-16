@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/nikunjkhunt/Documents/ss/sdk/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/printing/printing.framework/printing'
+binary-path:     '/Users/nikunjkhunt/Documents/ss/lic_sdk/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/printing/printing.framework/printing'
 relocations:
   - { offset: 0x84227, size: 0x8, addend: 0x0, symName: _printingVersionString, symObjAddr: 0x0, symBinAddr: 0x13DE0, symSize: 0x0 }
   - { offset: 0x8425C, size: 0x8, addend: 0x0, symName: _printingVersionNumber, symObjAddr: 0x28, symBinAddr: 0x13E08, symSize: 0x0 }
@@ -78,8 +78,8 @@ relocations:
   - { offset: 0x87888, size: 0x8, addend: 0x0, symName: '_$s8printing14PrintingPluginC8setError3job7messageys6UInt32V_SPys4Int8VGtFZTf4nnd_n', symObjAddr: 0x453C, symBinAddr: 0x87D8, symSize: 0x140 }
   - { offset: 0x879A8, size: 0x8, addend: 0x0, symName: '_$s8printing14PrintingPluginC8register4withySo07FlutterC9Registrar_p_tFZTf4nd_n', symObjAddr: 0x467C, symBinAddr: 0x8918, symSize: 0x140 }
   - { offset: 0x87A54, size: 0x8, addend: 0x0, symName: '_$s8printing14PrintingPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypK7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n', symObjAddr: 0x4BD8, symBinAddr: 0x8E74, symSize: 0x27E8 }
-  - { offset: 0x88894, size: 0x8, addend: 0x0, symName: '_$s8printing16selectedPrintersSDySSSo9UIPrinterCGvp', symObjAddr: 0x24F48, symBinAddr: 0x1D650, symSize: 0x0 }
-  - { offset: 0x888AE, size: 0x8, addend: 0x0, symName: '_$s8printing13pickedPrinterSo9UIPrinterCSgvp', symObjAddr: 0x24F50, symBinAddr: 0x1D658, symSize: 0x0 }
+  - { offset: 0x88894, size: 0x8, addend: 0x0, symName: '_$s8printing16selectedPrintersSDySSSo9UIPrinterCGvp', symObjAddr: 0x24F50, symBinAddr: 0x1D650, symSize: 0x0 }
+  - { offset: 0x888AE, size: 0x8, addend: 0x0, symName: '_$s8printing13pickedPrinterSo9UIPrinterCSgvp', symObjAddr: 0x24F58, symBinAddr: 0x1D658, symSize: 0x0 }
   - { offset: 0x88DAF, size: 0x8, addend: 0x0, symName: '_$s8printing16selectedPrinters_WZ', symObjAddr: 0x54, symBinAddr: 0xB768, symSize: 0x14 }
   - { offset: 0x88DFF, size: 0x8, addend: 0x0, symName: '_$s8printing31dataProviderReleaseDataCallback4info0B04sizeySvSg_SVSitFTo', symObjAddr: 0x53C, symBinAddr: 0xBC48, symSize: 0x10 }
   - { offset: 0x88EA1, size: 0x8, addend: 0x0, symName: '_$sSbIegy_SbIeyBy_TR', symObjAddr: 0xBCC, symBinAddr: 0xC2D8, symSize: 0x3C }

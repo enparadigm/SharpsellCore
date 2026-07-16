@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/nikunjkhunt/Documents/ss/sdk/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/fluttertoast/fluttertoast.framework/fluttertoast'
+binary-path:     '/Users/nikunjkhunt/Documents/ss/lic_sdk/sharp-sell/sdk/iOS/Frameworks/Release/iphoneos/Release-iphoneos/fluttertoast/fluttertoast.framework/fluttertoast'
 relocations:
   - { offset: 0x897A1, size: 0x8, addend: 0x0, symName: _fluttertoastVersionString, symObjAddr: 0x0, symBinAddr: 0x8A50, symSize: 0x0 }
   - { offset: 0x897D6, size: 0x8, addend: 0x0, symName: _fluttertoastVersionNumber, symObjAddr: 0x30, symBinAddr: 0x8A80, symSize: 0x0 }
@@ -34,8 +34,8 @@ relocations:
   - { offset: 0x8A2A0, size: 0x8, addend: 0x0, symName: _CSToastActivityViewKey, symObjAddr: 0x2660, symBinAddr: 0x11540, symSize: 0x0 }
   - { offset: 0x8A2B6, size: 0x8, addend: 0x0, symName: _CSToastQueueKey, symObjAddr: 0x2668, symBinAddr: 0x11548, symSize: 0x0 }
   - { offset: 0x8A2C0, size: 0x8, addend: 0x0, symName: '+[CSToastManager sharedManager]', symObjAddr: 0x1F38, symBinAddr: 0x6A80, symSize: 0x74 }
-  - { offset: 0x8A2EC, size: 0x8, addend: 0x0, symName: _sharedManager._sharedManager, symObjAddr: 0x106F8, symBinAddr: 0x11550, symSize: 0x0 }
-  - { offset: 0x8A303, size: 0x8, addend: 0x0, symName: _sharedManager.oncePredicate, symObjAddr: 0x10700, symBinAddr: 0x11558, symSize: 0x0 }
+  - { offset: 0x8A2EC, size: 0x8, addend: 0x0, symName: _sharedManager._sharedManager, symObjAddr: 0x10720, symBinAddr: 0x11550, symSize: 0x0 }
+  - { offset: 0x8A303, size: 0x8, addend: 0x0, symName: _sharedManager.oncePredicate, symObjAddr: 0x10728, symBinAddr: 0x11558, symSize: 0x0 }
   - { offset: 0x8A6DA, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) makeToast:]', symObjAddr: 0x0, symBinAddr: 0x4B48, symSize: 0x84 }
   - { offset: 0x8A71D, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) makeToast:duration:position:]', symObjAddr: 0x84, symBinAddr: 0x4BCC, symSize: 0x8 }
   - { offset: 0x8A779, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) makeToast:duration:position:style:]', symObjAddr: 0x8C, symBinAddr: 0x4BD4, symSize: 0x8C }
