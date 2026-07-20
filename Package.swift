@@ -25,9 +25,7 @@ let package = Package(
                 //                .product(name: "DailySystemBroadcast", package: "daily-client-ios"),
                 .product(name: "MoEngage-iOS-SDK", package: "apple-sdk"),
                 .product(name: "MoEngageInApps", package: "apple-sdk"),
-                //                "MoEngage-iOS-InApps",
-                //                "Flutter",
-                //                "App",
+                // SHARPSELL_SPM_TARGET_DEPS_BEGIN
                 "app_links",
                 "appcheck",
                 "audio_session",
@@ -37,32 +35,25 @@ let package = Package(
                 "device_info_plus",
                 "DKImagePickerController",
                 "DKPhotoGallery",
+                "figma_design_library",
                 "file_picker",
-                //                                "FBLPromises",
                 "firebase_core",
                 "firebase_crashlytics",
-                //                "FirebaseCoreExtension",
-                //                "FirebaseCoreInternal",
-                //                "FirebaseSessions",
                 "flutter_custom_tabs_ios",
                 "flutter_inappwebview_ios",
                 "flutter_js",
+                "flutter_local_notifications",
                 "flutter_native_contact_picker",
                 "flutter_web_auth_2",
-                
+                "flutter_webrtc",
                 "FlutterPluginRegistrant",
                 "fluttertoast",
-                //                "FMDB",
-                //                                "GoogleAppMeasurement",
-                //                                "GoogleDataTransport",
-                //                "GoogleUtilities",
-                //                "gal",
                 "image_cropper",
                 "image_gallery_saver_plus",
                 "image_picker_ios",
-                //                "is_lock_screen",
                 "just_audio",
                 "libwebp",
+                "livekit_client",
                 "moengage_flutter_ios",
                 "MoEngagePluginBase",
                 "open_file_ios",
@@ -75,16 +66,11 @@ let package = Package(
                 "pointer_interceptor_ios",
                 "printing",
                 "promises",
-                //                "Reachability",
                 "record_darwin",
-                //                "rive_common",
                 "SDWebImage",
                 "Sentry",
                 "sentry_flutter",
-                
-                //                "share_extend",
                 "share_plus",
-                //                "share",
                 "shared_preferences_foundation",
                 "sharpsell",
                 "sqflite_darwin",
@@ -92,259 +78,196 @@ let package = Package(
                 "sqlite3_flutter_libs",
                 "store_redirect",
                 "SwiftyGif",
-//                "Toast",
                 "TOCropViewController",
                 "url_launcher_ios",
                 "v_video_compressor",
                 "video_player_avfoundation",
                 "video_thumbnail",
                 "wakelock_plus",
-                "webview_flutter_wkwebview",
-                "flutter_webrtc",
-                "livekit_client"
+                "webview_flutter_wkwebview",// SHARPSELL_SPM_TARGET_DEPS_END
                 
             ]),
         //        .testTarget(
         //            name: "SharpsellcoreTests",
         //            dependencies: ["Sharpsellcore"]),
         
-            .binaryTarget(name: "FlutterPluginRegistrant",
-                          path: "artifacts/FlutterPluginRegistrant.xcframework"),
-        
+        // SHARPSELL_SPM_BINARY_TARGETS_BEGIN
             .binaryTarget(name: "app_links",
                           path: "artifacts/app_links.xcframework"),
-        
+
             .binaryTarget(name: "appcheck",
                           path: "artifacts/appcheck.xcframework"),
-        
+
             .binaryTarget(name: "audio_session",
                           path: "artifacts/audio_session.xcframework"),
-        
-        
+
             .binaryTarget(name: "camera_avfoundation",
                           path: "artifacts/camera_avfoundation.xcframework"),
-        
+
             .binaryTarget(name: "connectivity_plus",
                           path: "artifacts/connectivity_plus.xcframework"),
-        
+
             .binaryTarget(name: "contacts_service_plus",
                           path: "artifacts/contacts_service_plus.xcframework"),
-        
+
             .binaryTarget(name: "device_info_plus",
                           path: "artifacts/device_info_plus.xcframework"),
-        
+
             .binaryTarget(name: "DKImagePickerController",
                           path: "artifacts/DKImagePickerController.xcframework"),
-        
+
             .binaryTarget(name: "DKPhotoGallery",
                           path: "artifacts/DKPhotoGallery.xcframework"),
-        
+
+            .binaryTarget(name: "figma_design_library",
+                          path: "artifacts/figma_design_library.xcframework"),
+
             .binaryTarget(name: "file_picker",
                           path: "artifacts/file_picker.xcframework"),
-        
+
             .binaryTarget(name: "firebase_core",
                           path: "artifacts/firebase_core.xcframework"),
-        
+
             .binaryTarget(name: "firebase_crashlytics",
                           path: "artifacts/firebase_crashlytics.xcframework"),
-        
-        //            .binaryTarget(name: "FirebaseCoreExtension",
-        //                          path: "artifacts/FirebaseCoreExtension.xcframework"),
-        
-        //            .binaryTarget(name: "FirebaseCoreInternal",
-        //                          path: "artifacts/FirebaseCoreInternal.xcframework"),
-        
-        //            .binaryTarget(name: "FirebaseSessions",
-        //                          path: "artifacts/FirebaseSessions.xcframework"),
-        
-        //            .binaryTarget(name: "firebase_messaging",
-        //                          path: "artifacts/firebase_messaging.xcframework"),
-        //
-        //            .binaryTarget(name: "FirebaseAnalytics",
-        //                          path: "artifacts/FirebaseAnalytics.xcframework"),
-        //
-        //            .binaryTarget(name: "FirebaseCore",
-        //                          path: "artifacts/FirebaseCore.xcframework"),
-        //
-        //            .binaryTarget(name: "FirebaseCoreDiagnostics",
-        //                          path: "artifacts/FirebaseCoreDiagnostics.xcframework"),
-        //
-        //            .binaryTarget(name: "FirebaseCrashlytics",
-        //                          path: "artifacts/FirebaseCrashlytics.xcframework"),
-        //
-        //            .binaryTarget(name: "FirebaseInstallations",
-        //                          path: "artifacts/FirebaseInstallations.xcframework"),
-        //
-        //            .binaryTarget(name: "FirebaseMessaging",
-        //                          path: "artifacts/FirebaseMessaging.xcframework"),
-        
+
             .binaryTarget(name: "flutter_custom_tabs_ios",
                           path: "artifacts/flutter_custom_tabs_ios.xcframework"),
-        
+
             .binaryTarget(name: "flutter_inappwebview_ios",
                           path: "artifacts/flutter_inappwebview_ios.xcframework"),
-        
+
             .binaryTarget(name: "flutter_js",
                           path: "artifacts/flutter_js.xcframework"),
-        
-            .binaryTarget(name: "flutter_web_auth_2",
-                          path: "artifacts/flutter_web_auth_2.xcframework"),
-        
+
+            .binaryTarget(name: "flutter_local_notifications",
+                          path: "artifacts/flutter_local_notifications.xcframework"),
+
             .binaryTarget(name: "flutter_native_contact_picker",
                           path: "artifacts/flutter_native_contact_picker.xcframework"),
-        
-        
-            .binaryTarget(name: "fluttertoast",
-                          path: "artifacts/fluttertoast.xcframework"),
-        
-        //            .binaryTarget(name: "FMDB",
-        //                          path: "artifacts/FMDB.xcframework"),
-        
-        //            .binaryTarget(name: "GoogleAppMeasurement",
-        //                          path: "artifacts/GoogleAppMeasurement.xcframework"),
-        //
-        //            .binaryTarget(name: "GoogleDataTransport",
-        //                          path: "artifacts/GoogleDataTransport.xcframework"),
-        
-        //            .binaryTarget(name: "GoogleUtilities",
-        //                          path: "artifacts/GoogleUtilities.xcframework"),
-        
-        //            .binaryTarget(name: "gal",
-        //                          path: "artifacts/gal.xcframework"),
-        
-            .binaryTarget(name: "image_gallery_saver_plus",
-                          path: "artifacts/image_gallery_saver_plus.xcframework"),
-        
-            .binaryTarget(name: "image_cropper",
-                          path: "artifacts/image_cropper.xcframework"),
-        
-            .binaryTarget(name: "image_picker_ios",
-                          path: "artifacts/image_picker_ios.xcframework"),
-        
-        //            .binaryTarget(name: "is_lock_screen",
-        //                          path: "artifacts/is_lock_screen.xcframework"),
-        
-            .binaryTarget(name: "just_audio",
-                          path: "artifacts/just_audio.xcframework"),
-        
-            .binaryTarget(name: "libwebp",
-                          path: "artifacts/libwebp.xcframework"),
-        
-//            .binaryTarget(name: "light_compressor",
-//                          path: "artifacts/light_compressor.xcframework"),
-        
-        //            .binaryTarget(name: "nanopb",
-        //                          path: "artifacts/nanopb.xcframework"),
-            .binaryTarget(name: "moengage_flutter_ios",
-                          path: "artifacts/moengage_flutter_ios.xcframework"),
-        
-            .binaryTarget(name: "MoEngagePluginBase",
-                          path: "artifacts/MoEngagePluginBase.xcframework"),
-        
-            .binaryTarget(name: "open_file_ios",
-                          path: "artifacts/open_file_ios.xcframework"),
-        
-            .binaryTarget(name: "OrderedSet",
-                          path: "artifacts/OrderedSet.xcframework"),
-        
-            .binaryTarget(name: "pdfx",
-                          path: "artifacts/pdfx.xcframework"),
-        
-            .binaryTarget(name: "package_info_plus",
-                          path: "artifacts/package_info_plus.xcframework"),
-        
-            .binaryTarget(name: "path_provider_foundation",
-                          path: "artifacts/path_provider_foundation.xcframework"),
-        
-            .binaryTarget(name: "pdf_render",
-                          path: "artifacts/pdf_render.xcframework"),
-        
-            .binaryTarget(name: "permission_handler_apple",
-                          path: "artifacts/permission_handler_apple.xcframework"),
-        
-            .binaryTarget(name: "pointer_interceptor_ios",
-                          path: "artifacts/pointer_interceptor_ios.xcframework"),
-        
-            .binaryTarget(name: "promises",
-                          path: "artifacts/promises.xcframework"),
-        
-            .binaryTarget(name: "printing",
-                          path: "artifacts/printing.xcframework"),
-        
-        //            .binaryTarget(name: "Reachability",
-        //                          path: "artifacts/Reachability.xcframework"),
-        
-            .binaryTarget(name: "record_darwin",
-                          path: "artifacts/record_darwin.xcframework"),
-        
-        //            .binaryTarget(name: "rive_common",
-        //                          path: "artifacts/rive_common.xcframework"),
-        
-            .binaryTarget(name: "SDWebImage",
-                          path: "artifacts/SDWebImage.xcframework"),
-            .binaryTarget(name: "Sentry",
-                      path: "artifacts/Sentry.xcframework"),
-        
-            .binaryTarget(name: "sentry_flutter",
-                      path: "artifacts/sentry_flutter.xcframework"),
-        
-        //            .binaryTarget(name: "share_extend",
-        //                          path: "artifacts/share_extend.xcframework"),
-        
-            .binaryTarget(name: "share_plus",
-                          path: "artifacts/share_plus.xcframework"),
-        
-        //            .binaryTarget(name: "share",
-        //                          path: "artifacts/share.xcframework"),
-        
-            .binaryTarget(name: "shared_preferences_foundation",
-                          path: "artifacts/shared_preferences_foundation.xcframework"),
-        
-            .binaryTarget(name: "sharpsell",
-                          path: "artifacts/sharpsell.xcframework"),
-        
-            .binaryTarget(name: "sqflite_darwin",
-                          path: "artifacts/sqflite_darwin.xcframework"),
-        
-            .binaryTarget(name: "sqlite3_flutter_libs",
-                          path: "artifacts/sqlite3_flutter_libs.xcframework"),
-        
-            .binaryTarget(name: "sqlite3",
-                          path: "artifacts/sqlite3.xcframework"),
-        
-            .binaryTarget(name: "store_redirect",
-                          path: "artifacts/store_redirect.xcframework"),
-        
-            .binaryTarget(name: "SwiftyGif",
-                          path: "artifacts/SwiftyGif.xcframework"),
-        
-            .binaryTarget(name: "TOCropViewController",
-                          path: "artifacts/TOCropViewController.xcframework"),
-        
-        
-            .binaryTarget(name: "url_launcher_ios",
-                          path: "artifacts/url_launcher_ios.xcframework"),
-        
-            .binaryTarget(name: "v_video_compressor",
-                          path: "artifacts/v_video_compressor.xcframework"),
-        
-            .binaryTarget(name: "video_player_avfoundation",
-                          path: "artifacts/video_player_avfoundation.xcframework"),
-        
-            .binaryTarget(name: "video_thumbnail",
-                          path: "artifacts/video_thumbnail.xcframework"),
-        
-            .binaryTarget(name: "wakelock_plus",
-                          path: "artifacts/wakelock_plus.xcframework"),
-        
-            .binaryTarget(name: "webview_flutter_wkwebview",
-                          path: "artifacts/webview_flutter_wkwebview.xcframework"),
-        
+
+            .binaryTarget(name: "flutter_web_auth_2",
+                          path: "artifacts/flutter_web_auth_2.xcframework"),
+
             .binaryTarget(name: "flutter_webrtc",
                           path: "artifacts/flutter_webrtc.xcframework"),
-        
+
+            .binaryTarget(name: "FlutterPluginRegistrant",
+                          path: "artifacts/FlutterPluginRegistrant.xcframework"),
+
+            .binaryTarget(name: "fluttertoast",
+                          path: "artifacts/fluttertoast.xcframework"),
+
+            .binaryTarget(name: "image_cropper",
+                          path: "artifacts/image_cropper.xcframework"),
+
+            .binaryTarget(name: "image_gallery_saver_plus",
+                          path: "artifacts/image_gallery_saver_plus.xcframework"),
+
+            .binaryTarget(name: "image_picker_ios",
+                          path: "artifacts/image_picker_ios.xcframework"),
+
+            .binaryTarget(name: "just_audio",
+                          path: "artifacts/just_audio.xcframework"),
+
+            .binaryTarget(name: "libwebp",
+                          path: "artifacts/libwebp.xcframework"),
+
             .binaryTarget(name: "livekit_client",
                           path: "artifacts/livekit_client.xcframework"),
+
+            .binaryTarget(name: "moengage_flutter_ios",
+                          path: "artifacts/moengage_flutter_ios.xcframework"),
+
+            .binaryTarget(name: "MoEngagePluginBase",
+                          path: "artifacts/MoEngagePluginBase.xcframework"),
+
+            .binaryTarget(name: "open_file_ios",
+                          path: "artifacts/open_file_ios.xcframework"),
+
+            .binaryTarget(name: "OrderedSet",
+                          path: "artifacts/OrderedSet.xcframework"),
+
+            .binaryTarget(name: "package_info_plus",
+                          path: "artifacts/package_info_plus.xcframework"),
+
+            .binaryTarget(name: "path_provider_foundation",
+                          path: "artifacts/path_provider_foundation.xcframework"),
+
+            .binaryTarget(name: "pdf_render",
+                          path: "artifacts/pdf_render.xcframework"),
+
+            .binaryTarget(name: "pdfx",
+                          path: "artifacts/pdfx.xcframework"),
+
+            .binaryTarget(name: "permission_handler_apple",
+                          path: "artifacts/permission_handler_apple.xcframework"),
+
+            .binaryTarget(name: "pointer_interceptor_ios",
+                          path: "artifacts/pointer_interceptor_ios.xcframework"),
+
+            .binaryTarget(name: "printing",
+                          path: "artifacts/printing.xcframework"),
+
+            .binaryTarget(name: "promises",
+                          path: "artifacts/Promises.xcframework"),
+
+            .binaryTarget(name: "record_darwin",
+                          path: "artifacts/record_darwin.xcframework"),
+
+            .binaryTarget(name: "SDWebImage",
+                          path: "artifacts/SDWebImage.xcframework"),
+
+            .binaryTarget(name: "Sentry",
+                          path: "artifacts/Sentry.xcframework"),
+
+            .binaryTarget(name: "sentry_flutter",
+                          path: "artifacts/sentry_flutter.xcframework"),
+
+            .binaryTarget(name: "share_plus",
+                          path: "artifacts/share_plus.xcframework"),
+
+            .binaryTarget(name: "shared_preferences_foundation",
+                          path: "artifacts/shared_preferences_foundation.xcframework"),
+
+            .binaryTarget(name: "sharpsell",
+                          path: "artifacts/sharpsell.xcframework"),
+
+            .binaryTarget(name: "sqflite_darwin",
+                          path: "artifacts/sqflite_darwin.xcframework"),
+
+            .binaryTarget(name: "sqlite3",
+                          path: "artifacts/sqlite3.xcframework"),
+
+            .binaryTarget(name: "sqlite3_flutter_libs",
+                          path: "artifacts/sqlite3_flutter_libs.xcframework"),
+
+            .binaryTarget(name: "store_redirect",
+                          path: "artifacts/store_redirect.xcframework"),
+
+            .binaryTarget(name: "SwiftyGif",
+                          path: "artifacts/SwiftyGif.xcframework"),
+
+            .binaryTarget(name: "TOCropViewController",
+                          path: "artifacts/TOCropViewController.xcframework"),
+
+            .binaryTarget(name: "url_launcher_ios",
+                          path: "artifacts/url_launcher_ios.xcframework"),
+
+            .binaryTarget(name: "v_video_compressor",
+                          path: "artifacts/v_video_compressor.xcframework"),
+
+            .binaryTarget(name: "video_player_avfoundation",
+                          path: "artifacts/video_player_avfoundation.xcframework"),
+
+            .binaryTarget(name: "video_thumbnail",
+                          path: "artifacts/video_thumbnail.xcframework"),
+
+            .binaryTarget(name: "wakelock_plus",
+                          path: "artifacts/wakelock_plus.xcframework"),
+
+            .binaryTarget(name: "webview_flutter_wkwebview",
+                          path: "artifacts/webview_flutter_wkwebview.xcframework"),// SHARPSELL_SPM_BINARY_TARGETS_END
         
     ]
 )
