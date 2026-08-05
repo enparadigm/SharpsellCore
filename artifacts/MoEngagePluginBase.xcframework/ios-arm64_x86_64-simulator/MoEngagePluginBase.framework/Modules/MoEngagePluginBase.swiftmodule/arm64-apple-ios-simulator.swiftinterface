@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MoEngagePluginBase
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import Foundation
 import MoEngageInApps
 @_exported import MoEngagePluginBase
@@ -17,10 +17,18 @@ import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @available(iOSApplicationExtension, unavailable)
 @objc final public class MoEngagePlugin : ObjectiveC.NSObject {
   @objc final public func initializeInstance(withConfig initializationConfig: MoEngagePluginBase.MoEngageSDKInitializationConfig)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func initializeDefaultInstance(sdkConfig: MoEngageCore.MoEngageSDKConfig, sdkState: MoEngageCore.MoEngageSDKState, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func initializeDefaultInstance(sdkConfig: MoEngageCore.MoEngageSDKConfig, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func initializeInstance(sdkConfig: MoEngageCore.MoEngageSDKConfig, sdkState: MoEngageCore.MoEngageSDKState, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func initializeInstance(sdkConfig: MoEngageCore.MoEngageSDKConfig, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil)
+  #endif
   @objc final public func trackPluginInfo(_ pluginType: Swift.String, version: Swift.String)
   @objc override dynamic public init()
   @objc deinit
@@ -114,7 +122,9 @@ public struct MoEngagePluginConstants {
   @objc func sendMessage(event: Swift.String, message: [Swift.String : Any])
 }
 @_hasMissingDesignatedInitializers public class MoEngagePluginUtils {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func fetchIdentifierFromPayload(attribute: [Swift.String : Any]) -> Swift.String?
+  #endif
   public static func createAccountPayload(identifier: Swift.String) -> [Swift.String : Any]
   @objc deinit
 }

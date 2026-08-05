@@ -1,16 +1,16 @@
-// Copyright 2013 The Flutter Authors. All rights reserved.
+// Copyright 2013 The Flutter Authors
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-// Platform views are only supported on iOS as of now. Ifdefs are used to avoid compilation errors.
-
-#import <AVFoundation/AVFoundation.h>
+@import AVFoundation;
 
 #if TARGET_OS_OSX
-#import <FlutterMacOS/FlutterMacOS.h>
+@import FlutterMacOS;
 #else
-#import <Flutter/Flutter.h>
+@import Flutter;
 #endif
+
+NS_ASSUME_NONNULL_BEGIN
 
 /// A class used to create a native video view that can be embedded in a Flutter app.
 /// This class wraps an AVPlayer instance and displays its video content.
@@ -23,3 +23,5 @@
 /// It creates a video view instance and sets the provided AVPlayer instance to it.
 - (instancetype)initWithPlayer:(AVPlayer *)player;
 @end
+
+NS_ASSUME_NONNULL_END

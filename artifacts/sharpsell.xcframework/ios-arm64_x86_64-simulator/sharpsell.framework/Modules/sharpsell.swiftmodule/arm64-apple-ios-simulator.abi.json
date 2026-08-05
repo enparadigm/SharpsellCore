@@ -227,6 +227,57 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "storedLaunchPayloadKey",
+            "printedName": "storedLaunchPayloadKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9sharpsell20SwiftSharpsellPluginC22storedLaunchPayloadKeySSvpZ",
+            "mangledName": "$s9sharpsell20SwiftSharpsellPluginC22storedLaunchPayloadKeySSvpZ",
+            "moduleName": "sharpsell",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9sharpsell20SwiftSharpsellPluginC22storedLaunchPayloadKeySSvgZ",
+                "mangledName": "$s9sharpsell20SwiftSharpsellPluginC22storedLaunchPayloadKeySSvgZ",
+                "moduleName": "sharpsell",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "register",
             "printedName": "register(with:)",
@@ -933,30 +984,37 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sdk\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/runner\/work\/sharp-sell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 8686,
+      "offset": 483,
+      "length": 45,
+      "value": "\"sharpsell_stored_local_notification_payload\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sharp-sell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 12020,
       "length": 11,
       "value": "\"whats_app\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sdk\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/runner\/work\/sharp-sell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 8722,
+      "offset": 12056,
       "length": 11,
       "value": "\"linked_in\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sdk\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/runner\/work\/sharp-sell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 8757,
+      "offset": 12091,
       "length": 9,
       "value": "\"twitter\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/Documents\/ss\/sdk\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
+      "filePath": "\/Users\/runner\/work\/sharp-sell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 8791,
+      "offset": 12125,
       "length": 11,
       "value": "\"face_book\""
     }
