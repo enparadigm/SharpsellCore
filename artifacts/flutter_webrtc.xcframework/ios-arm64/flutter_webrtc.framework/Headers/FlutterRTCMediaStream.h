@@ -1,23 +1,3 @@
-#import <Foundation/Foundation.h>
-#import "FlutterWebRTCPlugin.h"
-
-@interface RTCMediaStreamTrack (Flutter)
-@property(nonatomic, strong, nonnull) id settings;
-@end
-
-@interface FlutterWebRTCPlugin (RTCMediaStream)
-
-- (void)getUserMedia:(nonnull NSDictionary*)constraints result:(nonnull FlutterResult)result;
-
-- (void)createLocalMediaStream:(nonnull FlutterResult)result;
-
-- (void)getSources:(nonnull FlutterResult)result;
-
-- (void)mediaStreamTrackCaptureFrame:(nonnull RTCMediaStreamTrack*)track
-                              toPath:(nonnull NSString*)path
-                              result:(nonnull FlutterResult)result;
-
-- (void)selectAudioInput:(nonnull NSString*)deviceId result:(nullable FlutterResult)result;
-
-- (void)selectAudioOutput:(nonnull NSString*)deviceId result:(nullable FlutterResult)result;
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:431cf8e004250f01e98a2b40beb4e84e4260413f653ee47b9d06fabdf5473634
+size 817

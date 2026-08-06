@@ -1,26 +1,3 @@
-// swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name flutter_custom_tabs_ios
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
-import Flutter
-import Foundation
-import SafariServices
-import Swift
-import UIKit.UIColor
-import UIKit
-import _Concurrency
-import _StringProcessing
-import _SwiftConcurrencyShims
-@_exported import flutter_custom_tabs_ios
-@objc @_hasMissingDesignatedInitializers public class CustomTabsPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
-  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers open class Launcher {
-  open func open(_ url: Foundation.URL, options: [UIKit.UIApplication.OpenExternalURLOptionsKey : Any] = [:], completionHandler completion: ((Swift.Bool) -> Swift.Void)? = nil)
-  open func present(_ viewControllerToPresent: UIKit.UIViewController, completion: ((Swift.Bool) -> Swift.Void)? = nil)
-  open func dismissAll(completion: (() -> Swift.Void)? = nil)
-  open func prewarmConnections(to urls: [Foundation.URL]) -> Swift.String?
-  open func invalidatePrewarmingSession(withId sessionId: Swift.String)
-  @objc deinit
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:72a7a27f6dc69cf5f3df54e4f6d7295c13117eddfe10709672e6fa892849f938
+size 1797

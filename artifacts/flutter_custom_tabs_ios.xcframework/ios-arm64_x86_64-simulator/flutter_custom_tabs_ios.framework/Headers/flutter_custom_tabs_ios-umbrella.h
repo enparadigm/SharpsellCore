@@ -1,16 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-
-FOUNDATION_EXPORT double flutter_custom_tabs_iosVersionNumber;
-FOUNDATION_EXPORT const unsigned char flutter_custom_tabs_iosVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d4be2e3dcaef4b74831916bb426c287e3b9683fcbcb375b037824cea1d92c51
+size 338

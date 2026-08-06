@@ -1,17 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-#import "StoreRedirectPlugin.h"
-
-FOUNDATION_EXPORT double store_redirectVersionNumber;
-FOUNDATION_EXPORT const unsigned char store_redirectVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ce143d841d4698516634d9dbb8ce58b044a8c1387b58dc5c54786b4726991f2
+size 352

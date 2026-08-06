@@ -1,19 +1,3 @@
-//
-//  Generated file. Do not edit.
-//
-
-// clang-format off
-
-#ifndef GeneratedPluginRegistrant_h
-#define GeneratedPluginRegistrant_h
-
-#import <Flutter/Flutter.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
-@interface GeneratedPluginRegistrant : NSObject
-+ (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry;
-@end
-
-NS_ASSUME_NONNULL_END
-#endif /* GeneratedPluginRegistrant_h */
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5f88cc6415d2e639d2cb549348b84e02a7fdd0261603b0063abef6fa11f075a
+size 378

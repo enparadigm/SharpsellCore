@@ -14,8 +14,8 @@ xcuserdata/
 *.xcscmblueprint
 *.hmap
 *.ipa
-*.dSYM.zip
-*.dSYM
+# dSYMs are vendored inside artifacts/*.xcframework — do not ignore those.
+# Local build dSYMs are already covered by .build/ and DerivedData/.
 timeline.xctimeline
 playground.xcworkspace
 
@@ -41,5 +41,4 @@ fastlane/test_output
 
 # Misc
 *.swp
-*~
 .vscode/

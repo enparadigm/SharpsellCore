@@ -1,13 +1,3 @@
-//
-//  DeviceIdentifiers.h
-//  device_info_plus
-//
-//  Created by Volodymyr on 06.11.2024.
-//
-#import <Foundation/Foundation.h>
-
-@interface DeviceIdentifiers : NSObject
-
-+ (NSString *)userKnownDeviceModel:(NSString *)identifier;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:a921b295f443b7d730322015bf2e1397f6d7db0decb71b1ae01192b653180e3a
+size 235

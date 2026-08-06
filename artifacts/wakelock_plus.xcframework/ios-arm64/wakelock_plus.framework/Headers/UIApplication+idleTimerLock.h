@@ -1,18 +1,3 @@
-//
-//  UIApplication+idleTimerLock.h
-//  wakelock
-//
-//  Created by suyao on 2021/12/17.
-//
-
-#import <UIKit/UIKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
-@interface UIApplication (idleTimerLock)
-
-- (void)lock_idleTimerlockEnable:(BOOL)enable;
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b172f48c791f448ddc5ee3f2cb571b8e1654d7007f3b4a933621a41c18b097d
+size 261

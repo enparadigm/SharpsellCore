@@ -1,16 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-
-FOUNDATION_EXPORT double DKPhotoGalleryVersionNumber;
-FOUNDATION_EXPORT const unsigned char DKPhotoGalleryVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:398337a928963204c1987454864a03a985e19c1442b11067dcf4b809f0e60863
+size 320

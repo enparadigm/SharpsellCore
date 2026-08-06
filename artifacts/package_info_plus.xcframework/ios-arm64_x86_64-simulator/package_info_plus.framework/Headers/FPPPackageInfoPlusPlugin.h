@@ -1,8 +1,3 @@
-// Copyright 2017 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
-#import <Flutter/Flutter.h>
-
-@interface FPPPackageInfoPlusPlugin : NSObject <FlutterPlugin>
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9614f72ab0099fc0f1047a8e9b4717e82c84079611b1dd5ebe8f9a2c2ad212a
+size 263

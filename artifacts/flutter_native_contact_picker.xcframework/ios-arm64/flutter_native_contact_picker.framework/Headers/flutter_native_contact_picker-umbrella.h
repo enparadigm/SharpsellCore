@@ -1,16 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-
-FOUNDATION_EXPORT double flutter_native_contact_pickerVersionNumber;
-FOUNDATION_EXPORT const unsigned char flutter_native_contact_pickerVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:e353f5853ba40d478f00f947c724a8168a9dd6e7761eef3b4980a9bc55ef5327
+size 350

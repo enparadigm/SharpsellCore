@@ -1,22 +1,3 @@
-//
-//  SqflitePlugin.h
-//  sqflite
-//
-//  Created by Alexandre Roux on 24/10/2022.
-//
-#ifndef SqflitePluginPublic_h
-#define SqflitePluginPublic_h
-
-#import "SqfliteImportPublic.h"
-
-@class SqfliteDarwinResultSet;
-
-@interface SqflitePlugin : NSObject<FlutterPlugin>
-
-+ (NSArray*)toSqlArguments:(NSArray*)rawArguments;
-+ (bool)arrayIsEmpty:(NSArray*)array;
-+ (NSMutableDictionary*)resultSetToResults:(SqfliteDarwinResultSet*)resultSet cursorPageSize:(NSNumber*)cursorPageSize;
-
-@end
-
-#endif // SqflitePluginDef_h
+version https://git-lfs.github.com/spec/v1
+oid sha256:677887b6a770d468362a2cc260930ff87658ade33ff3e91c13a63b7a90af8697
+size 509

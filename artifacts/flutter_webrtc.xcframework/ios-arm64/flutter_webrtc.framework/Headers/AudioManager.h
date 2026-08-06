@@ -1,19 +1,3 @@
-#import <Foundation/Foundation.h>
-#import <WebRTC/WebRTC.h>
-#import "AudioProcessingAdapter.h"
-
-@interface AudioManager : NSObject
-
-@property(nonatomic, strong) RTCDefaultAudioProcessingModule* _Nonnull audioProcessingModule;
-
-@property(nonatomic, strong) AudioProcessingAdapter* _Nonnull capturePostProcessingAdapter;
-
-@property(nonatomic, strong) AudioProcessingAdapter* _Nonnull renderPreProcessingAdapter;
-
-+ (_Nonnull instancetype)sharedInstance;
-
-- (void)addLocalAudioRenderer:(nonnull id<RTCAudioRenderer>)renderer;
-
-- (void)removeLocalAudioRenderer:(nonnull id<RTCAudioRenderer>)renderer;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:87fcd79431b686205be88929798d38ccd6bf72629f2fb254d6e2cf74b7c83c69
+size 603

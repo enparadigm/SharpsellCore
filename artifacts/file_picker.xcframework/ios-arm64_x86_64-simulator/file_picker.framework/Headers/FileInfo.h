@@ -1,23 +1,3 @@
-//
-//  FileInfo.h
-//  file_picker
-//
-//  Created by Miguel Ruivo on 11/09/2020.
-//
-
-#import <Foundation/Foundation.h>
-
-@interface FileInfo : NSObject
-
-@property (nonatomic, strong) NSString * path;
-@property (nonatomic, strong) NSString * name;
-@property (nonatomic, strong) NSURL * url;
-@property (nonatomic, strong) NSNumber * size;
-@property (nonatomic, strong) NSData * bytes;
-@property (nonatomic, strong) NSNumber * isDirectory;
-
-- (instancetype) initWithPath: (NSString *)path andUrl: (NSURL*)url andName: (NSString *)name andSize: (NSNumber *) size andData:(NSData*) data;
-
-- (NSDictionary *) toData;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:270de545578bd1fda01e5ac0065458900edb9ef14adf3837ce3be2bc3b4fdd5b
+size 615

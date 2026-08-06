@@ -1,17 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-#import "PdfRenderPlugin.h"
-
-FOUNDATION_EXPORT double pdf_renderVersionNumber;
-FOUNDATION_EXPORT const unsigned char pdf_renderVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:3303a4efe7f0d8b038889a7bfd60c3272ecd4b23ca2cc7135af994d947bac11a
+size 340

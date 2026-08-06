@@ -1,16 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-
-FOUNDATION_EXPORT double printingVersionNumber;
-FOUNDATION_EXPORT const unsigned char printingVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:862f9b2edcdc1a3374c30b8f725f7ceef4ff706e874a0066e7aeaa9a565797a3
+size 308

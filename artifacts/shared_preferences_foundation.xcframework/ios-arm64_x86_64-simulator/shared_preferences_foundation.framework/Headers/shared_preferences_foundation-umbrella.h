@@ -1,16 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-
-FOUNDATION_EXPORT double shared_preferences_foundationVersionNumber;
-FOUNDATION_EXPORT const unsigned char shared_preferences_foundationVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2ee54bf7ebfa6b28db55a23c81d40e93d64db9f252e8a22d478bb6145706db0
+size 350

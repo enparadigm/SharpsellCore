@@ -1,17 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-#import "FPPPackageInfoPlusPlugin.h"
-
-FOUNDATION_EXPORT double package_info_plusVersionNumber;
-FOUNDATION_EXPORT const unsigned char package_info_plusVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a8ad74e17a916e30a850e8a52fcfcf6ad3d755b6c9f3346e12e628bbf9ed096
+size 363

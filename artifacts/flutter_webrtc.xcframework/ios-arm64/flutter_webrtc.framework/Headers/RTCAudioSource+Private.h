@@ -1,14 +1,3 @@
-#ifdef __cplusplus
-#import "WebRTC/RTCAudioSource.h"
-#include "media_stream_interface.h"
-
-@interface RTCAudioSource ()
-
-/**
- * The AudioSourceInterface object passed to this RTCAudioSource during
- * construction.
- */
-@property(nonatomic, readonly) rtc::scoped_refptr<webrtc::AudioSourceInterface> nativeAudioSource;
-
-@end
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3028841bcbed25cf22406bb858edeb3a83b09cd1bd568d53b21b3c7b1bc149b
+size 329

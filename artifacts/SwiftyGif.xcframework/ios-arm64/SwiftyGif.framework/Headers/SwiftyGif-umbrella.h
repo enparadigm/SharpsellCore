@@ -1,17 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-#import "SwiftyGif.h"
-
-FOUNDATION_EXPORT double SwiftyGifVersionNumber;
-FOUNDATION_EXPORT const unsigned char SwiftyGifVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a9b9b6f6ee39ff78279f2409b91d5697ce3c457f5d8b9d3b2cb99fc951b0cff
+size 332

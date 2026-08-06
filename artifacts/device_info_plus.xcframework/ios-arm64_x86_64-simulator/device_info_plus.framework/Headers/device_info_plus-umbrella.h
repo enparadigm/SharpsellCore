@@ -1,18 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-#import "DeviceIdentifiers.h"
-#import "FPPDeviceInfoPlusPlugin.h"
-
-FOUNDATION_EXPORT double device_info_plusVersionNumber;
-FOUNDATION_EXPORT const unsigned char device_info_plusVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a99f1b54960fe4f395e27933f0d4be83079ccd230c685f4a245d92b45c34951
+size 390

@@ -1,20 +1,3 @@
-//
-//  FlutterSocketConnection.h
-//  RCTWebRTC
-//
-//  Created by Alex-Dan Bumbu on 08/01/2021.
-//
-
-#import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
-@interface FlutterSocketConnection : NSObject
-
-- (instancetype)initWithFilePath:(nonnull NSString*)filePath;
-- (void)openWithStreamDelegate:(id<NSStreamDelegate>)streamDelegate;
-- (void)close;
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:fdb1905c9adc2d75f214cb849d1f2588a088eff80b6df5cb002ff6cdaf69cf60
+size 381

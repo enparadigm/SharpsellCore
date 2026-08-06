@@ -1,17 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-#import "SharpsellPlugin.h"
-
-FOUNDATION_EXPORT double sharpsellVersionNumber;
-FOUNDATION_EXPORT const unsigned char sharpsellVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:76d22c5a9ee5c9d5601ef63c3b89de62ca224e2c211df07b11d0ae0c33dc7ec4
+size 338

@@ -1,18 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-#import "AudioSessionPlugin.h"
-#import "DarwinAudioSession.h"
-
-FOUNDATION_EXPORT double audio_sessionVersionNumber;
-FOUNDATION_EXPORT const unsigned char audio_sessionVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:48efecce4ecaeeba0b783690aa4cec404a9f68591cc4f52fc197e9ef6c9ae8e0
+size 380

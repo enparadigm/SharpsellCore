@@ -1,18 +1,3 @@
-// Copyright 2013 The Flutter Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
-#import "FVPVideoPlayer.h"
-
-#if TARGET_OS_OSX
-#import <FlutterMacOS/FlutterMacOS.h>
-#else
-#import <Flutter/Flutter.h>
-#endif
-
-NS_ASSUME_NONNULL_BEGIN
-
-@interface FVPVideoPlayer () <FlutterStreamHandler>
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8bcb52c0393a0feb72d5b7a31ded20f14bb1406dbfe45a7d115a5d2f53195fc
+size 396

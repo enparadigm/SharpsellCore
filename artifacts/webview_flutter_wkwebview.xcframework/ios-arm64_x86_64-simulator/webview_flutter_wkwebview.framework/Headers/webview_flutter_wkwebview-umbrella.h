@@ -1,16 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-
-FOUNDATION_EXPORT double webview_flutter_wkwebviewVersionNumber;
-FOUNDATION_EXPORT const unsigned char webview_flutter_wkwebviewVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:55665c4bfff7c30e01d6d660e4fcccf487e9d1db5622427042d254e086890dbf
+size 342

@@ -1,17 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-#import "FlutterWebAuth2Plugin.h"
-
-FOUNDATION_EXPORT double flutter_web_auth_2VersionNumber;
-FOUNDATION_EXPORT const unsigned char flutter_web_auth_2VersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:4fb84018e62d4118ce1f2f2a1e31fb7c7608aad4621df5a1b8ca85f1adfc8c7c
+size 362

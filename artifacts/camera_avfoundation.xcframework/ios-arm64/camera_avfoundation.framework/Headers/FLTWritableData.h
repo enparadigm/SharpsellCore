@@ -1,24 +1,3 @@
-// Copyright 2013 The Flutter Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
-@import Foundation;
-
-NS_ASSUME_NONNULL_BEGIN
-
-/// A protocol which abstracts the file writing operation implemented in `NSData`.
-/// It exists to allow replacing `NSData` in tests.
-@protocol FLTWritableData <NSObject>
-- (BOOL)writeToFile:(NSString *)path
-            options:(NSDataWritingOptions)writeOptionsMask
-              error:(NSError **)errorPtr;
-@end
-
-/// A default implementation of the `FLTWritableData` protocol which operates on
-/// an `NSData` instance.
-@interface FLTDefaultWritableData : NSObject <FLTWritableData>
-@property(nonatomic, strong, readonly) NSData *data;
-- (instancetype)initWithData:(NSData *)data;
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:f89ac52efdf9939df8b2199f7661ff737a384a891feff2f35452df5e8bdace85
+size 823

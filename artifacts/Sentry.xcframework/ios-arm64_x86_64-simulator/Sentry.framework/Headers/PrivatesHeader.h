@@ -1,14 +1,3 @@
-// We need this because if Sentry library is added as a Framework
-// the reference should be in the form of <module/header>.
-// Otherwise, the reference is direct.
-#if __has_include(<Sentry/SentryDefines.h>)
-#    import <Sentry/SentryDefines.h>
-#else
-#    import "SentryDefines.h"
-#endif
-
-#if __has_include(<Sentry/SentryProfilingConditionals.h>)
-#    import <Sentry/SentryProfilingConditionals.h>
-#else
-#    import "SentryProfilingConditionals.h"
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:55d5a067109d85fabff25102b000d369db2a6cf08b853e7edd8eae10f793a2ba
+size 455

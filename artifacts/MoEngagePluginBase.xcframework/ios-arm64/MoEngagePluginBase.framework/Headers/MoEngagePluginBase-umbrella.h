@@ -1,16 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-
-FOUNDATION_EXPORT double MoEngagePluginBaseVersionNumber;
-FOUNDATION_EXPORT const unsigned char MoEngagePluginBaseVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac7d1a262a4179dae2181e7f67c7b786f4844d42cc4f004d77d314ef226716ee
+size 328

@@ -1,21 +1,3 @@
-// swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name image_gallery_saver_plus
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
-import Flutter
-import Photos
-import Swift
-import UIKit
-import _Concurrency
-import _StringProcessing
-import _SwiftConcurrencyShims
-@_exported import image_gallery_saver_plus
-@objc @_inheritsConvenienceInitializers public class ImageGallerySaverPlusPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
-  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
-  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
-  @objc override dynamic public init()
-  @objc deinit
-}
-public struct SaveResultModel : Swift.Encodable {
-  public func encode(to encoder: any Swift.Encoder) throws
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a15d267f452ea8a6e692e16bfe51278895ec2d521e3cba15e8a8ac104095a7ad
+size 1222

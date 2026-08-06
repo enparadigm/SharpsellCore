@@ -1,20 +1,3 @@
-// swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name v_video_compressor
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
-import AVFoundation
-import Flutter
-import Foundation
-import Swift
-import UIKit
-import _Concurrency
-import _StringProcessing
-import _SwiftConcurrencyShims
-@_exported import v_video_compressor
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VVideoCompressorPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin, Flutter.FlutterStreamHandler {
-  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
-  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
-  @objc public func onListen(withArguments arguments: Any?, eventSink events: @escaping Flutter.FlutterEventSink) -> Flutter.FlutterError?
-  @objc public func onCancel(withArguments arguments: Any?) -> Flutter.FlutterError?
-  @objc deinit
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:da22aab4e268acae835a1b21d5154570ca07497e80c509d88c6ef8ccfd2e6c4e
+size 1480

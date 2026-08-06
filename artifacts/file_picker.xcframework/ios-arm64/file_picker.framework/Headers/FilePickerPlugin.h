@@ -1,26 +1,3 @@
-#import <Flutter/Flutter.h>
-#import <UIKit/UIKit.h>
-#import <MediaPlayer/MediaPlayer.h>
-#import <Photos/Photos.h>
-#import <MobileCoreServices/MobileCoreServices.h>
-
-#if PICKER_MEDIA && (__has_include(<PhotosUI/PHPicker.h>) || __has_include("PHPicker.h"))
-#define PHPicker
-#import <PhotosUI/PHPicker.h>
-#endif
-
-@interface FilePickerPlugin : NSObject<FlutterPlugin, FlutterStreamHandler, UITabBarDelegate, UINavigationControllerDelegate, UIAdaptivePresentationControllerDelegate
-#ifdef PICKER_MEDIA
-    , UIImagePickerControllerDelegate
-#ifdef PHPicker
-    , PHPickerViewControllerDelegate
-#endif
-#endif // PICKER_MEDIA
-#ifdef PICKER_DOCUMENT
-    , UIDocumentPickerDelegate
-#endif // PICKER_DOCUMENT
-#ifdef PICKER_AUDIO
-    , MPMediaPickerControllerDelegate
-#endif // PICKER_AUDIO
->
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c2a7c02e7a28d5fe323c3a0b0d26a6ca0e58a507c637d5c830875d56a812f49
+size 786

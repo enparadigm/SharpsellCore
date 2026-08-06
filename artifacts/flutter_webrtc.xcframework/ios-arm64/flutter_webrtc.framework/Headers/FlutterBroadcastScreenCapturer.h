@@ -1,25 +1,3 @@
-//
-//  FlutterBroadcastScreenCapturer.h
-//  RCTWebRTC
-//
-//  Created by Alex-Dan Bumbu on 06/01/2021.
-//
-
-#import <Foundation/Foundation.h>
-#import <WebRTC/WebRTC.h>
-NS_ASSUME_NONNULL_BEGIN
-
-extern NSString* const kRTCScreensharingSocketFD;
-extern NSString* const kRTCAppGroupIdentifier;
-extern NSString* const kRTCScreenSharingExtension;
-
-@class FlutterSocketConnectionFrameReader;
-
-@interface FlutterBroadcastScreenCapturer : RTCVideoCapturer
-- (void)startCapture;
-- (void)stopCapture;
-- (void)stopCaptureWithCompletionHandler:(nullable void (^)(void))completionHandler;
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:17f9324329ce1244be2436a714ffba6bc19b8cecba3eb32eef2c6e360577a7bb
+size 602
