@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:260f91ebf9b2ab650f9ceceb90cf02a3bdf78e2fdf92dcace5591e3d311ef5e9
-size 352
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "FLTImageCropperPlugin.h"
+
+FOUNDATION_EXPORT double image_cropperVersionNumber;
+FOUNDATION_EXPORT const unsigned char image_cropperVersionString[];
+

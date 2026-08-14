@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8abf46459d40808b9ca25b546120393bf8ff4420ce5dab3096bab5f86856f7af
-size 221
+framework module camera_avfoundation {
+  umbrella header "camera_avfoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module camera_avfoundation.Swift {
+  header "camera_avfoundation-Swift.h"
+  requires objc
+}

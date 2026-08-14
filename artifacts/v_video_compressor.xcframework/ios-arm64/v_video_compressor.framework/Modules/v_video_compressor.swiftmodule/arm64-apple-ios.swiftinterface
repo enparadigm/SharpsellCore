@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:da22aab4e268acae835a1b21d5154570ca07497e80c509d88c6ef8ccfd2e6c4e
-size 1480
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name v_video_compressor
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import AVFoundation
+import CoreGraphics
+import Flutter
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import v_video_compressor
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VVideoCompressorPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin, Flutter.FlutterStreamHandler {
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func onListen(withArguments arguments: Any?, eventSink events: @escaping Flutter.FlutterEventSink) -> Flutter.FlutterError?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func onCancel(withArguments arguments: Any?) -> Flutter.FlutterError?
+  #endif
+  @objc deinit
+}

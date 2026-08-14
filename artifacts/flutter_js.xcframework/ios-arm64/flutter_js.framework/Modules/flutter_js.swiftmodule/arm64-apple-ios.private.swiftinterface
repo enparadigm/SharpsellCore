@@ -1,3 +1,44 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b98d5c49884469ad37a27c5859281df9a7fb72644f55d7c19189973bbdc09061
-size 2149
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name flutter_js
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import Flutter
+import Foundation
+import JavaScriptCore
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import flutter_js
+public enum JSContextFoundationError : Swift.Error {
+  case fileNotFound
+  case fileNotLoaded
+  case fileNotDownloaded
+  public static func == (a: flutter_js.JSContextFoundationError, b: flutter_js.JSContextFoundationError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers open class JSContextFoundation : JavaScriptCore.JSContext {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override dynamic public init!(virtualMachine: JavaScriptCore.JSVirtualMachine!)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc convenience override dynamic public init!()
+  #endif
+  open func requireWithPath(_ path: Swift.String) throws
+  #if compiler(>=5.3) && $NonescapableTypes
+  open func requireWithUrl(_ url: Foundation.URL, completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
+  #endif
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class SwiftFlutterJsPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension flutter_js.JSContextFoundationError : Swift.Equatable {}
+extension flutter_js.JSContextFoundationError : Swift.Hashable {}

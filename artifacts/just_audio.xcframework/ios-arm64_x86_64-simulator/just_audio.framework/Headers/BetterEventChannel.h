@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:65e704b1d740892c8c18a92c3df00efb2a578e5e88a0907661fb9bfd6dea5d8a
-size 354
+#import <AVFoundation/AVFoundation.h>
+#if TARGET_OS_OSX
+#import <FlutterMacOS/FlutterMacOS.h>
+#else
+#import <Flutter/Flutter.h>
+#endif
+
+@interface BetterEventChannel : NSObject<FlutterStreamHandler>
+
+- (instancetype)initWithName:(NSString*)name messenger:(NSObject<FlutterBinaryMessenger> *)messenger;
+- (void)sendEvent:(id)event;
+- (void)dispose;
+
+@end

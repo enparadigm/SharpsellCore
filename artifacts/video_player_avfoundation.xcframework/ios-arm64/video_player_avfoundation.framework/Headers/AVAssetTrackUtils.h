@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e457413b34d076aa7beb474b0fb22220dd9b830d982e2f5302697b5ca5a20010
-size 491
+// Copyright 2013 The Flutter Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+#import <AVFoundation/AVFoundation.h>
+
+/// Returns a standardized transform
+/// according to the orientation of the track.
+///
+/// Note: https://stackoverflow.com/questions/64161544
+/// `AVAssetTrack.preferredTransform` can have wrong `tx` and `ty`.
+CGAffineTransform FVPGetStandardizedTransformForTrack(AVAssetTrack* track);

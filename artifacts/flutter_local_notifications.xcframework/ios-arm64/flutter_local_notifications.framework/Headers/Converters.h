@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b4841336668a1f28a19f6afc937a2eaa170de57edec9286660bbd207685439d2
-size 484
+//
+//  Converters.h
+//  flutter_local_notifications
+//
+
+#import <Foundation/Foundation.h>
+#import <UserNotifications/UserNotifications.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface Converters : NSObject
+
++ (UNNotificationCategoryOptions)parseNotificationCategoryOptions:
+    (NSArray *)options API_AVAILABLE(ios(10.0), macosx(10.14));
++ (UNNotificationActionOptions)parseNotificationActionOptions:(NSArray *)options
+    API_AVAILABLE(ios(10.0), macosx(10.14));
+
+@end
+
+NS_ASSUME_NONNULL_END

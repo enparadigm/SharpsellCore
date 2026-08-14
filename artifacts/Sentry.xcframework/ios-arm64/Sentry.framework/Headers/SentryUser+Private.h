@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6c92c8bd51db42e5e536cfa835b8b665d779475411c4964f385c72fee67ecc72
-size 351
+#if __has_include(<Sentry/SentryUser.h>)
+#    import <Sentry/SentryUser.h>
+#else
+#    import "SentryUser.h"
+#endif
+
+@interface SentryUser ()
+
+/**
+ * Initializes a SentryUser from a dictionary.
+ * @param dictionary The dictionary containing user data.
+ * @return The SentryUser.
+ */
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+
+@end

@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dfa423960c6cca21f55514068a7b6b2b3e44f0a8a679d254811b6bd077557c31
-size 461
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "dummy.h"
+#import "FLTFirebaseCorePlugin.h"
+#import "FLTFirebasePlugin.h"
+#import "FLTFirebasePluginRegistry.h"
+#import "messages.g.h"
+
+FOUNDATION_EXPORT double firebase_coreVersionNumber;
+FOUNDATION_EXPORT const unsigned char firebase_coreVersionString[];
+

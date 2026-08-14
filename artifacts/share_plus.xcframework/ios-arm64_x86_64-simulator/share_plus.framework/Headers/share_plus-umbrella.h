@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:763582d5ce17e801dde3400ec19cd09a6ca79943057fac3d8101eb5811d3ad2a
-size 343
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "FPPSharePlusPlugin.h"
+
+FOUNDATION_EXPORT double share_plusVersionNumber;
+FOUNDATION_EXPORT const unsigned char share_plusVersionString[];
+

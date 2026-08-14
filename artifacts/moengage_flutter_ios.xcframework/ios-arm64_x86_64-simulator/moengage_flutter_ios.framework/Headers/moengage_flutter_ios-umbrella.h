@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cb76150843fb004f851ec0928ecff6db6961bad14ac11596b1deb193e59d6dda
-size 366
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "MoEngageFlutterPlugin.h"
+
+FOUNDATION_EXPORT double moengage_flutter_iosVersionNumber;
+FOUNDATION_EXPORT const unsigned char moengage_flutter_iosVersionString[];
+

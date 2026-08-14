@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:41b8399287603e2d093d30674ce734908b596739efb37bea668a2c5d4a2c81f1
-size 332
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+
+FOUNDATION_EXPORT double sqlite3_flutter_libsVersionNumber;
+FOUNDATION_EXPORT const unsigned char sqlite3_flutter_libsVersionString[];
+

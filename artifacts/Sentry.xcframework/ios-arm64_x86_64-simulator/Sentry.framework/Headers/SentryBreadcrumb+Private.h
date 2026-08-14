@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6604c172853aac84ce711bc6d0561dad1ca55117b539d56b7896727cfa35114f
-size 458
+#if __has_include(<Sentry/SentryBreadcrumb.h>)
+#    import <Sentry/SentryBreadcrumb.h>
+#else
+#    import "SentryBreadcrumb.h"
+#endif
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface SentryBreadcrumb ()
+
+/**
+ * Initializes a SentryBreadcrumb from a JSON object.
+ * @param dictionary The dictionary containing breadcrumb data.
+ * @return The SentryBreadcrumb.
+ */
+- (instancetype _Nonnull)initWithDictionary:(NSDictionary *_Nonnull)dictionary;
+@end
+
+NS_ASSUME_NONNULL_END

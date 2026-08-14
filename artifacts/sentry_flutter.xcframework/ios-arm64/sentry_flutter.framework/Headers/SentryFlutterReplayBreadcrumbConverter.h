@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:69239effa893fc47475353dd17db6adbb33a807f5ab34d1881820e67307f422a
-size 314
+@import Sentry;
+
+#if SENTRY_TARGET_REPLAY_SUPPORTED
+@class SentryRRWebEvent;
+
+@interface SentryFlutterReplayBreadcrumbConverter
+    : NSObject <SentryReplayBreadcrumbConverter>
+
+- (instancetype _Nonnull)init;
+
+- (id<SentryRRWebEvent> _Nullable)convertFrom:
+    (SentryBreadcrumb *_Nonnull)breadcrumb;
+
+@end
+#endif

@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ddc555b68f1e6ffb0a3e4e5fe45ebd1219ad29af964a71ac234a31e30f867060
-size 376
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "GeneratedPluginRegistrant.h"
+
+FOUNDATION_EXPORT double FlutterPluginRegistrantVersionNumber;
+FOUNDATION_EXPORT const unsigned char FlutterPluginRegistrantVersionString[];
+

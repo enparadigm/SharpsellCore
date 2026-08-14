@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:92030aa4600bf2a9fb86ed9c6ee3cb4d09f68574dae6f166630751c3bc8b8607
-size 328
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+
+FOUNDATION_EXPORT double v_video_compressorVersionNumber;
+FOUNDATION_EXPORT const unsigned char v_video_compressorVersionString[];
+

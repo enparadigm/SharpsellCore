@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5d1d02ffd88eaaedb7a1af9700ed73154cbad703ecced147dd05bd1557eabf04
-size 412
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "messages.g.h"
+#import "UIApplication+idleTimerLock.h"
+#import "WakelockPlusPlugin.h"
+
+FOUNDATION_EXPORT double wakelock_plusVersionNumber;
+FOUNDATION_EXPORT const unsigned char wakelock_plusVersionString[];
+

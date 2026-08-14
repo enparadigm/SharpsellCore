@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a190034b418b6be5ec1e5b9ad90842f2db7dd0fb5a1ce7688e87903027039088
-size 185
+framework module OrderedSet {
+  umbrella header "OrderedSet-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module OrderedSet.Swift {
+  header "OrderedSet-Swift.h"
+  requires objc
+}

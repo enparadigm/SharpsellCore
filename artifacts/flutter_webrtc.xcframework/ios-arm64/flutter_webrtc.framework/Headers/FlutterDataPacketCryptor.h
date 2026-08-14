@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2b739e67f68e3085135872fe55c6e6016dd4339020624428e1ba11f9d75e896f
-size 381
+#if TARGET_OS_IPHONE
+#import <Flutter/Flutter.h>
+#elif TARGET_OS_OSX
+#import <FlutterMacOS/FlutterMacOS.h>
+#endif
+
+#import <WebRTC/WebRTC.h>
+
+#import "FlutterWebRTCPlugin.h"
+
+@interface FlutterWebRTCPlugin (DataPacketCryptor)
+
+- (void)handleDataPacketCryptorMethodCall:(nonnull FlutterMethodCall*)call
+                                   result:(nonnull FlutterResult)result;
+
+@end

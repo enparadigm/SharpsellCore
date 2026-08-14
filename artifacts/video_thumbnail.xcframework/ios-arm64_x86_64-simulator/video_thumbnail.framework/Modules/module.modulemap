@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:34c2f9c43ec3581450d493d18df05d5d260820fded1bb7f010b711a084053b57
-size 120
+framework module video_thumbnail {
+  umbrella header "video_thumbnail-umbrella.h"
+
+  export *
+  module * { export * }
+}

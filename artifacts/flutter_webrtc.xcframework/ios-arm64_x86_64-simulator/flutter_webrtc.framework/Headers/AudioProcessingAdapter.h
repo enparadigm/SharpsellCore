@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1b20196977ae2e05e6684f97ef0f1240d3e407c3d5a33697befe81b2c6fc6c2b
-size 742
+#import <Foundation/Foundation.h>
+#import <WebRTC/WebRTC.h>
+
+@protocol ExternalAudioProcessingDelegate
+
+- (void)audioProcessingInitializeWithSampleRate:(size_t)sampleRateHz channels:(size_t)channels;
+
+- (void)audioProcessingProcess:(RTC_OBJC_TYPE(RTCAudioBuffer) * _Nonnull)audioBuffer;
+
+- (void)audioProcessingRelease;
+
+@end
+
+@interface AudioProcessingAdapter : NSObject <RTCAudioCustomProcessingDelegate>
+
+- (nonnull instancetype)init;
+
+- (void)addProcessing:(id<ExternalAudioProcessingDelegate> _Nonnull)processor;
+
+- (void)removeProcessing:(id<ExternalAudioProcessingDelegate> _Nonnull)processor;
+
+- (void)addAudioRenderer:(nonnull id<RTCAudioRenderer>)renderer;
+
+- (void)removeAudioRenderer:(nonnull id<RTCAudioRenderer>)renderer;
+
+@end

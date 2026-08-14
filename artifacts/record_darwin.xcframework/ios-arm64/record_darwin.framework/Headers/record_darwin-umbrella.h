@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a78bd83a02f61973211a1a2b45d222e90ee3dcdaebb18bca5363b6485839245c
-size 343
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "RecordPlugin.h"
+
+FOUNDATION_EXPORT double record_darwinVersionNumber;
+FOUNDATION_EXPORT const unsigned char record_darwinVersionString[];
+

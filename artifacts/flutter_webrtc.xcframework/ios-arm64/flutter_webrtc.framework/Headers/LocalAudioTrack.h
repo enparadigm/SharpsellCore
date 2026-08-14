@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:697e510e0f74d3f83c412b8f359c8c7a5e3df3809e58220cb993c5e9410b0812
-size 600
+#import <WebRTC/WebRTC.h>
+#import "AudioProcessingAdapter.h"
+#import "LocalTrack.h"
+
+@interface LocalAudioTrack : NSObject <LocalTrack>
+
+- (_Nonnull instancetype)initWithTrack:(RTCAudioTrack* _Nonnull)track;
+
+@property(nonatomic, strong) RTCAudioTrack* _Nonnull audioTrack;
+
+- (void)addRenderer:(_Nonnull id<RTC_OBJC_TYPE(RTCAudioRenderer)>)renderer;
+
+- (void)removeRenderer:(_Nonnull id<RTC_OBJC_TYPE(RTCAudioRenderer)>)renderer;
+
+- (void)addProcessing:(_Nonnull id<ExternalAudioProcessingDelegate>)processor;
+
+- (void)removeProcessing:(_Nonnull id<ExternalAudioProcessingDelegate>)processor;
+
+@end

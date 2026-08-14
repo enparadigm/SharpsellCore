@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:97b4915f1a89a179cb8c928e1feb1da8c554125120fad9533ef099ce301df697
-size 308
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+
+FOUNDATION_EXPORT double appcheckVersionNumber;
+FOUNDATION_EXPORT const unsigned char appcheckVersionString[];
+

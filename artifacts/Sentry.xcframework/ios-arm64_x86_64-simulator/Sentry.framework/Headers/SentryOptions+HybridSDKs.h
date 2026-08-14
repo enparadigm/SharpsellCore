@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c8eaa20bbd6488b72da7d8cb867c91f0b3c7c403acdcf8b1ed62975dee3b5c27
-size 364
+#if __has_include(<Sentry/SentryOptions.h>)
+#    import <Sentry/SentryOptions.h>
+#else
+#    import "SentryOptions.h"
+#endif
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface SentryOptions ()
+
+- (_Nullable instancetype)initWithDict:(NSDictionary<NSString *, id> *)options
+                      didFailWithError:(NSError *_Nullable *_Nullable)error;
+
+@end
+
+NS_ASSUME_NONNULL_END

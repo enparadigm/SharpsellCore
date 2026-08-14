@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2ca2557f60ab897aadd8047267f03a3285e34791782d1e75d3b1501bdba060bb
-size 355
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "VideoThumbnailPlugin.h"
+
+FOUNDATION_EXPORT double video_thumbnailVersionNumber;
+FOUNDATION_EXPORT const unsigned char video_thumbnailVersionString[];
+

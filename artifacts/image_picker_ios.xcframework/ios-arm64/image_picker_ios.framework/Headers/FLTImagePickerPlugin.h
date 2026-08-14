@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5e3995a30a2d3f6948a2f82c19e90c4a371383183c8eaf0b97506ac4c90fbd63
-size 336
+// Copyright 2013 The Flutter Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+#import <Flutter/Flutter.h>
+#import <PhotosUI/PhotosUI.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface FLTImagePickerPlugin : NSObject <FlutterPlugin>
+@end
+
+NS_ASSUME_NONNULL_END

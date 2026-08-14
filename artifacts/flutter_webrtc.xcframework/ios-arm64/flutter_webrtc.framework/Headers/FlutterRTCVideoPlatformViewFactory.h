@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b3473ad8ceab489c283f97dfe45e74d4994e412ccdf1d47c7b4b3f3c9bcc0d7e
-size 561
+#import "FlutterRTCVideoPlatformTypes.h"
+
+#define FlutterRTCVideoPlatformViewFactoryID @"rtc_video_platform_view"
+
+@class FlutterRTCVideoPlatformViewController;
+
+@interface FlutterRTCVideoPlatformViewFactory : NSObject <FlutterPlatformViewFactory>
+
+@property(nonatomic, strong) NSObject<FlutterBinaryMessenger>* _Nonnull messenger;
+@property(nonatomic, strong)
+    NSMutableDictionary<NSNumber*, FlutterRTCVideoPlatformViewController*>* _Nullable renders;
+
+- (_Nonnull instancetype)initWithMessenger:(NSObject<FlutterBinaryMessenger>* _Nonnull)messenger;
+
+@end

@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d791e420d9f59075f7a3fbeca1f9a5ab7b44baf1d2f142be5a24f08bfa3484a6
-size 1356
+#import "FlutterWebRTCPlugin.h"
+
+@interface RTCDataChannel (Flutter) <FlutterStreamHandler>
+@property(nonatomic, strong, nonnull) NSString* peerConnectionId;
+@property(nonatomic, strong, nonnull) NSString* flutterChannelId;
+@property(nonatomic, strong, nullable) FlutterEventSink eventSink;
+@property(nonatomic, strong, nullable) FlutterEventChannel* eventChannel;
+@property(nonatomic, strong, nullable) NSArray<id>* eventQueue;
+@end
+
+@interface FlutterWebRTCPlugin (RTCDataChannel) <RTCDataChannelDelegate>
+
+- (void)createDataChannel:(nonnull NSString*)peerConnectionId
+                    label:(nonnull NSString*)label
+                   config:(nonnull RTCDataChannelConfiguration*)config
+                messenger:(nonnull NSObject<FlutterBinaryMessenger>*)messenger
+                   result:(nonnull FlutterResult)result;
+
+- (void)dataChannelClose:(nonnull NSString*)peerConnectionId
+           dataChannelId:(nonnull NSString*)dataChannelId;
+
+- (void)dataChannelSend:(nonnull NSString*)peerConnectionId
+          dataChannelId:(nonnull NSString*)dataChannelId
+                   data:(nonnull NSString*)data
+                   type:(nonnull NSString*)type;
+
+- (void)dataChannelGetBufferedAmount:(nonnull NSString*)peerConnectionId
+          dataChannelId:(nonnull NSString*)dataChannelId 
+                result:(nonnull FlutterResult)result;
+@end

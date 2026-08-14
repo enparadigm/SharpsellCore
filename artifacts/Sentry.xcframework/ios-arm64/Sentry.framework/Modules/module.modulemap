@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6d51aad60deba8e0a49959ca6af5e8e2ed752048d2770693ff1f215a23515917
-size 169
+framework module Sentry {
+  umbrella header "Sentry-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Sentry.Swift {
+  header "Sentry-Swift.h"
+  requires objc
+}

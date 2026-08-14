@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8285aaa7320f376263ac908ca2303d066b0272ecd3f194d7f84b5ba81ca26b4b
-size 312
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+
+FOUNDATION_EXPORT double OrderedSetVersionNumber;
+FOUNDATION_EXPORT const unsigned char OrderedSetVersionString[];
+

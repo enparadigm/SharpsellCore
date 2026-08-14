@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a126b665c872a2ba499932af342a8669876e827496555aa728398eeeef4acd4a
-size 460
+#ifndef FlutterRTCVideoPlatformTypes_h
+#define FlutterRTCVideoPlatformTypes_h
+
+#import <TargetConditionals.h>
+
+#if TARGET_OS_IPHONE
+#import <Flutter/Flutter.h>
+typedef UIView FlutterRTCVideoPlatformNativeView;
+typedef CGRect FlutterRTCVideoPlatformFrame;
+#elif TARGET_OS_OSX
+#import <FlutterMacOS/FlutterMacOS.h>
+typedef NSView FlutterRTCVideoPlatformNativeView;
+typedef NSRect FlutterRTCVideoPlatformFrame;
+#endif
+
+#endif /* FlutterRTCVideoPlatformTypes_h */

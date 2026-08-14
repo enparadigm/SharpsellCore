@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ad130a13a53246d19786fae68d79a23e214e865aeb0c816e73cd5ed4232a7bf1
-size 302
+#import <Flutter/Flutter.h>
+
+#ifndef AUDIO_SESSION_MICROPHONE
+    #define AUDIO_SESSION_MICROPHONE 1
+#endif
+
+@interface DarwinAudioSession : NSObject
+
+@property (readonly, nonatomic) FlutterMethodChannel *channel;
+
+- (instancetype)initWithRegistrar:(NSObject<FlutterPluginRegistrar> *)registrar;
+
+@end

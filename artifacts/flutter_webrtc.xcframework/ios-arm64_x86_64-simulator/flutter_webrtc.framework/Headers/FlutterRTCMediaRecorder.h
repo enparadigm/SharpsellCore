@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:12f1ac7fa9909c1a3ce0272687f2093baa78aad4e21a67ef3358daf4844250d6
-size 779
+#if TARGET_OS_IPHONE
+#import <Flutter/Flutter.h>
+#elif TARGET_OS_OSX
+#import <FlutterMacOS/FlutterMacOS.h>
+#endif
+#import <WebRTC/WebRTC.h>
+
+@import Foundation;
+@import AVFoundation;
+
+@interface FlutterRTCMediaRecorder : NSObject <RTCVideoRenderer>
+
+@property(nonatomic, strong) RTCVideoTrack* _Nullable videoTrack;
+@property(nonatomic, strong) NSURL* _Nonnull output;
+@property(nonatomic, strong) AVAssetWriter* _Nullable assetWriter;
+@property(nonatomic, strong) AVAssetWriterInput* _Nullable writerInput;
+
+- (instancetype _Nonnull)initWithVideoTrack:(RTCVideoTrack* _Nullable)video
+                                 audioTrack:(RTCAudioTrack* _Nullable)audio
+                                 outputFile:(NSURL* _Nonnull)out;
+
+- (void)stop:(_Nonnull FlutterResult)result;
+
+@end

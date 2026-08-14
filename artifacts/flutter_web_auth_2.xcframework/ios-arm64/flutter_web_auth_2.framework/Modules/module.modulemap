@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:34ff882ac68f6af763789b5dc1cc963ae8f19798121d7cc496c4645de848ae20
-size 217
+framework module flutter_web_auth_2 {
+  umbrella header "flutter_web_auth_2-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_web_auth_2.Swift {
+  header "flutter_web_auth_2-Swift.h"
+  requires objc
+}

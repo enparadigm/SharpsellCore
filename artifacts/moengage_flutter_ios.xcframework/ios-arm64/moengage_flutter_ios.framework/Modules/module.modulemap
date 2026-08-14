@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9428b797c9319c8b5e46ced76cd774eb5dcaaa19582b1c693142b6bfe6136405
-size 225
+framework module moengage_flutter_ios {
+  umbrella header "moengage_flutter_ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module moengage_flutter_ios.Swift {
+  header "moengage_flutter_ios-Swift.h"
+  requires objc
+}

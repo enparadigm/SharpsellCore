@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:78681c4509981db020223726111c9e64c9c558cb3df086e6efa01eadcab3fa09
-size 378
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "InAppWebViewFlutterPlugin.h"
+
+FOUNDATION_EXPORT double flutter_inappwebview_iosVersionNumber;
+FOUNDATION_EXPORT const unsigned char flutter_inappwebview_iosVersionString[];
+

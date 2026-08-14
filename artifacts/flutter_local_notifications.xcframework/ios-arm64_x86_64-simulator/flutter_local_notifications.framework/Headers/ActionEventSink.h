@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5851ae68a1a6e13dd5ca48e361482239ad3c61b6e0b6c8de5d9e70801d49a112
-size 393
+//
+//  ActionEventSink.h
+//  flutter_local_notifications
+//
+//  Created by Sebastian Roth on 11/1/20.
+//
+
+#import <Foundation/Foundation.h>
+
+#if TARGET_OS_OSX
+#import <FlutterMacOS/FlutterMacOS.h>
+#else
+#import <Flutter/Flutter.h>
+#endif
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface ActionEventSink : NSObject <FlutterStreamHandler>
+
+- (void)addItem:(NSDictionary *)item;
+
+@end
+
+NS_ASSUME_NONNULL_END

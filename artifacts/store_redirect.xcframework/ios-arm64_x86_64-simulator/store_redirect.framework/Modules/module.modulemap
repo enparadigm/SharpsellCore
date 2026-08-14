@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8e80e6cd7a4eb857b89a5db6b2a7f61cfac3bd7c56f4e55ea898caf9d6320a65
-size 118
+framework module store_redirect {
+  umbrella header "store_redirect-umbrella.h"
+
+  export *
+  module * { export * }
+}

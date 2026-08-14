@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:36d4e545cdf3b75792766331240c1f198e77c10f96a685154de941ee9102e09f
-size 384
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "SqfliteImportPublic.h"
+#import "SqflitePluginPublic.h"
+
+FOUNDATION_EXPORT double sqflite_darwinVersionNumber;
+FOUNDATION_EXPORT const unsigned char sqflite_darwinVersionString[];
+

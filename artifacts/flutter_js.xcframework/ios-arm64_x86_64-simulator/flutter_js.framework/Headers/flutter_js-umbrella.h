@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:77e8a915308cd90c668c899e60e749b81903eae86f3dc5bfc9969345ff1bba12
-size 340
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "FlutterJsPlugin.h"
+
+FOUNDATION_EXPORT double flutter_jsVersionNumber;
+FOUNDATION_EXPORT const unsigned char flutter_jsVersionString[];
+

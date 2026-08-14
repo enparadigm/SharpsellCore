@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fa0ebcd73d7d577f2805d943b51b2d714599df17faa0677de8af88737e496f18
-size 468
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "demux.h"
+#import "mux.h"
+#import "sharpyuv.h"
+#import "decode.h"
+#import "encode.h"
+#import "types.h"
+#import "mux_types.h"
+#import "format_constants.h"
+
+FOUNDATION_EXPORT double libwebpVersionNumber;
+FOUNDATION_EXPORT const unsigned char libwebpVersionString[];
+

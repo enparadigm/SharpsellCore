@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:534912d127df787e5e86e201ce3e23271c5a35fc9f06f7b978d1bc604912e445
-size 399
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "sqlite3.h"
+#import "sqlite3ext.h"
+#import "sqlite3session.h"
+#import "sqlite_cfg.h"
+
+FOUNDATION_EXPORT double sqlite3VersionNumber;
+FOUNDATION_EXPORT const unsigned char sqlite3VersionString[];
+

@@ -1,3 +1,49 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8c7a42fc248a2fd2c95c358f9e9db4f01e9c99ddb193b64a6c3d4e09c03fab7a
-size 3153
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name pdfx
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import CoreGraphics
+import Flutter
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import pdfx
+@objc @_hasMissingDesignatedInitializers public class SwiftPdfxPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin, pdfx.PdfxApi {
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func openDocumentDataMessage(_ message: pdfx.OpenDataMessage, completion: @escaping (pdfx.OpenReply?, Flutter.FlutterError?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func openDocumentFileMessage(_ message: pdfx.OpenPathMessage, completion: @escaping (pdfx.OpenReply?, Flutter.FlutterError?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func openDocumentAssetMessage(_ message: pdfx.OpenPathMessage, completion: @escaping (pdfx.OpenReply?, Flutter.FlutterError?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func closeDocumentMessage(_ message: pdfx.IdMessage, error: Swift.AutoreleasingUnsafeMutablePointer<Flutter.FlutterError?>)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func getPageMessage(_ message: pdfx.GetPageMessage, completion: @escaping (pdfx.GetPageReply?, Flutter.FlutterError?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func renderPageMessage(_ message: pdfx.RenderPageMessage, completion: @escaping (pdfx.RenderPageReply?, Flutter.FlutterError?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func closePageMessage(_ message: pdfx.IdMessage, error: Swift.AutoreleasingUnsafeMutablePointer<Flutter.FlutterError?>)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func registerTextureWithError(_ error: Swift.AutoreleasingUnsafeMutablePointer<Flutter.FlutterError?>) -> pdfx.RegisterTextureReply?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func unregisterTextureMessage(_ message: pdfx.UnregisterTextureMessage, error: Swift.AutoreleasingUnsafeMutablePointer<Flutter.FlutterError?>)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func resizeTextureMessage(_ message: pdfx.ResizeTextureMessage, completion: @escaping (Flutter.FlutterError?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func updateTextureMessage(_ message: pdfx.UpdateTextureMessage, completion: @escaping (Flutter.FlutterError?) -> Swift.Void)
+  #endif
+  @objc deinit
+}

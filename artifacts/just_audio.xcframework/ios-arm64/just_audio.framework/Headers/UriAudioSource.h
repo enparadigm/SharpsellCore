@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:79f74f9ba26672acd7b14d9e6b0f4b592ceb9f83e31445373a076bf4f347fff6
-size 460
+#import "IndexedAudioSource.h"
+#import "LoadControl.h"
+#import <AVFoundation/AVFoundation.h>
+#if TARGET_OS_OSX
+#import <FlutterMacOS/FlutterMacOS.h>
+#else
+#import <Flutter/Flutter.h>
+#endif
+
+@interface UriAudioSource : IndexedAudioSource
+
+@property (readonly, nonatomic) NSString *uri;
+
+- (instancetype)initWithId:(NSString *)sid uri:(NSString *)uri loadControl:(LoadControl *)loadControl headers:(NSDictionary *)headers options:(NSDictionary *)options;
+
+@end
