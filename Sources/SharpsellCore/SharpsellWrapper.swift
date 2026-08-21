@@ -38,6 +38,12 @@ public struct SharpSellWrapper{
     var isFlutterEngineCreated = false
     private let flutterMethodChannelName = "sharpsell_flutter_channel"
     private let flutterEngineIdentifer = "sharpsell_flutter_engine"
+    private let flutterHost = FlutterHost()
+    
+    private final class FlutterHost {
+        var viewController: FlutterViewController?
+        var methodChannel: FlutterMethodChannel?
+    }
     
     //MARK: - Init Declaration
     public init (){}
@@ -48,14 +54,44 @@ public struct SharpSellWrapper{
             NSLog("Sharpsell Error: Flutter Engine is nil.")
             throw SharpSellError.flutterEngineFailure
         }
-        let flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
-        return flutterViewController
+        if let viewController = flutterHost.viewController {
+            return viewController
+        }
+        let viewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
+        flutterHost.viewController = viewController
+        return viewController
     }
     
     /// Creating Flutter method channel.
-    private func getFlutterMethodChannel() throws -> FlutterMethodChannel{
-        let methodChannel = FlutterMethodChannel(name: flutterMethodChannelName, binaryMessenger: try getFlutterViewController().binaryMessenger)
+    private func getFlutterMethodChannel() throws -> FlutterMethodChannel {
+        if let methodChannel = flutterHost.methodChannel {
+            return methodChannel
+        }
+        guard let flutterEngine = self.flutterEngine else {
+            NSLog("Sharpsell Error: Flutter Engine is nil.")
+            throw SharpSellError.flutterEngineFailure
+        }
+        let methodChannel = FlutterMethodChannel(
+            name: flutterMethodChannelName,
+            binaryMessenger: flutterEngine.binaryMessenger
+        )
+        flutterHost.methodChannel = methodChannel
         return methodChannel
+    }
+    
+    private func initializeMoEngageIfNeeded() {
+        getMoEngageAppId { moEngageAppId in
+            let appId = moEngageAppId.trimmingCharacters(in: .whitespacesAndNewlines)
+            guard !appId.isEmpty else {
+                NSLog("Sharpsell: Skipping MoEngage init - empty app id")
+                return
+            }
+            NSLog("Sharpsell - in getMoEngageAppId - \(appId)")
+            let sdkConfig = MoEngageSDKConfig(withAppID: appId)
+            MoEngageInitializer.sharedInstance.initializeDefaultInstance(sdkConfig)
+        } onFailure: { errorMessage, _ in
+            NSLog("Sharpsell Error: getMoEngageAppId failed - \(errorMessage)")
+        }
     }
     
     //MARK: - Public Methods
@@ -67,6 +103,8 @@ public struct SharpSellWrapper{
         //            os_log(.info, log: Log.tracking, "Creating Flutter Engine...")
         do {
             self.flutterEngine = try FlutterEngine(name: flutterEngineIdentifer)
+            flutterHost.viewController = nil
+            flutterHost.methodChannel = nil
             guard let myengine = self.flutterEngine else {
                 NSLog("Sharpsell Error: Flutter Engine not assigned")
                 return
@@ -122,15 +160,7 @@ public struct SharpSellWrapper{
                         onSucces()
                         print("Sharpsell - Calling mo engage app  ")
                         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-                            getMoEngageAppId { moEngagaeAppId in
-                                print("Sharpsell - in getMoEngageAppId - \(moEngagaeAppId)")
-                                var sdkConfig = MoEngageSDKConfig(withAppID: moEngagaeAppId)
-//                                sdkConfig.enableLogs = true
-                                MoEngageInitializer.sharedInstance.initializeDefaultInstance(sdkConfig)
-                                
-                            } onFailure: { errorMessage, SharpSellError in
-                                print(errorMessage)
-                            }
+                            initializeMoEngageIfNeeded()
                         }
                         
                         
@@ -183,17 +213,9 @@ public struct SharpSellWrapper{
                     return
                 } else {
                     do {
-                        getMoEngageAppId { moEngagaeAppId in
-                            NSLog("Sharpsell - in getMoEngageAppId - \(moEngagaeAppId)")
-                            var sdkConfig = MoEngageSDKConfig(withAppID: moEngagaeAppId)
-                            //                                sdkConfig.enableLogs = true
-                            MoEngageInitializer.sharedInstance.initializeDefaultInstance(sdkConfig)
-                        } onFailure: { errorMessage, SharpSellError in
-                            print(errorMessage)
-                        }
-                        //Success
                         let flutterViewController = try getFlutterViewController()
                         onSucess(flutterViewController)
+                        initializeMoEngageIfNeeded()
                     } catch (SharpSellError.flutterEngineFailure){
                         NSLog("Sharpsell Error: Open - Failed to get the FlutterVC due to flutterEngineFailure")
                     } catch {
@@ -249,7 +271,8 @@ public struct SharpSellWrapper{
                     print("*************** Flutter Result For getMoEngageCompanyId *********************")
                     print(flutterResult)
                     print("*************** Flutter Result For getMoEngageCompanyId *********************")
-                    onSucess(flutterResult as! String)
+                    let appId = (flutterResult as? String) ?? ""
+                    onSucess(appId)
                     //                    //If sharpsell return 1 then it is sharpsell notification
                     //                    let isSharpsellNotifi = "\(flutterResult ?? 1)"
                     //                    if isSharpsellNotifi == "1"{
