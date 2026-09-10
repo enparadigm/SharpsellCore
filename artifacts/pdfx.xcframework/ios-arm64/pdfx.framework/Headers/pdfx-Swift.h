@@ -308,6 +308,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 @protocol FlutterPluginRegistrar;
+/// Stable plugin entry point used by Flutter’s generated registrants.
+SWIFT_CLASS("_TtC4pdfx10PdfxPlugin")
+@interface PdfxPlugin : NSObject <FlutterPlugin>
++ (void)registerWithRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class OpenDataMessage;
 @class OpenReply;
 @class FlutterError;

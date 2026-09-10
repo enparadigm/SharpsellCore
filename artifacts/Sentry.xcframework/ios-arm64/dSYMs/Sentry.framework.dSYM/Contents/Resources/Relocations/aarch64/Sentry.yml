@@ -696,12 +696,12 @@ relocations:
   - { offset: 0x1C476D, size: 0x8, addend: 0x0, symName: _sentrycrashbic_registerAddedCallback, symObjAddr: 0x268, symBinAddr: 0x195A0, symSize: 0x84 }
   - { offset: 0x1C481A, size: 0x8, addend: 0x0, symName: _sentrycrashbic_registerRemovedCallback, symObjAddr: 0x2EC, symBinAddr: 0x19624, symSize: 0xC }
   - { offset: 0x1C48A4, size: 0x8, addend: 0x0, symName: _sentrycrash_install, symObjAddr: 0x0, symBinAddr: 0x19630, symSize: 0x11C }
-  - { offset: 0x1C48CC, size: 0x8, addend: 0x0, symName: _g_installed, symObjAddr: 0x4B70, symBinAddr: 0x1B5ED8, symSize: 0x0 }
+  - { offset: 0x1C48CC, size: 0x8, addend: 0x0, symName: _g_installed, symObjAddr: 0x4B78, symBinAddr: 0x1B5ED8, symSize: 0x0 }
   - { offset: 0x1C48EE, size: 0x8, addend: 0x0, symName: _g_monitoring, symObjAddr: 0x3F4, symBinAddr: 0x1B1180, symSize: 0x0 }
-  - { offset: 0x1C4944, size: 0x8, addend: 0x0, symName: _g_lastCrashReportFilePath, symObjAddr: 0x4B90, symBinAddr: 0x1B5EF8, symSize: 0x0 }
-  - { offset: 0x1C4967, size: 0x8, addend: 0x0, symName: _g_saveScreenShot, symObjAddr: 0x4B78, symBinAddr: 0x1B5EE0, symSize: 0x0 }
-  - { offset: 0x1C4993, size: 0x8, addend: 0x0, symName: _g_saveViewHierarchy, symObjAddr: 0x4B80, symBinAddr: 0x1B5EE8, symSize: 0x0 }
-  - { offset: 0x1C49A9, size: 0x8, addend: 0x0, symName: _g_saveTransaction, symObjAddr: 0x4B88, symBinAddr: 0x1B5EF0, symSize: 0x0 }
+  - { offset: 0x1C4944, size: 0x8, addend: 0x0, symName: _g_lastCrashReportFilePath, symObjAddr: 0x4B98, symBinAddr: 0x1B5EF8, symSize: 0x0 }
+  - { offset: 0x1C4967, size: 0x8, addend: 0x0, symName: _g_saveScreenShot, symObjAddr: 0x4B80, symBinAddr: 0x1B5EE0, symSize: 0x0 }
+  - { offset: 0x1C4993, size: 0x8, addend: 0x0, symName: _g_saveViewHierarchy, symObjAddr: 0x4B88, symBinAddr: 0x1B5EE8, symSize: 0x0 }
+  - { offset: 0x1C49A9, size: 0x8, addend: 0x0, symName: _g_saveTransaction, symObjAddr: 0x4B90, symBinAddr: 0x1B5EF0, symSize: 0x0 }
   - { offset: 0x1C49D4, size: 0x8, addend: 0x0, symName: _sentrycrash_install, symObjAddr: 0x0, symBinAddr: 0x19630, symSize: 0x11C }
   - { offset: 0x1C4FE7, size: 0x8, addend: 0x0, symName: _onCrash, symObjAddr: 0x11C, symBinAddr: 0x1974C, symSize: 0x110 }
   - { offset: 0x1C51C1, size: 0x8, addend: 0x0, symName: _sentrycrash_setMonitoring, symObjAddr: 0x22C, symBinAddr: 0x1985C, symSize: 0x30 }
@@ -1097,10 +1097,10 @@ relocations:
   - { offset: 0x1D4661, size: 0x8, addend: 0x0, symName: _sentrycrashstate_initialize, symObjAddr: 0x0, symBinAddr: 0x220D4, symSize: 0x1D4 }
   - { offset: 0x1D466F, size: 0x8, addend: 0x0, symName: _sentrycrashcm_appstate_getAPI, symObjAddr: 0x7CC, symBinAddr: 0x228A0, symSize: 0xC }
   - { offset: 0x1D4697, size: 0x8, addend: 0x0, symName: _sentrycrashcm_appstate_getAPI.api, symObjAddr: 0xA90, symBinAddr: 0x1B1248, symSize: 0x0 }
-  - { offset: 0x1D4BE2, size: 0x8, addend: 0x0, symName: _g_stateFilePath, symObjAddr: 0x6618, symBinAddr: 0x1B8978, symSize: 0x0 }
-  - { offset: 0x1D4BF8, size: 0x8, addend: 0x0, symName: _g_state, symObjAddr: 0x6620, symBinAddr: 0x1B8980, symSize: 0x0 }
-  - { offset: 0x1D4CBA, size: 0x8, addend: 0x0, symName: _g_crashstate_initialize_time, symObjAddr: 0x6610, symBinAddr: 0x1B8970, symSize: 0x0 }
-  - { offset: 0x1D4CD0, size: 0x8, addend: 0x0, symName: _g_isEnabled, symObjAddr: 0x6670, symBinAddr: 0x1B89D0, symSize: 0x0 }
+  - { offset: 0x1D4BE2, size: 0x8, addend: 0x0, symName: _g_stateFilePath, symObjAddr: 0x6628, symBinAddr: 0x1B8978, symSize: 0x0 }
+  - { offset: 0x1D4BF8, size: 0x8, addend: 0x0, symName: _g_state, symObjAddr: 0x6630, symBinAddr: 0x1B8980, symSize: 0x0 }
+  - { offset: 0x1D4CBA, size: 0x8, addend: 0x0, symName: _g_crashstate_initialize_time, symObjAddr: 0x6620, symBinAddr: 0x1B8970, symSize: 0x0 }
+  - { offset: 0x1D4CD0, size: 0x8, addend: 0x0, symName: _g_isEnabled, symObjAddr: 0x6680, symBinAddr: 0x1B89D0, symSize: 0x0 }
   - { offset: 0x1D4EC7, size: 0x8, addend: 0x0, symName: _sentrycrashstate_initialize, symObjAddr: 0x0, symBinAddr: 0x220D4, symSize: 0x1D4 }
   - { offset: 0x1D5161, size: 0x8, addend: 0x0, symName: _sentrycrashstate_reset, symObjAddr: 0x1D4, symBinAddr: 0x222A8, symSize: 0x78 }
   - { offset: 0x1D518B, size: 0x8, addend: 0x0, symName: _saveState, symObjAddr: 0x24C, symBinAddr: 0x22320, symSize: 0x1F8 }
@@ -1682,11 +1682,11 @@ relocations:
   - { offset: 0x1F31F1, size: 0x8, addend: 0x0, symName: '-[SentryDateUtil .cxx_destruct]', symObjAddr: 0x1C0, symBinAddr: 0x33AD0, symSize: 0xC }
   - { offset: 0x1F3452, size: 0x8, addend: 0x0, symName: _sentryGetIso8601Formatter, symObjAddr: 0x0, symBinAddr: 0x33ADC, symSize: 0x30 }
   - { offset: 0x1F346C, size: 0x8, addend: 0x0, symName: _sentryGetIso8601Formatter, symObjAddr: 0x0, symBinAddr: 0x33ADC, symSize: 0x30 }
-  - { offset: 0x1F3492, size: 0x8, addend: 0x0, symName: _sentryGetIso8601Formatter.isoFormatter, symObjAddr: 0x1EA0, symBinAddr: 0x1BA450, symSize: 0x0 }
-  - { offset: 0x1F34A8, size: 0x8, addend: 0x0, symName: _sentryGetIso8601Formatter.onceToken, symObjAddr: 0x1EA8, symBinAddr: 0x1BA458, symSize: 0x0 }
+  - { offset: 0x1F3492, size: 0x8, addend: 0x0, symName: _sentryGetIso8601Formatter.isoFormatter, symObjAddr: 0x1E98, symBinAddr: 0x1BA450, symSize: 0x0 }
+  - { offset: 0x1F34A8, size: 0x8, addend: 0x0, symName: _sentryGetIso8601Formatter.onceToken, symObjAddr: 0x1EA0, symBinAddr: 0x1BA458, symSize: 0x0 }
   - { offset: 0x1F34DA, size: 0x8, addend: 0x0, symName: _sentryGetIso8601FormatterWithMillisecondPrecision, symObjAddr: 0xE8, symBinAddr: 0x33BC4, symSize: 0x30 }
-  - { offset: 0x1F3500, size: 0x8, addend: 0x0, symName: _sentryGetIso8601FormatterWithMillisecondPrecision.isoFormatter, symObjAddr: 0x1EB0, symBinAddr: 0x1BA460, symSize: 0x0 }
-  - { offset: 0x1F3516, size: 0x8, addend: 0x0, symName: _sentryGetIso8601FormatterWithMillisecondPrecision.onceToken, symObjAddr: 0x1EB8, symBinAddr: 0x1BA468, symSize: 0x0 }
+  - { offset: 0x1F3500, size: 0x8, addend: 0x0, symName: _sentryGetIso8601FormatterWithMillisecondPrecision.isoFormatter, symObjAddr: 0x1EA8, symBinAddr: 0x1BA460, symSize: 0x0 }
+  - { offset: 0x1F3516, size: 0x8, addend: 0x0, symName: _sentryGetIso8601FormatterWithMillisecondPrecision.onceToken, symObjAddr: 0x1EB0, symBinAddr: 0x1BA468, symSize: 0x0 }
   - { offset: 0x1F3578, size: 0x8, addend: 0x0, symName: _sentryGetIso8601Formatter.cold.1, symObjAddr: 0x2D8, symBinAddr: 0xF6128, symSize: 0x14 }
   - { offset: 0x1F3594, size: 0x8, addend: 0x0, symName: _sentryGetIso8601Formatter.cold.1, symObjAddr: 0x2D8, symBinAddr: 0xF6128, symSize: 0x14 }
   - { offset: 0x1F35A6, size: 0x8, addend: 0x0, symName: ___sentryGetIso8601Formatter_block_invoke, symObjAddr: 0x30, symBinAddr: 0x33B0C, symSize: 0xB8 }
@@ -2790,8 +2790,8 @@ relocations:
   - { offset: 0x21E140, size: 0x8, addend: 0x0, symName: _SENTRY_NETWORK_REQUEST_START_DATE, symObjAddr: 0x2F48, symBinAddr: 0x15FA30, symSize: 0x0 }
   - { offset: 0x21E156, size: 0x8, addend: 0x0, symName: _SENTRY_NETWORK_REQUEST_TRACKER_BREADCRUMB, symObjAddr: 0x2F50, symBinAddr: 0x15FA38, symSize: 0x0 }
   - { offset: 0x21E167, size: 0x8, addend: 0x0, symName: '+[SentryNetworkTracker sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x52254, symSize: 0x74 }
-  - { offset: 0x21E191, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0xC638, symBinAddr: 0x1BA4F8, symSize: 0x0 }
-  - { offset: 0x21E1A7, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC640, symBinAddr: 0x1BA500, symSize: 0x0 }
+  - { offset: 0x21E191, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0xC630, symBinAddr: 0x1BA4F8, symSize: 0x0 }
+  - { offset: 0x21E1A7, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC638, symBinAddr: 0x1BA500, symSize: 0x0 }
   - { offset: 0x21E3BD, size: 0x8, addend: 0x0, symName: '___38+[SentryNetworkTracker sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x522C8, symSize: 0x2C }
   - { offset: 0x21E3FC, size: 0x8, addend: 0x0, symName: '-[SentryNetworkTracker init]', symObjAddr: 0xA0, symBinAddr: 0x522F4, symSize: 0x3C }
   - { offset: 0x21E433, size: 0x8, addend: 0x0, symName: '-[SentryNetworkTracker enableNetworkTracking]', symObjAddr: 0xDC, symBinAddr: 0x52330, symSize: 0xC }
@@ -2832,8 +2832,8 @@ relocations:
   - { offset: 0x22012C, size: 0x8, addend: 0x0, symName: '___57+[SentryNetworkTrackingIntegration swizzleURLSessionTask]_block_invoke_2.33', symObjAddr: 0x504, symBinAddr: 0x54BEC, symSize: 0x70 }
   - { offset: 0x220C6D, size: 0x8, addend: 0x0, symName: '+[SentryNoOpSpan shared]', symObjAddr: 0x0, symBinAddr: 0x54C5C, symSize: 0x74 }
   - { offset: 0x220C87, size: 0x8, addend: 0x0, symName: '+[SentryNoOpSpan shared]', symObjAddr: 0x0, symBinAddr: 0x54C5C, symSize: 0x74 }
-  - { offset: 0x220CB1, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0x50D0, symBinAddr: 0x1BA508, symSize: 0x0 }
-  - { offset: 0x220CC7, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x50D8, symBinAddr: 0x1BA510, symSize: 0x0 }
+  - { offset: 0x220CB1, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0x50C8, symBinAddr: 0x1BA508, symSize: 0x0 }
+  - { offset: 0x220CC7, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x50D0, symBinAddr: 0x1BA510, symSize: 0x0 }
   - { offset: 0x22103D, size: 0x8, addend: 0x0, symName: '___24+[SentryNoOpSpan shared]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x54CD0, symSize: 0x2C }
   - { offset: 0x22107C, size: 0x8, addend: 0x0, symName: '-[SentryNoOpSpan init]', symObjAddr: 0xA0, symBinAddr: 0x54CFC, symSize: 0xC8 }
   - { offset: 0x2210B3, size: 0x8, addend: 0x0, symName: '-[SentryNoOpSpan startChildWithOperation:]', symObjAddr: 0x168, symBinAddr: 0x54DC4, symSize: 0xC }
@@ -2896,8 +2896,8 @@ relocations:
   - { offset: 0x224BAF, size: 0x8, addend: 0x0, symName: '-[SentryNSError .cxx_destruct]', symObjAddr: 0x184, symBinAddr: 0x56300, symSize: 0xC }
   - { offset: 0x224C80, size: 0x8, addend: 0x0, symName: '+[SentryNSFileManagerSwizzling shared]', symObjAddr: 0x0, symBinAddr: 0x5630C, symSize: 0x74 }
   - { offset: 0x224C9A, size: 0x8, addend: 0x0, symName: '+[SentryNSFileManagerSwizzling shared]', symObjAddr: 0x0, symBinAddr: 0x5630C, symSize: 0x74 }
-  - { offset: 0x224CC4, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0x8588, symBinAddr: 0x1BA528, symSize: 0x0 }
-  - { offset: 0x224CDA, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x8590, symBinAddr: 0x1BA530, symSize: 0x0 }
+  - { offset: 0x224CC4, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0x8580, symBinAddr: 0x1BA528, symSize: 0x0 }
+  - { offset: 0x224CDA, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x8588, symBinAddr: 0x1BA530, symSize: 0x0 }
   - { offset: 0x224F68, size: 0x8, addend: 0x0, symName: '___38+[SentryNSFileManagerSwizzling shared]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x56380, symSize: 0x2C }
   - { offset: 0x224FA7, size: 0x8, addend: 0x0, symName: '-[SentryNSFileManagerSwizzling startWithOptions:tracker:]', symObjAddr: 0xA0, symBinAddr: 0x563AC, symSize: 0xC8 }
   - { offset: 0x225053, size: 0x8, addend: 0x0, symName: '-[SentryNSFileManagerSwizzling stop]', symObjAddr: 0x168, symBinAddr: 0x56474, symSize: 0xC }
@@ -3359,8 +3359,8 @@ relocations:
   - { offset: 0x24BBD9, size: 0x8, addend: 0x0, symName: _SentryConnectivityCellular, symObjAddr: 0xEE8, symBinAddr: 0x1600F8, symSize: 0x0 }
   - { offset: 0x24BBEF, size: 0x8, addend: 0x0, symName: _SentryConnectivityWiFi, symObjAddr: 0xEF0, symBinAddr: 0x160100, symSize: 0x0 }
   - { offset: 0x24BC05, size: 0x8, addend: 0x0, symName: _SentryConnectivityNone, symObjAddr: 0xEF8, symBinAddr: 0x160108, symSize: 0x0 }
-  - { offset: 0x24BC38, size: 0x8, addend: 0x0, symName: _sentry_reachability_observers, symObjAddr: 0x43D8, symBinAddr: 0x1BA590, symSize: 0x0 }
-  - { offset: 0x24BC53, size: 0x8, addend: 0x0, symName: _sentry_reachability_queue, symObjAddr: 0x43E0, symBinAddr: 0x1BA598, symSize: 0x0 }
+  - { offset: 0x24BC38, size: 0x8, addend: 0x0, symName: _sentry_reachability_observers, symObjAddr: 0x43D0, symBinAddr: 0x1BA590, symSize: 0x0 }
+  - { offset: 0x24BC53, size: 0x8, addend: 0x0, symName: _sentry_reachability_queue, symObjAddr: 0x43D8, symBinAddr: 0x1BA598, symSize: 0x0 }
   - { offset: 0x24BC69, size: 0x8, addend: 0x0, symName: _sentry_current_reachability_state, symObjAddr: 0xF00, symBinAddr: 0x1B1C50, symSize: 0x0 }
   - { offset: 0x24BCA0, size: 0x8, addend: 0x0, symName: _SentryConnectivityShouldReportChange, symObjAddr: 0x0, symBinAddr: 0x65034, symSize: 0x7C }
   - { offset: 0x24BD4B, size: 0x8, addend: 0x0, symName: _SentryConnectivityFlagRepresentation, symObjAddr: 0x7C, symBinAddr: 0x650B0, symSize: 0x2C }

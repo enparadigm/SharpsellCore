@@ -41,10 +41,8 @@ let package = Package(
                 "flutter_custom_tabs_ios",
                 "flutter_inappwebview_ios",
                 "flutter_js",
-                "flutter_local_notifications",
                 "flutter_native_contact_picker",
                 "flutter_web_auth_2",
-                "flutter_webrtc",
                 "FlutterPluginRegistrant",
                 "fluttertoast",
                 "image_cropper",
@@ -52,7 +50,6 @@ let package = Package(
                 "image_picker_ios",
                 "just_audio",
                 "libwebp",
-                "livekit_client",
                 "moengage_flutter_ios",
                 "MoEngagePluginBase",
                 "open_file_ios",
@@ -65,7 +62,6 @@ let package = Package(
                 "pointer_interceptor_ios",
                 "printing",
                 "promises",
-                "record_darwin",
                 "SDWebImage",
                 "Sentry",
                 "sentry_flutter",
@@ -79,7 +75,6 @@ let package = Package(
                 "SwiftyGif",
                 "TOCropViewController",
                 "url_launcher_ios",
-                "v_video_compressor",
                 "video_player_avfoundation",
                 "video_thumbnail",
                 "wakelock_plus",
@@ -136,17 +131,11 @@ let package = Package(
             .binaryTarget(name: "flutter_js",
                           path: "artifacts/flutter_js.xcframework"),
 
-            .binaryTarget(name: "flutter_local_notifications",
-                          path: "artifacts/flutter_local_notifications.xcframework"),
-
             .binaryTarget(name: "flutter_native_contact_picker",
                           path: "artifacts/flutter_native_contact_picker.xcframework"),
 
             .binaryTarget(name: "flutter_web_auth_2",
                           path: "artifacts/flutter_web_auth_2.xcframework"),
-
-            .binaryTarget(name: "flutter_webrtc",
-                          path: "artifacts/flutter_webrtc.xcframework"),
 
             .binaryTarget(name: "FlutterPluginRegistrant",
                           path: "artifacts/FlutterPluginRegistrant.xcframework"),
@@ -168,9 +157,6 @@ let package = Package(
 
             .binaryTarget(name: "libwebp",
                           path: "artifacts/libwebp.xcframework"),
-
-            .binaryTarget(name: "livekit_client",
-                          path: "artifacts/livekit_client.xcframework"),
 
             .binaryTarget(name: "moengage_flutter_ios",
                           path: "artifacts/moengage_flutter_ios.xcframework"),
@@ -207,9 +193,6 @@ let package = Package(
 
             .binaryTarget(name: "promises",
                           path: "artifacts/Promises.xcframework"),
-
-            .binaryTarget(name: "record_darwin",
-                          path: "artifacts/record_darwin.xcframework"),
 
             .binaryTarget(name: "SDWebImage",
                           path: "artifacts/SDWebImage.xcframework"),
@@ -249,9 +232,6 @@ let package = Package(
 
             .binaryTarget(name: "url_launcher_ios",
                           path: "artifacts/url_launcher_ios.xcframework"),
-
-            .binaryTarget(name: "v_video_compressor",
-                          path: "artifacts/v_video_compressor.xcframework"),
 
             .binaryTarget(name: "video_player_avfoundation",
                           path: "artifacts/video_player_avfoundation.xcframework"),
