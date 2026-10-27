@@ -180,14 +180,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:21contacts_service_plus30SwiftContactsServicePlusPluginCyACSo16UIViewControllerCcfc",
-            "mangledName": "$s21contacts_service_plus30SwiftContactsServicePlusPluginCyACSo16UIViewControllerCcfc",
+            "usr": "s:21contacts_service_plus30SwiftContactsServicePlusPluginCyACSo07FlutterH9Registrar_pcfc",
+            "mangledName": "$s21contacts_service_plus30SwiftContactsServicePlusPluginCyACSo07FlutterH9Registrar_pcfc",
             "moduleName": "contacts_service_plus",
             "init_kind": "Designated"
           },
@@ -357,6 +357,58 @@
             "declKind": "Func",
             "usr": "s:21contacts_service_plus30SwiftContactsServicePlusPluginC10addContact7contactSSSo09CNMutableJ0C_tF",
             "mangledName": "$s21contacts_service_plus30SwiftContactsServicePlusPluginC10addContact7contactSSSo09CNMutableJ0C_tF",
+            "moduleName": "contacts_service_plus",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAvatar",
+            "printedName": "getAvatar(contact:photoHighResolution:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterStandardTypedData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterStandardTypedData",
+                    "printedName": "Flutter.FlutterStandardTypedData",
+                    "usr": "c:objc(cs)FlutterStandardTypedData"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21contacts_service_plus30SwiftContactsServicePlusPluginC9getAvatar7contact19photoHighResolutionSo24FlutterStandardTypedDataCSgSDySSypG_SbtF",
+            "mangledName": "$s21contacts_service_plus30SwiftContactsServicePlusPluginC9getAvatar7contact19photoHighResolutionSo24FlutterStandardTypedDataCSgSDySSypG_SbtF",
             "moduleName": "contacts_service_plus",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -557,15 +609,12 @@
                     ],
                     "usr": "s:Sq"
                   }
-                ],
-                "typeAttributes": [
-                  "noescape"
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:21contacts_service_plus30SwiftContactsServicePlusPluginC19openExistingContact7contact6resultSDySSypGSgAG_yypSgXEtF",
-            "mangledName": "$s21contacts_service_plus30SwiftContactsServicePlusPluginC19openExistingContact7contact6resultSDySSypGSgAG_yypSgXEtF",
+            "usr": "s:21contacts_service_plus30SwiftContactsServicePlusPluginC19openExistingContact7contact6resultSDySSypGSgAG_yypSgctF",
+            "mangledName": "$s21contacts_service_plus30SwiftContactsServicePlusPluginC19openExistingContact7contact6resultSDySSypGSgAG_yypSgctF",
             "moduleName": "contacts_service_plus",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -1101,30 +1150,30 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/contacts_service_plus-0.0.2\/ios\/Classes\/SwiftContactsServicePlusPlugin.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/contacts_service_plus-0.0.3\/ios\/Classes\/SwiftContactsServicePlusPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 300,
+      "offset": 308,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/contacts_service_plus-0.0.2\/ios\/Classes\/SwiftContactsServicePlusPlugin.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/contacts_service_plus-0.0.3\/ios\/Classes\/SwiftContactsServicePlusPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 404,
+      "offset": 417,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/contacts_service_plus-0.0.2\/ios\/Classes\/SwiftContactsServicePlusPlugin.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/contacts_service_plus-0.0.3\/ios\/Classes\/SwiftContactsServicePlusPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 451,
+      "offset": 465,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/contacts_service_plus-0.0.2\/ios\/Classes\/SwiftContactsServicePlusPlugin.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/contacts_service_plus-0.0.3\/ios\/Classes\/SwiftContactsServicePlusPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 4824,
+      "offset": 8069,
       "length": 5,
       "value": "false"
     }

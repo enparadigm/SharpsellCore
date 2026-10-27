@@ -1,16 +1,13 @@
-#if TARGET_OS_IPHONE
-#import <Flutter/Flutter.h>
-#elif TARGET_OS_OSX
-#import <FlutterMacOS/FlutterMacOS.h>
-#endif
+#import "FlutterRTCVideoPlatformTypes.h"
 
+#import <AVFoundation/AVFoundation.h>
 #import <WebRTC/WebRTC.h>
 
-@interface FlutterRTCVideoPlatformView : UIView
+@interface FlutterRTCVideoPlatformView : FlutterRTCVideoPlatformNativeView
 
 - (void)renderFrame:(nullable RTC_OBJC_TYPE(RTCVideoFrame) *)frame;
 
-- (instancetype _Nonnull)initWithFrame:(CGRect)frame;
+- (instancetype _Nonnull)initWithFrame:(FlutterRTCVideoPlatformFrame)frame;
 
 - (void)setSize:(CGSize)size;
 
