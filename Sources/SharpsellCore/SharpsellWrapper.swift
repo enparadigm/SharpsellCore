@@ -94,14 +94,14 @@ public struct SharpSellWrapper{
         return methodChannel
     }
 
-    /// Called when the user leaves SharpSell, or opens a route this app owns.
+    /// Called when the user leaves SharpSell, the session ends, or a route this app owns is opened.
     ///
-    /// `"back"` means the user left. Logout clears the SharpSell session first,
-    /// then sends that same value. An `sdk/` path, such as `sdk/policy-details`,
-    /// is forwarded as-is.
+    /// `"back"` means return to the current screen. `"logout"` means the SharpSell
+    /// session is already cleared and this app should show its login screen.
+    /// An `sdk/` path, such as `sdk/policy-details`, is forwarded as-is.
     ///
     /// When this is set, this app closes the SharpSell screen. When it is nil,
-    /// SharpSell closes itself on `"back"`. Set it before `open`.
+    /// SharpSell closes itself on `"back"` and `"logout"`. Set it before `open`.
     public var sdkRedirectHandler: ((String) -> Void)? {
         get { flutterHost.sdkRedirectHandler }
         set { flutterHost.sdkRedirectHandler = newValue }
