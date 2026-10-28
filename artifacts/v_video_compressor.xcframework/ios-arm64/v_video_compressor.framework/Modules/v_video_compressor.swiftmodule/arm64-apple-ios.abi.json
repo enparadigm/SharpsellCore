@@ -332,15 +332,22 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "v_video_compressor"
       },
       {
         "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "v_video_compressor"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "v_video_compressor"
       },
@@ -363,198 +370,324 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoCompressionEngine.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 178,
+      "offset": 357,
       "length": 6,
       "value": "128000"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoCompressionEngine.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 233,
+      "offset": 412,
       "length": 5,
       "value": "64000"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoCompressionEngine.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
       "kind": "FloatLiteral",
-      "offset": 290,
+      "offset": 469,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoCompressionEngine.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
       "kind": "FloatLiteral",
-      "offset": 359,
+      "offset": 538,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoCompressionEngine.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 497,
+      "offset": 676,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoCompressionEngine.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 533,
+      "offset": 712,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoCompressorPlugin.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 15182,
+      "offset": 15068,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoCompressorPlugin.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 21176,
+      "length": 22,
+      "value": "\"No video track found\""
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21277,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21282,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21358,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21511,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
       "kind": "FloatLiteral",
-      "offset": 15189,
+      "offset": 21606,
+      "length": 5,
+      "value": "0.001"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 21695,
+      "length": 47,
+      "value": "\"Trim range must be inside the source duration\""
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21838,
+      "length": 3,
+      "value": "600"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21909,
+      "length": 3,
+      "value": "600"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressionEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 22334,
+      "length": 42,
+      "value": "\"Unable to create composition video track\""
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressorPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15822,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCompressorPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 15829,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCropGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 787,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoCropGeometry.swift",
+      "kind": "FloatLiteral",
+      "offset": 834,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoFileLengthBudget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 7,
+      "value": "128000"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 145,
       "length": 6,
       "value": "\"HIGH\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 170,
       "length": 8,
       "value": "\"MEDIUM\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 194,
       "length": 5,
       "value": "\"LOW\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 10,
       "value": "\"VERY_LOW\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 250,
       "length": 11,
       "value": "\"ULTRA_LOW\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 1202,
       "length": 6,
       "value": "\"H264\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 1225,
       "length": 6,
       "value": "\"H265\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 1491,
       "length": 5,
       "value": "\"AAC\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 1512,
       "length": 5,
       "value": "\"MP3\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 1789,
       "length": 11,
       "value": "\"ULTRAFAST\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 1822,
       "length": 11,
       "value": "\"SUPERFAST\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 1854,
       "length": 10,
       "value": "\"VERYFAST\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 1883,
       "length": 8,
       "value": "\"FASTER\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 1908,
       "length": 6,
       "value": "\"FAST\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 1933,
       "length": 8,
       "value": "\"MEDIUM\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 1958,
       "length": 6,
       "value": "\"SLOW\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 1983,
       "length": 8,
       "value": "\"SLOWER\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
       "offset": 2012,
       "length": 10,
       "value": "\"VERYSLOW\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
-      "offset": 10633,
+      "offset": 2257,
+      "length": 12,
+      "value": "\"AUTO_ALIGN\""
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2291,
+      "length": 11,
+      "value": "\"LETTERBOX\""
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2320,
+      "length": 7,
+      "value": "\"EXACT\""
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
+      "kind": "FloatLiteral",
+      "offset": 2632,
+      "length": 4,
+      "value": "1e-6"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
+      "kind": "StringLiteral",
+      "offset": 14235,
       "length": 6,
       "value": "\"JPEG\""
     },
     {
-      "filePath": "\/Users\/nikunjkhunt\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-1.2.1\/ios\/Classes\/VVideoModels.swift",
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/v_video_compressor-2.2.1\/ios\/v_video_compressor\/Sources\/v_video_compressor\/VVideoModels.swift",
       "kind": "StringLiteral",
-      "offset": 10655,
+      "offset": 14257,
       "length": 5,
       "value": "\"PNG\""
     }
