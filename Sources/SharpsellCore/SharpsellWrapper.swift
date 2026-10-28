@@ -43,6 +43,7 @@ public struct SharpSellWrapper{
     private final class FlutterHost {
         var viewController: FlutterViewController?
         var methodChannel: FlutterMethodChannel?
+        var sdkRedirectHandler: ((String) -> Void)?
     }
     
     //MARK: - Init Declaration
@@ -75,8 +76,35 @@ public struct SharpSellWrapper{
             name: flutterMethodChannelName,
             binaryMessenger: flutterEngine.binaryMessenger
         )
+        let host = flutterHost
+        methodChannel.setMethodCallHandler { [weak host] call, result in
+            guard call.method == "sdk_redirect" else {
+                result(FlutterMethodNotImplemented)
+                return
+            }
+            let path = call.arguments as? String ?? ""
+            guard let handler = host?.sdkRedirectHandler else {
+                result(false)
+                return
+            }
+            handler(path)
+            result(true)
+        }
         flutterHost.methodChannel = methodChannel
         return methodChannel
+    }
+
+    /// Called when the user leaves SharpSell, or opens a route this app owns.
+    ///
+    /// `"back"` means the user left. Logout clears the SharpSell session first,
+    /// then sends that same value. An `sdk/` path, such as `sdk/policy-details`,
+    /// is forwarded as-is.
+    ///
+    /// When this is set, this app closes the SharpSell screen. When it is nil,
+    /// SharpSell closes itself on `"back"`. Set it before `open`.
+    public var sdkRedirectHandler: ((String) -> Void)? {
+        get { flutterHost.sdkRedirectHandler }
+        set { flutterHost.sdkRedirectHandler = newValue }
     }
     
     private func initializeMoEngageIfNeeded() {
