@@ -1,14 +1,10 @@
-#if TARGET_OS_IPHONE
-#import <Flutter/Flutter.h>
-#elif TARGET_OS_OSX
-#import <FlutterMacOS/FlutterMacOS.h>
-#endif
+#import "FlutterRTCVideoPlatformTypes.h"
 
-#define FLutterRTCVideoPlatformViewFactoryID @"rtc_video_platform_view"
+#define FlutterRTCVideoPlatformViewFactoryID @"rtc_video_platform_view"
 
 @class FlutterRTCVideoPlatformViewController;
 
-@interface FLutterRTCVideoPlatformViewFactory : NSObject <FlutterPlatformViewFactory>
+@interface FlutterRTCVideoPlatformViewFactory : NSObject <FlutterPlatformViewFactory>
 
 @property(nonatomic, strong) NSObject<FlutterBinaryMessenger>* _Nonnull messenger;
 @property(nonatomic, strong)

@@ -1,23 +1,25 @@
-#if TARGET_OS_IPHONE
-#import <Flutter/Flutter.h>
-#elif TARGET_OS_OSX
-#import <FlutterMacOS/FlutterMacOS.h>
-#endif
+#import "FlutterRTCVideoPlatformTypes.h"
 
 #import <WebRTC/WebRTC.h>
 
+#if TARGET_OS_IPHONE
 @interface FlutterRTCVideoPlatformViewController
     : NSObject <FlutterPlatformView, FlutterStreamHandler, RTCVideoRenderer>
+#elif TARGET_OS_OSX
+@interface FlutterRTCVideoPlatformViewController : NSObject <FlutterStreamHandler, RTCVideoRenderer>
+#endif
 
 @property(nonatomic, strong) NSObject<FlutterBinaryMessenger>* _Nonnull messenger;
-@property(nonatomic, strong) FlutterEventSink _Nonnull eventSink;
+@property(nonatomic, strong) FlutterEventSink _Nullable eventSink;
 @property(nonatomic) int64_t viewId;
 @property(nonatomic, strong) RTCVideoTrack* _Nullable videoTrack;
 
 - (instancetype _Nullable)initWithMessenger:(NSObject<FlutterBinaryMessenger>* _Nonnull)messenger
                              viewIdentifier:(int64_t)viewId
-                                      frame:(CGRect)frame;
+                                      frame:(FlutterRTCVideoPlatformFrame)frame;
 
-- (UIView* _Nonnull)view;
+- (FlutterRTCVideoPlatformNativeView* _Nonnull)view;
+
+- (void)dispose;
 
 @end

@@ -12,7 +12,6 @@
 
 #import "messages.h"
 #import "pdfx.h"
-#import "PdfxPlugin.h"
 
 FOUNDATION_EXPORT double pdfxVersionNumber;
 FOUNDATION_EXPORT const unsigned char pdfxVersionString[];

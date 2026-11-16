@@ -35,7 +35,6 @@ let package = Package(
                 "device_info_plus",
                 "DKImagePickerController",
                 "DKPhotoGallery",
-                "figma_design_library",
                 "file_picker",
                 "firebase_core",
                 "firebase_crashlytics",
@@ -118,9 +117,6 @@ let package = Package(
 
             .binaryTarget(name: "DKPhotoGallery",
                           path: "artifacts/DKPhotoGallery.xcframework"),
-
-            .binaryTarget(name: "figma_design_library",
-                          path: "artifacts/figma_design_library.xcframework"),
 
             .binaryTarget(name: "file_picker",
                           path: "artifacts/file_picker.xcframework"),
