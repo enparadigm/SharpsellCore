@@ -59,7 +59,7 @@ let package = Package(
                 "permission_handler_apple",
                 "pointer_interceptor_ios",
                 "printing",
-                "Promises",
+                "promises",
                 "Sentry",
                 "sentry_flutter",
                 "share_plus",
@@ -181,7 +181,7 @@ let package = Package(
             .binaryTarget(name: "printing",
                           path: "artifacts/printing.xcframework"),
 
-            .binaryTarget(name: "Promises",
+            .binaryTarget(name: "promises",
                           path: "artifacts/Promises.xcframework"),
 
             .binaryTarget(name: "Sentry",
