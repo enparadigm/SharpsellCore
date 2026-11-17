@@ -20,8 +20,36 @@
       },
       {
         "kind": "Import",
-        "name": "Social",
-        "printedName": "Social",
+        "name": "MessageUI",
+        "printedName": "MessageUI",
+        "declKind": "Import",
+        "moduleName": "sharpsell"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "sharpsell"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "sharpsell"
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "sharpsell"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "sharpsell"
       },
@@ -37,6 +65,167 @@
         "name": "SwiftSharpsellPlugin",
         "printedName": "SwiftSharpsellPlugin",
         "children": [
+          {
+            "kind": "Var",
+            "name": "sdkRedirectHandler",
+            "printedName": "sdkRedirectHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9sharpsell20SwiftSharpsellPluginC18sdkRedirectHandlerySScSgvpZ",
+            "mangledName": "$s9sharpsell20SwiftSharpsellPluginC18sdkRedirectHandlerySScSgvpZ",
+            "moduleName": "sharpsell",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9sharpsell20SwiftSharpsellPluginC18sdkRedirectHandlerySScSgvgZ",
+                "mangledName": "$s9sharpsell20SwiftSharpsellPluginC18sdkRedirectHandlerySScSgvgZ",
+                "moduleName": "sharpsell",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9sharpsell20SwiftSharpsellPluginC18sdkRedirectHandlerySScSgvsZ",
+                "mangledName": "$s9sharpsell20SwiftSharpsellPluginC18sdkRedirectHandlerySScSgvsZ",
+                "moduleName": "sharpsell",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9sharpsell20SwiftSharpsellPluginC18sdkRedirectHandlerySScSgvMZ",
+                "mangledName": "$s9sharpsell20SwiftSharpsellPluginC18sdkRedirectHandlerySScSgvMZ",
+                "moduleName": "sharpsell",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
           {
             "kind": "Function",
             "name": "register",
@@ -231,39 +420,53 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/runner\/work\/sharp-sell\/sharp-sell\/sharpsell\/ios\/Classes\/BindingNativeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 44,
+      "value": "\"com.enparadigm.sharpsell.binding.devicekey\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sharp-sell\/sharp-sell\/sharpsell\/ios\/Classes\/BindingNativeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
+      "length": 32,
+      "value": "\"p256_uncompressed_point_base64\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sharp-sell\/sharp-sell\/sharpsell\/ios\/Classes\/BindingNativeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 606,
+      "length": 34,
+      "value": "\"sharpsell.binding.installationId\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/sharp-sell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 483,
+      "offset": 469,
       "length": 45,
       "value": "\"sharpsell_stored_local_notification_payload\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sharp-sell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 12020,
+      "offset": 13988,
       "length": 11,
       "value": "\"whats_app\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sharp-sell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 12056,
+      "offset": 14024,
       "length": 11,
       "value": "\"linked_in\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sharp-sell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 12091,
+      "offset": 14059,
       "length": 9,
       "value": "\"twitter\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sharp-sell\/sharp-sell\/sharpsell\/ios\/Classes\/SwiftSharpsellPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 12125,
-      "length": 11,
-      "value": "\"face_book\""
     }
   ]
 }

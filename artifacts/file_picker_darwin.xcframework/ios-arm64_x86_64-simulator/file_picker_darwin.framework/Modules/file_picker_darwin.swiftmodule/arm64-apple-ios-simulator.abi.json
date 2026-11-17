@@ -1,0 +1,3193 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "file_picker_darwin",
+    "printedName": "file_picker_darwin",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "file_picker_darwin"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "file_picker_darwin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FilePickerPlugin",
+        "printedName": "FilePickerPlugin",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(registrar:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FilePickerPlugin",
+                "printedName": "file_picker_darwin.FilePickerPlugin",
+                "usr": "c:@M@file_picker_darwin@objc(cs)FilePickerPlugin"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18file_picker_darwin16FilePickerPluginC9registrarACSo07FlutterF9Registrar_p_tcfc",
+            "mangledName": "$s18file_picker_darwin16FilePickerPluginC9registrarACSo07FlutterF9Registrar_p_tcfc",
+            "moduleName": "file_picker_darwin",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@file_picker_darwin@objc(cs)FilePickerPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s18file_picker_darwin16FilePickerPluginC8register4withySo07FlutterF9Registrar_p_tFZ",
+            "moduleName": "file_picker_darwin",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@file_picker_darwin@objc(cs)FilePickerPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s18file_picker_darwin16FilePickerPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "file_picker_darwin",
+            "isOpen": true,
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FilePickerPlugin",
+                "printedName": "file_picker_darwin.FilePickerPlugin",
+                "usr": "c:@M@file_picker_darwin@objc(cs)FilePickerPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@file_picker_darwin@objc(cs)FilePickerPlugin(im)init",
+            "mangledName": "$s18file_picker_darwin16FilePickerPluginCACycfc",
+            "moduleName": "file_picker_darwin",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@file_picker_darwin@objc(cs)FilePickerPlugin",
+        "mangledName": "$s18file_picker_darwin16FilePickerPluginC",
+        "moduleName": "file_picker_darwin",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "file_picker_darwin"
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "file_picker_darwin"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "file_picker_darwin"
+      },
+      {
+        "kind": "Import",
+        "name": "PhotosUI",
+        "printedName": "PhotosUI",
+        "declKind": "Import",
+        "moduleName": "file_picker_darwin"
+      },
+      {
+        "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
+        "declKind": "Import",
+        "moduleName": "file_picker_darwin"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "file_picker_darwin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IOSFilePickerHandler",
+        "printedName": "IOSFilePickerHandler",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "registrar",
+            "printedName": "registrar",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any Flutter.FlutterPluginRegistrar)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC9registrar33_EE6592491FE52FF26287C4C81814A519LLSo22FlutterPluginRegistrar_pSgvp",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC9registrar33_EE6592491FE52FF26287C4C81814A519LLSo22FlutterPluginRegistrar_pSgvp",
+            "moduleName": "file_picker_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "ownership": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "result",
+            "printedName": "result",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Any?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC6result33_EE6592491FE52FF26287C4C81814A519LLyypSgcSgvp",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC6result33_EE6592491FE52FF26287C4C81814A519LLyypSgcSgvp",
+            "moduleName": "file_picker_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "eventSink",
+            "printedName": "eventSink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Any?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC9eventSink33_EE6592491FE52FF26287C4C81814A519LLyypSgcSgvp",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC9eventSink33_EE6592491FE52FF26287C4C81814A519LLyypSgcSgvp",
+            "moduleName": "file_picker_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "allowMultipleSelection",
+            "printedName": "allowMultipleSelection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC22allowMultipleSelection33_EE6592491FE52FF26287C4C81814A519LLSbvp",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC22allowMultipleSelection33_EE6592491FE52FF26287C4C81814A519LLSbvp",
+            "moduleName": "file_picker_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "assetRepresentationMode",
+            "printedName": "assetRepresentationMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssetRepresentationMode",
+                "printedName": "PhotosUI.PHPickerConfiguration.AssetRepresentationMode",
+                "usr": "s:8PhotosUI21PHPickerConfigurationV23AssetRepresentationModeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC23assetRepresentationMode33_EE6592491FE52FF26287C4C81814A519LL8PhotosUI21PHPickerConfigurationV05AssethI0Ovp",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC23assetRepresentationMode33_EE6592491FE52FF26287C4C81814A519LL8PhotosUI21PHPickerConfigurationV05AssethI0Ovp",
+            "moduleName": "file_picker_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "orderedSelection",
+            "printedName": "orderedSelection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC16orderedSelection33_EE6592491FE52FF26287C4C81814A519LLSbvp",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC16orderedSelection33_EE6592491FE52FF26287C4C81814A519LLSbvp",
+            "moduleName": "file_picker_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 5,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "copyMedia",
+            "printedName": "copyMedia",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC9copyMedia33_EE6592491FE52FF26287C4C81814A519LLSbvp",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC9copyMedia33_EE6592491FE52FF26287C4C81814A519LLSbvp",
+            "moduleName": "file_picker_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 6,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "isDirectoryPicker",
+            "printedName": "isDirectoryPicker",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC011isDirectoryE033_EE6592491FE52FF26287C4C81814A519LLSbvp",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC011isDirectoryE033_EE6592491FE52FF26287C4C81814A519LLSbvp",
+            "moduleName": "file_picker_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 7,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "isFileAndDirectoryPicker",
+            "printedName": "isFileAndDirectoryPicker",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC018isFileAndDirectoryE033_EE6592491FE52FF26287C4C81814A519LLSbvp",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC018isFileAndDirectoryE033_EE6592491FE52FF26287C4C81814A519LLSbvp",
+            "moduleName": "file_picker_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 8,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "isSaveFile",
+            "printedName": "isSaveFile",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC10isSaveFile33_EE6592491FE52FF26287C4C81814A519LLSbvp",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC10isSaveFile33_EE6592491FE52FF26287C4C81814A519LLSbvp",
+            "moduleName": "file_picker_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 9,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "presentedPicker",
+            "printedName": "presentedPicker",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIViewController?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC09presentedE033_EE6592491FE52FF26287C4C81814A519LLSo16UIViewControllerCSgvp",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC09presentedE033_EE6592491FE52FF26287C4C81814A519LLSo16UIViewControllerCSgvp",
+            "moduleName": "file_picker_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 10,
+            "ownership": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "pickerWasPresented",
+            "printedName": "pickerWasPresented",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC0B12WasPresented33_EE6592491FE52FF26287C4C81814A519LLSbvp",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC0B12WasPresented33_EE6592491FE52FF26287C4C81814A519LLSbvp",
+            "moduleName": "file_picker_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 11,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "isLoadingPickedItems",
+            "printedName": "isLoadingPickedItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC20isLoadingPickedItems33_EE6592491FE52FF26287C4C81814A519LLSbvp",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC20isLoadingPickedItems33_EE6592491FE52FF26287C4C81814A519LLSbvp",
+            "moduleName": "file_picker_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 12,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "loader",
+            "printedName": "loader",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PickLoader",
+                "printedName": "file_picker_darwin.PickLoader",
+                "usr": "s:18file_picker_darwin10PickLoaderV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC6loader33_EE6592491FE52FF26287C4C81814A519LLAA10PickLoaderVvp",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC6loader33_EE6592491FE52FF26287C4C81814A519LLAA10PickLoaderVvp",
+            "moduleName": "file_picker_darwin",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 13,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(registrar:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IOSFilePickerHandler",
+                "printedName": "file_picker_darwin.IOSFilePickerHandler",
+                "usr": "c:@M@file_picker_darwin@objc(cs)IOSFilePickerHandler"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC9registrarACSo22FlutterPluginRegistrar_p_tcfc",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC9registrarACSo22FlutterPluginRegistrar_p_tcfc",
+            "moduleName": "file_picker_darwin",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "file_picker_darwin",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onListen",
+            "printedName": "onListen(withArguments:eventSink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@file_picker_darwin@objc(cs)IOSFilePickerHandler(im)onListenWithArguments:eventSink:",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
+            "moduleName": "file_picker_darwin",
+            "objc_name": "onListenWithArguments:eventSink:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCancel",
+            "printedName": "onCancel(withArguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@file_picker_darwin@objc(cs)IOSFilePickerHandler(im)onCancelWithArguments:",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
+            "moduleName": "file_picker_darwin",
+            "objc_name": "onCancelWithArguments:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "picker",
+            "printedName": "picker(_:didFinishPicking:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PHPickerViewController",
+                "printedName": "PhotosUI.PHPickerViewController",
+                "usr": "c:objc(cs)PHPickerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PhotosUI.PHPickerResult]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHPickerResult",
+                    "printedName": "PhotosUI.PHPickerResult",
+                    "usr": "s:8PhotosUI14PHPickerResultV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18file_picker_darwin20IOSFilePickerHandlerC0B0_16didFinishPickingySo22PHPickerViewControllerC_Say8PhotosUI0J6ResultVGtF",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC0B0_16didFinishPickingySo22PHPickerViewControllerC_Say8PhotosUI0J6ResultVGtF",
+            "moduleName": "file_picker_darwin",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "documentPickerWasCancelled",
+            "printedName": "documentPickerWasCancelled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIDocumentPickerViewController",
+                "printedName": "UIKit.UIDocumentPickerViewController",
+                "usr": "c:objc(cs)UIDocumentPickerViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@file_picker_darwin@objc(cs)IOSFilePickerHandler(im)documentPickerWasCancelled:",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC08documentE12WasCancelledyySo010UIDocumentE14ViewControllerCF",
+            "moduleName": "file_picker_darwin",
+            "objc_name": "documentPickerWasCancelled:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentationControllerWillDismiss",
+            "printedName": "presentationControllerWillDismiss(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPresentationController",
+                "printedName": "UIKit.UIPresentationController",
+                "usr": "c:objc(cs)UIPresentationController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@file_picker_darwin@objc(cs)IOSFilePickerHandler(im)presentationControllerWillDismiss:",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC33presentationControllerWillDismissyySo014UIPresentationH0CF",
+            "moduleName": "file_picker_darwin",
+            "objc_name": "presentationControllerWillDismiss:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentationControllerDidDismiss",
+            "printedName": "presentationControllerDidDismiss(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPresentationController",
+                "printedName": "UIKit.UIPresentationController",
+                "usr": "c:objc(cs)UIPresentationController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@file_picker_darwin@objc(cs)IOSFilePickerHandler(im)presentationControllerDidDismiss:",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC32presentationControllerDidDismissyySo014UIPresentationH0CF",
+            "moduleName": "file_picker_darwin",
+            "objc_name": "presentationControllerDidDismiss:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "documentPicker",
+            "printedName": "documentPicker(_:didPickDocumentsAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIDocumentPickerViewController",
+                "printedName": "UIKit.UIDocumentPickerViewController",
+                "usr": "c:objc(cs)UIDocumentPickerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.URL]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@file_picker_darwin@objc(cs)IOSFilePickerHandler(im)documentPicker:didPickDocumentsAtURLs:",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC08documentE0_18didPickDocumentsAtySo010UIDocumentE14ViewControllerC_Say10Foundation3URLVGtF",
+            "moduleName": "file_picker_darwin",
+            "objc_name": "documentPicker:didPickDocumentsAtURLs:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IOSFilePickerHandler",
+                "printedName": "file_picker_darwin.IOSFilePickerHandler",
+                "usr": "c:@M@file_picker_darwin@objc(cs)IOSFilePickerHandler"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@file_picker_darwin@objc(cs)IOSFilePickerHandler(im)init",
+            "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerCACycfc",
+            "moduleName": "file_picker_darwin",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@file_picker_darwin@objc(cs)IOSFilePickerHandler",
+        "mangledName": "$s18file_picker_darwin20IOSFilePickerHandlerC",
+        "moduleName": "file_picker_darwin",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PHPickerViewControllerDelegate",
+            "printedName": "PHPickerViewControllerDelegate",
+            "usr": "s:8PhotosUI30PHPickerViewControllerDelegateP",
+            "mangledName": "$s8PhotosUI30PHPickerViewControllerDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "file_picker_darwin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoadFailure",
+        "printedName": "LoadFailure",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "index",
+            "printedName": "index",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin11LoadFailureV5indexSivp",
+            "mangledName": "$s18file_picker_darwin11LoadFailureV5indexSivp",
+            "moduleName": "file_picker_darwin",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18file_picker_darwin11LoadFailureV5indexSivg",
+                "mangledName": "$s18file_picker_darwin11LoadFailureV5indexSivg",
+                "moduleName": "file_picker_darwin",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin11LoadFailureV5errors5Error_pvp",
+            "mangledName": "$s18file_picker_darwin11LoadFailureV5errors5Error_pvp",
+            "moduleName": "file_picker_darwin",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18file_picker_darwin11LoadFailureV5errors5Error_pvg",
+                "mangledName": "$s18file_picker_darwin11LoadFailureV5errors5Error_pvg",
+                "moduleName": "file_picker_darwin",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxUnderlyingDepth",
+            "printedName": "maxUnderlyingDepth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin11LoadFailureV18maxUnderlyingDepthSivpZ",
+            "mangledName": "$s18file_picker_darwin11LoadFailureV18maxUnderlyingDepthSivpZ",
+            "moduleName": "file_picker_darwin",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18file_picker_darwin11LoadFailureV18maxUnderlyingDepthSivgZ",
+                "mangledName": "$s18file_picker_darwin11LoadFailureV18maxUnderlyingDepthSivgZ",
+                "moduleName": "file_picker_darwin",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "details",
+            "printedName": "details",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin11LoadFailureV7detailsSDySSypGvp",
+            "mangledName": "$s18file_picker_darwin11LoadFailureV7detailsSDySSypGvp",
+            "moduleName": "file_picker_darwin",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18file_picker_darwin11LoadFailureV7detailsSDySSypGvg",
+                "mangledName": "$s18file_picker_darwin11LoadFailureV7detailsSDySSypGvg",
+                "moduleName": "file_picker_darwin",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(index:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoadFailure",
+                "printedName": "file_picker_darwin.LoadFailure",
+                "usr": "s:18file_picker_darwin11LoadFailureV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18file_picker_darwin11LoadFailureV5index5errorACSi_s5Error_ptcfc",
+            "mangledName": "$s18file_picker_darwin11LoadFailureV5index5errorACSi_s5Error_ptcfc",
+            "moduleName": "file_picker_darwin",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18file_picker_darwin11LoadFailureV",
+        "mangledName": "$s18file_picker_darwin11LoadFailureV",
+        "moduleName": "file_picker_darwin",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
+        "declKind": "Import",
+        "moduleName": "file_picker_darwin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MediaRepresentation",
+        "printedName": "MediaRepresentation",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isMedia",
+            "printedName": "isMedia(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UTType",
+                "printedName": "UniformTypeIdentifiers.UTType",
+                "usr": "s:22UniformTypeIdentifiers6UTTypeV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18file_picker_darwin19MediaRepresentationO02isD0ySb22UniformTypeIdentifiers6UTTypeVFZ",
+            "mangledName": "$s18file_picker_darwin19MediaRepresentationO02isD0ySb22UniformTypeIdentifiers6UTTypeVFZ",
+            "moduleName": "file_picker_darwin",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mediaType",
+            "printedName": "mediaType(in:preferringCompatible:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UniformTypeIdentifiers.UTType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTType",
+                    "printedName": "UniformTypeIdentifiers.UTType",
+                    "usr": "s:22UniformTypeIdentifiers6UTTypeV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18file_picker_darwin19MediaRepresentationO9mediaType2in20preferringCompatible07UniformG11Identifiers6UTTypeVSgSaySSG_SbtFZ",
+            "mangledName": "$s18file_picker_darwin19MediaRepresentationO9mediaType2in20preferringCompatible07UniformG11Identifiers6UTTypeVSgSaySSG_SbtFZ",
+            "moduleName": "file_picker_darwin",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "typeIdentifier",
+            "printedName": "typeIdentifier(for:preferringCompatible:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18file_picker_darwin19MediaRepresentationO14typeIdentifier3for20preferringCompatibleSSSaySSG_SbtFZ",
+            "mangledName": "$s18file_picker_darwin19MediaRepresentationO14typeIdentifier3for20preferringCompatibleSSSaySSG_SbtFZ",
+            "moduleName": "file_picker_darwin",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18file_picker_darwin19MediaRepresentationO",
+        "mangledName": "$s18file_picker_darwin19MediaRepresentationO",
+        "moduleName": "file_picker_darwin",
+        "intro_Macosx": "11.0",
+        "intro_iOS": "14.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "RawDocComment"
+        ],
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PendingRequest",
+        "printedName": "PendingRequest",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isStale",
+            "printedName": "isStale(wasPresented:isStillPresented:isLoadingPickedItems:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18file_picker_darwin14PendingRequestO7isStale12wasPresented0f5StillI00F18LoadingPickedItemsS2b_S2btFZ",
+            "mangledName": "$s18file_picker_darwin14PendingRequestO7isStale12wasPresented0f5StillI00F18LoadingPickedItemsS2b_S2btFZ",
+            "moduleName": "file_picker_darwin",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18file_picker_darwin14PendingRequestO",
+        "mangledName": "$s18file_picker_darwin14PendingRequestO",
+        "moduleName": "file_picker_darwin",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "file_picker_darwin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PickedMediaItem",
+        "printedName": "PickedMediaItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "assetIdentifier",
+            "printedName": "assetIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin15PickedMediaItemP15assetIdentifierSSSgvp",
+            "mangledName": "$s18file_picker_darwin15PickedMediaItemP15assetIdentifierSSSgvp",
+            "moduleName": "file_picker_darwin",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18file_picker_darwin15PickedMediaItemP15assetIdentifierSSSgvg",
+                "mangledName": "$s18file_picker_darwin15PickedMediaItemP15assetIdentifierSSSgvg",
+                "moduleName": "file_picker_darwin",
+                "genericSig": "<τ_0_0 where τ_0_0 : file_picker_darwin.PickedMediaItem>",
+                "sugared_genericSig": "<Self where Self : file_picker_darwin.PickedMediaItem>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "suggestedName",
+            "printedName": "suggestedName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin15PickedMediaItemP13suggestedNameSSSgvp",
+            "mangledName": "$s18file_picker_darwin15PickedMediaItemP13suggestedNameSSSgvp",
+            "moduleName": "file_picker_darwin",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18file_picker_darwin15PickedMediaItemP13suggestedNameSSSgvg",
+                "mangledName": "$s18file_picker_darwin15PickedMediaItemP13suggestedNameSSSgvg",
+                "moduleName": "file_picker_darwin",
+                "genericSig": "<τ_0_0 where τ_0_0 : file_picker_darwin.PickedMediaItem>",
+                "sugared_genericSig": "<Self where Self : file_picker_darwin.PickedMediaItem>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "registeredTypeIdentifiers",
+            "printedName": "registeredTypeIdentifiers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin15PickedMediaItemP25registeredTypeIdentifiersSaySSGvp",
+            "mangledName": "$s18file_picker_darwin15PickedMediaItemP25registeredTypeIdentifiersSaySSGvp",
+            "moduleName": "file_picker_darwin",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18file_picker_darwin15PickedMediaItemP25registeredTypeIdentifiersSaySSGvg",
+                "mangledName": "$s18file_picker_darwin15PickedMediaItemP25registeredTypeIdentifiersSaySSGvg",
+                "moduleName": "file_picker_darwin",
+                "genericSig": "<τ_0_0 where τ_0_0 : file_picker_darwin.PickedMediaItem>",
+                "sugared_genericSig": "<Self where Self : file_picker_darwin.PickedMediaItem>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadFile",
+            "printedName": "loadFile(forTypeIdentifier:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URL?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URL?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18file_picker_darwin15PickedMediaItemP8loadFile17forTypeIdentifier10completionySS_y10Foundation3URLVSg_s5Error_pSgtctF",
+            "mangledName": "$s18file_picker_darwin15PickedMediaItemP8loadFile17forTypeIdentifier10completionySS_y10Foundation3URLVSg_s5Error_pSgtctF",
+            "moduleName": "file_picker_darwin",
+            "genericSig": "<τ_0_0 where τ_0_0 : file_picker_darwin.PickedMediaItem>",
+            "sugared_genericSig": "<Self where Self : file_picker_darwin.PickedMediaItem>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18file_picker_darwin15PickedMediaItemP",
+        "mangledName": "$s18file_picker_darwin15PickedMediaItemP",
+        "moduleName": "file_picker_darwin",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "file_picker_darwin"
+      },
+      {
+        "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
+        "declKind": "Import",
+        "moduleName": "file_picker_darwin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PickLoader",
+        "printedName": "PickLoader",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "temporaryDirectory",
+            "printedName": "temporaryDirectory",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18file_picker_darwin10PickLoaderV18temporaryDirectory10Foundation3URLVvp",
+            "mangledName": "$s18file_picker_darwin10PickLoaderV18temporaryDirectory10Foundation3URLVvp",
+            "moduleName": "file_picker_darwin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18file_picker_darwin10PickLoaderV18temporaryDirectory10Foundation3URLVvg",
+                "mangledName": "$s18file_picker_darwin10PickLoaderV18temporaryDirectory10Foundation3URLVvg",
+                "moduleName": "file_picker_darwin",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18file_picker_darwin10PickLoaderV18temporaryDirectory10Foundation3URLVvs",
+                "mangledName": "$s18file_picker_darwin10PickLoaderV18temporaryDirectory10Foundation3URLVvs",
+                "moduleName": "file_picker_darwin",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18file_picker_darwin10PickLoaderV18temporaryDirectory10Foundation3URLVvM",
+                "mangledName": "$s18file_picker_darwin10PickLoaderV18temporaryDirectory10Foundation3URLVvM",
+                "moduleName": "file_picker_darwin",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "declAttributes": [
+                  "Transparent",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadMedia",
+            "printedName": "loadMedia(_:preferringCompatible:queue:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any file_picker_darwin.PickedMediaItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PickedMediaItem",
+                    "printedName": "any file_picker_darwin.PickedMediaItem",
+                    "usr": "s:18file_picker_darwin15PickedMediaItemP"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([[Swift.String : Any]], [file_picker_darwin.LoadFailure]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([[Swift.String : Any]], [file_picker_darwin.LoadFailure])",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[[Swift.String : Any]]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[file_picker_darwin.LoadFailure]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LoadFailure",
+                            "printedName": "file_picker_darwin.LoadFailure",
+                            "usr": "s:18file_picker_darwin11LoadFailureV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18file_picker_darwin10PickLoaderV9loadMedia_20preferringCompatible5queue10completionySayAA06PickedG4Item_pG_SbSo012OS_dispatch_J0CySaySDySSypGG_SayAA11LoadFailureVGtctF",
+            "mangledName": "$s18file_picker_darwin10PickLoaderV9loadMedia_20preferringCompatible5queue10completionySayAA06PickedG4Item_pG_SbSo012OS_dispatch_J0CySaySDySSypGG_SayAA11LoadFailureVGtctF",
+            "moduleName": "file_picker_darwin",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "moveDocuments",
+            "printedName": "moveDocuments(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(loaded: [[Swift.String : Any]], failures: [file_picker_darwin.LoadFailure])",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[Swift.String : Any]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[file_picker_darwin.LoadFailure]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoadFailure",
+                        "printedName": "file_picker_darwin.LoadFailure",
+                        "usr": "s:18file_picker_darwin11LoadFailureV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.URL]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18file_picker_darwin10PickLoaderV13moveDocumentsySaySDySSypGG6loaded_SayAA11LoadFailureVG8failurestSay10Foundation3URLVGF",
+            "mangledName": "$s18file_picker_darwin10PickLoaderV13moveDocumentsySaySDySSypGG6loaded_SayAA11LoadFailureVG8failurestSay10Foundation3URLVGF",
+            "moduleName": "file_picker_darwin",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "assetInfo",
+            "printedName": "assetInfo(for:preferringCompatible:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PickedMediaItem",
+                "printedName": "any file_picker_darwin.PickedMediaItem",
+                "usr": "s:18file_picker_darwin15PickedMediaItemP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18file_picker_darwin10PickLoaderV9assetInfo3for20preferringCompatibleSDySSypGSgAA15PickedMediaItem_p_SbtF",
+            "mangledName": "$s18file_picker_darwin10PickLoaderV9assetInfo3for20preferringCompatibleSDySSypGSgAA15PickedMediaItem_p_SbtF",
+            "moduleName": "file_picker_darwin",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "store",
+            "printedName": "store(_:copying:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18file_picker_darwin10PickLoaderV5store_7copying10Foundation3URLVAH_SbtKF",
+            "mangledName": "$s18file_picker_darwin10PickLoaderV5store_7copying10Foundation3URLVAH_SbtKF",
+            "moduleName": "file_picker_darwin",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fileInfo",
+            "printedName": "fileInfo(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18file_picker_darwin10PickLoaderV0A4Info3forSDySSypG10Foundation3URLV_tKF",
+            "mangledName": "$s18file_picker_darwin10PickLoaderV0A4Info3forSDySSypG10Foundation3URLV_tKF",
+            "moduleName": "file_picker_darwin",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(temporaryDirectory:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PickLoader",
+                "printedName": "file_picker_darwin.PickLoader",
+                "usr": "s:18file_picker_darwin10PickLoaderV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18file_picker_darwin10PickLoaderV18temporaryDirectoryAC10Foundation3URLV_tcfc",
+            "mangledName": "$s18file_picker_darwin10PickLoaderV18temporaryDirectoryAC10Foundation3URLV_tcfc",
+            "moduleName": "file_picker_darwin",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PickLoader",
+                "printedName": "file_picker_darwin.PickLoader",
+                "usr": "s:18file_picker_darwin10PickLoaderV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18file_picker_darwin10PickLoaderVACycfc",
+            "mangledName": "$s18file_picker_darwin10PickLoaderVACycfc",
+            "moduleName": "file_picker_darwin",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18file_picker_darwin10PickLoaderV",
+        "mangledName": "$s18file_picker_darwin10PickLoaderV",
+        "moduleName": "file_picker_darwin",
+        "intro_Macosx": "11.0",
+        "intro_iOS": "14.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PickOutcome",
+        "printedName": "PickOutcome",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cancelled",
+            "printedName": "cancelled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (file_picker_darwin.PickOutcome<τ_0_0>.Type) -> file_picker_darwin.PickOutcome<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PickOutcome",
+                    "printedName": "file_picker_darwin.PickOutcome<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:18file_picker_darwin11PickOutcomeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "file_picker_darwin.PickOutcome<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PickOutcome",
+                        "printedName": "file_picker_darwin.PickOutcome<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:18file_picker_darwin11PickOutcomeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18file_picker_darwin11PickOutcomeO9cancelledyACyxGAEmlF",
+            "mangledName": "$s18file_picker_darwin11PickOutcomeO9cancelledyACyxGAEmlF",
+            "moduleName": "file_picker_darwin",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "loaded",
+            "printedName": "loaded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (file_picker_darwin.PickOutcome<τ_0_0>.Type) -> ([τ_0_0]) -> file_picker_darwin.PickOutcome<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([τ_0_0]) -> file_picker_darwin.PickOutcome<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PickOutcome",
+                        "printedName": "file_picker_darwin.PickOutcome<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:18file_picker_darwin11PickOutcomeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "file_picker_darwin.PickOutcome<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PickOutcome",
+                        "printedName": "file_picker_darwin.PickOutcome<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:18file_picker_darwin11PickOutcomeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18file_picker_darwin11PickOutcomeO6loadedyACyxGSayxGcAEmlF",
+            "mangledName": "$s18file_picker_darwin11PickOutcomeO6loadedyACyxGSayxGcAEmlF",
+            "moduleName": "file_picker_darwin",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "loadFailed",
+            "printedName": "loadFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (file_picker_darwin.PickOutcome<τ_0_0>.Type) -> file_picker_darwin.PickOutcome<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PickOutcome",
+                    "printedName": "file_picker_darwin.PickOutcome<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:18file_picker_darwin11PickOutcomeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "file_picker_darwin.PickOutcome<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PickOutcome",
+                        "printedName": "file_picker_darwin.PickOutcome<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:18file_picker_darwin11PickOutcomeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18file_picker_darwin11PickOutcomeO10loadFailedyACyxGAEmlF",
+            "mangledName": "$s18file_picker_darwin11PickOutcomeO10loadFailedyACyxGAEmlF",
+            "moduleName": "file_picker_darwin",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(pickedCount:loaded:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PickOutcome",
+                "printedName": "file_picker_darwin.PickOutcome<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18file_picker_darwin11PickOutcomeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18file_picker_darwin11PickOutcomeO7resolve11pickedCount6loadedACyxGSi_SayxGtFZ",
+            "mangledName": "$s18file_picker_darwin11PickOutcomeO7resolve11pickedCount6loadedACyxGSi_SayxGtFZ",
+            "moduleName": "file_picker_darwin",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Item>",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18file_picker_darwin11PickOutcomeO",
+        "mangledName": "$s18file_picker_darwin11PickOutcomeO",
+        "moduleName": "file_picker_darwin",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Item>",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PHPickerResult",
+        "printedName": "PHPickerResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "suggestedName",
+            "printedName": "suggestedName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PhotosUI14PHPickerResultV18file_picker_darwinE13suggestedNameSSSgvp",
+            "mangledName": "$s8PhotosUI14PHPickerResultV18file_picker_darwinE13suggestedNameSSSgvp",
+            "moduleName": "file_picker_darwin",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PhotosUI14PHPickerResultV18file_picker_darwinE13suggestedNameSSSgvg",
+                "mangledName": "$s8PhotosUI14PHPickerResultV18file_picker_darwinE13suggestedNameSSSgvg",
+                "moduleName": "file_picker_darwin",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "registeredTypeIdentifiers",
+            "printedName": "registeredTypeIdentifiers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PhotosUI14PHPickerResultV18file_picker_darwinE25registeredTypeIdentifiersSaySSGvp",
+            "mangledName": "$s8PhotosUI14PHPickerResultV18file_picker_darwinE25registeredTypeIdentifiersSaySSGvp",
+            "moduleName": "file_picker_darwin",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PhotosUI14PHPickerResultV18file_picker_darwinE25registeredTypeIdentifiersSaySSGvg",
+                "mangledName": "$s8PhotosUI14PHPickerResultV18file_picker_darwinE25registeredTypeIdentifiersSaySSGvg",
+                "moduleName": "file_picker_darwin",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadFile",
+            "printedName": "loadFile(forTypeIdentifier:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URL?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URL?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PhotosUI14PHPickerResultV18file_picker_darwinE8loadFile17forTypeIdentifier10completionySS_y10Foundation3URLVSg_s5Error_pSgtctF",
+            "mangledName": "$s8PhotosUI14PHPickerResultV18file_picker_darwinE8loadFile17forTypeIdentifier10completionySS_y10Foundation3URLVSg_s5Error_pSgtctF",
+            "moduleName": "file_picker_darwin",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PhotosUI14PHPickerResultV",
+        "mangledName": "$s8PhotosUI14PHPickerResultV",
+        "moduleName": "PhotosUI",
+        "intro_Macosx": "13.0",
+        "intro_iOS": "14.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PickedMediaItem",
+            "printedName": "PickedMediaItem",
+            "usr": "s:18file_picker_darwin15PickedMediaItemP",
+            "mangledName": "$s18file_picker_darwin15PickedMediaItemP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/file_picker_darwin-2.4.2\/darwin\/file_picker_darwin\/Sources\/file_picker_darwin\/IOSFilePickerHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 491,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/file_picker_darwin-2.4.2\/darwin\/file_picker_darwin\/Sources\/file_picker_darwin\/IOSFilePickerHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 630,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/file_picker_darwin-2.4.2\/darwin\/file_picker_darwin\/Sources\/file_picker_darwin\/IOSFilePickerHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 663,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/file_picker_darwin-2.4.2\/darwin\/file_picker_darwin\/Sources\/file_picker_darwin\/IOSFilePickerHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 704,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/file_picker_darwin-2.4.2\/darwin\/file_picker_darwin\/Sources\/file_picker_darwin\/IOSFilePickerHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 753,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/file_picker_darwin-2.4.2\/darwin\/file_picker_darwin\/Sources\/file_picker_darwin\/IOSFilePickerHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 788,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/file_picker_darwin-2.4.2\/darwin\/file_picker_darwin\/Sources\/file_picker_darwin\/IOSFilePickerHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1034,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/file_picker_darwin-2.4.2\/darwin\/file_picker_darwin\/Sources\/file_picker_darwin\/IOSFilePickerHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1079,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/file_picker_darwin-2.4.2\/darwin\/file_picker_darwin\/Sources\/file_picker_darwin\/IOSFilePickerHandler.swift",
+      "kind": "Array",
+      "offset": 9740,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/file_picker_darwin-2.4.2\/darwin\/file_picker_darwin\/Sources\/file_picker_darwin\/LoadFailure.swift",
+      "kind": "IntegerLiteral",
+      "offset": 861,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/file_picker_darwin-2.4.2\/darwin\/file_picker_darwin\/Sources\/file_picker_darwin\/MediaRepresentation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1126,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/hostedtoolcache\/flutter\/3.38.2-stable\/arm64\/.pub-cache\/hosted\/pub.dev\/file_picker_darwin-2.4.2\/darwin\/file_picker_darwin\/Sources\/file_picker_darwin\/MediaRepresentation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1755,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

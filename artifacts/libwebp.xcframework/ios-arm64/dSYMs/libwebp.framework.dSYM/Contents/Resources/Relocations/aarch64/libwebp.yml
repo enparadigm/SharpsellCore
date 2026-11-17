@@ -1671,9 +1671,9 @@ relocations:
   - { offset: 0x6EE38, size: 0x8, addend: 0x0, symName: _SharpYuvComputeConversionMatrix.cold.1, symObjAddr: 0x154, symBinAddr: 0x47084, symSize: 0x28 }
   - { offset: 0x6EE50, size: 0x8, addend: 0x0, symName: _SharpYuvGetConversionMatrix, symObjAddr: 0x134, symBinAddr: 0x2EF7C, symSize: 0x20 }
   - { offset: 0x6EF67, size: 0x8, addend: 0x0, symName: _SharpYuvInitDsp, symObjAddr: 0x0, symBinAddr: 0x2EF9C, symSize: 0x44 }
-  - { offset: 0x6EF8E, size: 0x8, addend: 0x0, symName: _SharpYuvUpdateY, symObjAddr: 0x1520, symBinAddr: 0x5C8F0, symSize: 0x0 }
-  - { offset: 0x6EFEB, size: 0x8, addend: 0x0, symName: _SharpYuvUpdateRGB, symObjAddr: 0x1528, symBinAddr: 0x5C8F8, symSize: 0x0 }
-  - { offset: 0x6F031, size: 0x8, addend: 0x0, symName: _SharpYuvFilterRow, symObjAddr: 0x1530, symBinAddr: 0x5C900, symSize: 0x0 }
+  - { offset: 0x6EF8E, size: 0x8, addend: 0x0, symName: _SharpYuvUpdateY, symObjAddr: 0x1518, symBinAddr: 0x5C8F0, symSize: 0x0 }
+  - { offset: 0x6EFEB, size: 0x8, addend: 0x0, symName: _SharpYuvUpdateRGB, symObjAddr: 0x1520, symBinAddr: 0x5C8F8, symSize: 0x0 }
+  - { offset: 0x6F031, size: 0x8, addend: 0x0, symName: _SharpYuvFilterRow, symObjAddr: 0x1528, symBinAddr: 0x5C900, symSize: 0x0 }
   - { offset: 0x6F05F, size: 0x8, addend: 0x0, symName: _SharpYuvInitDsp, symObjAddr: 0x0, symBinAddr: 0x2EF9C, symSize: 0x44 }
   - { offset: 0x6F09F, size: 0x8, addend: 0x0, symName: _SharpYuvInitDsp.cold.1, symObjAddr: 0x44, symBinAddr: 0x470AC, symSize: 0x28 }
   - { offset: 0x6F0B1, size: 0x8, addend: 0x0, symName: _SharpYuvInitDsp.cold.3, symObjAddr: 0x94, symBinAddr: 0x470FC, symSize: 0x28 }
@@ -2091,12 +2091,12 @@ relocations:
   - { offset: 0x9B975, size: 0x8, addend: 0x0, symName: _WebPInitConvertARGBToYUV, symObjAddr: 0x350, symBinAddr: 0x40B5C, symSize: 0xE4 }
   - { offset: 0x9B997, size: 0x8, addend: 0x0, symName: _WebPInitConvertARGBToYUV.WebPInitConvertARGBToYUV_body_last_cpuinfo_used, symObjAddr: 0x1648, symBinAddr: 0x5C198, symSize: 0x0 }
   - { offset: 0x9B9F2, size: 0x8, addend: 0x0, symName: _YuvToRgbRow, symObjAddr: 0x434, symBinAddr: 0x40C40, symSize: 0x240 }
-  - { offset: 0x9BA08, size: 0x8, addend: 0x0, symName: _WebPSamplers, symObjAddr: 0x9998, symBinAddr: 0x5C9F0, symSize: 0x0 }
-  - { offset: 0x9BA7C, size: 0x8, addend: 0x0, symName: _WebPConvertRGB24ToY, symObjAddr: 0x9A00, symBinAddr: 0x5CA58, symSize: 0x0 }
-  - { offset: 0x9BAA7, size: 0x8, addend: 0x0, symName: _WebPConvertBGR24ToY, symObjAddr: 0x9A08, symBinAddr: 0x5CA60, symSize: 0x0 }
-  - { offset: 0x9BABC, size: 0x8, addend: 0x0, symName: _WebPConvertRGBA32ToUV, symObjAddr: 0x9A10, symBinAddr: 0x5CA68, symSize: 0x0 }
-  - { offset: 0x9BB02, size: 0x8, addend: 0x0, symName: _WebPConvertARGBToY, symObjAddr: 0x9A18, symBinAddr: 0x5CA70, symSize: 0x0 }
-  - { offset: 0x9BB3C, size: 0x8, addend: 0x0, symName: _WebPConvertARGBToUV, symObjAddr: 0x9A20, symBinAddr: 0x5CA78, symSize: 0x0 }
+  - { offset: 0x9BA08, size: 0x8, addend: 0x0, symName: _WebPSamplers, symObjAddr: 0x9990, symBinAddr: 0x5C9F0, symSize: 0x0 }
+  - { offset: 0x9BA7C, size: 0x8, addend: 0x0, symName: _WebPConvertRGB24ToY, symObjAddr: 0x99F8, symBinAddr: 0x5CA58, symSize: 0x0 }
+  - { offset: 0x9BAA7, size: 0x8, addend: 0x0, symName: _WebPConvertBGR24ToY, symObjAddr: 0x9A00, symBinAddr: 0x5CA60, symSize: 0x0 }
+  - { offset: 0x9BABC, size: 0x8, addend: 0x0, symName: _WebPConvertRGBA32ToUV, symObjAddr: 0x9A08, symBinAddr: 0x5CA68, symSize: 0x0 }
+  - { offset: 0x9BB02, size: 0x8, addend: 0x0, symName: _WebPConvertARGBToY, symObjAddr: 0x9A10, symBinAddr: 0x5CA70, symSize: 0x0 }
+  - { offset: 0x9BB3C, size: 0x8, addend: 0x0, symName: _WebPConvertARGBToUV, symObjAddr: 0x9A18, symBinAddr: 0x5CA78, symSize: 0x0 }
   - { offset: 0x9BB6C, size: 0x8, addend: 0x0, symName: _WebPSamplerProcessPlane, symObjAddr: 0x0, symBinAddr: 0x4080C, symSize: 0xB8 }
   - { offset: 0x9BD08, size: 0x8, addend: 0x0, symName: _WebPConvertARGBToUV_C, symObjAddr: 0x134, symBinAddr: 0x40940, symSize: 0x190 }
   - { offset: 0x9BFC6, size: 0x8, addend: 0x0, symName: _WebPConvertRGBA32ToUV_C, symObjAddr: 0x2C4, symBinAddr: 0x40AD0, symSize: 0x8C }

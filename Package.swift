@@ -33,18 +33,14 @@ let package = Package(
                 "connectivity_plus",
                 "contacts_service_plus",
                 "device_info_plus",
-                "DKImagePickerController",
-                "DKPhotoGallery",
-                "file_picker",
+                "file_picker_darwin",
                 "firebase_core",
                 "firebase_crashlytics",
                 "flutter_custom_tabs_ios",
                 "flutter_inappwebview_ios",
                 "flutter_js",
-                "flutter_local_notifications",
                 "flutter_native_contact_picker",
                 "flutter_web_auth_2",
-                "flutter_webrtc",
                 "FlutterPluginRegistrant",
                 "fluttertoast",
                 "image_cropper",
@@ -52,7 +48,6 @@ let package = Package(
                 "image_picker_ios",
                 "just_audio",
                 "libwebp",
-                "livekit_client",
                 "moengage_flutter_ios",
                 "MoEngagePluginBase",
                 "open_file_ios",
@@ -64,9 +59,7 @@ let package = Package(
                 "permission_handler_apple",
                 "pointer_interceptor_ios",
                 "printing",
-                "promises",
-                "record_darwin",
-                "SDWebImage",
+                "Promises",
                 "Sentry",
                 "sentry_flutter",
                 "share_plus",
@@ -76,10 +69,8 @@ let package = Package(
                 "sqlite3",
                 "sqlite3_flutter_libs",
                 "store_redirect",
-                "SwiftyGif",
                 "TOCropViewController",
                 "url_launcher_ios",
-                "v_video_compressor",
                 "video_player_avfoundation",
                 "video_thumbnail",
                 "wakelock_plus",
@@ -112,14 +103,8 @@ let package = Package(
             .binaryTarget(name: "device_info_plus",
                           path: "artifacts/device_info_plus.xcframework"),
 
-            .binaryTarget(name: "DKImagePickerController",
-                          path: "artifacts/DKImagePickerController.xcframework"),
-
-            .binaryTarget(name: "DKPhotoGallery",
-                          path: "artifacts/DKPhotoGallery.xcframework"),
-
-            .binaryTarget(name: "file_picker",
-                          path: "artifacts/file_picker.xcframework"),
+            .binaryTarget(name: "file_picker_darwin",
+                          path: "artifacts/file_picker_darwin.xcframework"),
 
             .binaryTarget(name: "firebase_core",
                           path: "artifacts/firebase_core.xcframework"),
@@ -136,17 +121,11 @@ let package = Package(
             .binaryTarget(name: "flutter_js",
                           path: "artifacts/flutter_js.xcframework"),
 
-            .binaryTarget(name: "flutter_local_notifications",
-                          path: "artifacts/flutter_local_notifications.xcframework"),
-
             .binaryTarget(name: "flutter_native_contact_picker",
                           path: "artifacts/flutter_native_contact_picker.xcframework"),
 
             .binaryTarget(name: "flutter_web_auth_2",
                           path: "artifacts/flutter_web_auth_2.xcframework"),
-
-            .binaryTarget(name: "flutter_webrtc",
-                          path: "artifacts/flutter_webrtc.xcframework"),
 
             .binaryTarget(name: "FlutterPluginRegistrant",
                           path: "artifacts/FlutterPluginRegistrant.xcframework"),
@@ -168,9 +147,6 @@ let package = Package(
 
             .binaryTarget(name: "libwebp",
                           path: "artifacts/libwebp.xcframework"),
-
-            .binaryTarget(name: "livekit_client",
-                          path: "artifacts/livekit_client.xcframework"),
 
             .binaryTarget(name: "moengage_flutter_ios",
                           path: "artifacts/moengage_flutter_ios.xcframework"),
@@ -205,14 +181,8 @@ let package = Package(
             .binaryTarget(name: "printing",
                           path: "artifacts/printing.xcframework"),
 
-            .binaryTarget(name: "promises",
+            .binaryTarget(name: "Promises",
                           path: "artifacts/Promises.xcframework"),
-
-            .binaryTarget(name: "record_darwin",
-                          path: "artifacts/record_darwin.xcframework"),
-
-            .binaryTarget(name: "SDWebImage",
-                          path: "artifacts/SDWebImage.xcframework"),
 
             .binaryTarget(name: "Sentry",
                           path: "artifacts/Sentry.xcframework"),
@@ -241,17 +211,11 @@ let package = Package(
             .binaryTarget(name: "store_redirect",
                           path: "artifacts/store_redirect.xcframework"),
 
-            .binaryTarget(name: "SwiftyGif",
-                          path: "artifacts/SwiftyGif.xcframework"),
-
             .binaryTarget(name: "TOCropViewController",
                           path: "artifacts/TOCropViewController.xcframework"),
 
             .binaryTarget(name: "url_launcher_ios",
                           path: "artifacts/url_launcher_ios.xcframework"),
-
-            .binaryTarget(name: "v_video_compressor",
-                          path: "artifacts/v_video_compressor.xcframework"),
 
             .binaryTarget(name: "video_player_avfoundation",
                           path: "artifacts/video_player_avfoundation.xcframework"),
