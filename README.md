@@ -108,174 +108,30 @@ Sample code on how to initialize the SDK is given below.
 
 ## Entry points in the SDK
 
-#### Home Screen
+`open` returns the **same** Flutter VC every time. Do not `push`/`present` it yourself — a second
+push crashes if SharpSell is already open (deeplink from background). Use `showFlutterViewController`.
 
 ```Swift
-       Sharpsell.services.open(arguments: [:]){ (flutterViewController) in
-            self.navigationController?.pushViewController(flutterViewController, animated: true)
-        } onFailure: { (errorMessage, smartSellError) in
-            switch smartSellError {
-            case .flutterError:
-                debugPrint("Error Message: \(errorMessage)")
-            case .flutterMethodNotImplemented:
-                debugPrint("")
-            default:
-                debugPrint("")
-            }
-        }
+let args = Sharpsell.services.convertJsonToString(dict: ["route": "potd"]) ?? ""
+Sharpsell.services.open(arguments: args) { flutterViewController in
+    Sharpsell.services.showFlutterViewController(flutterViewController)
+} onFailure: { errorMessage, _ in
+    debugPrint(errorMessage)
+}
 ```
 
-#### Presentation Screen
+Home: `arguments: ""`. Routes: `launchpad`, `mcDirectory`, `potd`, `dvc`, `tcHome`, `productBundle`,
+`quickLinks`, `productPresentationInput` (plus `presentation_name` / `input_one` / `input_two`).
+
+Deep link / notification: pass the **full** URL. Do not use `URLComponents.queryItems` (`#` drops
+`token`).
 
 ```Swift
-     let presentationArgs = ["route" : "productPresentationInput",
-                                "presentation_name" : presentationInputName,
-                                "input_one" : presentationInputOne,
-                                "input_two" : presentationInputTwo]
-                                
-       Sharpsell.services.open(arguments: presentationArgs){ (flutterViewController) in
-            self.navigationController?.pushViewController(flutterViewController, animated: true)
-        } onFailure: { (errorMessage, smartSellError) in
-            switch smartSellError {
-            case .flutterError:
-                debugPrint("Error Message: \(errorMessage)")
-            case .flutterMethodNotImplemented:
-                debugPrint("")
-            default:
-                debugPrint("")
-            }
-        }
+let args = Sharpsell.services.convertJsonToString(dict: ["route": url.absoluteString]) ?? ""
+Sharpsell.services.open(arguments: args) { vc in
+    Sharpsell.services.showFlutterViewController(vc)
+} onFailure: { _, _ in }
 ```
-
-#### Launchpad Screen
-
-```Swift
-     let launchpadArgs = ["route" : "launchpad"]
-                                
-       Sharpsell.services.open(arguments: launchpadArgs){ (flutterViewController) in
-            self.navigationController?.pushViewController(flutterViewController, animated: true)
-        } onFailure: { (errorMessage, smartSellError) in
-            switch smartSellError {
-            case .flutterError:
-                debugPrint("Error Message: \(errorMessage)")
-            case .flutterMethodNotImplemented:
-                debugPrint("")
-            default:
-                debugPrint("")
-            }
-        }
-```
-
-#### Marketing Collateral Screen
-
-```Swift
-     let mcDirArgs = ["route" : "mcDirectory"]
-                                
-       Sharpsell.services.open(arguments: mcDirArgs){ (flutterViewController) in
-            self.navigationController?.pushViewController(flutterViewController, animated: true)
-        } onFailure: { (errorMessage, smartSellError) in
-            switch smartSellError {
-            case .flutterError:
-                debugPrint("Error Message: \(errorMessage)")
-            case .flutterMethodNotImplemented:
-                debugPrint("")
-            default:
-                debugPrint("")
-            }
-        }
-```
-
-#### Poster of the day Screen
-
-```Swift
-     let potdArgs = ["route" : "potd"]
-                                
-       Sharpsell.services.open(arguments: potdArgs){ (flutterViewController) in
-            self.navigationController?.pushViewController(flutterViewController, animated: true)
-        } onFailure: { (errorMessage, smartSellError) in
-            switch smartSellError {
-            case .flutterError:
-                debugPrint("Error Message: \(errorMessage)")
-            case .flutterMethodNotImplemented:
-                debugPrint("")
-            default:
-                debugPrint("")
-            }
-       
-```
-
-#### Digital Visiting Card Screen
-
-```Swift
-     let dvcArgs = ["route" : "dvc"]
-                                
-       Sharpsell.services.open(arguments: dvcArgs){ (flutterViewController) in
-            self.navigationController?.pushViewController(flutterViewController, animated: true)
-        } onFailure: { (errorMessage, smartSellError) in
-            switch smartSellError {
-            case .flutterError:
-                debugPrint("Error Message: \(errorMessage)")
-            case .flutterMethodNotImplemented:
-                debugPrint("")
-            default:
-                debugPrint("")
-            }
-       
-```
-
-#### Timer Challenge Home Screen
-
-```Swift
-     let tcHomeArgs = ["route" : "tcHome"]
-                                
-       Sharpsell.services.open(arguments: tcHomeArgs){ (flutterViewController) in
-            self.navigationController?.pushViewController(flutterViewController, animated: true)
-        } onFailure: { (errorMessage, smartSellError) in
-            switch smartSellError {
-            case .flutterError:
-                debugPrint("Error Message: \(errorMessage)")
-            case .flutterMethodNotImplemented:
-                debugPrint("")
-            default:
-                debugPrint("")
-            }
- ```    
-
-#### Product Bundle Screen
-
-```Swift
-     let productBundleArgs = ["route" : "productBundle"]
-                                
-       Sharpsell.services.open(arguments: productBundleArgs){ (flutterViewController) in
-            self.navigationController?.pushViewController(flutterViewController, animated: true)
-        } onFailure: { (errorMessage, smartSellError) in
-            switch smartSellError {
-            case .flutterError:
-                debugPrint("Error Message: \(errorMessage)")
-            case .flutterMethodNotImplemented:
-                debugPrint("")
-            default:
-                debugPrint("")
-            }
- ```  
-
-#### Quick Links Screen
-
-```Swift
-     let quickLinksArgs = ["route" : "quickLinks"]
-                                
-       Sharpsell.services.open(arguments: quickLinksArgs){ (flutterViewController) in
-            self.navigationController?.pushViewController(flutterViewController, animated: true)
-        } onFailure: { (errorMessage, smartSellError) in
-            switch smartSellError {
-            case .flutterError:
-                debugPrint("Error Message: \(errorMessage)")
-            case .flutterMethodNotImplemented:
-                debugPrint("")
-            default:
-                debugPrint("")
-            }
- ```
 
 #### Logout and clear user data
 

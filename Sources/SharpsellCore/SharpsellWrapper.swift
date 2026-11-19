@@ -624,8 +624,6 @@ extension SharpSellWrapper{
     }
     
     /// Gets the top most view controller of the app which is available
-    /// - Parameters:
-    ///   - dict: Dictinory of [String:Any] which needs to be converted as string
     public func getTopMostViewController(onSucess: @escaping (_ topMostViewController: UIViewController) -> (),
                                          onFailure: @escaping () -> ()){
         let keyWindow = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
@@ -640,6 +638,20 @@ extension SharpSellWrapper{
             onFailure()
         }
         
+    }
+
+    /// `open` reuses one Flutter VC. Skip if it is already shown.
+    public func showFlutterViewController(_ vc: UIViewController) {
+        if vc.parent != nil || vc.presentingViewController != nil { return }
+        getTopMostViewController { top in
+            if let nav = (top as? UINavigationController) ?? top.navigationController {
+                if !nav.viewControllers.contains(vc) {
+                    nav.pushViewController(vc, animated: true)
+                }
+            } else if top !== vc {
+                top.present(vc, animated: true)
+            }
+        } onFailure: {}
     }
 }
 
